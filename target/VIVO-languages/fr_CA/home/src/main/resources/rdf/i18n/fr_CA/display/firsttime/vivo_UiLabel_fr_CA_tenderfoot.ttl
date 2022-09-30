@@ -13,7 +13,7 @@ prop-data:collapsed_menu_name.VIVO.tenderfoot
         prop:ftlUrl      "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/menu.ftl"^^xsd:anyURI ;
         prop:hasPackage  "VIVO" ;
         prop:hasTheme    "tenderfoot" ;
-        rdf:label        "Menu"@fr-CA .
+        rdfs:label        "Menu"@fr-CA .
 
 prop-data:create_capitalized.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
