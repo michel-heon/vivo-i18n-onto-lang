@@ -6,14 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:collapsed_menu_name.VIVO-languages.tenderfoot
+prop-data:collapsed_menu_name.VIVO.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "collapsed_menu_name.VIVO-languages.tenderfoot" ;
+        prop:key         "collapsed_menu_name" ;
         prop:ftlUrl      "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/menu.ftl"^^xsd:anyURI ;
-        prop:hasPackage  "VIVO-languages" ;
+        prop:hasPackage  "VIVO" ;
         prop:hasTheme    "tenderfoot" ;
-        skos:prefLabel   "Menu"@fr-CA .
+        rdf:label        "Menu"@fr-CA .
 
 prop-data:create_capitalized.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
