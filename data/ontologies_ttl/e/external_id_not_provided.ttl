@@ -1,0 +1,29 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:external_id_not_provided.Vitro-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "external_id_not_provided.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Login falhou - External ID não foi encontrado."@pt-BR ;
+        skos:prefLabel      "Prijava neuspešna - Eksterni ID nije pronađen"@sr-Latn-RS ;
+        skos:prefLabel      "Error de acceso - no se encuentra el ID externo."@es ;
+        skos:prefLabel      "Connexion impossible - Identifiant externe introuvable."@fr-CA ;
+        skos:prefLabel      "Login failed - External ID is not found."@en-US ;
+        skos:prefLabel      "Login failed - External ID is not found."@en-CA ;
+        skos:prefLabel      "Вход не удался — внешний идентификатор не найден."@ru-RU ;
+        skos:prefLabel      "Anmeldung fehlgeschlagen - Externe ID wurde nicht gefunden."@de-DE .

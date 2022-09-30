@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:add_property_group
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "add_property_group" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-objectPropHierarchy.ftl"^^xsd:anyURI .
+
+prop-data:add_property_group.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "add_property_group.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Add new property group"@en-US ;
+        skos:prefLabel      "Add new property group"@en-CA ;
+        skos:prefLabel      "Adicionar um novo grupo de propriedade"@pt-BR ;
+        skos:prefLabel      "Ajouter un nouveau groupe de propriétés"@fr-CA ;
+        skos:prefLabel      "Füge neue Gruppierung hinzu"@de-DE ;
+        skos:prefLabel      "Agregar nuevo grupo de propiedades"@es ;
+        skos:prefLabel      "Добавить новую группу свойств"@ru-RU ;
+        skos:prefLabel      "Dodajte novu grupu svojstava"@sr-Latn-RS .

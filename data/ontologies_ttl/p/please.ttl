@@ -1,0 +1,161 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_complete.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "harvest_complete.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Harvest complete. For another, please refresh the page."@en-CA ;
+        skos:prefLabel      "Harvest complete. For another, please refresh the page."@en-US .
+
+prop-data:harvest_complete.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "harvest_complete.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Harvest complete. For another, please refresh the page."@all .
+
+prop-data:create_and_link_authors_desc.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "create_and_link_authors_desc.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "If you are an author of a work, please select your name in the author list.<br />Retrieved metadata may be incomplete. If you can not see your name listed, select \"Unlisted Author\"."@en-CA ;
+        skos:prefLabel      "If you are an author of a work, please select your name in the author list.<br />Retrieved metadata may be incomplete. If you can not see your name listed, select \"Unlisted Author\"."@en-US .
+
+prop-data:manage_labels_intro.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "manage_labels_intro.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
+        skos:prefLabel      "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US .
+
+prop-data:define_value_for_property.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "define_value_for_property.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@all .
+
+prop-data:page_not_created_msg.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "page_not_created_msg.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "There was an error while creating the page, please check the logs."@en-CA ;
+        skos:prefLabel      "There was an error while creating the page, please check the logs."@en-US .
+
+prop-data:please.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "please.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Por favor"@es ;
+        skos:prefLabel      "Por favor"@pt-BR ;
+        skos:prefLabel      "Molimo Vas"@sr-Latn-RS ;
+        skos:prefLabel      "Пожалуйста"@ru-RU ;
+        skos:prefLabel      "Bitte"@de-DE ;
+        skos:prefLabel      "S'il-vous-plaît"@fr-CA ;
+        skos:prefLabel      "Please"@en-CA ;
+        skos:prefLabel      "Please"@en-US .
+
+prop-data:define_value_for_property.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "define_value_for_property.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@en-CA ;
+        skos:prefLabel      "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@en-US .
+
+prop-data:create_and_link_editors_desc.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "create_and_link_editors_desc.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "If you edited the work, please select \"Editor\"."@en-CA ;
+        skos:prefLabel      "If you edited the work, please select \"Editor\"."@en-US .
+
+prop-data:insufficient_authorization.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "insufficient_authorization.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-CA ;
+        skos:prefLabel      "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-US .
+
+prop-data:please  rdf:type  owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "please" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-firstTimeExternal.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/pageSetup.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/wilma/templates/menu.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-dataInput.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/browse-classgroups.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/individualList-checkForData.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-checkForData.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-home-page.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/classgroups-checkForData.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/menu.ftl"^^xsd:anyURI .
+
+prop-data:javascript_ie_alert_text.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "javascript_ie_alert_text.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-CA ;
+        skos:prefLabel      "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-US .
+
+prop-data:undefined_runtime_property.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "undefined_runtime_property.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/i18n/vivo_all_de_DE.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Eigenschaft aus Laufzeit.Eigenschaften ist nicht definiert.In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@de-DE .

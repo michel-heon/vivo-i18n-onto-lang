@@ -1,0 +1,197 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:confirm_delete_account_plural.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "confirm_delete_account_plural.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Are you sure you want to delete these accounts?"@en-CA ;
+        skos:prefLabel      "Are you sure you want to delete these accounts?"@en-US .
+
+prop-data:confirm_delete.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "confirm_delete.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Are you sure you want to delete this photo?"@en-CA ;
+        skos:prefLabel      "Are you sure you want to delete this photo?"@en-US .
+
+prop-data:manage_labels_intro.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "manage_labels_intro.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
+        skos:prefLabel      "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US .
+
+prop-data:delete_webpage_link.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "delete_webpage_link.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "delete web page link"@all .
+
+prop-data:delete_entry.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "delete_entry.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "delete this entry"@en-CA ;
+        skos:prefLabel      "delete this entry"@en-US .
+
+prop-data:delete  rdf:type  owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "delete" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/account/userAccounts-accountsNav.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/searchIndexStatus.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/rdfsLabelForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/confirmDeletePropertyForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/wilma/templates/individual--foaf-person.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/menuManagement-remove.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-newImage.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-vitro.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/pagemanagement/pageList.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/datatools/datatools-dumpRestore.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDeletePropertyForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/individual--foaf-person_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-replaceImage.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-2column.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual--foaf-academic-article.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/confirmDeleteIndividualForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-vitro.ftl"^^xsd:anyURI .
+
+prop-data:delete_webpage_link.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "delete_webpage_link.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "delete web page link"@en-CA ;
+        skos:prefLabel      "delete web page link"@en-US .
+
+prop-data:confirm_delete_account_singular.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "confirm_delete_account_singular.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Are you sure you want to delete this account?"@en-CA ;
+        skos:prefLabel      "Are you sure you want to delete this account?"@en-US .
+
+prop-data:file_upload_confirm_delete.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "file_upload_confirm_delete.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Are you sure you want to delete this file?"@en-US .
+
+prop-data:select_account_to_delete.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "select_account_to_delete.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "select this account to delete it"@en-CA ;
+        skos:prefLabel      "select this account to delete it"@en-US .
+
+prop-data:file_upload_error_supported_actions.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "file_upload_error_supported_actions.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Only delete and upload actions supported"@en-US .
+
+prop-data:delete_page.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "delete_page.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "delete this page"@en-CA ;
+        skos:prefLabel      "delete this page"@en-US .
+
+prop-data:delete.Vitro-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "delete.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        skos:prefLabel      "удалить"@ru-RU ;
+        skos:prefLabel      "excluir"@pt-BR ;
+        skos:prefLabel      "delete"@en-CA ;
+        skos:prefLabel      "delete"@en-US ;
+        skos:prefLabel      "supprimer"@fr-CA ;
+        skos:prefLabel      "obrišite"@sr-Latn-RS ;
+        skos:prefLabel      "borrar"@es ;
+        skos:prefLabel      "Löschen"@de-DE .
+
+prop-data:confirm_entry_deletion_from.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "confirm_entry_deletion_from.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Are you sure you want to delete the following entry from"@en-CA ;
+        skos:prefLabel      "Are you sure you want to delete the following entry from"@en-US .
+
+prop-data:confirm_page_deletion.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "confirm_page_deletion.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Are you sure you wish to delete this page:"@en-CA ;
+        skos:prefLabel      "Are you sure you wish to delete this page:"@en-US .
+
+prop-data:confirm_individual_deletion.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "confirm_individual_deletion.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Are you sure you want to delete the following individual?"@en-CA ;
+        skos:prefLabel      "Are you sure you want to delete the following individual?"@en-US .

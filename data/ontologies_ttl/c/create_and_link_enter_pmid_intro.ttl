@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_enter_pmid_intro.VIVO-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "create_and_link_enter_pmid_intro.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/vivo_all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/i18n/vivo_all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/i18n/vivo_all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/i18n/vivo_all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/i18n/vivo_all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/i18n/vivo_all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Možete uneti jedan ili više \"PubMed\" ID-eva za pretragu. Svaki ID treba da bude razdvojen zarezom ili novim redom."@sr-Latn-RS ;
+        skos:prefLabel      "Sie können eine oder mehrere PubMed IDs eingeben. Jede PubMed ID sollte durch Komma oder Zeilenumbruch getrennt werden."@de-DE ;
+        skos:prefLabel      "Вы можете ввести один или несколько идентификаторов PubMed ID для сопоставления. Идентификаторы должны разделяться запятой или символом перевода строки."@ru-RU ;
+        skos:prefLabel      "Puede agregar uno o varios IDs de PubMed para que coincidan. Cada ID debe separarse mediante coma o linea nueva."@es ;
+        skos:prefLabel      "Vous pouvez inscrire un ou plusieurs identifiant(s) PubMed à lier. Les identifiants doivent être séparés par des virgules ou des sauts de ligne."@fr-CA ;
+        skos:prefLabel      "Você pode inserir um ou mais IDs PubMed para corresponder. Cada ID deve ser separado por uma vírgula ou nova linha."@pt-BR ;
+        skos:prefLabel      "You may enter one or more PubMed IDs to match. Each ID should be separated by a comma or new line."@en-CA ;
+        skos:prefLabel      "You may enter one or more PubMed IDs to match. Each ID should be separated by a comma or new line."@en-US .
+
+prop-data:create_and_link_enter_pmid_intro
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "create_and_link_enter_pmid_intro" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^xsd:anyURI .

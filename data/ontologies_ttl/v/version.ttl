@@ -1,0 +1,85 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:version  rdf:type  prop:PropertyKey ;
+        rdf:type     owl:NamedIndividual ;
+        rdfs:label   "version" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/page/partials/geoFocusMapScripts.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-datetime.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/search/search-xmlResults.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/search-help_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/copyright.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-vivo-form.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/custom-geoFocusMapScripts.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/newIndividualForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/search/search-xmlResults.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/search/search-fsresult.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/search/search-fs.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/templates/freemarker/search-help_es.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/wilma/templates/footer.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/dummyVisClient.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/footer.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/version.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/wilma/templates/head.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-custom-visualizationFoafPerson.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/footer.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/newIndividualForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-vitro-form.ftl"^^xsd:anyURI .
+
+prop-data:release.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "release.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "version"@fr-CA .
+
+prop-data:version.Vitro-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "version.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Verzija"@sr-Latn-RS ;
+        skos:prefLabel      "Версия"@ru-RU ;
+        skos:prefLabel      "Version"@de-DE ;
+        skos:prefLabel      "Version"@en-CA ;
+        skos:prefLabel      "Version"@en-US ;
+        skos:prefLabel      "Versión"@es ;
+        skos:prefLabel      "Version"@fr-CA ;
+        skos:prefLabel      "Versão"@pt-BR .
+
+prop-data:unsupported_ie_version.Vitro-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "unsupported_ie_version.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-US ;
+        skos:prefLabel      "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-CA ;
+        skos:prefLabel      "Ce formulaire n'est pas pris en charge dans les versions d'Internet Explorer inférieures à la version 8. Veuillez mettre à jour votre navigateur ou passer à un autre navigateur, tel que FireFox."@fr-CA .

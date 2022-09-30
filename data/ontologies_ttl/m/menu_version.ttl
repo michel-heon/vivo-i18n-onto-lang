@@ -1,0 +1,70 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_version.VIVO-languages.tenderfoot
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "menu_version.VIVO-languages.tenderfoot" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "tenderfoot" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/themes/tenderfoot/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/themes/tenderfoot/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/themes/tenderfoot/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/themes/tenderfoot/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/themes/tenderfoot/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_US.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Verzija"@sr-Latn-RS ;
+        skos:prefLabel      "Versão"@pt-BR ;
+        skos:prefLabel      "Version"@de-DE ;
+        skos:prefLabel      "Version"@en-CA ;
+        skos:prefLabel      "Version"@en-US ;
+        skos:prefLabel      "Version"@fr-CA ;
+        skos:prefLabel      "Versión"@es ;
+        skos:prefLabel      "Версия"@ru-RU .
+
+prop-data:menu_version.VIVO-languages.wilma
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "menu_version.VIVO-languages.wilma" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "wilma" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/wilma/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/themes/wilma/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/wilma/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/themes/wilma/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/themes/wilma/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/themes/wilma/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/themes/wilma/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Версия"@ru-RU ;
+        skos:prefLabel      "Versión"@es ;
+        skos:prefLabel      "Verzija"@sr-Latn-RS ;
+        skos:prefLabel      "Version"@de-DE ;
+        skos:prefLabel      "Version"@en-CA ;
+        skos:prefLabel      "Version"@en-US ;
+        skos:prefLabel      "Version"@fr-CA ;
+        skos:prefLabel      "Versão"@pt-BR .
+
+prop-data:menu_version.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "menu_version.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Version"@all .
+
+prop-data:menu_version
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "menu_version" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/wilma/templates/footer.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/footer.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/footer.ftl"^^xsd:anyURI .

@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_already_claimed
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "create_and_link_already_claimed" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^xsd:anyURI .
+
+prop-data:create_and_link_already_claimed.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "create_and_link_already_claimed.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/i18n/vivo_all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/vivo_all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/i18n/vivo_all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/i18n/vivo_all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/i18n/vivo_all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/i18n/vivo_all_de_DE.properties"^^xsd:anyURI ;
+        skos:prefLabel      "You have already claimed this work."@en-CA ;
+        skos:prefLabel      "You have already claimed this work."@en-US ;
+        skos:prefLabel      "Več ste položili autorska prava na ovaj rad."@sr-Latn-RS ;
+        skos:prefLabel      "Sie haben diese Veröffentlichung bereits für sich beansprucht."@de-DE ;
+        skos:prefLabel      "Você já reivindicou esta obra."@pt-BR ;
+        skos:prefLabel      "Vous avez déjà revendiqué cette publication."@fr-CA ;
+        skos:prefLabel      "Ya ha reclamado esta obra."@es ;
+        skos:prefLabel      "Вы уже заявили о своей претензии на эту работу."@ru-RU .

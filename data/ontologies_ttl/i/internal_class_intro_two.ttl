@@ -1,0 +1,44 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:internal_class_intro_two.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "internal_class_intro_two.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@all .
+
+prop-data:internal_class_intro_two.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "internal_class_intro_two.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/vivo_all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/i18n/vivo_all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/i18n/vivo_all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/i18n/vivo_all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/i18n/vivo_all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/i18n/vivo_all_fr_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Esto le permitirá limitar las personas que aparecen en las páginas del menú principal (Personas, Investigación, etc.) a sólo aquellos dentro de su institución."@es ;
+        skos:prefLabel      "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@en-CA ;
+        skos:prefLabel      "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@en-US ;
+        skos:prefLabel      "Isso permitirá que você para limitar os indivíduos indicados em suas páginas do menu (pessoas, investigação, etc.) para apenas aqueles dentro de sua instituição."@pt-BR ;
+        skos:prefLabel      "Ovo će Vam omogućiti da ograničite (filtrirate) pojedince koji se prikazuju na Vašim meni-stranicama (Ljudi, Istraživanja, itd.) na samo one koji su deo vaše institucije."@sr-Latn-RS ;
+        skos:prefLabel      "Dies ermöglicht die Begrenzung der im Menü angezeigten einzelnen Kategorien (Personen, Forschung etc. auf diejenigen, die sich auf die Institution beziehen."@de-DE ;
+        skos:prefLabel      "Это позволит ограничить круг лиц, отображаемых на страницах меню (Люди, Исследования и т.д.), только сотрудниками вашего учреждения."@ru-RU ;
+        skos:prefLabel      "Ceci vous permettra de limiter les personnes présentées sur vos pages d'accueil (Personnes, Recherche, etc.) à celles de votre institution."@fr-CA .
+
+prop-data:internal_class_intro_two
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "internal_class_intro_two" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI .

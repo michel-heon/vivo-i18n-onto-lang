@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:interest_thanks.Vitro-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "interest_thanks.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Vielen Dank für Ihr Interesse an {0}. Bitte senden Sie das Formular mit Fragen, Kommentaren oder Feedback über den Inhalt dieser Seite."@de-DE ;
+        skos:prefLabel      "Obrigado pelo seu interesse em {0}. Envie este formulário com perguntas, comentários ou feedback sobre o conteúdo deste site."@pt-BR ;
+        skos:prefLabel      "Gracias por su interés en {0}. Por favor, envíe este formulario con preguntas, comentarios o sugerencias sobre el contenido de este sitio."@es ;
+        skos:prefLabel      "Hvala Vam na interesovanju za {0}. Molimo Vas popunite ovu formu sa pitanjima, komentarima, i povratnim informacijama o sadržaju sajta."@sr-Latn-RS ;
+        skos:prefLabel      "Thank you for your interest in {0}. Please submit this form with questions, comments, or feedback about the content of this site."@en-US ;
+        skos:prefLabel      "Thank you for your interest in {0}. Please submit this form with questions, comments, or feedback about the content of this site."@en-CA ;
+        skos:prefLabel      "Merci pour votre intérêt concernant {0}. Veuillez soumettre vos questions, commentaires et suggestions concernant ce site via ce formulaire."@fr-CA ;
+        skos:prefLabel      "Благодарим вас за интерес к {0}. Пожалуйста, отправьте эту форму с вопросами, комментариями или отзывами о содержании этого сайта."@ru-RU .
+
+prop-data:interest_thanks
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "interest_thanks" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^xsd:anyURI .

@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cap_map_text2.VIVO-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "cap_map_text2.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/vivo_all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/i18n/vivo_all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/i18n/vivo_all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/i18n/vivo_all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/i18n/vivo_all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/i18n/vivo_all_ru_RU.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Tip: you can expand a broad search term into smaller concepts by clicking &lsquo;search and expand&rsquo;."@en-US ;
+        skos:prefLabel      "Sugerencia: puede expandir un término de búsqueda amplio en conceptos más pequeños haciendo clic en & lsquo; buscar y expandir & rsquo ;."@es ;
+        skos:prefLabel      "Dica: você pode expandir um longo termo de pesquisa em conceitos menores clicando em & lsquo; procure e expanda & rsquo ;."@pt-BR ;
+        skos:prefLabel      "Tipp: Sie können einen groben Suchbegriff durch Klicken auf &lsquo;suchen und erweitern&rsquo; in speziellere Begriffe erweitern."@de-DE ;
+        skos:prefLabel      "Совет: вы можете конкретизировать широкий поисковый термин через более узкие понятия, нажав ‘найти и раскрыть’."@ru-RU ;
+        skos:prefLabel      "Savet: možete proširiti široku pretragu po nekom opštem izrazu na više preciznijih i bolje definisanih koncepta klikom na dugme &lsquo;Pretražite i proširite&rsquo;."@sr-Latn-RS ;
+        skos:prefLabel      "Conseil: pour étendre la recherche à d'autres concepts reliés cliquewr sur &lsquo;Étendre&rsquo;."@fr-CA ;
+        skos:prefLabel      "Tip: you can expand a broad search term into smaller concepts by clicking &lsquo;search and expand&rsquo;."@en-CA .
+
+prop-data:cap_map_text2
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "cap_map_text2" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI .

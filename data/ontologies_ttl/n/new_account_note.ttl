@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:new_account_note.Vitro-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "new_account_note.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Nota: Un correo electrónico será enviado a la dirección indicada anteriormente notificando que una cuenta ha sido creada. Se incluyen instrucciones para la activación de la cuenta y la creación de una contraseña."@es ;
+        skos:prefLabel      "Nota: Um e-mail será enviado para o endereço digitado acima notificando que uma conta foi criada. Ele irá incluir instruções para ativar a conta e criar uma senha."@pt-BR ;
+        skos:prefLabel      "Note: An email will be sent to the address entered above notifying that an account has been created. It will include instructions for activating the account and creating a password."@en-US ;
+        skos:prefLabel      "Napomena: Email sa obaveštenjem o kreiranju novog naloga će biti poslat na adresu koju ste uneli. Sadržaće uputstva za aktiviranje naloga i kreiranje lozinke."@sr-Latn-RS ;
+        skos:prefLabel      "Note: An email will be sent to the address entered above notifying that an account has been created. It will include instructions for activating the account and creating a password."@en-CA ;
+        skos:prefLabel      "Note: Un courriel de confirmation a été envoyé à {0} .Il comporte des instructions pour réinitialiser le mot de passe. Le mot de passe ne sera pas réinitialisé tant que l'usager n'aura pas cliqué sur le lien inclus dans ce courriel."@fr-CA ;
+        skos:prefLabel      "Hinweis: An die oben angegebene Adresse wird eine E-Mail gesendet, um darüber zu informieren, dass ein Konto erstellt wurde. Es enthält Anweisungen für die Aktivierung des Kontos und Erstellung eines Passwortes."@de-DE ;
+        skos:prefLabel      "Примечание: На указанный выше адрес будет отправлено электронное письмо с уведомлением о создании учетной записи. В нем будут содержаться инструкции по активации учетной записи и созданию пароля."@ru-RU .
+
+prop-data:new_account_note
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "new_account_note" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^xsd:anyURI .

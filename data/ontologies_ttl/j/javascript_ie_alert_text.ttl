@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:javascript_ie_alert_text.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "javascript_ie_alert_text.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-US ;
+        skos:prefLabel      "На этом сайте используются элементы HTML, которые не распознаются Internet Explorer 8 и ниже в отсутствие JavaScript. В результате сайт не будет отображаться должным образом. Чтобы исправить ситуацию, пожалуйста, включите JavaScript, перейдите на Internet Explorer 9 или используйте другой браузер."@ru-RU ;
+        skos:prefLabel      "Ce site utilise des éléments HTML qui ne sont pas reconnus par les versions d'Internet Explorer 8 et antérieures en l'absence de JavaScript. Par conséquent, le site ne sera pas rendu de façon appropriée. Pour y remédier, veuillez activer JavaScript, passer à Internet Explorer 9 ou utiliser un autre navigateur."@fr-CA ;
+        skos:prefLabel      "Este site usa elementos HTML que não são reconhecidos pelo Internet Explorer 8 e abaixo, na ausência de JavaScript. Como resultado, o local não será processado apropriadamente. Para corrigir isso, por favor, habilite o JavaScript, atualize para o Internet Explorer 9, ou use outro navegador."@pt-BR ;
+        skos:prefLabel      "Este sitio utiliza elementos HTML que no son reconocidos por Internet Explorer 8 y menores, debido a que no cuentan con JavaScript. Como resultado, el sitio no se presentará apropiadamente. Para corregir esto, por favor habilite JavaScript, actualice a Internet Explorer 9, o utilizar otro navegador."@es ;
+        skos:prefLabel      "Ovaj sajt koristi HTML elemente koje Internet Explorer 8 i starije verzije ne prepoznaju ako JavaScript nije omogućen. Kao posledica, sajt neće biti prikazan ispravno. Da bi ste ovo ispravili, molimo Vas omogućite JavaScript, skinite noviju verziju Internet Explorer-a, ili promenite pretraživač."@sr-Latn-RS ;
+        skos:prefLabel      "Diese Seite nutzt HTML-Elemente, die von Internet Explorer 8 und darunter sowie ohne Javascript nicht unterstützt werden. Im Ergebnis wird die Seite nicht richtig wiedergegeben werden. Um dies zu korrigieren, aktivieren Sie bitte entweder JavaScript, aktualisieren Sie auf Internet Explorer 9 oder verwenden Sie einen anderen Browser."@de-DE ;
+        skos:prefLabel      "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-CA .
+
+prop-data:javascript_ie_alert_text
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "javascript_ie_alert_text" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/themes/vitro/templates/flash.ftl"^^xsd:anyURI .

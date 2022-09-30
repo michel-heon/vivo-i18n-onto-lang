@@ -1,0 +1,438 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vis_tools_note_one.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "vis_tools_note_one.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@en-CA ;
+        skos:prefLabel      "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@en-US .
+
+prop-data:no_grants_for.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "no_grants_for.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Currently there are no grants for"@all .
+
+prop-data:grants_text_one.VIVO-languages.tenderfoot
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grants_text_one.VIVO-languages.tenderfoot" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "tenderfoot" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/themes/tenderfoot/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/themes/tenderfoot/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/themes/tenderfoot/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/themes/tenderfoot/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/themes/tenderfoot/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Dieser Teil stammt aus der Template-Datei vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In der Bildschirmanzeige hat die Seite Forschungsprojekte eine display:requiresBodyTemplate Eigenschaft, die definiert, dass die Seite Forschungsprojekte das Standard-Template aufhebt. Das Standard-Template für diese Seiten findet sich auf /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@de-DE ;
+        skos:prefLabel      "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        skos:prefLabel      "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA ;
+        skos:prefLabel      "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
+        skos:prefLabel      "Este cuerpo es de la plantilla en el archivo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. En el modelo de presentación, la página de becas muestra: la propiedad requiresBodyTemplate que define que la página de becas anula la plantilla predeterminada. La plantilla predeterminada de estas páginas está en /vitro/webapp/web/templates/freemarker/cuerpo/menupage/menupage.ftl"@es ;
+        skos:prefLabel      "Este corpo é do arquivo do modelo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. No modelo de exibição, a página de doações tem um display: requiresBodyTemplate propriedade que define que a página de doações substitui o modelo padrão. O modelo padrão para estas páginas é a /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@pt-BR ;
+        skos:prefLabel      "Это содержимое берется из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl. В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
+        skos:prefLabel      "Ovo telo je iz template fajla vivo/productMods/templates/freemarker/body/menupage/grants.ftl. Unutar modela za prikaz, stranica sa grant-ovima ima display:requiresBodyTemplate svojstvo koje definiše da stranica sa grantovima override-uje pretpostavljen template. Pretpostavljen template za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS .
+
+prop-data:view_all_active_grants.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "view_all_active_grants.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "View all active grants"@en-CA ;
+        skos:prefLabel      "View all active grants"@en-US .
+
+prop-data:vis_tools_note_one.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "vis_tools_note_one.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@all .
+
+prop-data:grants.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grants.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/i18n/vivo_all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/i18n/vivo_all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/i18n/vivo_all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/i18n/vivo_all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/vivo_all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/i18n/vivo_all_fr_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "concessões"@pt-BR ;
+        skos:prefLabel      "grantovi"@sr-Latn-RS ;
+        skos:prefLabel      "subvenciones"@es ;
+        skos:prefLabel      "grants"@en-CA ;
+        skos:prefLabel      "grants"@en-US ;
+        skos:prefLabel      "Forschungsprojekte"@de-DE ;
+        skos:prefLabel      "гранты"@ru-RU ;
+        skos:prefLabel      "subventions"@fr-CA .
+
+prop-data:grants.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grants.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "grants"@all .
+
+prop-data:no_active_grants.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "no_active_grants.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "There are currently no active grants for this department."@all .
+
+prop-data:cap_map_text3.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "cap_map_text3.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-CA ;
+        skos:prefLabel      "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-US .
+
+prop-data:intro_para2.VIVO-languages.wilma
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "intro_para2.VIVO-languages.wilma" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "wilma" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/wilma/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/wilma/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Browse or search information on people, departments, courses, grants, and publications."@en-CA ;
+        skos:prefLabel      "Browse or search information on people, departments, courses, grants, and publications."@en-US .
+
+prop-data:view_all_grants_text.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "view_all_grants_text.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "View all VIVO grants and corresponding co-investigator network."@en-CA ;
+        skos:prefLabel      "View all VIVO grants and corresponding co-investigator network."@en-US .
+
+prop-data:currently_no_grants_for.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "currently_no_grants_for.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Currently there are no {0} grants for"@en-CA ;
+        skos:prefLabel      "Currently there are no {0} grants for"@en-US .
+
+prop-data:grants_in_vivo.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grants_in_vivo.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "grants in VIVO"@all .
+
+prop-data:view_all_grants_text.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "view_all_grants_text.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "View all VIVO grants and corresponding co-investigator network."@all .
+
+prop-data:grants_text_one.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grants_text_one.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@all .
+
+prop-data:check_grants_to_exclude.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "check_grants_to_exclude.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Check those grants and projects you want to <em>exclude</em> from the profile page."@all .
+
+prop-data:view_all_active_grants.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "view_all_active_grants.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "View all active grants"@all .
+
+prop-data:grant_sparkline_note.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grant_sparkline_note.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-CA ;
+        skos:prefLabel      "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-US .
+
+prop-data:intro_para2.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "intro_para2.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "It is a tool that highlights the accomplishments of the faculty including, grants, teaching, research, scholarship and creative activity."@all .
+
+prop-data:no_grants_for.VIVO-languages.tenderfoot
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "no_grants_for.VIVO-languages.tenderfoot" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "tenderfoot" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Currently there are no grants for"@en-CA ;
+        skos:prefLabel      "Currently there are no grants for"@en-US .
+
+prop-data:view_all_grants.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "view_all_grants.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "view all grants"@en-CA ;
+        skos:prefLabel      "view all grants"@en-US .
+
+prop-data:check_grants_to_exclude.VIVO-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "check_grants_to_exclude.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/i18n/vivo_all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Confira esses grants e projetos que você deseja excluir da página do perfil."@pt-BR ;
+        skos:prefLabel      "Check those grants and projects you want to <em>exclude</em> from the profile page."@en-CA ;
+        skos:prefLabel      "Check those grants and projects you want to <em>exclude</em> from the profile page."@en-US .
+
+prop-data:grants  rdf:type  prop:PropertyKey ;
+        rdf:type     owl:NamedIndividual ;
+        rdfs:label   "grants" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/copi/coInvestigationSparklineContent.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-custom-visualizationFoafPerson.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-organization.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-dept-active-grants.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityGrantComparisonError.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-properties.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/grant/personGrantSparklineContent.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual--foaf-organization.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationQuickView.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageGrantsForIndividual.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityPublicationComparisonError.ftl"^^xsd:anyURI ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-properties.ftl"^^xsd:anyURI .
+
+prop-data:incomplete_grant_data_note2.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "incomplete_grant_data_note2.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Go to your profile page to enter additional details about your grants."@all .
+
+prop-data:grants_text_one.VIVO-languages.wilma
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "grants_text_one.VIVO-languages.wilma" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "wilma" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/themes/wilma/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/wilma/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/wilma/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/themes/wilma/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/themes/wilma/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/themes/wilma/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/themes/wilma/i18n/all_es.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Este corpo é do arquivo do modelo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. No modelo de exibição, a página de doações tem um display: requiresBodyTemplate propriedade que define que a página de doações substitui o modelo padrão. O modelo padrão para estas páginas é a /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@pt-BR ;
+        skos:prefLabel      "Это содержимое взято из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl. В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
+        skos:prefLabel      "Este cuerpo es de la plantilla en el archivo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. En el modelo de presentación, la página de becas muestra: la propiedad requiresBodyTemplate que define que la página de becas anula la plantilla predeterminada. La plantilla predeterminada de estas páginas está en /vitro/webapp/web/templates/freemarker/cuerpo/menupage/menupage.ftl"@es ;
+        skos:prefLabel      "Dieser Teil stammt aus der Template-Datei vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In der Bildschirmanzeige hat die Seite Forschungsprojekte eine display:requiresBodyTemplate Eigenschaft, die definiert, dass die Seite Forschungsprojekte das Standard-Template aufhebt. Das Standard-Template für diese Seiten findet sich auf /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@de-DE ;
+        skos:prefLabel      "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA ;
+        skos:prefLabel      "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
+        skos:prefLabel      "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        skos:prefLabel      "Ovaj deo stranice je iz fajla sa šablonom (freemarker template) vivo/productMods/templates/freemarker/body/menupage/grants.ftl. U modelu prikazivanja, stranica za stipendije ima display:requiresBodyTemplate svojstvo koje definiše da strancie za stipendije treba da \"pregazi\" podrazumevani šablon. Podrazumevani šablon za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS .
+
+prop-data:no_grants_for.VIVO-languages.wilma
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "no_grants_for.VIVO-languages.wilma" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "wilma" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/wilma/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/wilma/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Currently there are no grants for"@en-CA ;
+        skos:prefLabel      "Currently there are no grants for"@en-US .
+
+prop-data:no_active_grants.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "no_active_grants.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "There are currently no active grants for this department."@en-CA ;
+        skos:prefLabel      "There are currently no active grants for this department."@en-US .
+
+prop-data:currently_no_grants_for.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "currently_no_grants_for.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Currently there are no {0} grants for"@all .
+
+prop-data:grants_in_vivo.VIVO-languages.tenderfoot
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grants_in_vivo.VIVO-languages.tenderfoot" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "tenderfoot" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "grants in VIVO"@en-CA ;
+        skos:prefLabel      "grants in VIVO"@en-US .
+
+prop-data:grants_in_vivo.VIVO-languages.wilma
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grants_in_vivo.VIVO-languages.wilma" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "wilma" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/wilma/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/wilma/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "grants in VIVO"@en-CA ;
+        skos:prefLabel      "grants in VIVO"@en-US .
+
+prop-data:incomplete_grant_data_note1.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "incomplete_grant_data_note1.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Note: This information is based solely on grants that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@all .
+
+prop-data:incomplete_grant_data_note3.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "incomplete_grant_data_note3.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Log in to enter additional details about your grants on your profile page."@all .
+
+prop-data:view_all_grants.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "view_all_grants.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "view all grants"@all .
+
+prop-data:manage_grants_and_projects_link.Vitro-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "manage_grants_and_projects_link.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "manage grants & projects"@en-CA ;
+        skos:prefLabel      "manage grants & projects"@en-US .
+
+prop-data:intro_para2.VIVO-languages.tenderfoot
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "intro_para2.VIVO-languages.tenderfoot" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:hasTheme       "tenderfoot" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Browse or search information on people, departments, courses, grants, and publications."@en-CA ;
+        skos:prefLabel      "Browse or search information on people, departments, courses, grants, and publications."@en-US .
+
+prop-data:grant_sparkline_note.VIVO.nemo
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "grant_sparkline_note.VIVO.nemo" ;
+        prop:hasPackage     "VIVO" ;
+        prop:hasTheme       "nemo" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/themes/nemo/i18n/all.properties"^^xsd:anyURI ;
+        skos:prefLabel      "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@all .
+
+prop-data:incomplete_grant_data_note1.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "incomplete_grant_data_note1.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Note: This information is based solely on grants that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-CA ;
+        skos:prefLabel      "Note: This information is based solely on grants that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-US .
+
+prop-data:incomplete_grant_data_note2.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "incomplete_grant_data_note2.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Go to your profile page to enter additional details about your grants."@en-CA ;
+        skos:prefLabel      "Go to your profile page to enter additional details about your grants."@en-US .
+
+prop-data:incomplete_grant_data_note3.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "incomplete_grant_data_note3.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Log in to enter additional details about your grants on your profile page."@en-CA ;
+        skos:prefLabel      "Log in to enter additional details about your grants on your profile page."@en-US .

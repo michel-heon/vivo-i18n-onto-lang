@@ -1,0 +1,29 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:page_uri_missing_msg.Vitro-languages
+        rdf:type            prop:PropertyKey ;
+        rdf:type            owl:NamedIndividual ;
+        rdfs:label          "page_uri_missing_msg.Vitro-languages" ;
+        prop:hasPackage     "Vitro-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/fr_CA/webapp/src/main/webapp/i18n/all_fr_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/es/webapp/src/main/webapp/i18n/all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/pt_BR/webapp/src/main/webapp/i18n/all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_CA/webapp/src/main/webapp/i18n/all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/de_DE/webapp/src/main/webapp/i18n/all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/Vitro-languages/ru_RU/webapp/src/main/webapp/i18n/all_ru_RU.properties"^^xsd:anyURI ;
+        skos:prefLabel      "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-US ;
+        skos:prefLabel      "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-CA ;
+        skos:prefLabel      "Não foi possível gerar página porque não estava claro qual a página que estava sendo solicitada. Um mapeamento de URL pode estar faltando."@pt-BR ;
+        skos:prefLabel      "No se pudo generar la página porque no estaba claro qué página se estaba solicitando. Es posible que falte una asignación de URL."@es ;
+        skos:prefLabel      "Generisanje stranice nije uspelo jer nije jasno koju stranicu tražite. Možda nedostaje URL mapiranje."@sr-Latn-RS ;
+        skos:prefLabel      "Не удалось сгенерировать страницу, потому что неясно, какая страница запрашивается. Возможно, отсутствует сопоставление URL."@ru-RU ;
+        skos:prefLabel      "Konnte Seite nicht generieren, weil unklar war, welche Seite angefragt wurde. Es fehlt eventuell ein URL-Mapping."@de-DE ;
+        skos:prefLabel      "Il n'a pas été possible de générer une page parce qu'il n'était pas clair quelle page était demandée. Il se peut qu'il manque un mappage d'URL."@fr-CA .

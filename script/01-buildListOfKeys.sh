@@ -12,6 +12,7 @@
 ###################################################################
 export LOC_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $LOC_SCRIPT_DIR/../00-env.sh
+source $LOC_SCRIPT_DIR/func_cleanup.sh
 export TMP_LIST_OF_KEYS_FN=$TMPDIR/tmp_ListOfKeys.txt
 export TMP_LIST_OF_PROPERTIES_FN=$TMPDIR/tmp_ListOfPropFn.txt
 function list_properties_fn () {
@@ -33,8 +34,7 @@ function extract_prop_keys () {
 
 
 ###################################################################
-# Rapatrier l'ensemble des fichiers de propriétés et extraire la
-# liste des clés
+# Retrieve all property files and extract the key list
 for PRODUCTS in "${PRODUCTS_LIST[@]}"
 do
     echo "$PRODUCTS"

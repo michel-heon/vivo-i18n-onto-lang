@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:orcid_step1_failed.VIVO-languages
+        rdf:type            owl:NamedIndividual ;
+        rdf:type            prop:PropertyKey ;
+        rdfs:label          "orcid_step1_failed.VIVO-languages" ;
+        prop:hasPackage     "VIVO-languages" ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/ru_RU/webapp/src/main/webapp/i18n/vivo_all_ru_RU.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/pt_BR/webapp/src/main/webapp/i18n/vivo_all_pt_BR.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/i18n/vivo_all_sr_Latn_RS.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/de_DE/webapp/src/main/webapp/i18n/vivo_all_de_DE.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/es/webapp/src/main/webapp/i18n/vivo_all_es.properties"^^xsd:anyURI ;
+        prop:propertiesUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO-languages/fr_CA/webapp/src/main/webapp/i18n/vivo_all_fr_CA.properties"^^xsd:anyURI ;
+        skos:prefLabel      "<p>VIVO nije uspeo da pročita vaš ORCID zapis.</p> <p>Nije moguće nastaviti sa procesom potvrde.</p>"@sr-Latn-RS ;
+        skos:prefLabel      "<p>Das Auslesen Ihres ORCID Eintrags ist fehlgeschlagen.</p> <p>Die Überprüfung kann nicht fortgesetzt werden.</p>"@de-DE ;
+        skos:prefLabel      "<p>VIVO failed to read your ORCID record.</p> <p>Confirmation can't continue.</p>"@en-CA ;
+        skos:prefLabel      "<p>VIVO n'a pas pu lire votre dossier ORCID.</p> <p>La confirmation a échoué.</p>"@fr-CA ;
+        skos:prefLabel      "<p>VIVO failed to read your ORCID record.</p> <p>Confirmation can't continue.</p>"@en-US ;
+        skos:prefLabel      "<p>VIVO falhou ao ler seu registro ORCID.</p> <p>A confirmação não pode continuar.</p>"@pt-BR ;
+        skos:prefLabel      "<p>Falla para leer su registro ORCID.</p> <p>La confirmación no puede continuar.</p>"@es ;
+        skos:prefLabel      "<p>VIVO не удалось прочитать Вашу запись ORCID.</p><p>Подтверждение не может быть продолжено.</p>"@ru-RU .
+
+prop-data:orcid_step1_failed
+        rdf:type     owl:NamedIndividual ;
+        rdf:type     prop:PropertyKey ;
+        rdfs:label   "orcid_step1_failed" ;
+        prop:ftlUrl  "file:///home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI .
