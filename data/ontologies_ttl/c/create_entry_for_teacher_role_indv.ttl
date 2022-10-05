@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_entry_for_teacher_role.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_entry_for_teacher_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   ": Adicione um novo papel de ensino"@pt-BR ;
+        skos:prefLabel   ": Neue Rolle in der Lehre hinzufügen"@de-DE ;
+        skos:prefLabel   ": Add a new teaching role"@en-CA ;
+        skos:prefLabel   ": Add a new teaching role"@en-US ;
+        skos:prefLabel   ": Agregue un rol nuevo de enseñanza"@es ;
+        skos:prefLabel   ": Dodajte novu ulogu nastavnika"@sr-Latn-RS ;
+        skos:prefLabel   ": Добавить новую роль преподавателя"@ru-RU ;
+        skos:prefLabel   ": Ajouter un rôle d'enseignement"@fr-CA .
+
+prop-data:create_entry_for_teacher_role
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_entry_for_teacher_role" .

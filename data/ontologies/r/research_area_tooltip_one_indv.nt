@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "research_area_tooltip_one.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Click an area to view others"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Click an area to view others"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clique em uma área para ver os outros"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cliquer sur un terme pour afficher"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Haga clic en el area para ver otros"@es .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kliknite na oblast da vidite ostale"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wenn Sie auf einen bestimmten Bereich klicken, werden Ihnen Personen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Щёлкните здесь, чтобы просмотреть других людей"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "research_area_tooltip_one.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Click an area to view others"@all .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#research_area_tooltip_one> <http://www.w3.org/2000/01/rdf-schema#label> "research_area_tooltip_one" .

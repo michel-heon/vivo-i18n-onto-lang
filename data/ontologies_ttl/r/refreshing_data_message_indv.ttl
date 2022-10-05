@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:refreshing_data_message.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "refreshing_data_message.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@all .
+
+prop-data:refreshing_data_message
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "refreshing_data_message" .
+
+prop-data:refreshing_data_message.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "refreshing_data_message.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "está sendo atualizada. A visualização será carregado, logo que estamos a fazer computing, ou você pode pesquisar ou procurar outros dados in vivo e voltar em poucos minutos."@pt-BR ;
+        skos:prefLabel   "werden aktualisiert. Die Visualisierung wird geladen, sobald die Berechnung abgeschlossen ist - Sie können VIVO durchstöbern oder nach anderen Daten suchen und in wenigen Minuten zurückkehren."@de-DE ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-CA ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US ;
+        skos:prefLabel   "est en cours de rafraîchissement. La visualisation se chargera dès que nous aurons terminé le calcul. Pendant ce temps, vous pouvez parcourir d'autres données dans VIVO et revenir dans quelques minutes."@fr-CA ;
+        skos:prefLabel   "ahora está siendo actualizado. La visualización se cargará tan pronto como hayamos terminado de calcular, o puede buscar o navegar por otros datos en VIVO y regresar en unos minutos."@es ;
+        skos:prefLabel   "se trenutno osvežavaju. Vizualizacije će biti prikazana čim se završi proračunavanje, možete da pretražujete ostale podatke unutar VIVO-a, i da se vratite na ovu stranicu za nekoliko minuta."@sr-Latn-RS ;
+        skos:prefLabel   "сейчас обновляется. Визуализация загрузится, как только мы закончим вычисления, или вы можете искать или просматривать другие данные в VIVO и вернуться через несколько минут."@ru-RU .

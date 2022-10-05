@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:disclaimer_text_one.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "disclaimer_text_one.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Эта информация основана только на"@ru-RU ;
+        skos:prefLabel   "This information is based solely on"@en-CA ;
+        skos:prefLabel   "This information is based solely on"@en-US ;
+        skos:prefLabel   "Cette information est uniquement basée sur les"@fr-CA ;
+        skos:prefLabel   "Esta informação está baseada exclusivamente em"@pt-BR ;
+        skos:prefLabel   "Diese Angaben beruhen ausschließlich auf"@de-DE ;
+        skos:prefLabel   "Ove informaciju su bazirane isključivo na"@sr-Latn-RS ;
+        skos:prefLabel   "Esta información se basa únicamente en"@es .
+
+prop-data:disclaimer_text_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "disclaimer_text_one.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This information is based solely on"@all .
+
+prop-data:disclaimer_text_one
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "disclaimer_text_one" .

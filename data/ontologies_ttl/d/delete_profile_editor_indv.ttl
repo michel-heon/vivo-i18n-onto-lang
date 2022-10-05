@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:delete_profile_editor
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "delete_profile_editor" .
+
+prop-data:delete_profile_editor.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "delete_profile_editor.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Delete profile editor"@en-CA ;
+        skos:prefLabel   "Delete profile editor"@en-US ;
+        skos:prefLabel   "Eliminar editor de perfiles"@es ;
+        skos:prefLabel   "Удалить профиль"@ru-RU ;
+        skos:prefLabel   "Obrišite urednike profila"@sr-Latn-RS ;
+        skos:prefLabel   "Supprimer l'éditeur de profils"@fr-CA ;
+        skos:prefLabel   "Lösche Profilbearbeiter"@de-DE ;
+        skos:prefLabel   "Apagar editor de perfis"@pt-BR .

@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "verify_this_match.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Diesen Treffer verifizieren"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verificar esta opración"@es .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "proverite podudaranje"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "verificar esta combinação"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "verify this match"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "verify this match"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "vérifier cette correspondance"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "проверить это соответствие"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#verify_this_match> <http://www.w3.org/2000/01/rdf-schema#label> "verify_this_match" .

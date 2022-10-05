@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_classes_to_display.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "select_classes_to_display.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Debe seleccionar las clases a mostrar"@es ;
+        skos:prefLabel   "Morate odabrati klase koje će biti prikazane."@sr-Latn-RS ;
+        skos:prefLabel   "Vous devez sélectionner la classe à afficher."@fr-CA ;
+        skos:prefLabel   "Следует выбрать классы для отображения."@ru-RU ;
+        skos:prefLabel   "Você deve selecionar as classes para exibir."@pt-BR ;
+        skos:prefLabel   "You must select the classes to display."@en-CA ;
+        skos:prefLabel   "You must select the classes to display."@en-US ;
+        skos:prefLabel   "Sie müssen die anzuzeigenden Klassen auswählen."@de-DE .
+
+prop-data:select_classes_to_display
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_classes_to_display" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:dates  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "dates" .
+
+prop-data:data_not_past_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "data_not_past_msg.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Veuillez saisir une date cible future pour la publication (les dates passées ne sont pas valides)."@fr-CA ;
+        skos:prefLabel   "Please enter a future target date for publication (past dates are invalid)."@en-CA ;
+        skos:prefLabel   "Please enter a future target date for publication (past dates are invalid)."@en-US .
+
+prop-data:dates.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "dates.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Даты"@ru-RU ;
+        skos:prefLabel   "Dates"@en-US ;
+        skos:prefLabel   "Dates"@fr-CA ;
+        skos:prefLabel   "Dates"@en-CA ;
+        skos:prefLabel   "Termine"@de-DE ;
+        skos:prefLabel   "Datas"@pt-BR ;
+        skos:prefLabel   "Datumi"@sr-Latn-RS ;
+        skos:prefLabel   "Fechas"@es .

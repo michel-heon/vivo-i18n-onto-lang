@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:ingest_menu
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "ingest_menu" .
+
+prop-data:ingest_menu.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "ingest_menu.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Ingest Menu"@all .
+
+prop-data:ingest_menu.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "ingest_menu.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Меню Ввод данных"@ru-RU ;
+        skos:prefLabel   "Meni za unos podataka"@sr-Latn-RS ;
+        skos:prefLabel   "Ingest-Menü"@de-DE ;
+        skos:prefLabel   "Ingest Menu"@en-US ;
+        skos:prefLabel   "Ingest Menu"@en-CA ;
+        skos:prefLabel   "Menu procesamiento de datos"@es ;
+        skos:prefLabel   "Menu de moissonnage"@fr-CA ;
+        skos:prefLabel   "Menu de Inserção"@pt-BR .

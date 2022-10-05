@@ -1,0 +1,79 @@
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "compare_organizations.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Compare organizations"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Compare organizations"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "compare_organizations.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#compare_organizations.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Compare organizations"@all .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "entity_comp_error_text1.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "This organization has neither sub-organizations nor people with"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "This organization has neither sub-organizations nor people with"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "entity_comp_error_text1.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "This organization has neither sub-organizations nor people with"@all .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "organization_hierarchy_note.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "organization_hierarchy_note.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@all .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "organizations.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organisationen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "organisations"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "organizacije"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "organizaciones"@es .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "organizations"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "organizations"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "organizações"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "организации"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "organizations.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#organizations.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "organizations"@all .
+<http://vivoweb.org/ontology/core/properties/individual#organizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#organizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organizations> <http://www.w3.org/2000/01/rdf-schema#label> "organizations" .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "vis_tools_note_two.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "vis_tools_note_two.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@all .

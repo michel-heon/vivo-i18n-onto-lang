@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:intro_para1.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "intro_para1.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Vivo é uma ferramenta de descobertas focada em pesquisa, que permite a colaboração entre cientistas em todas as disciplinas."@pt-BR ;
+        skos:prefLabel   "VIVO est une plateforme de valorisation de la recherche facilitant la collaboration entre chercheurs de toutes les disciplines."@fr-CA ;
+        skos:prefLabel   "VIVO это система для поиска информации о научных исследованиях, облегчающая междисциплинарное сотрудничество учёных."@ru-RU ;
+        skos:prefLabel   "VIVO ist ein forschungsorientiertes Recherchewerkzeug, das die Zusammenarbeit zwischen Wissenschaftlern quer durch alle Fachbereiche ermöglicht."@de-DE ;
+        skos:prefLabel   "VIVO es una herramienta de descubrimiento de investigación centrada en permitir la colaboración entre científicos de todas las disciplinas."@es ;
+        skos:prefLabel   "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines."@en-CA ;
+        skos:prefLabel   "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines."@en-US ;
+        skos:prefLabel   "VIVO je alat za pretragu i istraživanje koji se fokusira na oblast akademije i istraživača i omogućuje kolaboraciju naučnika iz različitih disciplina."@sr-Latn-RS .
+
+prop-data:intro_para1
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "intro_para1" .
+
+prop-data:intro_para1.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "intro_para1.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines."@en-CA ;
+        skos:prefLabel   "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines."@en-US ;
+        skos:prefLabel   "VIVO je alat namenjen pretraživanju i otkrivanju istraživačkih radova i aktivnosti, koji omogućuje saradnju između naučnika iz različitih disciplina i oblasti."@sr-Latn-RS ;
+        skos:prefLabel   "VIVO est une plateforme de valorisation de la recherche facilitant la collaboration entre chercheur(-euses)s de toutes les disciplines."@fr-CA ;
+        skos:prefLabel   "VIVO это система для поиска информации о научных исследованиях, облегчающая междисциплинарное сотрудничество учёных."@ru-RU ;
+        skos:prefLabel   "VIVO es una herramienta de descubrimiento de investigación centrada en permitir la colaboración entre científicos de todas las disciplinas."@es ;
+        skos:prefLabel   "VIVO ist ein forschungsorientiertes Recherchewerkzeug, das die Zusammenarbeit zwischen Wissenschaftlern quer durch alle Fachbereiche ermöglicht."@de-DE ;
+        skos:prefLabel   "Vivo é uma ferramenta de descobertas focada em pesquisa, que permite a colaboração entre cientistas em todas as disciplinas."@pt-BR .
+
+prop-data:intro_para1.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "intro_para1.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "VIVO is a searchable tool that will connect you to faculty who may share your interest or with whom you wish to collaborate."@all .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cap_map_intro
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "cap_map_intro" .
+
+prop-data:cap_map_intro.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "cap_map_intro.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Crie um 'primeiro passe' mapa de capacidade digitando um termo de pesquisa que poderia ser dito representar uma ampla capacidade de pesquisa."@pt-BR ;
+        skos:prefLabel   "Izgradite mapu sposobnosti iz &lsquo;prvog prolaza&rsquo; tako što će te uneti<!-- set of--> izraz za pretragu<!--s--> koji može da predstavlja široko polje istraživačkih mogućnosti."@sr-Latn-RS ;
+        skos:prefLabel   "Build a &lsquo;first pass&rsquo; capability map by typing in a<!-- set of--> search term<!--s--> that could be said to represent a broad research capability."@en-US ;
+        skos:prefLabel   "Build a &lsquo;first pass&rsquo; capability map by typing in a<!-- set of--> search term<!--s--> that could be said to represent a broad research capability."@en-CA ;
+        skos:prefLabel   "Erstellen Sie eine Capability Map durch Eingabe von Suchbegriffen."@de-DE ;
+        skos:prefLabel   "Постройте карту возможностей ‘в первом приближении’, введя поисковый термин или набор терминов, предположительно характеризующий целое поле исследований."@ru-RU ;
+        skos:prefLabel   "Pour construire une première cartographie, saisir un terme de recherche représentant un large domaine d'expertise.."@fr-CA ;
+        skos:prefLabel   "Cree un 'primer pase' mapa de capacidades escribiendo un término de búsqueda que podría decirse que representa una amplia capacidad de investigación."@es .

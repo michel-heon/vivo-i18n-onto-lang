@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_type_post_weblog.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blog"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blog"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blog"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blog"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blog"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blog"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blog"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_post_weblog.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Запись в блоге"@ru-RU .

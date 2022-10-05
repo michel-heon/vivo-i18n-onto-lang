@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_processing_type_change.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_processing_type_change.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Error processing request: the unchecked labels could not be deleted."@all .
+
+prop-data:error_processing_type_change.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_processing_type_change.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Ошибка при обработке запроса: не отмеченные метки не могут быть удалены."@ru-RU ;
+        skos:prefLabel   "solicitação de processamento de erro: os rótulos não verificadas não pôde ser excluído."@pt-BR ;
+        skos:prefLabel   "Error processing request: the unchecked labels could not be deleted."@en-CA ;
+        skos:prefLabel   "Error processing request: the unchecked labels could not be deleted."@en-US ;
+        skos:prefLabel   "Error al procesar la solicitud: las etiquetas sin control no pueden ser eliminadas."@es ;
+        skos:prefLabel   "Greška pri obradi zahteva: nečekirane labele nije moguće obrisati."@sr-Latn-RS ;
+        skos:prefLabel   "Fehler bei der Bearbeitung des Auftrags: die nicht markierten Bezeichnungen konnten nicht gelöscht werden."@de-DE ;
+        skos:prefLabel   "Erreur lors du traitement de la demande: les étiquettes non cochées n'ont pas pu être supprimées."@fr-CA .
+
+prop-data:error_processing_type_change
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "error_processing_type_change" .

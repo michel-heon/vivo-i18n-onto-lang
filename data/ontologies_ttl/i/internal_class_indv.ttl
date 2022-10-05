@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:internal_class.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "internal_class.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "classe interne institutionnelle"@fr-CA ;
+        skos:prefLabel   "interne Klasse für die Institution"@de-DE ;
+        skos:prefLabel   "institutional internal class"@en-US ;
+        skos:prefLabel   "institutional internal class"@en-CA ;
+        skos:prefLabel   "Clase interna institucional"@es ;
+        skos:prefLabel   "internu klasu institucije"@sr-Latn-RS ;
+        skos:prefLabel   "Собственный класс учреждени"@ru-RU ;
+        skos:prefLabel   "class institucional interna"@pt-BR .
+
+prop-data:internal_class.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "internal_class.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "institutional internal class"@all .
+
+prop-data:internal_class
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "internal_class" .

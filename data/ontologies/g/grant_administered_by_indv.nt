@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "grant_administered_by.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forschungsprojekt wird verwaltet von"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "concesión administrado por"@es .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "concessão que está sendo administrado por"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "grant being administered by"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "grant being administered by"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "grant kojim upravlja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "subvention administrée par"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "грант, администрируемый"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "grant_administered_by.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "grant being administered by"@all .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#grant_administered_by> <http://www.w3.org/2000/01/rdf-schema#label> "grant_administered_by" .

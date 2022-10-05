@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "external_login_text.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Connexion utilisant BearCat Shibboleth"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einloggen mittels Shibboleth"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Entrar usando Shibboleth"@es .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Log in using BearCat Shibboleth"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Log in using BearCat Shibboleth"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login com BearCat Shibboleth"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prijavite se koristeći BearCat Shibboleth"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Вход с помощью сервиса внешней аутентификации"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_text> <http://www.w3.org/2000/01/rdf-schema#label> "external_login_text" .

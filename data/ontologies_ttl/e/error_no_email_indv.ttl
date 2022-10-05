@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_no_email.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_no_email.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Morate uneti email adresu."@sr-Latn-RS ;
+        skos:prefLabel   "Sie müssen eine E-Mail-Adresse angeben."@de-DE ;
+        skos:prefLabel   "Você deve fornecer um endereço de e-mail."@pt-BR ;
+        skos:prefLabel   "Debe proporcionar una dirección de correo electrónico."@es ;
+        skos:prefLabel   "Необходимо указать адрес электронной почты."@ru-RU ;
+        skos:prefLabel   "Vous devez inscrire une adresse courriel."@fr-CA ;
+        skos:prefLabel   "You must supply an email address."@en-CA ;
+        skos:prefLabel   "You must supply an email address."@en-US .
+
+prop-data:error_no_email
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "error_no_email" .

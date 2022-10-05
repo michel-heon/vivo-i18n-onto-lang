@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "invalid_date_form_msg.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "debe tener un formato de fecha válido mm / dd / aaaa."@es .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "deve estar em formato de data válido mm / dd / aaaa."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "doit être au format mm/jj/aaaa."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "mora biti u ispravnom formatu datuma: mm/dd/yyyy."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "muss im gültigen Datumsformat mm/tt/jjjj sein."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "must be in valid date format mm/dd/yyyy."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "must be in valid date format mm/dd/yyyy."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "должна быть в допустимом формате даты ММ/ДД/ГГГГ."@ru-RU .

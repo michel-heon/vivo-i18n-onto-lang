@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:of_pubs.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "of_pubs.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "of pubs."@all .
+
+prop-data:of_pubs.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "of_pubs.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "de pubs."@pt-BR ;
+        skos:prefLabel   "von Publikationen"@de-DE ;
+        skos:prefLabel   "публикаций"@ru-RU ;
+        skos:prefLabel   "de publications."@fr-CA ;
+        skos:prefLabel   "of pubs."@en-CA ;
+        skos:prefLabel   "of pubs."@en-US ;
+        skos:prefLabel   "publikacija."@sr-Latn-RS ;
+        skos:prefLabel   "de pubs."@es .
+
+prop-data:of_pubs  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "of_pubs" .

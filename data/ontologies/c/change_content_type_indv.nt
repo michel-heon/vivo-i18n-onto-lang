@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "change_content_type.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cambiar el tipo de contenido"@es .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Change content type"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Change content type"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Changer le type de contenu"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mudança tipo de conteúdo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Promenite tip sadržaja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wechseln des Inhaltstyps"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Изменить тип содержимого"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#change_content_type> <http://www.w3.org/2000/01/rdf-schema#label> "change_content_type" .

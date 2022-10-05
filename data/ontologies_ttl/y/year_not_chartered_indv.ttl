@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:year_not_chartered
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "year_not_chartered" .
+
+prop-data:year_not_chartered.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "year_not_chartered.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "year (not charted above)"@all .
+
+prop-data:year_not_chartered.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "year_not_chartered.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "year (not charted above)"@en-CA ;
+        skos:prefLabel   "year (not charted above)"@en-US ;
+        skos:prefLabel   "ano (não cartografado acima)"@pt-BR ;
+        skos:prefLabel   "année (non indiquée dans le tableau ci-dessus)"@fr-CA ;
+        skos:prefLabel   "años (no trazada anteriormente)"@es ;
+        skos:prefLabel   "godinu (nije označeno iznad)"@sr-Latn-RS ;
+        skos:prefLabel   "Jahr (oben nicht aufgeführt)"@de-DE ;
+        skos:prefLabel   "год (не указан выше)"@ru-RU .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:co_investigator_icon
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "co_investigator_icon" .
+
+prop-data:co_investigator_icon.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "co_investigator_icon.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "co-investigator icon"@all .
+
+prop-data:co_investigator_icon.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "co_investigator_icon.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "co-investigator icon"@en-CA ;
+        skos:prefLabel   "co-investigator icon"@en-US ;
+        skos:prefLabel   "значок со-исследователя"@ru-RU ;
+        skos:prefLabel   "icon = co-investigador"@pt-BR ;
+        skos:prefLabel   "KoforscherIn-Icon"@de-DE ;
+        skos:prefLabel   "ikonica koautora"@sr-Latn-RS ;
+        skos:prefLabel   "icono de coinvestigador"@es ;
+        skos:prefLabel   "icône de cochercheur(-euse)"@fr-CA .

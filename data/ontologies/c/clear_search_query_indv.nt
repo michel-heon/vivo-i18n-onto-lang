@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "clear_search_query.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Effacer la requête"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "clear search query"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "clear search query"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "consulta de pesquisa clara"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "limpiar los resultados de consulta"@es .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "neue Suche"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "očistite upit pretrage"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "очистить поисковый запрос"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "clear_search_query.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "clear search query"@all .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#clear_search_query> <http://www.w3.org/2000/01/rdf-schema#label> "clear_search_query" .

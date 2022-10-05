@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:all_rights_reserved.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "all_rights_reserved.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Sva prava su zadržana."@sr-Latn-RS ;
+        skos:prefLabel   "All Rights Reserved."@en-CA ;
+        skos:prefLabel   "All Rights Reserved."@en-US ;
+        skos:prefLabel   "Все права защищены."@ru-RU ;
+        skos:prefLabel   "Todos os direitos reservados."@pt-BR ;
+        skos:prefLabel   "Tous droits réservés."@fr-CA ;
+        skos:prefLabel   "Alle Rechte vorbehalten."@de-DE ;
+        skos:prefLabel   "Todos los derechos reservados."@es .

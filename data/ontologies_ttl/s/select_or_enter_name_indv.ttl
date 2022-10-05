@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_or_enter_name
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_or_enter_name" .
+
+prop-data:select_or_enter_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_or_enter_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Selecione um valor existente ou digite um novo valor no campo Nome."@pt-BR ;
+        skos:prefLabel   "Bitte im Feld Name einen bestehenden Wert auswählen oder einen neuen Wert eintragen."@de-DE ;
+        skos:prefLabel   "Пожалуйста, выберите существующее значение или введите новое значение в поле Имя."@ru-RU ;
+        skos:prefLabel   "Choisir une entrée existante ou en saisir une nouvelle dans le champ Nom."@fr-CA ;
+        skos:prefLabel   "Molimo Vas da unesete postojeću vrednost ili unesete novu u polju za Naziv."@sr-Latn-RS ;
+        skos:prefLabel   "Por favor seleccione un valor existente o introduzca un nuevo valor en el campo Nombre."@es ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Name field."@en-CA ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Name field."@en-US .
+
+prop-data:select_or_enter_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_or_enter_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Name field."@all .

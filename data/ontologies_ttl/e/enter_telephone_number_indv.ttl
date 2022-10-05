@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:enter_telephone_number.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "enter_telephone_number.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Por favor, introduzca un valor en el campo número de teléfono."@es ;
+        skos:prefLabel   "Please enter a value in the Telephone Number field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Telephone Number field."@en-US ;
+        skos:prefLabel   "Bitte im Feld Telefonnummer einen Wert eintragen."@de-DE ;
+        skos:prefLabel   "Пожалуйста, введите значение в поле Номер телефона."@ru-RU ;
+        skos:prefLabel   "Por favor insira um valor no campo de número de telefone."@pt-BR ;
+        skos:prefLabel   "Molimo Vas unesite broj telefona u odgovarajuće polje."@sr-Latn-RS ;
+        skos:prefLabel   "SVP, renseigner le champ Numéro de téléphone."@fr-CA .
+
+prop-data:enter_telephone_number
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "enter_telephone_number" .
+
+prop-data:enter_telephone_number.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_telephone_number.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Telephone Number field."@all .

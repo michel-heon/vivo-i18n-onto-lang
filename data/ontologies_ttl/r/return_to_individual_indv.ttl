@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:return_to_individual.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_individual.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Retornar para Página Individual"@pt-BR ;
+        skos:prefLabel   "Вернуться к личной странице"@ru-RU ;
+        skos:prefLabel   "Retournez à la page index des enregistrements"@fr-CA ;
+        skos:prefLabel   "Zurück zur Seite des Datensatzes"@de-DE ;
+        skos:prefLabel   "Return to Individual Page"@en-CA ;
+        skos:prefLabel   "Return to Individual Page"@en-US ;
+        skos:prefLabel   "Volver a la página de usuarios"@es ;
+        skos:prefLabel   "Vratite se na stranicu pojedinca"@sr-Latn-RS .
+
+prop-data:return_to_individual
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "return_to_individual" .

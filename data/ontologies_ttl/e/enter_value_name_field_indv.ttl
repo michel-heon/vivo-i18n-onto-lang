@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:enter_value_name_field
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "enter_value_name_field" .
+
+prop-data:enter_value_name_field.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "enter_value_name_field.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Bitte geben Sie einen Wert im Namensfeld ein."@de-DE ;
+        skos:prefLabel   "Please enter a value in the name field."@en-US ;
+        skos:prefLabel   "Por favor insira um valor no campo de nome."@pt-BR ;
+        skos:prefLabel   "Please enter a value in the name field."@en-CA ;
+        skos:prefLabel   "Пожалуйста введите значение в поле названия."@ru-RU ;
+        skos:prefLabel   "Molimo Vas unesite vrednost u polje za naziv."@sr-Latn-RS ;
+        skos:prefLabel   "Veuillez saisir une valeur dans le champs Nom"@fr-CA ;
+        skos:prefLabel   "Por favor, introduzca un valor en el campo Nombre."@es .

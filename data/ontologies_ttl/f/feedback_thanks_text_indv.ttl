@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:feedback_thanks_text.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "feedback_thanks_text.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Hvala Vam što ste kontaktirali timove za razvoj i održavanje aplikacije. Odgovorićemo Vam u što kraćem vremensokm periodu."@sr-Latn-RS ;
+        skos:prefLabel   "Merci d'avoir contacté notre équipe. Nous vous répondrons dès que possible."@fr-CA ;
+        skos:prefLabel   "Thank you for contacting our curation and development team. We will respond to your inquiry as soon as possible."@en-CA ;
+        skos:prefLabel   "Thank you for contacting our curation and development team. We will respond to your inquiry as soon as possible."@en-US ;
+        skos:prefLabel   "Gracias por ponerse en contacto con nuestro equipo de conservación y desarrollo. Nosotros responderemos a su consulta lo antes posible."@es ;
+        skos:prefLabel   "Obrigado por entrar em contato com nossa equipe de desenvolvimento. Vamos responder a sua pergunta o mais rápido possível."@pt-BR ;
+        skos:prefLabel   "Vielen Dank für das Kontaktieren unserer Kuration und des Entwicklungsteams. Wir werden so schnell wie möglich auf Ihre Anfrage reagieren."@de-DE ;
+        skos:prefLabel   "Благодарим вас за обращение к нашей команде кураторов и разработчиков. Мы ответим на ваш запрос при первой возможности."@ru-RU .
+
+prop-data:feedback_thanks_text
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "feedback_thanks_text" .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_error
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_and_link_error" .
+
+prop-data:create_and_link_error.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_error.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Es konnten keine näheren Angaben zur Publikation ermittelt werden."@de-DE ;
+        skos:prefLabel   "Невозможно получить данные о цитировании"@ru-RU ;
+        skos:prefLabel   "Incapaz de recuperar datos de la citación"@es ;
+        skos:prefLabel   "Unable to retrieve citation details"@en-CA ;
+        skos:prefLabel   "Unable to retrieve citation details"@en-US ;
+        skos:prefLabel   "Nije moguće dobaviti detalje o citatima"@sr-Latn-RS ;
+        skos:prefLabel   "Incapaz de recuperar os detalhes da citação"@pt-BR ;
+        skos:prefLabel   "Impossible de retrouver les métadonnées"@fr-CA .

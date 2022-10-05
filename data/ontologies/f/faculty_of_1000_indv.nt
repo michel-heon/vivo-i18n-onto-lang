@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "faculty_of_1000.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faculdade de 1000 link"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Facultad de 1000 enlaces"@es .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faculty of 1000 Link"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faculty of 1000 Link"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faculty-of-1000-Link"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fakultet sa 1000 linkova"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lien de Faculté 1000"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Преподаватель с 1000 связей"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "faculty_of_1000.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faculty of 1000 Link"@all .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_of_1000> <http://www.w3.org/2000/01/rdf-schema#label> "faculty_of_1000" .

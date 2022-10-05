@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:enter_last_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_last_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a Last name for this person."@all .
+
+prop-data:enter_last_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_last_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Por favor insira um sobrenome para esta pessoa."@pt-BR ;
+        skos:prefLabel   "SVP, inscrire le nom de famille de cette personne."@fr-CA ;
+        skos:prefLabel   "Пожалуйста, введите фамилию этого человека."@ru-RU ;
+        skos:prefLabel   "Please enter a Last name for this person."@en-CA ;
+        skos:prefLabel   "Please enter a Last name for this person."@en-US ;
+        skos:prefLabel   "Bitte einen Nachnamen für diese Person eintragen."@de-DE ;
+        skos:prefLabel   "Por favor, introduzca un apellido para esta persona."@es ;
+        skos:prefLabel   "Molimo Vas unesite prezime ove osobe."@sr-Latn-RS .
+
+prop-data:enter_last_name
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "enter_last_name" .

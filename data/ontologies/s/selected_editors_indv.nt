@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "selected_editors.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ausgewählte Bearbeiter"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choisir des éditeurs"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Editores seleccionados"@es .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Odabrani urednici"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Selected editors"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Selected editors"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "editores Selecionadas"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Выбранные редакторы"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#selected_editors> <http://www.w3.org/2000/01/rdf-schema#label> "selected_editors" .

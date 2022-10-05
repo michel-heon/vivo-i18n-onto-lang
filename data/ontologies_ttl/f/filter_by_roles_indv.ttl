@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:filter_by_roles.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "filter_by_roles.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Filtrirajte po ulogama"@sr-Latn-RS ;
+        skos:prefLabel   "Nach Rollen filtern"@de-DE ;
+        skos:prefLabel   "Filtrar por papéis"@pt-BR ;
+        skos:prefLabel   "Filtrer par rôles"@fr-CA ;
+        skos:prefLabel   "Filter by roles"@en-CA ;
+        skos:prefLabel   "Filter by roles"@en-US ;
+        skos:prefLabel   "Filtrar por roles"@es ;
+        skos:prefLabel   "Фильтровать по ролям"@ru-RU .
+
+prop-data:filter_by_roles
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "filter_by_roles" .

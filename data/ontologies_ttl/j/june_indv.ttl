@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:june.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "june.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "июнь"@ru-RU ;
+        skos:prefLabel   "jun"@sr-Latn-RS ;
+        skos:prefLabel   "June"@en-CA ;
+        skos:prefLabel   "June"@en-US ;
+        skos:prefLabel   "Juni"@de-DE ;
+        skos:prefLabel   "Junio"@es ;
+        skos:prefLabel   "Junho"@pt-BR ;
+        skos:prefLabel   "Juin"@fr-CA .
+
+prop-data:june  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "june" .

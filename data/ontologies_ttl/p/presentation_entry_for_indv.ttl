@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:presentation_entry_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "presentation_entry_for.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "presentation entry for"@all .
+
+prop-data:presentation_entry_for
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "presentation_entry_for" .
+
+prop-data:presentation_entry_for.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "presentation_entry_for.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "запись о выступлении для"@ru-RU ;
+        skos:prefLabel   "presentation entry for"@en-CA ;
+        skos:prefLabel   "presentation entry for"@en-US ;
+        skos:prefLabel   "enregistrement d'une présentation pour"@fr-CA ;
+        skos:prefLabel   "Entrada de presentación para"@es ;
+        skos:prefLabel   "entrada apresentação para"@pt-BR ;
+        skos:prefLabel   "Unos prezentacije za"@sr-Latn-RS ;
+        skos:prefLabel   "Eintrag eines Vortrags für"@de-DE .

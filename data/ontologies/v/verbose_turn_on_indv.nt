@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "verbose_turn_on.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Activer"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einschalten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Encender"@es .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Liguar"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turn on"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turn on"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uključite"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Включить"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_on> <http://www.w3.org/2000/01/rdf-schema#label> "verbose_turn_on" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:supplemental_information_hint.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "supplemental_information_hint.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "(e.g., Thesis title, Transfer info, etc.)"@en-CA ;
+        skos:prefLabel   "(e.g., Thesis title, Transfer info, etc.)"@en-US ;
+        skos:prefLabel   "(z. B. Titel der Doktorarbeit, Informationen zu Fachwechsel etc.)"@de-DE ;
+        skos:prefLabel   "(например, название диссертации, информация о переводе и т.д.)"@ru-RU ;
+        skos:prefLabel   "(Por ejemplo, título de la tesis, información de transferencia, etc)"@es ;
+        skos:prefLabel   "(npr. Naslov teze)"@sr-Latn-RS ;
+        skos:prefLabel   "(ex.: titre de la thèse, etc.)"@fr-CA ;
+        skos:prefLabel   "(por exemplo, o título Tese, info, etc. Transferência)"@pt-BR .
+
+prop-data:supplemental_information_hint.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "supplemental_information_hint.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "(e.g., Thesis title, Transfer info, etc.)"@all .
+
+prop-data:supplemental_information_hint
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "supplemental_information_hint" .

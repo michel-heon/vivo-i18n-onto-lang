@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "associate_classes_with_group.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "and associate classes with the group created."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "and associate classes with the group created."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "associar as classes ao grupo criado."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "et associez des classes au groupe créé."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "i povežite klase sa grupom koju ste kreirali."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "und verknüpfen Sie die Klassen mit der erstellten Gruppe."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "y las clases asociadas con el grupo creado."@es .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "и связать классы с созданной группой."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#associate_classes_with_group> <http://www.w3.org/2000/01/rdf-schema#label> "associate_classes_with_group" .

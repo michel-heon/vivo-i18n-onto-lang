@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:teaching_role_hint.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "teaching_role_hint.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "e.g., Instructor, Facilitator, Assistant"@all .
+
+prop-data:teaching_role_hint.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "teaching_role_hint.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "например, инструктор, фасилитатор, ассистент"@ru-RU ;
+        skos:prefLabel   "z. B., LehrerIn, ModeratorIn, MitarbeiterIn"@de-DE ;
+        skos:prefLabel   "ex.: instructeur, facilitateur, assistant"@fr-CA ;
+        skos:prefLabel   "e.g., Instructor, Facilitator, Assistant"@en-CA ;
+        skos:prefLabel   "e.g., Instructor, Facilitator, Assistant"@en-US ;
+        skos:prefLabel   "npr. instruktor, profesor, asistent"@sr-Latn-RS ;
+        skos:prefLabel   "eg, Instrutor, Facilitador, Assistente"@pt-BR ;
+        skos:prefLabel   "por ejemplo, instructor, facilitador, Asistente"@es .
+
+prop-data:teaching_role_hint
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "teaching_role_hint" .

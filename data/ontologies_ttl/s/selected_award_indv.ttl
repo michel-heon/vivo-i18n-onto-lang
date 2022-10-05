@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selected_award.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_award.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Premio Selecionado"@pt-BR ;
+        skos:prefLabel   "Selected Award"@en-CA ;
+        skos:prefLabel   "Selected Award"@en-US ;
+        skos:prefLabel   "prix choisi"@fr-CA ;
+        skos:prefLabel   "Odabrana nagrada"@sr-Latn-RS ;
+        skos:prefLabel   "gewählte Auszeichnung"@de-DE ;
+        skos:prefLabel   "Premio seleccionado"@es ;
+        skos:prefLabel   "Выбранная награда"@ru-RU .
+
+prop-data:selected_award
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "selected_award" .
+
+prop-data:selected_award.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_award.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Selected Award"@all .

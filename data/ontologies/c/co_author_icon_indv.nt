@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "co_author_icon.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "KoautorIn-Icon"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "co-author icon"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "co-author icon"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "icon = co-autor"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "icono de coautor"@es .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "icône de coauteur(e)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ikonica ko-autora"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "значок соавтора"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "co_author_icon.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "co-author icon"@all .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#co_author_icon> <http://www.w3.org/2000/01/rdf-schema#label> "co_author_icon" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:middle_organization.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "middle_organization.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "organización central"@es ;
+        skos:prefLabel   "srednja organizacija"@sr-Latn-RS ;
+        skos:prefLabel   "organização envolvidas"@pt-BR ;
+        skos:prefLabel   "middle organization"@en-CA ;
+        skos:prefLabel   "middle organization"@en-US ;
+        skos:prefLabel   "mittlere Organisation"@de-DE ;
+        skos:prefLabel   "организация-посредник"@ru-RU ;
+        skos:prefLabel   "organisation intermédiaire"@fr-CA .
+
+prop-data:middle_organization.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "middle_organization.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "middle organization"@all .
+
+prop-data:middle_organization
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "middle_organization" .

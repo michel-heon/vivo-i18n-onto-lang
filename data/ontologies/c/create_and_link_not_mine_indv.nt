@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_not_mine.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cette publication n'est pas la mienne"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Das ist nicht meine Veröffentlichung."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Esta no es mi obra"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Esta obra não é minha"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ovo nije moj rad"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "This is not my work"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "This is not my work"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Это не моя работа"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_not_mine" .

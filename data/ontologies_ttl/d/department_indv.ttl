@@ -1,0 +1,130 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:faculty_who_are_members_of_org.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_who_are_members_of_org.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@en-CA ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@en-US .
+
+prop-data:department.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "department.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "departman"@sr-Latn-RS ;
+        skos:prefLabel   "departamento"@es ;
+        skos:prefLabel   "departamento"@pt-BR ;
+        skos:prefLabel   "подразделение"@ru-RU ;
+        skos:prefLabel   "department"@en-CA ;
+        skos:prefLabel   "department"@en-US ;
+        skos:prefLabel   "Abteilung"@de-DE ;
+        skos:prefLabel   "département"@fr-CA .
+
+prop-data:department.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "department.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "department"@all .
+
+prop-data:research_area.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_area.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "individuals in the department with this research area"@en-CA ;
+        skos:prefLabel   "individuals in the department with this research area"@en-US .
+
+prop-data:no_active_grants.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_active_grants.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "There are currently no active grants for this department."@all .
+
+prop-data:faculty_who_are_members_of_org.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_who_are_members_of_org.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@all .
+
+prop-data:faculty_with_researh_area.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_with_researh_area.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Here are the faculty members in the {0} department who have an interest in this research area."@all .
+
+prop-data:research_area.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_area.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "individuals in the department with this research area"@en-CA ;
+        skos:prefLabel   "individuals in the department with this research area"@en-US .
+
+prop-data:department  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "department" .
+
+prop-data:no_active_grants.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_active_grants.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "There are currently no active grants for this department."@en-CA ;
+        skos:prefLabel   "There are currently no active grants for this department."@en-US .
+
+prop-data:research_area.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_area.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "individuals in the department with this research area"@all .
+
+prop-data:faculty_with_researh_area.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_with_researh_area.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Here are the faculty members in the {0} department who have an interest in this research area."@en-CA ;
+        skos:prefLabel   "Here are the faculty members in the {0} department who have an interest in this research area."@en-US .
+
+prop-data:faculty_who_are_members_of_org.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_who_are_members_of_org.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@en-CA ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@en-US ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@sr-Latn-RS .

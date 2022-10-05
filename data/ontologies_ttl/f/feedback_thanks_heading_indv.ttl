@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:feedback_thanks_heading
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "feedback_thanks_heading" .
+
+prop-data:feedback_thanks_heading.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "feedback_thanks_heading.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Благодарим вас за отзыв"@ru-RU ;
+        skos:prefLabel   "Hvala Vam na povratnim informacijama"@sr-Latn-RS ;
+        skos:prefLabel   "Obrigado pelo seu feedback"@pt-BR ;
+        skos:prefLabel   "Merci pour vos commentaires"@fr-CA ;
+        skos:prefLabel   "Vielen Dank für Ihr Feedback"@de-DE ;
+        skos:prefLabel   "Gracias por su colaboración"@es ;
+        skos:prefLabel   "Thank you for your feedback"@en-CA ;
+        skos:prefLabel   "Thank you for your feedback"@en-US .

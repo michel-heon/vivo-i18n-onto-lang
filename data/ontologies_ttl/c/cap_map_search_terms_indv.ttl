@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cap_map_search_terms
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "cap_map_search_terms" .
+
+prop-data:cap_map_search_terms.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_search_terms.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Términos de búsqueda"@es ;
+        skos:prefLabel   "Termos de pesquisa"@pt-BR ;
+        skos:prefLabel   "Izrazi pretrage"@sr-Latn-RS ;
+        skos:prefLabel   "Expertises"@fr-CA ;
+        skos:prefLabel   "Suchbegriffe"@de-DE ;
+        skos:prefLabel   "Поисковые термины"@ru-RU ;
+        skos:prefLabel   "Search terms"@en-CA ;
+        skos:prefLabel   "Search terms"@en-US .

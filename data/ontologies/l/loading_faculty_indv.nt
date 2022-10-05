@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "loading_faculty.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cargando facultad. . ."@es .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carregando corpo docente. . ."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chargement des personnes . . ."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fachbereich wird geladen. . ."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loading faculty . . ."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loading faculty . . ."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Učitava se fakultet . . ."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Загружаем данные преподавателя . . ."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "loading_faculty.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loading faculty . . ."@all .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#loading_faculty> <http://www.w3.org/2000/01/rdf-schema#label> "loading_faculty" .

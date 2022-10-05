@@ -1,0 +1,123 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:file_upload_no_allowed_media.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "file_upload_no_allowed_media.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "No allowed media types defined in runtime.properties"@en-US .
+
+prop-data:show_properties.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "show_properties.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "show properties"@en-CA ;
+        skos:prefLabel   "show properties"@en-US .
+
+prop-data:undefined_runtime_property.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "undefined_runtime_property.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "property in runtime.properties is undefined."@all .
+
+prop-data:harvest_error_instructions_three.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_three.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@en-US ;
+        skos:prefLabel   "в runtime.properties указывает на каталог установки Подборщика."@ru-RU ;
+        skos:prefLabel   "Svojsvo unutar runtime.properties fajla pokazuje na direktorijum gde je instaliran Prikupljač."@sr-Latn-RS ;
+        skos:prefLabel   "property dans runtime.properties pointe sur le répertoire d'installation de l'outil de moissonnage (harvester)."@fr-CA ;
+        skos:prefLabel   "propriedade em runtime.properties é apontado para o diretório de instalação Harvester."@pt-BR ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@en-CA .
+
+prop-data:hide_show_properties.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "hide_show_properties.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "hide/show properties"@en-CA ;
+        skos:prefLabel   "hide/show properties"@en-US .
+
+prop-data:faux_property_by_base.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faux_property_by_base.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "faux properties by base property"@en-CA ;
+        skos:prefLabel   "faux properties by base property"@en-US .
+
+prop-data:faux_property_alpha.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faux_property_alpha.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "faux properties alphabetically"@en-CA ;
+        skos:prefLabel   "faux properties alphabetically"@en-US .
+
+prop-data:properties  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "properties" .
+
+prop-data:hide_properties.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "hide_properties.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "hide properties"@en-CA ;
+        skos:prefLabel   "hide properties"@en-US .
+
+prop-data:properties.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "properties.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "свойства"@ru-RU ;
+        skos:prefLabel   "propriétés"@fr-CA ;
+        skos:prefLabel   "Eigenschaften"@de-DE ;
+        skos:prefLabel   "properties"@en-CA ;
+        skos:prefLabel   "properties"@en-US ;
+        skos:prefLabel   "propiedades"@es ;
+        skos:prefLabel   "svojstva"@sr-Latn-RS ;
+        skos:prefLabel   "Propriedades"@pt-BR .
+
+prop-data:harvest_error_instructions_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_three.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@all .
+
+prop-data:undefined_runtime_property.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "undefined_runtime_property.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "propriedade em runtime.properties está indefinido."@pt-BR ;
+        skos:prefLabel   "property dans runtime.properties n'est pas défini."@fr-CA ;
+        skos:prefLabel   "свойство не определено в runtime.properties."@ru-RU ;
+        skos:prefLabel   "property in runtime.properties is undefined."@en-CA ;
+        skos:prefLabel   "property in runtime.properties is undefined."@en-US ;
+        skos:prefLabel   "svojstvo u runtime.properties nije definisano."@sr-Latn-RS .

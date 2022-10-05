@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "no_html_specified.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "HTML nije specificiran."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "HTML non spécifié."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "HTML não especificado."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "HTML не задан."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kein HTML angegeben."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No HTML specified."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No HTML specified."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No se ha especificado el HTML ."@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_html_specified> <http://www.w3.org/2000/01/rdf-schema#label> "no_html_specified" .

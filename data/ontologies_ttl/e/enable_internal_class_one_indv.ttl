@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:enable_internal_class_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enable_internal_class_one.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "To enable this option, you must first select an"@all .
+
+prop-data:enable_internal_class_one
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "enable_internal_class_one" .
+
+prop-data:enable_internal_class_one.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "enable_internal_class_one.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Um diese Option zu aktivieren, müssen Sie zuerst eine Auswahl treffen."@de-DE ;
+        skos:prefLabel   "Para ativar esta opção, você deve primeiro selecionar um"@pt-BR ;
+        skos:prefLabel   "Чтобы включить эту опцию, необходимо сначала выбрать"@ru-RU ;
+        skos:prefLabel   "To enable this option, you must first select an"@en-CA ;
+        skos:prefLabel   "To enable this option, you must first select an"@en-US ;
+        skos:prefLabel   "Da bi omogućili ovu opciju, prvo morate odabrati"@sr-Latn-RS ;
+        skos:prefLabel   "Pour activer cette option vous devez d'abord choisir un"@fr-CA ;
+        skos:prefLabel   "Para activar esta opción, primero debe seleccionar una"@es .

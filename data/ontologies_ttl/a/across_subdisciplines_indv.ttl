@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:across_subdisciplines
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "across_subdisciplines" .
+
+prop-data:across_subdisciplines.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "across_subdisciplines.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "across 554 scientific subdisciplines"@en-CA ;
+        skos:prefLabel   "across 554 scientific subdisciplines"@en-US ;
+        skos:prefLabel   "tras 554 subdisciplinas científicas"@es ;
+        skos:prefLabel   "quer durch alle 554 wissenschaftlichen Subdisziplinen"@de-DE ;
+        skos:prefLabel   "по 554 научным субдисциплинам"@ru-RU ;
+        skos:prefLabel   "à travers 554 sous-disciplines scientifiques"@fr-CA ;
+        skos:prefLabel   "através de 554 sub-disciplinas científicas"@pt-BR ;
+        skos:prefLabel   "u okviru 554 naučne poddiscipline"@sr-Latn-RS .
+
+prop-data:across_subdisciplines.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "across_subdisciplines.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "across 554 scientific subdisciplines"@all .

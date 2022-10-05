@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:data_property_hierarchy.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "data_property_hierarchy.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Hierarchie für Daten-Eigenschaften"@de-DE ;
+        skos:prefLabel   "Jerarquía de propiedades de datos"@es ;
+        skos:prefLabel   "Hiérarchie des propriétés de données"@fr-CA ;
+        skos:prefLabel   "Hierarquia da Propriedade do Dado"@pt-BR ;
+        skos:prefLabel   "Иерархия свойств данных"@ru-RU ;
+        skos:prefLabel   "Data property hierarchy"@en-US ;
+        skos:prefLabel   "Data property hierarchy"@en-CA ;
+        skos:prefLabel   "Hijerarhije svojstva podataka"@sr-Latn-RS .
+
+prop-data:data_property_hierarchy
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "data_property_hierarchy" .

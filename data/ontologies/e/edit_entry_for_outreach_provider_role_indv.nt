@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "edit_entry_for_outreach_provider_role.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Ažurirajte ovu ulogu PR menadžera"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Diese Öffentlichkeitsarbeitsrolle bearbeiten Edit this outreach provider role"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Edit this outreach provider role"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Edit this outreach provider role"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Edite este papel de provedor de divulgação"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Edite este rol de proveedor de difusión"@es .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Éditer ce rôle de vulgarisateur(-trice)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Изменить эту роль провайдера аутрич-услуг"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_outreach_provider_role> <http://www.w3.org/2000/01/rdf-schema#label> "edit_entry_for_outreach_provider_role" .

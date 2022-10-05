@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "position_type.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Art der Position"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Position Type"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Position Type"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tip pozicije"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tipo de posição"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tipo de puesto"@es .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type de poste"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Тип должности"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "position_type.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Position Type"@all .
+<http://vivoweb.org/ontology/core/properties/individual#position_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#position_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#position_type> <http://www.w3.org/2000/01/rdf-schema#label> "position_type" .

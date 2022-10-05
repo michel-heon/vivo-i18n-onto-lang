@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "supply_sparql_query.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Debe proporcionar una consulta SPARQL."@es .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Morate uneti Sparql upit."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sie müssen eine Sparql-Anfrage angeben."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Você deve fornecer uma consulta SPARQL."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vous devez fournir une requête SPARQL."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "You must supply a Sparql query."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "You must supply a Sparql query."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Следует задать запрос Sparql."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#supply_sparql_query> <http://www.w3.org/2000/01/rdf-schema#label> "supply_sparql_query" .

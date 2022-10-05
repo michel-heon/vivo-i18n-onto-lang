@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:build_date  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "build_date" .
+
+prop-data:build_date.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "build_date.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Build date"@en-CA ;
+        skos:prefLabel   "Build date"@en-US ;
+        skos:prefLabel   "Build-Datum"@de-DE ;
+        skos:prefLabel   "Fecha de creación"@es ;
+        skos:prefLabel   "Date de compilation"@fr-CA ;
+        skos:prefLabel   "Data de construção"@pt-BR ;
+        skos:prefLabel   "Дата сборки"@ru-RU ;
+        skos:prefLabel   "Datum izrade"@sr-Latn-RS .

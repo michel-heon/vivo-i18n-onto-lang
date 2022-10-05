@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_active_grants
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "no_active_grants" .
+
+prop-data:no_active_grants.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no_active_grants.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Zur Zeit gibt es keine laufenden Forschungsprojekte für diesen Fachbereich."@de-DE ;
+        skos:prefLabel   "Aucune subvention active pour ce département."@fr-CA ;
+        skos:prefLabel   "Atualmente não há bolsas ativas para este departamento."@pt-BR ;
+        skos:prefLabel   "There are currently no active grants for this department."@en-CA ;
+        skos:prefLabel   "There are currently no active grants for this department."@en-US ;
+        skos:prefLabel   "Trenutno nema aktivnih grantova za ovaj departman."@sr-Latn-RS ;
+        skos:prefLabel   "Actualmente no hay concesiones activas para este departamento."@es ;
+        skos:prefLabel   "В этом научном подразделении нет действующих грантов."@ru-RU .
+
+prop-data:no_active_grants.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_active_grants.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "There are currently no active grants for this department."@all .

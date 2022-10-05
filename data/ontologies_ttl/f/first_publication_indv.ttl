@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:first_publication.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_publication.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Prva publikacija"@sr-Latn-RS ;
+        skos:prefLabel   "First publication"@en-CA ;
+        skos:prefLabel   "Primera publicación"@es ;
+        skos:prefLabel   "First publication"@en-US ;
+        skos:prefLabel   "Primeira Publicação"@pt-BR ;
+        skos:prefLabel   "erste Publikation"@de-DE ;
+        skos:prefLabel   "Первая публикация"@ru-RU ;
+        skos:prefLabel   "Première publication"@fr-CA .
+
+prop-data:first_publication.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_publication.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "First publication"@en-CA ;
+        skos:prefLabel   "First publication"@en-US ;
+        skos:prefLabel   "Первая публикация"@ru-RU ;
+        skos:prefLabel   "erste Publikation"@de-DE ;
+        skos:prefLabel   "Première publication"@fr-CA ;
+        skos:prefLabel   "Prvi objavljen rad"@sr-Latn-RS ;
+        skos:prefLabel   "Primeira Publicação"@pt-BR ;
+        skos:prefLabel   "Primera publicación"@es .
+
+prop-data:first_publication.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_publication.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "First publication"@all .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:javascript_require_to_edit.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "javascript_require_to_edit.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Для редактирования необходимо разрешить JavaScript."@ru-RU ;
+        skos:prefLabel   "In order to edit content, you'll need to enable JavaScript."@en-CA ;
+        skos:prefLabel   "In order to edit content, you'll need to enable JavaScript."@en-US ;
+        skos:prefLabel   "Um den Inhalt bearbeiten zu können, muss JavaScript aktiviert sein."@de-DE ;
+        skos:prefLabel   "Pour pouvoir modifier le contenu, vous devez activer JavaScript."@fr-CA ;
+        skos:prefLabel   "Para editar o conteúdo, você precisa ativar o JavaScript."@pt-BR ;
+        skos:prefLabel   "Da bi ste ažurirali sadržaj, morate da omogućite JavaScript."@sr-Latn-RS ;
+        skos:prefLabel   "Para editar el contenido, tendrá que activar JavaScript."@es .
+
+prop-data:javascript_require_to_edit
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "javascript_require_to_edit" .

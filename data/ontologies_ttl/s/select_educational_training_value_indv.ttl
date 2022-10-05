@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_educational_training_value
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_educational_training_value" .
+
+prop-data:select_educational_training_value.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_educational_training_value.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select a value in the Type of Educational Training field."@en-CA ;
+        skos:prefLabel   "Please select a value in the Type of Educational Training field."@en-US ;
+        skos:prefLabel   "Por favor seleccione un valor en el campo Tipo de Formación Educativa."@es ;
+        skos:prefLabel   "Por favor, selecione um valor no campo Tipo de Treinamento Educacional."@pt-BR ;
+        skos:prefLabel   "Пожалуйста, выберите значение в поле „Вид образовательной подготовки“."@ru-RU ;
+        skos:prefLabel   "Bitte im Feld Art der Ausbildung einen Wert auswählen."@de-DE ;
+        skos:prefLabel   "SVP, choisir une entrée dans le champ Type de formation pédagogique."@fr-CA ;
+        skos:prefLabel   "Molimo Vas odaberite vrednost za polje Tip edukativnog treninga."@sr-Latn-RS .
+
+prop-data:select_educational_training_value.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_educational_training_value.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select a value in the Type of Educational Training field."@all .

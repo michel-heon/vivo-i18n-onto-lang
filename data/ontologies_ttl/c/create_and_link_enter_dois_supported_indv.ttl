@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_enter_dois_supported.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_enter_dois_supported.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Currently, DOIs issued by Crossref, DataCite and mEDRA are supported.<br />Each DOI should be separated by a comma or new line."@en-US ;
+        skos:prefLabel   "Currently, DOIs issued by Crossref, DataCite and mEDRA are supported.<br />Each DOI should be separated by a comma or new line."@en-CA ;
+        skos:prefLabel   "Actualmente, se soportan los DOIs emitidos por Crossref, DataCite y mEDRA.<br />Los DOIs deben separarse mediante coma o linea nueva."@es ;
+        skos:prefLabel   "Actuellement, les DOIs émis par Crossref, DataCite et mEDRA sont reconnus.<br />Les DOIs doivent être séparés par une virgule ou un saut de ligne."@fr-CA ;
+        skos:prefLabel   "Zur Zeit werden DOIs unterstützt, die von Crossref, DataCite und mEDRA vergeben wurden.<br />Jeder DOI sollte durch Komma oder Zeilenumbruch getrennt werden."@de-DE ;
+        skos:prefLabel   "Trenutno su podržani DOI koje izdaju \"Crossref\", \"DataCite\" i \"mEDRA\".<br />Svaki zaseban DOI treba da bude razdvojen zarezom ili novim redom."@sr-Latn-RS ;
+        skos:prefLabel   "Atualmente, DOIs emitidos por Crossref, DataCite e mEDRA são suportados.<br />Cada DOI deve ser separado por uma vírgula ou nova linha."@pt-BR ;
+        skos:prefLabel   "В настоящее время поддерживаются DOI, выданные Crossref, DataCite и mEDRA.<br />Они должны разделяться запятыми или символами перевода строки."@ru-RU .
+
+prop-data:create_and_link_enter_dois_supported
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_and_link_enter_dois_supported" .

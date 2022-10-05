@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "deleted_accounts.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Borrado {0} {0, choice, 0#accounts |1#account |1<accounts}."@es .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deletar {0} {0, choice, 0 # contas | 1 # conta | 1 <contas}."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deleted {0} {0, choice, 0#accounts|1#account|1<accounts}."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deleted {0} {0, choice, 0#accounts|1#account|1<accounts}."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "{0} détruits {0, choice, 0#accounts|1#account|1<accounts}."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "{0} {0, Auswahl, 0#Konten|1#Konto|1<Konten} gelöscht ."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "{0} {0, choice, 0#naloga|1#nalog|1<naloga} je {0, choice, 0#obrisano|1#obrisan|1<obrisano}."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Удалено: {0} {0, choice, 0#учётных записей|1#учётная запись|2#учётные записи|1<учётных записей}."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts> <http://www.w3.org/2000/01/rdf-schema#label> "deleted_accounts" .

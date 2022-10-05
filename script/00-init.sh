@@ -16,6 +16,8 @@ rm -fr $PROPERTIES_DATA/*.properties
 rm -fr $ONTO_DATA/*
 rm -fr $ONTO_DATA_TTL/*
 rm -fr $LIST_OF_KEYS_FN
+rm -fr $PROPERTIES_ONTO_DATA/*
+rm -fr $TARGET_HOME/*
 
 mkdir -p $ONTO_DATA/_
 mkdir -p $ONTO_DATA_TTL/_

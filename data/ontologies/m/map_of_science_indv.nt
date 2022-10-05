@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "map_of_science.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wissenschaftslandkarte"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "cartographie des sciences"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "map of science"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "map of science"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "mapa da ciência"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "mapa de la ciencia"@es .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "naučna mreža"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "карта научных дисциплин"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "map_of_science.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "map of science"@all .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science> <http://www.w3.org/2000/01/rdf-schema#label> "map_of_science" .

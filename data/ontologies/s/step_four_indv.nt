@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "step_four.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Korak 4"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paso 4"@es .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Passo 4"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Schritt 4"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Step 4"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Step 4"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Étape 4"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Этап 4"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "step_four.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Step 4"@all .
+<http://vivoweb.org/ontology/core/properties/individual#step_four> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#step_four> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#step_four> <http://www.w3.org/2000/01/rdf-schema#label> "step_four" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:additional_emails_capitalized.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "additional_emails_capitalized.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Additional Emails"@all .
+
+prop-data:additional_emails_capitalized
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "additional_emails_capitalized" .
+
+prop-data:additional_emails_capitalized.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "additional_emails_capitalized.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Additional Emails"@en-CA ;
+        skos:prefLabel   "Additional Emails"@en-US ;
+        skos:prefLabel   "Дополнительные адреса электронной почты"@ru-RU ;
+        skos:prefLabel   "weitere E-Mail-Adressen"@de-DE ;
+        skos:prefLabel   "Ostali Email-ovi"@sr-Latn-RS ;
+        skos:prefLabel   "Emails adicional"@pt-BR ;
+        skos:prefLabel   "Autres courriels"@fr-CA ;
+        skos:prefLabel   "Correos electrónicos adicionales"@es .

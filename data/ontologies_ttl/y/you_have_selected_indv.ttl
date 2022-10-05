@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:you_have_selected.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "you_have_selected.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "You have selected"@all .
+
+prop-data:you_have_selected
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "you_have_selected" .
+
+prop-data:you_have_selected.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "you_have_selected.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Вы выбрали"@ru-RU ;
+        skos:prefLabel   "You have selected"@en-CA ;
+        skos:prefLabel   "Ha seleccionado"@es ;
+        skos:prefLabel   "You have selected"@en-US ;
+        skos:prefLabel   "Sie haben ausgewählt"@de-DE ;
+        skos:prefLabel   "Vous avez sélectionné"@fr-CA ;
+        skos:prefLabel   "Você selecionou"@pt-BR ;
+        skos:prefLabel   "Odabrali ste"@sr-Latn-RS .

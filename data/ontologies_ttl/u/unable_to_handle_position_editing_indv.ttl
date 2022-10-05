@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:unable_to_handle_position_editing.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "unable_to_handle_position_editing.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Esta forma no es capaz de manejar la edición de esta posición, debido a que está asociada con múltiples posiciones particulares."@es ;
+        skos:prefLabel   "Este formulário é incapaz de lidar com a edição desta posição porque está associada com vários posição de indivíduos."@pt-BR ;
+        skos:prefLabel   "Impossible d'éditer ce poste depuis le formulaire: le poste est associé à plusieurs personnes."@fr-CA ;
+        skos:prefLabel   "This form is unable to handle the editing of this position because it is associated with multiple Position individuals."@ru-RU ;
+        skos:prefLabel   "This form is unable to handle the editing of this position because it is associated with multiple Position individuals."@en-CA ;
+        skos:prefLabel   "This form is unable to handle the editing of this position because it is associated with multiple Position individuals."@en-US ;
+        skos:prefLabel   "Dieses Formular kann die Bearbeitung dieser Position nicht ausführen, da es mit mehreren Einzelpositionen verbunden ist."@de-DE ;
+        skos:prefLabel   "Preko ove forme ne možete da ažurirate ovu poziciju zato što se vezuje za više osoba."@sr-Latn-RS .
+
+prop-data:unable_to_handle_position_editing
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "unable_to_handle_position_editing" .
+
+prop-data:unable_to_handle_position_editing.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "unable_to_handle_position_editing.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This form is unable to handle the editing of this position because it is associated with multiple Position individuals."@all .
+
+prop-data:unable_to_handle_position_editing.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "unable_to_handle_position_editing.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Невозможно отредактировать описание этой должности при помощи данной формы, поскольку оно связано одновременно с несколькими лицами с такой Должностью."@ru-RU ;
+        skos:prefLabel   "Nije moguće modifikovati ovu poziciju jer je povezana sa više osoba."@sr-Latn-RS ;
+        skos:prefLabel   "Este formulário é incapaz de lidar com a edição desta posição porque está associada com vários posição de indivíduos."@pt-BR ;
+        skos:prefLabel   "Dieses Formular kann die Bearbeitung dieser Position nicht ausführen, da es mit mehreren Einzelpositionen verbunden ist."@de-DE ;
+        skos:prefLabel   "Impossible d'éditer ce poste depuis le formulaire. Le poste est associé à plusieurs individus."@fr-CA ;
+        skos:prefLabel   "This form is unable to handle the editing of this position because it is associated with multiple Position individuals."@en-US ;
+        skos:prefLabel   "This form is unable to handle the editing of this position because it is associated with multiple Position individuals."@en-CA ;
+        skos:prefLabel   "Esta forma no es capaz de manejar la edición de esta posición, debido a que está asociada con múltiples posiciones particulares."@es .

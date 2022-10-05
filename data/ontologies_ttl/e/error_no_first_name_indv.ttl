@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_no_first_name
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "error_no_first_name" .
+
+prop-data:error_no_first_name.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "error_no_first_name.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Debe proporcionar su nombre."@es ;
+        skos:prefLabel   "Vous devez inscrire un prénom."@fr-CA ;
+        skos:prefLabel   "Следует указать имя."@ru-RU ;
+        skos:prefLabel   "Morate uneti ime."@sr-Latn-RS ;
+        skos:prefLabel   "Você deve fornecer um nome."@pt-BR ;
+        skos:prefLabel   "Sie müssen einen Vornamen angeben."@de-DE ;
+        skos:prefLabel   "You must supply a first name."@en-CA ;
+        skos:prefLabel   "You must supply a first name."@en-US .

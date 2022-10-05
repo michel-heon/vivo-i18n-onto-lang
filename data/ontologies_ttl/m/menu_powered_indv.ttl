@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_powered.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_powered.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Powered by"@all .
+
+prop-data:menu_powered.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "menu_powered.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Работает под управлением"@ru-RU ;
+        skos:prefLabel   "Omogućili:"@sr-Latn-RS ;
+        skos:prefLabel   "Desarrollado por"@es ;
+        skos:prefLabel   "Propulsé"@fr-CA ;
+        skos:prefLabel   "Desenvolvido por"@pt-BR ;
+        skos:prefLabel   "Powered by"@en-CA ;
+        skos:prefLabel   "Powered by"@en-US ;
+        skos:prefLabel   "Powered by"@de-DE .
+
+prop-data:menu_powered.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_powered.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Powered by"@de-DE ;
+        skos:prefLabel   "Powered by"@en-CA ;
+        skos:prefLabel   "Powered by"@en-US ;
+        skos:prefLabel   "Работает под управлением"@ru-RU ;
+        skos:prefLabel   "Sajt održava"@sr-Latn-RS ;
+        skos:prefLabel   "Propulsé par"@fr-CA ;
+        skos:prefLabel   "Desenvolvido por"@pt-BR ;
+        skos:prefLabel   "Desarrollado por"@es .
+
+prop-data:menu_powered
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "menu_powered" .

@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "search_service_btn.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Search Service"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Search Service"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Service de recherche"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Servicio de búsqueda"@es .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Servis pretrage"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Serviço de pesquisa"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suchdienst"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Служба поиска"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "search_service_btn.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Search Service"@all .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#search_service_btn> <http://www.w3.org/2000/01/rdf-schema#label> "search_service_btn" .

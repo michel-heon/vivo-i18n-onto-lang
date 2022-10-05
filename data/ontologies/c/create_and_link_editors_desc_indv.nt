@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_editors_desc.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ako ste urednik ovog rada, molimo Vas odaberite \"Urednik\"."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "If you edited the work, please select \"Editor\"."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "If you edited the work, please select \"Editor\"."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Se você editou a obra, por favor selecione \"Editor\"."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Si ha editado la obra, seleccione \"Editor\"."@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Si vous êtes l'éditeur de la publication, choisissez \"Éditeur(-trice)\""@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wenn Sie Herausgeber der Veröffentlichung sind, wählen Sie bitte \"Editor\" aus."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Если вы редактировали работу, выберите „Редактор“."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_editors_desc" .

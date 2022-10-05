@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:share_the_uri.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "share_the_uri.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "share the uri"@all .
+
+prop-data:share_the_uri.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "share_the_uri.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "partager cette URI"@fr-CA ;
+        skos:prefLabel   "поделиться URI"@ru-RU ;
+        skos:prefLabel   "URI teilen"@de-DE ;
+        skos:prefLabel   "compartilhar a uri"@pt-BR ;
+        skos:prefLabel   "share the uri"@en-CA ;
+        skos:prefLabel   "share the uri"@en-US ;
+        skos:prefLabel   "podelite uri"@sr-Latn-RS ;
+        skos:prefLabel   "compartir el URI"@es .
+
+prop-data:share_the_uri
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "share_the_uri" .

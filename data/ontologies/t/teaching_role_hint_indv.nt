@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "teaching_role_hint.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "e.g., Instructor, Facilitator, Assistant"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "e.g., Instructor, Facilitator, Assistant"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "eg, Instrutor, Facilitador, Assistente"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ex.: instructeur, facilitateur, assistant"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "npr. instruktor, profesor, asistent"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "por ejemplo, instructor, facilitador, Asistente"@es .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "z. B., LehrerIn, ModeratorIn, MitarbeiterIn"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "например, инструктор, фасилитатор, ассистент"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "teaching_role_hint.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "e.g., Instructor, Facilitator, Assistant"@all .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_role_hint> <http://www.w3.org/2000/01/rdf-schema#label> "teaching_role_hint" .

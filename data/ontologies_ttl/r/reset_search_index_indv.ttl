@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:reset_search_index.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "reset_search_index.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Reiniciar o índice de pesquisa e o reconstroi."@pt-BR ;
+        skos:prefLabel   "Reconstruire l'index de recherche."@fr-CA ;
+        skos:prefLabel   "Restablecer el índice de búsqueda y volver a llenarlo."@es ;
+        skos:prefLabel   "Reset the search index and re-populate it."@en-CA ;
+        skos:prefLabel   "Reset the search index and re-populate it."@en-US ;
+        skos:prefLabel   "Suchindex zurücksetzen und erneut befüllen."@de-DE ;
+        skos:prefLabel   "Resetujte indeks pretrage i iznova ga kreirajte."@sr-Latn-RS ;
+        skos:prefLabel   "Сбросить и перестроить поисковый индекс."@ru-RU .
+
+prop-data:reset_search_index
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "reset_search_index" .

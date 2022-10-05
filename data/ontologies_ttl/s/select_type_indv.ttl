@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_type" .
+
+prop-data:select_type.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Odaberite tip"@sr-Latn-RS ;
+        skos:prefLabel   "Seleccione un tipo"@es ;
+        skos:prefLabel   "Выберите вид"@ru-RU ;
+        skos:prefLabel   "Wählen Sie einen Typ"@de-DE ;
+        skos:prefLabel   "Choisir un type"@fr-CA ;
+        skos:prefLabel   "Select a type"@en-CA ;
+        skos:prefLabel   "Select a type"@en-US ;
+        skos:prefLabel   "Selecione um tipo de"@pt-BR .

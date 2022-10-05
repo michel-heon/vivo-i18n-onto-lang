@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "or_create_new_one.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ili kreirajte novi."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "o cree uno nuevo."@es .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "oder eine neue erstellen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "or create a new one."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "or create a new one."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ou criar um novo."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ou en créer un nouveau."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "или создайте новый."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#or_create_new_one> <http://www.w3.org/2000/01/rdf-schema#label> "or_create_new_one" .

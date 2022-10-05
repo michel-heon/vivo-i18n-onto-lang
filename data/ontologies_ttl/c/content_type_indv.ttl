@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:content_type.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "content_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Tipo de Conteúdo"@pt-BR ;
+        skos:prefLabel   "Tip sadržaja"@sr-Latn-RS ;
+        skos:prefLabel   "Type de contenu"@fr-CA ;
+        skos:prefLabel   "Inhaltstyp"@de-DE ;
+        skos:prefLabel   "Content Type"@en-CA ;
+        skos:prefLabel   "Content Type"@en-US ;
+        skos:prefLabel   "Тип содержимого"@ru-RU ;
+        skos:prefLabel   "Tipo de contenido"@es .
+
+prop-data:content_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "content_type" .

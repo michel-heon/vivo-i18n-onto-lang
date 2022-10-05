@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:view_all_grants.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_grants.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "view all grants"@all .
+
+prop-data:view_all_grants
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "view_all_grants" .
+
+prop-data:view_all_grants.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "view_all_grants.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "ver todas las subvenciones"@es ;
+        skos:prefLabel   "visualizar todas as subvenções"@pt-BR ;
+        skos:prefLabel   "voir toutes les subventions"@fr-CA ;
+        skos:prefLabel   "просмотреть все гранты"@ru-RU ;
+        skos:prefLabel   "pregledajte sve grantove"@sr-Latn-RS ;
+        skos:prefLabel   "Alle Forschungsprojekte anzeigen."@de-DE ;
+        skos:prefLabel   "view all grants"@en-CA ;
+        skos:prefLabel   "view all grants"@en-US .

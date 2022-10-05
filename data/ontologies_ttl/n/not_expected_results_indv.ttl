@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:not_expected_results.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "not_expected_results.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Ces résultats ne sont pas ceux attendus?"@fr-CA ;
+        skos:prefLabel   "Not the results you expected?"@en-CA ;
+        skos:prefLabel   "Not the results you expected?"@en-US ;
+        skos:prefLabel   "Ovo nisu rezultati koje ste očekivali?"@sr-Latn-RS ;
+        skos:prefLabel   "¿No son los resultados que esperaba?"@es ;
+        skos:prefLabel   "Não foi o resultado esperado?"@pt-BR ;
+        skos:prefLabel   "Nicht die Ergebnisse, die Sie erwartet haben?"@de-DE ;
+        skos:prefLabel   "Не те результаты, которые вы ожидали?"@ru-RU .
+
+prop-data:not_expected_results
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "not_expected_results" .

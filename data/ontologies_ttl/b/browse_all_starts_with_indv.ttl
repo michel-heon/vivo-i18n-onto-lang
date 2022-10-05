@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:browse_all_starts_with
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "browse_all_starts_with" .
+
+prop-data:browse_all_starts_with.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "browse_all_starts_with.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Busque todos os indivíduos cujo nome começa com {0}"@pt-BR ;
+        skos:prefLabel   "Pretražite sve osobe čije ime počinje sa {0}"@sr-Latn-RS ;
+        skos:prefLabel   "Parcourir toutes fiches dont les noms commencent par {0}"@fr-CA ;
+        skos:prefLabel   "Browse all individuals whose name starts with {0}"@en-CA ;
+        skos:prefLabel   "Browse all individuals whose name starts with {0}"@en-US ;
+        skos:prefLabel   "Alle Personen durchsuchen, deren Name mit {0} beginnt"@de-DE ;
+        skos:prefLabel   "Просмотреть всех людей, чье имя начинается с {0}"@ru-RU ;
+        skos:prefLabel   "Visualizar todas las personas cuyo apellido empieza con {0}"@es .

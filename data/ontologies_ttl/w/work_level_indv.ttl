@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:work_level  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "work_level" .
+
+prop-data:work_level.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "work_level.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "nível de Trabalho"@pt-BR ;
+        skos:prefLabel   "Nivo rada"@sr-Latn-RS ;
+        skos:prefLabel   "Arbeitsebene"@de-DE ;
+        skos:prefLabel   "Work level"@en-CA ;
+        skos:prefLabel   "Work level"@en-US ;
+        skos:prefLabel   "Рабочий уровень"@ru-RU ;
+        skos:prefLabel   "Nivel de trabajo"@es ;
+        skos:prefLabel   "Niveau de tâche"@fr-CA .

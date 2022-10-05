@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "maximum_file_size.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maximale Dateigröße: {0} Megabyte"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maximum file size: {0} megabytes"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maximum file size: {0} megabytes"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Najveća veličina fajla: {0} megabajta"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taille maximale de l'image: {0} mégaoctets"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tamaño máximo de archivo: {0} megabytes"@es .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "tamanho máximo do arquivo: {0} megabytes"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Максимальный размер файла: {0} мегабайт"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#maximum_file_size> <http://www.w3.org/2000/01/rdf-schema#label> "maximum_file_size" .

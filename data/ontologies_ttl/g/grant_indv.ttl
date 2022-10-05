@@ -1,0 +1,340 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:unable_to_handle_grant_editing.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "unable_to_handle_grant_editing.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@all .
+
+prop-data:grant_type.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_type.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Tip grant-a"@sr-Latn-RS ;
+        skos:prefLabel   "grant Type"@en-CA ;
+        skos:prefLabel   "grant Type"@en-US .
+
+prop-data:grant_sparkline_note.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_sparkline_note.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@all .
+
+prop-data:grant  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "grant" .
+
+prop-data:missing_grant.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_grant.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "nedostaje grant"@sr-Latn-RS ;
+        skos:prefLabel   "missing grant"@en-CA ;
+        skos:prefLabel   "missing grant"@en-US .
+
+prop-data:granted.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "granted.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "odobren grant"@sr-Latn-RS .
+
+prop-data:return_to_grant.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_grant.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Return to grant"@en-CA ;
+        skos:prefLabel   "Return to grant"@en-US ;
+        skos:prefLabel   "Retornar para grant"@pt-BR .
+
+prop-data:selected_grant.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_grant.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Odabran grant"@sr-Latn-RS .
+
+prop-data:grants_text_one.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_one.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Ovo telo je iz template fajla vivo/productMods/templates/freemarker/body/menupage/grants.ftl. Unutar modela za prikaz, stranica sa grant-ovima ima display:requiresBodyTemplate svojstvo koje definiše da stranica sa grantovima override-uje pretpostavljen template. Pretpostavljen template za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS .
+
+prop-data:grant_entry_for.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_entry_for.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "grant entry for"@en-CA ;
+        skos:prefLabel   "grant entry for"@en-US .
+
+prop-data:vis_tools_note_one.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_one.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Vizualizacije velikih skupova podataka, kao što su 'Temporal Graph' ili 'Map of Science' uključuju računanje ukupnog broja publikacija ili grant-ova za određen entitet. S obzirom da to podrazumeva prolazak kroz sve pod-entitete datog entiteta, upit koji izvršava ovu operaciju zahteva i dosta memorije, i dosta vremena za izvršavanje. Da bi korisnici dobili brže svoje odgovore, rezultati datog upita se čuvaju u memoriji za brži pristup pri svakoj sledećoj vizualizaciji."@sr-Latn-RS .
+
+prop-data:grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "grant"@all .
+
+prop-data:return_to_grant.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_grant.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Retornar para grant"@pt-BR ;
+        skos:prefLabel   "Return to grant"@en-CA ;
+        skos:prefLabel   "Return to grant"@en-US ;
+        skos:prefLabel   "Povratak na grant"@sr-Latn-RS .
+
+prop-data:grant_administered_by.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_administered_by.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "grant being administered by"@all .
+
+prop-data:grant.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "grant.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "subvention"@fr-CA ;
+        skos:prefLabel   "Forschungsprojekt"@de-DE ;
+        skos:prefLabel   "грант"@ru-RU ;
+        skos:prefLabel   "concessão"@pt-BR ;
+        skos:prefLabel   "conceder"@es ;
+        skos:prefLabel   "grant"@en-US ;
+        skos:prefLabel   "grant"@sr-Latn-RS ;
+        skos:prefLabel   "grant"@en-CA .
+
+prop-data:no_grants_for.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_grants_for.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Trenutno nema grant-ova za"@sr-Latn-RS .
+
+prop-data:grant_sparkline_note.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_sparkline_note.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-CA ;
+        skos:prefLabel   "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-US .
+
+prop-data:grant_type.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_type.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "grant Type"@en-CA ;
+        skos:prefLabel   "grant Type"@en-US .
+
+prop-data:grant_date.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_date.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "grant Date"@en-CA ;
+        skos:prefLabel   "grant Date"@en-US ;
+        skos:prefLabel   "Datum grant-a"@sr-Latn-RS .
+
+prop-data:place_of_grant.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "place_of_grant.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Place of grant"@en-CA ;
+        skos:prefLabel   "Place of grant"@en-US .
+
+prop-data:grant_entry_for.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_entry_for.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "grant entry for"@en-CA ;
+        skos:prefLabel   "grant entry for"@en-US .
+
+prop-data:return_to_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Return to grant"@all .
+
+prop-data:intro_para2.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "intro_para2.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Pretražite informacije o osobama, departmanima, kursevima, grant-ovima, i publikacijama."@sr-Latn-RS .
+
+prop-data:missing_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "missing grant"@all .
+
+prop-data:grant_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "grant Type"@all .
+
+prop-data:grant_date.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_date.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "grant Date"@en-CA ;
+        skos:prefLabel   "grant Date"@en-US .
+
+prop-data:unable_to_handle_grant_editing.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "unable_to_handle_grant_editing.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-CA ;
+        skos:prefLabel   "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-US ;
+        skos:prefLabel   "Nije moguće modifikovati ovaj itip grant-a, jer je povezan sa više različitih grant-ova."@sr-Latn-RS .
+
+prop-data:grants_in_vivo.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_in_vivo.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "grant-ovi u VIVO-u"@sr-Latn-RS .
+
+prop-data:grant_administered_by.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_administered_by.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "grant kojim upravlja"@sr-Latn-RS ;
+        skos:prefLabel   "grant being administered by"@en-CA ;
+        skos:prefLabel   "grant being administered by"@en-US .
+
+prop-data:unable_to_handle_grant_editing.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "unable_to_handle_grant_editing.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-CA ;
+        skos:prefLabel   "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-US .
+
+prop-data:place_of_grant.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "place_of_grant.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Place of grant"@en-CA ;
+        skos:prefLabel   "Place of grant"@en-US ;
+        skos:prefLabel   "Mesto grant-a"@sr-Latn-RS .
+
+prop-data:currently_no_grants_for.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "currently_no_grants_for.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Trenutno nema {0} grant-ova za"@sr-Latn-RS .
+
+prop-data:place_of_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "place_of_grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Place of grant"@all .
+
+prop-data:grant_entry_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_entry_for.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "grant entry for"@all .
+
+prop-data:grant_date.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_date.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "grant Date"@all .

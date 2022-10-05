@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:missing_event.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "missing_event.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "не хватает мероприятия"@ru-RU ;
+        skos:prefLabel   "falta de eventos"@es ;
+        skos:prefLabel   "evento não encontrado"@pt-BR ;
+        skos:prefLabel   "događaj nedostaje"@sr-Latn-RS ;
+        skos:prefLabel   "événement manquant"@fr-CA ;
+        skos:prefLabel   "fehlende Veranstaltung"@de-DE ;
+        skos:prefLabel   "missing event"@en-CA ;
+        skos:prefLabel   "missing event"@en-US .
+
+prop-data:missing_event
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "missing_event" .
+
+prop-data:missing_event.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_event.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "missing event"@all .

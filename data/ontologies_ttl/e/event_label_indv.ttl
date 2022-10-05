@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:event_label.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "event_label.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Bezeichnung der Veranstaltung"@de-DE ;
+        skos:prefLabel   "etiqueta do vento"@pt-BR ;
+        skos:prefLabel   "etiqueta de evento"@es ;
+        skos:prefLabel   "labela događaja"@sr-Latn-RS ;
+        skos:prefLabel   "event label"@en-CA ;
+        skos:prefLabel   "event label"@en-US ;
+        skos:prefLabel   "метка мероприятия"@ru-RU ;
+        skos:prefLabel   "étiquette de l'événement"@fr-CA .
+
+prop-data:event_label.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "event_label.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "event label"@all .
+
+prop-data:event_label
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "event_label" .

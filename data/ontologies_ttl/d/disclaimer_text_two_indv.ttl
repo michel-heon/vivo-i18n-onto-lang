@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:disclaimer_text_two.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "disclaimer_text_two.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "die ab in das VIVO-System geladen wurden."@de-DE ;
+        skos:prefLabel   "which have been loaded into the VIVO system as of"@en-CA ;
+        skos:prefLabel   "which have been loaded into the VIVO system as of"@en-US ;
+        skos:prefLabel   "qui ont été chargés dans le système VIVO comme"@fr-CA ;
+        skos:prefLabel   "которые были загружены в систему VIVO к"@ru-RU ;
+        skos:prefLabel   "que foram introduzidos no sistema a partir de VIVO"@pt-BR ;
+        skos:prefLabel   "que hayan sido cargados en el sistema VIVO como"@es ;
+        skos:prefLabel   "koji se nalaze unutar VIVO sistema od"@sr-Latn-RS .
+
+prop-data:disclaimer_text_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "disclaimer_text_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "which have been loaded into the VIVO system as of"@all .
+
+prop-data:disclaimer_text_two
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "disclaimer_text_two" .

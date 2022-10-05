@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:multiple_content_default_template_error
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "multiple_content_default_template_error" .
+
+prop-data:multiple_content_default_template_error.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "multiple_content_default_template_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Morate specificirati prilagođen šablon kada koristite više tipova sadržaja."@sr-Latn-RS ;
+        skos:prefLabel   "Avec plusieurs types de contenu, vous devez spécifier un modèle personnalisé."@fr-CA ;
+        skos:prefLabel   "Bei verschiedenen Inhaltstypen müssen Sie eine benutzerdefinierte Vorlage angeben."@de-DE ;
+        skos:prefLabel   "With multiple content types, you must specify a custom template."@en-CA ;
+        skos:prefLabel   "With multiple content types, you must specify a custom template."@en-US ;
+        skos:prefLabel   "Con varios tipos de contenido , debe especificar una plantilla personalizada ."@es ;
+        skos:prefLabel   "При использовании нескольких типов содержимого необходимо задать пользовательский шаблон."@ru-RU ;
+        skos:prefLabel   "Com vários tipos de conteúdo, você deve especificar um modelo personalizado."@pt-BR .

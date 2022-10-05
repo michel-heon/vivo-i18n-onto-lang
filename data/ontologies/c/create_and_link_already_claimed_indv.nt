@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_already_claimed.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sie haben diese Veröffentlichung bereits für sich beansprucht."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Več ste položili autorska prava na ovaj rad."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Você já reivindicou esta obra."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vous avez déjà revendiqué cette publication."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ya ha reclamado esta obra."@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "You have already claimed this work."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "You have already claimed this work."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Вы уже заявили о своей претензии на эту работу."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_already_claimed" .

@@ -1,0 +1,68 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_entry
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_entry" .
+
+prop-data:create_entry.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "create_entry.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Создать запись"@ru-RU ;
+        skos:prefLabel   "Kreirajte Entitet"@sr-Latn-RS ;
+        skos:prefLabel   "Create Entry"@en-CA ;
+        skos:prefLabel   "Create Entry"@en-US ;
+        skos:prefLabel   "Eintrag erstellen"@de-DE ;
+        skos:prefLabel   "Créer un enregistrement"@fr-CA ;
+        skos:prefLabel   "Criar Entrada"@pt-BR ;
+        skos:prefLabel   "Crear entrada"@es .
+
+prop-data:create_entry.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_entry.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Create Entry"@en-CA ;
+        skos:prefLabel   "Create Entry"@en-US ;
+        skos:prefLabel   "Создать запись"@ru-RU ;
+        skos:prefLabel   "Créer un enregistrement"@fr-CA ;
+        skos:prefLabel   "Crear entrada"@es ;
+        skos:prefLabel   "Kreirajte unos"@sr-Latn-RS ;
+        skos:prefLabel   "Eintrag erstellen"@de-DE ;
+        skos:prefLabel   "Criar Entrada"@pt-BR .
+
+prop-data:create_entry.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_entry.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Kreirajte unos"@sr-Latn-RS ;
+        skos:prefLabel   "Создать запись"@ru-RU ;
+        skos:prefLabel   "Create Entry"@en-CA ;
+        skos:prefLabel   "Create Entry"@en-US ;
+        skos:prefLabel   "Crear entrada"@es ;
+        skos:prefLabel   "Criar Entrada"@pt-BR ;
+        skos:prefLabel   "Créer une entrée"@fr-CA ;
+        skos:prefLabel   "Eintrag erstellen"@de-DE .
+
+prop-data:create_entry.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_entry.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Create Entry"@all .

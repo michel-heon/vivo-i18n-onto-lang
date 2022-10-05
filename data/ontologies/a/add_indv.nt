@@ -1,0 +1,72 @@
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "add.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agregar"@es .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "add"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "add"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "adicionar"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ajouter"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "dodajte"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "hinzufügen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#add.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "добавить"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#add> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#add> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#add> <http://www.w3.org/2000/01/rdf-schema#label> "add" .
+<http://vivoweb.org/ontology/core/properties/individual#add_content_manage_site.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_content_manage_site.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_content_manage_site.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#add_content_manage_site.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#add_content_manage_site.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "add_content_manage_site.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#add_content_manage_site.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "add content and manage this site"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_content_manage_site.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "add content and manage this site"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "or_add_new_one.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "or add a new one."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "or add a new one."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "or_add_new_one.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "or add a new one."@all .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_denied.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_denied.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_denied.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_denied.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_denied.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_step2_denied.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_denied.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>You denied VIVO's request to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_denied.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>You denied VIVO's request to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_description.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_description.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_description.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_description.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_description.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_step2_description.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_description.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<ul><li>VIVO redirects you to ORCID's web site</li> <li>You tell ORCID that VIVO may add an \"external ID\" to your ORCID record.</li> <li>VIVO adds the external ID.</li></ul>"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_description.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<ul><li>VIVO redirects you to ORCID's web site</li> <li>You tell ORCID that VIVO may add an \"external ID\" to your ORCID record.</li> <li>VIVO adds the external ID.</li></ul>"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_failed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_failed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_failed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_failed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_step2_failed.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_failed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>VIVO failed to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_failed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>VIVO failed to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_add.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_add.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_add.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_add.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_title_add.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_add.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Do you want to add an ORCID iD?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_add.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Do you want to add an ORCID iD?"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_confirm.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_confirm.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_confirm.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_confirm.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_confirm.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_title_confirm.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_confirm.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Do you want to add an ORCID iD?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_title_confirm.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Do you want to add an ORCID iD?"@en-US .

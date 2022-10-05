@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:proceedings_of.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "proceedings_of.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Proceedings of"@all .
+
+prop-data:proceedings_of.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "proceedings_of.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Actes de"@fr-CA ;
+        skos:prefLabel   "Procedimento de"@pt-BR ;
+        skos:prefLabel   "Actas de"@es ;
+        skos:prefLabel   "Tagungsberichte von"@de-DE ;
+        skos:prefLabel   "Zbornik radova"@sr-Latn-RS ;
+        skos:prefLabel   "Материалы"@ru-RU ;
+        skos:prefLabel   "Proceedings of"@en-CA ;
+        skos:prefLabel   "Proceedings of"@en-US .
+
+prop-data:proceedings_of
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "proceedings_of" .

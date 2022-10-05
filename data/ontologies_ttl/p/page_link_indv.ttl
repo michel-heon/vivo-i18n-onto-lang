@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:page_link.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "page_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "link stranice"@sr-Latn-RS ;
+        skos:prefLabel   "Enlace de página"@es ;
+        skos:prefLabel   "Seite wählen"@de-DE ;
+        skos:prefLabel   "page link"@en-CA ;
+        skos:prefLabel   "page link"@en-US ;
+        skos:prefLabel   "link da página"@pt-BR ;
+        skos:prefLabel   "lien vers page"@fr-CA ;
+        skos:prefLabel   "Ссылка на страницу"@ru-RU .
+
+prop-data:page_link  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "page_link" .

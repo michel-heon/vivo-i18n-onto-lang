@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "advanced_data_tools.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Advanced Data Tools"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Advanced Data Tools"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Erweiterte Datentools"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ferramentas de Dados Avançados"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Herramientas de datos avanzadas"@es .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Napredni alati za rad sa podacima"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Outils de données avancés"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Расширенные инструменты работы с данными"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#advanced_data_tools> <http://www.w3.org/2000/01/rdf-schema#label> "advanced_data_tools" .

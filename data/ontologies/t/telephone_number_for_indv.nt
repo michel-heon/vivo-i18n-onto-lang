@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "telephone_number_for.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Telefonnummer von"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "numéro de téléphone pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "número de telefone para"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "número de teléfono para"@es .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "telefonski broj za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "telephone number for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "telephone number for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "номер телефона для"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "telephone_number_for.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "telephone number for"@all .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#telephone_number_for> <http://www.w3.org/2000/01/rdf-schema#label> "telephone_number_for" .

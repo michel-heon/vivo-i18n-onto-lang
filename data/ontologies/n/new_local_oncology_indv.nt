@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "new_local_oncology.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "a new local ontology"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "a new local ontology"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "eine neue lokale Ontologie"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "nova lokalna ontologija"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "uma nova ontologia local"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "una nueva ontología local"@es .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "une nouvelle ontologie locale"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "новую онтологию"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "new_local_oncology.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "a new local ontology"@all .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_local_oncology> <http://www.w3.org/2000/01/rdf-schema#label> "new_local_oncology" .

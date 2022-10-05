@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "search_index_status.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estatus del índice de búsqueda"@es .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Search Index Status"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Search Index Status"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Status de l'index de recherche"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Status do Índice de Pesquisa"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Status indeksa pretrage"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suchindex-Status"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Состояние поискового индекса"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#search_index_status> <http://www.w3.org/2000/01/rdf-schema#label> "search_index_status" .

@@ -1,0 +1,68 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_capitalized
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_capitalized" .
+
+prop-data:create_capitalized.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "create_capitalized.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Crear"@es ;
+        skos:prefLabel   "Create"@en-CA ;
+        skos:prefLabel   "Create"@en-US ;
+        skos:prefLabel   "Créer"@fr-CA ;
+        skos:prefLabel   "Создать новый объект"@ru-RU ;
+        skos:prefLabel   "Kreirajte"@sr-Latn-RS ;
+        skos:prefLabel   "Criar"@pt-BR ;
+        skos:prefLabel   "Erstellen"@de-DE .
+
+prop-data:create_capitalized.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "create_capitalized.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Crear"@es ;
+        skos:prefLabel   "Criar"@pt-BR ;
+        skos:prefLabel   "Kreirajte"@sr-Latn-RS ;
+        skos:prefLabel   "Создать новый объект"@ru-RU ;
+        skos:prefLabel   "Créer"@fr-CA ;
+        skos:prefLabel   "Erstellen"@de-DE ;
+        skos:prefLabel   "Create"@en-CA ;
+        skos:prefLabel   "Create"@en-US .
+
+prop-data:create_capitalized.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_capitalized.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Crear"@es ;
+        skos:prefLabel   "Erstellen"@de-DE ;
+        skos:prefLabel   "Create"@en-CA ;
+        skos:prefLabel   "Create"@en-US ;
+        skos:prefLabel   "Создать новый объект"@ru-RU ;
+        skos:prefLabel   "Kreirajte"@sr-Latn-RS ;
+        skos:prefLabel   "Criar"@pt-BR ;
+        skos:prefLabel   "Créer"@fr-CA .
+
+prop-data:create_capitalized.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_capitalized.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Create"@all .

@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "select_an_existing.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choisir un élément existant"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Odaberite postojeći"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Seleccione un nombre existente de"@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Selecione um já existente"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Select an existing"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Select an existing"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wählen Sie eine vorhandene"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Выберите название существующующего"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing> <http://www.w3.org/2000/01/rdf-schema#label> "select_an_existing" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:return_to_manage_concepts.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_manage_concepts.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Return to Manage Concepts"@all .
+
+prop-data:return_to_manage_concepts
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "return_to_manage_concepts" .
+
+prop-data:return_to_manage_concepts.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_manage_concepts.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Return to Manage Concepts"@en-US ;
+        skos:prefLabel   "Return to Manage Concepts"@en-CA ;
+        skos:prefLabel   "Revenir à la gestion des concepts"@fr-CA ;
+        skos:prefLabel   "Вернуться к работе с понятиями"@ru-RU ;
+        skos:prefLabel   "Regresar a Administrar Conceptos"@es ;
+        skos:prefLabel   "Zurück zu Konzepte verwalten"@de-DE ;
+        skos:prefLabel   "Povratak na upravljanje konceptima"@sr-Latn-RS ;
+        skos:prefLabel   "Voltar para Gerenciar Conceito"@pt-BR .

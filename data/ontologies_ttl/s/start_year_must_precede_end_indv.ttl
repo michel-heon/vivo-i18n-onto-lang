@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:start_year_must_precede_end.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "start_year_must_precede_end.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Год начала должен предшествовать году окончания."@ru-RU ;
+        skos:prefLabel   "Godina početka mora biti ranije od godine kraja."@sr-Latn-RS ;
+        skos:prefLabel   "The Start Year must be earlier than the End Year."@en-CA ;
+        skos:prefLabel   "The Start Year must be earlier than the End Year."@en-US ;
+        skos:prefLabel   "El Inicio de Año debe ser anterior al Fin de Año."@es ;
+        skos:prefLabel   "L'année de début doit précéder l'année de fin."@fr-CA ;
+        skos:prefLabel   "O ano de início deve ser anterior ao final do ano."@pt-BR ;
+        skos:prefLabel   "Das Anfangsjahr muss vor dem Endjahr liegen."@de-DE .
+
+prop-data:start_year_must_precede_end
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "start_year_must_precede_end" .
+
+prop-data:start_year_must_precede_end.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "start_year_must_precede_end.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The Start Year must be earlier than the End Year."@all .

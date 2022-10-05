@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:drag_drop_reorder_authors.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "drag_drop_reorder_authors.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Arrastrar y soltar para cambiar el orden de los autores"@es ;
+        skos:prefLabel   "Drag and drop to reorder authors"@en-CA ;
+        skos:prefLabel   "Drag and drop to reorder authors"@en-US ;
+        skos:prefLabel   "Изменяйте порядок перечисления авторов перетаскиванием"@ru-RU ;
+        skos:prefLabel   "Arrastar e soltar para reordenar autores"@pt-BR ;
+        skos:prefLabel   "Prevucite na drugo mesto da bi ste promenili redosled autora."@sr-Latn-RS ;
+        skos:prefLabel   "Glisser-déposer pour réorganiser les auteur(e)s"@fr-CA ;
+        skos:prefLabel   "AutorInnen mit Drag-and-Drop neu ordnen"@de-DE .
+
+prop-data:drag_drop_reorder_authors.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "drag_drop_reorder_authors.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Drag and drop to reorder authors"@all .
+
+prop-data:drag_drop_reorder_authors
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "drag_drop_reorder_authors" .

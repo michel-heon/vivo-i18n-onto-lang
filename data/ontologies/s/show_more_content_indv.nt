@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "show_more_content.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zeige mehr Inhalt"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "afficher plus"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "mostrar más contenido"@es .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "mostre mais conteúdo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "prikažite više sadržaja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "show more content"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "show more content"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "показать больше содержимого"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content> <http://www.w3.org/2000/01/rdf-schema#label> "show_more_content" .

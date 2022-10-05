@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:year_numeric.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "year_numeric.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Neispravan unos. Godina mora biti broj."@sr-Latn-RS ;
+        skos:prefLabel   "Ungültiger Eintrag. Das Jahr muss numerisch sein."@de-DE ;
+        skos:prefLabel   "Entrée invalide. L année doit être numérique"@fr-CA ;
+        skos:prefLabel   "Неверный ввод. Год должен быть вводится как число."@ru-RU ;
+        skos:prefLabel   "Entrada invalida. El año debe ser numérico."@es ;
+        skos:prefLabel   "Invalid entry. The Year must be numeric."@en-CA ;
+        skos:prefLabel   "Invalid entry. The Year must be numeric."@en-US ;
+        skos:prefLabel   "Entrada inválida. O Ano deve ser numérico."@pt-BR .
+
+prop-data:year_numeric
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "year_numeric" .

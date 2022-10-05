@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:display_admin_header.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "display_admin_header.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Администрирование и конфигурация отображения"@ru-RU ;
+        skos:prefLabel   "Administration et configuration de l'affichage"@fr-CA ;
+        skos:prefLabel   "Display Admin and Configuration"@en-CA ;
+        skos:prefLabel   "Display Admin and Configuration"@en-US ;
+        skos:prefLabel   "Admin und Konfiguration anzeigen"@de-DE ;
+        skos:prefLabel   "Exibir Administrador e configurações"@pt-BR ;
+        skos:prefLabel   "Administracija i Konfiguracija Prikaza"@sr-Latn-RS ;
+        skos:prefLabel   "Visualizar administración y configuración"@es .

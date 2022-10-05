@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:invalid_search_term.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "invalid_search_term.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "expression de recherche invalide"@fr-CA ;
+        skos:prefLabel   "Criterio de búsqueda no válido"@es ;
+        skos:prefLabel   "Izraz za pretragu nije validan"@sr-Latn-RS ;
+        skos:prefLabel   "Search term was invalid"@en-US ;
+        skos:prefLabel   "Search term was invalid"@en-CA ;
+        skos:prefLabel   "Der Suchbegriff war ungültig"@de-DE ;
+        skos:prefLabel   "Поисковый запросы был некорректен."@ru-RU ;
+        skos:prefLabel   "Termo de pesquisa era inválido"@pt-BR .

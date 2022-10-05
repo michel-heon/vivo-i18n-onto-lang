@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_serch_results_found
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "no_serch_results_found" .
+
+prop-data:no_serch_results_found.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no_serch_results_found.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "No search results were found."@en-CA ;
+        skos:prefLabel   "No search results were found."@en-US ;
+        skos:prefLabel   "No se han encontrado resultados de búsqueda."@es ;
+        skos:prefLabel   "Ni ejdan rezultat pretrage nije pronađen."@sr-Latn-RS ;
+        skos:prefLabel   "Aucun résultat pour cette recherche."@fr-CA ;
+        skos:prefLabel   "Ihre Suchanfrage lieferte leider keine Treffer."@de-DE ;
+        skos:prefLabel   "Ничего не найдено."@ru-RU ;
+        skos:prefLabel   "Nenhum resultado de pesquisa foram encontrados."@pt-BR .
+
+prop-data:no_serch_results_found.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_serch_results_found.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "No search results were found."@all .

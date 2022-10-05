@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:updated_account_1
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "updated_account_1" .
+
+prop-data:updated_account_1.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "updated_account_1.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Le compte de"@fr-CA ;
+        skos:prefLabel   "Das Konto für"@de-DE ;
+        skos:prefLabel   "A conta para"@pt-BR ;
+        skos:prefLabel   "Учётная запись"@ru-RU ;
+        skos:prefLabel   "The account for"@en-CA ;
+        skos:prefLabel   "The account for"@en-US ;
+        skos:prefLabel   "La cuenta para el"@es ;
+        skos:prefLabel   "Nalog za"@sr-Latn-RS .

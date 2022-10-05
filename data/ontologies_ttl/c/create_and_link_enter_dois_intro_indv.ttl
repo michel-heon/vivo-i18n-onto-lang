@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_enter_dois_intro
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_and_link_enter_dois_intro" .
+
+prop-data:create_and_link_enter_dois_intro.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_enter_dois_intro.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Vous pouvez inscrire un ou plusieurs DOIs à lier. Ils peuvent être saisis sous forme numérique ou d'URL:<br /><br />e.g."@fr-CA ;
+        skos:prefLabel   "Você pode inserir um ou mais DOIs para corresponder, e pode ser inserido como um ID ou URL:<br /><br />p.ex."@pt-BR ;
+        skos:prefLabel   "Puede agregar uno o más DOIs para que coincidan, y pueden agregarse como ID o como URL<br /><br />p.ej."@es ;
+        skos:prefLabel   "Вы можете ввести один или несколько DOI для сопоставления, которые могут быть введены либо как ID, либо как URL:<br /><br />например."@ru-RU ;
+        skos:prefLabel   "Možete uneti jedan ili više DOI-a za pretragu, i možete ih uneti ili kao ID ili kao URL:<br /><br />npr."@sr-Latn-RS ;
+        skos:prefLabel   "Sie können mehrere DOIs entweder als DOI oder als URL eingeben:<br /><br />z. B."@de-DE ;
+        skos:prefLabel   "You may enter one or more DOIs to match, and can be entered either as an ID or URL:<br /><br />e.g."@en-US ;
+        skos:prefLabel   "You may enter one or more DOIs to match, and can be entered either as an ID or URL:<br /><br />e.g."@en-CA .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_papers_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_papers_for.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Currently there are no papers for"@all .
+
+prop-data:no_papers_for
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "no_papers_for" .
+
+prop-data:no_papers_for.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no_papers_for.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "В настоящее время нет документов по"@ru-RU ;
+        skos:prefLabel   "Trenutno nema radova za"@sr-Latn-RS ;
+        skos:prefLabel   "no hay papeles para"@es ;
+        skos:prefLabel   "Zurzeit gibt es keine Artikel von"@de-DE ;
+        skos:prefLabel   "Currently there are no papers for"@en-CA ;
+        skos:prefLabel   "Currently there are no papers for"@en-US ;
+        skos:prefLabel   "Actualmente não há papéis para"@pt-BR ;
+        skos:prefLabel   "Il n'y a actuellement aucun article pour"@fr-CA .

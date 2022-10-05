@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "page_not_found_msg.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A página não foi encontrada no sistema."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Die Seite wurde im System nicht gefunden."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "La page n'a pas été trouvée dans le système."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "La página no se encontró en el sistema."@es .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stranica nije pronađena u sistemu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The page was not found in the system."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The page was not found in the system."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_found_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Страница не найдена в системе."@ru-RU .

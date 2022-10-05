@@ -1,0 +1,81 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:countries_and_regions.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "countries_and_regions.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "countries and regions."@en-CA ;
+        skos:prefLabel   "countries and regions."@en-US .
+
+prop-data:countries_and_regions.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "countries_and_regions.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "countries and regions."@all .
+
+prop-data:countries  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "countries" .
+
+prop-data:countries.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "countries.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "países"@pt-BR ;
+        skos:prefLabel   "países"@es ;
+        skos:prefLabel   "države"@sr-Latn-RS ;
+        skos:prefLabel   "countries"@en-CA ;
+        skos:prefLabel   "countries"@en-US ;
+        skos:prefLabel   "pays"@fr-CA ;
+        skos:prefLabel   "Länder"@de-DE ;
+        skos:prefLabel   "страны"@ru-RU .
+
+prop-data:countries.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "countries.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "países"@pt-BR ;
+        skos:prefLabel   "países"@es ;
+        skos:prefLabel   "countries"@en-CA ;
+        skos:prefLabel   "countries"@en-US ;
+        skos:prefLabel   "Länder"@de-DE ;
+        skos:prefLabel   "države"@sr-Latn-RS ;
+        skos:prefLabel   "pays"@fr-CA ;
+        skos:prefLabel   "страны"@ru-RU .
+
+prop-data:countries_and_regions.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "countries_and_regions.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "countries and regions."@en-CA ;
+        skos:prefLabel   "countries and regions."@en-US .
+
+prop-data:countries.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "countries.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "countries"@all .

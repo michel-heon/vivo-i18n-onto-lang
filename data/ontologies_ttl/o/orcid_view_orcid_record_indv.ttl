@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:orcid_view_orcid_record
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "orcid_view_orcid_record" .
+
+prop-data:orcid_view_orcid_record.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_view_orcid_record.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Просмотрите свою запись в ORCID."@ru-RU ;
+        skos:prefLabel   "View your ORCID record."@en-US ;
+        skos:prefLabel   "View your ORCID record."@en-CA ;
+        skos:prefLabel   "Vea su registro ORCID."@es ;
+        skos:prefLabel   "Zu Ihrem ORCID Eintrag"@de-DE ;
+        skos:prefLabel   "Consulter votre dossier ORCID."@fr-CA ;
+        skos:prefLabel   "PŠregledajte Vaš ORCID sadržaj."@sr-Latn-RS ;
+        skos:prefLabel   "Visualize seu registro ORCID."@pt-BR .

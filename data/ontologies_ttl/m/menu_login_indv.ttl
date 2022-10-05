@@ -1,0 +1,52 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_login.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "menu_login.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Anmelden"@de-DE ;
+        skos:prefLabel   "ulogujte se"@sr-Latn-RS ;
+        skos:prefLabel   "Log in"@en-CA ;
+        skos:prefLabel   "Log in"@en-US ;
+        skos:prefLabel   "Connexion"@fr-CA ;
+        skos:prefLabel   "Войти"@ru-RU ;
+        skos:prefLabel   "Login"@pt-BR ;
+        skos:prefLabel   "Iniciar sesión"@es .
+
+prop-data:menu_login.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "menu_login.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Anmelden"@de-DE ;
+        skos:prefLabel   "Connexion"@fr-CA ;
+        skos:prefLabel   "Prijavite se"@sr-Latn-RS ;
+        skos:prefLabel   "Войти"@ru-RU ;
+        skos:prefLabel   "Login"@pt-BR ;
+        skos:prefLabel   "Log in"@en-CA ;
+        skos:prefLabel   "Log in"@en-US ;
+        skos:prefLabel   "Iniciar sesión"@es .
+
+prop-data:menu_login.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_login.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Log in"@all .
+
+prop-data:menu_login  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "menu_login" .

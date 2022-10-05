@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:browse_page_javascript_one.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "browse_page_javascript_one.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Esta página browse requer javascript, mas o seu navegador está configurado para desativar javascript. Habilite o Javascript ou utilizar o"@pt-BR ;
+        skos:prefLabel   "Cette page de navigation nécessite JavaScript, mais votre navigateur est configuré pour désactiver JavaScript. Activez JavaScript ou utilisez la fonction"@fr-CA ;
+        skos:prefLabel   "Esta página de exploración requiere javascript, su navegador está configurado para deshabilitar javascript. Favor de habilitarlo para poder hacer uso de Javascript"@es ;
+        skos:prefLabel   "Ova stranica zahteva javascript, ali je u Vašem pretraživaču javascript onemogućen. Ili uključite javascript ili koristite"@sr-Latn-RS ;
+        skos:prefLabel   "Для просмотра этой страницы требуется JavaScript, но в Вашем браузере JavaScript отключён. Либо включите JavaScript, либо используйте"@ru-RU ;
+        skos:prefLabel   "This browse page requires javascript, but your browser is set to disable javascript. Either enable javascript or use the"@en-CA ;
+        skos:prefLabel   "This browse page requires javascript, but your browser is set to disable javascript. Either enable javascript or use the"@en-US ;
+        skos:prefLabel   "Diese Seite benötigt Javascript, aber in Ihrem Browser ist Javascript deaktiviert. Entweder aktivieren Sie Javascript oder verwenden Sie"@de-DE .
+
+prop-data:browse_page_javascript_one
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "browse_page_javascript_one" .

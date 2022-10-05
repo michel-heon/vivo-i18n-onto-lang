@@ -1,0 +1,62 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cap_map_text3.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text3.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-CA ;
+        skos:prefLabel   "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-US .
+
+prop-data:researcher  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "researcher" .
+
+prop-data:create_entry_for_researcher_role.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_entry_for_researcher_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   ": Add a new researcher role"@en-CA ;
+        skos:prefLabel   ": Add a new researcher role"@en-US .
+
+prop-data:researcher.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researcher.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "researcher"@all .
+
+prop-data:edit_entry_for_researcher_role.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_entry_for_researcher_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   ": Edit this researcher role"@en-CA ;
+        skos:prefLabel   ": Edit this researcher role"@en-US .
+
+prop-data:researcher.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researcher.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "pesquisador"@pt-BR ;
+        skos:prefLabel   "investigador"@es ;
+        skos:prefLabel   "научный сотрудник"@ru-RU ;
+        skos:prefLabel   "ForscherIn"@de-DE ;
+        skos:prefLabel   "chercheur(-euse)"@fr-CA ;
+        skos:prefLabel   "researcher"@en-CA ;
+        skos:prefLabel   "istraživač"@sr-Latn-RS ;
+        skos:prefLabel   "researcher"@en-US .

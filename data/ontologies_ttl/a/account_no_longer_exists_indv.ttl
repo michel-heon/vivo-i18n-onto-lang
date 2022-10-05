@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:account_no_longer_exists.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "account_no_longer_exists.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Das Konto, für das Sie versuchen ein Passwort zu setzen, ist nicht mehr verfügbar. Bitte kontaktieren Sie Ihren Systemadministrator, wenn Sie denken, dass dies ein Fehler ist."@de-DE ;
+        skos:prefLabel   "Le compte pour lequel vous tentez de modifier le mot de passe a été supprimé. Veuillez contacter votre administrateur système s'il s'agit d'une erreur."@fr-CA ;
+        skos:prefLabel   "Nalog za koji pokušavate da kreirate lozinku više nije dostupan. Molimo Vas kontaktirajte administratora ako mislite da je došlo do greške."@sr-Latn-RS ;
+        skos:prefLabel   "The account you are trying to set a password on is no longer available. Please contact your system administrator if you think this is an error."@en-CA ;
+        skos:prefLabel   "The account you are trying to set a password on is no longer available. Please contact your system administrator if you think this is an error."@en-US ;
+        skos:prefLabel   "La cuenta a la que está tratando de establecer una contraseña, ya no está disponible. Por favor, póngase en contacto con el administrador del sistema."@es ;
+        skos:prefLabel   "A conta que você está tentando definir uma senha no não está mais disponível. Entre em contato com o administrador do sistema, se você acha que isso é um erro."@pt-BR ;
+        skos:prefLabel   "Учетная запись, для которой вы пытаетесь установить пароль, больше не доступна. Обратитесь к системному администратору, если вы считаете, что произошла ошибка."@ru-RU .

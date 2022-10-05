@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:level_undefined_error.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "level_undefined_error.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "ENTITY LEVEL UNDEFINED ERROR"@all .
+
+prop-data:level_undefined_error.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "level_undefined_error.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "entidade de nível Erro indefinido"@pt-BR ;
+        skos:prefLabel   "FEHLER ENTITÄTSEBENE NICHT DEFINIERT"@de-DE ;
+        skos:prefLabel   "УРОВЕНЬ СРАВНЕНИЯ НЕ ЗАДАН"@ru-RU ;
+        skos:prefLabel   "ERROR INDEFINIDO EN EL NIVEL DE ENTIDAD"@es ;
+        skos:prefLabel   "ERREUR INCONNUE DE NIVEAU ENTITE"@fr-CA ;
+        skos:prefLabel   "GREŠKA - NIVO ENTITETA NIJE DEFINISAN"@sr-Latn-RS ;
+        skos:prefLabel   "ENTITY LEVEL UNDEFINED ERROR"@en-CA ;
+        skos:prefLabel   "ENTITY LEVEL UNDEFINED ERROR"@en-US .
+
+prop-data:level_undefined_error
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "level_undefined_error" .

@@ -1,0 +1,441 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:view.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "view.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "vue"@fr-CA ;
+        skos:prefLabel   "visualizção"@pt-BR ;
+        skos:prefLabel   "вид"@ru-RU ;
+        skos:prefLabel   "ver"@es ;
+        skos:prefLabel   "Ansicht"@de-DE ;
+        skos:prefLabel   "view"@en-CA ;
+        skos:prefLabel   "view"@en-US ;
+        skos:prefLabel   "pogled"@sr-Latn-RS .
+
+prop-data:page_loggedin_permission_option.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_loggedin_permission_option.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Logged in individuals can view this page"@en-CA ;
+        skos:prefLabel   "Logged in individuals can view this page"@en-US .
+
+prop-data:standardview_tooltip_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "standardview_tooltip_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "profile quick view."@all .
+
+prop-data:view_all_accounts_title.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_accounts_title.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "view all accounts"@en-CA ;
+        skos:prefLabel   "view all accounts"@en-US .
+
+prop-data:click_to_view_web_page.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "click_to_view_web_page.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Click to view the {0} web page"@en-CA ;
+        skos:prefLabel   "Click to view the {0} web page"@en-US .
+
+prop-data:click_to_view_web_page.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "click_to_view_web_page.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Click to view the {0} web page"@all .
+
+prop-data:view_all_research.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_research.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "view all research"@all .
+
+prop-data:quickview_tooltip.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quickview_tooltip.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Click to view the standard profile page."@en-CA ;
+        skos:prefLabel   "Click to view the standard profile page."@en-US .
+
+prop-data:create_and_link_finished.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_finished.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "There are no more works left to claim.<br />You may enter more IDs below, or view your profile."@en-CA ;
+        skos:prefLabel   "There are no more works left to claim.<br />You may enter more IDs below, or view your profile."@en-US .
+
+prop-data:click_to_view_account.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "click_to_view_account.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "click to view account details"@en-CA ;
+        skos:prefLabel   "click to view account details"@en-US .
+
+prop-data:standardview_tooltip_two.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "standardview_tooltip_two.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "profile quick view."@en-CA ;
+        skos:prefLabel   "profile quick view."@en-US .
+
+prop-data:no_view_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_view_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "no view link"@en-CA ;
+        skos:prefLabel   "no view link"@en-US ;
+        skos:prefLabel   "no view link"@ru-RU .
+
+prop-data:standard_view.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "standard_view.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Standard profile view"@all .
+
+prop-data:view_all_faculty.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_faculty.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "view all faculty"@all .
+
+prop-data:full_view_icon.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "full_view_icon.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "full view icon"@en-CA ;
+        skos:prefLabel   "full view icon"@en-US .
+
+prop-data:view_profile_for_page.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_profile_for_page.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "view the individual profile for this page"@en-CA ;
+        skos:prefLabel   "view the individual profile for this page"@en-US .
+
+prop-data:click_to_view_larger.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "click_to_view_larger.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "click to view larger image"@en-CA ;
+        skos:prefLabel   "click to view larger image"@en-US .
+
+prop-data:view_all_departments.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_departments.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "view all academic departments"@en-CA ;
+        skos:prefLabel   "view all academic departments"@en-US .
+
+prop-data:quick_view_icon.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quick_view_icon.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "quick view icon"@en-CA ;
+        skos:prefLabel   "quick view icon"@en-US .
+
+prop-data:no_view_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_view_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "no view link"@all .
+
+prop-data:view_all_faculty.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_faculty.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "view all faculty"@en-CA ;
+        skos:prefLabel   "view all faculty"@en-US .
+
+prop-data:page_curator_permission_option.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_curator_permission_option.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Curators and above can view this page"@en-CA ;
+        skos:prefLabel   "Curators and above can view this page"@en-US .
+
+prop-data:view_all_departments.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_departments.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "view all academic departments"@all .
+
+prop-data:page_editor_permission_option.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_editor_permission_option.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Editors and above can view this page"@en-CA ;
+        skos:prefLabel   "Editors and above can view this page"@en-US .
+
+prop-data:view_profile_in_rdf.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_profile_in_rdf.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "view profile in RDF format"@en-CA ;
+        skos:prefLabel   "view profile in RDF format"@en-US .
+
+prop-data:research_area_tooltip_one.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_area_tooltip_one.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Click an area to view others"@en-CA ;
+        skos:prefLabel   "Click an area to view others"@en-US .
+
+prop-data:view_all_research.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_research.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "view all research"@en-CA ;
+        skos:prefLabel   "view all research"@en-US .
+
+prop-data:view_all_grants.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_grants.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "view all grants"@en-CA ;
+        skos:prefLabel   "view all grants"@en-US .
+
+prop-data:view_all_departments.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_departments.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "view all academic departments"@en-CA ;
+        skos:prefLabel   "view all academic departments"@en-US .
+
+prop-data:view.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "view.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "ver"@es ;
+        skos:prefLabel   "pregled"@sr-Latn-RS ;
+        skos:prefLabel   "вид"@ru-RU ;
+        skos:prefLabel   "vue"@fr-CA ;
+        skos:prefLabel   "view"@en-CA ;
+        skos:prefLabel   "view"@en-US ;
+        skos:prefLabel   "Ansicht"@de-DE ;
+        skos:prefLabel   "visualizção"@pt-BR .
+
+prop-data:quickview_tooltip.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quickview_tooltip.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Click to view the standard profile page."@all .
+
+prop-data:full_view_icon.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "full_view_icon.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "full view icon"@all .
+
+prop-data:view.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "ver"@es ;
+        skos:prefLabel   "Anzeigen"@de-DE ;
+        skos:prefLabel   "view"@en-CA ;
+        skos:prefLabel   "view"@en-US ;
+        skos:prefLabel   "visualizar"@pt-BR ;
+        skos:prefLabel   "prikažite"@sr-Latn-RS ;
+        skos:prefLabel   "afficher"@fr-CA ;
+        skos:prefLabel   "вид"@ru-RU .
+
+prop-data:quick_view.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quick_view.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Quick profile view"@en-CA ;
+        skos:prefLabel   "Quick profile view"@en-US .
+
+prop-data:quick_view.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quick_view.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Quick profile view"@all .
+
+prop-data:standard_view.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "standard_view.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Standard profile view"@en-CA ;
+        skos:prefLabel   "Standard profile view"@en-US .
+
+prop-data:view  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "view" .
+
+prop-data:view.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "view"@all .
+
+prop-data:view_all_grants.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_grants.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "view all grants"@all .
+
+prop-data:quick_view_icon.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quick_view_icon.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "quick view icon"@all .
+
+prop-data:view_list_of_labels.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_list_of_labels.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "view list of labels"@en-CA ;
+        skos:prefLabel   "view list of labels"@en-US .
+
+prop-data:view_all_faculty.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_faculty.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "view all faculty"@en-CA ;
+        skos:prefLabel   "view all faculty"@en-US .
+
+prop-data:page_admin_permission_option.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_admin_permission_option.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Only admins can view this page"@en-CA ;
+        skos:prefLabel   "Only admins can view this page"@en-US .
+
+prop-data:insufficient_authorization.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "insufficient_authorization.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-CA ;
+        skos:prefLabel   "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-US .
+
+prop-data:research_area_tooltip_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_area_tooltip_one.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Click an area to view others"@all .
+
+prop-data:page_public_permission_option.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_public_permission_option.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Anyone can view this page"@en-CA ;
+        skos:prefLabel   "Anyone can view this page"@en-US .

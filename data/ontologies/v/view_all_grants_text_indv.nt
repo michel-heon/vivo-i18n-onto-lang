@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_grants_text.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alle VIVO-Forschungsprojekte und dazugehöriges KoforscherInnen-Netzwerk anzeigen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pregledaje sve VIVO grantove i njihovu odgovarajuću mrežu istražitelja."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vea todas las subvenciones de VIVO y la red de coinvestigador correspondiente."@es .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ver todas as subvenções Vivo e correspondente rede de co-investigador."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "View all VIVO grants and corresponding co-investigator network."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "View all VIVO grants and corresponding co-investigator network."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Voir toutes les subventions dans VIVO ainsi que les cochercheur(-euse)s correspondant(e)s."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Просмотреть все гранты VIVO и соответствующую сеть со-исследователей."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_grants_text.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "View all VIVO grants and corresponding co-investigator network."@all .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants_text> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_grants_text" .

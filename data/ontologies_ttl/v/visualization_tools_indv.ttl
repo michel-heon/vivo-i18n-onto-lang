@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:visualization_tools.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "visualization_tools.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Visualization Tools"@all .
+
+prop-data:visualization_tools
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "visualization_tools" .
+
+prop-data:visualization_tools.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "visualization_tools.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Visualization Tools"@en-CA ;
+        skos:prefLabel   "Visualization Tools"@en-US ;
+        skos:prefLabel   "Alati za vizualizaciju"@sr-Latn-RS ;
+        skos:prefLabel   "Инструменты визуализации"@ru-RU ;
+        skos:prefLabel   "Outils de visualisation"@fr-CA ;
+        skos:prefLabel   "Ferramentas de Visualização"@pt-BR ;
+        skos:prefLabel   "Herramientas de visualización"@es ;
+        skos:prefLabel   "Visualisierungs-Tools"@de-DE .

@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "manage_list_of.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Administrar la lista de"@es .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gerenciar lista de"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gérer la liste de"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Liste verwalten von"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manage list of"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manage list of"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upravljajte listom"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Управление списком"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of> <http://www.w3.org/2000/01/rdf-schema#label> "manage_list_of" .

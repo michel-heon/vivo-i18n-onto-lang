@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:page_management.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_management.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Administración de la página"@es ;
+        skos:prefLabel   "Управление страницей"@ru-RU ;
+        skos:prefLabel   "Gerenciador das Páginas"@pt-BR ;
+        skos:prefLabel   "Page management"@en-US ;
+        skos:prefLabel   "Page management"@en-CA ;
+        skos:prefLabel   "upravljanje stranicama"@sr-Latn-RS ;
+        skos:prefLabel   "Einzelseiten-Verwaltung"@de-DE ;
+        skos:prefLabel   "Gestion des pages"@fr-CA .
+
+prop-data:page_management
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "page_management" .

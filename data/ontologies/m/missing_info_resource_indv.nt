@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "missing_info_resource.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Information manquante sur la ressource"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "falta información de recursos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "falta informação do recurso"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "fehlende Informationsquelle"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "missing information resource"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "missing information resource"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "resource informacija koje fale"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "недостаёт источника информации"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "missing_info_resource.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "missing information resource"@all .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource> <http://www.w3.org/2000/01/rdf-schema#label> "missing_info_resource" .

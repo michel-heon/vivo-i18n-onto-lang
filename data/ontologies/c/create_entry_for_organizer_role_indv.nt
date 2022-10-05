@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_entry_for_organizer_role.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Add a new Organizer role"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Add a new Organizer role"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Adicione um novo papel de organizador"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Agregue un rol nuevo de organizador"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Ajouter un rôle d'organisateur(-trice)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Dodajte novu ulogu organizatora"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Neue Organisatorenrolle hinzufügen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> ": Добавить новую роль Организатора"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_organizer_role> <http://www.w3.org/2000/01/rdf-schema#label> "create_entry_for_organizer_role" .

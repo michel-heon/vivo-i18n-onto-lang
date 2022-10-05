@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "page_public_permission_option.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anyone can view this page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anyone can view this page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cette page est visible à tous"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cualquier persona puede ver esta página"@es .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jeder kann diese Seite ansehen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Qualquer um pode visualizar esta página"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Svako može da pristupi ovoj stranici"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Эту страницу разрешено просматривать всем"@ru-RU .

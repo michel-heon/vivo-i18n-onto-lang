@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:faculty_of_1000.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_of_1000.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Faculty of 1000 Link"@all .
+
+prop-data:faculty_of_1000.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_of_1000.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Fakultet sa 1000 linkova"@sr-Latn-RS ;
+        skos:prefLabel   "Faculdade de 1000 link"@pt-BR ;
+        skos:prefLabel   "Преподаватель с 1000 связей"@ru-RU ;
+        skos:prefLabel   "Faculty-of-1000-Link"@de-DE ;
+        skos:prefLabel   "Faculty of 1000 Link"@en-CA ;
+        skos:prefLabel   "Faculty of 1000 Link"@en-US ;
+        skos:prefLabel   "Facultad de 1000 enlaces"@es ;
+        skos:prefLabel   "Lien de Faculté 1000"@fr-CA .
+
+prop-data:faculty_of_1000
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "faculty_of_1000" .

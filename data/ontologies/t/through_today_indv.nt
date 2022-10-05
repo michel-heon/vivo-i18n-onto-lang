@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "through_today.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Objavljeni radovi do danas"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publicaciones hasta la fecha de hoy"@es .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publications jusqu'à ce jour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publications through today's date"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publications through today's date"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publicações até hoje"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publikationen des heutigen Tages"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Публикации до сегодняшней даты"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "through_today.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#through_today.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publications through today's date"@all .
+<http://vivoweb.org/ontology/core/properties/individual#through_today> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#through_today> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#through_today> <http://www.w3.org/2000/01/rdf-schema#label> "through_today" .

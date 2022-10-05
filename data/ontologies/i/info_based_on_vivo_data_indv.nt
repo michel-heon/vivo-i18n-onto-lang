@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "info_based_on_vivo_data.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cette information est uniquement basée sur {0} qui ont été chargées dans VIVO."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Diese Information beruht einzig auf {0}, die in das VIVO-System geladen wurden."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Esta información se basa únicamente en {0} lo que se han cargado en el sistema VIVO."@es .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Esta informação está baseada exclusivamente em {0} que foram carregados no sistema VIVO."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ove informacije se zasnivaju isključivo na {0} koje su učitane u VIVO sistem."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "This information is based solely on {0} which have been loaded into the VIVO system."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "This information is based solely on {0} which have been loaded into the VIVO system."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Эта информация основана исключительно на {0}, которые были загружены в систему VIVO."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "info_based_on_vivo_data.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "This information is based solely on {0} which have been loaded into the VIVO system."@all .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#info_based_on_vivo_data> <http://www.w3.org/2000/01/rdf-schema#label> "info_based_on_vivo_data" .

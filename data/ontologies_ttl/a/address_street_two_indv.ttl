@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:address_street_two.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "address_street_two.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "adresa ulice 2"@sr-Latn-RS ;
+        skos:prefLabel   "address street two"@en-US ;
+        skos:prefLabel   "address street two"@en-CA ;
+        skos:prefLabel   "Строка адреса 2"@ru-RU ;
+        skos:prefLabel   "endereço de rua em dois"@pt-BR ;
+        skos:prefLabel   "2e ligne d'adresse"@fr-CA ;
+        skos:prefLabel   "Adresszusatz 1"@de-DE ;
+        skos:prefLabel   "dirección calle dos"@es .
+
+prop-data:address_street_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "address_street_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "address street two"@all .
+
+prop-data:address_street_two.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "address_street_two.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "address street two"@en-US ;
+        skos:prefLabel   "address street two"@en-CA ;
+        skos:prefLabel   "Adresszusatz 1"@de-DE ;
+        skos:prefLabel   "2e ligne d'adresse"@fr-CA ;
+        skos:prefLabel   "строка адреса 2"@ru-RU ;
+        skos:prefLabel   "ulica druge adrese"@sr-Latn-RS ;
+        skos:prefLabel   "endereço de rua em dois"@pt-BR ;
+        skos:prefLabel   "dirección calle dos"@es .

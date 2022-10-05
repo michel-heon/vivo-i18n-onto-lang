@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:years_of_grant_participation
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "years_of_grant_participation" .
+
+prop-data:years_of_grant_participation.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "years_of_grant_participation.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Années de participation à cette subvention"@fr-CA ;
+        skos:prefLabel   "Years of Participation in Grant"@en-CA ;
+        skos:prefLabel   "Years of Participation in Grant"@en-US ;
+        skos:prefLabel   "Jahre der Mitarbeit im Forschungsprojekt"@de-DE ;
+        skos:prefLabel   "Годы участия в гранте"@ru-RU ;
+        skos:prefLabel   "Años de participación en la subvención"@es ;
+        skos:prefLabel   "Godine primanja granta"@sr-Latn-RS ;
+        skos:prefLabel   "Anos de participação no Grant"@pt-BR .
+
+prop-data:years_of_grant_participation.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "years_of_grant_participation.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Years of Participation in Grant"@all .

@@ -1,0 +1,117 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:since_elapsed_time_est_total.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "since_elapsed_time_est_total.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "since {0}, elapsed time {1}, estimated total time {2}"@en-CA ;
+        skos:prefLabel   "since {0}, elapsed time {1}, estimated total time {2}"@en-US ;
+        skos:prefLabel   "desde {0}, tiempo transcurrido {1}, tiempo total estimado {2}"@es ;
+        skos:prefLabel   "{0}, tempo decorrido {1}, o tempo total estimado {2}"@pt-BR ;
+        skos:prefLabel   "depuis {0}. Durée écoulée {1}, temps total estimé {2}"@fr-CA .
+
+prop-data:total  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "total" .
+
+prop-data:incomplete_grant_data_note1.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_grant_data_note1.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Note: This information is based solely on grants that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@all .
+
+prop-data:total.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "total.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "total"@all .
+
+prop-data:total.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "total.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "total de"@pt-BR ;
+        skos:prefLabel   "всего"@ru-RU ;
+        skos:prefLabel   "Gesamtzahl"@de-DE ;
+        skos:prefLabel   "total"@en-CA ;
+        skos:prefLabel   "total"@en-US ;
+        skos:prefLabel   "total"@es ;
+        skos:prefLabel   "total"@fr-CA ;
+        skos:prefLabel   "ukupno"@sr-Latn-RS .
+
+prop-data:total_number_of.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "total_number_of.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Número total de"@es ;
+        skos:prefLabel   "Nombre total de"@fr-CA ;
+        skos:prefLabel   "número total de"@pt-BR .
+
+prop-data:incomplete_data_note1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_data_note1.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Nota: Esta información está basada únicamente en las publicaciones que se han cargado en el sistema VIVO. Esto sólo puede ser una pequeña muestra del trabajo total de la persona."@es ;
+        skos:prefLabel   "Note: This information is based solely on publications that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-CA ;
+        skos:prefLabel   "Note: This information is based solely on publications that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-US ;
+        skos:prefLabel   "Nota: Esta informação está baseada exclusivamente em publicações que foram carregados no sistema VIVO. Isto pode ser apenas uma pequena amostra de trabalho total da pessoa."@pt-BR .
+
+prop-data:incomplete_grant_data_note1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_grant_data_note1.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Note: This information is based solely on grants that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-CA ;
+        skos:prefLabel   "Note: This information is based solely on grants that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-US ;
+        skos:prefLabel   "Nota: Esta información está basada únicamente en las subvenciones que se han cargado en el sistema VIVO. Esto sólo puede ser una pequeña muestra del trabajo total de la persona."@es ;
+        skos:prefLabel   "Nota: Esta informação está baseada exclusivamente em concessões que foram carregados no sistema VIVO. Isto pode ser apenas uma pequena amostra de trabalho total da pessoa."@pt-BR .
+
+prop-data:vis_tools_note_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_one.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@all .
+
+prop-data:vis_tools_note_one.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_one.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Visualización a gran escala, como el Gráfico temporal o el Mapa de Ciencia implican calcular el recuento total de publicaciones en forma de subvenciones para alguna entidad. Dado que esto también significa la comprobación a través de todos sus subentidades, las consultas subyacentes pueden hacer uso intensivo de la memoria y consumir mucho tiempo. Para una experiencia de usuario más rápida, queremos guardar los resultados de estas consultas para su posterior reutilización."@es ;
+        skos:prefLabel   "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@en-CA ;
+        skos:prefLabel   "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@en-US ;
+        skos:prefLabel   "Les visualisations à grande échelle comme le graphique temporel ou la carte des sciences impliquent de calculer le nombre total de publications ou de subventions pour une entité donnée. Comme cela signifie aussi vérifier toutes ses sous-entités, les requêtes sous-jacentes peuvent demander beaucoup de mémoire et prendre beaucoup de temps. Pour une expérience utilisateur plus rapide, nous souhaitons sauvegarder les résultats de ces requêtes pour une réutilisation ultérieure."@fr-CA .
+
+prop-data:incomplete_data_note1.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_data_note1.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Note: This information is based solely on publications that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@all .

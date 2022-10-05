@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "domain_class.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Classe de Dominio"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Domain Class"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Domain Class"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Domain-Klasse"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Domaine de classe"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dominio de clase"@es .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klasa domena"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Класс домена"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#domain_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#domain_class> <http://www.w3.org/2000/01/rdf-schema#label> "domain_class" .

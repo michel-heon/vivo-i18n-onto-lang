@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:delete_webpage_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "delete_webpage_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "delete web page link"@all .
+
+prop-data:delete_webpage_link
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "delete_webpage_link" .
+
+prop-data:delete_webpage_link.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "delete_webpage_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "удалить ссылку на веб-страницу"@ru-RU ;
+        skos:prefLabel   "Supprimer le lien vers la page web"@fr-CA ;
+        skos:prefLabel   "eliminar el enlace de la página web"@es ;
+        skos:prefLabel   "uklonite link do veb stranice"@sr-Latn-RS ;
+        skos:prefLabel   "delete web page link"@en-CA ;
+        skos:prefLabel   "delete web page link"@en-US ;
+        skos:prefLabel   "apagar link da página web"@pt-BR ;
+        skos:prefLabel   "Link zu einer Webseite entfernen"@de-DE .

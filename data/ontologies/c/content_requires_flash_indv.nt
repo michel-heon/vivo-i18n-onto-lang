@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "content_requires_flash.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Este contenido requiere Adobe Flash Player."@es .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Este conteúdo necessita do Adobe Flash Player."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Le visionnement de ce contenu requiert Adobe Acrobat Player."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ovaj sadržaj zahteva Adobe Flash Player."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sie benötigen den Adobe Flash Player, um diesen Inhalt anzusehen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "This content requires the Adobe Flash Player."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "This content requires the Adobe Flash Player."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Для этого содержимого требуется Adobe Flash Player."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "content_requires_flash.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "This content requires the Adobe Flash Player."@all .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#content_requires_flash> <http://www.w3.org/2000/01/rdf-schema#label> "content_requires_flash" .

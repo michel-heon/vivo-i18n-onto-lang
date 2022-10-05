@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_version.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_version.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Verzija"@sr-Latn-RS ;
+        skos:prefLabel   "Versão"@pt-BR ;
+        skos:prefLabel   "Version"@de-DE ;
+        skos:prefLabel   "Version"@en-CA ;
+        skos:prefLabel   "Version"@en-US ;
+        skos:prefLabel   "Version"@fr-CA ;
+        skos:prefLabel   "Versión"@es ;
+        skos:prefLabel   "Версия"@ru-RU .
+
+prop-data:menu_version.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_version.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Версия"@ru-RU ;
+        skos:prefLabel   "Versión"@es ;
+        skos:prefLabel   "Verzija"@sr-Latn-RS ;
+        skos:prefLabel   "Version"@de-DE ;
+        skos:prefLabel   "Version"@en-CA ;
+        skos:prefLabel   "Version"@en-US ;
+        skos:prefLabel   "Version"@fr-CA ;
+        skos:prefLabel   "Versão"@pt-BR .
+
+prop-data:menu_version.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_version.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Version"@all .
+
+prop-data:menu_version
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "menu_version" .

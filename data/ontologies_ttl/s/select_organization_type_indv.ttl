@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_organization_type.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "select_organization_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Пожалуйста, выберите значение в поле „Тип организации“."@ru-RU ;
+        skos:prefLabel   "Bitte im Feld Art der Organisation einen Wert auswählen."@de-DE ;
+        skos:prefLabel   "Molimo Vas unesite vrednost unutar polja za Tip organizacije."@sr-Latn-RS ;
+        skos:prefLabel   "SVP, choisir une entrée existante pour le champ Type d'organisation."@fr-CA ;
+        skos:prefLabel   "Por favor, selecione um valor no campo Tipo de Organização."@pt-BR ;
+        skos:prefLabel   "Please select a value in the Organization Type field."@en-CA ;
+        skos:prefLabel   "Please select a value in the Organization Type field."@en-US ;
+        skos:prefLabel   "Por favor seleccione un valor en el campo Tipo de Organización."@es .
+
+prop-data:select_organization_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_organization_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select a value in the Organization Type field."@all .
+
+prop-data:select_organization_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_organization_type" .

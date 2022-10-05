@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:end_year_must_be_later.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "end_year_must_be_later.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The End Year must be later than the Start Year."@all .
+
+prop-data:end_year_must_be_later.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "end_year_must_be_later.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Final de Ano deve ser posterior ao ano de início."@pt-BR ;
+        skos:prefLabel   "L'année de fin doit être postérieure à l'année de début."@fr-CA ;
+        skos:prefLabel   "Das Endjahr muss später als das Anfangsjahr liegen."@de-DE ;
+        skos:prefLabel   "Год окончания не может предшествовать году начала."@ru-RU ;
+        skos:prefLabel   "The End Year must be later than the Start Year."@en-US ;
+        skos:prefLabel   "The End Year must be later than the Start Year."@en-CA ;
+        skos:prefLabel   "Godina kraja mora biti kasnije od godine početka."@sr-Latn-RS ;
+        skos:prefLabel   "El fin de año debe ser posterior al inicio de año."@es .
+
+prop-data:end_year_must_be_later
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "end_year_must_be_later" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:full_view_icon.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "full_view_icon.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "full view icon"@all .
+
+prop-data:full_view_icon
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "full_view_icon" .
+
+prop-data:full_view_icon.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "full_view_icon.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "ikonica za pun pogled"@sr-Latn-RS ;
+        skos:prefLabel   "icône de vue complète"@fr-CA ;
+        skos:prefLabel   "ícone de visualizção completa"@pt-BR ;
+        skos:prefLabel   "пиктограмма просмотра полного вариант"@ru-RU ;
+        skos:prefLabel   "Vollansicht-Icon"@de-DE ;
+        skos:prefLabel   "full view icon"@en-CA ;
+        skos:prefLabel   "full view icon"@en-US ;
+        skos:prefLabel   "Icono vista completa"@es .

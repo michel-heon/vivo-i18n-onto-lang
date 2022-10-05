@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:four_digit_year.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "four_digit_year.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Entrada inválida. Digite um ano de 4 dígitos."@pt-BR ;
+        skos:prefLabel   "Neispravan unos. Molimo Vas upišite godinu sa 4 cifre."@sr-Latn-RS ;
+        skos:prefLabel   "Entrada invalida. Ingrese un año de 4 dígitos."@es ;
+        skos:prefLabel   "Ungültiger Eintrag. Bitte geben Sie ein Jahr, bestehend aus 4 Zeichen, an."@de-DE ;
+        skos:prefLabel   "Invalid entry. Please enter a 4-digit Year."@en-CA ;
+        skos:prefLabel   "Invalid entry. Please enter a 4-digit Year."@en-US ;
+        skos:prefLabel   "Entrée invalide. Veuillez entrer une année à 4 chiffres."@fr-CA ;
+        skos:prefLabel   "Неверный ввод. Пожалуйста, введите год как четырёхзначное число."@ru-RU .
+
+prop-data:four_digit_year
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "four_digit_year" .

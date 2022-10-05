@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "add_webpage.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Add Web Page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Add Web Page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adicionar Página Web"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agregar página Web"@es .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ajouter une page web"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dodajte veb stranicu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Webseite hinzufügen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Добавить веб-страницу"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "add_webpage.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Add Web Page"@all .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#add_webpage> <http://www.w3.org/2000/01/rdf-schema#label> "add_webpage" .

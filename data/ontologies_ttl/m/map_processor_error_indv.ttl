@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:map_processor_error
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "map_processor_error" .
+
+prop-data:map_processor_error.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "map_processor_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Ha ocurrido un error y el mapa de los procesadores con este tipo de contenido está ausente. Por favor, póngase en contacto con el administrador"@es ;
+        skos:prefLabel   "Une erreur s'est produite et la carte des processeurs pour ce contenu est manquante. Veuillez contacter l'administrateur."@fr-CA ;
+        skos:prefLabel   "Ein Fehler ist aufgetreten und die Map von Prozessoren für diesen Inhalt fehlt. Bitte kontaktieren Sie den Administrator"@de-DE ;
+        skos:prefLabel   "Došlo je do greške i mapa procesora za ovaj sadržaj nije pronađena. Molimo Vas kontaktirajte administratora."@sr-Latn-RS ;
+        skos:prefLabel   "Ocorreu um erro e o mapa de processadores para este conteúdo está faltando. Entre em contato com o administrador"@pt-BR ;
+        skos:prefLabel   "Произошла ошибка, и карта процессоров для этого контента отсутствует. Пожалуйста, свяжитесь с администратором"@ru-RU ;
+        skos:prefLabel   "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-CA ;
+        skos:prefLabel   "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-US .

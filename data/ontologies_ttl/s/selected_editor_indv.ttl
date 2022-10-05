@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selected_editor
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "selected_editor" .
+
+prop-data:selected_editor.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "selected_editor.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Editor seleccionado"@es ;
+        skos:prefLabel   "Selected Editor"@en-CA ;
+        skos:prefLabel   "Selected Editor"@en-US ;
+        skos:prefLabel   "Editor Selecionado"@pt-BR ;
+        skos:prefLabel   "ausgewählte/r HerausgeberIn"@de-DE ;
+        skos:prefLabel   "Выбранный редактор"@ru-RU ;
+        skos:prefLabel   "Éditeur choisi"@fr-CA ;
+        skos:prefLabel   "Odabran urednik"@sr-Latn-RS .
+
+prop-data:selected_editor.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_editor.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Selected Editor"@all .

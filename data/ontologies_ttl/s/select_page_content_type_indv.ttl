@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_page_content_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_page_content_type" .
+
+prop-data:select_page_content_type.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_page_content_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Выбрать тип содержимого для связанной страницы"@ru-RU ;
+        skos:prefLabel   "Wählen Sie Inhaltstyp für die zugehörige Seite"@de-DE ;
+        skos:prefLabel   "Seleccione el tipo de contenido para la página asociada"@es ;
+        skos:prefLabel   "Odaberite tip sadržaja za povezanu stranicu"@sr-Latn-RS ;
+        skos:prefLabel   "Select content type for the associated page"@en-CA ;
+        skos:prefLabel   "Select content type for the associated page"@en-US ;
+        skos:prefLabel   "Sélectionner le type de contenu pour la page associée"@fr-CA ;
+        skos:prefLabel   "Selecione o tipo de conteúdo para a página associada"@pt-BR .

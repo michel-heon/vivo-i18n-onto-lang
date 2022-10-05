@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:or_create_new_one
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "or_create_new_one" .
+
+prop-data:or_create_new_one.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "or_create_new_one.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "ili kreirajte novi."@sr-Latn-RS ;
+        skos:prefLabel   "ou en créer un nouveau."@fr-CA ;
+        skos:prefLabel   "или создайте новый."@ru-RU ;
+        skos:prefLabel   "or create a new one."@en-CA ;
+        skos:prefLabel   "or create a new one."@en-US ;
+        skos:prefLabel   "ou criar um novo."@pt-BR ;
+        skos:prefLabel   "oder eine neue erstellen."@de-DE ;
+        skos:prefLabel   "o cree uno nuevo."@es .

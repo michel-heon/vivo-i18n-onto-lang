@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:award_hint  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "award_hint" .
+
+prop-data:award_hint.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "award_hint.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "(e.g., for multi-year awards)"@all .
+
+prop-data:award_hint.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "award_hint.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "(e.g., for multi-year awards)"@en-CA ;
+        skos:prefLabel   "(e.g., for multi-year awards)"@en-US ;
+        skos:prefLabel   "(npr. za nagrade koje se ne dodljuju svake godine)"@sr-Latn-RS ;
+        skos:prefLabel   "(por exemplo, para os prémios plurianuais)"@pt-BR ;
+        skos:prefLabel   "ex.: pour des prix couvrant plusieurs années"@fr-CA ;
+        skos:prefLabel   "(z. B. für mehrjährige Auszeichnungen )"@de-DE ;
+        skos:prefLabel   "(Por ejemplo, para premios de muchos años)"@es ;
+        skos:prefLabel   "(например, для многолетних премий)"@ru-RU .

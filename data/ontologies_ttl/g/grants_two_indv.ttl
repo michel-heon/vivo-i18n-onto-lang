@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:grants_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@all .
+
+prop-data:grants_two.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "grants_two.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Ova tehnika se može koristiti za definisanje stranica bez stavki menija, koje dobijaju svoj sadržaj iz freemarker šablona. Primer ovoga je stranica \"O sajtu\" (About)."@sr-Latn-RS ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-CA ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA ;
+        skos:prefLabel   "Diese Technik könnte dazu benutzt werden, Seiten ohne Menüpunkte mit Inhalten aus einem Freemarker-Template zu definieren. Ein Beispiel hierfür wäre die Impressum-Seite."@de-DE ;
+        skos:prefLabel   "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker. Примером может быть страница „О системе“."@ru-RU ;
+        skos:prefLabel   "Esta técnica podría usarse para definir las páginas sin elementos de menú, que obtienen su contenido a partir de una plantilla FreeMarker. Un ejemplo sería la página acerca de."@es ;
+        skos:prefLabel   "Esta técnica pode ser usada para definir páginas sem itens do menu, que obtenha seu conteúdo a partir de um template freemarker. Um exemplo seria a página sobre."@pt-BR .
+
+prop-data:grants_two.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_two.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Diese Technik könnte dazu benutzt werden, Seiten ohne Menüpunkte mit Inhalten aus einem Freemarker-Template zu definieren. Ein Beispiel hierfür wäre die Impressum-Seite."@de-DE ;
+        skos:prefLabel   "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker. Примером может быть страница „О системе“."@ru-RU ;
+        skos:prefLabel   "Ova tehnika se može koristiti za definisanje stranica bez menija, koje dobavljaju svoj sadržaj iz freemarker template-a. Primer bi bio about stranica."@sr-Latn-RS ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-CA ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA ;
+        skos:prefLabel   "Esta técnica pode ser usada para definir páginas sem itens do menu, que obtenha seu conteúdo a partir de um template freemarker. Um exemplo seria a página sobre."@pt-BR ;
+        skos:prefLabel   "Esta técnica podría usarse para definir las páginas sin elementos de menú, que obtienen su contenido a partir de una plantilla FreeMarker. Un ejemplo sería la página acerca de."@es .

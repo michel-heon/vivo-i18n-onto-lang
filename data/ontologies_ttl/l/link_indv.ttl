@@ -1,0 +1,379 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "lien"@fr-CA ;
+        skos:prefLabel   "link"@en-CA ;
+        skos:prefLabel   "link"@en-US ;
+        skos:prefLabel   "link"@pt-BR ;
+        skos:prefLabel   "link"@sr-Latn-RS ;
+        skos:prefLabel   "связь"@ru-RU ;
+        skos:prefLabel   "Link"@de-DE ;
+        skos:prefLabel   "enlace"@es .
+
+prop-data:password_change_invalid_key.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "password_change_invalid_key.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Link koji ste isoristili za {0} nije ispravan. Molimo Vas tražite od administaratora da Vam ponovo pošalje link."@sr-Latn-RS ;
+        skos:prefLabel   "The link you used for {0} is invalid. Please ask site administrator to resend the link."@en-US ;
+        skos:prefLabel   "The link you used for {0} is invalid. Please ask your system administrator to resend the link."@en-CA ;
+        skos:prefLabel   "O link que você usou para {0} é inválido. Peça ao administrador do site para reenviar o link."@pt-BR .
+
+prop-data:download_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "download_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "link para download"@pt-BR ;
+        skos:prefLabel   "link za preuzimanje"@sr-Latn-RS ;
+        skos:prefLabel   "download link"@en-CA ;
+        skos:prefLabel   "download link"@en-US .
+
+prop-data:edit_webpage_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_webpage_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "edit web page link"@en-CA ;
+        skos:prefLabel   "edit web page link"@en-US ;
+        skos:prefLabel   "editar link da página web"@pt-BR ;
+        skos:prefLabel   "ažurirajte link do veb stranice"@sr-Latn-RS .
+
+prop-data:persistent_link_to_visualization.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "persistent_link_to_visualization.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Persistent link to current visualization"@all .
+
+prop-data:no_url_provided.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_url_provided.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "no url provided for link"@all .
+
+prop-data:edit_webpage_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_webpage_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "edit web page link"@all .
+
+prop-data:updated_account_notification.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "updated_account_notification.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Um e-mail de confirmação foi enviado para {0} com instruções para redefinir uma senha. A senha não serão reiniciadas até que o usuário clicar no link fornecido neste e-mail."@pt-BR ;
+        skos:prefLabel   "A confirmation email has been sent to {0} with instructions for resetting a password. The password will not be reset until the user follows the link provided in this email."@en-CA ;
+        skos:prefLabel   "A confirmation email has been sent to {0} with instructions for resetting a password. The password will not be reset until the user follows the link provided in this email."@en-US ;
+        skos:prefLabel   "Email sa instrukcijama za resetovanje lozinke je poslat na adresu {0}. Lozinka neće biti resetovana sve dok korisnik ne klikne na link u email-u."@sr-Latn-RS .
+
+prop-data:vis_tools_note_four.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_four.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-CA ;
+        skos:prefLabel   "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
+        skos:prefLabel   "Os modelos são atualizadas a cada vez que o servidor for reiniciado. Uma vez que este não é geralmente prático sobre instâncias de produção, os administradores podem passar a usar o link \"cache refresh\" acima de fazer isso sem uma reinicialização."@pt-BR ;
+        skos:prefLabel   "Modeli se ponovo učitavaju svaki put kad se server restartuje. Sa obzirom da ovo nije praktično u produkciji, administratori mogu da koriste \"osvežite keš\" link iznad da učitaju ponovo modele bez potrebe za restartom servera."@sr-Latn-RS .
+
+prop-data:manage_labels_intro.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_labels_intro.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US ;
+        skos:prefLabel   "No caso de multiplos labels existirem com mesma linguagem, por favor remova um link labels que voce nao deseja exiber na sua pagina do perfil."@pt-BR .
+
+prop-data:link_text.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "link_text.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "link text"@all .
+
+prop-data:no_view_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_view_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "no view link"@all .
+
+prop-data:reset_password_note.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "reset_password_note.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Napomena: Uputstva za resetovanje lozinke će biti poslata na email adresu koju ste uneli. Lozinka neće biti resetovana sve dok korisnik ne klikne na link koji se nalazi u email-u."@sr-Latn-RS ;
+        skos:prefLabel   "Note: Instructions for resetting the password will be emailed to the address entered above. The password will not be reset until the user follows the link provided in this email."@en-CA ;
+        skos:prefLabel   "Note: Instructions for resetting the password will be emailed to the address entered above. The password will not be reset until the user follows the link provided in this email."@en-US ;
+        skos:prefLabel   "Nota: As instruções para redefinir a senha, será enviada para o endereço digitado acima. A senha não será ser alterada até que o usuário clique mo link fornecido neste e-mail."@pt-BR .
+
+prop-data:remove_author_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "remove_author_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "remove author link"@en-CA ;
+        skos:prefLabel   "remove author link"@en-US ;
+        skos:prefLabel   "remove link do autor"@pt-BR .
+
+prop-data:persistent_link_to_visualization.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "persistent_link_to_visualization.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Trajna veza (link) do trenutne vizualizacije"@sr-Latn-RS ;
+        skos:prefLabel   "Persistent link to current visualization"@en-CA ;
+        skos:prefLabel   "Persistent link to current visualization"@en-US .
+
+prop-data:vis_tools_note_four.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_four.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@all .
+
+prop-data:remove_author_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "remove_author_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "remove author link"@all .
+
+prop-data:faculty_of_1000.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_of_1000.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Faculdade de 1000 link"@pt-BR .
+
+prop-data:download_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "download_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "download link"@all .
+
+prop-data:page_link.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "link da página"@pt-BR ;
+        skos:prefLabel   "page link"@en-CA ;
+        skos:prefLabel   "page link"@en-US ;
+        skos:prefLabel   "link stranice"@sr-Latn-RS .
+
+prop-data:cap_map_key2.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_key2.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "link"@en-CA ;
+        skos:prefLabel   "link"@en-US ;
+        skos:prefLabel   "link"@sr-Latn-RS .
+
+prop-data:no_view_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_view_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "no view link"@en-CA ;
+        skos:prefLabel   "no view link"@en-US ;
+        skos:prefLabel   "no view link"@ru-RU ;
+        skos:prefLabel   "ver no link"@pt-BR .
+
+prop-data:remove_editor_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "remove_editor_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "remove editor link"@en-CA ;
+        skos:prefLabel   "remove editor link"@en-US .
+
+prop-data:delete_webpage_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "delete_webpage_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "uklonite link do veb stranice"@sr-Latn-RS ;
+        skos:prefLabel   "apagar link da página web"@pt-BR ;
+        skos:prefLabel   "delete web page link"@en-CA ;
+        skos:prefLabel   "delete web page link"@en-US .
+
+prop-data:link  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "link" .
+
+prop-data:orcid_step2_already_present.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_step2_already_present.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "<p>Seu registro ORCID já inclui um link para VIVO.</p>"@pt-BR ;
+        skos:prefLabel   "<p>Your ORCID record already includes a link to VIVO.</p>"@en-CA ;
+        skos:prefLabel   "<p>Your ORCID record already includes a link to VIVO.</p>"@en-US .
+
+prop-data:link_text.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "link_text.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "link text"@en-CA ;
+        skos:prefLabel   "link text"@en-US ;
+        skos:prefLabel   "texto do link"@pt-BR .
+
+prop-data:no_url_provided.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_url_provided.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "no url provided for link"@en-CA ;
+        skos:prefLabel   "no url provided for link"@en-US ;
+        skos:prefLabel   "niste uneli url za link"@sr-Latn-RS .
+
+prop-data:delete_webpage_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "delete_webpage_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "delete web page link"@all .
+
+prop-data:class_link.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "class_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "link klase"@sr-Latn-RS ;
+        skos:prefLabel   "class link"@en-CA ;
+        skos:prefLabel   "class link"@en-US ;
+        skos:prefLabel   "link da classe"@pt-BR .
+
+prop-data:link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "link"@all .
+
+prop-data:link_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "link_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "link name"@all .
+
+prop-data:link_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "link_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "link name"@en-CA ;
+        skos:prefLabel   "link name"@en-US ;
+        skos:prefLabel   "nome do link"@pt-BR .
+
+prop-data:remove_editor_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "remove_editor_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "remove editor link"@all .
+
+prop-data:standard_web_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "standard_web_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Padrão Web link"@pt-BR ;
+        skos:prefLabel   "Standardna veb veza (link)"@sr-Latn-RS .
+
+prop-data:a_link.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "a_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "link"@sr-Latn-RS ;
+        skos:prefLabel   "um link"@pt-BR ;
+        skos:prefLabel   "a link"@en-CA ;
+        skos:prefLabel   "a link"@en-US .
+
+prop-data:scopus_id_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "scopus_id_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "ID link"@pt-BR .
+
+prop-data:class_group_link.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "class_group_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "link grupe klasa"@sr-Latn-RS ;
+        skos:prefLabel   "class group link"@en-CA ;
+        skos:prefLabel   "class group link"@en-US .

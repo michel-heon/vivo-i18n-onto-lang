@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:first_time_login_note.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_time_login_note.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Hinweis: Es wird eine E-Mail an die oben angegebene Adresse gesendet um Ihnen mitzuteilen, dass ein Konto erstellt wurde."@de-DE ;
+        skos:prefLabel   "Napomena: Email će biti poslat na unetu adresu sa obaveštenjem o kreiranju naloga."@sr-Latn-RS ;
+        skos:prefLabel   "Note: Un courriel sera envoyé à l'adresse ci-dessus afin de confirmer la création du compte."@fr-CA ;
+        skos:prefLabel   "Nota: Um e-mail será enviado para o endereço digitado acima ,a qual a sua conta foi criada."@pt-BR ;
+        skos:prefLabel   "Note: An email will be sent to the address entered above notifying that an account has been created."@en-CA ;
+        skos:prefLabel   "Note: An email will be sent to the address entered above notifying that an account has been created."@en-US ;
+        skos:prefLabel   "Примечание: На указанный выше адрес будет отправлено электронное письмо с уведомлением о создании учетной записи."@ru-RU ;
+        skos:prefLabel   "Nota: Un correo electrónico será enviado a la dirección indicada anteriormente notificando que una cuenta ha sido creada."@es .
+
+prop-data:first_time_login_note
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "first_time_login_note" .

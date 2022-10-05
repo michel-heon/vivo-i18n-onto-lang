@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "more_qr_info.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mais informações sobre os QR Code"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mehr Informationen über QR-Codes"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "More info on QR codes"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "More info on QR codes"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Más información sobre los códigos QR"@es .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plus d'infos sur les codes QR"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Više informacija o QR kodovima"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Подробнее о QR-коде"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "more_qr_info.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "More info on QR codes"@all .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#more_qr_info> <http://www.w3.org/2000/01/rdf-schema#label> "more_qr_info" .

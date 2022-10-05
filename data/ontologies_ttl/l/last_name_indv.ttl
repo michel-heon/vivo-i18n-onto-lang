@@ -1,0 +1,67 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:last_name  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "last_name" .
+
+prop-data:last_name.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_name.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Nachname"@de-DE ;
+        skos:prefLabel   "Фамилия"@ru-RU ;
+        skos:prefLabel   "Sobrenome"@pt-BR ;
+        skos:prefLabel   "Nom de famille"@fr-CA ;
+        skos:prefLabel   "Apellido"@es ;
+        skos:prefLabel   "Last name"@en-CA ;
+        skos:prefLabel   "Last name"@en-US ;
+        skos:prefLabel   "Prezime"@sr-Latn-RS .
+
+prop-data:last_name.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "last_name.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Nom de famille"@fr-CA ;
+        skos:prefLabel   "Nachname"@de-DE ;
+        skos:prefLabel   "Sobrenome"@pt-BR ;
+        skos:prefLabel   "Apellido"@es ;
+        skos:prefLabel   "Фамилия"@ru-RU ;
+        skos:prefLabel   "Prezime"@sr-Latn-RS ;
+        skos:prefLabel   "Last name"@en-CA ;
+        skos:prefLabel   "Last name"@en-US .
+
+prop-data:last_name.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_name.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Фамилия"@ru-RU ;
+        skos:prefLabel   "Nachname"@de-DE ;
+        skos:prefLabel   "Prezime"@sr-Latn-RS ;
+        skos:prefLabel   "Apellido"@es ;
+        skos:prefLabel   "Last name"@en-CA ;
+        skos:prefLabel   "Last name"@en-US ;
+        skos:prefLabel   "Nom de famille"@fr-CA ;
+        skos:prefLabel   "Sobrenome"@pt-BR .
+
+prop-data:last_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Last name"@all .

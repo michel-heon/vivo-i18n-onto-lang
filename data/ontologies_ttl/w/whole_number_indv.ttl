@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:whole_number.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "whole_number.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Ungültiger Eintrag. Geben Sie eine ganze Zahl ohne Dezimalpunkt oder Tausendertrennzeichen an."@de-DE ;
+        skos:prefLabel   "Entrada inválida. Digite um número inteiro sem ponto decimal ou milhares de separadores."@pt-BR ;
+        skos:prefLabel   "Неверный ввод. Введите целое число без десятичной точки или разделителя тысяч."@ru-RU ;
+        skos:prefLabel   "Entrada invalida. Ingrese un número entero sin punto decimal o separadores de miles."@es ;
+        skos:prefLabel   "Entrée invalide. Saisissez un nombre entier sans point décimal ou des séparateurs de milliers."@fr-CA ;
+        skos:prefLabel   "Invalid entry. Enter a whole number with no decimal point or thousands-separators."@en-CA ;
+        skos:prefLabel   "Invalid entry. Enter a whole number with no decimal point or thousands-separators."@en-US ;
+        skos:prefLabel   "Neispravan unos. Molimo Vas unesite ceo broj bez ikakvih separatora."@sr-Latn-RS .
+
+prop-data:whole_number
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "whole_number" .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:please_create.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "please_create.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Пожалуйста создайте"@ru-RU ;
+        skos:prefLabel   "Please create"@en-CA ;
+        skos:prefLabel   "Please create"@en-US ;
+        skos:prefLabel   "Crie Por favor"@pt-BR ;
+        skos:prefLabel   "Molimo Vas kreirajte"@sr-Latn-RS ;
+        skos:prefLabel   "Bitte erstellen Sie"@de-DE ;
+        skos:prefLabel   "Veuillez créer"@fr-CA ;
+        skos:prefLabel   "Por favor crear"@es .
+
+prop-data:please_create
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "please_create" .

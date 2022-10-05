@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "end_your_Session.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "End your session"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "End your session"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Finalizar su sesión"@es .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sitzung beenden"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Termine a sua sessão"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Terminer votre session"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Završite Vašu sesiju"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Завершить ваш сеанс"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#end_your_Session> <http://www.w3.org/2000/01/rdf-schema#label> "end_your_Session" .

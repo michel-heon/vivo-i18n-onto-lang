@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_new_class
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_new_class" .
+
+prop-data:create_new_class.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_new_class.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "eine neue Klasse erstellen"@de-DE ;
+        skos:prefLabel   "Create a new class"@en-CA ;
+        skos:prefLabel   "Create a new class"@en-US ;
+        skos:prefLabel   "Crear una nueva clase"@es ;
+        skos:prefLabel   "Создайте новый класс"@ru-RU ;
+        skos:prefLabel   "Kreirajte novu klasu"@sr-Latn-RS ;
+        skos:prefLabel   "Criar uma nova classe"@pt-BR ;
+        skos:prefLabel   "Créer une nouvelle classe"@fr-CA .
+
+prop-data:create_new_class.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_new_class.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Create a new class"@all .

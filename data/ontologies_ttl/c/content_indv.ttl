@@ -1,0 +1,309 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_research_content_found.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_research_content_found.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "No research content found."@all .
+
+prop-data:content  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "content" .
+
+prop-data:to_manage_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "to_manage_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "to manage content."@en-CA ;
+        skos:prefLabel   "to manage content."@en-US .
+
+prop-data:browse_all_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "browse_all_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "browse all content"@en-CA ;
+        skos:prefLabel   "browse all content"@en-US .
+
+prop-data:content_requires_flash.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "content_requires_flash.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "This content requires the Adobe Flash Player."@en-CA ;
+        skos:prefLabel   "This content requires the Adobe Flash Player."@en-US .
+
+prop-data:map_processor_error.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "map_processor_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-CA ;
+        skos:prefLabel   "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-US .
+
+prop-data:supply_variable_name.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "supply_variable_name.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You must supply a variable to save HTML content."@en-CA ;
+        skos:prefLabel   "You must supply a variable to save HTML content."@en-US .
+
+prop-data:grants_two.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_two.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-CA ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA .
+
+prop-data:no_content_in_system.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_content_in_system.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There is currently no {0} content in the system"@en-CA ;
+        skos:prefLabel   "There is currently no {0} content in the system"@en-US .
+
+prop-data:add_content_manage_site.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "add_content_manage_site.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "add content and manage this site"@en-CA ;
+        skos:prefLabel   "add content and manage this site"@en-US .
+
+prop-data:custom_template_containing_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "custom_template_containing_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Custom template containing all content"@en-CA ;
+        skos:prefLabel   "Custom template containing all content"@en-US .
+
+prop-data:select_content_type.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_content_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You must select content to be included on the page"@en-CA ;
+        skos:prefLabel   "You must select content to be included on the page"@en-US .
+
+prop-data:select_content_display.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_content_display.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Select content to display"@en-CA ;
+        skos:prefLabel   "Select content to display"@en-US .
+
+prop-data:grants_two.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_two.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-CA ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA .
+
+prop-data:view_content_index.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_content_index.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "View an outline of the content in this site"@en-CA ;
+        skos:prefLabel   "View an outline of the content in this site"@en-US .
+
+prop-data:show_more_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "show_more_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "show more content"@en-CA ;
+        skos:prefLabel   "show more content"@en-US .
+
+prop-data:no_research_content_found.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_research_content_found.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "No research content found."@en-CA ;
+        skos:prefLabel   "No research content found."@en-US .
+
+prop-data:code_processing_error.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "code_processing_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "An error has occurred and the code for processing this content is missing a component. Please contact the administrator."@en-CA ;
+        skos:prefLabel   "An error has occurred and the code for processing this content is missing a component. Please contact the administrator."@en-US .
+
+prop-data:no_content_create_groups_classes.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_content_create_groups_classes.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There is currently no content in the system, or you need to create class groups and assign your classes to them."@en-CA ;
+        skos:prefLabel   "There is currently no content in the system, or you need to create class groups and assign your classes to them."@en-US .
+
+prop-data:change_content_type.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "change_content_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Change content type"@en-CA ;
+        skos:prefLabel   "Change content type"@en-US .
+
+prop-data:content.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "contenido"@es ;
+        skos:prefLabel   "содержимое"@ru-RU ;
+        skos:prefLabel   "Inhalt"@de-DE ;
+        skos:prefLabel   "sadržaj"@sr-Latn-RS ;
+        skos:prefLabel   "contenu"@fr-CA ;
+        skos:prefLabel   "content"@en-CA ;
+        skos:prefLabel   "content"@en-US ;
+        skos:prefLabel   "conteúdo"@pt-BR .
+
+prop-data:custom_template_requiring_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "custom_template_requiring_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Custom template requiring content"@en-CA ;
+        skos:prefLabel   "Custom template requiring content"@en-US .
+
+prop-data:expecting_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "expecting_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Expecting content?"@en-CA ;
+        skos:prefLabel   "Expecting content?"@en-US .
+
+prop-data:selected_page_content_type.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_page_content_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Selected content type for the associated page"@en-CA ;
+        skos:prefLabel   "Selected content type for the associated page"@en-US .
+
+prop-data:save_this_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "save_this_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Save this content"@en-CA ;
+        skos:prefLabel   "Save this content"@en-US .
+
+prop-data:select_page_content_type.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_page_content_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Select content type for the associated page"@en-CA ;
+        skos:prefLabel   "Select content type for the associated page"@en-US .
+
+prop-data:multiple_content_default_template_error.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "multiple_content_default_template_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "With multiple content types, you must specify a custom template."@en-CA ;
+        skos:prefLabel   "With multiple content types, you must specify a custom template."@en-US .
+
+prop-data:supply_content_type.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "supply_content_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You must supply a content type"@en-CA ;
+        skos:prefLabel   "You must supply a content type"@en-US .
+
+prop-data:browse_all_public_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "browse_all_public_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You can browse all of the public content currently in the system using the"@en-CA ;
+        skos:prefLabel   "You can browse all of the public content currently in the system using the"@en-US .
+
+prop-data:interest_thanks.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "interest_thanks.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Thank you for your interest in {0}. Please submit this form with questions, comments, or feedback about the content of this site."@en-CA ;
+        skos:prefLabel   "Thank you for your interest in {0}. Please submit this form with questions, comments, or feedback about the content of this site."@en-US .
+
+prop-data:javascript_require_to_edit.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "javascript_require_to_edit.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "In order to edit content, you'll need to enable JavaScript."@en-CA ;
+        skos:prefLabel   "In order to edit content, you'll need to enable JavaScript."@en-US .
+
+prop-data:content_requires_flash.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "content_requires_flash.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This content requires the Adobe Flash Player."@all .
+
+prop-data:grants_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@all .

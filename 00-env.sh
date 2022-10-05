@@ -31,7 +31,7 @@ export LIST_OF_ftl_FN=$ROOT_SCRIPT_DIR/data/ListOfFtlFn.txt
 ###################################################################
 # Directory containing the transformation target
 export TARGET_HOME=$ROOT_SCRIPT_DIR/target  
-export UI_LABELS_VOCAB="$TARGET_HOME/VIVO/home/src/main/resources/rdf/tbox/firsttime/UiLabelsVocabulary.nt"
+export UI_LABELS_VOCAB="$TARGET_HOME/Vitro/home/src/main/resources/rdf/tbox/firsttime/UiLabelsVocabulary.nt"
 
 
 ###################################################################

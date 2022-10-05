@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_class_for_search.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "select_class_for_search.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Чтобы отобразить его экземпляры класса, следует выбрать класс."@ru-RU ;
+        skos:prefLabel   "Debe seleccionar una clase para mostrar sus individuos."@es ;
+        skos:prefLabel   "Sie müssen eine Klasse wählen, um die zugehörigen Datensätze anzuzeigen."@de-DE ;
+        skos:prefLabel   "Vous devez sélectionner une classe pour afficher ses éléments."@fr-CA ;
+        skos:prefLabel   "Você deve selecionar uma classe para exibir seus indivíduos."@pt-BR ;
+        skos:prefLabel   "You must select a class to display its individuals."@en-CA ;
+        skos:prefLabel   "You must select a class to display its individuals."@en-US ;
+        skos:prefLabel   "Morate odabrati klasu kako bi ste prikazali pojedince koji joj pripadaju."@sr-Latn-RS .
+
+prop-data:select_class_for_search
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_class_for_search" .

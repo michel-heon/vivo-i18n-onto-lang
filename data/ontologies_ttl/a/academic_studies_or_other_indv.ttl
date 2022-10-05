@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:academic_studies_or_other.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "academic_studies_or_other.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Academic Studies or Other Training"@all .
+
+prop-data:academic_studies_or_other
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "academic_studies_or_other" .
+
+prop-data:academic_studies_or_other.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "academic_studies_or_other.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Estudos Acadêmicos ou outra formação"@pt-BR ;
+        skos:prefLabel   "Akademske studije ili drugi treninzi"@sr-Latn-RS ;
+        skos:prefLabel   "Hochschulstudium oder andere Ausbildung"@de-DE ;
+        skos:prefLabel   "Études universitaires ou autre formation"@fr-CA ;
+        skos:prefLabel   "Академическое обучение или другая подготовка"@ru-RU ;
+        skos:prefLabel   "Academic Studies or Other Training"@en-CA ;
+        skos:prefLabel   "Academic Studies or Other Training"@en-US ;
+        skos:prefLabel   "Otros estudios académicos o de formación"@es .

@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_termuse.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_termuse.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Uslovi korišćenja"@sr-Latn-RS ;
+        skos:prefLabel   "Termos de Uso"@pt-BR ;
+        skos:prefLabel   "Terms of Use"@en-CA ;
+        skos:prefLabel   "Terms of Use"@en-US ;
+        skos:prefLabel   "Conditions d'utilisation"@fr-CA ;
+        skos:prefLabel   "Nutzungsbedingungen"@de-DE ;
+        skos:prefLabel   "Términos de uso"@es ;
+        skos:prefLabel   "Условия использования"@ru-RU .
+
+prop-data:menu_termuse.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "menu_termuse.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Условия использования"@ru-RU ;
+        skos:prefLabel   "Conditions d'utilisation"@fr-CA ;
+        skos:prefLabel   "Termos de Uso"@pt-BR ;
+        skos:prefLabel   "Términos de uso"@es ;
+        skos:prefLabel   "Uslovi korišćenja"@sr-Latn-RS ;
+        skos:prefLabel   "Nutzungsbedingungen"@de-DE ;
+        skos:prefLabel   "Terms of Use"@en-CA ;
+        skos:prefLabel   "Terms of Use"@en-US .
+
+prop-data:menu_termuse.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_termuse.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Terms of Use"@all .
+
+prop-data:menu_termuse
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "menu_termuse" .

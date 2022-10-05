@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:editor_of_entry
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "editor_of_entry" .
+
+prop-data:editor_of_entry.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "editor_of_entry.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "запись о роли редактора для"@ru-RU ;
+        skos:prefLabel   "enregistrement d'éditeur pour"@fr-CA ;
+        skos:prefLabel   "editor of entry for"@en-CA ;
+        skos:prefLabel   "editor of entry for"@en-US ;
+        skos:prefLabel   "editor de entrada para"@pt-BR ;
+        skos:prefLabel   "editor de entrada para"@es ;
+        skos:prefLabel   "Eintrag für HerausgeberIn von"@de-DE ;
+        skos:prefLabel   "urednik unosa za"@sr-Latn-RS .
+
+prop-data:editor_of_entry.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "editor_of_entry.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "editor of entry for"@all .

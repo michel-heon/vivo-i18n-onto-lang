@@ -1,0 +1,73 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:limit_search.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "limit_search.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "limit search"@en-CA ;
+        skos:prefLabel   "limit search"@en-US .
+
+prop-data:limit  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "limit" .
+
+prop-data:internal_class_intro_two.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "internal_class_intro_two.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@en-CA ;
+        skos:prefLabel   "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@en-US .
+
+prop-data:internal_class_intro_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "internal_class_intro_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@all .
+
+prop-data:limit_search.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "limit_search.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "limit search"@en-CA ;
+        skos:prefLabel   "limit search"@en-US .
+
+prop-data:limit.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "limit.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Limite"@fr-CA ;
+        skos:prefLabel   "Limite"@pt-BR ;
+        skos:prefLabel   "Limit"@en-CA ;
+        skos:prefLabel   "Limit"@en-US ;
+        skos:prefLabel   "Limitar"@es ;
+        skos:prefLabel   "Ograničite"@sr-Latn-RS ;
+        skos:prefLabel   "Beschränken von"@de-DE ;
+        skos:prefLabel   "Ограничить"@ru-RU .
+
+prop-data:limit_search.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "limit_search.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "limit search"@all .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:accounts_search_results.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "accounts_search_results.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Результаты поиска по запросу"@ru-RU ;
+        skos:prefLabel   "Rezultati pretrage za"@sr-Latn-RS ;
+        skos:prefLabel   "Comptes retrouvés"@fr-CA ;
+        skos:prefLabel   "Suchergebnisse für"@de-DE ;
+        skos:prefLabel   "Resultados de la búsqueda"@es ;
+        skos:prefLabel   "Search results for"@en-CA ;
+        skos:prefLabel   "Search results for"@en-US ;
+        skos:prefLabel   "Resultados da pesquisa para"@pt-BR .
+
+prop-data:accounts_search_results
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "accounts_search_results" .

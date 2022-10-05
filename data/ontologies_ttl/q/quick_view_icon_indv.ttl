@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:quick_view_icon
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "quick_view_icon" .
+
+prop-data:quick_view_icon.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quick_view_icon.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "icone de visualizção rápido"@pt-BR ;
+        skos:prefLabel   "quick view icon"@en-CA ;
+        skos:prefLabel   "quick view icon"@en-US ;
+        skos:prefLabel   "пиктограмма просмотра краткого варианта"@ru-RU ;
+        skos:prefLabel   "Schnellanzeige-Icon"@de-DE ;
+        skos:prefLabel   "Icono de vista rápida"@es ;
+        skos:prefLabel   "icône de vue rapide"@fr-CA ;
+        skos:prefLabel   "ikonica za kratak pregled"@sr-Latn-RS .
+
+prop-data:quick_view_icon.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quick_view_icon.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "quick view icon"@all .

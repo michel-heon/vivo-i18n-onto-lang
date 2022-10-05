@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:service_provider_role.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "service_provider_role.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Rol proveedor de servicios"@es ;
+        skos:prefLabel   "Rolle des Dienstleistungsanbieters"@de-DE ;
+        skos:prefLabel   "Rôle de fournisseur de services"@fr-CA ;
+        skos:prefLabel   "Service Provider Role"@en-CA ;
+        skos:prefLabel   "Service Provider Role"@en-US ;
+        skos:prefLabel   "Роль поставщика услуг"@ru-RU ;
+        skos:prefLabel   "Uloga davaoca usloge"@sr-Latn-RS ;
+        skos:prefLabel   "Provedor de Serviço de Função"@pt-BR .
+
+prop-data:service_provider_role.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "service_provider_role.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Uloga Service Provider-a"@sr-Latn-RS ;
+        skos:prefLabel   "Provedor de Serviço de Função"@pt-BR ;
+        skos:prefLabel   "Service Provider Role"@en-CA ;
+        skos:prefLabel   "Service Provider Role"@en-US ;
+        skos:prefLabel   "Роль поставщика услуг"@ru-RU ;
+        skos:prefLabel   "Rol proveedor de servicios"@es ;
+        skos:prefLabel   "Rolle des Dienstleistungsanbieters"@de-DE ;
+        skos:prefLabel   "Rôle du fournisseur de service"@fr-CA .
+
+prop-data:service_provider_role.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "service_provider_role.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Service Provider Role"@all .

@@ -1,0 +1,68 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:placeholder_image.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "placeholder_image.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Marcador de posición de la imagen"@es ;
+        skos:prefLabel   "espace réservé pour l'image"@fr-CA ;
+        skos:prefLabel   "Platzhalter Bild"@de-DE ;
+        skos:prefLabel   "стандартное изображение"@ru-RU ;
+        skos:prefLabel   "placeholder image"@en-CA ;
+        skos:prefLabel   "placeholder image"@en-US ;
+        skos:prefLabel   "privremena slika"@sr-Latn-RS ;
+        skos:prefLabel   "imagem espaço reservado"@pt-BR .
+
+prop-data:placeholder_image
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "placeholder_image" .
+
+prop-data:placeholder_image.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "placeholder_image.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "placeholder image"@all .
+
+prop-data:placeholder_image.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "placeholder_image.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "стандартное изображение"@ru-RU ;
+        skos:prefLabel   "emplacement de l'image"@fr-CA ;
+        skos:prefLabel   "Platzhalter-Bild"@de-DE ;
+        skos:prefLabel   "privremena slika"@sr-Latn-RS ;
+        skos:prefLabel   "imagen de marcador de posición"@es ;
+        skos:prefLabel   "imagem padrão"@pt-BR ;
+        skos:prefLabel   "placeholder image"@en-CA ;
+        skos:prefLabel   "placeholder image"@en-US .
+
+prop-data:placeholder_image.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "placeholder_image.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "imagen de marcador de posición"@es ;
+        skos:prefLabel   "predodređena slika"@sr-Latn-RS ;
+        skos:prefLabel   "placeholder image"@en-CA ;
+        skos:prefLabel   "placeholder image"@en-US ;
+        skos:prefLabel   "emplacement de l'image"@fr-CA ;
+        skos:prefLabel   "Platzhalter-Bild"@de-DE ;
+        skos:prefLabel   "стандартное изображение"@ru-RU ;
+        skos:prefLabel   "imagem padrão"@pt-BR .

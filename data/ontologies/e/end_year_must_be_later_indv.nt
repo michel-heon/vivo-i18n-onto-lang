@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "end_year_must_be_later.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Das Endjahr muss später als das Anfangsjahr liegen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "El fin de año debe ser posterior al inicio de año."@es .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Final de Ano deve ser posterior ao ano de início."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Godina kraja mora biti kasnije od godine početka."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "L'année de fin doit être postérieure à l'année de début."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The End Year must be later than the Start Year."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The End Year must be later than the Start Year."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Год окончания не может предшествовать году начала."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "end_year_must_be_later.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "The End Year must be later than the Start Year."@all .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#end_year_must_be_later> <http://www.w3.org/2000/01/rdf-schema#label> "end_year_must_be_later" .

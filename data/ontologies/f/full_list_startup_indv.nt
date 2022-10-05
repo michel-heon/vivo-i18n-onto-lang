@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "full_list_startup.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Lista Completa dos Eventos de Inicialização e suas Mensagens."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Die vollständige Liste der Startereignisse und Nachrichten."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "La liste complète des événements et messages au démarrage."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lista completa de eventos y mensajes de inicio."@es .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lista događaja i poruka nastalih za vreme pokretanja aplikacije."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The full list of startup events and messages."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The full list of startup events and messages."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Полный список стартовых событий и сообщений."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#full_list_startup> <http://www.w3.org/2000/01/rdf-schema#label> "full_list_startup" .

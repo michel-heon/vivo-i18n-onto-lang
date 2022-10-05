@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:enter_or_select_person_value
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "enter_or_select_person_value" .
+
+prop-data:enter_or_select_person_value.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "enter_or_select_person_value.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "SVP, choisir une entrée existante ou en créer une nouvelle pour le champ Personne."@fr-CA ;
+        skos:prefLabel   "Bitte im Feld Person einen bestehenden Wert auswählen oder einen neuen Wert eintragen."@de-DE ;
+        skos:prefLabel   "Por favor seleccione un valor existente o introduzca un nuevo valor en el campo Persona."@es ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Person field."@en-CA ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Person field."@en-US ;
+        skos:prefLabel   "Selecione um valor existente ou digite um novo valor no campo Pessoa."@pt-BR ;
+        skos:prefLabel   "Molimo Vas odaberite postojeću vrednost ili unesite novu u polje za Osobu."@sr-Latn-RS ;
+        skos:prefLabel   "Пожалуйста, выберите существующее или введите новое значение в поле „Персона“."@ru-RU .
+
+prop-data:enter_or_select_person_value.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_or_select_person_value.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Person field."@all .

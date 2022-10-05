@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_entry_for_clinical_role
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_entry_for_clinical_role" .
+
+prop-data:create_entry_for_clinical_role.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "create_entry_for_clinical_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   ": Ajouter une activité clinique"@fr-CA ;
+        skos:prefLabel   ": Dodajte novu kliničku aktivnost"@sr-Latn-RS ;
+        skos:prefLabel   ": Add a new clinical activity"@en-CA ;
+        skos:prefLabel   ": Add a new clinical activity"@en-US ;
+        skos:prefLabel   ": Добавить новую клиническую деятельность"@ru-RU ;
+        skos:prefLabel   ": Adicione uma nova atividade clínica"@pt-BR ;
+        skos:prefLabel   ": Neue klinische Position hinzufügen"@de-DE ;
+        skos:prefLabel   ": Agregue una actividad clínica nueva"@es .

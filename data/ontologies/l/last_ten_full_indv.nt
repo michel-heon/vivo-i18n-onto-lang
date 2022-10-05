@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "last_ten_full.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "au cours des dernières 10"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "en los últimos 10"@es .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "in den letzten 10 vollen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "in the last 10 full"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "in the last 10 full"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "no último 10 completo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "u poslednjih 10 kalendarskih"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "за последние 10 полных"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "last_ten_full.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "in the last 10 full"@all .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#last_ten_full> <http://www.w3.org/2000/01/rdf-schema#label> "last_ten_full" .

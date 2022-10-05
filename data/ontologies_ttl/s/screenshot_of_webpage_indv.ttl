@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:screenshot_of_webpage.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "screenshot_of_webpage.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Screenshot der Webseite {0}"@de-DE ;
+        skos:prefLabel   "screenshot of webpage {0}"@en-CA ;
+        skos:prefLabel   "screenshot of webpage {0}"@en-US ;
+        skos:prefLabel   "скриншот страницы {0}"@ru-RU ;
+        skos:prefLabel   "slika veb stranice {0}"@sr-Latn-RS ;
+        skos:prefLabel   "captura de tela da página {0}"@pt-BR ;
+        skos:prefLabel   "captura de pantalla de la página web {0}"@es ;
+        skos:prefLabel   "capture de la page web {0}"@fr-CA .
+
+prop-data:screenshot_of_webpage
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "screenshot_of_webpage" .
+
+prop-data:screenshot_of_webpage.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "screenshot_of_webpage.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "screenshot of webpage {0}"@all .

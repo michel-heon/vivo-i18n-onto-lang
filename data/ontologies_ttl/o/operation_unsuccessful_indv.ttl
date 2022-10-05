@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:operation_unsuccessful
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "operation_unsuccessful" .
+
+prop-data:operation_unsuccessful.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "operation_unsuccessful.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "La operación no tuvo éxito. Los detalles completos se pueden encontrar en el registro del sistema."@es ;
+        skos:prefLabel   "A operação não foi bem sucedida. Todos os detalhes podem ser encontrados no log do sistema."@pt-BR ;
+        skos:prefLabel   "Naredba nije uspešno izvršena. Detalje omžete pogledati unutar sistemskih logova."@sr-Latn-RS ;
+        skos:prefLabel   "L'opération a échoué. Vous trouverez tous les détails dans le journal du système."@fr-CA ;
+        skos:prefLabel   "Операция завершилась неудачно. Детали можно найти в файлах журналов системы. Все подробности можно найти в системном журнале."@ru-RU ;
+        skos:prefLabel   "Die Operation war nicht erfolgreich. Ausführliche Informationen finden Sie im Systemprotokoll."@de-DE ;
+        skos:prefLabel   "The operation was unsuccessful. Full details can be found in the system log."@en-CA ;
+        skos:prefLabel   "The operation was unsuccessful. Full details can be found in the system log."@en-US .

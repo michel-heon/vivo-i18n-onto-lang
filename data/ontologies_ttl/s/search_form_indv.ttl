@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_form.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "search_form.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Formulaire de recherche"@fr-CA ;
+        skos:prefLabel   "Formulário de pesquisa"@pt-BR ;
+        skos:prefLabel   "Suchformular"@de-DE ;
+        skos:prefLabel   "Formulario de búsqueda"@es ;
+        skos:prefLabel   "Поисковая форма"@ru-RU ;
+        skos:prefLabel   "Forma za pretragu"@sr-Latn-RS ;
+        skos:prefLabel   "Search form"@en-CA ;
+        skos:prefLabel   "Search form"@en-US .
+
+prop-data:search_form
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "search_form" .
+
+prop-data:search_form.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "search_form.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Search VIVO"@all .

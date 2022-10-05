@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_local_oncologies.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_local_oncologies.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Trenutno nema prepoznatljivih lokalnih ontologija."@sr-Latn-RS ;
+        skos:prefLabel   "Zur Zeit gibt es keine erkannten lokalen Ontologien."@de-DE ;
+        skos:prefLabel   "Hay actualmente ontologías locales no reconocidas."@es ;
+        skos:prefLabel   "Atualmente não há ontologias locais reconhecidos."@pt-BR ;
+        skos:prefLabel   "Aucune ontologie locale trouvée."@fr-CA ;
+        skos:prefLabel   "Локальные онтологии пока не определены."@ru-RU ;
+        skos:prefLabel   "There are currently no recognized local ontologies."@en-CA ;
+        skos:prefLabel   "There are currently no recognized local ontologies."@en-US .
+
+prop-data:no_local_oncologies.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_local_oncologies.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "There are currently no recognized local ontologies."@all .
+
+prop-data:no_local_oncologies
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "no_local_oncologies" .

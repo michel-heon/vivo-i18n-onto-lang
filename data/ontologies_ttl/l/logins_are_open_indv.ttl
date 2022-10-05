@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:logins_are_open.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "logins_are_open.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Вход в систему открыт для всех."@ru-RU ;
+        skos:prefLabel   "El inicio de sesión está abierto a todos los usuarios."@es ;
+        skos:prefLabel   "Logins sind offen für alle."@de-DE ;
+        skos:prefLabel   "Logins are open to all."@en-CA ;
+        skos:prefLabel   "Logins are open to all."@en-US ;
+        skos:prefLabel   "L'accès est ouvert à tous."@fr-CA ;
+        skos:prefLabel   "Logins estão abertos a todos."@pt-BR ;
+        skos:prefLabel   "Prijavljivanje je dozvoljeno svima."@sr-Latn-RS .
+
+prop-data:logins_are_open
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "logins_are_open" .

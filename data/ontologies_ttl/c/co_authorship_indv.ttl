@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:co_authorship
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "co_authorship" .
+
+prop-data:co_authorship.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "co_authorship.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "соавторство"@ru-RU ;
+        skos:prefLabel   "co-authorship"@en-US ;
+        skos:prefLabel   "co-authorship"@en-CA ;
+        skos:prefLabel   "coautoría"@es ;
+        skos:prefLabel   "Mitautorschaft"@de-DE ;
+        skos:prefLabel   "co-autoria"@pt-BR ;
+        skos:prefLabel   "coresponsabilité"@fr-CA ;
+        skos:prefLabel   "ko-autorstvo"@sr-Latn-RS .
+
+prop-data:co_authorship.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "co_authorship.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "co-authorship"@all .

@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:identity_myaccount.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "identity_myaccount.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "My account"@en-CA ;
+        skos:prefLabel   "My account"@en-US ;
+        skos:prefLabel   "Moj nalog"@sr-Latn-RS ;
+        skos:prefLabel   "Minha Conta"@pt-BR ;
+        skos:prefLabel   "Mein Account"@de-DE ;
+        skos:prefLabel   "Моя учетная запись"@ru-RU ;
+        skos:prefLabel   "Mi cuenta"@es ;
+        skos:prefLabel   "Mon compte"@fr-CA .
+
+prop-data:identity_myaccount
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "identity_myaccount" .
+
+prop-data:identity_myaccount.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "identity_myaccount.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "My account"@all .
+
+prop-data:identity_myaccount.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "identity_myaccount.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Моя учетная запись"@ru-RU ;
+        skos:prefLabel   "Mein Account"@de-DE ;
+        skos:prefLabel   "Mon compte"@fr-CA ;
+        skos:prefLabel   "My account"@en-CA ;
+        skos:prefLabel   "My account"@en-US ;
+        skos:prefLabel   "Minha Conta"@pt-BR ;
+        skos:prefLabel   "Mi cuenta"@es ;
+        skos:prefLabel   "Moj nalog"@sr-Latn-RS .

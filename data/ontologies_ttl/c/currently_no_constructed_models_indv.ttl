@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:currently_no_constructed_models.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "currently_no_constructed_models.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "De momento no hay modelos construidos para el uso de la visualización."@es ;
+        skos:prefLabel   "В настоящее время не существует построенных моделей для использования в визуализации."@ru-RU ;
+        skos:prefLabel   "modelos Atualmente não há são construídos para uso através da visualização."@pt-BR ;
+        skos:prefLabel   "Currently there are no constructed models for use by visualization."@en-US ;
+        skos:prefLabel   "Currently there are no constructed models for use by visualization."@en-CA ;
+        skos:prefLabel   "Il n'existe actuellement aucun modèle construit pour la visualisation."@fr-CA ;
+        skos:prefLabel   "Bisher wurden keine Modelle erstellt, die zur Visualisierung genutzt werden können."@de-DE ;
+        skos:prefLabel   "Trenutno ne postoje konstruisani modeli za vizualizaciju."@sr-Latn-RS .
+
+prop-data:currently_no_constructed_models.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "currently_no_constructed_models.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Currently there are no constructed models for use by visualization."@all .
+
+prop-data:currently_no_constructed_models
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "currently_no_constructed_models" .

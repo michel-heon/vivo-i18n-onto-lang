@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "publications_attributed_to.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publicaciones atribuidas a esta"@es .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publications attributed to this"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publications attributed to this"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publications attribuées à ce"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publicações atribuídas a este"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "rad ne doprinosi ovome"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "zugeschriebenen Publikationen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "приписываемых ему публикаций"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "publications_attributed_to.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "publications attributed to this"@all .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to> <http://www.w3.org/2000/01/rdf-schema#label> "publications_attributed_to" .

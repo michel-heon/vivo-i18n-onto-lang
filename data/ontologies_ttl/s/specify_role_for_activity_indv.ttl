@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:specify_role_for_activity.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "specify_role_for_activity.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Bitte geben Sie eine Rolle für diese Aktivität an."@de-DE ;
+        skos:prefLabel   "Por favor especifique um regra para essa atividade."@pt-BR ;
+        skos:prefLabel   "Please specify a role for this activity."@en-US ;
+        skos:prefLabel   "Veuillez spécifier un rôle pour cette activité."@fr-CA ;
+        skos:prefLabel   "Please specify a role for this activity."@en-CA ;
+        skos:prefLabel   "Por favor, especifique un rol para esta actividad."@es ;
+        skos:prefLabel   "Пожалуйста, укажите роль для этой деятельности."@ru-RU ;
+        skos:prefLabel   "Molimo Vas unesite ulogu za ovu aktivnost."@sr-Latn-RS .
+
+prop-data:specify_role_for_activity
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "specify_role_for_activity" .
+
+prop-data:specify_role_for_activity.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "specify_role_for_activity.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please specify a role for this activity."@all .

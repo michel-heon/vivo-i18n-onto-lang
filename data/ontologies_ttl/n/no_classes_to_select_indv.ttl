@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_classes_to_select.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_classes_to_select.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There are no Classes in the system from which to select."@en-CA ;
+        skos:prefLabel   "U sistemu se ne nalazi ni jedna klasa koju bi ste mogli odabrati."@sr-Latn-RS ;
+        skos:prefLabel   "Não há aulas no sistema a partir do qual a escolha."@pt-BR ;
+        skos:prefLabel   "There are no Classes in the system from which to select."@en-US ;
+        skos:prefLabel   "No hay clases en el sistema del cual seleccionar."@es ;
+        skos:prefLabel   "Il n'y a pas de classes parmi lesquelles vous pouvez choisir dans le système."@fr-CA ;
+        skos:prefLabel   "В системе нет классов, из которых можно было бы выбирать."@ru-RU ;
+        skos:prefLabel   "Es gibt keine Klassen im System, die zur Auswahl stehen."@de-DE .
+
+prop-data:no_classes_to_select
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "no_classes_to_select" .

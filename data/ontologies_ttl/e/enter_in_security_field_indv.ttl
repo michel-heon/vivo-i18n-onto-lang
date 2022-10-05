@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:enter_in_security_field
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "enter_in_security_field" .
+
+prop-data:enter_in_security_field.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "enter_in_security_field.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Por favor introduce las letras que se muestran a continuación en el campo de seguridad"@es ;
+        skos:prefLabel   "Please enter the letters displayed below into the security field"@en-CA ;
+        skos:prefLabel   "Please enter the letters displayed below into the security field"@en-US ;
+        skos:prefLabel   "Bitte geben Sie die unten angezeigten Buchstaben in das Sicherheitsfeld ein"@de-DE ;
+        skos:prefLabel   "Por favor insira as letras que aparecerem abaixo em matéria de segurança"@pt-BR ;
+        skos:prefLabel   "Veuillez saisir les caractères apparaissant ci-dessous dans le champs sécurisé prévu à cet effet"@fr-CA ;
+        skos:prefLabel   "Пожалуйста, введите показанные ниже буквы в поле безопасности"@ru-RU ;
+        skos:prefLabel   "Molimo Vas unesite slova ispod u sigurnosno polje"@sr-Latn-RS .

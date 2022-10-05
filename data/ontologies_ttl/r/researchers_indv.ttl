@@ -1,0 +1,147 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cap_map_text3.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text3.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-CA ;
+        skos:prefLabel   "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-US .
+
+prop-data:researchers_in.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers_in.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "researchers in"@en-CA ;
+        skos:prefLabel   "researchers in"@en-US .
+
+prop-data:researchers.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "researchers"@all .
+
+prop-data:cap_map_text5.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text5.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "The amount of researchers retrieved for each search term for is limited by the cutoff value in the search form (10 by default). Increasing this cutoff will increase the likelihood of an intersection between different search terms. This will also increase the complexity of the graph, however, and may make it difficult to identify patterns."@en-CA ;
+        skos:prefLabel   "The amount of researchers retrieved for each search term for is limited by the cutoff value in the search form (10 by default). Increasing this cutoff will increase the likelihood of an intersection between different search terms. This will also increase the complexity of the graph, however, and may make it difficult to identify patterns."@en-US .
+
+prop-data:researchers_in.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers_in.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "researchers in"@en-CA ;
+        skos:prefLabel   "researchers in"@en-US .
+
+prop-data:currently_no_researchers.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "currently_no_researchers.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "There are currently no researchers with a defined geographic focus."@en-CA ;
+        skos:prefLabel   "There are currently no researchers with a defined geographic focus."@en-US .
+
+prop-data:currently_no_researchers.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "currently_no_researchers.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "There are currently no researchers with a defined geographic focus."@en-CA ;
+        skos:prefLabel   "There are currently no researchers with a defined geographic focus."@en-US .
+
+prop-data:currently_no_researchers.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "currently_no_researchers.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "There are currently no researchers with a defined geographic focus."@all .
+
+prop-data:cap_map_text_intro.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text_intro.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Welcome to the Capability Mapping tool. This tool visualises how researchers relate to other researchers via search terms."@en-CA ;
+        skos:prefLabel   "Welcome to the Capability Mapping tool. This tool visualises how researchers relate to other researchers via search terms."@en-US .
+
+prop-data:researchers.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "investigadores"@es ;
+        skos:prefLabel   "chercheur(-euse)s"@fr-CA ;
+        skos:prefLabel   "научные сотрудники"@ru-RU ;
+        skos:prefLabel   "researchers"@en-CA ;
+        skos:prefLabel   "researchers"@en-US ;
+        skos:prefLabel   "istraživači"@sr-Latn-RS ;
+        skos:prefLabel   "pesquisadores"@pt-BR ;
+        skos:prefLabel   "ForscherInnen"@de-DE .
+
+prop-data:researchers_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "researchers in"@all .
+
+prop-data:researchers
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "researchers" .
+
+prop-data:researchers.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "pesquisadores"@pt-BR ;
+        skos:prefLabel   "научные сотрудники"@ru-RU ;
+        skos:prefLabel   "investigadores"@es ;
+        skos:prefLabel   "researchers"@en-CA ;
+        skos:prefLabel   "researchers"@en-US ;
+        skos:prefLabel   "istraživač"@sr-Latn-RS ;
+        skos:prefLabel   "chercheurs"@fr-CA ;
+        skos:prefLabel   "ForscherInnen"@de-DE .
+
+prop-data:cap_map_text1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text1.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Enter a research area into the search field above and press 'Search'. The resulting diagram displays the search term, rendered in orange, connected to the blue group of researchers that are active in that area. Enter another search term to see how researchers from both searches relate. Keep adding search terms to build a capability map."@en-CA ;
+        skos:prefLabel   "Enter a research area into the search field above and press 'Search'. The resulting diagram displays the search term, rendered in orange, connected to the blue group of researchers that are active in that area. Enter another search term to see how researchers from both searches relate. Keep adding search terms to build a capability map."@en-US .

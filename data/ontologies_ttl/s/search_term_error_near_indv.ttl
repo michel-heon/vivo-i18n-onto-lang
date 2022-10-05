@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_term_error_near.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "search_term_error_near.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "The search term had an error near"@en-CA ;
+        skos:prefLabel   "The search term had an error near"@en-US ;
+        skos:prefLabel   "Izraz za pretragu je imao grešku u okolini"@sr-Latn-RS ;
+        skos:prefLabel   "O termo de pesquisa teve um erro perto"@pt-BR ;
+        skos:prefLabel   "El término de búsqueda tuvo un error"@es ;
+        skos:prefLabel   "Der Suchbegriff enthält einen Fehler bei"@de-DE ;
+        skos:prefLabel   "L'expression de recherche comporte une erreur"@fr-CA ;
+        skos:prefLabel   "Поисковый запрос содержал ошибку рядом с"@ru-RU .

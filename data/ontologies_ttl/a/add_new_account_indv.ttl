@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:add_new_account
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "add_new_account" .
+
+prop-data:add_new_account.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "add_new_account.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Añadir nueva cuenta"@es ;
+        skos:prefLabel   "Dodajte novi nalog"@sr-Latn-RS ;
+        skos:prefLabel   "Adicionar nova conta"@pt-BR ;
+        skos:prefLabel   "Добавить учетную запись"@ru-RU ;
+        skos:prefLabel   "Add new account"@en-CA ;
+        skos:prefLabel   "Add new account"@en-US ;
+        skos:prefLabel   "Ajouter un compte"@fr-CA ;
+        skos:prefLabel   "Neues Konto hinzufügen"@de-DE .

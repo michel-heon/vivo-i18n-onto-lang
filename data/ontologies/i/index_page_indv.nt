@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "index_page.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Indexseite"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "indeks stranica"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "index page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "index page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "page index"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "página de inicio"@es .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "página de índice"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#index_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "страницы каталога"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#index_page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#index_page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#index_page> <http://www.w3.org/2000/01/rdf-schema#label> "index_page" .

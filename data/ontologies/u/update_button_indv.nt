@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "update_button.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Actualizar"@es .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aktualisieren"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Atualizar"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ažurirajte"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mettre à jour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Update"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Update"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#update_button.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Обновить"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#update_button> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#update_button> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#update_button> <http://www.w3.org/2000/01/rdf-schema#label> "update_button" .

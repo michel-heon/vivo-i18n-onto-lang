@@ -1,0 +1,44 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:numbers.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "numbers.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Números"@es ;
+        skos:prefLabel   "Números"@pt-BR ;
+        skos:prefLabel   "Цифры"@ru-RU ;
+        skos:prefLabel   "Numbers"@en-CA ;
+        skos:prefLabel   "Numbers"@en-US ;
+        skos:prefLabel   "Zahlen"@de-DE ;
+        skos:prefLabel   "Nombres"@fr-CA ;
+        skos:prefLabel   "Brojevi"@sr-Latn-RS .
+
+prop-data:numbers_based_on_publications_in_vivo.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "numbers_based_on_publications_in_vivo.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "These numbers are based solely on publications that have been loaded into this VIVO application. If this is your profile, you can enter additional publications below."@all .
+
+prop-data:numbers_based_on_publications_in_vivo.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "numbers_based_on_publications_in_vivo.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "These numbers are based solely on publications that have been loaded into this VIVO application. If this is your profile, you can enter additional publications below."@en-CA ;
+        skos:prefLabel   "These numbers are based solely on publications that have been loaded into this VIVO application. If this is your profile, you can enter additional publications below."@en-US .
+
+prop-data:numbers  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "numbers" .

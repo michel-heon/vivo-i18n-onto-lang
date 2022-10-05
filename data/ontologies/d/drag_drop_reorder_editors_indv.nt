@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "drag_drop_reorder_editors.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arrastar e soltar para reordenar editores"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arrastrar y soltar para cambiar el orden de los editores"@es .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drag and drop to reorder editors"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drag and drop to reorder editors"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glisser et déplacer pour réordonner les éditeur(-trice)s"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "HerausgeberInnen mit Drag-and-Drop neu ordnen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prevucite na drugo mesto da promenite redosled urednika"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Упорядочите список редакторов перетаскиванием"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "drag_drop_reorder_editors.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drag and drop to reorder editors"@all .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_editors> <http://www.w3.org/2000/01/rdf-schema#label> "drag_drop_reorder_editors" .

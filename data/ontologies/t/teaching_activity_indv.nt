@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "teaching_activity.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Actividad docente"@es .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lehr-Aktivität"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "activité d'enseignement"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "atividade de ensino"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "nastavne aktivnosti"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "teaching activity"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "teaching activity"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "преподавательская деятельность,"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "teaching_activity.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "teaching activity"@all .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#teaching_activity> <http://www.w3.org/2000/01/rdf-schema#label> "teaching_activity" .

@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:supply_url.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "supply_url.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Следует задать понятный URL"@ru-RU ;
+        skos:prefLabel   "Morate uneti ulepšan URL"@sr-Latn-RS ;
+        skos:prefLabel   "Vous devez inscrire une URL conviviale"@fr-CA ;
+        skos:prefLabel   "Debe proporcionar una URL completa"@es ;
+        skos:prefLabel   "Sie müssen eine lesbare URL angeben"@de-DE ;
+        skos:prefLabel   "You must supply a pretty URL"@en-CA ;
+        skos:prefLabel   "You must supply a pretty URL"@en-US ;
+        skos:prefLabel   "Você deve fornecer uma URL muito"@pt-BR .
+
+prop-data:supply_url  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "supply_url" .

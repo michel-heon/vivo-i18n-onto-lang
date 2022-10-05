@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:external_login_failed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "external_login_failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Eksterna prijava nije uspela"@sr-Latn-RS ;
+        skos:prefLabel   "La connexion externe a échoué."@fr-CA ;
+        skos:prefLabel   "Error de inicio"@es ;
+        skos:prefLabel   "login externo falhou"@pt-BR ;
+        skos:prefLabel   "Не удалось выполнить внешний вход"@ru-RU ;
+        skos:prefLabel   "External login failed"@en-CA ;
+        skos:prefLabel   "External login failed"@en-US ;
+        skos:prefLabel   "Externe Anmeldung fehlgeschlagen"@de-DE .

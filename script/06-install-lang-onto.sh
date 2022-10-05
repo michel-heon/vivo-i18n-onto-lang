@@ -16,12 +16,13 @@ for file in $PROPERTIES_ONTO_DATA/*-languages*
 do
     FILE=$(basename $file .nt)
     PROP_URL=$(echo $FILE | tr ',' '/').properties
+    PROP_FN=$(basename $PROP_URL .properties)
     PROP_DIR_LOC=$(dirname $PROP_URL)
     ROOT_PKG=$(echo $file | cut -f 1 -d ',' )
     PKG=$(basename $ROOT_PKG)
     APP=$(echo $PKG | cut -f 1 -d '-' | tr '[:upper:]' '[:lower:]')
     REGION=$(echo $file | cut -f 2 -d ',')
-    README_URL=$TARGET_HOME/$PROP_DIR_LOC/Readme_$REGION.txt
+    README_URL=$TARGET_HOME/$PROP_DIR_LOC/README_$PROP_FN.txt
     LANG_REPO=$PKG/$REGION/home/src/main/resources/rdf/i18n/$REGION/display/firsttime
     TARGET_REPO=$TARGET_HOME/$LANG_REPO
     THEME=$(echo $PROP_DIR_LOC | grep theme | sed  's/.*themes\///g' | cut -f 1 -d '/')
@@ -41,14 +42,20 @@ do
     echo "      TARGET_REPO  = $TARGET_REPO"
     echo "      PROP_URL     = $PROP_URL"
     echo "      PROP_DIR_LOC = $PROP_DIR_LOC"
+    echo "      PROP_URL_FN  = $PROP_URL_FN"
     echo "      UI_ONTO_FN   = $UI_ONTO_FN"
     echo "      README_URL   = $README_URL"
     mkdir -p $TARGET_REPO
     mkdir -p $TARGET_HOME/$PROP_DIR_LOC/
 cat << EOF > $README_URL
-The ontology corresponding to this property file is at this location:
-Linguistic Property file location: $PROP_DIR_LOC
-Linguistic Ontology file location: $LANG_REPO/$UI_ONTO_FN
+Please note that although usage of property files for translation of UI labels is supported at the moment, 
+it is deprecated and not recommended. Please, consider using ontology instead of property file located at:
+Source code: [VIVO project]$LANG_REPO/$UI_ONTO_FN
+Deployment: [VIVO home]/rdf/i18n/$REGION/display/firsttime/$UI_ONTO_FN
+
+However, if you decide to use property files, please create and post the file in the same 
+directory as this Readme file.
+
 EOF
     func_nt2ttl.sh < $file > $TARGET_REPO/$UI_ONTO_FN
 done

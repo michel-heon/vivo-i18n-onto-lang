@@ -1,0 +1,306 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vis_tools_note_three.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_three.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-CA ;
+        skos:prefLabel   "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US .
+
+prop-data:create_publication_date.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_publication_date.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Criar data de publicação"@pt-BR .
+
+prop-data:edit_publication_date.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_publication_date.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Edit data de publicação"@pt-BR .
+
+prop-data:incomplete_date_time_interval.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_date_time_interval.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "data incompleta / intervalo de tempo"@pt-BR .
+
+prop-data:formatted_date_time.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "formatted_date_time.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Formato data-tempo"@pt-BR .
+
+prop-data:data_being_harvested.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "data_being_harvested.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please wait while your data is harvested."@all .
+
+prop-data:add_remove_rdf.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "add_remove_rdf.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Add/Remove RDF data"@en-CA ;
+        skos:prefLabel   "Add/Remove RDF data"@en-US .
+
+prop-data:refreshing_data_message.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "refreshing_data_message.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@all .
+
+prop-data:refreshing_data_message.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "refreshing_data_message.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-CA ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US .
+
+prop-data:date_time_value_for.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "date_time_value_for.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "data valor de tempo para"@pt-BR .
+
+prop-data:data  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "data" .
+
+prop-data:vitro_bullet_four.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vitro_bullet_four.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Search your data"@en-CA ;
+        skos:prefLabel   "Search your data"@en-US .
+
+prop-data:download_data_as.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "download_data_as.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Download data as"@en-CA ;
+        skos:prefLabel   "Download data as"@en-US .
+
+prop-data:fill_in_template_with_data.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fill_in_template_with_data.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@all .
+
+prop-data:cap_map_text4.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text4.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Kako bi lakše razumeli i protumačili informacije prikazane u okviru vizualizovane mape, izrazi pretrage i grupe koje se nalaze na grafikonu su skalirane u zavisnosti od broja rezultata koji se odnose na iste. Grupe su takođe različitih nijansi u zavisnosti od broja veza sa izrazima pretrage. Što je tamnija nijansa, to je data grupa povezana sa više izraza po kojima ste radili pretragu."@sr-Latn-RS .
+
+prop-data:download_data_as.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "download_data_as.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Download data as"@all .
+
+prop-data:loading_data.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "loading_data.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "loading data"@en-CA ;
+        skos:prefLabel   "loading data"@en-US .
+
+prop-data:loading_data.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "loading_data.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "loading data"@all .
+
+prop-data:loading_data.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "loading_data.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "loading data"@en-CA ;
+        skos:prefLabel   "loading data"@en-US .
+
+prop-data:vis_tools_note_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_three.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@all .
+
+prop-data:fill_in_data.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fill_in_data.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Fill in data"@all .
+
+prop-data:map_being_refreshed_msg.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "map_being_refreshed_msg.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-CA ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US .
+
+prop-data:data_being_harvested.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "data_being_harvested.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please wait while your data is harvested."@en-CA ;
+        skos:prefLabel   "Please wait while your data is harvested."@en-US .
+
+prop-data:data_not_past_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "data_not_past_msg.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Insira uma data alvo futura para publicação (datas anteriores são inválidas)."@pt-BR .
+
+prop-data:loading_data_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "loading_data_for.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Loading data for"@all .
+
+prop-data:vitro_bullet_three.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vitro_bullet_three.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Build a public web site to display your data"@en-CA ;
+        skos:prefLabel   "Build a public web site to display your data"@en-US .
+
+prop-data:fill_in_template_with_data.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fill_in_template_with_data.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-CA ;
+        skos:prefLabel   "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US .
+
+prop-data:data.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "data.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Daten"@de-DE ;
+        skos:prefLabel   "podatak"@sr-Latn-RS ;
+        skos:prefLabel   "data"@en-CA ;
+        skos:prefLabel   "data"@en-US ;
+        skos:prefLabel   "dado"@pt-BR ;
+        skos:prefLabel   "данные"@ru-RU ;
+        skos:prefLabel   "données"@fr-CA ;
+        skos:prefLabel   "datos"@es .
+
+prop-data:publication_date_for.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_date_for.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "data de publicação para"@pt-BR .
+
+prop-data:fill_in_data.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fill_in_data.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Fill in data"@en-CA ;
+        skos:prefLabel   "Fill in data"@en-US .
+
+prop-data:invalid_date_form_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "invalid_date_form_msg.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "deve estar em formato de data válido mm / dd / aaaa."@pt-BR .
+
+prop-data:incomplete_date_time_value.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_date_time_value.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "data incompleta / valor de tempo"@pt-BR .
+
+prop-data:loading_data_for.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "loading_data_for.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Loading data for"@en-CA ;
+        skos:prefLabel   "Loading data for"@en-US .
+
+prop-data:map_being_refreshed_msg.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "map_being_refreshed_msg.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@all .

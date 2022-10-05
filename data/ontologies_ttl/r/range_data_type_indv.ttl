@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:range_data_type.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "range_data_type.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Range Data Type"@de-DE ;
+        skos:prefLabel   "Range Data Type"@en-CA ;
+        skos:prefLabel   "Range Data Type"@en-US ;
+        skos:prefLabel   "Тип данных Диапазон"@ru-RU ;
+        skos:prefLabel   "Étendue du type de données"@fr-CA ;
+        skos:prefLabel   "Tip podataka za raspon"@sr-Latn-RS ;
+        skos:prefLabel   "Tipo de datos de rango"@es ;
+        skos:prefLabel   "Tipo de dados de intervalo"@pt-BR .
+
+prop-data:range_data_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "range_data_type" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selected_grant
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "selected_grant" .
+
+prop-data:selected_grant.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_grant.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Выбранный грант"@ru-RU ;
+        skos:prefLabel   "Grant Selecionado"@pt-BR ;
+        skos:prefLabel   "Subvención Seleccionado"@es ;
+        skos:prefLabel   "Odabran grant"@sr-Latn-RS ;
+        skos:prefLabel   "Selected Grant"@en-CA ;
+        skos:prefLabel   "Selected Grant"@en-US ;
+        skos:prefLabel   "Subvention choisie"@fr-CA ;
+        skos:prefLabel   "Ausgewähltes Forschungsprojekt"@de-DE .
+
+prop-data:selected_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Selected Grant"@all .

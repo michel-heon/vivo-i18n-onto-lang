@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:publication_s_capitalized.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "publication_s_capitalized.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Publikation(en)"@de-DE ;
+        skos:prefLabel   "Publicación (es)"@es ;
+        skos:prefLabel   "Publicação (s)"@pt-BR ;
+        skos:prefLabel   "Publication(s)"@en-CA ;
+        skos:prefLabel   "Publication(s)"@en-US ;
+        skos:prefLabel   "Publication(s)"@fr-CA ;
+        skos:prefLabel   "Публикация(и)"@ru-RU ;
+        skos:prefLabel   "Publikacija"@sr-Latn-RS .
+
+prop-data:publication_s_capitalized
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "publication_s_capitalized" .
+
+prop-data:publication_s_capitalized.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_s_capitalized.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Publication(s)"@all .

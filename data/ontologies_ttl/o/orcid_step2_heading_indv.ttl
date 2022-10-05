@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:orcid_step2_heading
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "orcid_step2_heading" .
+
+prop-data:orcid_step2_heading.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "orcid_step2_heading.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Step 2 (recommended): Linking your ORCID record to VIVO"@en-CA ;
+        skos:prefLabel   "Step 2 (recommended): Linking your ORCID record to VIVO"@en-US ;
+        skos:prefLabel   "Passo 2 (recomendado): Vinculando seu registro ORCID ao VIVO"@pt-BR ;
+        skos:prefLabel   "Шаг 2 (рекомендуется): Свяжите свою запись ORCID с VIVO"@ru-RU ;
+        skos:prefLabel   "Schritt 2 (empfohlen): Verbinden Sie Ihren ORCID Eintrag mit VIVO"@de-DE ;
+        skos:prefLabel   "Korak 2 (preporučuje se): Povezivanje ORCID sadržaja sa VIVO-om"@sr-Latn-RS ;
+        skos:prefLabel   "Étape 2 (recommandé): Lier votre dossier ORCID à VIVO"@fr-CA ;
+        skos:prefLabel   "Paso 2 (recomendado): Conecte su registro ORCID a VIVO"@es .

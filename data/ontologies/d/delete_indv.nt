@@ -1,0 +1,112 @@
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "confirm_delete.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete this photo?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete this photo?"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_plural.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_plural.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_plural.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_plural.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_plural.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "confirm_delete_account_plural.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_plural.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete these accounts?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_plural.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete these accounts?"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "confirm_delete_account_singular.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete this account?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete this account?"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_entry_deletion_from.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_entry_deletion_from.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_entry_deletion_from.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_entry_deletion_from.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_entry_deletion_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "confirm_entry_deletion_from.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_entry_deletion_from.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete the following entry from"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_entry_deletion_from.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete the following entry from"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "confirm_individual_deletion.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete the following individual?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete the following individual?"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_page_deletion.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_page_deletion.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_page_deletion.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_page_deletion.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_page_deletion.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "confirm_page_deletion.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_page_deletion.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you wish to delete this page:"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_page_deletion.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you wish to delete this page:"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "delete.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Löschen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "borrar"@es .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "excluir"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "obrišite"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "supprimer"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "удалить"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#delete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#delete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#delete> <http://www.w3.org/2000/01/rdf-schema#label> "delete" .
+<http://vivoweb.org/ontology/core/properties/individual#delete_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_entry.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_entry.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#delete_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "delete_entry.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#delete_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete this entry"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#delete_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete this entry"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#delete_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#delete_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "delete_page.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#delete_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete this page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#delete_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete this page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "delete_webpage_link.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete web page link"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete web page link"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "delete_webpage_link.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#delete_webpage_link.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "delete web page link"@all .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_confirm_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_confirm_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_confirm_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_confirm_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_confirm_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "file_upload_confirm_delete.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_confirm_delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete this file?"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_supported_actions.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_supported_actions.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_supported_actions.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_supported_actions.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_supported_actions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "file_upload_error_supported_actions.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_supported_actions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Only delete and upload actions supported"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "manage_labels_intro.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "select_account_to_delete.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "select this account to delete it"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "select this account to delete it"@en-US .

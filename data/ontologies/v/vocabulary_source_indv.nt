@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "vocabulary_source.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fonte de vocabulário"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fuente de vocabulario"@es .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Izvor rečnika"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Source de vocabulaire"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vocabulary Source"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vocabulary Source"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wortschatzquelle"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Источник словаря"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vocabulary_source> <http://www.w3.org/2000/01/rdf-schema#label> "vocabulary_source" .

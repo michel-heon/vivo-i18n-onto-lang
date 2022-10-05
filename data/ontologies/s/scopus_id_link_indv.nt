@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "scopus_id_link.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enlace Scopus ID"@es .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ID link"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lien Scopus"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scopus ID Link"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scopus ID Link"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scopus ID Link"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scopus-ID-Link"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ссылка на Scopus ID"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "scopus_id_link.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scopus ID Link"@all .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#scopus_id_link> <http://www.w3.org/2000/01/rdf-schema#label> "scopus_id_link" .

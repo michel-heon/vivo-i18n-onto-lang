@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:or_enter_valid_address.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "or_enter_valid_address.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "ili unesite drugu kompletnu i validnu email adresu."@sr-Latn-RS ;
+        skos:prefLabel   "or enter another complete and valid email address."@en-CA ;
+        skos:prefLabel   "or enter another complete and valid email address."@en-US ;
+        skos:prefLabel   "ou entrar em outro endereço de e-mail completo e válido."@pt-BR ;
+        skos:prefLabel   "oder geben Sie eine andere vollständige und gültige E-Mail-Adresse ein."@de-DE ;
+        skos:prefLabel   "o introducir otra dirección de correo electrónico completa y válida."@es ;
+        skos:prefLabel   "или введите другой полный и действительный адрес электронной почты."@ru-RU ;
+        skos:prefLabel   "ou saisissez une autre adresse électronique complète et valide."@fr-CA .
+
+prop-data:or_enter_valid_address
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "or_enter_valid_address" .

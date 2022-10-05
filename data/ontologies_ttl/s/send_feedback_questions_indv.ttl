@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:send_feedback_questions.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "send_feedback_questions.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Pošaljite nam vaše komentare o sajtu ili nam postavite pitanje"@sr-Latn-RS ;
+        skos:prefLabel   "Отправьте свой отзыв или задайте вопрос"@ru-RU ;
+        skos:prefLabel   "Send us your feedback or ask a question"@en-US ;
+        skos:prefLabel   "Send us your feedback or ask a question"@en-CA ;
+        skos:prefLabel   "Envie-nos o seu feedback ou faça perguntas"@pt-BR ;
+        skos:prefLabel   "Envíenos sus comentarios o haga una pregunta"@es ;
+        skos:prefLabel   "Senden Sie uns Ihr Feedback oder eine Frage"@de-DE ;
+        skos:prefLabel   "Faites-nous part de vos commentaires ou de vos questions"@fr-CA .
+
+prop-data:send_feedback_questions
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "send_feedback_questions" .

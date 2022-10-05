@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cap_map_text7
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "cap_map_text7" .
+
+prop-data:cap_map_text7.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "cap_map_text7.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Este painel exibe informações sobre o indivíduo Pesquisar termos e grupos. Clique em um grupo para exibir suas informações."@pt-BR ;
+        skos:prefLabel   "Cet espace affiche de l'information relative aux termes et groupes de termes. Cliquer sur un groupe pour afficher les informations qui y sont associées."@fr-CA ;
+        skos:prefLabel   "Здесь отображается информация об отдельных поисковых терминах и группах. Щелкните по названию группы, чтобы отобразить информацию о ней."@ru-RU ;
+        skos:prefLabel   "Dieses Fenster zeigt Informationen über einzelne Suchbegriffe und Gruppen an. Klicken Sie auf eine Gruppe, um Informationen über sie anzuzeigen."@de-DE ;
+        skos:prefLabel   "This panel displays information about individual search terms and groups. Click on a group to display its information."@en-CA ;
+        skos:prefLabel   "This panel displays information about individual search terms and groups. Click on a group to display its information."@en-US ;
+        skos:prefLabel   "Ovaj panel sadrži informacije o pojedinim izrazima pretrage i pojedinim grupama. Kliknite na neku od grupa da bi prikazali njene informacije."@sr-Latn-RS ;
+        skos:prefLabel   "Este panel muestra información sobre el individuo términos y grupos de búsqueda. Haga clic en un grupo para mostrar su información."@es .

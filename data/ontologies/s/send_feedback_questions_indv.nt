@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "send_feedback_questions.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Envie-nos o seu feedback ou faça perguntas"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Envíenos sus comentarios o haga una pregunta"@es .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faites-nous part de vos commentaires ou de vos questions"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pošaljite nam vaše komentare o sajtu ili nam postavite pitanje"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Send us your feedback or ask a question"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Send us your feedback or ask a question"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Senden Sie uns Ihr Feedback oder eine Frage"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Отправьте свой отзыв или задайте вопрос"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#send_feedback_questions> <http://www.w3.org/2000/01/rdf-schema#label> "send_feedback_questions" .

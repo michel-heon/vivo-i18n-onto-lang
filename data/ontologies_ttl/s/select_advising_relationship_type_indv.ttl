@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_advising_relationship_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_advising_relationship_type" .
+
+prop-data:select_advising_relationship_type.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_advising_relationship_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Por favor, selecione uma Assessoria Tipo de Relação."@pt-BR ;
+        skos:prefLabel   "SVP, choisir un type de relation de direction."@fr-CA ;
+        skos:prefLabel   "Molimo Vas odaberite tip odnosa mentora."@sr-Latn-RS ;
+        skos:prefLabel   "Please select an Advising Relationship Type."@en-CA ;
+        skos:prefLabel   "Please select an Advising Relationship Type."@en-US ;
+        skos:prefLabel   "Bitte wählen Sie die Art des Betreuungsverhältnisses aus."@de-DE ;
+        skos:prefLabel   "Por favor seleccione un Tipo de relación de Asesoría."@es ;
+        skos:prefLabel   "Пожалуйста выберите тип отношений консультирования."@ru-RU .
+
+prop-data:select_advising_relationship_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_advising_relationship_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an Advising Relationship Type."@all .

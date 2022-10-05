@@ -1,0 +1,45 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:manage_publications_link.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_publications_link.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Gérer les publications"@fr-CA .
+
+prop-data:manage_publications_link
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "manage_publications_link" .
+
+prop-data:manage_publications_link.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "manage_publications_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "gerenciar publicações"@pt-BR ;
+        skos:prefLabel   "upravljajte publikacijama"@sr-Latn-RS ;
+        skos:prefLabel   "управление публикациями"@ru-RU ;
+        skos:prefLabel   "Gérer les publications"@fr-CA ;
+        skos:prefLabel   "manage publications"@en-CA ;
+        skos:prefLabel   "manage publications"@en-US ;
+        skos:prefLabel   "administrar publicaciones"@es ;
+        skos:prefLabel   "Publikationen verwalten"@de-DE .
+
+prop-data:manage_publications_link.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_publications_link.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Gérer les publications"@fr-CA .

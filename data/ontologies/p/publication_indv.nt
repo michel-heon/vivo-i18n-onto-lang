@@ -1,0 +1,288 @@
+<http://vivoweb.org/ontology/core/properties/individual#by_publications.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#by_publications.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#by_publications.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#by_publications.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#by_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "by_publications.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#by_publications.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "par publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_already_claimed.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_already_claimed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vous avez déjà revendiqué cette publication."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_authors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_authors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_authors_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_authors_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_authors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_authors_desc.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_authors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Si vous n'êtes l'auteur(e) d'une publication, sélectionnez votre nom dans la liste des auteur(e)s.<br />Les métadonnées repêchées peuvent être incomplètes. Si votre nom n'apparaît pas, sélectionnez \"Auteur(e) non listé(e)\"."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_editors_desc.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Si vous êtes l'éditeur de la publication, choisissez \"Éditeur(-trice)\""@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_finished.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_finished.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_finished.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_finished.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_finished.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_finished.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_finished.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aucune autre publication à revendiquer.<br />Vous pouvez ajouter des identifiants ci-après, ou revenir à votre profil."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_not_mine.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cette publication n'est pas la mienne"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_and_link_not_mine_desc.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_not_mine_desc.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Si vous ne souhaitez pas revendiquer une publication, choisissez \"Cette publication n'est pas la mienne\"."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_publication_date.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create publication date"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create publication date"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Créer la date de publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "create_publication_date.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#create_publication_date.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create publication date"@all .
+<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "data_not_past_msg.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please enter a future target date for publication (past dates are invalid)."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please enter a future target date for publication (past dates are invalid)."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Veuillez saisir une date cible future pour la publication (les dates passées ne sont pas valides)."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "edit_publication_date.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edit publication date"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edit publication date"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Éditer la date de publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "edit_publication_date.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_publication_date.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edit publication date"@all .
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_excluding_publication.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Erreur lors du traitement de la demande: la publication ne peut être retirée de la page de profil."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Error processing request: the publication cannot be excluded from the profile page."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Error processing request: the publication cannot be excluded from the profile page."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "error_excluding_publication.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#error_excluding_publication.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Error processing request: the publication cannot be excluded from the profile page."@all .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "first_publication.VIVO-languages.tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "First publication"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "First publication"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "Première publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "first_publication.VIVO-languages.wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "First publication"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "First publication"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Première publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "first_publication.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "First publication"@all .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "last_publication.VIVO-languages.tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dernière publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "Last publication"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "Last publication"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "last_publication.VIVO-languages.wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dernière publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Last publication"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Last publication"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "last_publication.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Last publication"@all .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "no_attributed_publications.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aucune publication dans le système n'a été attribuée à ce"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_publications_for_this_organization.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_publications_for_this_organization.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_publications_for_this_organization.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_publications_for_this_organization.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_publications_for_this_organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "no_publications_for_this_organization.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#no_publications_for_this_organization.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aucune publication présente dans le système n'a été attribuée à cette organisation."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#place_of_publication.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#place_of_publication.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#place_of_publication.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#place_of_publication.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#place_of_publication.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "place_of_publication.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#place_of_publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lieu de publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "publication.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publikation"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publicación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publicação"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publikacija"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "публикация"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "publication.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#publication.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication"@all .
+<http://vivoweb.org/ontology/core/properties/individual#publication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication> <http://www.w3.org/2000/01/rdf-schema#label> "publication" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "publication_attributed_to.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "La publication attribuée à ce"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The publication attributed to this"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The publication attributed to this"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "publication_attributed_to.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "The publication attributed to this"@all .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "publication_date.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date de publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "publication_date_for.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "date de publication pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication date for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication date for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "publication_date_for.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_date_for.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication date for"@all .
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "publication_entry_for.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "enregistrement d'une publication pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication entry for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication entry for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "publication_entry_for.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_entry_for.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "publication entry for"@all .
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "publication_successfully_excluded.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "La publication a été retirée avec succès de la page de profil."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The publication will has been successfully excluded from the profile page."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The publication will has been successfully excluded from the profile page."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "publication_successfully_excluded.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_successfully_excluded.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "The publication will has been successfully excluded from the profile page."@all .
+<http://vivoweb.org/ontology/core/properties/individual#publication_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publication_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "publication_type.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_type.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type de publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "return_to_publication.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Return to publication"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Return to publication"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Revenir à la publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "return_to_publication.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_publication.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Return to publication"@all .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "select_existing_pub_or_enter_new.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choisir une publication existante ou en saisir une nouvelle dans le champ Titre."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select an existing publication in the Title field or enter a new one."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select an existing publication in the Title field or enter a new one."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "select_existing_pub_or_enter_new.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select an existing publication in the Title field or enter a new one."@all .

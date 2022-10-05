@@ -1,0 +1,223 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:undefined_runtime_property.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "undefined_runtime_property.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "property dans runtime.properties n'est pas défini."@fr-CA ;
+        skos:prefLabel   "property in runtime.properties is undefined."@en-CA ;
+        skos:prefLabel   "property in runtime.properties is undefined."@en-US ;
+        skos:prefLabel   "Eigenschaft aus Laufzeit.Eigenschaften ist nicht definiert.In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@de-DE .
+
+prop-data:matching_prop_not_defined.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "matching_prop_not_defined.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "matching property is not defined"@en-CA ;
+        skos:prefLabel   "matching property is not defined"@en-US .
+
+prop-data:no_class_restrictions.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_class_restrictions.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There are no classes with a restriction on this property."@en-CA ;
+        skos:prefLabel   "There are no classes with a restriction on this property."@en-US .
+
+prop-data:faux_property_by_base.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faux_property_by_base.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "faux properties by base property"@en-CA ;
+        skos:prefLabel   "faux properties by base property"@en-US .
+
+prop-data:add_property_group.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "add_property_group.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Add new property group"@en-CA ;
+        skos:prefLabel   "Add new property group"@en-US .
+
+prop-data:scroll_to_menus.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "scroll_to_menus.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "scroll to property group menus"@en-CA ;
+        skos:prefLabel   "scroll to property group menus"@en-US .
+
+prop-data:editing_prohibited.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "editing_prohibited.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "This property is currently configured to prohibit editing."@en-CA ;
+        skos:prefLabel   "This property is currently configured to prohibit editing."@en-US .
+
+prop-data:grants_text_one.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_one.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA .
+
+prop-data:the_range_class_does_not_exist.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "the_range_class_does_not_exist.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "The range class for this property does not exist in the system."@en-CA ;
+        skos:prefLabel   "The range class for this property does not exist in the system."@en-US .
+
+prop-data:object_property_hierarchy.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "object_property_hierarchy.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Object property hierarchy"@en-CA ;
+        skos:prefLabel   "Object property hierarchy"@en-US .
+
+prop-data:harvest_error_instructions_three.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_three.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "property dans runtime.properties pointe sur le répertoire d'installation de l'outil de moissonnage (harvester)."@fr-CA ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@en-CA ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@en-US .
+
+prop-data:harvest_error_instructions_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_three.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@all .
+
+prop-data:data_property_hierarchy.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "data_property_hierarchy.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Data property hierarchy"@en-CA ;
+        skos:prefLabel   "Data property hierarchy"@en-US .
+
+prop-data:grants_text_one.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_one.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA .
+
+prop-data:auth_id_explanation.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "auth_id_explanation.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Can be used to associate the account with the user's profile via the matching property."@en-CA ;
+        skos:prefLabel   "Can be used to associate the account with the user's profile via the matching property."@en-US ;
+        skos:prefLabel   "Može se koristiti za povezivanje naloga sa korisničkim profilom preko svojsva podudaranja (matching property)."@sr-Latn-RS .
+
+prop-data:verbose_property_status.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "verbose_property_status.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Verbose property display is"@en-CA ;
+        skos:prefLabel   "Verbose property display is"@en-US .
+
+prop-data:grants_text_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_one.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@all .
+
+prop-data:property  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "property" .
+
+prop-data:undefined_runtime_property.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "undefined_runtime_property.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "property in runtime.properties is undefined."@all .
+
+prop-data:display_has_element_error.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "display_has_element_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There was an error in the system. The display:hasElement property could not be retrieved."@en-CA ;
+        skos:prefLabel   "There was an error in the system. The display:hasElement property could not be retrieved."@en-US .
+
+prop-data:property.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "property.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "propriétés"@fr-CA ;
+        skos:prefLabel   "Eigenschaft"@de-DE ;
+        skos:prefLabel   "propiedad"@es ;
+        skos:prefLabel   "property"@en-CA ;
+        skos:prefLabel   "property"@en-US ;
+        skos:prefLabel   "propriedade"@pt-BR ;
+        skos:prefLabel   "svjojstvo"@sr-Latn-RS ;
+        skos:prefLabel   "свойство"@ru-RU .
+
+prop-data:define_value_for_property.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "define_value_for_property.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@all .
+
+prop-data:define_value_for_property.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "define_value_for_property.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@en-CA ;
+        skos:prefLabel   "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@en-US .

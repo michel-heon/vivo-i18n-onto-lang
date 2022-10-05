@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:loading_website_image.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "loading_website_image.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Chargement du site"@fr-CA ;
+        skos:prefLabel   "Carregando a imagem do site"@pt-BR ;
+        skos:prefLabel   "Učitavanje slike veb stranice"@sr-Latn-RS ;
+        skos:prefLabel   "Loading website image"@en-CA ;
+        skos:prefLabel   "Загрузка изображения сайта"@ru-RU ;
+        skos:prefLabel   "Loading website image"@en-US ;
+        skos:prefLabel   "Bild wird geladen"@de-DE ;
+        skos:prefLabel   "Cargando imagen del sitio web"@es .
+
+prop-data:loading_website_image.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "loading_website_image.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Loading website image"@en-CA ;
+        skos:prefLabel   "Loading website image"@en-US ;
+        skos:prefLabel   "Carregando a imagem do site"@pt-BR ;
+        skos:prefLabel   "Učitavanje slike za vebsajt"@sr-Latn-RS ;
+        skos:prefLabel   "Bild wird geladen"@de-DE ;
+        skos:prefLabel   "Cargando imagen del sitio web"@es ;
+        skos:prefLabel   "Загрузка изображения сайта"@ru-RU ;
+        skos:prefLabel   "Chargement de l'image"@fr-CA .
+
+prop-data:loading_website_image.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "loading_website_image.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Loading website image"@all .
+
+prop-data:loading_website_image
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "loading_website_image" .

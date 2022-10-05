@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:verbose_status_on
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "verbose_status_on" .
+
+prop-data:verbose_status_on.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "verbose_status_on.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "uključen"@sr-Latn-RS ;
+        skos:prefLabel   "ligado"@pt-BR ;
+        skos:prefLabel   "on"@en-CA ;
+        skos:prefLabel   "on"@en-US ;
+        skos:prefLabel   "ein"@de-DE ;
+        skos:prefLabel   "actif"@fr-CA ;
+        skos:prefLabel   "включено"@ru-RU ;
+        skos:prefLabel   "encendido"@es .

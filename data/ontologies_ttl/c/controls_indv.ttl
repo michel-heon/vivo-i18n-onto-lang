@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:controls  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "controls" .
+
+prop-data:controls.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "controls.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Kontrolelemente"@de-DE ;
+        skos:prefLabel   "Kontrole"@sr-Latn-RS ;
+        skos:prefLabel   "Средства управления"@ru-RU ;
+        skos:prefLabel   "Controles"@es ;
+        skos:prefLabel   "Controles"@pt-BR ;
+        skos:prefLabel   "Controls"@en-CA ;
+        skos:prefLabel   "Controls"@en-US ;
+        skos:prefLabel   "Contrôles"@fr-CA .

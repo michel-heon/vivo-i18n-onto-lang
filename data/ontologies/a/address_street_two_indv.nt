@@ -1,0 +1,35 @@
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "address_street_two.VIVO-languages.tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "2e ligne d'adresse"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adresszusatz 1"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "address street two"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "address street two"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "dirección calle dos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "endereço de rua em dois"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "ulica druge adrese"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "строка адреса 2"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "address_street_two.VIVO-languages.wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "2e ligne d'adresse"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adresszusatz 1"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "address street two"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "address street two"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "adresa ulice 2"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "dirección calle dos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "endereço de rua em dois"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Строка адреса 2"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "address_street_two.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "address street two"@all .

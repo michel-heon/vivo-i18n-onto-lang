@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:language_selection_failed.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "language_selection_failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Il y avait un problème dans le système. Votre choix de langue a été rejeté."@fr-CA ;
+        skos:prefLabel   "Hubo un problema en el sistema. La selección del idioma fue rechazada."@es ;
+        skos:prefLabel   "There was a problem in the system. Your language choice was rejected."@en-CA ;
+        skos:prefLabel   "There was a problem in the system. Your language choice was rejected."@en-US ;
+        skos:prefLabel   "Houve um problema no sistema. Sua escolha idioma foi rejeitada."@pt-BR ;
+        skos:prefLabel   "Es ein Problem im System aufgetreten. Ihre Sprachwahl wurde zurückgewiesen."@de-DE ;
+        skos:prefLabel   "Došlo je do problem. Jezik koji ste odabrali je odbijen."@sr-Latn-RS ;
+        skos:prefLabel   "В системе произошла ошибка. Выбор языка был отклонён."@ru-RU .

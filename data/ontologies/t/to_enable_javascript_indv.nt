@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "to_enable_javascript.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aqui estão as instruções para ativar o JavaScript no seu navegador"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquí están las instrucciones para habilitar JavaScript en su navegador web"@es .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Here are the instructions for enabling JavaScript in your web browser"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Here are the instructions for enabling JavaScript in your web browser"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hier gelangen Sie zu Anleitungen zur Aktivierung von JavaScript in Ihrem Web-Browser"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ovo su instrukcija kako da omogućite JavaScript u okviru Vašeg pretraživača"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Voici les instructions pour activer JavaScript dans votre navigateur Web"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Как разрешить JavaScript в браузере"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#to_enable_javascript> <http://www.w3.org/2000/01/rdf-schema#label> "to_enable_javascript" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:major_field
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "major_field" .
+
+prop-data:major_field.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "major_field.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Major Field of Degree"@en-US ;
+        skos:prefLabel   "Campo principal de grado"@es ;
+        skos:prefLabel   "Major Field of Degree"@en-CA ;
+        skos:prefLabel   "Glavna oblast za diplomu"@sr-Latn-RS ;
+        skos:prefLabel   "Hauptfach des Hochschul- oder Universitätsabschlusses"@de-DE ;
+        skos:prefLabel   "Domaine principal du diplôme"@fr-CA ;
+        skos:prefLabel   "Maior Campo de Grau"@pt-BR ;
+        skos:prefLabel   "Основная область обучения"@ru-RU .
+
+prop-data:major_field.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "major_field.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Major Field of Degree"@all .

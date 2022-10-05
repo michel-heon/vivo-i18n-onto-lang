@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:change_profile
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "change_profile" .
+
+prop-data:change_profile.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "change_profile.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "изменить профиль"@ru-RU ;
+        skos:prefLabel   "cambiar el perfil"@es ;
+        skos:prefLabel   "mudança no perfil"@pt-BR ;
+        skos:prefLabel   "Profil wechseln"@de-DE ;
+        skos:prefLabel   "promenite profil"@sr-Latn-RS ;
+        skos:prefLabel   "change profile"@en-CA ;
+        skos:prefLabel   "change profile"@en-US ;
+        skos:prefLabel   "modifier le profil"@fr-CA .

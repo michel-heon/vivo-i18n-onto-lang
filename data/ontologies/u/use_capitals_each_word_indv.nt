@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "use_capitals_each_word.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "jedes Wort mit einem Großbuchstaben beginnen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "koristite veliko slovo na početku svake reči"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "mettre la première lettre de chaque mot en majuscule"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "use capitals for the first letter of each word"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "use capitals for the first letter of each word"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "uso letra maiúscula para a primeira letra de cada palavra"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "utilice mayúsculas para la primera letra de cada palabra"@es .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "пишите каждое слова с прописной буквы"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "use_capitals_each_word.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "use capitals for the first letter of each word"@all .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#use_capitals_each_word> <http://www.w3.org/2000/01/rdf-schema#label> "use_capitals_each_word" .

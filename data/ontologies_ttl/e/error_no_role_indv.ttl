@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_no_role
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "error_no_role" .
+
+prop-data:error_no_role.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "error_no_role.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Morate odabrati ulogu."@sr-Latn-RS ;
+        skos:prefLabel   "Vous devez choisir un rôle."@fr-CA ;
+        skos:prefLabel   "You must select a role."@en-CA ;
+        skos:prefLabel   "You must select a role."@en-US ;
+        skos:prefLabel   "Debe seleccionar un rol."@es ;
+        skos:prefLabel   "Sie müssen eine Rolle auswählen."@de-DE ;
+        skos:prefLabel   "Você deve selecionar um."@pt-BR ;
+        skos:prefLabel   "Вам необходимо выбрать роль.."@ru-RU .

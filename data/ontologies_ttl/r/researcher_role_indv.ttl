@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:researcher_role.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researcher_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Rôle de chercheur(-euse)"@fr-CA ;
+        skos:prefLabel   "Forscherrolle"@de-DE ;
+        skos:prefLabel   "Uloga istraživača"@sr-Latn-RS ;
+        skos:prefLabel   "Роль исследователя"@ru-RU ;
+        skos:prefLabel   "Researcher Role"@en-CA ;
+        skos:prefLabel   "Researcher Role"@en-US ;
+        skos:prefLabel   "Papel del investigador"@es ;
+        skos:prefLabel   "Papel do pesquisador"@pt-BR .
+
+prop-data:researcher_role
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "researcher_role" .
+
+prop-data:researcher_role.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researcher_role.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Researcher Role"@all .

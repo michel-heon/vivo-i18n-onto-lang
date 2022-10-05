@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:we_have_an_error
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "we_have_an_error" .
+
+prop-data:we_have_an_error.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "we_have_an_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "В системе произошла ошибка"@ru-RU ;
+        skos:prefLabel   "Une erreur système s'est produite."@fr-CA ;
+        skos:prefLabel   "Se produjo un error en el sistema."@es ;
+        skos:prefLabel   "There was an error in the system."@en-CA ;
+        skos:prefLabel   "There was an error in the system."@en-US ;
+        skos:prefLabel   "Došlo je do greške u sistemu."@sr-Latn-RS ;
+        skos:prefLabel   "Es ein Fehler im System aufgetreten."@de-DE ;
+        skos:prefLabel   "Houve um erro no sistema."@pt-BR .

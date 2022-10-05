@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:co_investigators.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "co_investigators.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "co-investigators"@all .
+
+prop-data:co_investigators
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "co_investigators" .
+
+prop-data:co_investigators.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "co_investigators.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "coinvestigadores"@es ;
+        skos:prefLabel   "KoforscherInnen"@de-DE ;
+        skos:prefLabel   "со-исследователи"@ru-RU ;
+        skos:prefLabel   "Koautori"@sr-Latn-RS ;
+        skos:prefLabel   "cochercheur(-euse)s"@fr-CA ;
+        skos:prefLabel   "co-investigators"@en-CA ;
+        skos:prefLabel   "co-pesquisadores"@pt-BR ;
+        skos:prefLabel   "co-investigators"@en-US .

@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "select_term_from_results.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bitte wählen Sie mindestens einen Begriff aus den Suchergebnissen aus."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molimo Vas odaberite barem jedan izraz iz rezultata pretrage."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select at least one term from the search search results."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select at least one term from the search search results."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Por favor, seleccione al menos un término de los resultados de búsqueda."@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Por favor, selecione pelo menos um termo a partir dos resultados de busca de busca."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Veuillez sélectionner au moins un terme dans les résultats de recherche."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Пожалуйста, выберите хотя бы один термин из результатов поиска."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "select_term_from_results.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select at least one term from the search search results."@all .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_term_from_results> <http://www.w3.org/2000/01/rdf-schema#label> "select_term_from_results" .

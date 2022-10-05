@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_step1_confirmed.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>Die ORCID iD ist als {0} bestätigt.</p>"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>Seu ID de ORCID é confirmado como {0}</p>"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>Su ORCID iD se confirmó como {0}</p>"@es .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>Vaš ORCID iD je potvrđen kao {0}</p>"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>Votre identifiant ORCID est confirmé: {0}</p>"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>Your ORCID iD is confirmed as {0}</p>"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>Your ORCID iD is confirmed as {0}</p>"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<p>Ваш ORCID подтвержден как {0}</p>"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_confirmed> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_step1_confirmed" .

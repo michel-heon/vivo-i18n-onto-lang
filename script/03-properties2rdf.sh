@@ -42,6 +42,12 @@ printf "PROPFN_VAL=($PROPFN_VAL) \n \
 \t THEME=($THEME) \n\
 \t predicateValue=$predicateValue \n"
 }
+
+###################################################################
+###################################################################
+## Build the ontology associated to the key
+###################################################################
+###################################################################
 function build_indv() {
     cat $1 | while read PROPFN_VAL
     do
@@ -52,7 +58,6 @@ function build_indv() {
 <$BASE_IRI#$predicateValue> <http://www.w3.org/2000/01/rdf-schema#label> "$predicateValue" .
 <$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <$SEMANTIC_BASE_IRI#PropertyKey> . 
-<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#propertiesUrl> "file://$GIT_HOME/$BN.properties"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasPackage> "$PKG" . 
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasApp> "$( echo $PKG | cut -d '-' -f 1 )" . 
 EOF
@@ -82,7 +87,6 @@ EOF
 <$BASE_IRI#$KEY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <$BASE_IRI#$KEY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <$SEMANTIC_BASE_IRI#PropertyKey> . 
 <$BASE_IRI#$KEY> <http://www.w3.org/2000/01/rdf-schema#label> "$KEY" .
-<$BASE_IRI#$KEY> <$SEMANTIC_BASE_IRI#ftlUrl> "file://$FTL_PATH"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 EOF
                 cat << EOF >> $TMP_ONTO_RESULT_FILE
 <$BASE_IRI#$KEY> <$SEMANTIC_BASE_IRI#ftlUrl> "file://$FTL_PATH"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
@@ -92,25 +96,44 @@ EOF
     done
     
 }
-###################################################################
-# extraire la liste des clés
-for KEY in $(cat $LIST_OF_KEYS_FN)
-do
-    KEY=create_new
+
+function process_extraction() {
+    KEY=$1
     cd $PROPERTIES_DATA
-    echo "Processing $KEY"
     SUB_REP="${KEY:0:1}"
     grep -w $KEY * > $TMP_PROP_FN 
-    ONTO_FN=$KEY.nt
-    ONTO_FN_FILE=${KEY}_file.nt
-    export TMP_ONTO_RESULT=$TMPDIR/$ONTO_FN
-    export TMP_ONTO_RESULT_FILE=$TMPDIR/$ONTO_FN_FILE
+    ONTO_FN=${KEY}_indv
+    ONTO_FN_FILE=${KEY}_file
+    echo "($LOOP_CTR/$NBR_LINE) Processing for key = '$KEY',  ontologies: '$ONTO_FN' and '$ONTO_FN_FILE'"
+    export TMP_ONTO_RESULT=$TMPDIR/$ONTO_FN.nt
+    export TMP_ONTO_RESULT_FILE=$TMPDIR/$ONTO_FN_FILE.nt
     build_indv $TMP_PROP_FN
-    cat $TMP_ONTO_RESULT | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN
-    cat $TMP_ONTO_RESULT_FILE | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN_FILE
-#    (func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN > $ONTO_DATA_TTL/$SUB_REP/$KEY.ttl)&
-    func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN
-#    func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN_FILE
-    echo "Done !"
-   exit 0
+    cat $TMP_ONTO_RESULT | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN.nt
+    cat $TMP_ONTO_RESULT_FILE | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN_FILE.nt
+    func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN.nt > $ONTO_DATA_TTL/$SUB_REP/$ONTO_FN.ttl
+    func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN_FILE.nt > $ONTO_DATA_TTL/$SUB_REP/${ONTO_FN_FILE}.ttl 
+    echo "Done $KEY!"
+
+}
+
+###################################################################
+###################################################################
+## Main loop: extract the key list
+###################################################################
+###################################################################
+NBR_LINE=$(cat $LIST_OF_KEYS_FN | wc -l )
+for _KEY in $(cat $LIST_OF_KEYS_FN)
+do
+    ((LOOP_CTR=LOOP_CTR+1))
+#    KEY=create_new
+    process_extraction $_KEY &
+    ((j=j+1))
+    if [ $j = "5" ]
+    then
+        wait; ((j=0)) ;  echo "New cycle"
+    else
+        sleep 1.5
+    fi
 done
+wait 
+echo "Done !"

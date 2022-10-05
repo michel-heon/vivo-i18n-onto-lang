@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:profile_capitalized.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "profile_capitalized.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Profile"@en-US ;
+        skos:prefLabel   "Profile"@en-CA ;
+        skos:prefLabel   "Profil"@de-DE ;
+        skos:prefLabel   "Profil"@fr-CA ;
+        skos:prefLabel   "Profil"@sr-Latn-RS ;
+        skos:prefLabel   "Профиль"@ru-RU ;
+        skos:prefLabel   "Perfil"@es ;
+        skos:prefLabel   "Perfil"@pt-BR .
+
+prop-data:profile_capitalized.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "profile_capitalized.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Profile"@all .
+
+prop-data:profile_capitalized.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "profile_capitalized.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Perfil"@es ;
+        skos:prefLabel   "Perfil"@pt-BR ;
+        skos:prefLabel   "Profil"@de-DE ;
+        skos:prefLabel   "Profil"@fr-CA ;
+        skos:prefLabel   "Profil"@sr-Latn-RS ;
+        skos:prefLabel   "Профиль"@ru-RU ;
+        skos:prefLabel   "Profile"@en-US ;
+        skos:prefLabel   "Profile"@en-CA .

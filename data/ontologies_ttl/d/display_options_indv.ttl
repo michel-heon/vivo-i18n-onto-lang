@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:display_options
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "display_options" .
+
+prop-data:display_options.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "display_options.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Display Options"@en-US ;
+        skos:prefLabel   "Options d'affichage"@fr-CA ;
+        skos:prefLabel   "Visualizar"@pt-BR ;
+        skos:prefLabel   "Варианты отображения"@ru-RU ;
+        skos:prefLabel   "Anzeigeoptionen"@de-DE ;
+        skos:prefLabel   "Opcije za prikazivanje"@sr-Latn-RS ;
+        skos:prefLabel   "Opciones de visualización"@es ;
+        skos:prefLabel   "Display Options"@en-CA .

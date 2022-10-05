@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:manage_site.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "manage_site.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Управлять сайтом"@ru-RU ;
+        skos:prefLabel   "Gérer ce site"@fr-CA ;
+        skos:prefLabel   "Verwalten dieser Webseite"@de-DE ;
+        skos:prefLabel   "Manage this site"@en-CA ;
+        skos:prefLabel   "Manage this site"@en-US ;
+        skos:prefLabel   "Administrar este sitio"@es ;
+        skos:prefLabel   "Upravljajte ovim sajtom"@sr-Latn-RS ;
+        skos:prefLabel   "Gerenciar este site"@pt-BR .
+
+prop-data:manage_site
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "manage_site" .

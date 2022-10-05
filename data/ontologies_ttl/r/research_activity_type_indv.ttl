@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:research_activity_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_activity_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "research activity type"@all .
+
+prop-data:research_activity_type.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "research_activity_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "tipo de atividade da pesquisa"@pt-BR ;
+        skos:prefLabel   "type d'activité de recherche:"@fr-CA ;
+        skos:prefLabel   "Art der Forschungsaktivität"@de-DE ;
+        skos:prefLabel   "вид исследовательской деятельности"@ru-RU ;
+        skos:prefLabel   "research activity type"@en-CA ;
+        skos:prefLabel   "research activity type"@en-US ;
+        skos:prefLabel   "tip aktivnosti istraživanja"@sr-Latn-RS ;
+        skos:prefLabel   "tipo de actividad de investigación"@es .
+
+prop-data:research_activity_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "research_activity_type" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:drag_drop_to_reorder_webpages
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "drag_drop_to_reorder_webpages" .
+
+prop-data:drag_drop_to_reorder_webpages.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "drag_drop_to_reorder_webpages.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Arrastrar y soltar para cambiar el orden de las páginas web"@es ;
+        skos:prefLabel   "Glisser et déplacer pour réorganiser les pages web"@fr-CA ;
+        skos:prefLabel   "Webseiten mit Drag-and-Drop neu ordnen"@de-DE ;
+        skos:prefLabel   "Arrastar e soltar para reorganizar páginas da web"@pt-BR ;
+        skos:prefLabel   "Меняйте порядок перечисления веб-страниц перетаскиванием"@ru-RU ;
+        skos:prefLabel   "Drag and drop to reorder web pages"@en-CA ;
+        skos:prefLabel   "Drag and drop to reorder web pages"@en-US ;
+        skos:prefLabel   "Prevucite stavku na drugu poziciju kako bi ste promenilči redosled veb stranica"@sr-Latn-RS .
+
+prop-data:drag_drop_to_reorder_webpages.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "drag_drop_to_reorder_webpages.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Drag and drop to reorder web pages"@all .

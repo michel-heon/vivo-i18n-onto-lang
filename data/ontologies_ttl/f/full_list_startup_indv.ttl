@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:full_list_startup
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "full_list_startup" .
+
+prop-data:full_list_startup.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "full_list_startup.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Lista događaja i poruka nastalih za vreme pokretanja aplikacije."@sr-Latn-RS ;
+        skos:prefLabel   "Полный список стартовых событий и сообщений."@ru-RU ;
+        skos:prefLabel   "The full list of startup events and messages."@en-US ;
+        skos:prefLabel   "The full list of startup events and messages."@en-CA ;
+        skos:prefLabel   "Die vollständige Liste der Startereignisse und Nachrichten."@de-DE ;
+        skos:prefLabel   "Lista completa de eventos y mensajes de inicio."@es ;
+        skos:prefLabel   "La liste complète des événements et messages au démarrage."@fr-CA ;
+        skos:prefLabel   "A Lista Completa dos Eventos de Inicialização e suas Mensagens."@pt-BR .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:all_values_from.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "all_values_from.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "todos os valores de"@pt-BR ;
+        skos:prefLabel   "sve vrednosti iz"@sr-Latn-RS ;
+        skos:prefLabel   "toutes les valeurs de"@fr-CA ;
+        skos:prefLabel   "todos los valores de"@es ;
+        skos:prefLabel   "все значения из"@ru-RU ;
+        skos:prefLabel   "all values from"@en-CA ;
+        skos:prefLabel   "all values from"@en-US ;
+        skos:prefLabel   "alle Werte von"@de-DE .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:presentation_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "presentation_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Presentation Type"@all .
+
+prop-data:presentation_type.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "presentation_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Tip Prezentacije"@sr-Latn-RS ;
+        skos:prefLabel   "Art des Vortrags"@de-DE ;
+        skos:prefLabel   "Type de présentation"@fr-CA ;
+        skos:prefLabel   "Tipo de presentación"@es ;
+        skos:prefLabel   "Apresentação Tipo"@pt-BR ;
+        skos:prefLabel   "Тип доклада"@ru-RU ;
+        skos:prefLabel   "Presentation Type"@en-CA ;
+        skos:prefLabel   "Presentation Type"@en-US .
+
+prop-data:presentation_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "presentation_type" .

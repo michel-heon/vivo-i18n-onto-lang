@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "internal_class.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clase interna institucional"@es .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "class institucional interna"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "classe interne institutionnelle"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "institutional internal class"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "institutional internal class"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "interne Klasse für die Institution"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "internu klasu institucije"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Собственный класс учреждени"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "internal_class.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "institutional internal class"@all .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#internal_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#internal_class> <http://www.w3.org/2000/01/rdf-schema#label> "internal_class" .

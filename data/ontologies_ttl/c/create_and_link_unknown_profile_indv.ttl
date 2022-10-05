@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_unknown_profile.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_unknown_profile.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Unbekanntes Profil"@de-DE ;
+        skos:prefLabel   "Unknown Profile"@en-CA ;
+        skos:prefLabel   "Unknown Profile"@en-US ;
+        skos:prefLabel   "Неизвестный профиль"@ru-RU ;
+        skos:prefLabel   "Perfil desconhecido"@pt-BR ;
+        skos:prefLabel   "Nepoznat profil"@sr-Latn-RS ;
+        skos:prefLabel   "Perfil desconocido"@es ;
+        skos:prefLabel   "Profil inconnu"@fr-CA .
+
+prop-data:create_and_link_unknown_profile
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_and_link_unknown_profile" .

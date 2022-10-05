@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:relate_editors_profiles.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "relate_editors_profiles.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Relier les éditeurs de profil et les profils"@fr-CA ;
+        skos:prefLabel   "Соотнести редакторов профилей с профилями"@ru-RU ;
+        skos:prefLabel   "Srodni urednici profila i profili"@sr-Latn-RS ;
+        skos:prefLabel   "Referir editores de perfil e perfis"@pt-BR ;
+        skos:prefLabel   "Relate profile editors and profiles"@en-CA ;
+        skos:prefLabel   "Relate profile editors and profiles"@en-US ;
+        skos:prefLabel   "Verknüpfe Profil-Editoren und Profile"@de-DE ;
+        skos:prefLabel   "Relacionar editores de perfil y perfiles"@es .
+
+prop-data:relate_editors_profiles
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "relate_editors_profiles" .

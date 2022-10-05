@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_own_concept_all_caps
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_own_concept_all_caps" .
+
+prop-data:create_own_concept_all_caps.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_own_concept_all_caps.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Создать собственное понятие"@ru-RU ;
+        skos:prefLabel   "eigenes Konzept erstellen"@de-DE ;
+        skos:prefLabel   "Crea un concepto propio"@es ;
+        skos:prefLabel   "Create Your Own Concept"@en-CA ;
+        skos:prefLabel   "Create Your Own Concept"@en-US ;
+        skos:prefLabel   "Crie sua própria Conceito"@pt-BR ;
+        skos:prefLabel   "Kreirajte Vaš koncept"@sr-Latn-RS ;
+        skos:prefLabel   "Créer votre propre concept"@fr-CA .
+
+prop-data:create_own_concept_all_caps.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_own_concept_all_caps.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Create Your Own Concept"@all .

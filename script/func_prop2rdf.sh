@@ -63,7 +63,6 @@ $(cat $SPARQL_SCRIPT_DIR/header.sparql)
 construct {
     prop-data:$predicateValue ?p ?o .
     prop-data:$predicateValue skos:prefLabel ?label .
-    prop-data:$predicateValue prop:ftlUrl ?url .
 } 
 WHERE {
     prop-data:$predicateValue ?p ?o 
@@ -71,19 +70,20 @@ WHERE {
     filter(!regex(str(?p),"prefLabel")) .
     prop-data:$predicateValue skos:prefLabel ?label
     FILTER (lang(?label) = '$REGION') 
-    prop-data:$PROP_KEY prop:ftlUrl ?url .
 }
 EOF
 sparql --results=TURTLE --query=$TMPDIR/describe.sparql --data=$DATA/all.ttl --base "http://vivoweb.org/ontology/core/properties/individual" --results=ntriples >> $ONTOFN
+echo $ONTOFN
 }
 
 ###################################################################
 # Traduire la clé-valeurs en RDF
 NBR_LINE=$(cat $PROPFN | wc -l )
 while IFS= read -r line; do
+    BN=$(basename $PROPFN .properties | tr -s ',' '/')
     ((LOOP_CTR=LOOP_CTR+1))
     PROPFN_VAL=$line
-    echo "($LOOP_CTR/$NBR_LINE) PROCESS $PROPFN_VAL"
+    echo "$BN ($LOOP_CTR/$NBR_LINE) PROCESS $PROPFN_VAL"
     extract_region
     extract_vars
     to_rdf   

@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_research.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afficher toutes les recherches"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ver todas las investigaciones"@es .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "gesamte Forschung anzeigen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "prikažite sva istraživanja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "view all research"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "view all research"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "visualizar todas as pesquisas"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "показать все исследования"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_research.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "view all research"@all .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_research> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_research" .

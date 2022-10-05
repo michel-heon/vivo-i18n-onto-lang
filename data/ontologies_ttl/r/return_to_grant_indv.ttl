@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:return_to_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Return to grant"@all .
+
+prop-data:return_to_grant.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_grant.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Povratak na stipendiju"@sr-Latn-RS ;
+        skos:prefLabel   "Вернуться к гранту"@ru-RU ;
+        skos:prefLabel   "Return to grant"@en-CA ;
+        skos:prefLabel   "Return to grant"@en-US ;
+        skos:prefLabel   "Volver a conceder"@es ;
+        skos:prefLabel   "Zurück zum Forschungsprojekt"@de-DE ;
+        skos:prefLabel   "Retornar para grant"@pt-BR ;
+        skos:prefLabel   "Revenir à la subvention"@fr-CA .
+
+prop-data:return_to_grant.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_grant.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Zurück zum Forschungsprojekt"@de-DE ;
+        skos:prefLabel   "Retornar para grant"@pt-BR ;
+        skos:prefLabel   "Volver a conceder"@es ;
+        skos:prefLabel   "Return to grant"@en-CA ;
+        skos:prefLabel   "Return to grant"@en-US ;
+        skos:prefLabel   "Retourner à la subvention"@fr-CA ;
+        skos:prefLabel   "Povratak na grant"@sr-Latn-RS ;
+        skos:prefLabel   "Вернуться к гранту"@ru-RU .

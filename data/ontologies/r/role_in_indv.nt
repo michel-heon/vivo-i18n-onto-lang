@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "role_in.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Regras em"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rol en la"@es .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Role in"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Role in"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rolle in"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rôle dans"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uloga u"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Роль в"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "role_in.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#role_in.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Role in"@all .
+<http://vivoweb.org/ontology/core/properties/individual#role_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#role_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#role_in> <http://www.w3.org/2000/01/rdf-schema#label> "role_in" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_error_instructions_sixC.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_sixC.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "is properly configured with your database information and namespace."@all .
+
+prop-data:harvest_error_instructions_sixC
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "harvest_error_instructions_sixC" .
+
+prop-data:harvest_error_instructions_sixC.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_sixC.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "je ispravno konfigurisan sa informacijama o vašoj bazi podataka i imenskom prostoru (namespace)."@sr-Latn-RS ;
+        skos:prefLabel   "is properly configured with your database information and namespace."@en-CA ;
+        skos:prefLabel   "is properly configured with your database information and namespace."@en-US ;
+        skos:prefLabel   "est correctement configuré selon le nom de votre base de données et son nom de domaine."@fr-CA ;
+        skos:prefLabel   "richtig mit Ihren Datenbank-Informationen und dem Namensraum konfiguriert."@de-DE ;
+        skos:prefLabel   "está configurado correctamente con su información de bases de datos y espacio de nombres."@es ;
+        skos:prefLabel   "правильно сконфигурирован и содержит необходимую информацию о вашей базе данных и пространстве имен"@ru-RU ;
+        skos:prefLabel   "está configurado corretamente com suas informações de banco de dados e namespace."@pt-BR .

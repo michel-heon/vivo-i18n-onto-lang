@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "first_time_login.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Erstmalige Anmeldung am"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "First time log in"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "First time log in"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Première connexion"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Primeira vez do login"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Primer inicio de sesión"@es .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prvo prijavljivanje"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Первый вход в систему"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login> <http://www.w3.org/2000/01/rdf-schema#label> "first_time_login" .

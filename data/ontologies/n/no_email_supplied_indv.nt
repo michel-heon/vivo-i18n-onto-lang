@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "no_email_supplied.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Courriel manquant."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keine E-Mail angegeben."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nije unet email."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No email supplied."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No email supplied."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sin correo electrónico proporcionado."@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "nenhum email fornecido."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Адрес электронной почты не задан."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied> <http://www.w3.org/2000/01/rdf-schema#label> "no_email_supplied" .

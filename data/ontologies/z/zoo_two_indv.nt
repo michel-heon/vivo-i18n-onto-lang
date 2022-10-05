@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "zoo_two.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoo 2"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoo 2"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoo 2"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoo 2"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoo 2"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoo 2"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zoológico 2"@es .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Зверинец 2"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#zoo_two> <http://www.w3.org/2000/01/rdf-schema#label> "zoo_two" .

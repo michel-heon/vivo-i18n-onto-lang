@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:datetime_year_required
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "datetime_year_required" .
+
+prop-data:datetime_year_required.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "datetime_year_required.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Date/time-Intervalle müssen mit einem Jahr beginnen. Geben Sie entweder ein Startjahr, Endjahr oder beides an."@de-DE ;
+        skos:prefLabel   "Интервалы времени должны начинаться с года. Введите либо год начала, либо год окончания, либо оба."@ru-RU ;
+        skos:prefLabel   "Date/time intervals must begin with a year. Enter either a Start Year, an End Year or both."@en-CA ;
+        skos:prefLabel   "Intervali datuma moraju da počnu sa godinom. Unesite godinu početka, godinu završetka ili i jedno i drugo."@sr-Latn-RS ;
+        skos:prefLabel   "Date/time intervals must begin with a year. Enter either a Start Year, an End Year or both."@en-US ;
+        skos:prefLabel   "Intervalos de fecha / hora deben empezar por el año. Ingrese una fecha de inicio, una fecha final, o ambas."@es ;
+        skos:prefLabel   "Data / hora do intervalo deve ser iniciado com o ano. Entre com o ano inicial e final ou com ambos."@pt-BR ;
+        skos:prefLabel   "Les intervalles de date/heure doivent commencer par une année. Entrez une année de début, une année de fin ou les deux."@fr-CA .

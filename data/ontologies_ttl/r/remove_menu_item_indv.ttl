@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:remove_menu_item
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "remove_menu_item" .
+
+prop-data:remove_menu_item.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "remove_menu_item.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Eliminar elemento de menú"@es ;
+        skos:prefLabel   "Remover item de menu"@pt-BR ;
+        skos:prefLabel   "Menüpunkt entfernen"@de-DE ;
+        skos:prefLabel   "Supprimer l'élément de menu"@fr-CA ;
+        skos:prefLabel   "Remove menu item"@en-US ;
+        skos:prefLabel   "Remove menu item"@en-CA ;
+        skos:prefLabel   "Удалить пункт меню"@ru-RU ;
+        skos:prefLabel   "Obrišite stavku iz menija"@sr-Latn-RS .

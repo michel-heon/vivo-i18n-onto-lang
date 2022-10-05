@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "data_being_harvested.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aguarde enquanto seus dados são recebidos."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bitte warten Sie, der Harvesting-Prozess Ihrer Daten läuft."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molimo Vas sačekajte dok se podaci prikupljaju."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please wait while your data is harvested."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please wait while your data is harvested."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Por favor, espere mientras se recolectan sus datos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Veuillez attendre. Données en cours de chargement."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Пожалуйста, подождите, пока ваши данные будут собраны."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "data_being_harvested.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please wait while your data is harvested."@all .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#data_being_harvested> <http://www.w3.org/2000/01/rdf-schema#label> "data_being_harvested" .

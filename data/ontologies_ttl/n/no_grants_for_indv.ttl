@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_grants_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_grants_for.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Currently there are no grants for"@all .
+
+prop-data:no_grants_for.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no_grants_for.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "De momento no hay subvenciones para"@es ;
+        skos:prefLabel   "Currently there are no grants for"@en-CA ;
+        skos:prefLabel   "Currently there are no grants for"@en-US ;
+        skos:prefLabel   "Actuellement aucune subvention pour"@fr-CA ;
+        skos:prefLabel   "Zurzeit gibt es keine Forschungsprojekte für"@de-DE ;
+        skos:prefLabel   "Actualmente não há subsídios para"@pt-BR ;
+        skos:prefLabel   "Trenutno nema stipendija za"@sr-Latn-RS ;
+        skos:prefLabel   "В настоящее время не найдено информации о грантах у"@ru-RU .
+
+prop-data:no_grants_for.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no_grants_for.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Zurzeit gibt es keine Forschungsprojekte für"@de-DE ;
+        skos:prefLabel   "В данный момент не найдено грантов у"@ru-RU ;
+        skos:prefLabel   "Currently there are no grants for"@en-CA ;
+        skos:prefLabel   "Currently there are no grants for"@en-US ;
+        skos:prefLabel   "Trenutno nema grant-ova za"@sr-Latn-RS ;
+        skos:prefLabel   "Actualmente não há subsídios para"@pt-BR ;
+        skos:prefLabel   "De momento no hay subvenciones para"@es ;
+        skos:prefLabel   "Actuellement aucune subvention pour"@fr-CA .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:orcid_title_add
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "orcid_title_add" .
+
+prop-data:orcid_title_add.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_title_add.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "¿Desea añadir su ORCID iD?"@es ;
+        skos:prefLabel   "Você deseja adicionar um ID de ORCID?"@pt-BR ;
+        skos:prefLabel   "Da li želite da dodate ORCID iD?"@sr-Latn-RS ;
+        skos:prefLabel   "Вы хотите добавить ORCID?"@ru-RU ;
+        skos:prefLabel   "Désirez-vous ajouter un identifiant ORCID?"@fr-CA ;
+        skos:prefLabel   "Do you want to add an ORCID iD?"@en-US ;
+        skos:prefLabel   "Do you want to add an ORCID iD?"@en-CA ;
+        skos:prefLabel   "Möchten Sie eine ORCID iD hinzufügen?"@de-DE .

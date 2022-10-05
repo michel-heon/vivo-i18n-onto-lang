@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "external_id_not_provided.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anmeldung fehlgeschlagen - Externe ID wurde nicht gefunden."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Connexion impossible - Identifiant externe introuvable."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Error de acceso - no se encuentra el ID externo."@es .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login failed - External ID is not found."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login failed - External ID is not found."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login falhou - External ID não foi encontrado."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prijava neuspešna - Eksterni ID nije pronađen"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Вход не удался — внешний идентификатор не найден."@ru-RU .

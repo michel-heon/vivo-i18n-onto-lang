@@ -1,0 +1,430 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:check_pubs_to_exclude.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "check_pubs_to_exclude.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Check those publications you want to <em>exclude</em> from the profile page."@all .
+
+prop-data:from.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "from.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "from"@all .
+
+prop-data:there_are_no_entries_for_selection.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "there_are_no_entries_for_selection.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There are no entries in the system from which to select."@en-CA ;
+        skos:prefLabel   "There are no entries in the system from which to select."@en-US .
+
+prop-data:from_site_admin_page.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "from_site_admin_page.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "from the Site Administration page."@en-CA ;
+        skos:prefLabel   "from the Site Administration page."@en-US .
+
+prop-data:error_excluding_publication.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_publication.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Error processing request: the publication cannot be excluded from the profile page."@en-CA ;
+        skos:prefLabel   "Error processing request: the publication cannot be excluded from the profile page."@en-US .
+
+prop-data:error_excluding_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Error processing request: the item cannot be excluded from the profile page."@all .
+
+prop-data:grants_text_one.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_one.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA .
+
+prop-data:select_term_from_results.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_term_from_results.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select at least one term from the search search results."@en-CA ;
+        skos:prefLabel   "Please select at least one term from the search search results."@en-US .
+
+prop-data:grants_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@all .
+
+prop-data:check_pubs_to_exclude.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "check_pubs_to_exclude.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Check those publications you want to <em>exclude</em> from the profile page."@en-CA ;
+        skos:prefLabel   "Check those publications you want to <em>exclude</em> from the profile page."@en-US .
+
+prop-data:select_term_from_results.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_term_from_results.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select at least one term from the search search results."@all .
+
+prop-data:cap_map_text1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text1.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Enter a research area into the search field above and press 'Search'. The resulting diagram displays the search term, rendered in orange, connected to the blue group of researchers that are active in that area. Enter another search term to see how researchers from both searches relate. Keep adding search terms to build a capability map."@en-CA ;
+        skos:prefLabel   "Enter a research area into the search field above and press 'Search'. The resulting diagram displays the search term, rendered in orange, connected to the blue group of researchers that are active in that area. Enter another search term to see how researchers from both searches relate. Keep adding search terms to build a capability map."@en-US .
+
+prop-data:cap_map_text3.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text3.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-CA ;
+        skos:prefLabel   "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-US .
+
+prop-data:from  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "from" .
+
+prop-data:grants_two.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_two.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-CA ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA .
+
+prop-data:grants_text_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_one.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@all .
+
+prop-data:from.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "from.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "de"@pt-BR ;
+        skos:prefLabel   "de"@es ;
+        skos:prefLabel   "de"@fr-CA ;
+        skos:prefLabel   "из"@ru-RU ;
+        skos:prefLabel   "from"@en-CA ;
+        skos:prefLabel   "from"@en-US ;
+        skos:prefLabel   "od"@sr-Latn-RS ;
+        skos:prefLabel   "von"@de-DE .
+
+prop-data:grant_successfully_excluded.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_successfully_excluded.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The item has been successfully excluded from the profile page."@all .
+
+prop-data:check_grants_to_exclude.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "check_grants_to_exclude.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Check those grants and projects you want to <em>exclude</em> from the profile page."@all .
+
+prop-data:publication_successfully_excluded.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_successfully_excluded.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "The publication will has been successfully excluded from the profile page."@en-CA ;
+        skos:prefLabel   "The publication will has been successfully excluded from the profile page."@en-US .
+
+prop-data:check_people_to_exclude.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "check_people_to_exclude.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Check those people you want to <em>exclude</em> from the profile page."@all .
+
+prop-data:no_classes_to_select.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_classes_to_select.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There are no Classes in the system from which to select."@en-CA ;
+        skos:prefLabel   "There are no Classes in the system from which to select."@en-US .
+
+prop-data:error_excluding_grant.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_grant.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Error processing request: the item cannot be excluded from the profile page."@en-CA ;
+        skos:prefLabel   "Error processing request: the item cannot be excluded from the profile page."@en-US .
+
+prop-data:create_and_link_enter_pmid_supported.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_enter_pmid_supported.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Note that metadata will be retrieved from Crossref, if the PubMed ID can be resolved to a DOI."@en-CA ;
+        skos:prefLabel   "Note that metadata will be retrieved from Crossref, if the PubMed ID can be resolved to a DOI."@en-US .
+
+prop-data:error_excluding_person.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_person.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Error processing request: the person cannot be excluded from the organization page."@en-CA ;
+        skos:prefLabel   "Error processing request: the person cannot be excluded from the organization page."@en-US .
+
+prop-data:error_excluding_publication.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_publication.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Error processing request: the publication cannot be excluded from the profile page."@all .
+
+prop-data:select_existing_local_class.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_existing_local_class.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Select an existing class from a local extension"@all .
+
+prop-data:grant_successfully_excluded.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_successfully_excluded.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "The item has been successfully excluded from the profile page."@en-CA ;
+        skos:prefLabel   "The item has been successfully excluded from the profile page."@en-US .
+
+prop-data:publication_successfully_excluded.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_successfully_excluded.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The publication will has been successfully excluded from the profile page."@all .
+
+prop-data:please_select_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "please_select_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select a type from the drop-down list."@all .
+
+prop-data:check_grants_to_exclude.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "check_grants_to_exclude.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Check those grants and projects you want to <em>exclude</em> from the profile page."@en-CA ;
+        skos:prefLabel   "Check those grants and projects you want to <em>exclude</em> from the profile page."@en-US .
+
+prop-data:person_successfully_excluded.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "person_successfully_excluded.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "The person has been successfully excluded from the organization page."@en-CA ;
+        skos:prefLabel   "The person has been successfully excluded from the organization page."@en-US .
+
+prop-data:confirm_entry_deletion_from.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_entry_deletion_from.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Are you sure you want to delete the following entry from"@en-CA ;
+        skos:prefLabel   "Are you sure you want to delete the following entry from"@en-US .
+
+prop-data:select_another_class.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_another_class.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Please select another class from the list."@en-CA ;
+        skos:prefLabel   "Please select another class from the list."@en-US .
+
+prop-data:grants_text_one.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_one.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        skos:prefLabel   "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA .
+
+prop-data:person_successfully_excluded.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "person_successfully_excluded.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The person has been successfully excluded from the organization page."@all .
+
+prop-data:some_values_from.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "some_values_from.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "some values from"@en-CA ;
+        skos:prefLabel   "some values from"@en-US .
+
+prop-data:error_excluding_person.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_person.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Error processing request: the person cannot be excluded from the organization page."@all .
+
+prop-data:check_people_to_exclude.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "check_people_to_exclude.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Check those people you want to <em>exclude</em> from the profile page."@en-CA ;
+        skos:prefLabel   "Check those people you want to <em>exclude</em> from the profile page."@en-US .
+
+prop-data:grants_two.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_two.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-CA ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
+        skos:prefLabel   "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA .
+
+prop-data:select_existing_local_class.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_existing_local_class.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Select an existing class from a local extension"@en-CA ;
+        skos:prefLabel   "Select an existing class from a local extension"@en-US .
+
+prop-data:from_current_incomplete_year.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "from_current_incomplete_year.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "from current incomplete year"@en-CA ;
+        skos:prefLabel   "from current incomplete year"@en-US .
+
+prop-data:please_select_type.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "please_select_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select a type from the drop-down list."@en-CA ;
+        skos:prefLabel   "Please select a type from the drop-down list."@en-US .
+
+prop-data:all_values_from.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "all_values_from.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "all values from"@en-CA ;
+        skos:prefLabel   "all values from"@en-US .
+
+prop-data:new_pwd_matches_existing.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "new_pwd_matches_existing.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Your new password must be different from your existing password."@en-CA ;
+        skos:prefLabel   "Your new password must be different from your existing password."@en-US .
+
+prop-data:from_current_incomplete_year.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "from_current_incomplete_year.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "from current incomplete year"@all .

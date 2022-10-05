@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "rebuild_search_index.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ponovo kreirajte indeks pretrage"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rebuild search index"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rebuild search index"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reconstruir Índice de Pesquisa"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reconstruir índice de búsqueda"@es .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reconstruire l'index du site"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suchindex neu aufbauen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Перестроить поисковый индекс"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_search_index> <http://www.w3.org/2000/01/rdf-schema#label> "rebuild_search_index" .

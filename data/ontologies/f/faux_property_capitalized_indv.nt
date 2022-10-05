@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "faux_property_capitalized.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faux Property"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faux Property"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faux Property"@es .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faux Property"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faux svojstvo"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faux-Property"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Propriété Faux"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Номинальное свойство"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_capitalized> <http://www.w3.org/2000/01/rdf-schema#label> "faux_property_capitalized" .

@@ -1,0 +1,30 @@
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "province_or_region.VIVO-languages.wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Provincije ili region"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "region.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estado / Província / Região"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estado/provincia/Región"@es .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land/Bundesland/Bezirk"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Province"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Provincija/Regija"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "State/Province/Region"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "State/Province/Region"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Республика / Край / Область"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "region.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#region.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "State/Province/Region"@all .
+<http://vivoweb.org/ontology/core/properties/individual#region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#region> <http://www.w3.org/2000/01/rdf-schema#label> "region" .

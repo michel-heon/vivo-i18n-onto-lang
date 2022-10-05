@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vocabulary_service_unavailable.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "vocabulary_service_unavailable.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Foi encontrado um erro na execução da pesquisa."@pt-BR ;
+        skos:prefLabel   "Une erreur est survenue à l exécution de cette recherche."@fr-CA ;
+        skos:prefLabel   "Bei der Suche ist ein Fehler aufgetreten."@de-DE ;
+        skos:prefLabel   "Došlo je do greške tokom pretrage."@sr-Latn-RS ;
+        skos:prefLabel   "Se ha encontrado un error en la ejecución de esta búsqueda."@es ;
+        skos:prefLabel   "При выполнении этого поискового запроса произошла ошибка."@ru-RU ;
+        skos:prefLabel   "An error was encountered in executing this search."@en-CA ;
+        skos:prefLabel   "An error was encountered in executing this search."@en-US .
+
+prop-data:vocabulary_service_unavailable
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "vocabulary_service_unavailable" .
+
+prop-data:vocabulary_service_unavailable.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vocabulary_service_unavailable.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "An error was encountered in executing this search."@all .

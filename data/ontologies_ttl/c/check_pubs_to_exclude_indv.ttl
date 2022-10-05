@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:check_pubs_to_exclude.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "check_pubs_to_exclude.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Check those publications you want to <em>exclude</em> from the profile page."@all .
+
+prop-data:check_pubs_to_exclude.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "check_pubs_to_exclude.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Отметьте те публикации, которые вы хотите <em>убрать</em> со страницы профиля."@ru-RU ;
+        skos:prefLabel   "Selektujte one publikacije koje želite da <em>izostavite</em> sa profilne stranice."@sr-Latn-RS ;
+        skos:prefLabel   "Confira essas publicações que você deseja excluir da página do perfil."@pt-BR ;
+        skos:prefLabel   "Markieren Sie die Publikationen, die auf der Profilseite nicht berücksichtigt werden sollen."@de-DE ;
+        skos:prefLabel   "Choisir les publications que vous souhaitez <em>exclure</em> de la page des profils."@fr-CA ;
+        skos:prefLabel   "Compruebe las subvenciones que desea excluir de la página de perfil."@es ;
+        skos:prefLabel   "Check those publications you want to <em>exclude</em> from the profile page."@en-CA ;
+        skos:prefLabel   "Check those publications you want to <em>exclude</em> from the profile page."@en-US .
+
+prop-data:check_pubs_to_exclude
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "check_pubs_to_exclude" .

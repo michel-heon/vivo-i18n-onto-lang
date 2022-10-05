@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:since_elapsed_time.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "since_elapsed_time.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "desde {0}, tempo decorrido {1}"@pt-BR ;
+        skos:prefLabel   "Depuis {0}. Durée écoulée {1}"@fr-CA ;
+        skos:prefLabel   "desde {0}, tiempo transcurrido {1}"@es ;
+        skos:prefLabel   "od {0}, proteklo vreme {1}"@sr-Latn-RS ;
+        skos:prefLabel   "since {0}, elapsed time {1}"@en-CA ;
+        skos:prefLabel   "since {0}, elapsed time {1}"@en-US ;
+        skos:prefLabel   "seit {0}, verstrichene Zeit {1}"@de-DE ;
+        skos:prefLabel   "с {0}, прошло времени {1}"@ru-RU .

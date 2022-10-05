@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "advisor_label.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bezeichnung der Betreuerin / des Betreuers"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "advisor label"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "advisor label"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "etiqueta asesor"@es .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "labela savetnika"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "rótulo orientador"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "étiquette de conseiller"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "метка консультанта"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "advisor_label.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "advisor label"@all .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label> <http://www.w3.org/2000/01/rdf-schema#label> "advisor_label" .

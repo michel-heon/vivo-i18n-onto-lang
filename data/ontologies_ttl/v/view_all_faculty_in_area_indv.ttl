@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:view_all_faculty_in_area.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_faculty_in_area.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "View all faculty with an interest in this area."@all .
+
+prop-data:view_all_faculty_in_area.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_faculty_in_area.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "View all faculty with an interest in this area."@en-CA ;
+        skos:prefLabel   "View all faculty with an interest in this area."@en-US ;
+        skos:prefLabel   "Ver todos os docentes com interesse nesta área."@pt-BR ;
+        skos:prefLabel   "Prikažite sve zaposlene na fakultetu sa interesovanjem za ovu oblast."@sr-Latn-RS ;
+        skos:prefLabel   "Ver todos los profesores interesados ​​en esta área."@es ;
+        skos:prefLabel   "Показать всех преподавателей, интересующихся данной областью исследований."@ru-RU ;
+        skos:prefLabel   "Voir tous les enseignants intéressés par ce domaine de recherche."@fr-CA ;
+        skos:prefLabel   "Alle Fachbereiche anzeigen, die sich für dieses Forschungsgebiet interessieren."@de-DE .
+
+prop-data:view_all_faculty_in_area
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "view_all_faculty_in_area" .

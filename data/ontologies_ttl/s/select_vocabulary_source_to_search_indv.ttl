@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_vocabulary_source_to_search
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_vocabulary_source_to_search" .
+
+prop-data:select_vocabulary_source_to_search.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "select_vocabulary_source_to_search.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Molimo Vas odaberite makar jedan eksterni izvor rečnika nad kojim će se izvršiti pretraga."@sr-Latn-RS ;
+        skos:prefLabel   "Por favor, selecione pelo menos uma fonte de vocabulário externo de pesquisa."@pt-BR ;
+        skos:prefLabel   "Please select at least one external vocabulary source to search."@en-US ;
+        skos:prefLabel   "Please select at least one external vocabulary source to search."@en-CA ;
+        skos:prefLabel   "Por favor seleccione al menos una fuente del vocabulario externo para buscar."@es ;
+        skos:prefLabel   "Bitte wählen Sie mindestens eine externe Quelle kontrollierten Vokabulars für die Suche aus."@de-DE ;
+        skos:prefLabel   "Veuillez sélectionner au moins une source de vocabulaire externe à rechercher."@fr-CA ;
+        skos:prefLabel   "Пожалуйста, выберите хотя бы один внешний источник лексики для поиска."@ru-RU .
+
+prop-data:select_vocabulary_source_to_search.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_vocabulary_source_to_search.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select at least one external vocabulary source to search."@all .

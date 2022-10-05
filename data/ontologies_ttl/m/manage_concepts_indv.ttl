@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:manage_concepts
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "manage_concepts" .
+
+prop-data:manage_concepts.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_concepts.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Manage Concepts"@en-CA ;
+        skos:prefLabel   "Manage Concepts"@en-US ;
+        skos:prefLabel   "Upravljajte konceptima"@sr-Latn-RS ;
+        skos:prefLabel   "Gérer les concepts"@fr-CA ;
+        skos:prefLabel   "Работа с понятиями"@ru-RU ;
+        skos:prefLabel   "Konzepte verwalten"@de-DE ;
+        skos:prefLabel   "Gerenciar Conceitos"@pt-BR ;
+        skos:prefLabel   "Administrar conceptos"@es .
+
+prop-data:manage_concepts.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_concepts.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Manage Concepts"@all .

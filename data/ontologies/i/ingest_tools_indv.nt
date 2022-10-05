@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "ingest_tools.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alati za prikupljanje podataka"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ferramentas de Inserção"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Herramientas de importación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingest tools"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingest tools"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingest-Tools"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Outils d'ingestion"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Инструменты для ввода данных"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools> <http://www.w3.org/2000/01/rdf-schema#label> "ingest_tools" .

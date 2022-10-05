@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:manage_labels_intro.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "manage_labels_intro.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "U slučaju da postoji više labela na istom jeziku, molimo Vas obrišite labele koje ne želite da budu prikazane na stranici jezika."@sr-Latn-RS ;
+        skos:prefLabel   "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка."@ru-RU ;
+        skos:prefLabel   "Dans le cas où plusieurs étiquettes existent dans la même langue, veuillez utiliser le lien de suppression pour supprimer les étiquettes que vous ne voulez pas voir apparaître sur la page de profil pour une langue donnée."@fr-CA ;
+        skos:prefLabel   "No caso de multiplos labels existirem com mesma linguagem, por favor remova um link labels que voce nao deseja exiber na sua pagina do perfil."@pt-BR ;
+        skos:prefLabel   "En el caso de que existan varias etiquetas en el mismo idioma, por favor, utilice el enlace remove para eliminar las etiquetas que no desea que aparezcan en la página de perfil para un determinado idioma."@es ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US ;
+        skos:prefLabel   "Wenn mehrere Labels in der gleichen Sprache existieren, nutzen Sie bitte den Entfernen-Link, um die Labels zu entfernen, die Sie nicht auf der Profilseite der angegebenen Sprache anzeigen möchten."@de-DE .
+
+prop-data:manage_labels_intro
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "manage_labels_intro" .

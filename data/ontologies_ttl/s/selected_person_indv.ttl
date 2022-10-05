@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selected_person.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_person.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Selected Person"@all .
+
+prop-data:selected_person
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "selected_person" .
+
+prop-data:selected_person.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "selected_person.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "pessoa selecionada"@pt-BR ;
+        skos:prefLabel   "ausgewählte Person"@de-DE ;
+        skos:prefLabel   "Выбранное лицо"@ru-RU ;
+        skos:prefLabel   "Personne sélectionnée"@fr-CA ;
+        skos:prefLabel   "Odabrana osoba"@sr-Latn-RS ;
+        skos:prefLabel   "Persona seleccionada"@es ;
+        skos:prefLabel   "Selected Person"@en-CA ;
+        skos:prefLabel   "Selected Person"@en-US .

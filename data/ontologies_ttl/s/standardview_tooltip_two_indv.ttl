@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:standardview_tooltip_two.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "standardview_tooltip_two.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "vista rápida del perfil."@es ;
+        skos:prefLabel   "profile quick view."@en-US ;
+        skos:prefLabel   "profile quick view."@en-CA ;
+        skos:prefLabel   "быстрого просмотра профиля."@ru-RU ;
+        skos:prefLabel   "perfil de visualização rápida."@pt-BR ;
+        skos:prefLabel   "un aperçu rapide du profil."@fr-CA ;
+        skos:prefLabel   "Schnellanzeige des Profils zu gelangen."@de-DE ;
+        skos:prefLabel   "brzi pregled profil."@sr-Latn-RS .
+
+prop-data:standardview_tooltip_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "standardview_tooltip_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "profile quick view."@all .
+
+prop-data:standardview_tooltip_two
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "standardview_tooltip_two" .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:edit_capitalized
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "edit_capitalized" .
+
+prop-data:edit_capitalized.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_capitalized.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Редактирование"@ru-RU ;
+        skos:prefLabel   "Edit"@en-US ;
+        skos:prefLabel   "Edit"@en-CA ;
+        skos:prefLabel   "Ažurirajte"@sr-Latn-RS ;
+        skos:prefLabel   "Bearbeiten"@de-DE ;
+        skos:prefLabel   "Éditer"@fr-CA ;
+        skos:prefLabel   "Editar"@es ;
+        skos:prefLabel   "Editar"@pt-BR .

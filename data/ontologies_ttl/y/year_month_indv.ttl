@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:year_month.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "year_month.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Neispravan unos. Molimo Vas unesite godinu i mesec."@sr-Latn-RS ;
+        skos:prefLabel   "Entrée invalide. Veuillez entrer une année et un mois."@fr-CA ;
+        skos:prefLabel   "Ungültiger Eintrag. Bitte geben Sie ein Jahr und ein Monat an."@de-DE ;
+        skos:prefLabel   "Invalid entry. Please enter a Year and Month."@en-CA ;
+        skos:prefLabel   "Invalid entry. Please enter a Year and Month."@en-US ;
+        skos:prefLabel   "Entrada inválida. Digite um ano e um mês."@pt-BR ;
+        skos:prefLabel   "Неверный ввод. Пожалуйста, введите год и месяц."@ru-RU ;
+        skos:prefLabel   "Entrada invalida. Por favor ingrese un año y mes."@es .
+
+prop-data:year_month  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "year_month" .

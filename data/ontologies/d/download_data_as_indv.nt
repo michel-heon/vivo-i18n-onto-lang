@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "download_data_as.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Daten herunterladen als"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Descargar datos como"@es .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Download data as"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Download data as"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Preuzmite podatke kao"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Télécharger les données en tant que"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "download como"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Загрузить данные в виде"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "download_data_as.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Download data as"@all .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#download_data_as> <http://www.w3.org/2000/01/rdf-schema#label> "download_data_as" .

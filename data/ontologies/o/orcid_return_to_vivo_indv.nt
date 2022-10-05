@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_return_to_vivo.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Return to your VIVO profile page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Return to your VIVO profile page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Revenir à votre page de profil VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Volte para a página do seu perfil VIVO"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vratite se na Vašu VIVO profilnu stranicu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vuelva a la página de su perfil VIVO"@es .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zurück zu Ihrem VIVO Profil"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Вернуться на страницу профиля VIVO"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_return_to_vivo> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_return_to_vivo" .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_vclass_uri.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_vclass_uri.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "VClass sélectionné"@fr-CA ;
+        skos:prefLabel   "Seleccione VClass"@es ;
+        skos:prefLabel   "Select VClass"@en-CA ;
+        skos:prefLabel   "Select VClass"@en-US ;
+        skos:prefLabel   "VClass auswählen"@de-DE ;
+        skos:prefLabel   "Odaberite VClass"@sr-Latn-RS ;
+        skos:prefLabel   "Select Vclass"@pt-BR ;
+        skos:prefLabel   "Выберите VClass"@ru-RU .
+
+prop-data:select_vclass_uri
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_vclass_uri" .

@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:levels  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "levels" .
+
+prop-data:levels.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "levels.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Niveaux"@fr-CA ;
+        skos:prefLabel   "Nivoi"@sr-Latn-RS ;
+        skos:prefLabel   "Níveis"@pt-BR ;
+        skos:prefLabel   "Уровни"@ru-RU ;
+        skos:prefLabel   "Levels"@en-CA ;
+        skos:prefLabel   "Levels"@en-US ;
+        skos:prefLabel   "Ebenen"@de-DE ;
+        skos:prefLabel   "Niveles"@es .

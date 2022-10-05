@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:missing_person_in_role.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_person_in_role.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "missing person in this role"@all .
+
+prop-data:missing_person_in_role
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "missing_person_in_role" .
+
+prop-data:missing_person_in_role.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_person_in_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "falta la persona en este rol"@es ;
+        skos:prefLabel   "nedostaje osoba sa datom ulogom"@sr-Latn-RS ;
+        skos:prefLabel   "fehlende Person in dieser Rolle"@de-DE ;
+        skos:prefLabel   "aucune personne associée à ce rôle"@fr-CA ;
+        skos:prefLabel   "недостаёт персоны в этой роли"@ru-RU ;
+        skos:prefLabel   "pessoa não encontrada com este papel"@pt-BR ;
+        skos:prefLabel   "missing person in this role"@en-US ;
+        skos:prefLabel   "missing person in this role"@en-CA .

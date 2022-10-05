@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "enter_a_name.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bitte im Feld Name einen Wert eintragen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molimo Vas popunite polje za Naziv."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please enter a value in the Name field."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please enter a value in the Name field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Por favor preencha o campo Nome."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Por favor, introduzca un valor en el campo Nombre."@es .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "SVP, renseigner le champ Nom."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Пожалуйста, введите значение в поле Имя."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "enter_a_name.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please enter a value in the Name field."@all .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_name> <http://www.w3.org/2000/01/rdf-schema#label> "enter_a_name" .

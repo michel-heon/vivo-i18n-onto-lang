@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:view_this_profile.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "view_this_profile.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "View this person's profile"@en-CA ;
+        skos:prefLabel   "View this person's profile"@en-US ;
+        skos:prefLabel   "Profil dieser Person anzeigen"@de-DE ;
+        skos:prefLabel   "Voir le profil de cette personne"@fr-CA ;
+        skos:prefLabel   "Prikažite profil ove osobe"@sr-Latn-RS ;
+        skos:prefLabel   "Показать анкету данной персоны"@ru-RU ;
+        skos:prefLabel   "Ver perfil dessa pessoa"@pt-BR ;
+        skos:prefLabel   "Ver perfil de esta persona"@es .
+
+prop-data:view_this_profile
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "view_this_profile" .
+
+prop-data:view_this_profile.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_this_profile.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "View this person's profile"@all .

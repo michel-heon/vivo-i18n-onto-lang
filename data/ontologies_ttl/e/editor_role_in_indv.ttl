@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:editor_role_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "editor_role_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "editor role in"@all .
+
+prop-data:editor_role_in.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "editor_role_in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "rôle d'éditeur(-trice) dans"@fr-CA ;
+        skos:prefLabel   "Rolle des/der HerausgeberIn in"@de-DE ;
+        skos:prefLabel   "editor role in"@en-CA ;
+        skos:prefLabel   "editor role in"@en-US ;
+        skos:prefLabel   "papel regras em"@pt-BR ;
+        skos:prefLabel   "роль редактора в"@ru-RU ;
+        skos:prefLabel   "Rol de editor en"@es ;
+        skos:prefLabel   "uloga urednika za"@sr-Latn-RS .
+
+prop-data:editor_role_in
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "editor_role_in" .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:custom_template_containing_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "custom_template_containing_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Prilagođen šablon koji sadrži sav sadržaj"@sr-Latn-RS ;
+        skos:prefLabel   "Gabarit personnalisé contenant tout le contenu"@fr-CA ;
+        skos:prefLabel   "Заполненный пользовательский шаблон"@ru-RU ;
+        skos:prefLabel   "Plantilla personalizada, con todo el contenido"@es ;
+        skos:prefLabel   "Benutzerdefinierte Vorlage enthält allen Inhalte"@de-DE ;
+        skos:prefLabel   "Custom template containing all content"@en-CA ;
+        skos:prefLabel   "Custom template containing all content"@en-US ;
+        skos:prefLabel   "template personalizado que contém todo o conteúdo"@pt-BR .
+
+prop-data:custom_template_containing_content
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "custom_template_containing_content" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:grant_administered_by.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_administered_by.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "grant being administered by"@all .
+
+prop-data:grant_administered_by
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "grant_administered_by" .
+
+prop-data:grant_administered_by.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_administered_by.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Forschungsprojekt wird verwaltet von"@de-DE ;
+        skos:prefLabel   "subvention administrée par"@fr-CA ;
+        skos:prefLabel   "грант, администрируемый"@ru-RU ;
+        skos:prefLabel   "grant being administered by"@en-CA ;
+        skos:prefLabel   "concessão que está sendo administrado por"@pt-BR ;
+        skos:prefLabel   "grant being administered by"@en-US ;
+        skos:prefLabel   "concesión administrado por"@es ;
+        skos:prefLabel   "grant kojim upravlja"@sr-Latn-RS .

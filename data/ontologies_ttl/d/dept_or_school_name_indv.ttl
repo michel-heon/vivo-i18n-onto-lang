@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:dept_or_school_name
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "dept_or_school_name" .
+
+prop-data:dept_or_school_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "dept_or_school_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Department or School Name within the"@all .
+
+prop-data:dept_or_school_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "dept_or_school_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Name des Fachbereichs oder der Schule innerhalb"@de-DE ;
+        skos:prefLabel   "Departamento ou nome da escola dentro do"@pt-BR ;
+        skos:prefLabel   "Departman ili naziv škole u okviru"@sr-Latn-RS ;
+        skos:prefLabel   "Nom du département ou de l'école dans"@fr-CA ;
+        skos:prefLabel   "Department or School Name within the"@en-CA ;
+        skos:prefLabel   "Department or School Name within the"@en-US ;
+        skos:prefLabel   "Название факультета или учебного заведения в пределах"@ru-RU ;
+        skos:prefLabel   "Departamento o nombre de la escuela dentro del"@es .

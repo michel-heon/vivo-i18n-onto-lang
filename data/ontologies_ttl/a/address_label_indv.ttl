@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:address_label.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "address_label.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "etiqueta de endereço"@pt-BR ;
+        skos:prefLabel   "etiqueta de dirección"@es ;
+        skos:prefLabel   "Adressbezeichnung"@de-DE ;
+        skos:prefLabel   "labela za adresu"@sr-Latn-RS ;
+        skos:prefLabel   "address label"@en-CA ;
+        skos:prefLabel   "address label"@en-US ;
+        skos:prefLabel   "étiquette d'adresse"@fr-CA ;
+        skos:prefLabel   "метка адреса"@ru-RU .
+
+prop-data:address_label.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "address_label.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "labela za adresu"@sr-Latn-RS ;
+        skos:prefLabel   "метка адреса"@ru-RU ;
+        skos:prefLabel   "etiqueta de dirección"@es ;
+        skos:prefLabel   "Adressbezeichnung"@de-DE ;
+        skos:prefLabel   "étiquette d'adresse"@fr-CA ;
+        skos:prefLabel   "etiqueta de endereço"@pt-BR ;
+        skos:prefLabel   "address label"@en-US ;
+        skos:prefLabel   "address label"@en-CA .
+
+prop-data:address_label.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "address_label.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "address label"@all .

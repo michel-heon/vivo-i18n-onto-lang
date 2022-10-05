@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "view_profile_for_page.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Personenprofil für diese Seite anzeigen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "afficher le profil individuel pour cette page"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "pogledajte profil za ovu stranicu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ver el perfil individual de esta página"@es .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "view the individual profile for this page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "view the individual profile for this page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "visualizar o perfil individual para esta página"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "просмотр индивидуального профиля для этой страницы"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_profile_for_page> <http://www.w3.org/2000/01/rdf-schema#label> "view_profile_for_page" .

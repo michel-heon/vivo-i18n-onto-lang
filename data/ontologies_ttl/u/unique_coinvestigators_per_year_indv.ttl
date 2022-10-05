@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:unique_coinvestigators_per_year.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "unique_coinvestigators_per_year.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Unique Co-Investigators per year"@all .
+
+prop-data:unique_coinvestigators_per_year
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "unique_coinvestigators_per_year" .
+
+prop-data:unique_coinvestigators_per_year.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "unique_coinvestigators_per_year.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "einzelne KoforscherInnen pro Jahr"@de-DE ;
+        skos:prefLabel   "Уникальных со-исследователей в год"@ru-RU ;
+        skos:prefLabel   "Jedinstvenih ko-istražitelja po godini"@sr-Latn-RS ;
+        skos:prefLabel   "Único co-pesquisadores por ano"@pt-BR ;
+        skos:prefLabel   "Unique Co-Investigators per year"@en-CA ;
+        skos:prefLabel   "Unique Co-Investigators per year"@en-US ;
+        skos:prefLabel   "cochercheur(-euse)s dédoublonné(e)s par année"@fr-CA ;
+        skos:prefLabel   "Coinvestigadores únicos por año"@es .

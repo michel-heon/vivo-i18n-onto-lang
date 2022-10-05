@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "refresh_page_after_reordering.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A atualização da página ocorrre após a reordenação dos itens do menu"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Actualice la página después de reordenar los elementos de menú"@es .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Laden Sie die Seite erneut, nachdem Sie Menüpunkte neu angeordnet haben."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ponovo učitajte stranicu nakon napravljenih promena"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rafraîchir la page une fois les éléments de menu réordonnés"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Refresh page after reordering menu items"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Refresh page after reordering menu items"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Обновите страницу после изменения порядка следования пунктов меню"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#refresh_page_after_reordering> <http://www.w3.org/2000/01/rdf-schema#label> "refresh_page_after_reordering" .

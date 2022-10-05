@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:site_maintenance
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "site_maintenance" .
+
+prop-data:site_maintenance.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "site_maintenance.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Site em Manutenção"@pt-BR ;
+        skos:prefLabel   "Site Maintenance"@en-CA ;
+        skos:prefLabel   "Site Maintenance"@en-US ;
+        skos:prefLabel   "Mantenimiento del sitio"@es ;
+        skos:prefLabel   "Wartung"@de-DE ;
+        skos:prefLabel   "Техническое обслуживание сайта"@ru-RU ;
+        skos:prefLabel   "Maintenance du site"@fr-CA ;
+        skos:prefLabel   "Održavanje sajta"@sr-Latn-RS .

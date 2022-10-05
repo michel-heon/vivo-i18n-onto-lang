@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:map_of_science_visualization
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "map_of_science_visualization" .
+
+prop-data:map_of_science_visualization.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "map_of_science_visualization.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Map of Science Visualization"@all .
+
+prop-data:map_of_science_visualization.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "map_of_science_visualization.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Визуализация карты науки"@ru-RU ;
+        skos:prefLabel   "Map of Science Visualization"@en-US ;
+        skos:prefLabel   "Map of Science Visualization"@en-CA ;
+        skos:prefLabel   "Vizualizacije naučne mape"@sr-Latn-RS ;
+        skos:prefLabel   "Visualisation de la carte des sciences"@fr-CA ;
+        skos:prefLabel   "Visualisierung der Wissenschaftslandkarte"@de-DE ;
+        skos:prefLabel   "Visualización del Mapa de la Ciencia"@es ;
+        skos:prefLabel   "Mapa de Visualization Ciência"@pt-BR .

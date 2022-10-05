@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:confirm_author_removal
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "confirm_author_removal" .
+
+prop-data:confirm_author_removal.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "confirm_author_removal.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Je l ste sigurni da želite da uklčonite ovog autora:"@sr-Latn-RS ;
+        skos:prefLabel   "Êtes-vous certain de vouloir retirer cet auteur(e):"@fr-CA ;
+        skos:prefLabel   "¿Está seguro que desea eliminar este autor:"@es ;
+        skos:prefLabel   "Tem certeza de que deseja remover este autor:"@pt-BR ;
+        skos:prefLabel   "Are you sure you want to remove this author:"@en-CA ;
+        skos:prefLabel   "Are you sure you want to remove this author:"@en-US ;
+        skos:prefLabel   "Soll diese Autorin / dieser Autor wirklich gelöscht werden:"@de-DE ;
+        skos:prefLabel   "Вы точно хотите удалить этого автора:"@ru-RU .
+
+prop-data:confirm_author_removal.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_author_removal.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Are you sure you want to remove this author:"@all .

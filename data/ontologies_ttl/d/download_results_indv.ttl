@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:download_results.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "download_results.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Télécharger les résultats"@fr-CA ;
+        skos:prefLabel   "Download Results"@en-CA ;
+        skos:prefLabel   "Download Results"@en-US ;
+        skos:prefLabel   "Suchergebnisse herunterladen"@de-DE ;
+        skos:prefLabel   "Baixe resultados"@pt-BR ;
+        skos:prefLabel   "Скачать результаты"@ru-RU ;
+        skos:prefLabel   "Rezultati skidanja"@sr-Latn-RS ;
+        skos:prefLabel   "Descargar resultados"@es .
+
+prop-data:download_results
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "download_results" .

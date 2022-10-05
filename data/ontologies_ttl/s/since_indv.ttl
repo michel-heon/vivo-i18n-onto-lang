@@ -1,0 +1,44 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:since_elapsed_time.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "since_elapsed_time.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "since {0}, elapsed time {1}"@en-CA ;
+        skos:prefLabel   "since {0}, elapsed time {1}"@en-US .
+
+prop-data:since.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "since.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "С"@ru-RU ;
+        skos:prefLabel   "Desde"@es ;
+        skos:prefLabel   "Desde"@pt-BR ;
+        skos:prefLabel   "Od"@sr-Latn-RS ;
+        skos:prefLabel   "Depuis"@fr-CA ;
+        skos:prefLabel   "Since"@en-CA ;
+        skos:prefLabel   "Since"@en-US ;
+        skos:prefLabel   "Seit"@de-DE .
+
+prop-data:since_elapsed_time_est_total.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "since_elapsed_time_est_total.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "since {0}, elapsed time {1}, estimated total time {2}"@en-CA ;
+        skos:prefLabel   "since {0}, elapsed time {1}, estimated total time {2}"@en-US .
+
+prop-data:since  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "since" .

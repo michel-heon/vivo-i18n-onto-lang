@@ -1,0 +1,205 @@
+<http://vivoweb.org/ontology/core/properties/individual#additional_emails.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#additional_emails.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#additional_emails.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#additional_emails.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#additional_emails.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "additional_emails.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#additional_emails.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ostali email-ovi"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "email.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Correo electrónico"@es .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "E-Mail"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "courriel"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "email"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "email"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "email"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "email"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Электронная почта"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "email.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#email.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "email"@all .
+<http://vivoweb.org/ontology/core/properties/individual#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email> <http://www.w3.org/2000/01/rdf-schema#label> "email" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "email_address_for.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "email address for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "email address for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "email adresa za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "email_address_for.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address_for.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "email address for"@all .
+<http://vivoweb.org/ontology/core/properties/individual#email_change_will_be_confirmed.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_change_will_be_confirmed.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_change_will_be_confirmed.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_change_will_be_confirmed.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_change_will_be_confirmed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "email_change_will_be_confirmed.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#email_change_will_be_confirmed.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Napomena: ako promenite email adresu, email sa potvrdom će biti poslat na novu adresu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#email_change_will_be_confirmed.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: if email changes, a confirmation email will be sent to the new email address entered above."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_change_will_be_confirmed.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: if email changes, a confirmation email will be sent to the new email address entered above."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "email_changed_subject.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vaš {0} email nalog je promenjen."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your {0} email account has been changed."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your {0} email account has been changed."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_address.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_address.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_address.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_address.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_address.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "enter_email_address.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_address.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molimo Vas unesite email adresu u odgovarajuće polje."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "enter_email_password.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enter the email address and password for your internal Vitro account."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enter the email address and password for your internal Vitro account."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unesite email i lozinku za Vaš interni Vitro nalog."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_email_already_exists.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "An account with that email address already exists."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "An account with that email address already exists."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nalog sa unetom email adresom već postoji."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_incorrect_credentials.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The email or password you entered is incorrect."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The email or password you entered is incorrect."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uneli ste neispravnu email adresu i/ili lozinku."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_invalid_email.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "'' {0} '' não é um endereço de email válido."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "''{0}'' is not a valid email address."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "''{0}'' is not a valid email address."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "''{0}'' is not a valid email address."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_invalid_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "''{0}'' nije ispravna email adresa."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_no_email.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Morate uneti email adresu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "You must supply an email address."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "You must supply an email address."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email_address.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email_address.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email_address.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email_address.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_no_email_address.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email_address.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molimo Vas unesite Vašu email adresu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email_address.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please enter your email address."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email_address.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please enter your email address."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "first_time_login_note.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: An email will be sent to the address entered above notifying that an account has been created."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: An email will be sent to the address entered above notifying that an account has been created."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes_plus_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes_plus_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes_plus_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes_plus_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes_plus_note.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "myAccount_confirm_changes_plus_note.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes_plus_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suas alterações foram salvas. Um email de confirmação foi enviado para {0}."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes_plus_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your changes have been saved. A confirmation email has been sent to {0}."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes_plus_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your changes have been saved. A confirmation email has been sent to {0}."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "new_account_note.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: An email will be sent to the address entered above notifying that an account has been created. It will include instructions for activating the account and creating a password."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: An email will be sent to the address entered above notifying that an account has been created. It will include instructions for activating the account and creating a password."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "new_account_notification.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A notification email has been sent to {0} with instructions for activating the account and creating a password."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A notification email has been sent to {0} with instructions for activating the account and creating a password."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "no_email_supplied.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nije unet email."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No email supplied."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No email supplied."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_email_supplied.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "nenhum email fornecido."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#or_enter_valid_address.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_enter_valid_address.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_enter_valid_address.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_enter_valid_address.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#or_enter_valid_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "or_enter_valid_address.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#or_enter_valid_address.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "ili unesite drugu kompletnu i validnu email adresu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#or_enter_valid_address.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "or enter another complete and valid email address."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#or_enter_valid_address.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "or enter another complete and valid email address."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "please_format_email.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molimo Vas formatirajte Vašu email adresu kao:"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "primary_email.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "primarni email"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "primary email"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "primary email"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "primary_email.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#primary_email.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "primary email"@all .
+<http://vivoweb.org/ontology/core/properties/individual#reset_password_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#reset_password_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#reset_password_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#reset_password_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#reset_password_note.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "reset_password_note.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#reset_password_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Napomena: Uputstva za resetovanje lozinke će biti poslata na email adresu koju ste uneli. Lozinka neće biti resetovana sve dok korisnik ne klikne na link koji se nalazi u email-u."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#reset_password_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: Instructions for resetting the password will be emailed to the address entered above. The password will not be reset until the user follows the link provided in this email."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#reset_password_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: Instructions for resetting the password will be emailed to the address entered above. The password will not be reset until the user follows the link provided in this email."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "send_mail.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pošaljite email"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_notification.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_notification.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_notification.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_notification.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_notification.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "updated_account_notification.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_notification.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A confirmation email has been sent to {0} with instructions for resetting a password. The password will not be reset until the user follows the link provided in this email."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_notification.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A confirmation email has been sent to {0} with instructions for resetting a password. The password will not be reset until the user follows the link provided in this email."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_notification.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Email sa instrukcijama za resetovanje lozinke je poslat na adresu {0}. Lozinka neće biti resetovana sve dok korisnik ne klikne na link u email-u."@sr-Latn-RS .

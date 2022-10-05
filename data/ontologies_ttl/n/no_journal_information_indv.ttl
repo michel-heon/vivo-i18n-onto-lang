@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_journal_information.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_journal_information.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "have no journal information."@all .
+
+prop-data:no_journal_information.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no_journal_information.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "haben keine Zeitschriftenangaben"@de-DE ;
+        skos:prefLabel   "no tienen información de la revista."@es ;
+        skos:prefLabel   "nema informacija o sadržaju."@sr-Latn-RS ;
+        skos:prefLabel   "нет информации о журнале."@ru-RU ;
+        skos:prefLabel   "have no journal information."@en-US ;
+        skos:prefLabel   "have no journal information."@en-CA ;
+        skos:prefLabel   "n'a pas d'information relative à la revue."@fr-CA ;
+        skos:prefLabel   "ainda não temos informação revista."@pt-BR .
+
+prop-data:no_journal_information
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "no_journal_information" .

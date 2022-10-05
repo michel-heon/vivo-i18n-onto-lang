@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:volume_abbreviated.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "volume_abbreviated.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Ed."@all .
+
+prop-data:volume_abbreviated
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "volume_abbreviated" .
+
+prop-data:volume_abbreviated.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "volume_abbreviated.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Ред."@ru-RU ;
+        skos:prefLabel   "Ed."@en-CA ;
+        skos:prefLabel   "Ed."@en-US ;
+        skos:prefLabel   "Ed."@es ;
+        skos:prefLabel   "Ed."@pt-BR ;
+        skos:prefLabel   "Ed."@sr-Latn-RS ;
+        skos:prefLabel   "Vol."@fr-CA ;
+        skos:prefLabel   "Ausg."@de-DE .

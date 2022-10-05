@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:degree_candidacy
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "degree_candidacy" .
+
+prop-data:degree_candidacy.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "degree_candidacy.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Candidature au diplôme"@fr-CA ;
+        skos:prefLabel   "Degree Candidacy"@en-CA ;
+        skos:prefLabel   "Degree Candidacy"@en-US ;
+        skos:prefLabel   "Grau de candidatura"@pt-BR ;
+        skos:prefLabel   "Grado de candidatura"@es ;
+        skos:prefLabel   "BachelorandIn/ MasterandIn/ DoktorandIn"@de-DE ;
+        skos:prefLabel   "Kandidatura za diplomu"@sr-Latn-RS ;
+        skos:prefLabel   "Учёная степень"@ru-RU .
+
+prop-data:degree_candidacy.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "degree_candidacy.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Degree Candidacy"@all .

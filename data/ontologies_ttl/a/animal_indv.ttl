@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:animal  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "animal" .
+
+prop-data:animal.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "animal.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Tier:"@de-DE ;
+        skos:prefLabel   "Животное:"@ru-RU ;
+        skos:prefLabel   "Animal:"@fr-CA ;
+        skos:prefLabel   "Animal:"@pt-BR ;
+        skos:prefLabel   "Animal:"@en-CA ;
+        skos:prefLabel   "Animal:"@en-US ;
+        skos:prefLabel   "Animal:"@es ;
+        skos:prefLabel   "Životinja:"@sr-Latn-RS .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:end_your_Session
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "end_your_Session" .
+
+prop-data:end_your_Session.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "end_your_Session.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "End your session"@en-CA ;
+        skos:prefLabel   "End your session"@en-US ;
+        skos:prefLabel   "Finalizar su sesión"@es ;
+        skos:prefLabel   "Termine a sua sessão"@pt-BR ;
+        skos:prefLabel   "Terminer votre session"@fr-CA ;
+        skos:prefLabel   "Завершить ваш сеанс"@ru-RU ;
+        skos:prefLabel   "Završite Vašu sesiju"@sr-Latn-RS ;
+        skos:prefLabel   "Sitzung beenden"@de-DE .

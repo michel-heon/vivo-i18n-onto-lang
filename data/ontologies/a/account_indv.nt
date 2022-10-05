@@ -1,0 +1,244 @@
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "account.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Konto"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "compte"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "conta"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "cuenta"@es .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "nalog"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "учётная запись"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#account> <http://www.w3.org/2000/01/rdf-schema#label> "account" .
+<http://vivoweb.org/ontology/core/properties/individual#account_already_activated.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#account_already_activated.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#account_already_activated.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#account_already_activated.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#account_already_activated.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "account_already_activated.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#account_already_activated.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The account for {0} has already been activated."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#account_already_activated.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The account for {0} has already been activated."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#account_created.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#account_created.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#account_created.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#account_created.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#account_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "account_created.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#account_created.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your {0} account has been created."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#account_created.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your {0} account has been created."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#account_created_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#account_created_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#account_created_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#account_created_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#account_created_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "account_created_subject.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#account_created_subject.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your {0} account has been created."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#account_created_subject.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your {0} account has been created."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#account_no_longer_exists.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#account_no_longer_exists.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#account_no_longer_exists.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#account_no_longer_exists.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#account_no_longer_exists.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "account_no_longer_exists.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#account_no_longer_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The account you are trying to set a password on is no longer available. Please contact your system administrator if you think this is an error."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#account_no_longer_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The account you are trying to set a password on is no longer available. Please contact your system administrator if you think this is an error."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#add_new_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_new_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#add_new_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#add_new_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#add_new_account.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "add_new_account.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#add_new_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Add new account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_new_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Add new account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#auth_id_explanation.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_id_explanation.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_id_explanation.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_id_explanation.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#auth_id_explanation.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "auth_id_explanation.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#auth_id_explanation.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Can be used to associate the account with the user's profile via the matching property."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#auth_id_explanation.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Can be used to associate the account with the user's profile via the matching property."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#cant_activate_while_logged_in.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#cant_activate_while_logged_in.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#cant_activate_while_logged_in.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#cant_activate_while_logged_in.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#cant_activate_while_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "cant_activate_while_logged_in.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#cant_activate_while_logged_in.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "You may not activate the account for {0} while you are logged in as {1}. Please log out and try again."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#cant_activate_while_logged_in.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "You may not activate the account for {0} while you are logged in as {1}. Please log out and try again."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_view_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#click_to_view_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#click_to_view_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#click_to_view_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_view_account.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "click_to_view_account.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_view_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "click to view account details"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_view_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "click to view account details"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "confirm_delete_account_singular.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete this account?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_delete_account_singular.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are you sure you want to delete this account?"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_account.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_account.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "deleted_accounts.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Borrado {0} {0, choice, 0#accounts |1#account |1<accounts}."@es .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deleted {0} {0, choice, 0#accounts|1#account|1<accounts}."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deleted {0} {0, choice, 0#accounts|1#account|1<accounts}."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#deleted_accounts.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "{0} détruits {0, choice, 0#accounts|1#account|1<accounts}."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_account.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "edit_account.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edit account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edit account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "email_changed_subject.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your {0} email account has been changed."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_changed_subject.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Your {0} email account has been changed."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "enter_email_password.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enter the email address and password for your internal Vitro account."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_email_password.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enter the email address and password for your internal Vitro account."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_email_already_exists.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "An account with that email address already exists."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_email_already_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "An account with that email address already exists."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_external_auth_already_exists.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_external_auth_already_exists.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_external_auth_already_exists.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_external_auth_already_exists.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_external_auth_already_exists.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_external_auth_already_exists.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_external_auth_already_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "An account with that external authorization ID already exists."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_external_auth_already_exists.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "An account with that external authorization ID already exists."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_already_in_use.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_already_in_use.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_already_in_use.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_already_in_use.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_already_in_use.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "external_id_already_in_use.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_already_in_use.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "User account already exists for ''{0}''"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_already_in_use.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "User account already exists for ''{0}''"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "first_time_login_note.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: An email will be sent to the address entered above notifying that an account has been created."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_time_login_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: An email will be sent to the address entered above notifying that an account has been created."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "identity_myaccount.VIVO-languages.tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "My account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "My account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "identity_myaccount.VIVO-languages.wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "My account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "My account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "identity_myaccount.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "My account"@all .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_heading.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_heading.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_heading.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_heading.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "myAccount_heading.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_heading.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "My account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#myAccount_heading.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "My account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_1.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_1.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_1.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_1.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_1.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "new_account_1.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_1.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A new account for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_1.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A new account for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "new_account_note.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: An email will be sent to the address entered above notifying that an account has been created. It will include instructions for activating the account and creating a password."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_note.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Note: An email will be sent to the address entered above notifying that an account has been created. It will include instructions for activating the account and creating a password."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "new_account_notification.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A notification email has been sent to {0} with instructions for activating the account and creating a password."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "A notification email has been sent to {0} with instructions for activating the account and creating a password."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_title.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_title.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_title.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_account_title.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_title.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "new_account_title.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_title.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "new account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_title.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "new account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_description.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_description.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_description.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_description.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_description.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "orcid_step1_description.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_description.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<ul><li>VIVO redirects you to ORCID's web site.</li> <li>You log in to your ORCID account. <ul class=\"inner\"><li>If you don't have an account, you can create one.</li></ul></li> <li>You tell ORCID that VIVO may read your ORCID record.</li> <li>VIVO reads your ORCID record.</li> <li>VIVO notes that your ORCID iD is confirmed.</li></ul>"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_description.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "<ul><li>VIVO redirects you to ORCID's web site.</li> <li>You log in to your ORCID account. <ul class=\"inner\"><li>If you don't have an account, you can create one.</li></ul></li> <li>You tell ORCID that VIVO may read your ORCID record.</li> <li>VIVO reads your ORCID record.</li> <li>VIVO notes that your ORCID iD is confirmed.</li></ul>"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#please_provide_contact_information.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#please_provide_contact_information.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#please_provide_contact_information.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#please_provide_contact_information.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#please_provide_contact_information.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "please_provide_contact_information.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#please_provide_contact_information.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please provide your contact information to finish creating your account."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#please_provide_contact_information.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please provide your contact information to finish creating your account."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "select_account_to_delete.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "select this account to delete it"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "select this account to delete it"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#submit_add_new_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#submit_add_new_account.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#submit_add_new_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#submit_add_new_account.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#submit_add_new_account.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "submit_add_new_account.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#submit_add_new_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Add new account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#submit_add_new_account.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Add new account"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "updated_account_1.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The account for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "The account for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_title.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_title.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_title.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_title.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_title.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "updated_account_title.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_title.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "updated account"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_title.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "updated account"@en-US .

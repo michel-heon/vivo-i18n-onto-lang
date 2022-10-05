@@ -1,0 +1,143 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:request_failed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "request_failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Request failed. Please contact your system administrator."@en-CA ;
+        skos:prefLabel   "Request failed. Please contact your system administrator."@en-US .
+
+prop-data:reordering_menus_failed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "reordering_menus_failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Reordering of menu items failed."@en-CA ;
+        skos:prefLabel   "Reordering of menu items failed."@en-US .
+
+prop-data:external_id_not_provided.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "external_id_not_provided.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Login failed - External ID is not found."@en-CA ;
+        skos:prefLabel   "Login failed - External ID is not found."@en-US .
+
+prop-data:external_login_failed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "external_login_failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "External login failed"@en-CA ;
+        skos:prefLabel   "External login failed"@en-US .
+
+prop-data:webpage_reordering_failed.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "webpage_reordering_failed.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Reordering of web pages failed."@all .
+
+prop-data:reordering_editors_failed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "reordering_editors_failed.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Reordering of editors failed."@en-CA ;
+        skos:prefLabel   "Reordering of editors failed."@en-US .
+
+prop-data:failed  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "failed" .
+
+prop-data:webpage_reordering_failed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "webpage_reordering_failed.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Reordering of web pages failed."@en-CA ;
+        skos:prefLabel   "Reordering of web pages failed."@en-US .
+
+prop-data:failed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "échoué"@fr-CA ;
+        skos:prefLabel   "falhou"@pt-BR ;
+        skos:prefLabel   "failed"@en-CA ;
+        skos:prefLabel   "failed"@en-US ;
+        skos:prefLabel   "Fehlgeschlagen"@de-DE ;
+        skos:prefLabel   "fallo"@es ;
+        skos:prefLabel   "nije uspelo"@sr-Latn-RS ;
+        skos:prefLabel   "не удалось"@ru-RU .
+
+prop-data:orcid_step1_failed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_step1_failed.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "<p>VIVO failed to read your ORCID record.</p> <p>Confirmation can't continue.</p>"@en-CA ;
+        skos:prefLabel   "<p>VIVO failed to read your ORCID record.</p> <p>Confirmation can't continue.</p>"@en-US .
+
+prop-data:reordering_authors_failed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "reordering_authors_failed.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Reordering of authors failed."@en-CA ;
+        skos:prefLabel   "Reordering of authors failed."@en-US .
+
+prop-data:reordering_editors_failed.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "reordering_editors_failed.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Reordering of editors failed."@all .
+
+prop-data:reordering_authors_failed.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "reordering_authors_failed.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Reordering of authors failed."@all .
+
+prop-data:search_failed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "search_failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Search failed."@en-CA ;
+        skos:prefLabel   "Search failed."@en-US .
+
+prop-data:orcid_step2_failed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_step2_failed.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "<p>VIVO failed to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-CA ;
+        skos:prefLabel   "<p>VIVO failed to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-US .

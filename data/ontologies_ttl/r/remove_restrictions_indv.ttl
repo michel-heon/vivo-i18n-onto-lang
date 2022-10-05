@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:remove_restrictions
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "remove_restrictions" .
+
+prop-data:remove_restrictions.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "remove_restrictions.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Снять ограничения"@ru-RU ;
+        skos:prefLabel   "Eliminar las restricciones"@es ;
+        skos:prefLabel   "Remover restrições"@pt-BR ;
+        skos:prefLabel   "Remove Restrictions"@en-CA ;
+        skos:prefLabel   "Remove Restrictions"@en-US ;
+        skos:prefLabel   "Einschränkungen entfernen"@de-DE ;
+        skos:prefLabel   "Otklonite Ograničenja"@sr-Latn-RS ;
+        skos:prefLabel   "Annuler les restrictions d'accès"@fr-CA .

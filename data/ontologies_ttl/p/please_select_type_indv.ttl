@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:please_select_type
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "please_select_type" .
+
+prop-data:please_select_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "please_select_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select a type from the drop-down list."@all .
+
+prop-data:please_select_type.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "please_select_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select a type from the drop-down list."@en-CA ;
+        skos:prefLabel   "Please select a type from the drop-down list."@en-US ;
+        skos:prefLabel   "Selecione um tipo na lista drop-down."@pt-BR ;
+        skos:prefLabel   "Molimo Vas odaberite tip iz padajuće liste."@sr-Latn-RS ;
+        skos:prefLabel   "SVP, sélectionner un type dans la liste déroulante."@fr-CA ;
+        skos:prefLabel   "Bitte wählen Sie einen Typ aus der Dropdown-Liste aus."@de-DE ;
+        skos:prefLabel   "Por favor seleccione un tipo en la lista desplegable."@es ;
+        skos:prefLabel   "Пожалуйста, выберите тип из выпадающего списка."@ru-RU .

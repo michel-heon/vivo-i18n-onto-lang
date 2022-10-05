@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_failed.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "search_failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Busca falhou."@pt-BR ;
+        skos:prefLabel   "Поиск не удался."@ru-RU ;
+        skos:prefLabel   "La recherche a échoué."@fr-CA ;
+        skos:prefLabel   "Search failed."@en-CA ;
+        skos:prefLabel   "Search failed."@en-US ;
+        skos:prefLabel   "La búsqueda ha fallado."@es ;
+        skos:prefLabel   "Suche fehlgeschlagen."@de-DE ;
+        skos:prefLabel   "Pretraga nije uspela."@sr-Latn-RS .

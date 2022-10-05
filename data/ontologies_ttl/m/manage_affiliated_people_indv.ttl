@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:manage_affiliated_people.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_affiliated_people.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "beteiligte Personen an verwalten"@de-DE ;
+        skos:prefLabel   "Управление перечнем людей, аффилированных с"@ru-RU ;
+        skos:prefLabel   "Gerenciar pessoas ligadas a"@pt-BR ;
+        skos:prefLabel   "Administrar personas afiliadas"@es ;
+        skos:prefLabel   "Upravljajte ljudima povezanim sa"@sr-Latn-RS ;
+        skos:prefLabel   "Gérer les affiliations des personnes à"@fr-CA ;
+        skos:prefLabel   "Manage People Affiliated with"@en-CA ;
+        skos:prefLabel   "Manage People Affiliated with"@en-US .
+
+prop-data:manage_affiliated_people
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "manage_affiliated_people" .
+
+prop-data:manage_affiliated_people.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_affiliated_people.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Manage People Affiliated with"@all .

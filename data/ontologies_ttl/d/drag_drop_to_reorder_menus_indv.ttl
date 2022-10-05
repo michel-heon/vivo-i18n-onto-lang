@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:drag_drop_to_reorder_menus.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "drag_drop_to_reorder_menus.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Перетащите пункты меню для изменения порядка их следования"@ru-RU ;
+        skos:prefLabel   "Arrastar e soltar para reordenar os itens do menu"@pt-BR ;
+        skos:prefLabel   "Drag and drop to reorder menu items"@en-CA ;
+        skos:prefLabel   "Drag and drop to reorder menu items"@en-US ;
+        skos:prefLabel   "Prevucite kako bi ste promenili redosled stavki u meniju"@sr-Latn-RS ;
+        skos:prefLabel   "Drag&Drop, um die Menüpunkte neu zu ordnen"@de-DE ;
+        skos:prefLabel   "Glisser-déposer pour réorganiser les éléments du menu"@fr-CA ;
+        skos:prefLabel   "Arrastrar y soltar para cambiar el orden de los elementos de menú"@es .
+
+prop-data:drag_drop_to_reorder_menus
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "drag_drop_to_reorder_menus" .

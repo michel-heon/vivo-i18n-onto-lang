@@ -1,0 +1,127 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:add_content_manage_site.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "add_content_manage_site.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "add content and manage this site"@en-CA ;
+        skos:prefLabel   "add content and manage this site"@en-US .
+
+prop-data:manage_labels.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_labels.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "manage labels"@en-CA ;
+        skos:prefLabel   "manage labels"@en-US .
+
+prop-data:manage_list_of_labels.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_list_of_labels.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "manage list of labels"@en-CA ;
+        skos:prefLabel   "manage list of labels"@en-US .
+
+prop-data:menu_loginfull.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_loginfull.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Log in to manage this site"@en-CA ;
+        skos:prefLabel   "Log in to manage this site"@en-US .
+
+prop-data:manage_grants_and_projects_link.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_grants_and_projects_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "manage grants & projects"@en-CA ;
+        skos:prefLabel   "manage grants & projects"@en-US .
+
+prop-data:manage_publications_link.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_publications_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "manage publications"@en-CA ;
+        skos:prefLabel   "manage publications"@en-US .
+
+prop-data:manage  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "manage" .
+
+prop-data:manage_affiliated_people_link.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_affiliated_people_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "manage affiliated people"@en-CA ;
+        skos:prefLabel   "manage affiliated people"@en-US .
+
+prop-data:manage.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "manage.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "управлять"@ru-RU ;
+        skos:prefLabel   "upravljajte"@sr-Latn-RS ;
+        skos:prefLabel   "gérer"@fr-CA ;
+        skos:prefLabel   "gerenciar"@pt-BR ;
+        skos:prefLabel   "Administrar"@es ;
+        skos:prefLabel   "manage"@de-DE ;
+        skos:prefLabel   "manage"@en-CA ;
+        skos:prefLabel   "manage"@en-US .
+
+prop-data:menu_loginfull.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_loginfull.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Log in to manage this site"@en-CA ;
+        skos:prefLabel   "Log in to manage this site"@en-US .
+
+prop-data:login_to_manage_site.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "login_to_manage_site.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "log in to manage this site"@en-CA ;
+        skos:prefLabel   "log in to manage this site"@en-US .
+
+prop-data:to_manage_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "to_manage_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "to manage content."@en-CA ;
+        skos:prefLabel   "to manage content."@en-US .
+
+prop-data:menu_loginfull.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_loginfull.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Log in to manage this site"@all .

@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "build_date.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Build date"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Build date"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Build-Datum"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data de construção"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date de compilation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum izrade"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fecha de creación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#build_date.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Дата сборки"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#build_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#build_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#build_date> <http://www.w3.org/2000/01/rdf-schema#label> "build_date" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:entity_label.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "entity_label.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Название"@ru-RU ;
+        skos:prefLabel   "etiqueta de entidad"@es ;
+        skos:prefLabel   "Étiquette d'entité"@fr-CA ;
+        skos:prefLabel   "rótulo entidade"@pt-BR ;
+        skos:prefLabel   "Entitätsbezeichnung"@de-DE ;
+        skos:prefLabel   "Entity Label"@en-US ;
+        skos:prefLabel   "Entity Label"@en-CA ;
+        skos:prefLabel   "Labela entiteta"@sr-Latn-RS .
+
+prop-data:entity_label.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "entity_label.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "entity label"@all .
+
+prop-data:entity_label
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "entity_label" .

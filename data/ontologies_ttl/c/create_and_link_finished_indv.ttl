@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_finished
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_and_link_finished" .
+
+prop-data:create_and_link_finished.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_finished.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "There are no more works left to claim.<br />You may enter more IDs below, or view your profile."@en-CA ;
+        skos:prefLabel   "There are no more works left to claim.<br />You may enter more IDs below, or view your profile."@en-US ;
+        skos:prefLabel   "Não há mais obras para reivindicar.<br />Você pode inserir mais IDs abaixo ou ir para o seu perfil."@pt-BR ;
+        skos:prefLabel   "Es stehen keine weiteren Veröffentlichungen zum Importieren zur Verfügung.<br />Sie können weitere IDs eingeben oder zu Ihrer Profilseite wechseln."@de-DE ;
+        skos:prefLabel   "Nema više radova na koje možete položiti autorska prava.<br />Možete uneti još ID-eva ispod, ili pregledati Vaš profil."@sr-Latn-RS ;
+        skos:prefLabel   "No hay mas obras pendientes para reclamar.<br />Puede agregar más IDs abajo o vaya a ver el perfil."@es ;
+        skos:prefLabel   "Больше не осталось работ, на которые можно претендовать.<br />Вы можете ввести другие идентификаторы ниже или просмотреть свой профиль."@ru-RU ;
+        skos:prefLabel   "Aucune autre publication à revendiquer.<br />Vous pouvez ajouter des identifiants ci-après, ou revenir à votre profil."@fr-CA .

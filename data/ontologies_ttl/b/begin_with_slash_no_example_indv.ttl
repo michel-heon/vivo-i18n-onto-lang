@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:begin_with_slash_no_example.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "begin_with_slash_no_example.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Must begin with a leading forward slash: /"@en-CA ;
+        skos:prefLabel   "Must begin with a leading forward slash: /"@en-US ;
+        skos:prefLabel   "Mora početi sa kosom crtom: /"@sr-Latn-RS ;
+        skos:prefLabel   "Muss mit einem Slash beginnen"@de-DE ;
+        skos:prefLabel   "Должен начинаться с косой черты: /"@ru-RU ;
+        skos:prefLabel   "Debe comenzar con una barra diagonal principal: /"@es ;
+        skos:prefLabel   "Deve começar com um líder de barra: /"@pt-BR ;
+        skos:prefLabel   "Doit débuter avec une barre oblique: /"@fr-CA .
+
+prop-data:begin_with_slash_no_example
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "begin_with_slash_no_example" .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:visit_project_website
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "visit_project_website" .
+
+prop-data:visit_project_website.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "visit_project_website.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Visit the national project web site"@en-CA ;
+        skos:prefLabel   "Visit the national project web site"@en-US ;
+        skos:prefLabel   "Посетите сайт национального проекта"@ru-RU ;
+        skos:prefLabel   "Posetite veb sajt nacionalnog projekta"@sr-Latn-RS ;
+        skos:prefLabel   "Visitez le site web du projet national"@fr-CA ;
+        skos:prefLabel   "Visite el sitio web de la institución"@es ;
+        skos:prefLabel   "Besuchen Sie die nationale Projektwebseite"@de-DE ;
+        skos:prefLabel   "Visite o web site do projeto nacional"@pt-BR .

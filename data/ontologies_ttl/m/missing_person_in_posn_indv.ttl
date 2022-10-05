@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:missing_person_in_posn.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_person_in_posn.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "missing person in this position"@all .
+
+prop-data:missing_person_in_posn
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "missing_person_in_posn" .
+
+prop-data:missing_person_in_posn.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_person_in_posn.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "aucune personne associée à cette position"@fr-CA ;
+        skos:prefLabel   "falta la persona en esta posición"@es ;
+        skos:prefLabel   "nedostaje osoba na datoj poziciji"@sr-Latn-RS ;
+        skos:prefLabel   "pessoa não encontrada nesta posição"@pt-BR ;
+        skos:prefLabel   "missing person in this position"@en-CA ;
+        skos:prefLabel   "missing person in this position"@en-US ;
+        skos:prefLabel   "fehlende Person in dieser Position"@de-DE ;
+        skos:prefLabel   "недостаёт персоны в этой должности"@ru-RU .

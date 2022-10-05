@@ -1,0 +1,2169 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:published_in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "published_in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Veröffentlicht in"@de-DE ;
+        skos:prefLabel   "Published in"@en-CA ;
+        skos:prefLabel   "Published in"@en-US .
+
+prop-data:last_ten_full_years.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_ten_full_years.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in the last 10 full years"@en-CA ;
+        skos:prefLabel   "in the last 10 full years"@en-US ;
+        skos:prefLabel   "in den letzten 10 vollen Jahren"@de-DE .
+
+prop-data:unsupported_ie_version.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "unsupported_ie_version.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-CA ;
+        skos:prefLabel   "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-US .
+
+prop-data:in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "en"@es ;
+        skos:prefLabel   "em"@pt-BR ;
+        skos:prefLabel   "in"@de-DE ;
+        skos:prefLabel   "u"@sr-Latn-RS ;
+        skos:prefLabel   "in"@en-CA ;
+        skos:prefLabel   "in"@en-US ;
+        skos:prefLabel   "dans"@fr-CA ;
+        skos:prefLabel   "в"@ru-RU .
+
+prop-data:service_to_profession_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "service_to_profession_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "service to the profession in"@all .
+
+prop-data:years_participation_in.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "years_participation_in.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Jahre der Mitarbeit in"@de-DE ;
+        skos:prefLabel   "Years of Participation in"@en-CA ;
+        skos:prefLabel   "Years of Participation in"@en-US .
+
+prop-data:research_area.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_area.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Personen in dem Fachbereich mit diesem Forschungsgebiet"@de-DE ;
+        skos:prefLabel   "individuals in the department with this research area"@en-CA ;
+        skos:prefLabel   "individuals in the department with this research area"@en-US .
+
+prop-data:select_existing_pub_or_enter_new.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_existing_pub_or_enter_new.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@en-CA ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@en-US .
+
+prop-data:change_password_to_login.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "change_password_to_login.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Change Password to Log in"@en-CA ;
+        skos:prefLabel   "Change Password to Log in"@en-US .
+
+prop-data:view_list_in_rdf.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_list_in_rdf.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "View the {0} list in RDF format"@en-CA ;
+        skos:prefLabel   "View the {0} list in RDF format"@en-US .
+
+prop-data:select_credential_or_enter_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_credential_or_enter_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter or select a value in the Credential Name field."@all .
+
+prop-data:page_not_found_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_not_found_msg.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "The page was not found in the system."@en-CA ;
+        skos:prefLabel   "The page was not found in the system."@en-US .
+
+prop-data:grants_in_vivo.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_in_vivo.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "grants in VIVO"@en-CA ;
+        skos:prefLabel   "grants in VIVO"@en-US ;
+        skos:prefLabel   "Forschungsprojekte in VIVO"@de-DE .
+
+prop-data:first_name_empty_msg.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_name_empty_msg.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Sie müssen einen Wert in das Feld Vorname eingeben."@de-DE ;
+        skos:prefLabel   "You must enter a value in the First Name field."@en-CA ;
+        skos:prefLabel   "You must enter a value in the First Name field."@en-US .
+
+prop-data:undefined_runtime_property.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "undefined_runtime_property.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "property in runtime.properties is undefined."@all .
+
+prop-data:individuals_with_dept.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individuals_with_dept.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Here are the individuals with an interest in <a href=\"{1}\">{0}</a> who are in this organization."@all .
+
+prop-data:search_vitro.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "search_vitro.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Suche in VITRO"@de-DE .
+
+prop-data:cant_activate_while_logged_in.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cant_activate_while_logged_in.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You may not activate the account for {0} while you are logged in as {1}. Please log out and try again."@en-CA ;
+        skos:prefLabel   "You may not activate the account for {0} while you are logged in as {1}. Please log out and try again."@en-US .
+
+prop-data:view_all_individuals_in_dept.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_individuals_in_dept.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "View all individuals in this organization."@all .
+
+prop-data:grant_info_for_all_years.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_info_for_all_years.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The information in the following tables is for all years."@all .
+
+prop-data:javascript_ie_alert_text.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "javascript_ie_alert_text.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-CA ;
+        skos:prefLabel   "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-US .
+
+prop-data:faculty_who_are_members_of_org.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_who_are_members_of_org.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@all .
+
+prop-data:enter_value_name_field.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_value_name_field.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Please enter a value in the name field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the name field."@en-US .
+
+prop-data:error_password_length.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_password_length.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Please enter a password between {0} and {1} characters in length."@en-CA ;
+        skos:prefLabel   "Please enter a password between {0} and {1} characters in length."@en-US .
+
+prop-data:in  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "in" .
+
+prop-data:vis_tools_note_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_three.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@all .
+
+prop-data:vocabulary_service_unavailable.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vocabulary_service_unavailable.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "An error was encountered in executing this search."@en-CA ;
+        skos:prefLabel   "An error was encountered in executing this search."@en-US .
+
+prop-data:select_existing_pub_or_enter_new.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_existing_pub_or_enter_new.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@all .
+
+prop-data:enter_posn_type_value.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_posn_type_value.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select a value in the Position Type field."@en-CA ;
+        skos:prefLabel   "Please select a value in the Position Type field."@en-US .
+
+prop-data:outreach_comm_service_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "outreach_comm_service_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "outreach & community service in"@all .
+
+prop-data:create_entry_for_teacher_role.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_entry_for_teacher_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   ": Neue Rolle in der Lehre hinzufügen"@de-DE .
+
+prop-data:enter_new_role_value.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_new_role_value.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Please enter a new value in the Role field."@en-CA ;
+        skos:prefLabel   "Please enter a new value in the Role field."@en-US .
+
+prop-data:select_a_document_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_a_document_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter or select a value in the Document Name field."@en-CA ;
+        skos:prefLabel   "Please enter or select a value in the Document Name field."@en-US .
+
+prop-data:create_and_link_authors_desc.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_authors_desc.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "If you are an author of a work, please select your name in the author list.<br />Retrieved metadata may be incomplete. If you can not see your name listed, select \"Unlisted Author\"."@en-CA ;
+        skos:prefLabel   "If you are an author of a work, please select your name in the author list.<br />Retrieved metadata may be incomplete. If you can not see your name listed, select \"Unlisted Author\"."@en-US .
+
+prop-data:to_enable_javascript.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "to_enable_javascript.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Hier gelangen Sie zu Anleitungen zur Aktivierung von JavaScript in Ihrem Web-Browser"@de-DE ;
+        skos:prefLabel   "Here are the instructions for enabling JavaScript in your web browser"@en-CA ;
+        skos:prefLabel   "Here are the instructions for enabling JavaScript in your web browser"@en-US .
+
+prop-data:login_button.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "login_button.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Log in"@en-CA ;
+        skos:prefLabel   "Log in"@en-US .
+
+prop-data:harvest_error_instructions_sixA.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_sixA.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in vivo Harvester, o arquivo"@pt-BR .
+
+prop-data:fill_in_data.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fill_in_data.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Fill in data"@en-CA ;
+        skos:prefLabel   "Fill in data"@en-US .
+
+prop-data:harvest_error_instructions_fiveA.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_fiveA.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in vivo Harvester, a"@pt-BR .
+
+prop-data:enter_a_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_a_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Name field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Name field."@en-US .
+
+prop-data:enter_or_select_person_value.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_or_select_person_value.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Person field."@all .
+
+prop-data:no_publications_for_this_organization.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_publications_for_this_organization.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "No publications in the system have been attributed to this organization."@en-CA ;
+        skos:prefLabel   "No publications in the system have been attributed to this organization."@en-US .
+
+prop-data:individuals_in_system.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individuals_in_system.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Datensätze in dem System."@de-DE ;
+        skos:prefLabel   "individuals in the system."@en-CA ;
+        skos:prefLabel   "individuals in the system."@en-US .
+
+prop-data:enter_posn_title_value.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_posn_title_value.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Position Title field."@all .
+
+prop-data:select_document_type.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_document_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select a value in the Document Type field."@en-CA ;
+        skos:prefLabel   "Please select a value in the Document Type field."@en-US .
+
+prop-data:publications_in_vivo.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publications_in_vivo.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Publications in VIVO"@all .
+
+prop-data:grant_info_for_all_years.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_info_for_all_years.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Die Angaben in den folgenden Tabellen beziehen sich auf alle Jahre."@de-DE ;
+        skos:prefLabel   "The information in the following tables is for all years."@en-CA ;
+        skos:prefLabel   "The information in the following tables is for all years."@en-US .
+
+prop-data:cap_map_text3.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text3.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-CA ;
+        skos:prefLabel   "By clicking on any node in the visualisation, additional information can be viewed in the 'Info' tab on the right-hand side. For groups of people, the participants in the group and their information can be viewed, and individual researchers can be removed from the graph. Selecting a search term will display all attached groups. Under each group full information for each person is retrieved, and the number of matching grants and publications for each researcher within the mapped capabilities is shown. Clicking on a researcher's name will lead to the original search results."@en-US ;
+        skos:prefLabel   "Durch Anklicken eines beliebigen Knotens in der Visualisierung können zusätzliche Informationen in der Registerkarte \"Info\" auf der rechten Seite angezeigt werden. Für Personengruppen können die Angehörigen der Gruppe und Informationen über sie eingesehen sowie einzelne Forscher aus der Visualisierung entfernt werden. Wenn Sie einen Suchbegriff auswählen, werden alle angehängten Gruppen angezeigt. Unter jeder Gruppe werden alle Informationen für jede Person abgerufen und die Anzahl der passenden Stipendien und Publikationen für jeden Forscher innerhalb der abgebildeten Fähigkeiten angezeigt. Ein Klick auf den Namen eines Forschers führt zu den ursprünglichen Suchergebnissen."@de-DE .
+
+prop-data:undefined_runtime_property.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "undefined_runtime_property.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "property in runtime.properties is undefined."@en-CA ;
+        skos:prefLabel   "property in runtime.properties is undefined."@en-US .
+
+prop-data:harvest_error_instructions_three.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_three.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@en-CA ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@en-US .
+
+prop-data:select_Award_or_enter_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_Award_or_enter_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Award or Honor Name field."@all .
+
+prop-data:select_educational_training_value.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_educational_training_value.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select a value in the Type of Educational Training field."@all .
+
+prop-data:select_document_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_document_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select a value in the Document Type field."@all .
+
+prop-data:select_a_document_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_a_document_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter or select a value in the Document Name field."@all .
+
+prop-data:enter_email_address.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_email_address.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Email Address field."@all .
+
+prop-data:missing_person_in_posn.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_person_in_posn.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "missing person in this position"@all .
+
+prop-data:select_an_organization_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_an_organization_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter or select a value in the Name field."@en-CA ;
+        skos:prefLabel   "Please enter or select a value in the Name field."@en-US .
+
+prop-data:fill_in_template_with_data.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fill_in_template_with_data.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Tragen Sie Ihre Daten in das Template ein. Sie können mehrere Templates ausfüllen, falls Daten aus mehreren Dateien auf einmal gesammelt werden sollen."@de-DE ;
+        skos:prefLabel   "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-CA ;
+        skos:prefLabel   "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US .
+
+prop-data:researchers_in.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers_in.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "researchers in"@en-CA ;
+        skos:prefLabel   "researchers in"@en-US ;
+        skos:prefLabel   "ForscherInnen in"@de-DE .
+
+prop-data:change_password.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "change_password.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You must change your password to log in."@en-CA ;
+        skos:prefLabel   "You must change your password to log in."@en-US .
+
+prop-data:view_content_index.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_content_index.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "View an outline of the content in this site"@en-CA ;
+        skos:prefLabel   "View an outline of the content in this site"@en-US .
+
+prop-data:view_all_faculty_in_area.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_faculty_in_area.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "View all faculty with an interest in this area."@all .
+
+prop-data:view_all_individuals_in_dept.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_individuals_in_dept.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "View all individuals in this organization."@en-CA ;
+        skos:prefLabel   "View all individuals in this organization."@en-US ;
+        skos:prefLabel   "Alle Personen in dieser Organisation anzeigen."@de-DE .
+
+prop-data:imageUpload.errorUnknown.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "imageUpload.errorUnknown.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Leider waren wir nicht in der Lage, das bereitgestellte Foto zu verarbeiten. Bitte versuchen Sie es mit einem anderen Foto."@de-DE .
+
+prop-data:research_area.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_area.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "individuals in the department with this research area"@all .
+
+prop-data:select_or_enter_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_or_enter_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Name field."@all .
+
+prop-data:researchers_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "researchers in"@all .
+
+prop-data:display_has_element_error.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "display_has_element_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There was an error in the system. The display:hasElement property could not be retrieved."@en-CA ;
+        skos:prefLabel   "There was an error in the system. The display:hasElement property could not be retrieved."@en-US .
+
+prop-data:no_publications_for_this_organization.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_publications_for_this_organization.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "No publications in the system have been attributed to this organization."@all .
+
+prop-data:cap_map_text6.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text6.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Dieses Fenster zeigt eine Liste der Suchbegriffe an, die sich derzeit in der Grafik befinden. Um zu beginnen, bitte nach etwas suchen."@de-DE .
+
+prop-data:page_loggedin_permission_option.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_loggedin_permission_option.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Logged in individuals can view this page"@en-CA ;
+        skos:prefLabel   "Logged in individuals can view this page"@en-US .
+
+prop-data:info_based_on_vivo_data.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "info_based_on_vivo_data.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Diese Information beruht einzig auf {0}, die in das VIVO-System geladen wurden."@de-DE .
+
+prop-data:no_individual_associated_with_id.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_individual_associated_with_id.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "For some reason, there is no individual in VIVO that is associated with your Net ID. Perhaps you should contact your VIVO administrator."@en-CA ;
+        skos:prefLabel   "For some reason, there is no individual in VIVO that is associated with your Net ID. Perhaps you should contact your VIVO administrator."@en-US ;
+        skos:prefLabel   "Aus irgendeinem Grund gibt es keinen Personendatensatz in VIVO, der Ihrer Net-ID zugeordnet ist. Bitte kontaktieren Sie Ihren VIVO-Administrator kontaktieren."@de-DE .
+
+prop-data:grants_in_vivo.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_in_vivo.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "grants in VIVO"@en-CA ;
+        skos:prefLabel   "grants in VIVO"@en-US ;
+        skos:prefLabel   "Forschungsprojekte in VIVO"@de-DE .
+
+prop-data:published_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "published_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Published in"@all .
+
+prop-data:match_by.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "match_by.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Gefunden in {0}"@de-DE .
+
+prop-data:no_content_create_groups_classes.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_content_create_groups_classes.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There is currently no content in the system, or you need to create class groups and assign your classes to them."@en-CA ;
+        skos:prefLabel   "There is currently no content in the system, or you need to create class groups and assign your classes to them."@en-US .
+
+prop-data:browse_all_in_class.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "browse_all_in_class.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Browse all individuals in this class"@en-CA ;
+        skos:prefLabel   "Browse all individuals in this class"@en-US .
+
+prop-data:enter_new_role_value.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_new_role_value.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a new value in the Role field."@all .
+
+prop-data:missing_person_in_posn.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_person_in_posn.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "fehlende Person in dieser Position"@de-DE ;
+        skos:prefLabel   "missing person in this position"@en-CA ;
+        skos:prefLabel   "missing person in this position"@en-US .
+
+prop-data:the_range_class_does_not_exist.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "the_range_class_does_not_exist.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "The range class for this property does not exist in the system."@en-CA ;
+        skos:prefLabel   "The range class for this property does not exist in the system."@en-US .
+
+prop-data:enter_a_locality.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_a_locality.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the City/Locality field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the City/Locality field."@en-US .
+
+prop-data:browse_all_public_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "browse_all_public_content.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You can browse all of the public content currently in the system using the"@en-CA ;
+        skos:prefLabel   "You can browse all of the public content currently in the system using the"@en-US .
+
+prop-data:last_ten_full_years.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_ten_full_years.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "in the last 10 full years"@all .
+
+prop-data:enter_street_address.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_street_address.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Street Address field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Street Address field."@en-US .
+
+prop-data:organization.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "organization.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "individuals with the research area in this organization"@en-CA ;
+        skos:prefLabel   "individuals with the research area in this organization"@en-US ;
+        skos:prefLabel   "Personen mit dem Forschungsgebiet in dieser Organisation"@de-DE .
+
+prop-data:enter_postal_code.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_postal_code.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Postal Code field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Postal Code field."@en-US .
+
+prop-data:map_being_refreshed_msg.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "map_being_refreshed_msg.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "está sendo atualizado. A visualização será carregado, logo que estamos a fazer computing, ou você pode pesquisar ou procurar outros dados in vivo e voltar em poucos minutos."@pt-BR ;
+        skos:prefLabel   "werden aktualisiert. Die Visualisierung wird geladen, sobald die Berechnung abgeschlossen ist - Sie können VIVO durchstöbern oder nach anderen Daten suchen und in wenigen Minuten zurückkehren."@de-DE ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-CA ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US .
+
+prop-data:no_content_in_system.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_content_in_system.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There is currently no {0} content in the system"@en-CA ;
+        skos:prefLabel   "There is currently no {0} content in the system"@en-US .
+
+prop-data:manage_labels_intro.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_labels_intro.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US ;
+        skos:prefLabel   "Wenn mehrere Labels in der gleichen Sprache existieren, nutzen Sie bitte den Entfernen-Link, um die Labels zu entfernen, die Sie nicht auf der Profilseite der angegebenen Sprache anzeigen möchten."@de-DE .
+
+prop-data:updated_account_notification.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "updated_account_notification.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "An {0} wurde eine Bestätigungs-E-Mail mit einer Anleitung zum Zurücksetzen des Passwortes gesendet. Das Passwort wird nicht zurückgesetzt, bis der Benutzer den Link in dieser E-Mail geöffnet hat."@de-DE ;
+        skos:prefLabel   "A confirmation email has been sent to {0} with instructions for resetting a password. The password will not be reset until the user follows the link provided in this email."@en-CA ;
+        skos:prefLabel   "A confirmation email has been sent to {0} with instructions for resetting a password. The password will not be reset until the user follows the link provided in this email."@en-US .
+
+prop-data:menu_login.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_login.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Log in"@en-CA ;
+        skos:prefLabel   "Log in"@en-US .
+
+prop-data:organization_hierarchy_note.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "organization_hierarchy_note.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Hinweis: unten aufgelistet sind nur Organisationen oder Personen, die unmittelbar in der Hierarchie der Organisation folgen. Wählen Sie das Chart-Symbol neben dem Namen einer ausgewählten Unterorganisation rechts unter dem Graphen, um in einem Hierarchieaufriss die Organisationen oder Personen einer gegebenen Unterorganisation zu sehen."@de-DE ;
+        skos:prefLabel   "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-CA ;
+        skos:prefLabel   "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-US .
+
+prop-data:role_in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "role_in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Rolle in"@de-DE ;
+        skos:prefLabel   "Role in"@en-CA ;
+        skos:prefLabel   "Role in"@en-US .
+
+prop-data:enter_id_to_login.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_id_to_login.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Enter the userID that you want to sign in as, or click Cancel."@en-CA ;
+        skos:prefLabel   "Enter the userID that you want to sign in as, or click Cancel."@en-US .
+
+prop-data:browse_page_javascript_one.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "browse_page_javascript_one.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Diese Seite benötigt Javascript, aber in Ihrem Browser ist Javascript deaktiviert. Entweder aktivieren Sie Javascript oder verwenden Sie"@de-DE .
+
+prop-data:no_attributed_publications.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_attributed_publications.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "No publications in the system have been attributed to this"@all .
+
+prop-data:in_the_vivo_db.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "in_the_vivo_db.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "in the VIVO database."@all .
+
+prop-data:individuals_with_researh_area_one.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individuals_with_researh_area_one.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Here are the individuals in <a href=\"{1}\">{0}</a> who have an interest in this research area."@en-CA ;
+        skos:prefLabel   "Here are the individuals in <a href=\"{1}\">{0}</a> who have an interest in this research area."@en-US .
+
+prop-data:researchers_in.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "researchers_in.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "researchers in"@en-CA ;
+        skos:prefLabel   "researchers in"@en-US ;
+        skos:prefLabel   "ForscherInnen in"@de-DE .
+
+prop-data:incomplete_grant_data_note1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_grant_data_note1.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Bitte beachten Sie: Diese Information beruht ausschließlich auf Forschungsprojekten, die in das VIVO-System geladen wurden und die möglicherweise nur eine kleine Auswahl des Gesamtwerkes der Person darstellen."@de-DE .
+
+prop-data:enter_postal_code.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_postal_code.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Postal Code field."@all .
+
+prop-data:years_of_grant_participation.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "years_of_grant_participation.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Years of Participation in Grant"@en-CA ;
+        skos:prefLabel   "Years of Participation in Grant"@en-US .
+
+prop-data:cap_map_intro.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_intro.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Build a &lsquo;first pass&rsquo; capability map by typing in a<!-- set of--> search term<!--s--> that could be said to represent a broad research capability."@en-CA ;
+        skos:prefLabel   "Build a &lsquo;first pass&rsquo; capability map by typing in a<!-- set of--> search term<!--s--> that could be said to represent a broad research capability."@en-US .
+
+prop-data:enter_or_select_grant.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_or_select_grant.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter or select a value in the Grant Name field."@en-CA ;
+        skos:prefLabel   "Please enter or select a value in the Grant Name field."@en-US .
+
+prop-data:enter_or_select_person_value.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_or_select_person_value.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Person field."@en-CA ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Person field."@en-US .
+
+prop-data:enter_new_role_value.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_new_role_value.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Please enter a new value in the Role field."@en-CA ;
+        skos:prefLabel   "Please enter a new value in the Role field."@en-US .
+
+prop-data:select_or_enter_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_or_enter_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Name field."@en-CA ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Name field."@en-US .
+
+prop-data:cant_change_password_while_logged_in.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cant_change_password_while_logged_in.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You may not reset the password for {0} while you are logged in as {1}. Please log out and try again."@en-CA ;
+        skos:prefLabel   "You may not reset the password for {0} while you are logged in as {1}. Please log out and try again."@en-US .
+
+prop-data:enter_in_security_field.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_in_security_field.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Bitte geben Sie die unten angezeigten Buchstaben in das Sicherheitsfeld ein"@de-DE .
+
+prop-data:research_area.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "research_area.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Personen in dem Fachbereich mit diesem Forschungsgebiet"@de-DE ;
+        skos:prefLabel   "individuals in the department with this research area"@en-CA ;
+        skos:prefLabel   "individuals in the department with this research area"@en-US .
+
+prop-data:logged_in_but_no_profile.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "logged_in_but_no_profile.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You have logged in, but the system contains no profile for you."@en-CA ;
+        skos:prefLabel   "You have logged in, but the system contains no profile for you."@en-US .
+
+prop-data:first_time_login.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_time_login.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "First time log in"@en-CA ;
+        skos:prefLabel   "First time log in"@en-US .
+
+prop-data:individual_not_found_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individual_not_found_msg.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "The individual was not found in the system."@en-CA ;
+        skos:prefLabel   "The individual was not found in the system."@en-US .
+
+prop-data:enter_a_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_a_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Name field."@all .
+
+prop-data:test_for_logged_in_users.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "test_for_logged_in_users.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "This is the test widget for logged-in users."@en-CA ;
+        skos:prefLabel   "This is the test widget for logged-in users."@en-US .
+
+prop-data:fill_in_template_with_data.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fill_in_template_with_data.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@all .
+
+prop-data:in_completed_year.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "in_completed_year.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "in a completed year"@all .
+
+prop-data:enter_a_country.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_a_country.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Country field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Country field."@en-US .
+
+prop-data:role_in_institution.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "role_in_institution.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Rolle in der Institution"@de-DE ;
+        skos:prefLabel   "Role in Institution"@en-CA ;
+        skos:prefLabel   "Role in Institution"@en-US .
+
+prop-data:service_to_profession_in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "service_to_profession_in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "service to the profession in"@en-CA ;
+        skos:prefLabel   "service to the profession in"@en-US ;
+        skos:prefLabel   "den Beruf unterstützende Dienstleistung in"@de-DE .
+
+prop-data:disclaimer_text_two.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "disclaimer_text_two.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "die ab in das VIVO-System geladen wurden."@de-DE .
+
+prop-data:cap_map_text2.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text2.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Tipp: Sie können einen groben Suchbegriff durch Klicken auf &lsquo;suchen und erweitern&rsquo; in speziellere Begriffe erweitern."@de-DE .
+
+prop-data:years_participation_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "years_participation_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Years of Participation in"@all .
+
+prop-data:years_participation_in.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "years_participation_in.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Jahre der Mitarbeit in"@de-DE ;
+        skos:prefLabel   "Years of Participation in"@en-CA ;
+        skos:prefLabel   "Years of Participation in"@en-US .
+
+prop-data:in_the_vivo_db.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "in_the_vivo_db.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in the VIVO database."@en-CA ;
+        skos:prefLabel   "in the VIVO database."@en-US ;
+        skos:prefLabel   "in der VIVO-Datenbank."@de-DE .
+
+prop-data:in_completed_year.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "in_completed_year.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in a completed year"@en-CA ;
+        skos:prefLabel   "in a completed year"@en-US ;
+        skos:prefLabel   "in einem abgeschlossenen Jahr"@de-DE .
+
+prop-data:operation_unsuccessful.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "operation_unsuccessful.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "The operation was unsuccessful. Full details can be found in the system log."@en-CA ;
+        skos:prefLabel   "The operation was unsuccessful. Full details can be found in the system log."@en-US .
+
+prop-data:external_login_text.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "external_login_text.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Log in using BearCat Shibboleth"@en-CA ;
+        skos:prefLabel   "Log in using BearCat Shibboleth"@en-US .
+
+prop-data:membership_in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "membership_in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Mitgliedschaft in"@de-DE ;
+        skos:prefLabel   "membership in"@en-CA ;
+        skos:prefLabel   "membership in"@en-US .
+
+prop-data:organization.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "organization.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "individuals with the research area in this organization"@all .
+
+prop-data:malformed_last_name_msg.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "malformed_last_name_msg.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Das Feld Nachname darf kein Komma enthalten. Bitte geben Sie den Vornamen in das Feld Vorname ein."@de-DE ;
+        skos:prefLabel   "The last name field may not contain a comma. Please enter first name in First Name field."@en-CA ;
+        skos:prefLabel   "The last name field may not contain a comma. Please enter first name in First Name field."@en-US .
+
+prop-data:select_organization_type.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_organization_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select a value in the Organization Type field."@en-CA ;
+        skos:prefLabel   "Please select a value in the Organization Type field."@en-US .
+
+prop-data:faculty_who_are_members_of_org.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_who_are_members_of_org.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@en-CA ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@en-US .
+
+prop-data:incomplete_data_note1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_data_note1.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Bitte beachten Sie: Diese Information beruht ausschließlich auf Publikationen, die in das VIVO-System geladen wurden und die möglicherweise nur eine kleine Auswahl des Gesamtwerkes der Person darstellen."@de-DE .
+
+prop-data:role_in_presentation_capitalized.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "role_in_presentation_capitalized.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Role in Presentation"@en-CA ;
+        skos:prefLabel   "Role in Presentation"@en-US ;
+        skos:prefLabel   "Rolle in der Präsentation"@de-DE .
+
+prop-data:edit_entry_for_teacher_role.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_entry_for_teacher_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   ": Diese Rolle in der Lehre bearbeiten"@de-DE .
+
+prop-data:no_attributed_publications.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_attributed_publications.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "No publications in the system have been attributed to this"@en-CA ;
+        skos:prefLabel   "No publications in the system have been attributed to this"@en-US .
+
+prop-data:cap_map_text5.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text5.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "The amount of researchers retrieved for each search term for is limited by the cutoff value in the search form (10 by default). Increasing this cutoff will increase the likelihood of an intersection between different search terms. This will also increase the complexity of the graph, however, and may make it difficult to identify patterns."@en-CA ;
+        skos:prefLabel   "The amount of researchers retrieved for each search term for is limited by the cutoff value in the search form (10 by default). Increasing this cutoff will increase the likelihood of an intersection between different search terms. This will also increase the complexity of the graph, however, and may make it difficult to identify patterns."@en-US .
+
+prop-data:membership_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "membership_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "membership in"@all .
+
+prop-data:grants_in_vivo.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_in_vivo.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "grants in VIVO"@all .
+
+prop-data:log_in.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "log_in.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "log in"@en-CA ;
+        skos:prefLabel   "log in"@en-US .
+
+prop-data:language_selection_failed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "language_selection_failed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There was a problem in the system. Your language choice was rejected."@en-CA ;
+        skos:prefLabel   "There was a problem in the system. Your language choice was rejected."@en-US .
+
+prop-data:vitro_bullet_one.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vitro_bullet_one.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Create or load ontologies in OWL format"@en-CA ;
+        skos:prefLabel   "Create or load ontologies in OWL format"@en-US .
+
+prop-data:view_all_individuals_in_area.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_individuals_in_area.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "View all individuals with an interest in this area."@all .
+
+prop-data:organization_hierarchy_note.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "organization_hierarchy_note.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@all .
+
+prop-data:enter_preferred_title.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_preferred_title.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Preferred Title field."@all .
+
+prop-data:incomplete_grant_data_note3.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_grant_data_note3.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Log in to enter additional details about your grants on your profile page."@all .
+
+prop-data:enter_a_locality.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_a_locality.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the City/Locality field."@all .
+
+prop-data:vis_tools_note_three.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_three.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Zurzeit speichern wir diese Modelle im Hauptspeicherbereich zwischen. Der Zwischenspeicher wird (nur einmal) bei der ersten Benutzeranfrage nach einem Neustart des Servers aufgebaut. Daher wird bis zum nächsten Neustart das gleiche Modell bedient. Das bedeutet, dass die Daten in den Modellen veralten können, je nachdem, wann das Modell zum letzten Mal erstellt wurde. Das funktioniert fürs Erste gut. In kommenden Releases werden wir diese Lösung dahingehend verbessern, dass Modelle auf Festplatte gespeichert und regelmäßig aktualisiert werden."@de-DE ;
+        skos:prefLabel   "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-CA ;
+        skos:prefLabel   "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US .
+
+prop-data:enter_a_country.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_a_country.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Country field."@all .
+
+prop-data:menu_loginfull.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_loginfull.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Log in to manage this site"@en-CA ;
+        skos:prefLabel   "Log in to manage this site"@en-US .
+
+prop-data:grants_text_three.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "grants_text_three.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Dadurch würde eine Seite entstehen, die about.ftl als Hauptteil benutzt. Die Seite wäre zugänglich über /about und würde alle servlet mappings in web.xml außer Kraft setzen."@de-DE ;
+        skos:prefLabel   "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-CA ;
+        skos:prefLabel   "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        skos:prefLabel   "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA .
+
+prop-data:grant_sparkline_note.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_sparkline_note.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@all .
+
+prop-data:select_credential_or_enter_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_credential_or_enter_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter or select a value in the Credential Name field."@en-CA ;
+        skos:prefLabel   "Please enter or select a value in the Credential Name field."@en-US .
+
+prop-data:view_profile_in_rdf.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_profile_in_rdf.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Profil in RDF-Format anzeigen"@de-DE ;
+        skos:prefLabel   "view profile in RDF format"@en-CA ;
+        skos:prefLabel   "view profile in RDF format"@en-US .
+
+prop-data:auth_id_in_use.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "auth_id_in_use.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "This Identifier is already in use."@en-CA ;
+        skos:prefLabel   "This Identifier is already in use."@en-US .
+
+prop-data:select_an_organization_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_an_organization_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter or select a value in the Name field."@all .
+
+prop-data:login_to_manage_site.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "login_to_manage_site.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "log in para gerenciar este site"@pt-BR ;
+        skos:prefLabel   "log in to manage this site"@en-CA ;
+        skos:prefLabel   "log in to manage this site"@en-US .
+
+prop-data:select_organization_type.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_organization_type.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select a value in the Organization Type field."@all .
+
+prop-data:vocabulary_service_unavailable.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vocabulary_service_unavailable.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "An error was encountered in executing this search."@all .
+
+prop-data:enter_posn_type_value.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_posn_type_value.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select a value in the Position Type field."@all .
+
+prop-data:refreshing_data_message.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "refreshing_data_message.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "está sendo atualizada. A visualização será carregado, logo que estamos a fazer computing, ou você pode pesquisar ou procurar outros dados in vivo e voltar em poucos minutos."@pt-BR ;
+        skos:prefLabel   "werden aktualisiert. Die Visualisierung wird geladen, sobald die Berechnung abgeschlossen ist - Sie können VIVO durchstöbern oder nach anderen Daten suchen und in wenigen Minuten zurückkehren."@de-DE ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-CA ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US .
+
+prop-data:already_logged_in.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "already_logged_in.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "You are already logged in."@en-CA ;
+        skos:prefLabel   "You are already logged in."@en-US .
+
+prop-data:years_of_grant_participation.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "years_of_grant_participation.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Years of Participation in Grant"@all .
+
+prop-data:orcid_step1_description.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_step1_description.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "<ul><li>VIVO redirects you to ORCID's web site.</li> <li>You log in to your ORCID account. <ul class=\"inner\"><li>If you don't have an account, you can create one.</li></ul></li> <li>You tell ORCID that VIVO may read your ORCID record.</li> <li>VIVO reads your ORCID record.</li> <li>VIVO notes that your ORCID iD is confirmed.</li></ul>"@en-CA ;
+        skos:prefLabel   "<ul><li>VIVO redirects you to ORCID's web site.</li> <li>You log in to your ORCID account. <ul class=\"inner\"><li>If you don't have an account, you can create one.</li></ul></li> <li>You tell ORCID that VIVO may read your ORCID record.</li> <li>VIVO reads your ORCID record.</li> <li>VIVO notes that your ORCID iD is confirmed.</li></ul>"@en-US .
+
+prop-data:select_educational_training_value.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_educational_training_value.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select a value in the Type of Educational Training field."@en-CA ;
+        skos:prefLabel   "Please select a value in the Type of Educational Training field."@en-US .
+
+prop-data:entity_comp_error_text2.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "entity_comp_error_text2.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "in the system."@all .
+
+prop-data:entity_comp_error_text2.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "entity_comp_error_text2.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in the system."@en-CA ;
+        skos:prefLabel   "in the system."@en-US .
+
+prop-data:missing_person_in_role.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_person_in_role.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "missing person in this role"@all .
+
+prop-data:in_current_incomplete_year.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "in_current_incomplete_year.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in the current incomplete year (not charted above)"@en-CA ;
+        skos:prefLabel   "in the current incomplete year (not charted above)"@en-US .
+
+prop-data:outreach_comm_service_in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "outreach_comm_service_in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Öffentlichkeitsarbeit und Community-Arbeit in"@de-DE ;
+        skos:prefLabel   "outreach & community service in"@en-CA ;
+        skos:prefLabel   "outreach & community service in"@en-US .
+
+prop-data:fill_in_data.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fill_in_data.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Fill in data"@all .
+
+prop-data:faculty_with_researh_area.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_with_researh_area.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Personen in dem Fachbereich {0}, die sich für dieses Forschungsgebiet interessieren."@de-DE ;
+        skos:prefLabel   "Here are the faculty members in the {0} department who have an interest in this research area."@en-CA ;
+        skos:prefLabel   "Here are the faculty members in the {0} department who have an interest in this research area."@en-US .
+
+prop-data:refreshing_data_message.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "refreshing_data_message.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@all .
+
+prop-data:enter_street_address.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_street_address.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Street Address field."@all .
+
+prop-data:individuals_with_dept.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individuals_with_dept.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Personen mit Interesse an <a href=\"{1}\">{0}</a>, die in dieser Organisation sind."@de-DE ;
+        skos:prefLabel   "Here are the individuals with an interest in <a href=\"{1}\">{0}</a> who are in this organization."@en-CA ;
+        skos:prefLabel   "Here are the individuals with an interest in <a href=\"{1}\">{0}</a> who are in this organization."@en-US .
+
+prop-data:invalid_date_form_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "invalid_date_form_msg.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "must be in valid date format mm/dd/yyyy."@en-CA ;
+        skos:prefLabel   "must be in valid date format mm/dd/yyyy."@en-US .
+
+prop-data:interest_thanks.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "interest_thanks.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Thank you for your interest in {0}. Please submit this form with questions, comments, or feedback about the content of this site."@en-CA ;
+        skos:prefLabel   "Thank you for your interest in {0}. Please submit this form with questions, comments, or feedback about the content of this site."@en-US .
+
+prop-data:test_for_nonlogged_in_users.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "test_for_nonlogged_in_users.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "This is the test widget for non-logged-in users."@en-CA ;
+        skos:prefLabel   "This is the test widget for non-logged-in users."@en-US .
+
+prop-data:vitro_description.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vitro_description.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Vitro is a general-purpose web-based ontology and instance editor with customizable public browsing. Vitro is a Java web application that runs in a Tomcat servlet container."@en-CA ;
+        skos:prefLabel   "Vitro is a general-purpose web-based ontology and instance editor with customizable public browsing. Vitro is a Java web application that runs in a Tomcat servlet container."@en-US ;
+        skos:prefLabel   "Vitro ist ein universeller Web-basierter Ontologie- und Instanzeditor mit einer anpassbaren öffentlichen Oberfläche. Vitro ist eine Java-Web-Anwendung, die in einem Tomcat-Servlet-Container ausgeführt wird."@de-DE .
+
+prop-data:in_current_incomplete_year.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "in_current_incomplete_year.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "in the current incomplete year (not charted above)"@all .
+
+prop-data:file_upload_no_allowed_media.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "file_upload_no_allowed_media.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "No allowed media types defined in runtime.properties"@en-US .
+
+prop-data:last_ten_full.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_ten_full.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "in the last 10 full"@all .
+
+prop-data:no_appropriate_entry.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_appropriate_entry.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Wenn Sie keinen den entsprechenden Eintrag in der Auswahlliste oben finden"@de-DE .
+
+prop-data:menu_loginfull.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_loginfull.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Log in to manage this site"@all .
+
+prop-data:incomplete_grant_data_note3.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_grant_data_note3.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Log in to enter additional details about your grants on your profile page."@en-CA ;
+        skos:prefLabel   "Log in to enter additional details about your grants on your profile page."@en-US .
+
+prop-data:numbers_based_on_publications_in_vivo.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "numbers_based_on_publications_in_vivo.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Diese Zahlen beruhen ausschließlich auf Publikationen, die in diese VIVO-Anwendung geladen wurden. Falls es sich um Ihr Profil handelt, können Sie unten weitere Publikationen eintragen."@de-DE .
+
+prop-data:reset_password_note.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "reset_password_note.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Hinweis: Anweisungen zum Zurücksetzen des Passworts werden an die oben angegebenen Adresse gesendet. Das Passwort wird nicht zurückgesetzt, bis der Benutzer den Link in dieser E-Mail geöffnet hat."@de-DE ;
+        skos:prefLabel   "Note: Instructions for resetting the password will be emailed to the address entered above. The password will not be reset until the user follows the link provided in this email."@en-CA ;
+        skos:prefLabel   "Note: Instructions for resetting the password will be emailed to the address entered above. The password will not be reset until the user follows the link provided in this email."@en-US .
+
+prop-data:enter_telephone_number.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_telephone_number.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Telephone Number field."@all .
+
+prop-data:cap_map_text1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cap_map_text1.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Geben Sie ein Forschungsfeld in das Suchfeld oben ein und klicken Sie auf 'Suchen'. Das resultierende Diagramm zeigt den Suchbegriff in orange an, in Verbindung mit der blauen Gruppe von Forschenden, die in diesem Bereich tätig sind. Geben Sie einen anderen Suchbegriff ein, um zu sehen, wie die Forscher aus beiden Suchen zusammenhängen. Fügen Sie weitere Suchbegriffe hinzu, um eine Capability Map ('Fähigkeitskarte') zu erstellen."@de-DE ;
+        skos:prefLabel   "Enter a research area into the search field above and press 'Search'. The resulting diagram displays the search term, rendered in orange, connected to the blue group of researchers that are active in that area. Enter another search term to see how researchers from both searches relate. Keep adding search terms to build a capability map."@en-CA ;
+        skos:prefLabel   "Enter a research area into the search field above and press 'Search'. The resulting diagram displays the search term, rendered in orange, connected to the blue group of researchers that are active in that area. Enter another search term to see how researchers from both searches relate. Keep adding search terms to build a capability map."@en-US .
+
+prop-data:incomplete_data_note3.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_data_note3.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Log in to enter additional details about your publications on your profile page."@all .
+
+prop-data:individuals_with_researh_area_two.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individuals_with_researh_area_two.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Here are the individuals in the <a href=\"{1}\">{0}</a> who have an interest in this research area."@en-CA ;
+        skos:prefLabel   "Here are the individuals in the <a href=\"{1}\">{0}</a> who have an interest in this research area."@en-US .
+
+prop-data:harvest_error_instructions_fourA.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_fourA.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in vivo Harvester, o usuário do servidor web (normalmente tomcat6) leu e acesso ao escrever"@pt-BR .
+
+prop-data:grant_sparkline_note.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_sparkline_note.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Die Linien oben zeigen Forschungsprojekte im Verlauf des gesamten letzten Kalenderjahres. In den folgenden Tabellen finden sich dagegen Angaben zu Forschungsprojekten aus allen Jahren, die auf den Informationen beruhen, die in das VIVO-System geladen wurden."@de-DE ;
+        skos:prefLabel   "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-CA ;
+        skos:prefLabel   "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-US .
+
+prop-data:password_saved_please_login.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "password_saved_please_login.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Vaša lozinka je sačuvana. Please log in."@sr-Latn-RS ;
+        skos:prefLabel   "Your password has been saved. Please log in."@en-CA ;
+        skos:prefLabel   "Your password has been saved. Please log in."@en-US .
+
+prop-data:missing_person_in_role.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing_person_in_role.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "missing person in this role"@en-CA ;
+        skos:prefLabel   "missing person in this role"@en-US ;
+        skos:prefLabel   "fehlende Person in dieser Rolle"@de-DE .
+
+prop-data:in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "in"@all .
+
+prop-data:not_logged_in.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "not_logged_in.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Not logged in"@en-CA ;
+        skos:prefLabel   "Not logged in"@en-US .
+
+prop-data:minimum_password_length.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "minimum_password_length.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Minimum of {0} characters in length; maximum of {1}."@en-CA ;
+        skos:prefLabel   "Minimum of {0} characters in length; maximum of {1}."@en-US .
+
+prop-data:publications_in_vivo.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publications_in_vivo.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Publications in VIVO"@en-CA ;
+        skos:prefLabel   "Publications in VIVO"@en-US ;
+        skos:prefLabel   "Publikationen in VIVO"@de-DE .
+
+prop-data:faculty_who_are_members_of_org.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_who_are_members_of_org.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@en-CA ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@en-US ;
+        skos:prefLabel   "Here are the faculty in the {0} department who are members of this organization."@sr-Latn-RS .
+
+prop-data:individuals_with_researh_area_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individuals_with_researh_area_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Here are the individuals in the <a href=\"{1}\">{0}</a> who have an interest in this research area."@all .
+
+prop-data:grants_text_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_three.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@all .
+
+prop-data:no_classes_to_select.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_classes_to_select.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There are no Classes in the system from which to select."@en-CA ;
+        skos:prefLabel   "There are no Classes in the system from which to select."@en-US .
+
+prop-data:enter_fax_number.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_fax_number.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter a value in the Fax Number field."@all .
+
+prop-data:view_all_individuals_in_area.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_individuals_in_area.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "View all individuals with an interest in this area."@en-CA ;
+        skos:prefLabel   "View all individuals with an interest in this area."@en-US .
+
+prop-data:view_all_faculty_in_area.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "view_all_faculty_in_area.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "View all faculty with an interest in this area."@en-CA ;
+        skos:prefLabel   "View all faculty with an interest in this area."@en-US .
+
+prop-data:harvest_error_instructions_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_error_instructions_three.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "property in runtime.properties is pointed to the Harvester installation directory."@all .
+
+prop-data:enter_email_address.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_email_address.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Email Address field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Email Address field."@en-US .
+
+prop-data:we_have_an_error.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "we_have_an_error.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There was an error in the system."@en-CA ;
+        skos:prefLabel   "There was an error in the system."@en-US .
+
+prop-data:faculty_with_researh_area.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "faculty_with_researh_area.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Here are the faculty members in the {0} department who have an interest in this research area."@all .
+
+prop-data:menu_login.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_login.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Log in"@en-CA ;
+        skos:prefLabel   "Log in"@en-US .
+
+prop-data:enter_telephone_number.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_telephone_number.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Telephone Number field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Telephone Number field."@en-US .
+
+prop-data:trace_available.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "trace_available.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "full trace available in the vivo log"@en-CA ;
+        skos:prefLabel   "full trace available in the vivo log"@en-US .
+
+prop-data:menu_loginfull.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_loginfull.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Log in to manage this site"@en-CA ;
+        skos:prefLabel   "Log in to manage this site"@en-US .
+
+prop-data:vis_caching_process.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_caching_process.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "What's involved in the caching process?"@en-CA ;
+        skos:prefLabel   "What's involved in the caching process?"@en-US .
+
+prop-data:select_Award_or_enter_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_Award_or_enter_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Award or Honor Name field."@en-CA ;
+        skos:prefLabel   "Please select an existing value or enter a new value in the Award or Honor Name field."@en-US .
+
+prop-data:individuals_with_researh_area_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individuals_with_researh_area_one.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Here are the individuals in <a href=\"{1}\">{0}</a> who have an interest in this research area."@all .
+
+prop-data:enter_posn_title_value.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_posn_title_value.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Position Title field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Position Title field."@en-US .
+
+prop-data:enter_or_select_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_or_select_grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please enter or select a value in the Grant Name field."@all .
+
+prop-data:enter_fax_number.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_fax_number.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Fax Number field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Fax Number field."@en-US .
+
+prop-data:last_ten_full.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_ten_full.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "in den letzten 10 vollen"@de-DE ;
+        skos:prefLabel   "in the last 10 full"@en-CA ;
+        skos:prefLabel   "in the last 10 full"@en-US .
+
+prop-data:editor_role_in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "editor_role_in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Rolle des/der HerausgeberIn in"@de-DE ;
+        skos:prefLabel   "editor role in"@en-CA ;
+        skos:prefLabel   "editor role in"@en-US .
+
+prop-data:enter_preferred_title.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "enter_preferred_title.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please enter a value in the Preferred Title field."@en-CA ;
+        skos:prefLabel   "Please enter a value in the Preferred Title field."@en-US .
+
+prop-data:last_name_empty_msg.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_name_empty_msg.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Sie müssen einen Wert in das Feld Nachname eingeben."@de-DE ;
+        skos:prefLabel   "You must enter a value in the Last Name field."@en-CA ;
+        skos:prefLabel   "You must enter a value in the Last Name field."@en-US .
+
+prop-data:incomplete_data_note3.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "incomplete_data_note3.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Log in to enter additional details about your publications on your profile page."@en-CA ;
+        skos:prefLabel   "Log in to enter additional details about your publications on your profile page."@en-US .
+
+prop-data:map_being_refreshed_msg.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "map_being_refreshed_msg.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@all .
+
+prop-data:vis_caching_process.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_caching_process.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "What's involved in the caching process?"@all .
+
+prop-data:there_are_no_entries_for_selection.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "there_are_no_entries_for_selection.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There are no entries in the system from which to select."@en-CA ;
+        skos:prefLabel   "There are no entries in the system from which to select."@en-US .
+
+prop-data:role_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "role_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Role in"@all .
+
+prop-data:menu_login.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_login.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Log in"@all .
+
+prop-data:editor_role_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "editor_role_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "editor role in"@all .
+
+prop-data:grants_text_three.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_text_three.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Dadurch würde eine Seite entstehen, die about.ftl als Hauptteil benutzt. Die Seite wäre zugänglich über /about und würde alle servlet mappings in web.xml außer Kraft setzen."@de-DE ;
+        skos:prefLabel   "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-CA ;
+        skos:prefLabel   "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        skos:prefLabel   "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA .

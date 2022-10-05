@@ -1,0 +1,42 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:save_changes.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "save_changes.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Änderungen speichern"@de-DE ;
+        skos:prefLabel   "Salvar alterações"@pt-BR ;
+        skos:prefLabel   "Sačuvajte promene"@sr-Latn-RS ;
+        skos:prefLabel   "Sauvegarder"@fr-CA ;
+        skos:prefLabel   "Save changes"@en-CA ;
+        skos:prefLabel   "Save changes"@en-US ;
+        skos:prefLabel   "Сохранить изменения"@ru-RU ;
+        skos:prefLabel   "Guardar cambios"@es .
+
+prop-data:save_changes.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "save_changes.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Sauvegarder"@fr-CA ;
+        skos:prefLabel   "Änderungen speichern"@de-DE ;
+        skos:prefLabel   "Sačuvajte"@sr-Latn-RS ;
+        skos:prefLabel   "Guardar"@es ;
+        skos:prefLabel   "Guardar"@pt-BR ;
+        skos:prefLabel   "Сохранить изменения"@ru-RU ;
+        skos:prefLabel   "Save"@en-CA ;
+        skos:prefLabel   "Save"@en-US .
+
+prop-data:save_changes
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "save_changes" .

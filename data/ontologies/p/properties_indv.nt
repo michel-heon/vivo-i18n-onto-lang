@@ -1,0 +1,93 @@
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_alpha.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_alpha.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_alpha.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_alpha.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_alpha.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "faux_property_alpha.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_alpha.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "faux properties alphabetically"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_alpha.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "faux properties alphabetically"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "faux_property_by_base.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "faux properties by base property"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "faux properties by base property"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_no_allowed_media.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_no_allowed_media.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_no_allowed_media.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_no_allowed_media.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_no_allowed_media.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "file_upload_no_allowed_media.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_no_allowed_media.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No allowed media types defined in runtime.properties"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "harvest_error_instructions_three.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Svojsvo unutar runtime.properties fajla pokazuje na direktorijum gde je instaliran Prikupljač."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "property dans runtime.properties pointe sur le répertoire d'installation de l'outil de moissonnage (harvester)."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "property in runtime.properties is pointed to the Harvester installation directory."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "property in runtime.properties is pointed to the Harvester installation directory."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "propriedade em runtime.properties é apontado para o diretório de instalação Harvester."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "в runtime.properties указывает на каталог установки Подборщика."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "harvest_error_instructions_three.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_three.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "property in runtime.properties is pointed to the Harvester installation directory."@all .
+<http://vivoweb.org/ontology/core/properties/individual#hide_properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#hide_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "hide_properties.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#hide_properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "hide properties"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#hide_properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "hide properties"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "hide_show_properties.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "hide/show properties"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "hide/show properties"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "properties.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eigenschaften"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Propriedades"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "properties"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "properties"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "propiedades"@es .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "propriétés"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "svojstva"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "свойства"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#properties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#properties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#properties> <http://www.w3.org/2000/01/rdf-schema#label> "properties" .
+<http://vivoweb.org/ontology/core/properties/individual#show_properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#show_properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#show_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "show_properties.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#show_properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "show properties"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#show_properties.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "show properties"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "undefined_runtime_property.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "property dans runtime.properties n'est pas défini."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "property in runtime.properties is undefined."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "property in runtime.properties is undefined."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "propriedade em runtime.properties está indefinido."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "svojstvo u runtime.properties nije definisano."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "свойство не определено в runtime.properties."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "undefined_runtime_property.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#undefined_runtime_property.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "property in runtime.properties is undefined."@all .

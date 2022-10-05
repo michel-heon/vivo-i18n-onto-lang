@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:temporal_graph
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "temporal_graph" .
+
+prop-data:temporal_graph.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "temporal_graph.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "temporal graph"@all .
+
+prop-data:temporal_graph.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "temporal_graph.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "временной график"@ru-RU ;
+        skos:prefLabel   "gráfico temporal"@es ;
+        skos:prefLabel   "gráfico temporal"@pt-BR ;
+        skos:prefLabel   "zeitlicher Graph"@de-DE ;
+        skos:prefLabel   "temporal graph"@en-CA ;
+        skos:prefLabel   "graphe temporel"@fr-CA ;
+        skos:prefLabel   "temporal graph"@en-US ;
+        skos:prefLabel   "vremenski grafikon"@sr-Latn-RS .

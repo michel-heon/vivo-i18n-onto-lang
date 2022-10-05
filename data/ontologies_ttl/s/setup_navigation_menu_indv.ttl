@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:setup_navigation_menu
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "setup_navigation_menu" .
+
+prop-data:setup_navigation_menu.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "setup_navigation_menu.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Établir le menu de navigation principal de votre site"@fr-CA ;
+        skos:prefLabel   "Podesite primarni navigacioni meni za sajt"@sr-Latn-RS ;
+        skos:prefLabel   "Configuración del menú principal de navegación de su sitio web"@es ;
+        skos:prefLabel   "Настройка основного навигационного меню для вашего сайта"@ru-RU ;
+        skos:prefLabel   "Setup the primary navigation menu for your website"@en-CA ;
+        skos:prefLabel   "Setup the primary navigation menu for your website"@en-US ;
+        skos:prefLabel   "Configurar o menu de navegação principal do seu website"@pt-BR ;
+        skos:prefLabel   "Konfiguration des primären Navigationsmenü für Ihre Webseite"@de-DE .

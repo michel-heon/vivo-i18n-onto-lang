@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "visualization_tools.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alati za vizualizaciju"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ferramentas de Visualização"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Herramientas de visualización"@es .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Outils de visualisation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visualisierungs-Tools"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visualization Tools"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visualization Tools"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Инструменты визуализации"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "visualization_tools.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visualization Tools"@all .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#visualization_tools> <http://www.w3.org/2000/01/rdf-schema#label> "visualization_tools" .

@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "preferred_title.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Preferred Title"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Preferred Title"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Titre préféré"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Título Preferred"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Título preferido"@es .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "bevorzugter Titel"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Željena titula"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Желательное обращение"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "preferred_title.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Preferred Title"@all .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#preferred_title> <http://www.w3.org/2000/01/rdf-schema#label> "preferred_title" .

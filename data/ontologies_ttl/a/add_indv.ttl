@@ -1,0 +1,98 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:add_content_manage_site.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "add_content_manage_site.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "add content and manage this site"@en-CA ;
+        skos:prefLabel   "add content and manage this site"@en-US .
+
+prop-data:or_add_new_one.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "or_add_new_one.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "or add a new one."@en-CA ;
+        skos:prefLabel   "or add a new one."@en-US .
+
+prop-data:orcid_title_confirm.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_title_confirm.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Do you want to add an ORCID iD?"@en-CA ;
+        skos:prefLabel   "Do you want to add an ORCID iD?"@en-US .
+
+prop-data:add  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "add" .
+
+prop-data:add.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "add.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "hinzufügen"@de-DE ;
+        skos:prefLabel   "Agregar"@es ;
+        skos:prefLabel   "dodajte"@sr-Latn-RS ;
+        skos:prefLabel   "add"@en-CA ;
+        skos:prefLabel   "add"@en-US ;
+        skos:prefLabel   "добавить"@ru-RU ;
+        skos:prefLabel   "ajouter"@fr-CA ;
+        skos:prefLabel   "adicionar"@pt-BR .
+
+prop-data:orcid_step2_description.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_step2_description.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "<ul><li>VIVO redirects you to ORCID's web site</li> <li>You tell ORCID that VIVO may add an \"external ID\" to your ORCID record.</li> <li>VIVO adds the external ID.</li></ul>"@en-CA ;
+        skos:prefLabel   "<ul><li>VIVO redirects you to ORCID's web site</li> <li>You tell ORCID that VIVO may add an \"external ID\" to your ORCID record.</li> <li>VIVO adds the external ID.</li></ul>"@en-US .
+
+prop-data:orcid_title_add.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_title_add.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Do you want to add an ORCID iD?"@en-CA ;
+        skos:prefLabel   "Do you want to add an ORCID iD?"@en-US .
+
+prop-data:or_add_new_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "or_add_new_one.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "or add a new one."@all .
+
+prop-data:orcid_step2_denied.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_step2_denied.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "<p>You denied VIVO's request to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-CA ;
+        skos:prefLabel   "<p>You denied VIVO's request to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-US .
+
+prop-data:orcid_step2_failed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "orcid_step2_failed.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "<p>VIVO failed to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-CA ;
+        skos:prefLabel   "<p>VIVO failed to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-US .

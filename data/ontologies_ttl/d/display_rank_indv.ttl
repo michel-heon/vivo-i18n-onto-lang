@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:display_rank.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "display_rank.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Mostrar Rango"@es ;
+        skos:prefLabel   "Mostar Rank"@pt-BR ;
+        skos:prefLabel   "Afficher le rang"@fr-CA ;
+        skos:prefLabel   "Anzeigerang"@de-DE ;
+        skos:prefLabel   "Ранг отображения"@ru-RU ;
+        skos:prefLabel   "Prikažite Rang"@sr-Latn-RS ;
+        skos:prefLabel   "Display Rank"@en-CA ;
+        skos:prefLabel   "Display Rank"@en-US .
+
+prop-data:display_rank
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "display_rank" .

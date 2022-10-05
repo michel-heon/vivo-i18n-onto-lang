@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:grants_in_vivo.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "grants_in_vivo.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Forschungsprojekte in VIVO"@de-DE ;
+        skos:prefLabel   "grants in VIVO"@en-CA ;
+        skos:prefLabel   "grants in VIVO"@en-US ;
+        skos:prefLabel   "subventions dans VIVO"@fr-CA ;
+        skos:prefLabel   "гранты в VIVO"@ru-RU ;
+        skos:prefLabel   "subvenciones en VIVO"@es ;
+        skos:prefLabel   "subsídios na Vivo"@pt-BR ;
+        skos:prefLabel   "grant-ovi u VIVO-u"@sr-Latn-RS .
+
+prop-data:grants_in_vivo.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_in_vivo.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "гранты в VIVO"@ru-RU ;
+        skos:prefLabel   "Forschungsprojekte in VIVO"@de-DE ;
+        skos:prefLabel   "subvenciones en VIVO"@es ;
+        skos:prefLabel   "grants in VIVO"@en-US ;
+        skos:prefLabel   "grants in VIVO"@en-CA ;
+        skos:prefLabel   "subventions dans VIVO"@fr-CA ;
+        skos:prefLabel   "nagrade unutar VIVO-a"@sr-Latn-RS ;
+        skos:prefLabel   "subsídios na Vivo"@pt-BR .
+
+prop-data:grants_in_vivo.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grants_in_vivo.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "grants in VIVO"@all .

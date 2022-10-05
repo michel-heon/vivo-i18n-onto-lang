@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:imageUpload.errorNoImageForCropping.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "imageUpload.errorNoImageForCropping.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Não há nenhum arquivo de imagem a ser cortada."@pt-BR ;
+        skos:prefLabel   "No existe una imagen para recortar."@es ;
+        skos:prefLabel   "Aucune image à rogner."@fr-CA ;
+        skos:prefLabel   "Нет файла изображения, который нужно обрезать."@ru-RU ;
+        skos:prefLabel   "Es ist keine Bilddatei vorhanden, die zugeschnitten werden könnte."@de-DE ;
+        skos:prefLabel   "There is no image file to be cropped."@en-CA ;
+        skos:prefLabel   "Ne postoji datoteka slike koju želite da isečete."@sr-Latn-RS ;
+        skos:prefLabel   "There is no image file to be cropped."@en-US .

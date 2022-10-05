@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "individuals_with_dept.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aqui estão os indivíduos com interesse em <a href=\"{1}\"> {0} </a> que estão nesta organização."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquí están las personas que tengan interés en <a href=\"{1}\"> {0} </a> que están en esta organización."@es .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Here are the individuals with an interest in <a href=\"{1}\">{0}</a> who are in this organization."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Here are the individuals with an interest in <a href=\"{1}\">{0}</a> who are in this organization."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ovo su pojedinci sa interesovanjem za <a href=\"{1}\">{0}</a> koji su deo ove organizacije."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Personen mit Interesse an <a href=\"{1}\">{0}</a>, die in dieser Organisation sind."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Voici les personnes qui ont un intérêt dans <a href=\"{1}\">{0}</a> et qui font partie de cette organisation."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "В данной организации следующие лица интересуются <a href=\"{1}\">{0}</a>."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "individuals_with_dept.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Here are the individuals with an interest in <a href=\"{1}\">{0}</a> who are in this organization."@all .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#individuals_with_dept> <http://www.w3.org/2000/01/rdf-schema#label> "individuals_with_dept" .

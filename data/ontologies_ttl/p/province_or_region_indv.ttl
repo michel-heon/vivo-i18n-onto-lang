@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:province_or_region.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "province_or_region.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Province or Region"@all .
+
+prop-data:province_or_region.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "province_or_region.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Province ou région"@fr-CA ;
+        skos:prefLabel   "Provincia o región"@es ;
+        skos:prefLabel   "província ou região"@pt-BR ;
+        skos:prefLabel   "Bundesland oder Bezirk"@de-DE ;
+        skos:prefLabel   "Province or Region"@en-CA ;
+        skos:prefLabel   "Provincije ili region"@sr-Latn-RS ;
+        skos:prefLabel   "Province or Region"@en-US ;
+        skos:prefLabel   "Область или регион"@ru-RU .
+
+prop-data:province_or_region.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "province_or_region.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Province ou région"@fr-CA ;
+        skos:prefLabel   "Provincija ili Regija"@sr-Latn-RS ;
+        skos:prefLabel   "Provincia o región"@es ;
+        skos:prefLabel   "província ou região"@pt-BR ;
+        skos:prefLabel   "Область или регион"@ru-RU ;
+        skos:prefLabel   "Province or Region"@en-CA ;
+        skos:prefLabel   "Bundesland oder Bezirk"@de-DE ;
+        skos:prefLabel   "Province or Region"@en-US .

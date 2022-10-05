@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selected_publisher.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selected_publisher.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Selected Publisher"@all .
+
+prop-data:selected_publisher.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "selected_publisher.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Выбранное издательство"@ru-RU ;
+        skos:prefLabel   "Editorial seleccionada"@es ;
+        skos:prefLabel   "Publicação Selecionada"@pt-BR ;
+        skos:prefLabel   "Maison d'édition choisie"@fr-CA ;
+        skos:prefLabel   "Odabran izdavač"@sr-Latn-RS ;
+        skos:prefLabel   "Selected Publisher"@en-CA ;
+        skos:prefLabel   "Selected Publisher"@en-US ;
+        skos:prefLabel   "ausgewählter Verlag"@de-DE .
+
+prop-data:selected_publisher
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "selected_publisher" .

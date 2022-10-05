@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:probably_a_bug_so_report
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "probably_a_bug_so_report" .
+
+prop-data:probably_a_bug_so_report.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "probably_a_bug_so_report.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The end user should not see this error under normal circumstances, so this is probably a bug and should be reported."@all .
+
+prop-data:probably_a_bug_so_report.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "probably_a_bug_so_report.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "O usuário final não deve ver este erro em circunstâncias normais, de modo que este é provavelmente um bug e deve ser relatado."@pt-BR ;
+        skos:prefLabel   "Конечный пользователь не должен видеть эту ошибку при нормальных обстоятельствах, поэтому, вероятно, это ошибка, о которой следует сообщить."@ru-RU ;
+        skos:prefLabel   "L'utilisateur ne devrait pas normalement voir cette erreur. Il s'agit vraisemblablement d'un problème qui doit être rapporté."@fr-CA ;
+        skos:prefLabel   "The end user should not see this error under normal circumstances, so this is probably a bug and should be reported."@en-CA ;
+        skos:prefLabel   "The end user should not see this error under normal circumstances, so this is probably a bug and should be reported."@en-US ;
+        skos:prefLabel   "El usuario final no debería ver este error en circunstancias normales, por lo que este es probablemente un error y se debe informar."@es ;
+        skos:prefLabel   "Krajnji korisnik ne bi trebalo da vidi ovu grešku u normalnim okolnostima, te je ovo verovatno greška i treba da je prijavite."@sr-Latn-RS ;
+        skos:prefLabel   "Diese Fehlermeldung sollte der/dem EndnutzerIn normalerweise nicht angezeigt werden, daher handelt es sich wahrscheinlich um einen Fehler, der gemeldet werden sollte."@de-DE .

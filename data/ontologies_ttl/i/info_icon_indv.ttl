@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:info_icon  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "info_icon" .
+
+prop-data:info_icon.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "info_icon.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "ikonica za informacije"@sr-Latn-RS ;
+        skos:prefLabel   "info icon"@en-US ;
+        skos:prefLabel   "info icon"@en-CA ;
+        skos:prefLabel   "ícone info"@pt-BR ;
+        skos:prefLabel   "information d'icône"@fr-CA ;
+        skos:prefLabel   "значок информации"@ru-RU ;
+        skos:prefLabel   "Info-Icon"@de-DE ;
+        skos:prefLabel   "icono de información"@es .

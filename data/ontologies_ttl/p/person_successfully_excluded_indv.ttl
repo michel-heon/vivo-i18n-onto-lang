@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:person_successfully_excluded.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "person_successfully_excluded.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Die Person wurde erfolgreich von der Seite der Organisation ausgeschlossen."@de-DE ;
+        skos:prefLabel   "La personne a été retirée avec succès de la page de l'organisation."@fr-CA ;
+        skos:prefLabel   "La persona se ha excluido con éxito desde la página de la organización."@es ;
+        skos:prefLabel   "The person has been successfully excluded from the organization page."@en-US ;
+        skos:prefLabel   "Данное лицо было успешно удалено со страницы организации."@ru-RU ;
+        skos:prefLabel   "The person has been successfully excluded from the organization page."@en-CA ;
+        skos:prefLabel   "Osoba je uspešno uklonjena sa stranice organizacije."@sr-Latn-RS ;
+        skos:prefLabel   "A pessoa foi excluído com sucesso a partir da página da organização."@pt-BR .
+
+prop-data:person_successfully_excluded.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "person_successfully_excluded.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The person has been successfully excluded from the organization page."@all .
+
+prop-data:person_successfully_excluded
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "person_successfully_excluded" .

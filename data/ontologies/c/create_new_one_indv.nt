@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_new_one.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Crea uno nuevo"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create a new one"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create a new one"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Criar um novo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Créer une nouvelle"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kreirajte novu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "neu erstellen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Создайте новый"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "create_new_one.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create a new one"@all .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_one> <http://www.w3.org/2000/01/rdf-schema#label> "create_new_one" .

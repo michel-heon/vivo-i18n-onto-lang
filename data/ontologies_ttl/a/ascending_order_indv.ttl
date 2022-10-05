@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:ascending_order.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "ascending_order.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "в порядке возрастания"@ru-RU ;
+        skos:prefLabel   "aufsteigend"@de-DE ;
+        skos:prefLabel   "ascending order"@en-CA ;
+        skos:prefLabel   "ascending order"@en-US ;
+        skos:prefLabel   "uzlazni redosled"@sr-Latn-RS ;
+        skos:prefLabel   "tri ascendant"@fr-CA ;
+        skos:prefLabel   "ordem crescente"@pt-BR ;
+        skos:prefLabel   "Orden ascendente"@es .
+
+prop-data:ascending_order
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "ascending_order" .

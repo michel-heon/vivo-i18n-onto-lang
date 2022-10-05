@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "vis_caching_process.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "O que está envolvido no processo de armazenamento em cache?"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Qu'est-ce qui est impliqué dans le processus de mise en cache ?"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Was beinhaltet der Vorgang zur Zwischenspeicherung?"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "What's involved in the caching process?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "What's involved in the caching process?"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "¿Qué implica el proceso de almacenamiento en caché?"@es .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Šta je sve uključeno u proces keširanja?"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Что кэшируется?"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "vis_caching_process.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "What's involved in the caching process?"@all .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vis_caching_process> <http://www.w3.org/2000/01/rdf-schema#label> "vis_caching_process" .

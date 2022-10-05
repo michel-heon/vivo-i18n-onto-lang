@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:supply_sparql_query.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "supply_sparql_query.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Vous devez fournir une requête SPARQL."@fr-CA ;
+        skos:prefLabel   "Você deve fornecer uma consulta SPARQL."@pt-BR ;
+        skos:prefLabel   "Debe proporcionar una consulta SPARQL."@es ;
+        skos:prefLabel   "Следует задать запрос Sparql."@ru-RU ;
+        skos:prefLabel   "Sie müssen eine Sparql-Anfrage angeben."@de-DE ;
+        skos:prefLabel   "You must supply a Sparql query."@en-CA ;
+        skos:prefLabel   "You must supply a Sparql query."@en-US ;
+        skos:prefLabel   "Morate uneti Sparql upit."@sr-Latn-RS .
+
+prop-data:supply_sparql_query
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "supply_sparql_query" .

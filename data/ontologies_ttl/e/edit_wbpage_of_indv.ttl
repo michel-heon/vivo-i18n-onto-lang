@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:edit_wbpage_of.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_wbpage_of.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Ažurirajte veb stranicu"@sr-Latn-RS ;
+        skos:prefLabel   "Edit webpage of"@en-CA ;
+        skos:prefLabel   "Edit webpage of"@en-US ;
+        skos:prefLabel   "Editar página de"@es ;
+        skos:prefLabel   "Editar página de"@pt-BR ;
+        skos:prefLabel   "Webseite bearbeiten von"@de-DE ;
+        skos:prefLabel   "Редактировать веб-страницу"@ru-RU ;
+        skos:prefLabel   "Éditer la page web de"@fr-CA .
+
+prop-data:edit_wbpage_of.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_wbpage_of.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Edit webpage of"@all .
+
+prop-data:edit_wbpage_of
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "edit_wbpage_of" .

@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "enter_fixed_html_here.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enter fixed HTML here"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enter fixed HTML here"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Entre fixo HTML aqui"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geben Sie hier fixes HTML ein"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingrese código HTML fijo"@es .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ovde unesite fiksan HTML"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saisir le HTML fixe ici"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Здесь можно ввести статический HTML-код"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_fixed_html_here> <http://www.w3.org/2000/01/rdf-schema#label> "enter_fixed_html_here" .

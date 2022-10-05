@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "dept_or_school_name.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Departamento o nombre de la escuela dentro del"@es .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Departamento ou nome da escola dentro do"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Departman ili naziv škole u okviru"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Department or School Name within the"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Department or School Name within the"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Name des Fachbereichs oder der Schule innerhalb"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nom du département ou de l'école dans"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Название факультета или учебного заведения в пределах"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "dept_or_school_name.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Department or School Name within the"@all .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#dept_or_school_name> <http://www.w3.org/2000/01/rdf-schema#label> "dept_or_school_name" .

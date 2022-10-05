@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_content_create_groups_classes
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "no_content_create_groups_classes" .
+
+prop-data:no_content_create_groups_classes.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no_content_create_groups_classes.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Il n'y a actuellement aucun contenu dans le système, ou vous devez créer des groupes de classes et leur affecter vos classes."@fr-CA ;
+        skos:prefLabel   "В системе пока не найдено содержимое или необходимо создать группу классов и назначить ей классы."@ru-RU ;
+        skos:prefLabel   "Atualmente não existe nenhum conteúdo no sistema, logo você precisa criar alguns grupos de classe e atribuir suas classes para elas."@pt-BR ;
+        skos:prefLabel   "There is currently no content in the system, or you need to create class groups and assign your classes to them."@en-CA ;
+        skos:prefLabel   "There is currently no content in the system, or you need to create class groups and assign your classes to them."@en-US ;
+        skos:prefLabel   "Es gibt derzeit keine Inhalte im System oder Sie müssen Klassengruppen erstellen und Ihre Klassen zu ihnen zuweisen."@de-DE ;
+        skos:prefLabel   "Actualmente no hay contenido en el sistema, se necesita crear grupos de clase y asignar sus clases a ellos."@es ;
+        skos:prefLabel   "Trenutno nema sadržaja u sistemu, ili treba da kreirate grupu klasa i pridružite joj Vaše klase."@sr-Latn-RS .

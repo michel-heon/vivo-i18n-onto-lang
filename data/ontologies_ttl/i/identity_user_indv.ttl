@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:identity_user.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "identity_user.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "korisnik"@sr-Latn-RS ;
+        skos:prefLabel   "utilisateur(-trice)"@fr-CA ;
+        skos:prefLabel   "user"@en-CA ;
+        skos:prefLabel   "user"@en-US ;
+        skos:prefLabel   "Usuário"@pt-BR ;
+        skos:prefLabel   "BenutzerIn"@de-DE ;
+        skos:prefLabel   "usuario"@es ;
+        skos:prefLabel   "пользователь"@ru-RU .
+
+prop-data:identity_user.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "identity_user.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "utilisateur(trice)"@fr-CA ;
+        skos:prefLabel   "usuario"@es ;
+        skos:prefLabel   "пользователь"@ru-RU ;
+        skos:prefLabel   "korisnik"@sr-Latn-RS ;
+        skos:prefLabel   "BenutzerIn"@de-DE ;
+        skos:prefLabel   "Usuário"@pt-BR ;
+        skos:prefLabel   "user"@en-CA ;
+        skos:prefLabel   "user"@en-US .
+
+prop-data:identity_user
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "identity_user" .
+
+prop-data:identity_user.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "identity_user.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "user"@all .

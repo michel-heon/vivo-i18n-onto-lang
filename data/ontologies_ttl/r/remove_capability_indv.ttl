@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:remove_capability
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "remove_capability" .
+
+prop-data:remove_capability.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "remove_capability.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "uklonite sposobnost"@sr-Latn-RS ;
+        skos:prefLabel   "Retirer du graphe"@fr-CA ;
+        skos:prefLabel   "Entferne Begriff"@de-DE ;
+        skos:prefLabel   "Eliminar capacidad"@es ;
+        skos:prefLabel   "Remova capacidade"@pt-BR ;
+        skos:prefLabel   "Убрать компетенцию"@ru-RU ;
+        skos:prefLabel   "Remove capability"@en-CA ;
+        skos:prefLabel   "Remove capability"@en-US .

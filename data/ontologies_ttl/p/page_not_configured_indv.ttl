@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:page_not_configured.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_not_configured.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "This page is not yet configured."@en-CA ;
+        skos:prefLabel   "This page is not yet configured."@en-US ;
+        skos:prefLabel   "Esta página ainda não está configurada."@pt-BR ;
+        skos:prefLabel   "Esta página aún no está configurada."@es ;
+        skos:prefLabel   "Diese Seite ist noch nicht konfiguriert."@de-DE ;
+        skos:prefLabel   "Cette page n'est pas encore configurée."@fr-CA ;
+        skos:prefLabel   "Эта страница еще не настроена."@ru-RU ;
+        skos:prefLabel   "Ova stranica još nije konfigurisana."@sr-Latn-RS .
+
+prop-data:page_not_configured
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "page_not_configured" .

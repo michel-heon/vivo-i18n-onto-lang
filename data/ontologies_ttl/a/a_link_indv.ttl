@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:a_link  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "a_link" .
+
+prop-data:a_link.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "a_link.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "a link"@en-US ;
+        skos:prefLabel   "link"@sr-Latn-RS ;
+        skos:prefLabel   "a link"@en-CA ;
+        skos:prefLabel   "un lien"@fr-CA ;
+        skos:prefLabel   "um link"@pt-BR ;
+        skos:prefLabel   "ссылка"@ru-RU ;
+        skos:prefLabel   "ein Link"@de-DE ;
+        skos:prefLabel   "un enlace"@es .

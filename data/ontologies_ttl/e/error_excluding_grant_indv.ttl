@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_excluding_grant.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_grant.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Error al procesar la petición: el artículo no puede ser excluido de la página de perfil."@es ;
+        skos:prefLabel   "Fehler bei der Bearbeitung des Auftrags: der Eintrag kann nicht von der Profilseite ausgeschlossen werden."@de-DE ;
+        skos:prefLabel   "solicitação de processamento de erro: o item não pode ser excluída da página de perfil."@pt-BR ;
+        skos:prefLabel   "Greška pri obradi zahteva: stavka ne može biti uklonjean sa profilne stranice."@sr-Latn-RS ;
+        skos:prefLabel   "Error processing request: the item cannot be excluded from the profile page."@en-CA ;
+        skos:prefLabel   "Error processing request: the item cannot be excluded from the profile page."@en-US ;
+        skos:prefLabel   "Ошибка обработки запроса: элемент не может быть удалён со страницы профиля."@ru-RU ;
+        skos:prefLabel   "Erreur lors du traitement de la demande: la subvention ne peut être exclue de la page de profil."@fr-CA .
+
+prop-data:error_excluding_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_grant.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Error processing request: the item cannot be excluded from the profile page."@all .
+
+prop-data:error_excluding_grant
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "error_excluding_grant" .

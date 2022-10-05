@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "change_entry_for.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Altere a entrada para:"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cambiar entrada para:"@es .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Change entry for:"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Change entry for:"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eintrag ändern für:"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modifier l'enregistrement pour:"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Promenite unos za:"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#change_entry_for.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Изменить запись для:"@ru-RU .

@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:alt_error_alert
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "alt_error_alert" .
+
+prop-data:alt_error_alert.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "alt_error_alert.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Warnsymbol Fehler"@de-DE ;
+        skos:prefLabel   "Error alert icon"@en-CA ;
+        skos:prefLabel   "Icône d'alerte"@fr-CA ;
+        skos:prefLabel   "Error alert icon"@en-US ;
+        skos:prefLabel   "Значок оповещения об ошибке"@ru-RU ;
+        skos:prefLabel   "Icono de alerta de error"@es ;
+        skos:prefLabel   "Ícone de alerta de Erro"@pt-BR ;
+        skos:prefLabel   "Ikonica za upozorenje o grešci"@sr-Latn-RS .

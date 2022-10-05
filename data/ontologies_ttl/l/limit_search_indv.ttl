@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:limit_search.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "limit_search.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "ограничить область поиска"@ru-RU ;
+        skos:prefLabel   "Suche einschränken"@de-DE ;
+        skos:prefLabel   "busca limite"@pt-BR ;
+        skos:prefLabel   "ograničite pretragu"@sr-Latn-RS ;
+        skos:prefLabel   "Filtrer la recherche"@fr-CA ;
+        skos:prefLabel   "limit search"@en-CA ;
+        skos:prefLabel   "limit search"@en-US ;
+        skos:prefLabel   "limitar la búsqueda"@es .
+
+prop-data:limit_search.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "limit_search.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "limit search"@all .
+
+prop-data:limit_search.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "limit_search.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "limitar la búsqueda"@es ;
+        skos:prefLabel   "limit search"@en-CA ;
+        skos:prefLabel   "limit search"@en-US ;
+        skos:prefLabel   "Filtrer la recherche"@fr-CA ;
+        skos:prefLabel   "ограничить область поиска"@ru-RU ;
+        skos:prefLabel   "Suche einschränken"@de-DE ;
+        skos:prefLabel   "busca limite"@pt-BR ;
+        skos:prefLabel   "ograničite pretragu"@sr-Latn-RS .
+
+prop-data:limit_search
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "limit_search" .

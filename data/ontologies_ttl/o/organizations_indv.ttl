@@ -1,0 +1,108 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:organization_hierarchy_note.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "organization_hierarchy_note.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-CA ;
+        skos:prefLabel   "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-US .
+
+prop-data:compare_organizations.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "compare_organizations.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Compare organizations"@all .
+
+prop-data:entity_comp_error_text1.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "entity_comp_error_text1.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "This organization has neither sub-organizations nor people with"@all .
+
+prop-data:organizations
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "organizations" .
+
+prop-data:vis_tools_note_two.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_two.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-CA ;
+        skos:prefLabel   "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-US .
+
+prop-data:compare_organizations.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "compare_organizations.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Compare organizations"@en-CA ;
+        skos:prefLabel   "Compare organizations"@en-US .
+
+prop-data:organizations.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "organizations.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "organizações"@pt-BR ;
+        skos:prefLabel   "organisations"@fr-CA ;
+        skos:prefLabel   "organizacije"@sr-Latn-RS ;
+        skos:prefLabel   "организации"@ru-RU ;
+        skos:prefLabel   "organizations"@en-CA ;
+        skos:prefLabel   "organizations"@en-US ;
+        skos:prefLabel   "Organisationen"@de-DE ;
+        skos:prefLabel   "organizaciones"@es .
+
+prop-data:entity_comp_error_text1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "entity_comp_error_text1.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "This organization has neither sub-organizations nor people with"@en-CA ;
+        skos:prefLabel   "This organization has neither sub-organizations nor people with"@en-US .
+
+prop-data:vis_tools_note_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vis_tools_note_two.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@all .
+
+prop-data:organization_hierarchy_note.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "organization_hierarchy_note.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@all .
+
+prop-data:organizations.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "organizations.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "organizations"@all .

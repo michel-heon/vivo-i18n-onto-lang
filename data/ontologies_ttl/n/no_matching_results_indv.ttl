@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_matching_results.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no_matching_results.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Aucun résultat."@fr-CA ;
+        skos:prefLabel   "Не найдено подходящих результатов."@ru-RU ;
+        skos:prefLabel   "No matching results."@en-CA ;
+        skos:prefLabel   "No matching results."@en-US ;
+        skos:prefLabel   "No hay resultados que coincidan."@es ;
+        skos:prefLabel   "Keine Ergebnisse gefunden."@de-DE ;
+        skos:prefLabel   "Nenhum resultado de acordo."@pt-BR ;
+        skos:prefLabel   "Nema rezultata koji se podudaraju."@sr-Latn-RS .

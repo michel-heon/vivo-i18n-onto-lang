@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:co_author_icon
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "co_author_icon" .
+
+prop-data:co_author_icon.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "co_author_icon.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "co-author icon"@all .
+
+prop-data:co_author_icon.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "co_author_icon.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "icône de coauteur(e)"@fr-CA ;
+        skos:prefLabel   "значок соавтора"@ru-RU ;
+        skos:prefLabel   "icon = co-autor"@pt-BR ;
+        skos:prefLabel   "ikonica ko-autora"@sr-Latn-RS ;
+        skos:prefLabel   "icono de coautor"@es ;
+        skos:prefLabel   "KoautorIn-Icon"@de-DE ;
+        skos:prefLabel   "co-author icon"@en-US ;
+        skos:prefLabel   "co-author icon"@en-CA .

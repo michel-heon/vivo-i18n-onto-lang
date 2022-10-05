@@ -1,0 +1,150 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:confirm_delete_account_plural.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_delete_account_plural.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Are you sure you want to delete these accounts?"@en-CA ;
+        skos:prefLabel   "Are you sure you want to delete these accounts?"@en-US .
+
+prop-data:confirm_delete.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_delete.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Are you sure you want to delete this photo?"@en-CA ;
+        skos:prefLabel   "Are you sure you want to delete this photo?"@en-US .
+
+prop-data:manage_labels_intro.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_labels_intro.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US .
+
+prop-data:delete_webpage_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "delete_webpage_link.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "delete web page link"@all .
+
+prop-data:delete_entry.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "delete_entry.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "delete this entry"@en-CA ;
+        skos:prefLabel   "delete this entry"@en-US .
+
+prop-data:delete  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "delete" .
+
+prop-data:delete_webpage_link.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "delete_webpage_link.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "delete web page link"@en-CA ;
+        skos:prefLabel   "delete web page link"@en-US .
+
+prop-data:confirm_delete_account_singular.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_delete_account_singular.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Are you sure you want to delete this account?"@en-CA ;
+        skos:prefLabel   "Are you sure you want to delete this account?"@en-US .
+
+prop-data:file_upload_confirm_delete.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "file_upload_confirm_delete.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Are you sure you want to delete this file?"@en-US .
+
+prop-data:select_account_to_delete.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_account_to_delete.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "select this account to delete it"@en-CA ;
+        skos:prefLabel   "select this account to delete it"@en-US .
+
+prop-data:file_upload_error_supported_actions.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "file_upload_error_supported_actions.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Only delete and upload actions supported"@en-US .
+
+prop-data:delete_page.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "delete_page.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "delete this page"@en-CA ;
+        skos:prefLabel   "delete this page"@en-US .
+
+prop-data:delete.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "delete.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "удалить"@ru-RU ;
+        skos:prefLabel   "excluir"@pt-BR ;
+        skos:prefLabel   "delete"@en-CA ;
+        skos:prefLabel   "delete"@en-US ;
+        skos:prefLabel   "supprimer"@fr-CA ;
+        skos:prefLabel   "obrišite"@sr-Latn-RS ;
+        skos:prefLabel   "borrar"@es ;
+        skos:prefLabel   "Löschen"@de-DE .
+
+prop-data:confirm_entry_deletion_from.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_entry_deletion_from.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Are you sure you want to delete the following entry from"@en-CA ;
+        skos:prefLabel   "Are you sure you want to delete the following entry from"@en-US .
+
+prop-data:confirm_page_deletion.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_page_deletion.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Are you sure you wish to delete this page:"@en-CA ;
+        skos:prefLabel   "Are you sure you wish to delete this page:"@en-US .
+
+prop-data:confirm_individual_deletion.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_individual_deletion.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Are you sure you want to delete the following individual?"@en-CA ;
+        skos:prefLabel   "Are you sure you want to delete the following individual?"@en-US .

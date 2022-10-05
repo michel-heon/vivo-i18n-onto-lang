@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "login_count.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Broj prijava"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuenta de acceso"@es .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login count"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login count"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login-Zähler"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nbre de connexions"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantidade de Entrantes"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#login_count.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Количество входов в систему"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#login_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#login_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#login_count> <http://www.w3.org/2000/01/rdf-schema#label> "login_count" .

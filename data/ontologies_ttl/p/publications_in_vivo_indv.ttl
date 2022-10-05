@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:publications_in_vivo
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "publications_in_vivo" .
+
+prop-data:publications_in_vivo.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "publications_in_vivo.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Publicaciones en VIVO"@es ;
+        skos:prefLabel   "Publikacije unutar VIVO-a"@sr-Latn-RS ;
+        skos:prefLabel   "Publications dans VIVO"@fr-CA ;
+        skos:prefLabel   "Publikationen in VIVO"@de-DE ;
+        skos:prefLabel   "Публикации в VIVO"@ru-RU ;
+        skos:prefLabel   "Publications in VIVO"@en-CA ;
+        skos:prefLabel   "Publications in VIVO"@en-US ;
+        skos:prefLabel   "Publicações em VIVO"@pt-BR .
+
+prop-data:publications_in_vivo.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publications_in_vivo.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Publications in VIVO"@all .

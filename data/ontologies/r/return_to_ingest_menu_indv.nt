@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "return_to_ingest_menu.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Povratak na meni sa alatima za učitavanje podataka"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Return to the Data Ingest Tools menu"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Return to the Data Ingest Tools menu"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Revenir au menu des outils de moissonnage de données"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Voltar para menu de Ferramentas de Inserção de Dados"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Volver al menu Herramienta de Procesamiento de Datos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zurück zum Data Ingest Tools-Menü"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Возврат к меню Инструменты ввода данных"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "return_to_ingest_menu.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Return to the Data Ingest Tools menu"@all .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_ingest_menu> <http://www.w3.org/2000/01/rdf-schema#label> "return_to_ingest_menu" .

@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:indiv_foafperson_return.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "indiv_foafperson_return.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "revenir à"@fr-CA ;
+        skos:prefLabel   "vratite se na"@sr-Latn-RS ;
+        skos:prefLabel   "Zurück"@de-DE ;
+        skos:prefLabel   "return to"@en-US ;
+        skos:prefLabel   "return to"@en-CA ;
+        skos:prefLabel   "вернуться к"@ru-RU ;
+        skos:prefLabel   "volver a"@es ;
+        skos:prefLabel   "retorno à"@pt-BR .
+
+prop-data:indiv_foafperson_return
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "indiv_foafperson_return" .
+
+prop-data:indiv_foafperson_return.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "indiv_foafperson_return.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "volver a"@es ;
+        skos:prefLabel   "retourner à"@fr-CA ;
+        skos:prefLabel   "vratite se na"@sr-Latn-RS ;
+        skos:prefLabel   "Zurück"@de-DE ;
+        skos:prefLabel   "return to"@en-US ;
+        skos:prefLabel   "return to"@en-CA ;
+        skos:prefLabel   "вернуться к"@ru-RU ;
+        skos:prefLabel   "retorno à"@pt-BR .
+
+prop-data:indiv_foafperson_return.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "indiv_foafperson_return.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "return to"@all .

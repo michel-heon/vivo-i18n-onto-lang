@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:verify_this_match_title
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "verify_this_match_title" .
+
+prop-data:verify_this_match_title.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "verify_this_match_title.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Diesen Treffer verifizieren"@de-DE ;
+        skos:prefLabel   "проверить это соответствие"@ru-RU ;
+        skos:prefLabel   "vérifier cette correspondance"@fr-CA ;
+        skos:prefLabel   "verificar esta combinação"@pt-BR ;
+        skos:prefLabel   "Verificar esta operación"@es ;
+        skos:prefLabel   "proverite podudaranje"@sr-Latn-RS ;
+        skos:prefLabel   "verify this match"@en-CA ;
+        skos:prefLabel   "verify this match"@en-US .

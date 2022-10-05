@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "script_executed.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Le script s'exécute"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Script a ser executado"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Script being executed"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Script being executed"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Script being executed"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Script ejecutado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skripta se izvršava"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Выполняющийся сценарий"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "script_executed.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Script being executed"@all .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#script_executed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#script_executed> <http://www.w3.org/2000/01/rdf-schema#label> "script_executed" .

@@ -1,0 +1,51 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_item.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "menu_item.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Menüpunkt"@de-DE ;
+        skos:prefLabel   "пункт меню"@ru-RU ;
+        skos:prefLabel   "menu item"@en-CA ;
+        skos:prefLabel   "menu item"@en-US ;
+        skos:prefLabel   "elemento de menú"@es ;
+        skos:prefLabel   "Stavka menija"@sr-Latn-RS ;
+        skos:prefLabel   "item do menu"@pt-BR ;
+        skos:prefLabel   "élément de menu"@fr-CA .
+
+prop-data:menu_item.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "menu_item.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "item de menu"@pt-BR ;
+        skos:prefLabel   "menu item"@en-CA ;
+        skos:prefLabel   "menu item"@en-US ;
+        skos:prefLabel   "elemento de menú"@es ;
+        skos:prefLabel   "пункт меню"@ru-RU ;
+        skos:prefLabel   "Menüpunkt"@de-DE ;
+        skos:prefLabel   "élément de menu"@fr-CA ;
+        skos:prefLabel   "stavka menija"@sr-Latn-RS .
+
+prop-data:menu_item  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "menu_item" .
+
+prop-data:menu_item.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_item.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "menu item"@all .

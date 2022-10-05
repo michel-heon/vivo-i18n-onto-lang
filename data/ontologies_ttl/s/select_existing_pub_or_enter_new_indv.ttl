@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_existing_pub_or_enter_new.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "select_existing_pub_or_enter_new.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Por favor seleccione una publicación existente en el campo Título o introduzca uno nuevo."@es ;
+        skos:prefLabel   "Choisir une publication existante ou en saisir une nouvelle dans le champ Titre."@fr-CA ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@en-CA ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@en-US ;
+        skos:prefLabel   "Пожалуйста, выберите существующую публикацию в поле Название или введите новую."@ru-RU ;
+        skos:prefLabel   "Selecione uma publicação existente no campo Título ou digite um novo."@pt-BR ;
+        skos:prefLabel   "Bitte im Feld Titel eine bestehende Publikation auswählen oder eine neue eintragen."@de-DE ;
+        skos:prefLabel   "Molimo Vas da odaberete postojeću publikaciju u polju za Naslov ili unesite novu."@sr-Latn-RS .
+
+prop-data:select_existing_pub_or_enter_new
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "select_existing_pub_or_enter_new" .
+
+prop-data:select_existing_pub_or_enter_new.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_existing_pub_or_enter_new.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@all .

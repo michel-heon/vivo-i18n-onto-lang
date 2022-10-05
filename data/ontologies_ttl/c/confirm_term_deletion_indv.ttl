@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:confirm_term_deletion.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_term_deletion.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Are you sure you want to remove this term?"@all .
+
+prop-data:confirm_term_deletion
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "confirm_term_deletion" .
+
+prop-data:confirm_term_deletion.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "confirm_term_deletion.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Da li ste sigurni da želite da uklonite ovaj izraz?"@sr-Latn-RS ;
+        skos:prefLabel   "Êtes-vous certain de vouloir retirer ce terme?"@fr-CA ;
+        skos:prefLabel   "Вы уверены, что хотите удалить этот термин?"@ru-RU ;
+        skos:prefLabel   "Tem certeza de que deseja remover este termo?"@pt-BR ;
+        skos:prefLabel   "Soll dieser Begriff wirklich gelöscht werden?"@de-DE ;
+        skos:prefLabel   "¿Está seguro que desea eliminar este término?"@es ;
+        skos:prefLabel   "Are you sure you want to remove this term?"@en-CA ;
+        skos:prefLabel   "Are you sure you want to remove this term?"@en-US .

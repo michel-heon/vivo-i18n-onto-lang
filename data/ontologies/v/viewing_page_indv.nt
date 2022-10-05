@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "viewing_page.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Likely viewing page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Likely viewing page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Page d'aperçu probable"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Página de verificación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verovatno pregledana stranica"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wahrscheinlich betrachtete Seite"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "página de visualização Likely"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Вероятная просматриваемая страница"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#viewing_page> <http://www.w3.org/2000/01/rdf-schema#label> "viewing_page" .

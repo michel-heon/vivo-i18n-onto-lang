@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:restrict_logins
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "restrict_logins" .
+
+prop-data:restrict_logins.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "restrict_logins.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Ограничить вход в систему"@ru-RU ;
+        skos:prefLabel   "Restreindre l'accès"@fr-CA ;
+        skos:prefLabel   "Logins einschränken"@de-DE ;
+        skos:prefLabel   "Restringir inicios de sesión"@es ;
+        skos:prefLabel   "Restringir Logins"@pt-BR ;
+        skos:prefLabel   "Restrict Logins"@en-CA ;
+        skos:prefLabel   "Restrict Logins"@en-US ;
+        skos:prefLabel   "Ograničite prijavljivanje"@sr-Latn-RS .

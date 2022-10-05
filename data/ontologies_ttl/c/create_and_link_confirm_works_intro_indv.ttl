@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_confirm_works_intro
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "create_and_link_confirm_works_intro" .
+
+prop-data:create_and_link_confirm_works_intro.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "create_and_link_confirm_works_intro.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Por favor compruebe las obras que desea reclamar e indique su relación con ellas."@es ;
+        skos:prefLabel   "Пожалуйста, проверьте, что это именно те работы, права на которые вы хотите заявить, и укажите ваше отношение к ним."@ru-RU ;
+        skos:prefLabel   "Verifique se essas são as obras que você deseja reivindicar, e indique seu relacionamento com eles."@pt-BR ;
+        skos:prefLabel   "Molimo Vas proverite da li su ovo radovi na koje želite da položite autorska prava, i naznačite koji je Vaš udeo u kreiranju datih radova."@sr-Latn-RS ;
+        skos:prefLabel   "Vérifier que ces publications sont bien celles que vous souhaitez revendiquer et indiquer le rôle que vous y avez exercé."@fr-CA ;
+        skos:prefLabel   "Please check that these are the work(s) that you wish to claim, and indicate your relationship with them."@en-CA ;
+        skos:prefLabel   "Please check that these are the work(s) that you wish to claim, and indicate your relationship with them."@en-US ;
+        skos:prefLabel   "Bitte überprüfen Sie, ob dies die Veröffentlichungen sind, die Sie importieren wollen und geben Sie Ihre Beziehung zu dieser Veröffentlichung an."@de-DE .

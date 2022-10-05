@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "no_matching_entities_found.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aucune entité correspondante retrouvée"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keine übereinstimmenden Entitäten gefunden"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nenhum entidades correspondentes foram encontrados"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nisu pronađeni podudarajući entiteti"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No matching entities found"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No matching entities found"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "No se han encontrado entidades similares"@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Соответствующих сущностей не найдено"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "no_matching_entities_found.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "No matching entities found"@all .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_matching_entities_found> <http://www.w3.org/2000/01/rdf-schema#label> "no_matching_entities_found" .

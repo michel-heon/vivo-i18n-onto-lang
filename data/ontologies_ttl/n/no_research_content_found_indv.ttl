@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_research_content_found
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "no_research_content_found" .
+
+prop-data:no_research_content_found.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_research_content_found.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "No research content found."@all .
+
+prop-data:no_research_content_found.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_research_content_found.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "No research content found."@en-CA ;
+        skos:prefLabel   "No research content found."@en-US ;
+        skos:prefLabel   "Sadržaj za istraživačke radove nije pronađen."@sr-Latn-RS ;
+        skos:prefLabel   "No se encontró contenido de investigación."@es ;
+        skos:prefLabel   "Aucune recherche trouvée."@fr-CA ;
+        skos:prefLabel   "Kein Forschungsinhalt gefunden."@de-DE ;
+        skos:prefLabel   "Информация об исследованиях не найдена."@ru-RU ;
+        skos:prefLabel   "Nenhum conteúdo encontrado."@pt-BR .

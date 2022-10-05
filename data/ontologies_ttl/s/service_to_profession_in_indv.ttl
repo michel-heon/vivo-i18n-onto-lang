@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:service_to_profession_in
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "service_to_profession_in" .
+
+prop-data:service_to_profession_in.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "service_to_profession_in.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "service to the profession in"@en-CA ;
+        skos:prefLabel   "service to the profession in"@en-US ;
+        skos:prefLabel   "služenje struci u"@sr-Latn-RS ;
+        skos:prefLabel   "servicio a la profesión en"@es ;
+        skos:prefLabel   "работа по специальности в"@ru-RU ;
+        skos:prefLabel   "serviço à profissões em"@pt-BR ;
+        skos:prefLabel   "den Beruf unterstützende Dienstleistung in"@de-DE ;
+        skos:prefLabel   "service à la profession dans"@fr-CA .
+
+prop-data:service_to_profession_in.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "service_to_profession_in.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "service to the profession in"@all .

@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:match_by  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "match_by" .
+
+prop-data:match_by.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "match_by.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Povežite po {0}"@sr-Latn-RS ;
+        skos:prefLabel   "совпадает с {0}"@ru-RU ;
+        skos:prefLabel   "coincidir por {0}"@es ;
+        skos:prefLabel   "Gefunden in {0}"@de-DE ;
+        skos:prefLabel   "apparié par {0}"@fr-CA ;
+        skos:prefLabel   "match by {0}"@en-CA ;
+        skos:prefLabel   "match by {0}"@en-US ;
+        skos:prefLabel   "partida por {0}"@pt-BR .

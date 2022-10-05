@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:last_ten_full_years.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "last_ten_full_years.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "au cours des 10 dernières années complètes"@fr-CA ;
+        skos:prefLabel   "nos últimos 10 anos completos"@pt-BR ;
+        skos:prefLabel   "u poslednjih 10 kalendarskih godina"@sr-Latn-RS ;
+        skos:prefLabel   "за последние 10 полных лет"@ru-RU ;
+        skos:prefLabel   "in the last 10 full years"@en-CA ;
+        skos:prefLabel   "in the last 10 full years"@en-US ;
+        skos:prefLabel   "in den letzten 10 vollen Jahren"@de-DE ;
+        skos:prefLabel   "en los últimos 10 años"@es .
+
+prop-data:last_ten_full_years
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "last_ten_full_years" .
+
+prop-data:last_ten_full_years.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_ten_full_years.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "in the last 10 full years"@all .

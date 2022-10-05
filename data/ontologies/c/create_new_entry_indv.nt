@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "create_new_entry.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bitte einen neuen Eintrag erstellen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molimo Vas kreirajte novu stavku."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please create a new entry."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please create a new entry."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Por favor, cree una nueva entrada."@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Por favor, crie uma nova entrada."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Veuillez créer un nouvel enregistrement."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Пожалуйста, создайте новую запись."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_entry> <http://www.w3.org/2000/01/rdf-schema#label> "create_new_entry" .

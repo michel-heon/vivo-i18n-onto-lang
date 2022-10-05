@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:last_publication.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "last_publication.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Última publicación"@es ;
+        skos:prefLabel   "Last publication"@en-CA ;
+        skos:prefLabel   "Last publication"@en-US ;
+        skos:prefLabel   "letzte Publikation"@de-DE ;
+        skos:prefLabel   "Poslednja publikacija"@sr-Latn-RS ;
+        skos:prefLabel   "Dernière publication"@fr-CA ;
+        skos:prefLabel   "Última Publicação"@pt-BR ;
+        skos:prefLabel   "Последняя публикация"@ru-RU .
+
+prop-data:last_publication.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "last_publication.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Dernière publication"@fr-CA ;
+        skos:prefLabel   "Última publicación"@es ;
+        skos:prefLabel   "Poslednji objavljen rad"@sr-Latn-RS ;
+        skos:prefLabel   "Last publication"@en-CA ;
+        skos:prefLabel   "Last publication"@en-US ;
+        skos:prefLabel   "Последняя публикация"@ru-RU ;
+        skos:prefLabel   "letzte Publikation"@de-DE ;
+        skos:prefLabel   "Última Publicação"@pt-BR .
+
+prop-data:last_publication.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_publication.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Last publication"@all .

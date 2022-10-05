@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selection_in_process.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "selection_in_process.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Идёт обработка выбранной вами информации."@ru-RU ;
+        skos:prefLabel   "Sua seleção começou a ser processado."@pt-BR ;
+        skos:prefLabel   "Vaš izbor se obrađuje."@sr-Latn-RS ;
+        skos:prefLabel   "Su solicitud se está procesando."@es ;
+        skos:prefLabel   "Votre sélection est en cours de traitement."@fr-CA ;
+        skos:prefLabel   "Your selection is being processed."@en-CA ;
+        skos:prefLabel   "Ihre Auswahl wird verarbeitet."@de-DE ;
+        skos:prefLabel   "Your selection is being processed."@en-US .

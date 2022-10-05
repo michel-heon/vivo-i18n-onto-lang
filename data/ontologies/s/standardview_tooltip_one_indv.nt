@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "standardview_tooltip_one.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Click to display the"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Click to display the"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clique para exibir a"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cliquer pour afficher"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Haga clic para mostrar el"@es .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hier klicken, um zur"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kliknite da prikažete"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Щёлкните для"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "standardview_tooltip_one.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Click to display the"@all .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#standardview_tooltip_one> <http://www.w3.org/2000/01/rdf-schema#label> "standardview_tooltip_one" .

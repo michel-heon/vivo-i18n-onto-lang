@@ -1,0 +1,38 @@
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_faculty.VIVO-languages.tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "gesamten Fachbereich anzeigen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "pogledajte svo osoblje"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "ver todos los profesores"@es .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "view all faculty"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "view all faculty"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "visualizar todos os docentes"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "voir toutes les facultés"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2004/02/skos/core#prefLabel> "показать все факультеты"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_faculty.VIVO-languages.wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "gesamten Fachbereich anzeigen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "pogledajte sve fakultete"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "ver todos los profesores"@es .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "view all faculty"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "view all faculty"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "visualizar todos os docentes"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "voir toutes les facultés"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.wilma> <http://www.w3.org/2004/02/skos/core#prefLabel> "показать все факультеты"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_faculty.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "view all faculty"@all .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty> <http://www.w3.org/2000/01/rdf-schema#label> "view_all_faculty" .

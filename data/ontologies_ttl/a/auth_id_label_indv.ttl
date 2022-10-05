@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:auth_id_label
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "auth_id_label" .
+
+prop-data:auth_id_label.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "auth_id_label.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Autentificação Externa de ID"@pt-BR ;
+        skos:prefLabel   "ID spoljne/eksterne autentifikacije"@sr-Latn-RS ;
+        skos:prefLabel   "ID d'authentification externe"@fr-CA ;
+        skos:prefLabel   "External Authentication ID"@en-CA ;
+        skos:prefLabel   "External Authentication ID"@en-US ;
+        skos:prefLabel   "Идентификатор внешней аутентификации"@ru-RU ;
+        skos:prefLabel   "ID de autenticación externa"@es ;
+        skos:prefLabel   "Externe Authentifizierungs-ID"@de-DE .

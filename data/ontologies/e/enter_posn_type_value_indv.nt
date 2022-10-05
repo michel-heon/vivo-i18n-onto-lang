@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "enter_posn_type_value.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bitte einen Wert im Feld Art der Position auswählen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molimo Vas odaberite vrednost za polje Tip Pozicije."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select a value in the Position Type field."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select a value in the Position Type field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Por favor seleccione un valor en el campo Tipo de Posición."@es .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "SVP, renseigner le champ Type de poste."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Selecione um valor no campo Tipo de posição."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Пожалуйста, выберите значение в поле „Название должности“."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "enter_posn_type_value.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Please select a value in the Position Type field."@all .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_posn_type_value> <http://www.w3.org/2000/01/rdf-schema#label> "enter_posn_type_value" .

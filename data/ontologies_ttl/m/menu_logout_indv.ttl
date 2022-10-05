@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_logout.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_logout.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Log out"@all .
+
+prop-data:menu_logout
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "menu_logout" .
+
+prop-data:menu_logout.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_logout.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Abmelden"@de-DE ;
+        skos:prefLabel   "Sair"@pt-BR ;
+        skos:prefLabel   "Odjavite se"@sr-Latn-RS ;
+        skos:prefLabel   "Выйти"@ru-RU ;
+        skos:prefLabel   "Finalizar sesión"@es ;
+        skos:prefLabel   "Log out"@en-CA ;
+        skos:prefLabel   "Log out"@en-US ;
+        skos:prefLabel   "Déconnexion"@fr-CA .
+
+prop-data:menu_logout.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_logout.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Sair"@pt-BR ;
+        skos:prefLabel   "Déconnexion"@fr-CA ;
+        skos:prefLabel   "Finalizar sesión"@es ;
+        skos:prefLabel   "Log out"@en-CA ;
+        skos:prefLabel   "Log out"@en-US ;
+        skos:prefLabel   "Abmelden"@de-DE ;
+        skos:prefLabel   "Выйти"@ru-RU ;
+        skos:prefLabel   "Izlogujte se"@sr-Latn-RS .

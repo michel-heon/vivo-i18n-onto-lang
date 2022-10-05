@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_complete.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_complete.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Harvesting abgeschlossen. Zum Wiederholen bitte die Seite aktualisieren."@de-DE ;
+        skos:prefLabel   "Harvest complete. For another, please refresh the page."@en-CA ;
+        skos:prefLabel   "Moissonnage complété. Pour un nouveau jeu de métadonnées, veuillez recharger la page."@fr-CA ;
+        skos:prefLabel   "Harvest complete. For another, please refresh the page."@en-US ;
+        skos:prefLabel   "Dados recebidos. Por outro lado, por favor, atualize a página."@pt-BR ;
+        skos:prefLabel   "Prikupljanje završeno. Za još jedno, molimo Vas da ponovo učitate stranicu."@sr-Latn-RS ;
+        skos:prefLabel   "Сбор данных завершен. Для повтора, пожалуйста, обновите страницу."@ru-RU ;
+        skos:prefLabel   "Cosecha completa. Para realizar otra, por favor, actualice la página."@es .
+
+prop-data:harvest_complete
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "harvest_complete" .
+
+prop-data:harvest_complete.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_complete.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Harvest complete. For another, please refresh the page."@all .

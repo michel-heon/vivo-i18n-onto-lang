@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "error_occurred.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "An error occurred on the VIVO site"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "An error occurred on the VIVO site"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Došlo je do greške na sajtu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Es ist ein Fehler auf der VIVO-Website aufgetreten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ocorreu um erro no site VIVO"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Se ha producido un error en el sitio VIVO"@es .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Une erreur s'est produite sur le site VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "На сайте VIVO произошла ошибка"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_occurred> <http://www.w3.org/2000/01/rdf-schema#label> "error_occurred" .

@@ -23,7 +23,7 @@ function store_properties_files () {
     do
         PROPERTIES_FN="$PRODUCTS,$(echo $PROPERTIES_URL | sed 's/\.\///g' |tr -s '/' ',')"
         echo $PROPERTIES_URL $PROPERTIES_FN
-        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL > $PROPERTIES_DATA/$PROPERTIES_FN
+        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL  > $PROPERTIES_DATA/$PROPERTIES_FN
     done
 }
 

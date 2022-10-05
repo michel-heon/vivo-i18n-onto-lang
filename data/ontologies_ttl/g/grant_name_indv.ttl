@@ -1,0 +1,35 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:grant_name.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "grant_name.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Name des Forschungsprojektes"@de-DE ;
+        skos:prefLabel   "Naziv granta"@sr-Latn-RS ;
+        skos:prefLabel   "Otorgar Nombre"@es ;
+        skos:prefLabel   "Nom de la subvention"@fr-CA ;
+        skos:prefLabel   "Название гранта"@ru-RU ;
+        skos:prefLabel   "Grant Name"@en-CA ;
+        skos:prefLabel   "Grant Name"@en-US ;
+        skos:prefLabel   "Nome da Bolsas"@pt-BR .
+
+prop-data:grant_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant_name.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Grant Name"@all .
+
+prop-data:grant_name  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "grant_name" .

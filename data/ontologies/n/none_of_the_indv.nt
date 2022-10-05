@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "none_of_the.VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aucune des"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keine der"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ni jedan"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ninguno de los"@es .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "None do"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "None of the"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "None of the"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ни одна из"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "none_of_the.VIVO.nemo" .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO.nemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "None of the"@all .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the> <http://www.w3.org/2000/01/rdf-schema#label> "none_of_the" .

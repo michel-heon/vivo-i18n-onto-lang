@@ -1,0 +1,124 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_complete.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_complete.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Harvest complete. For another, please refresh the page."@en-CA ;
+        skos:prefLabel   "Harvest complete. For another, please refresh the page."@en-US .
+
+prop-data:harvest_complete.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "harvest_complete.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Harvest complete. For another, please refresh the page."@all .
+
+prop-data:create_and_link_authors_desc.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_authors_desc.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "If you are an author of a work, please select your name in the author list.<br />Retrieved metadata may be incomplete. If you can not see your name listed, select \"Unlisted Author\"."@en-CA ;
+        skos:prefLabel   "If you are an author of a work, please select your name in the author list.<br />Retrieved metadata may be incomplete. If you can not see your name listed, select \"Unlisted Author\"."@en-US .
+
+prop-data:manage_labels_intro.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage_labels_intro.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
+        skos:prefLabel   "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US .
+
+prop-data:define_value_for_property.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "define_value_for_property.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@all .
+
+prop-data:page_not_created_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "page_not_created_msg.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "There was an error while creating the page, please check the logs."@en-CA ;
+        skos:prefLabel   "There was an error while creating the page, please check the logs."@en-US .
+
+prop-data:please.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "please.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Por favor"@es ;
+        skos:prefLabel   "Por favor"@pt-BR ;
+        skos:prefLabel   "Molimo Vas"@sr-Latn-RS ;
+        skos:prefLabel   "Пожалуйста"@ru-RU ;
+        skos:prefLabel   "Bitte"@de-DE ;
+        skos:prefLabel   "S'il-vous-plaît"@fr-CA ;
+        skos:prefLabel   "Please"@en-CA ;
+        skos:prefLabel   "Please"@en-US .
+
+prop-data:define_value_for_property.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "define_value_for_property.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@en-CA ;
+        skos:prefLabel   "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@en-US .
+
+prop-data:create_and_link_editors_desc.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_editors_desc.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "If you edited the work, please select \"Editor\"."@en-CA ;
+        skos:prefLabel   "If you edited the work, please select \"Editor\"."@en-US .
+
+prop-data:insufficient_authorization.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "insufficient_authorization.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-CA ;
+        skos:prefLabel   "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-US .
+
+prop-data:please  rdf:type  owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "please" .
+
+prop-data:javascript_ie_alert_text.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "javascript_ie_alert_text.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-CA ;
+        skos:prefLabel   "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-US .
+
+prop-data:undefined_runtime_property.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "undefined_runtime_property.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Eigenschaft aus Laufzeit.Eigenschaften ist nicht definiert.In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@de-DE .

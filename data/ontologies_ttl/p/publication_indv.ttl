@@ -1,0 +1,375 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:publication
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "publication" .
+
+prop-data:create_and_link_not_mine_desc.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_not_mine_desc.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Si vous ne souhaitez pas revendiquer une publication, choisissez \"Cette publication n'est pas la mienne\"."@fr-CA .
+
+prop-data:error_excluding_publication.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_publication.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Erreur lors du traitement de la demande: la publication ne peut être retirée de la page de profil."@fr-CA ;
+        skos:prefLabel   "Error processing request: the publication cannot be excluded from the profile page."@en-CA ;
+        skos:prefLabel   "Error processing request: the publication cannot be excluded from the profile page."@en-US .
+
+prop-data:create_publication_date.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_publication_date.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Créer la date de publication"@fr-CA ;
+        skos:prefLabel   "Create publication date"@en-CA ;
+        skos:prefLabel   "Create publication date"@en-US .
+
+prop-data:publication_date_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_date_for.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "publication date for"@all .
+
+prop-data:return_to_publication.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_publication.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Return to publication"@en-CA ;
+        skos:prefLabel   "Return to publication"@en-US ;
+        skos:prefLabel   "Revenir à la publication"@fr-CA .
+
+prop-data:publication_date_for.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_date_for.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "date de publication pour"@fr-CA ;
+        skos:prefLabel   "publication date for"@en-CA ;
+        skos:prefLabel   "publication date for"@en-US .
+
+prop-data:last_publication.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_publication.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Dernière publication"@fr-CA ;
+        skos:prefLabel   "Last publication"@en-CA ;
+        skos:prefLabel   "Last publication"@en-US .
+
+prop-data:publication_attributed_to.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_attributed_to.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The publication attributed to this"@all .
+
+prop-data:first_publication.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_publication.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Première publication"@fr-CA ;
+        skos:prefLabel   "First publication"@en-CA ;
+        skos:prefLabel   "First publication"@en-US .
+
+prop-data:place_of_publication.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "place_of_publication.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Lieu de publication"@fr-CA .
+
+prop-data:create_and_link_finished.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_finished.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Aucune autre publication à revendiquer.<br />Vous pouvez ajouter des identifiants ci-après, ou revenir à votre profil."@fr-CA .
+
+prop-data:select_existing_pub_or_enter_new.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_existing_pub_or_enter_new.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@all .
+
+prop-data:last_publication.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_publication.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Last publication"@all .
+
+prop-data:publication.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "publication"@all .
+
+prop-data:publication_successfully_excluded.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_successfully_excluded.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "La publication a été retirée avec succès de la page de profil."@fr-CA ;
+        skos:prefLabel   "The publication will has been successfully excluded from the profile page."@en-CA ;
+        skos:prefLabel   "The publication will has been successfully excluded from the profile page."@en-US .
+
+prop-data:publication_type.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_type.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Type de publication"@fr-CA .
+
+prop-data:publication_date.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_date.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Date de publication"@fr-CA .
+
+prop-data:no_attributed_publications.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_attributed_publications.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Aucune publication dans le système n'a été attribuée à ce"@fr-CA .
+
+prop-data:select_existing_pub_or_enter_new.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "select_existing_pub_or_enter_new.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@en-CA ;
+        skos:prefLabel   "Please select an existing publication in the Title field or enter a new one."@en-US ;
+        skos:prefLabel   "Choisir une publication existante ou en saisir une nouvelle dans le champ Titre."@fr-CA .
+
+prop-data:error_excluding_publication.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "error_excluding_publication.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Error processing request: the publication cannot be excluded from the profile page."@all .
+
+prop-data:create_and_link_already_claimed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_already_claimed.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Vous avez déjà revendiqué cette publication."@fr-CA .
+
+prop-data:create_publication_date.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_publication_date.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Create publication date"@all .
+
+prop-data:create_and_link_authors_desc.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_authors_desc.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Si vous n'êtes l'auteur(e) d'une publication, sélectionnez votre nom dans la liste des auteur(e)s.<br />Les métadonnées repêchées peuvent être incomplètes. Si votre nom n'apparaît pas, sélectionnez \"Auteur(e) non listé(e)\"."@fr-CA .
+
+prop-data:publication_successfully_excluded.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_successfully_excluded.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "The publication will has been successfully excluded from the profile page."@all .
+
+prop-data:first_publication.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_publication.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "Première publication"@fr-CA ;
+        skos:prefLabel   "First publication"@en-CA ;
+        skos:prefLabel   "First publication"@en-US .
+
+prop-data:edit_publication_date.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_publication_date.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Edit publication date"@all .
+
+prop-data:return_to_publication.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "return_to_publication.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Return to publication"@all .
+
+prop-data:create_and_link_editors_desc.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_editors_desc.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Si vous êtes l'éditeur de la publication, choisissez \"Éditeur(-trice)\""@fr-CA .
+
+prop-data:publication_entry_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_entry_for.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "publication entry for"@all .
+
+prop-data:edit_publication_date.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "edit_publication_date.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Edit publication date"@en-CA ;
+        skos:prefLabel   "Edit publication date"@en-US ;
+        skos:prefLabel   "Éditer la date de publication"@fr-CA .
+
+prop-data:publication_entry_for.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_entry_for.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "publication entry for"@en-CA ;
+        skos:prefLabel   "publication entry for"@en-US ;
+        skos:prefLabel   "enregistrement d'une publication pour"@fr-CA .
+
+prop-data:last_publication.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "last_publication.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "Dernière publication"@fr-CA ;
+        skos:prefLabel   "Last publication"@en-CA ;
+        skos:prefLabel   "Last publication"@en-US .
+
+prop-data:no_publications_for_this_organization.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no_publications_for_this_organization.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Aucune publication présente dans le système n'a été attribuée à cette organisation."@fr-CA .
+
+prop-data:publication_attributed_to.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_attributed_to.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "The publication attributed to this"@en-CA ;
+        skos:prefLabel   "The publication attributed to this"@en-US ;
+        skos:prefLabel   "La publication attribuée à ce"@fr-CA .
+
+prop-data:publication.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "publication.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "publication"@en-CA ;
+        skos:prefLabel   "publication"@en-US ;
+        skos:prefLabel   "publication"@fr-CA ;
+        skos:prefLabel   "публикация"@ru-RU ;
+        skos:prefLabel   "publicación"@es ;
+        skos:prefLabel   "publikacija"@sr-Latn-RS ;
+        skos:prefLabel   "Publikation"@de-DE ;
+        skos:prefLabel   "publicação"@pt-BR .
+
+prop-data:by_publications.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "by_publications.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "par publication"@fr-CA .
+
+prop-data:data_not_past_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "data_not_past_msg.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Veuillez saisir une date cible future pour la publication (les dates passées ne sont pas valides)."@fr-CA ;
+        skos:prefLabel   "Please enter a future target date for publication (past dates are invalid)."@en-CA ;
+        skos:prefLabel   "Please enter a future target date for publication (past dates are invalid)."@en-US .
+
+prop-data:create_and_link_not_mine.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "create_and_link_not_mine.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Cette publication n'est pas la mienne"@fr-CA .
+
+prop-data:first_publication.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "first_publication.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "First publication"@all .

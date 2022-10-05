@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:index_recs_completed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "index_recs_completed.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Abgeschlossen {0} von {1} Index-Datensätze."@de-DE ;
+        skos:prefLabel   "Completed {0} out of {1} index records."@en-US ;
+        skos:prefLabel   "Completed {0} out of {1} index records."@en-CA ;
+        skos:prefLabel   "Izvršeno {0} od {1} zapisa iz indeksa."@sr-Latn-RS ;
+        skos:prefLabel   "Завершено {0} из {1} записей индекса."@ru-RU ;
+        skos:prefLabel   "Concluído {0} de {1} registros de índice."@pt-BR ;
+        skos:prefLabel   "Completado {0} de {1} registros indexados."@es ;
+        skos:prefLabel   "Complété {0} de {1} enregistrement indexés."@fr-CA .

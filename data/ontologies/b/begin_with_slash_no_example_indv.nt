@@ -1,0 +1,16 @@
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "begin_with_slash_no_example.Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Debe comenzar con una barra diagonal principal: /"@es .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deve começar com um líder de barra: /"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Doit débuter avec une barre oblique: /"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mora početi sa kosom crtom: /"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Muss mit einem Slash beginnen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Must begin with a leading forward slash: /"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Must begin with a leading forward slash: /"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example.Vitro-languages> <http://www.w3.org/2004/02/skos/core#prefLabel> "Должен начинаться с косой черты: /"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#begin_with_slash_no_example> <http://www.w3.org/2000/01/rdf-schema#label> "begin_with_slash_no_example" .

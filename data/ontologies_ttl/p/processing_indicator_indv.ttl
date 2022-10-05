@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:processing_indicator.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "processing_indicator.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "indicador de tempo de processamento"@pt-BR ;
+        skos:prefLabel   "Bearbeite Zeitindikator"@de-DE ;
+        skos:prefLabel   "processing time indicator"@en-CA ;
+        skos:prefLabel   "processing time indicator"@en-US ;
+        skos:prefLabel   "indicateur du temps de traitement"@fr-CA ;
+        skos:prefLabel   "индикатор времени обработки"@ru-RU ;
+        skos:prefLabel   "Indicador de tiempo de procesamiento"@es ;
+        skos:prefLabel   "indikator vremena potrebnog za obradu"@sr-Latn-RS .
+
+prop-data:processing_indicator
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "processing_indicator" .

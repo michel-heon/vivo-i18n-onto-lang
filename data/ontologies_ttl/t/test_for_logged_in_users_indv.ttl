@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:test_for_logged_in_users.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "test_for_logged_in_users.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Ovo je test vidžet za prijavljene korisnike."@sr-Latn-RS ;
+        skos:prefLabel   "This is the test widget for logged-in users."@en-CA ;
+        skos:prefLabel   "This is the test widget for logged-in users."@en-US ;
+        skos:prefLabel   "Dies ist das Test-Widget für angemeldete Benutzer."@de-DE ;
+        skos:prefLabel   "Este es el widget de pruebas para usuarios registrados."@es ;
+        skos:prefLabel   "Ceci est le widget de test pour les utilisateurs connectés."@fr-CA ;
+        skos:prefLabel   "Este é o widget de teste para usuários registrados."@pt-BR ;
+        skos:prefLabel   "Это пробный виджет для авторизованных пользователей."@ru-RU .
+
+prop-data:test_for_logged_in_users
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "test_for_logged_in_users" .

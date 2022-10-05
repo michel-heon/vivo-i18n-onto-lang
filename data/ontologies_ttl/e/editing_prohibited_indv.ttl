@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:editing_prohibited.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "editing_prohibited.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "Ovo svojstvo je trenutno konfigurisano tako da ne dozvoljava ažuriranje."@sr-Latn-RS ;
+        skos:prefLabel   "В настоящее время для этого свойства действует запрет на редактирование."@ru-RU ;
+        skos:prefLabel   "Esta propiedad está configurada para no permitir la edición."@es ;
+        skos:prefLabel   "Cette propriété est actuellement configurée pour interdire l'édition."@fr-CA ;
+        skos:prefLabel   "This property is currently configured to prohibit editing."@en-CA ;
+        skos:prefLabel   "This property is currently configured to prohibit editing."@en-US ;
+        skos:prefLabel   "Diese Eigenschaft ist derzeit so konfiguriert, dass die Bearbeitung zu verboten ist."@de-DE ;
+        skos:prefLabel   "Esta propriedade está atualmente configurado para proibir a edição."@pt-BR .
+
+prop-data:editing_prohibited
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "editing_prohibited" .

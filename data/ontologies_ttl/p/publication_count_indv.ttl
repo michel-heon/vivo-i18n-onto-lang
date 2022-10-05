@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:publication_count
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "publication_count" .
+
+prop-data:publication_count.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "publication_count.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Publication Count"@all .
+
+prop-data:publication_count.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "publication_count.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Zahl der Publikationen"@de-DE ;
+        skos:prefLabel   "Число публикаций"@ru-RU ;
+        skos:prefLabel   "Broj radova"@sr-Latn-RS ;
+        skos:prefLabel   "Publication Count"@en-US ;
+        skos:prefLabel   "Publication Count"@en-CA ;
+        skos:prefLabel   "Contagem de Publicação"@pt-BR ;
+        skos:prefLabel   "Conteo de publicación"@es ;
+        skos:prefLabel   "Nombre de publications"@fr-CA .

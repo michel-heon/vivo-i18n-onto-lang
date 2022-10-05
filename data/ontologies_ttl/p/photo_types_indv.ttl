@@ -1,0 +1,27 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:photo_types.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "photo_types.Vitro-languages" ;
+        prop:hasApp      "Vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        skos:prefLabel   "(JPEG, GIF or PNG)"@en-CA ;
+        skos:prefLabel   "(JPEG, GIF or PNG)"@en-US ;
+        skos:prefLabel   "(JPEG, GIF ili PNG)"@sr-Latn-RS ;
+        skos:prefLabel   "(JPEG, GIF ou PNG)"@fr-CA ;
+        skos:prefLabel   "(JPEG, GIF ou PNG)"@pt-BR ;
+        skos:prefLabel   "(JPEG, GIF, o PNG)"@es ;
+        skos:prefLabel   "(JPEG, GIF oder PNG)"@de-DE ;
+        skos:prefLabel   "(JPEG, GIF или PNG)"@ru-RU .
+
+prop-data:photo_types
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "photo_types" .

@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:must_be_admin.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "must_be_admin.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "You must be an administrator to use this tool."@en-CA ;
+        skos:prefLabel   "You must be an administrator to use this tool."@en-US ;
+        skos:prefLabel   "Только администратору разрешено пользоваться этим инструментом."@ru-RU ;
+        skos:prefLabel   "Vous devez être administrateur(-trice) pour utiliser cet outil."@fr-CA ;
+        skos:prefLabel   "Usted debe ser un administrador para usar esta herramienta."@es ;
+        skos:prefLabel   "Pristup ovom alatu imaju samo administratori."@sr-Latn-RS ;
+        skos:prefLabel   "Dieses Werkzeug kann nur von Administratoren benutzt werden."@de-DE ;
+        skos:prefLabel   "Você deve ser um administrador para usar esta ferramenta."@pt-BR .
+
+prop-data:must_be_admin
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "must_be_admin" .
+
+prop-data:must_be_admin.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "must_be_admin.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "You must be an administrator to use this tool."@all .

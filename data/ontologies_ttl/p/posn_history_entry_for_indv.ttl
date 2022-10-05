@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:posn_history_entry_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "posn_history_entry_for.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "position history entry for"@all .
+
+prop-data:posn_history_entry_for.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "posn_history_entry_for.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Eintrag für die Positionenhistorie"@de-DE ;
+        skos:prefLabel   "posição de entrada para a história"@pt-BR ;
+        skos:prefLabel   "historique des postes pour"@fr-CA ;
+        skos:prefLabel   "position history entry for"@en-CA ;
+        skos:prefLabel   "position history entry for"@en-US ;
+        skos:prefLabel   "unos istorije pozicija za"@sr-Latn-RS ;
+        skos:prefLabel   "entrada historial de posición"@es ;
+        skos:prefLabel   "запись должностной истории для"@ru-RU .
+
+prop-data:posn_history_entry_for
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "posn_history_entry_for" .

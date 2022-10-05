@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vcard_qr_code.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "vcard_qr_code.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "vCard QR Code"@all .
+
+prop-data:vcard_qr_code.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "vcard_qr_code.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "vCard QRCode"@pt-BR ;
+        skos:prefLabel   "QR-код электронной визитной карточки vCard"@ru-RU ;
+        skos:prefLabel   "vCard QR Code"@en-CA ;
+        skos:prefLabel   "vCard QR Code"@en-US ;
+        skos:prefLabel   "vCard-QR-Code"@de-DE ;
+        skos:prefLabel   "code QR de vCard"@fr-CA ;
+        skos:prefLabel   "vCard QR Kod"@sr-Latn-RS ;
+        skos:prefLabel   "Código vCard QR"@es .
+
+prop-data:vcard_qr_code
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "vcard_qr_code" .

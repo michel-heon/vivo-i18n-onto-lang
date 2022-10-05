@@ -1,0 +1,53 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_copyright
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "menu_copyright" .
+
+prop-data:menu_copyright.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_copyright.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "copyright"@all .
+
+prop-data:menu_copyright.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "menu_copyright.VIVO-languages.tenderfoot" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" ;
+        skos:prefLabel   "copyright"@en-CA ;
+        skos:prefLabel   "copyright"@en-US ;
+        skos:prefLabel   "copyright"@pt-BR ;
+        skos:prefLabel   "derechos de autor"@es ;
+        skos:prefLabel   "Copyright"@de-DE ;
+        skos:prefLabel   "autorska prava"@sr-Latn-RS ;
+        skos:prefLabel   "авторское право"@ru-RU ;
+        skos:prefLabel   "droit d'auteur"@fr-CA .
+
+prop-data:menu_copyright.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "menu_copyright.VIVO-languages.wilma" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" ;
+        skos:prefLabel   "droit d'auteur"@fr-CA ;
+        skos:prefLabel   "Copyright"@de-DE ;
+        skos:prefLabel   "autorska prava"@sr-Latn-RS ;
+        skos:prefLabel   "copyright"@en-CA ;
+        skos:prefLabel   "copyright"@en-US ;
+        skos:prefLabel   "copyright"@pt-BR ;
+        skos:prefLabel   "авторское право"@ru-RU ;
+        skos:prefLabel   "derechos de autor"@es .

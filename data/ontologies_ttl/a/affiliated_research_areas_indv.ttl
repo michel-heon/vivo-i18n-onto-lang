@@ -1,0 +1,36 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:affiliated_research_areas.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "affiliated_research_areas.VIVO-languages" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
+        skos:prefLabel   "Povezane oblasti istraživanja"@sr-Latn-RS ;
+        skos:prefLabel   "Affiliated Research Areas"@en-US ;
+        skos:prefLabel   "Affiliated Research Areas"@en-CA ;
+        skos:prefLabel   "Domaines de recherche associés"@fr-CA ;
+        skos:prefLabel   "Afiliadas Áreas de Investigação"@pt-BR ;
+        skos:prefLabel   "Аффилированные области исследований"@ru-RU ;
+        skos:prefLabel   "verwandte Forschungsgebiete"@de-DE ;
+        skos:prefLabel   "Áreas de investigación afiliadas"@es .
+
+prop-data:affiliated_research_areas.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "affiliated_research_areas.VIVO.nemo" ;
+        prop:hasApp      "VIVO" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" ;
+        skos:prefLabel   "Affiliated Research Areas"@all .
+
+prop-data:affiliated_research_areas
+        rdf:type    owl:NamedIndividual ;
+        rdf:type    prop:PropertyKey ;
+        rdfs:label  "affiliated_research_areas" .
