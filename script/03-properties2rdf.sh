@@ -54,7 +54,13 @@ function build_indv() {
 <$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <$SEMANTIC_BASE_IRI#PropertyKey> . 
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#propertiesUrl> "file://$GIT_HOME/$BN.properties"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasPackage> "$PKG" . 
+<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasApp> "$( echo $PKG | cut -d '-' -f 1 )" . 
 EOF
+
+        cat << EOF >> $TMP_ONTO_RESULT_FILE
+<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#propertiesUrl> "file://$GIT_HOME/$BN.properties"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+EOF
+
         if [ -n "${THEME}" ]; then 
         cat << EOF >> $TMP_ONTO_RESULT
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasTheme> "$THEME" . 
@@ -67,7 +73,7 @@ EOF
     do
 #        echo "$PRODUCTS"
         cd $GIT_HOME/$PRODUCTS
-        FTL_FILES=$(find . -name '*.ftl' ! -path '*target*' -exec grep -l $KEY {} \; | tr -s ' ' '\n')
+        FTL_FILES=$(find . -name '*.ftl' ! -path '*target*' -exec grep -l -w $KEY {} \; | tr -s ' ' '\n')
         if [ -n "$FTL_FILES" ]; then
             echo $FTL_FILES | tr ' ' '\n' | while read FTL_FN
             do
@@ -76,6 +82,9 @@ EOF
 <$BASE_IRI#$KEY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <$BASE_IRI#$KEY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <$SEMANTIC_BASE_IRI#PropertyKey> . 
 <$BASE_IRI#$KEY> <http://www.w3.org/2000/01/rdf-schema#label> "$KEY" .
+<$BASE_IRI#$KEY> <$SEMANTIC_BASE_IRI#ftlUrl> "file://$FTL_PATH"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+EOF
+                cat << EOF >> $TMP_ONTO_RESULT_FILE
 <$BASE_IRI#$KEY> <$SEMANTIC_BASE_IRI#ftlUrl> "file://$FTL_PATH"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 EOF
             done
@@ -87,16 +96,21 @@ EOF
 # extraire la liste des clés
 for KEY in $(cat $LIST_OF_KEYS_FN)
 do
-#    KEY=cropping_note
+    KEY=create_new
     cd $PROPERTIES_DATA
     echo "Processing $KEY"
     SUB_REP="${KEY:0:1}"
     grep -w $KEY * > $TMP_PROP_FN 
     ONTO_FN=$KEY.nt
+    ONTO_FN_FILE=${KEY}_file.nt
     export TMP_ONTO_RESULT=$TMPDIR/$ONTO_FN
+    export TMP_ONTO_RESULT_FILE=$TMPDIR/$ONTO_FN_FILE
     build_indv $TMP_PROP_FN
     cat $TMP_ONTO_RESULT | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN
-    (func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN > $ONTO_DATA_TTL/$SUB_REP/$KEY.ttl)&
+    cat $TMP_ONTO_RESULT_FILE | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN_FILE
+#    (func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN > $ONTO_DATA_TTL/$SUB_REP/$KEY.ttl)&
+    func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN
+#    func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN_FILE
     echo "Done !"
-#   exit 0
+   exit 0
 done
