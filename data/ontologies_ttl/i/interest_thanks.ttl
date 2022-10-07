@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:interest_thanks.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Hvala Vam na interesovanju za {0}. Molimo Vas popunite ovu formu sa pitanjima, komentarima, i povratnim informacijama o sadržaju sajta."@sr-Latn-RS ;
+        rdfs:label       "Благодарим вас за интерес к {0}. Пожалуйста, отправьте эту форму с вопросами, комментариями или отзывами о содержании этого сайта."@ru-RU ;
+        rdfs:label       "Merci pour votre intérêt concernant {0}. Veuillez soumettre vos questions, commentaires et suggestions concernant ce site via ce formulaire."@fr-CA ;
+        rdfs:label       "Thank you for your interest in {0}. Please submit this form with questions, comments, or feedback about the content of this site."@en-CA ;
+        rdfs:label       "Thank you for your interest in {0}. Please submit this form with questions, comments, or feedback about the content of this site."@en-US ;
+        rdfs:label       "Obrigado pelo seu interesse em {0}. Envie este formulário com perguntas, comentários ou feedback sobre o conteúdo deste site."@pt-BR ;
+        rdfs:label       "Vielen Dank für Ihr Interesse an {0}. Bitte senden Sie das Formular mit Fragen, Kommentaren oder Feedback über den Inhalt dieser Seite."@de-DE ;
+        rdfs:label       "Gracias por su interés en {0}. Por favor, envíe este formulario con preguntas, comentarios o sugerencias sobre el contenido de este sitio."@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "interest_thanks" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:interest_thanks.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "interest_thanks" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

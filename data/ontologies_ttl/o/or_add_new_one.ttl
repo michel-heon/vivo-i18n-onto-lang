@@ -1,0 +1,41 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:or_add_new_one.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "ili dodajte novog."@sr-Latn-RS ;
+        rdfs:label       "o añadir uno nuevo."@es ;
+        rdfs:label       "ou adicionar um novo."@pt-BR ;
+        rdfs:label       "или введите нового."@ru-RU ;
+        rdfs:label       "ou en ajouter un nouveau."@fr-CA ;
+        rdfs:label       "or add a new one."@en-CA ;
+        rdfs:label       "or add a new one."@en-US ;
+        rdfs:label       "oder fügen Sie eine/n neue/n AutorIn hinzu."@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "or_add_new_one" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:or_add_new_one.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "or_add_new_one" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:or_add_new_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "or add a new one."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "or_add_new_one" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

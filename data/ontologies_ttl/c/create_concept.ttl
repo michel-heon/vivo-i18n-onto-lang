@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_concept.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Crear concepto"@es ;
+        rdfs:label       "Create Concept"@en-CA ;
+        rdfs:label       "Create Concept"@en-US ;
+        rdfs:label       "Kreirajte koncept"@sr-Latn-RS ;
+        rdfs:label       "Créer le concept"@fr-CA ;
+        rdfs:label       "Criar Conceito"@pt-BR ;
+        rdfs:label       "Konzept erstellen"@de-DE ;
+        rdfs:label       "Создать понятие"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_concept" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:create_concept.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addUserDefinedConcept.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_concept" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:create_concept.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Create Concept"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_concept" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

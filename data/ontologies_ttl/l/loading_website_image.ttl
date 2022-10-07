@@ -1,0 +1,57 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:loading_website_image.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Загрузка изображения сайта"@ru-RU ;
+        rdfs:label       "Učitavanje slike veb stranice"@sr-Latn-RS ;
+        rdfs:label       "Chargement du site"@fr-CA ;
+        rdfs:label       "Carregando a imagem do site"@pt-BR ;
+        rdfs:label       "Loading website image"@en-US ;
+        rdfs:label       "Loading website image"@en-CA ;
+        rdfs:label       "Cargando imagen del sitio web"@es ;
+        rdfs:label       "Bild wird geladen"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_website_image" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:loading_website_image.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-webpage-quickview.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_website_image" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:loading_website_image.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Loading website image"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_website_image" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:loading_website_image.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Učitavanje slike za vebsajt"@sr-Latn-RS ;
+        rdfs:label       "Carregando a imagem do site"@pt-BR ;
+        rdfs:label       "Cargando imagen del sitio web"@es ;
+        rdfs:label       "Chargement de l'image"@fr-CA ;
+        rdfs:label       "Загрузка изображения сайта"@ru-RU ;
+        rdfs:label       "Bild wird geladen"@de-DE ;
+        rdfs:label       "Loading website image"@en-CA ;
+        rdfs:label       "Loading website image"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_website_image" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .

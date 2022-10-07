@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "vclassAlpha_not_implemented" .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "vclassAlpha ainda não está implementado."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "vclassAlpha aún no está implementado."@es .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "vclassAlpha is not yet implemented."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "vclassAlpha is not yet implemented."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "vclassAlpha ist derzeit nicht implementiert."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "vclassAlpha još nije implementirana."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "vclassAlpha n'est pas encore supporté."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "vclassAlpha еще не внедрён."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-browse.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "vclassAlpha_not_implemented" .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#vclassAlpha_not_implemented.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

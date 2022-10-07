@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_not_created" .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La page n'a pas pu être créée"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La página no pudo ser creada"@es .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Page could not be created"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Page could not be created"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Página não pôde ser criada"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seite konnte nicht erstellt werden"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Stranica ne može da se kreira"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Не удалось создать страницу"@ru-RU .

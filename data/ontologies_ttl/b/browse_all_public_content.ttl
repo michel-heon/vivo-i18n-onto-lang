@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:browse_all_public_content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Atualmente, você pode ver todo o conteúdo público do sistema usando a"@pt-BR ;
+        rdfs:label       "Usted puede navegar por todo el contenido público con que cuenta actualmente en el sistema"@es ;
+        rdfs:label       "You can browse all of the public content currently in the system using the"@en-CA ;
+        rdfs:label       "You can browse all of the public content currently in the system using the"@en-US ;
+        rdfs:label       "Vous pouvez consulter tout le contenu public actuellement dans le système à l'aide de la fonction"@fr-CA ;
+        rdfs:label       "Sie können allen öffentlichen, aktuell im System vorhandenen Inhalt durchsuchen unter Verwendung der"@de-DE ;
+        rdfs:label       "Možete pretražiti sav javno dostupan sadržaj u okviru ovog sistema koristeći"@sr-Latn-RS ;
+        rdfs:label       "Вы можете просматривать всю общедоступную информацию в данной системе при помощи"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "browse_all_public_content" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:browse_all_public_content.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-checkForData.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "browse_all_public_content" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

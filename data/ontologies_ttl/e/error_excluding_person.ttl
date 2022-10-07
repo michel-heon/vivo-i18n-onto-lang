@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_excluding_person.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePeopleForOrganization.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "error_excluding_person" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:error_excluding_person.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Erreur lors du traitement de la demande: la personne ne peut être retirée de la page de l'organisation."@fr-CA ;
+        rdfs:label       "Ошибка при обработке запроса: лицо не может быть удалено со страницы организации."@ru-RU ;
+        rdfs:label       "Fehler bei der Bearbeitung des Auftrags: die Person kann nicht von der Seite der Organisation ausgeschlossen werden."@de-DE ;
+        rdfs:label       "Error al procesar la petición: la persona no puede ser excluida de la página de la organización."@es ;
+        rdfs:label       "solicitação de processamento de erro: a pessoa não pode ser excluída da página da organização."@pt-BR ;
+        rdfs:label       "Error processing request: the person cannot be excluded from the organization page."@en-CA ;
+        rdfs:label       "Error processing request: the person cannot be excluded from the organization page."@en-US ;
+        rdfs:label       "Greška pri obradi zahteva: osoba ne može biti uklonjean sa stranice organizacije."@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "error_excluding_person" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:error_excluding_person.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Error processing request: the person cannot be excluded from the organization page."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "error_excluding_person" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

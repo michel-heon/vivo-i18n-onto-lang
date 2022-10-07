@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "webpage_reordering_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Die Neuordnung der Webseiten ist fehlgeschlagen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ha fallado el reordenamiento de las páginas web."@es .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Il a été impossible de réordonner les pages web."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Promena redosleda veb stranica nije uspela."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Reordering of web pages failed."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Reordering of web pages failed."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "reordenação de páginas web falhou."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Переупорядочивание веб-страниц не удалось."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "webpage_reordering_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Reordering of web pages failed."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "webpage_reordering_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#webpage_reordering_failed.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

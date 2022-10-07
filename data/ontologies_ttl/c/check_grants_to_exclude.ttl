@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:check_grants_to_exclude.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Check those grants and projects you want to <em>exclude</em> from the profile page."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "check_grants_to_exclude" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:check_grants_to_exclude.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageGrantsForIndividual.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "check_grants_to_exclude" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:check_grants_to_exclude.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Confira esses grants e projetos que você deseja excluir da página do perfil."@pt-BR ;
+        rdfs:label       "Markieren Sie die Forschungsprojekte und Projekte, die auf der Profilseite nicht berücksichtigt werden sollen."@de-DE ;
+        rdfs:label       "Selektujte one grantove i projekte koje želite da <em>izostavite</em> sa profilne stranice."@sr-Latn-RS ;
+        rdfs:label       "Отметьте те гранты и проекты, которые вы хотите <em>убрать</em> со страницы профиля."@ru-RU ;
+        rdfs:label       "Choisir les subventions et projets que vous désirez <em>exclure</em> de votre profil."@fr-CA ;
+        rdfs:label       "Check those grants and projects you want to <em>exclude</em> from the profile page."@en-CA ;
+        rdfs:label       "Compruebe las subvenciones y proyectos que desea excluir de la página de perfil."@es ;
+        rdfs:label       "Check those grants and projects you want to <em>exclude</em> from the profile page."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "check_grants_to_exclude" ;
+        prop:hasPackage  "VIVO-languages" .

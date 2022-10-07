@@ -1,0 +1,42 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:incomplete_data_note1.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Bitte beachten Sie: Diese Information beruht ausschließlich auf Publikationen, die in das VIVO-System geladen wurden und die möglicherweise nur eine kleine Auswahl des Gesamtwerkes der Person darstellen."@de-DE ;
+        rdfs:label       "Примечание. Эта информация основана только на публикациях, которые известны системе. Это может быть только малой долей всех работ автора."@ru-RU ;
+        rdfs:label       "Nota: Esta informação está baseada exclusivamente em publicações que foram carregados no sistema VIVO. Isto pode ser apenas uma pequena amostra de trabalho total da pessoa."@pt-BR ;
+        rdfs:label       "Note: Cette information est basée uniquement sur les publications présentes dans la base de données de VIVO. Ceci peut ne représenter qu'une fraction de la production totale de la personne."@fr-CA ;
+        rdfs:label       "Note: This information is based solely on publications that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-CA ;
+        rdfs:label       "Note: This information is based solely on publications that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-US ;
+        rdfs:label       "Napomena: Ove informacije se zasnivaju isključivo na publikacijama koje se nalaze unutar VIVO sistema. Ovo je možda samo mali podskup ukupnih radova neke osobe."@sr-Latn-RS ;
+        rdfs:label       "Nota: Esta información está basada únicamente en las publicaciones que se han cargado en el sistema VIVO. Esto sólo puede ser una pequeña muestra del trabajo total de la persona."@es ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "incomplete_data_note1" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:incomplete_data_note1.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Note: This information is based solely on publications that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "incomplete_data_note1" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:incomplete_data_note1.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "incomplete_data_note1" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

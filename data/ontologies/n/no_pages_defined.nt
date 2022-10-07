@@ -1,0 +1,22 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_pages_defined" .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ainda não existem páginas definidas."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Es gibt derzeit noch keine Seiten."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Il n'y a pas encore de pages définies."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Još ne postoje definisane stranice."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "No hay páginas aún definidos."@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There are no pages defined yet."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There are no pages defined yet."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Никаких страниц еще не задано."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menupage/page-pageList.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/pagemanagement/page-pageList.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/pagemanagement/pageList.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_pages_defined" .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_pages_defined.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

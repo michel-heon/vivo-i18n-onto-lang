@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:verbose_status_off.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-adminPanel.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "verbose_status_off" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:verbose_status_off.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "off"@en-CA ;
+        rdfs:label       "off"@en-US ;
+        rdfs:label       "desligado"@pt-BR ;
+        rdfs:label       "isključen"@sr-Latn-RS ;
+        rdfs:label       "aus"@de-DE ;
+        rdfs:label       "apagado"@es ;
+        rdfs:label       "отключено"@ru-RU ;
+        rdfs:label       "inactif"@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "verbose_status_off" ;
+        prop:hasPackage  "Vitro-languages" .

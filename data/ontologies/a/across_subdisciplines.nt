@@ -1,0 +1,29 @@
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "across_subdisciplines" .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "across 554 scientific subdisciplines"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "across 554 scientific subdisciplines"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "através de 554 sub-disciplinas científicas"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "quer durch alle 554 wissenschaftlichen Subdisziplinen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "tras 554 subdisciplinas científicas"@es .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "u okviru 554 naučne poddiscipline"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "à travers 554 sous-disciplines scientifiques"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "по 554 научным субдисциплинам"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceStandalone.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "across_subdisciplines" .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "across 554 scientific subdisciplines"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "across_subdisciplines" .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#across_subdisciplines.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

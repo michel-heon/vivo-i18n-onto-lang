@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:required_with_last_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "required with new Last name"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "required_with_last_name" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:required_with_last_name.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Potrebno je novo prezime"@sr-Latn-RS ;
+        rdfs:label       "requerido con nuevos Apellidos"@es ;
+        rdfs:label       "required with new Last name"@en-CA ;
+        rdfs:label       "required with new Last name"@en-US ;
+        rdfs:label       "requeimento necessita um novo sobrenome"@pt-BR ;
+        rdfs:label       "требуется новая фамилия"@ru-RU ;
+        rdfs:label       "neuer Nachname erforderlich"@de-DE ;
+        rdfs:label       "requis avec un nouveau nom de famille"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "required_with_last_name" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:required_with_last_name.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "required_with_last_name" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

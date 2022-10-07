@@ -1,0 +1,45 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:enter_last_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Please enter a Last name for this person."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "enter_last_name" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:enter_last_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Bitte einen Nachnamen für diese Person eintragen."@de-DE ;
+        rdfs:label       "Пожалуйста, введите фамилию этого человека."@ru-RU ;
+        rdfs:label       "Por favor, introduzca un apellido para esta persona."@es ;
+        rdfs:label       "Please enter a Last name for this person."@en-US ;
+        rdfs:label       "Please enter a Last name for this person."@en-CA ;
+        rdfs:label       "SVP, inscrire le nom de famille de cette personne."@fr-CA ;
+        rdfs:label       "Molimo Vas unesite prezime ove osobe."@sr-Latn-RS ;
+        rdfs:label       "Por favor insira um sobrenome para esta pessoa."@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "enter_last_name" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:enter_last_name.VIVO
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/newIndividualForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/manageLabelsForIndividualSubmissionErrors.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addFullNameToPerson.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "enter_last_name" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

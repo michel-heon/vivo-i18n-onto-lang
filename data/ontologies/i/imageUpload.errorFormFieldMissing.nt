@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "imageUpload.errorFormFieldMissing" .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Das Formular enthielt kein '' {0} '' Feld. \""@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "El formulario no contiene un campo ''{0}''"@es .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Forma ne sadrži polje ''{0}''."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Le formulaire ne comportait pas de champs ''{0}''"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "O formulário não contém um '{0}' 'campo'. \""@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The form did not contain a ''{0}'' field.\""@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The form did not contain a ''{0}'' field.\""@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFormFieldMissing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Форма не содержала поля ''{0}''."@ru-RU .

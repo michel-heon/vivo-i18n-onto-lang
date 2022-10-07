@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cropping_caption.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-cropImage.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "cropping_caption" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:cropping_caption.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Фотография в Вашем профиле будет выглядеть так, как показано ниже."@ru-RU ;
+        rdfs:label       "La foto de tu perfil se verá como la imagen de abajo."@es ;
+        rdfs:label       "La photo de votre profil ressemblera à l'image ci-dessous."@fr-CA ;
+        rdfs:label       "Sua foto de perfil será visualizada com a imagem abaixo."@pt-BR ;
+        rdfs:label       "Your profile photo will look like the image below."@en-CA ;
+        rdfs:label       "Your profile photo will look like the image below."@en-US ;
+        rdfs:label       "Ihr Profilfoto wird wie das Bild unten aussehen."@de-DE ;
+        rdfs:label       "Vaša profilna slika će izgledati kao fotografila ispor."@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "cropping_caption" ;
+        prop:hasPackage  "Vitro-languages" .

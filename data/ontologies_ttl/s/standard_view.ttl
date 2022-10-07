@@ -1,0 +1,44 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:standard_view.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Visualização padrão do perfil"@pt-BR ;
+        rdfs:label       "Standard-Ansicht des Profils"@de-DE ;
+        rdfs:label       "Vue complète du profil"@fr-CA ;
+        rdfs:label       "Показать полную анкету"@ru-RU ;
+        rdfs:label       "Standardni pregled profila"@sr-Latn-RS ;
+        rdfs:label       "Standard profile view"@en-CA ;
+        rdfs:label       "Standard profile view"@en-US ;
+        rdfs:label       "Vista estándar del perfil"@es ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "standard_view" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:standard_view.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-profilePageTypes.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "standard_view" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:standard_view.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Standard profile view"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "standard_view" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

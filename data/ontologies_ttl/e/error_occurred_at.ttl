@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_occurred_at.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Se ha producido un error en tu sitio VIVO en {0}."@es ;
+        rdfs:label       "Une erreur s'est produite sur votre site VIVO à {0}."@fr-CA ;
+        rdfs:label       "Došlo je do greške na Vašem sajtu na {0}."@sr-Latn-RS ;
+        rdfs:label       "An error occurred on your VIVO site at {0}."@en-CA ;
+        rdfs:label       "An error occurred on your VIVO site at {0}."@en-US ;
+        rdfs:label       "Es ist ein Fehler auf Ihrer VIVO-Website unter {0} aufgetreten."@de-DE ;
+        rdfs:label       "На вашем сайте VIVO произошла ошибка в {0}."@ru-RU ;
+        rdfs:label       "Ocorreu um erro em seu site VIVO no {0}."@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "error_occurred_at" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:error_occurred_at.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-email.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "error_occurred_at" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

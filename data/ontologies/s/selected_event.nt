@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "selected_event" .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ausgewählte Veranstaltung"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Evento Selecionado"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Evento seleccionado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odabran događaj"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selected Event"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selected Event"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Événement choisi"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выбранное мероприятие"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "selected_event" .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Selected Event"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "selected_event" .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#selected_event.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

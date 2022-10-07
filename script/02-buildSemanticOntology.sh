@@ -24,19 +24,24 @@ cat << EOF >> $UI_LABELS_VOCAB
 <$SEMANTIC_BASE_IRI#ftlUrl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <$SEMANTIC_BASE_IRI#ftlUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to the FTL file containing the key" .
 <$SEMANTIC_BASE_IRI#ftlUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<$SEMANTIC_BASE_IRI#propertiesUrl> <http://www.w3.org/2000/01/rdf-schema#label> "Propertie file url " .
-<$SEMANTIC_BASE_IRI#propertiesUrl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
-<$SEMANTIC_BASE_IRI#propertiesUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to the property file containing the defined key" .
-<$SEMANTIC_BASE_IRI#propertiesUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<$SEMANTIC_BASE_IRI#ftlUrl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<$SEMANTIC_BASE_IRI#hasKey> <http://www.w3.org/2000/01/rdf-schema#label> "Propertie file url " .
+<$SEMANTIC_BASE_IRI#hasKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<$SEMANTIC_BASE_IRI#hasKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of the key" .
+<$SEMANTIC_BASE_IRI#hasKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<$SEMANTIC_BASE_IRI#hasKey> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <$SEMANTIC_BASE_IRI#hasTheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <$SEMANTIC_BASE_IRI#hasTheme> <http://www.w3.org/2000/01/rdf-schema#label> "has theme" .
 <$SEMANTIC_BASE_IRI#hasTheme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<$SEMANTIC_BASE_IRI#hasTheme> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <$SEMANTIC_BASE_IRI#hasPackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <$SEMANTIC_BASE_IRI#hasPackage> <http://www.w3.org/2000/01/rdf-schema#label> "has package" .
 <$SEMANTIC_BASE_IRI#hasPackage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<$SEMANTIC_BASE_IRI#hasPackage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <$SEMANTIC_BASE_IRI#hasApp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<$SEMANTIC_BASE_IRI#hasApp> <http://www.w3.org/2000/01/rdf-schema#label> "has package" .
+<$SEMANTIC_BASE_IRI#hasApp> <http://www.w3.org/2000/01/rdf-schema#label> "has application" .
 <$SEMANTIC_BASE_IRI#hasApp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<$SEMANTIC_BASE_IRI#hasApp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 EOF
 }
 

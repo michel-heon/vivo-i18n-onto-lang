@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:address_street_three.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "dirección calle tres"@es ;
+        rdfs:label       "Строка адреса 3"@ru-RU ;
+        rdfs:label       "address street three"@en-CA ;
+        rdfs:label       "address street three"@en-US ;
+        rdfs:label       "Adresszusatz 2"@de-DE ;
+        rdfs:label       "3e ligne d'adresse"@fr-CA ;
+        rdfs:label       "ulica treće adrese"@sr-Latn-RS ;
+        rdfs:label       "Endereço três"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "address_street_three" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:address_street_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "address street three"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "address_street_three" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:address_street_three.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "address street three"@en-CA ;
+        rdfs:label       "address street three"@en-US ;
+        rdfs:label       "Adresszusatz 2"@de-DE ;
+        rdfs:label       "Endereço três"@pt-BR ;
+        rdfs:label       "Строка адреса 3"@ru-RU ;
+        rdfs:label       "adresa ulice 3"@sr-Latn-RS ;
+        rdfs:label       "3e ligne d'adresse"@fr-CA ;
+        rdfs:label       "dirección calle tres"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "address_street_three" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .

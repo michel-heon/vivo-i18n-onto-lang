@@ -1,0 +1,33 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:maximum_file_size.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Maximum file size: {0} megabytes"@en-CA ;
+        rdfs:label       "Maximum file size: {0} megabytes"@en-US ;
+        rdfs:label       "Taille maximale de l'image: {0} mégaoctets"@fr-CA ;
+        rdfs:label       "Tamaño máximo de archivo: {0} megabytes"@es ;
+        rdfs:label       "tamanho máximo do arquivo: {0} megabytes"@pt-BR ;
+        rdfs:label       "Maximale Dateigröße: {0} Megabyte"@de-DE ;
+        rdfs:label       "Максимальный размер файла: {0} мегабайт"@ru-RU ;
+        rdfs:label       "Najveća veličina fajla: {0} megabajta"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "maximum_file_size" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:maximum_file_size.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/fileUpload/fileUpload-default.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-replaceImage.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-newImage.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "maximum_file_size" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

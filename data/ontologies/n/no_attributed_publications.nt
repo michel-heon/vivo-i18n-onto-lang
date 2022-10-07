@@ -1,0 +1,29 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_attributed_publications" .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Aucune publication dans le système n'a été attribuée à ce"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Keine der Publikationen im System konnte zugeordnet werden"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ni jedan rad unutar sistema nije pripisan ovome."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ningunas publicaciones en el sistema se han atribuido a esto"@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "No publications in the system have been attributed to this"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "No publications in the system have been attributed to this"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Não há publicações no sistema têm sido atribuídas a este"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ни одна публикация в системе не была ему приписана"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_attributed_publications" .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "No publications in the system have been attributed to this"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_attributed_publications" .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_attributed_publications.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

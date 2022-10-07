@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_removing_webpage" .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erreur lors du traitement de la demande: la page web ne peut être retirée."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error al procesar la petición: la página web no se puede eliminar."@es .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: web page not removed."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: web page not removed."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fehler bei der Bearbeitung des Auftrags: die Webseite wurde nicht gelöscht."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Greška pri obradi zahteva: veb stranica ne može biti uklonjena."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "pedido = Erro ao processar: página web não foi removido."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ошибка обработки запроса: веб-страница не удалена."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_removing_webpage" .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: web page not removed."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_removing_webpage" .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_removing_webpage.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

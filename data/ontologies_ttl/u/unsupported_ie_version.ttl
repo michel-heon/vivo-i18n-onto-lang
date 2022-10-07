@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:unsupported_ie_version.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-vivo-form.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "unsupported_ie_version" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:unsupported_ie_version.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-vitro-form.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "unsupported_ie_version" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:unsupported_ie_version.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-CA ;
+        rdfs:label       "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-US ;
+        rdfs:label       "Эта форма не поддерживается в версиях Internet Explorer ниже версии 8. Пожалуйста, обновите свой браузер или перейдите на другой браузер, например FireFox."@ru-RU ;
+        rdfs:label       "Ova forma nije podržana u verzijama Internet Explorer-a starijim od IE 8. Molimo Vas skinite noviju verziju pretraživača, ili odaberite neki drugi pretraživač, poput Firefox-a."@sr-Latn-RS ;
+        rdfs:label       "Esta formulário não suporta versões do Internet Explorer inferiores a versão 8. Por favor, atualize seu navegador, ou mudar para outro navegador, como o Firefox."@pt-BR ;
+        rdfs:label       "Este formulario no es compatible con versiones de Internet Explorer menores a la versión 8. Actualice su navegador, o cambia a otro navegador, como Firefox."@es ;
+        rdfs:label       "Dieses Formular unterstützt keine Versionen des Internet Explorers unter Version 8. Bitte aktualisieren Sie Ihren Browser, oder wechseln Sie zu einem anderen Browser wie FireFox."@de-DE ;
+        rdfs:label       "Ce formulaire n'est pas pris en charge dans les versions d'Internet Explorer inférieures à la version 8. Veuillez mettre à jour votre navigateur ou passer à un autre navigateur, tel que FireFox."@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "unsupported_ie_version" ;
+        prop:hasPackage  "Vitro-languages" .

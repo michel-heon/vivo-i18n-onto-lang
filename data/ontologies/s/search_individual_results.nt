@@ -1,0 +1,21 @@
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "search_individual_results" .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Individuos de la clase de búsqueda"@es .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pesquisa indivíduos da Classe"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pretražite pojedince klase"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Recherche d'individus d'une classe"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Search Class Individuals"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Search Class Individuals"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Suche Datensätze der Klasse"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Поиск экземпляров класса"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--searchIndividuals.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "search_individual_results" .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#search_individual_results.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

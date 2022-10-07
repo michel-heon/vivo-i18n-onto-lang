@@ -1,0 +1,55 @@
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "intro_title" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Bem-vindo ao VIVO"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Bienvenido a VIVO"@es .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Bienvenue dans VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Dobrodošli na VIVO"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Welcome to VIVO"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Welcome to VIVO"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Willkommen bei VIVO"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Добро пожаловать в VIVO"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "intro_title" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Bem-vindo ao VIVO"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Bienvenido a VIVO"@es .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Bienvenue dans VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Dobrodošli na VIVO"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Welcome to VIVO"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Welcome to VIVO"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Willkommen bei VIVO"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Добро пожаловать в VIVO"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "intro_title" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Welcome to VIVO"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "intro_title" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "intro_title" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "list_elements_of" .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Izlistajte elemente od"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "List elements of"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "List elements of"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Lista de los elementos de"@es .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Liste Elemente von"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Liste des éléments de"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "lista de elementos"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Перечислить элементы списка"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/samples.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "list_elements_of" .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#list_elements_of.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

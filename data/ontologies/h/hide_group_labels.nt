@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "hide_group_labels" .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gruppenbeschriftungen ausblenden"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Masquer les noms"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "etiquetas de grupos de ocultação"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "hide group labels"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "hide group labels"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ocultar las etiquetas de los grupos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "sakrijte labele grupa"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "скрыть метки групп"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "hide_group_labels" .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_group_labels.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

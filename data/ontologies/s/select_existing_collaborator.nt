@@ -1,0 +1,30 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addConceptThroughObjectPropertyAutoComplete.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_existing_collaborator" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_existing_collaborator" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odaberite postojećeg saradnika za {0}"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seleccione un colaborador existente para {0}"@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selecione um colaborador existente para {0}"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing Collaborator for {0}"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing Collaborator for {0}"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sélectionner un collaborateur existant pour{0}"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Wählen Sie einen vorhandenen Mitarbeiter für {0}"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выбрать существующего партнёра для {0}"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_existing_collaborator" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_collaborator.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

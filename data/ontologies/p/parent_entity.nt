@@ -1,0 +1,29 @@
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "parent_entity" .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "entidad principal"@es .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "entidade-mãe"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "entité parente"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nad-entitet"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "parent entity"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "parent entity"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "übergeordneter Eintrag"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "родительская сущность"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceStandalone.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "parent_entity" .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "parent entity"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "parent_entity" .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#parent_entity.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

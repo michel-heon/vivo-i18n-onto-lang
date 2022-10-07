@@ -1,0 +1,41 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:major_field.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Domaine principal du diplôme"@fr-CA ;
+        rdfs:label       "Major Field of Degree"@en-CA ;
+        rdfs:label       "Major Field of Degree"@en-US ;
+        rdfs:label       "Glavna oblast za diplomu"@sr-Latn-RS ;
+        rdfs:label       "Основная область обучения"@ru-RU ;
+        rdfs:label       "Hauptfach des Hochschul- oder Universitätsabschlusses"@de-DE ;
+        rdfs:label       "Campo principal de grado"@es ;
+        rdfs:label       "Maior Campo de Grau"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "major_field" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:major_field.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEducationalTraining.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "major_field" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:major_field.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Major Field of Degree"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "major_field" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

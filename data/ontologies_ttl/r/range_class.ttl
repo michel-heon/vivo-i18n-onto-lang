@@ -1,0 +1,32 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:range_class.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-fauxPropertiesList.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-objectPropHierarchy.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "range_class" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:range_class.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Rango de clase"@es ;
+        rdfs:label       "Étendue de la classe"@fr-CA ;
+        rdfs:label       "Класс диапазона"@ru-RU ;
+        rdfs:label       "intervalo da Classe"@pt-BR ;
+        rdfs:label       "Range Class"@de-DE ;
+        rdfs:label       "Range Class"@en-CA ;
+        rdfs:label       "Range Class"@en-US ;
+        rdfs:label       "Klasa raspona"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "range_class" ;
+        prop:hasPackage  "Vitro-languages" .

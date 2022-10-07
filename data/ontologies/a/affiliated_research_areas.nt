@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "affiliated_research_areas" .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Affiliated Research Areas"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Affiliated Research Areas"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Afiliadas Áreas de Investigação"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Domaines de recherche associés"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Povezane oblasti istraživanja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "verwandte Forschungsgebiete"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Áreas de investigación afiliadas"@es .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Аффилированные области исследований"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "affiliated_research_areas" .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Affiliated Research Areas"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-affiliated-research-areas.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "affiliated_research_areas" .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#affiliated_research_areas.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

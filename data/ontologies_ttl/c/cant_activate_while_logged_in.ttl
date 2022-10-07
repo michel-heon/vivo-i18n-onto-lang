@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cant_activate_while_logged_in.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Vous ne pouvez pas activer le compte {0} lorsque vous êtes connecté en tant que {1}. Veuillez essayer de vous reconnecter."@fr-CA ;
+        rdfs:label       "Usted no puede activar la cuenta para {0} mientras está conectado como {1}. Por favor, cierre la sesión y vuelva a intentarlo."@es ;
+        rdfs:label       "Ne možete aktivirati nalog korisnika {0} dok ste prijavljeni kao {1}. Odjavite se i pokušajte ponovo."@sr-Latn-RS ;
+        rdfs:label       "Você não pode ativar a conta para {0} enquanto você está logado como {1}. Por favor, saia e tente novamente."@pt-BR ;
+        rdfs:label       "Sie können das Konto für {0} nicht aktivieren während Sie als {1} angemeldet sind. Bitte melden Sie ab und versuchen Sie es erneut."@de-DE ;
+        rdfs:label       "Вы не можете активировать учетную запись для {0}, если вошли в систему как {1}. Пожалуйста, выйдите из системы и повторите попытку."@ru-RU ;
+        rdfs:label       "You may not activate the account for {0} while you are logged in as {1}. Please log out and try again."@en-US ;
+        rdfs:label       "You may not activate the account for {0} while you are logged in as {1}. Please log out and try again."@en-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "cant_activate_while_logged_in" ;
+        prop:hasPackage  "Vitro-languages" .

@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selected_publisher.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_publisher" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:selected_publisher.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Selected Publisher"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_publisher" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:selected_publisher.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Editorial seleccionada"@es ;
+        rdfs:label       "Выбранное издательство"@ru-RU ;
+        rdfs:label       "Selected Publisher"@en-US ;
+        rdfs:label       "Selected Publisher"@en-CA ;
+        rdfs:label       "Publicação Selecionada"@pt-BR ;
+        rdfs:label       "Maison d'édition choisie"@fr-CA ;
+        rdfs:label       "Odabran izdavač"@sr-Latn-RS ;
+        rdfs:label       "ausgewählter Verlag"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_publisher" ;
+        prop:hasPackage  "VIVO-languages" .

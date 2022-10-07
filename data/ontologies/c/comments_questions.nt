@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "comments_questions" .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Comentarios, preguntas o sugerencias"@es .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Comentários, perguntas ou sugestões"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Comments, questions, or suggestions"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Comments, questions, or suggestions"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Komentari, pitanja, ili predlozi"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Kommentare, Fragen oder Anregungen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Questions, commentaires ou suggestions"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Комментарии, вопросы или предложения"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "comments_questions" .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#comments_questions.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

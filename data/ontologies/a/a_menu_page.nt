@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "a_menu_page" .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ceci est une page de menu"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Dies ist eine Menüseite"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Esta es una página del menú principal"@es .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Esta é uma página de menu"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ovo je meni-stranica"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This is a menu page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This is a menu page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Это страница меню"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "a_menu_page" .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#a_menu_page.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

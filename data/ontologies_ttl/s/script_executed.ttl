@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:script_executed.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "script_executed" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:script_executed.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Script being executed"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "script_executed" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:script_executed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Skripta se izvršava"@sr-Latn-RS ;
+        rdfs:label       "Script a ser executado"@pt-BR ;
+        rdfs:label       "Script ejecutado"@es ;
+        rdfs:label       "Le script s'exécute"@fr-CA ;
+        rdfs:label       "Script being executed"@de-DE ;
+        rdfs:label       "Script being executed"@en-CA ;
+        rdfs:label       "Script being executed"@en-US ;
+        rdfs:label       "Выполняющийся сценарий"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "script_executed" ;
+        prop:hasPackage  "VIVO-languages" .

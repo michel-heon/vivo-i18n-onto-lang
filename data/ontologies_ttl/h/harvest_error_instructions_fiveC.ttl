@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_error_instructions_fiveC.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Protokollverzeichnis und die/der Webserver-NutzerIn hat Lese- und Schreibzugang dazu."@de-DE ;
+        rdfs:label       "и пользователю веб-сервера разрешён доступ к нему для чтения и записи."@ru-RU ;
+        rdfs:label       "directory exists and the web server user has read and write access to it."@en-US ;
+        rdfs:label       "directory exists and the web server user has read and write access to it."@en-CA ;
+        rdfs:label       "El directorio existe y el usuario del servidor web ha leido y escrito el acceso a esto."@es ;
+        rdfs:label       "direktoriju postoji, i korisnik veb servera ima pravo pristupa za čitanje i pisanje u okviru tog direktorijuma."@sr-Latn-RS ;
+        rdfs:label       "diretório existe e o usuário do servidor web tem acesso de leitura e ele escrever."@pt-BR ;
+        rdfs:label       "existe et l'usager du serveur web en a les droits de lecture et d'écriture."@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fiveC" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:harvest_error_instructions_fiveC.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "directory exists and the web server user has read and write access to it."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fiveC" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:harvest_error_instructions_fiveC.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fiveC" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

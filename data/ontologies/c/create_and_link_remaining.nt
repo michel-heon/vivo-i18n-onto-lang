@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_remaining" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Aún hay {0} pendientes"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Es sind noch {0} IDs übrig."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Há {0} IDs restantes"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ima još {0} preostalig id-eva"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There are {0} ids remaining"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There are {0} ids remaining"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "{0} identifiants restants"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Осталось {0} идентификаторов"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_remaining" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_remaining.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

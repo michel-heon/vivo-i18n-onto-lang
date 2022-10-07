@@ -1,0 +1,41 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:with_unknown_year.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "with_unknown_year" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:with_unknown_year.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "con año desconocido"@es ;
+        rdfs:label       "sa nepoznatom godinom"@sr-Latn-RS ;
+        rdfs:label       "avec année incertaine"@fr-CA ;
+        rdfs:label       "ano desconhecido"@pt-BR ;
+        rdfs:label       "with unknown year"@en-CA ;
+        rdfs:label       "with unknown year"@en-US ;
+        rdfs:label       "mit unbekanntem Jahr"@de-DE ;
+        rdfs:label       "с неизвестным годом"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "with_unknown_year" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:with_unknown_year.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "with unknown year"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "with_unknown_year" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

@@ -1,0 +1,41 @@
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/body/individual/individual--foaf-person_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "claim_publications_by_pmid" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/individual--foaf-person_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "claim_publications_by_pmid" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "claim_publications_by_pmid" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identifiant PubMed"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "PubMed ID"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "PubMed ID"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "PubMed ID"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "PubMed ID"@es .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "PubMed ID"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "\"PubMed\" ID"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Идентификатор PubMed ID"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/body/individual/individual--foaf-person.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "claim_publications_by_pmid" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/individual--foaf-person.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "claim_publications_by_pmid" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#claim_publications_by_pmid.VIVO.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

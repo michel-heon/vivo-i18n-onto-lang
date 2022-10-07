@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_term_error_near.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "O termo de pesquisa teve um erro perto"@pt-BR ;
+        rdfs:label       "Поисковый запрос содержал ошибку рядом с"@ru-RU ;
+        rdfs:label       "Der Suchbegriff enthält einen Fehler bei"@de-DE ;
+        rdfs:label       "The search term had an error near"@en-CA ;
+        rdfs:label       "The search term had an error near"@en-US ;
+        rdfs:label       "El término de búsqueda tuvo un error"@es ;
+        rdfs:label       "L'expression de recherche comporte une erreur"@fr-CA ;
+        rdfs:label       "Izraz za pretragu je imao grešku u okolini"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_term_error_near" ;
+        prop:hasPackage  "Vitro-languages" .

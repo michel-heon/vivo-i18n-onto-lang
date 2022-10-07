@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:page_uri_missing.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Nenhuma URI da página especificada"@pt-BR ;
+        rdfs:label       "No hay URI de página especificado"@es ;
+        rdfs:label       "Keine Seiten-URI angegeben"@de-DE ;
+        rdfs:label       "Niste naveli URI stranice."@sr-Latn-RS ;
+        rdfs:label       "Не указан URI страницы"@ru-RU ;
+        rdfs:label       "Page URI non spécifiée"@fr-CA ;
+        rdfs:label       "No page URI specified"@en-CA ;
+        rdfs:label       "No page URI specified"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "page_uri_missing" ;
+        prop:hasPackage  "Vitro-languages" .

@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:step_two.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Step 2"@en-CA ;
+        rdfs:label       "Step 2"@en-US ;
+        rdfs:label       "Korak 2"@sr-Latn-RS ;
+        rdfs:label       "Schritt 2"@de-DE ;
+        rdfs:label       "Paso 2"@es ;
+        rdfs:label       "Passo 2"@pt-BR ;
+        rdfs:label       "Étape 2"@fr-CA ;
+        rdfs:label       "Этап 2"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "step_two" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:step_two.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "step_two" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:step_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Step 2"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "step_two" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_classes_to_display.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "You must select the classes to display."@en-CA ;
+        rdfs:label       "You must select the classes to display."@en-US ;
+        rdfs:label       "Debe seleccionar las clases a mostrar"@es ;
+        rdfs:label       "Следует выбрать классы для отображения."@ru-RU ;
+        rdfs:label       "Sie müssen die anzuzeigenden Klassen auswählen."@de-DE ;
+        rdfs:label       "Vous devez sélectionner la classe à afficher."@fr-CA ;
+        rdfs:label       "Morate odabrati klase koje će biti prikazane."@sr-Latn-RS ;
+        rdfs:label       "Você deve selecionar as classes para exibir."@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_classes_to_display" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:select_classes_to_display.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--browseClassGroups.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_classes_to_display" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

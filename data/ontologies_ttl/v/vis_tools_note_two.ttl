@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vis_tools_note_two.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_two" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:vis_tools_note_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_two" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:vis_tools_note_two.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Для этого мы разработали кэширующее решение, которое сохраняет информацию об иерархии организаций, а именно, какие публикации приписываются каким организациям, в виде RDF-модели."@ru-RU ;
+        rdfs:label       "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-CA ;
+        rdfs:label       "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-US ;
+        rdfs:label       "Implementirano je keširanje koje čuva informacije o hierarhiji organizacija -- pre svega koje publikacije pripadaju kojoj organizaciji -- tako što se čuva RDF model u memoriji."@sr-Latn-RS ;
+        rdfs:label       "Para ello hemos diseñado una solución de almacenamiento en caché que mantendrá información sobre la jerarquía de las organizaciones - a saber,que publicaciones están asociadas a que organizaciones - almacenando el modelo RDF."@es ;
+        rdfs:label       "À cette fin, nous avons conçu une solution de mise en mémoire cache qui conservera les informations sur la hiérarchie des organisations - à savoir, quelles publications sont attribuées à quelles organisations - en stockant le modèle RDF."@fr-CA ;
+        rdfs:label       "Zu diesem Zweck haben wir eine Zwischenspeicherungslösung entwickelt, die durch die Speicherung des RDF-Modells Informationen über die Hierarchie der Organisationen speichert -- d. h. welche Publikationen welchen Organisationen zugerechnet werden."@de-DE ;
+        rdfs:label       "Para este fim, criaram uma solução de cache que irá reter informações sobre a hierarquia das organizações - a saber, que as publicações são atribuídos a que as organizações - por armazenar o modelo RDF."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_two" ;
+        prop:hasPackage  "VIVO-languages" .

@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:step_three.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "step_three" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:step_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Step 3"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "step_three" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:step_three.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Schritt 3"@de-DE ;
+        rdfs:label       "Step 3"@en-CA ;
+        rdfs:label       "Step 3"@en-US ;
+        rdfs:label       "Étape 3"@fr-CA ;
+        rdfs:label       "Paso 3"@es ;
+        rdfs:label       "Этап 3"@ru-RU ;
+        rdfs:label       "Korak 3"@sr-Latn-RS ;
+        rdfs:label       "Passo 3"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "step_three" ;
+        prop:hasPackage  "VIVO-languages" .

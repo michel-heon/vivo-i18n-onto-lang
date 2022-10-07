@@ -1,0 +1,23 @@
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_no_last_name" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Debe proporcionar su apellido."@es .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Morate uneti prezime."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sie müssen einen Nachnamen angeben."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Você deve fornecer um sobrenome."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vous devez inscrire un nom de famille."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must supply a last name."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must supply a last name."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Следует указать фамилию."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-firstTimeExternal.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_no_last_name" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_last_name.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

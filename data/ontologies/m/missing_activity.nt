@@ -1,0 +1,28 @@
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "missing_activity" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "activité manquante"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "aktivnost nedostaje"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "atividade não encontrada"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "falta la actividad"@es .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "fehlende Aktivität"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "missing activity"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "missing activity"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "недостаёт мероприятия"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "missing_activity" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "missing activity"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-hasInvestigatorRole.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-hasRole.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "missing_activity" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_activity.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

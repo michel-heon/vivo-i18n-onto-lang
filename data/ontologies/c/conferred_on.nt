@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "conferred_on" .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "attribué pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "conferida a"@es .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "conferido"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "conferred on"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "conferred on"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "dodeljena"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "verliehen an"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "кому выдана"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "conferred_on" .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "conferred on"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-awardOrHonorGiven.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "conferred_on" .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#conferred_on.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

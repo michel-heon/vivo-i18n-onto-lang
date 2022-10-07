@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "new_pwd_matches_existing" .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ihr neues Passwort muss sich von Ihrem bestehenden Passwort unterscheiden."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Su nueva contraseña debe ser diferente de la contraseña existente."@es .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sua nova senha deve ser diferente da sua senha já existente."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vaša nova lozinka mora biti različita od Vaše trenutne lozinke."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Votre nouveau mot de passe doit être différent de l'ancien."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Your new password must be different from your existing password."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Your new password must be different from your existing password."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ваш новый пароль должен отличаться от действующего пароля."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/login/adminLogin.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "new_pwd_matches_existing" .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#new_pwd_matches_existing.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

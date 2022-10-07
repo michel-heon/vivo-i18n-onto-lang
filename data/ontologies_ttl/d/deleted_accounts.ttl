@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:deleted_accounts.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "deleted_accounts" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:deleted_accounts.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "{0} détruits {0, choice, 0#accounts|1#account|1<accounts}."@fr-CA ;
+        rdfs:label       "{0} {0, choice, 0#naloga|1#nalog|1<naloga} je {0, choice, 0#obrisano|1#obrisan|1<obrisano}."@sr-Latn-RS ;
+        rdfs:label       "Удалено: {0} {0, choice, 0#учётных записей|1#учётная запись|2#учётные записи|1<учётных записей}."@ru-RU ;
+        rdfs:label       "Borrado {0} {0, choice, 0#accounts |1#account |1<accounts}."@es ;
+        rdfs:label       "Deletar {0} {0, choice, 0 # contas | 1 # conta | 1 <contas}."@pt-BR ;
+        rdfs:label       "Deleted {0} {0, choice, 0#accounts|1#account|1<accounts}."@en-CA ;
+        rdfs:label       "Deleted {0} {0, choice, 0#accounts|1#account|1<accounts}."@en-US ;
+        rdfs:label       "{0} {0, Auswahl, 0#Konten|1#Konto|1<Konten} gelöscht ."@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "deleted_accounts" ;
+        prop:hasPackage  "Vitro-languages" .

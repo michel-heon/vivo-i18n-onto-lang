@@ -1,0 +1,28 @@
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_or_select_grant" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bitte einen Wert im Feld Name des Forschungsprojektes eintragen oder auswählen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Choisir ou saisir une valeur pour le champ Nom de la subvention."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Molimo Vas unesite vrednost, ili odaberize neku od ponuđenih za naziv granta."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter or select a value in the Grant Name field."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter or select a value in the Grant Name field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, Digite ou selecione um valor no campo do Nome do Grant."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, introduzca o seleccione un valor en el campo nombre de subvención."@es .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста, введите или выберите значение в поле Название гранта."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_or_select_grant" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter or select a value in the Grant Name field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addGrantRoleToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationAdministersGrant.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_or_select_grant" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_or_select_grant.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

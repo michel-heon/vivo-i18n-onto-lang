@@ -1,0 +1,61 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_content_create_groups_classes.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_content_create_groups_classes" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:no_content_create_groups_classes.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Il n'y a actuellement aucun contenu dans le système, ou vous devez créer des groupes de classes et leur affecter vos classes."@fr-CA ;
+        rdfs:label       "Actualmente no hay contenido en el sistema, se necesita crear grupos de clase y asignar sus clases a ellos."@es ;
+        rdfs:label       "Trenutno nema sadržaja u sistemu, ili treba da kreirate grupu klasa i pridružite joj Vaše klase."@sr-Latn-RS ;
+        rdfs:label       "Es gibt derzeit keine Inhalte im System oder Sie müssen Klassengruppen erstellen und Ihre Klassen zu ihnen zuweisen."@de-DE ;
+        rdfs:label       "В системе пока не найдено содержимое или необходимо создать группу классов и назначить ей классы."@ru-RU ;
+        rdfs:label       "There is currently no content in the system, or you need to create class groups and assign your classes to them."@en-CA ;
+        rdfs:label       "There is currently no content in the system, or you need to create class groups and assign your classes to them."@en-US ;
+        rdfs:label       "Atualmente não existe nenhum conteúdo no sistema, logo você precisa criar alguns grupos de classe e atribuir suas classes para elas."@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "no_content_create_groups_classes" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:no_content_create_groups_classes.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_content_create_groups_classes" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:no_content_create_groups_classes.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-home-page.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_content_create_groups_classes" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:no_content_create_groups_classes.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/classgroups-checkForData.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/browse-classgroups.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "no_content_create_groups_classes" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

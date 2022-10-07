@@ -1,0 +1,22 @@
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "group_name" .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gruppenname"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Nombre del grupo"@es .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "group name"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "group name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "naziv grupe"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nom du groupe"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nome do grupo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "название группы"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-property-group-menus.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-propertyGroupMenu.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-browse.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "group_name" .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#group_name.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

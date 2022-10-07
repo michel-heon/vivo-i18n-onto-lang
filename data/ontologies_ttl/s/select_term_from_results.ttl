@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_term_from_results.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Por favor, seleccione al menos un término de los resultados de búsqueda."@es ;
+        rdfs:label       "Molimo Vas odaberite barem jedan izraz iz rezultata pretrage."@sr-Latn-RS ;
+        rdfs:label       "Veuillez sélectionner au moins un terme dans les résultats de recherche."@fr-CA ;
+        rdfs:label       "Пожалуйста, выберите хотя бы один термин из результатов поиска."@ru-RU ;
+        rdfs:label       "Por favor, selecione pelo menos um termo a partir dos resultados de busca de busca."@pt-BR ;
+        rdfs:label       "Bitte wählen Sie mindestens einen Begriff aus den Suchergebnissen aus."@de-DE ;
+        rdfs:label       "Please select at least one term from the search search results."@en-CA ;
+        rdfs:label       "Please select at least one term from the search search results."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_term_from_results" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:select_term_from_results.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_term_from_results" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:select_term_from_results.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Please select at least one term from the search search results."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_term_from_results" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

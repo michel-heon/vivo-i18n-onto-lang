@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:max_entity_note.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Es können höchstens 10 Entitäten verglichen werden. Bitte löschen Sie eine Auswahl und versuchen Sie es dann erneut."@de-DE ;
+        rdfs:label       "Možete uporediti maksimum 10 entiteta. Molimo Vas da uklonite višak i pokušate ponovo."@sr-Latn-RS ;
+        rdfs:label       "máximo 10 entidades podem ser comparados. Por favor, remova alguns e tente novamente."@pt-BR ;
+        rdfs:label       "Ондновременно можно сравнивать до 10 объектов. Пожалуйста удалите какие-нибудь объекты и попробуйте заново."@ru-RU ;
+        rdfs:label       "A Maximum 10 entities can be compared. Please remove some & try again."@en-US ;
+        rdfs:label       "A Maximum 10 entities can be compared. Please remove some & try again."@en-CA ;
+        rdfs:label       "Un maximum de 10 entités peuvent être comparées. SVP, retirez-en quelques unes et recommencez."@fr-CA ;
+        rdfs:label       "Un máximo de 10 entidades se pueden comparar. Elimine algunas y vuelve a intentarlo."@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "max_entity_note" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:max_entity_note.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "A Maximum 10 entities can be compared. Please remove some & try again."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "max_entity_note" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:max_entity_note.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "max_entity_note" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

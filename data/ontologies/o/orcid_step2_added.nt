@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "orcid_step2_added" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Ihr ORCID Eintrag wurde mit VIVO verknüpft.</p>"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Seu registro ORCID está vinculado ao VIVO</p>"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Su registro ORCID está conectado a VIVO</p>"@es .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Vaš ORCID sadržaj je povezan sa VIVO-om</p>"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Votre dossier ORCID est lié à VIVO</p>"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Your ORCID record is linked to VIVO</p>"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Your ORCID record is linked to VIVO</p>"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Ваша запись ORCID связана с VIVO</p>"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "orcid_step2_added" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_added.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_error_instructions_fourC.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "directory and all of its children."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fourC" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:harvest_error_instructions_fourC.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "direktorijumu i svom sadržaju istog."@sr-Latn-RS ;
+        rdfs:label       "et tous ses enfants."@fr-CA ;
+        rdfs:label       "directory and all of its children."@en-CA ;
+        rdfs:label       "directory and all of its children."@en-US ;
+        rdfs:label       "Verzeichnis und alle Unterverzeichnisse"@de-DE ;
+        rdfs:label       "diretório e todos os seus filhos."@pt-BR ;
+        rdfs:label       "и все его подкаталоги."@ru-RU ;
+        rdfs:label       "directorio y todos sus hijos."@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fourC" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:harvest_error_instructions_fourC.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fourC" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

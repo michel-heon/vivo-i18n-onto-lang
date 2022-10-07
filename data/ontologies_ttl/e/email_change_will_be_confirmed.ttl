@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:email_change_will_be_confirmed.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "email_change_will_be_confirmed" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:email_change_will_be_confirmed.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Примечание: при изменении адреса электронной почты будет отправлено письмо с подтверждением на указанный выше новый адрес электронной почты."@ru-RU ;
+        rdfs:label       "Nota: si el correo electrónico cambia, un mensaje de confirmación será enviado a la nueva dirección de correo electrónico indicada anteriormente."@es ;
+        rdfs:label       "Note: en cas de changement de courriel, une confirmation sera transmise à l'adresse ci-dessus."@fr-CA ;
+        rdfs:label       "Napomena: ako promenite email adresu, email sa potvrdom će biti poslat na novu adresu."@sr-Latn-RS ;
+        rdfs:label       "Hinweis: Bei Änderung der E-Mail-Adresse, wird eine Bestätigungsmail an die neue E-Mail-Adresse gesendet."@de-DE ;
+        rdfs:label       "Note: if email changes, a confirmation email will be sent to the new email address entered above."@en-CA ;
+        rdfs:label       "Note: if email changes, a confirmation email will be sent to the new email address entered above."@en-US ;
+        rdfs:label       "Nota: se modificar o seu e-mail, um e-mail de confirmação será enviado para o novo endereço de e-mail digitado acima."@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "email_change_will_be_confirmed" ;
+        prop:hasPackage  "Vitro-languages" .

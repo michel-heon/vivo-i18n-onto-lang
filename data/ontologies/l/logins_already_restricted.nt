@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "logins_already_restricted" .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "El inicio de sesión se encuentra restringido."@es .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "L'accès est déjà restreint."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Logins are already restricted."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Logins are already restricted."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Logins já são restritos."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Logins sind bereits eingeschränkt."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Prijavljivanje je već ograničeno."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Вход в систему уже ограничен."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-restrictLogins.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "logins_already_restricted" .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#logins_already_restricted.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

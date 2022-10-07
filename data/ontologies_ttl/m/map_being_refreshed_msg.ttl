@@ -1,0 +1,41 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:map_being_refreshed_msg.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceSetup.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_being_refreshed_msg" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:map_being_refreshed_msg.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_being_refreshed_msg" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:map_being_refreshed_msg.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "est en cours de rafraîchissement. La visualisation se chargera dès que nous aurons terminé le calcul. Pendant ce temps, vous pouvez rechercher ou parcourir d'autres données dans VIVO et revenir dans quelques minutes."@fr-CA ;
+        rdfs:label       "в настоящее время обновляется. Визуализация будет загружена, как только мы закончим вычисления, или вы можете поискать или просмотреть другие данные в VIVO и вернуться к ним через несколько минут."@ru-RU ;
+        rdfs:label       "ahora está siendo actualizada. La visualización se cargará tan pronto como hayamos terminado de calcular, o puede buscar o navegar por otros datos en VIVO y regresar en unos minutos."@es ;
+        rdfs:label       "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-CA ;
+        rdfs:label       "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US ;
+        rdfs:label       "werden aktualisiert. Die Visualisierung wird geladen, sobald die Berechnung abgeschlossen ist - Sie können VIVO durchstöbern oder nach anderen Daten suchen und in wenigen Minuten zurückkehren."@de-DE ;
+        rdfs:label       "se trenutno osvežava. Vizualizacije će biti prikazana čim se završi proračunavanje, možete da pretražujete ostale podatke unutar VIVO-a, i da se vratite na ovu stranicu za nekoliko minuta."@sr-Latn-RS ;
+        rdfs:label       "está sendo atualizado. A visualização será carregado, logo que estamos a fazer computing, ou você pode pesquisar ou procurar outros dados in vivo e voltar em poucos minutos."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_being_refreshed_msg" ;
+        prop:hasPackage  "VIVO-languages" .

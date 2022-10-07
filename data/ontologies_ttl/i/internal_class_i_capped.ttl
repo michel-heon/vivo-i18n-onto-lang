@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:internal_class_i_capped.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Classes internes à l'institution"@fr-CA ;
+        rdfs:label       "Institutional internal class"@en-CA ;
+        rdfs:label       "Institutional internal class"@en-US ;
+        rdfs:label       "Institutionelle interne Klasse"@de-DE ;
+        rdfs:label       "Clase interna institucional"@es ;
+        rdfs:label       "Classe Institutional Interna"@pt-BR ;
+        rdfs:label       "Institucionalna interna klasa"@sr-Latn-RS ;
+        rdfs:label       "​﻿​﻿​Собственный класс для учреждения"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "internal_class_i_capped" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:internal_class_i_capped.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteConfiguration.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "internal_class_i_capped" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

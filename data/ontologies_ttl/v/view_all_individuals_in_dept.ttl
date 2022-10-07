@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:view_all_individuals_in_dept.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-affiliated-dept-details.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "view_all_individuals_in_dept" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:view_all_individuals_in_dept.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "View all individuals in this organization."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "view_all_individuals_in_dept" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:view_all_individuals_in_dept.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Voir toutes les personnes de cette organisation."@fr-CA ;
+        rdfs:label       "Prikažite sve osobe u ovoj organizaciji."@sr-Latn-RS ;
+        rdfs:label       "View all individuals in this organization."@en-CA ;
+        rdfs:label       "View all individuals in this organization."@en-US ;
+        rdfs:label       "Ver todos los individuos de esta organización."@es ;
+        rdfs:label       "Ver todos os indivíduos desta organização."@pt-BR ;
+        rdfs:label       "Alle Personen in dieser Organisation anzeigen."@de-DE ;
+        rdfs:label       "Показать всех в данной организации."@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "view_all_individuals_in_dept" ;
+        prop:hasPackage  "VIVO-languages" .

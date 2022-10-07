@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:unable_to_handle_grant_editing.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "unable_to_handle_grant_editing" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:unable_to_handle_grant_editing.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Esta forma no es capaz de manejar la edición de esta subvención, debido a que se encuentra asociada con múltiples subvenciones individuales."@es ;
+        rdfs:label       "Impossible d'éditer cette subvention depuis le formulaire: la subvention est associée à plusieurs chercheur(-euse)s."@fr-CA ;
+        rdfs:label       "Эта форма не может обработать редактирование данного гранта, так как он связан с несколькими лицами гранта."@ru-RU ;
+        rdfs:label       "Dieses Formular kann die Bearbeitung dieses Forschungsprojektes nicht ausführen, da es mit mehreren einzelnen Forschungsprojekten verbunden ist."@de-DE ;
+        rdfs:label       "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-CA ;
+        rdfs:label       "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-US ;
+        rdfs:label       "Preko ove forme ne možete da ažurirate ovu stipendiju zato što se vezuje za više osoba."@sr-Latn-RS ;
+        rdfs:label       "Este formulário é incapaz de lidar com a edição desta subvenção, pois está associada a vários indivíduos de subvenção."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "unable_to_handle_grant_editing" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:unable_to_handle_grant_editing.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Dieses Formular kann die Bearbeitung dieses Forschungsprojektes nicht ausführen, da es mit mehreren einzelnen Forschungsprojekten verbunden ist."@de-DE ;
+        rdfs:label       "Невозможно отредактировать описание этого гранта при помощи данной формы, поскольку оно связано одновременно с несколькими участниками гранта."@ru-RU ;
+        rdfs:label       "Impossible d'éditer cette subvention depuis le formulaire. La subvention est associée à plusieurs chercheur(-euse)s."@fr-CA ;
+        rdfs:label       "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-CA ;
+        rdfs:label       "This form is unable to handle the editing of this grant because it is associated with multiple grant individuals."@en-US ;
+        rdfs:label       "Este formulário é incapaz de lidar com a edição desta subvenção, pois está associada a vários indivíduos de subvenção."@pt-BR ;
+        rdfs:label       "Esta forma no es capaz de manejar la edición de esta subvención, debido a que se encuentra asociada con múltiples subvenciones individuales."@es ;
+        rdfs:label       "Nije moguće modifikovati ovaj itip grant-a, jer je povezan sa više različitih grant-ova."@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "unable_to_handle_grant_editing" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .

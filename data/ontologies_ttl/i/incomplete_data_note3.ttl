@@ -1,0 +1,42 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:incomplete_data_note3.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Log in to enter additional details about your publications on your profile page."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "incomplete_data_note3" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:incomplete_data_note3.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "incomplete_data_note3" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:incomplete_data_note3.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Iniciar sesión para entrar en detalles acerca de sus publicaciones en la página de perfil."@es ;
+        rdfs:label       "Loggen Sie sich ein, um auf Ihrer Profilseite zusätzliche Angaben zu Ihren Publikationen zu machen."@de-DE ;
+        rdfs:label       "Connectez-vous pour inscrire des informations supplémentaires concernant vos publications apparaissant sur votre page de profil."@fr-CA ;
+        rdfs:label       "Faça login para entrar detalhes adicionais sobre suas publicações na sua página de perfil."@pt-BR ;
+        rdfs:label       "Log in to enter additional details about your publications on your profile page."@en-CA ;
+        rdfs:label       "Log in to enter additional details about your publications on your profile page."@en-US ;
+        rdfs:label       "Войдите в систему для добавления информации о ваших публикациях на странице вашего профиля."@ru-RU ;
+        rdfs:label       "Prijavite se kako bi ste uneli dodatne informacije o Vašim radovima."@sr-Latn-RS ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "incomplete_data_note3" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "" .

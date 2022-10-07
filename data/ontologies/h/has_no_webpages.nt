@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "has_no_webpages" .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Aucune page web n'est associée à cette personne. Ajouter une page web en cliquant sur le bouton ci-dessous."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Esta persona no tiene actualmente páginas web. Agregue una nueva página web haciendo clic en el botón de abajo."@es .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Este indivíduo não há páginas web específicas. Adicione uma nova página web, clicando no botão abaixo."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Für diese Kategorie sind zur Zeit keine Webseiten definiert. Fügen Sie eine neue Webseite durch einen Klick auf den Button unten hinzu."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ova osoba trenutno nema veb stranicu specificiranu. Dodajte novu veb stranicu klikom na dugme ispod."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This individual currently has no web pages specified. Add a new web page by clicking on the button below."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This individual currently has no web pages specified. Add a new web page by clicking on the button below."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Для этого объекта пока не указаны веб-страницы. Добавьте новую веб-страницу, нажав на кнопку ниже."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "has_no_webpages" .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "This individual currently has no web pages specified. Add a new web page by clicking on the button below."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "has_no_webpages" .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#has_no_webpages.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

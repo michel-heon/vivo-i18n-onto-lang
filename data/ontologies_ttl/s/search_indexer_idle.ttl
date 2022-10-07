@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_indexer_idle.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "L'indexeur de recherche est inactif."@fr-CA ;
+        rdfs:label       "Индексатор поиска простаивает."@ru-RU ;
+        rdfs:label       "Indeks pretrage je neaktivan."@sr-Latn-RS ;
+        rdfs:label       "The search indexer is idle."@en-CA ;
+        rdfs:label       "The search indexer is idle."@en-US ;
+        rdfs:label       "O indexador de pesquisa está ocioso."@pt-BR ;
+        rdfs:label       "El indexador de búsqueda está inactivo."@es ;
+        rdfs:label       "Die Suchindizierung ist im Leerlauf."@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_indexer_idle" ;
+        prop:hasPackage  "Vitro-languages" .

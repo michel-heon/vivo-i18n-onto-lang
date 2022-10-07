@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:reordering_menus_failed.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Reordering of menu items failed."@en-US ;
+        rdfs:label       "Reordering of menu items failed."@en-CA ;
+        rdfs:label       "Переупорядочивание пунктов меню не удалось."@ru-RU ;
+        rdfs:label       "Error al reordenar los elementos de menú."@es ;
+        rdfs:label       "Promena redosleda stavki u meniju nije uspela."@sr-Latn-RS ;
+        rdfs:label       "reordenação de itens de menu falhou."@pt-BR ;
+        rdfs:label       "La réorganisation des éléments du menu a échoué."@fr-CA ;
+        rdfs:label       "Neuanordnung von Menüpunkten ist fehlgeschlagen."@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "reordering_menus_failed" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:reordering_menus_failed.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-menu.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "reordering_menus_failed" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:reordering_menus_failed.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-menu.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "reordering_menus_failed" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

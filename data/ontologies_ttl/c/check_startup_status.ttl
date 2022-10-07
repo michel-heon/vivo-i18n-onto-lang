@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:check_startup_status.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Verificar página de status de inicialização e / ou registros do Tomcat para obter mais informações."@pt-BR ;
+        rdfs:label       "Compruebe el estatus de la página de inicio y/o registros de Tomcat para obtener más información."@es ;
+        rdfs:label       "Proverite stranicu 'status pokretanja' i/ili logove veb servera za više informacija."@sr-Latn-RS ;
+        rdfs:label       "Vérifier la page de statut du démarrage et/ou les journaux de Tomcat pour plus d'informations."@fr-CA ;
+        rdfs:label       "Prüfen Sie die Statusseite des Startvorganges und/oder Tomcat-Protokolle für weitere Informationen."@de-DE ;
+        rdfs:label       "Check startup status page and/or Tomcat logs for more information."@en-CA ;
+        rdfs:label       "Check startup status page and/or Tomcat logs for more information."@en-US ;
+        rdfs:label       "Проверьте страницу состояния запуска и/или журналы Tomcat для получения дополнительной информации."@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "check_startup_status" ;
+        prop:hasPackage  "Vitro-languages" .

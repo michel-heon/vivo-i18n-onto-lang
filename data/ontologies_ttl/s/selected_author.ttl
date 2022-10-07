@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selected_author.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_author" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:selected_author.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Selected Author"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_author" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:selected_author.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "ausgewählte/r AutorIn"@de-DE ;
+        rdfs:label       "Autor seleccionado"@es ;
+        rdfs:label       "Autor Selecionado"@pt-BR ;
+        rdfs:label       "Выбранный автор"@ru-RU ;
+        rdfs:label       "Selected Author"@en-CA ;
+        rdfs:label       "Selected Author"@en-US ;
+        rdfs:label       "Odabrani Autori"@sr-Latn-RS ;
+        rdfs:label       "Auteur(e) choisi(e)"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_author" ;
+        prop:hasPackage  "VIVO-languages" .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:request_failed.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Anfrage fehlgeschlagen. Bitte kontaktieren Sie Ihren Systemadministrator."@de-DE ;
+        rdfs:label       "La requête a échoué. Veuillez contacter l'administrateur(-trice) système."@fr-CA ;
+        rdfs:label       "Error en la solicitud. Por favor, póngase en contacto con el administrador del sistema."@es ;
+        rdfs:label       "Zahtev nije uspeo. Molimo Vas kontaktirajte Vašeg administratora."@sr-Latn-RS ;
+        rdfs:label       "Request failed. Please contact your system administrator."@en-CA ;
+        rdfs:label       "Request failed. Please contact your system administrator."@en-US ;
+        rdfs:label       "Solicitação falhou. Entre em contato com o administrador do sistema."@pt-BR ;
+        rdfs:label       "Запрос не прошел. Пожалуйста, свяжитесь с вашим системным администратором."@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "request_failed" ;
+        prop:hasPackage  "Vitro-languages" .

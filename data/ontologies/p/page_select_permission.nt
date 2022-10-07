@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_select_permission" .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odaberite dozvole za stranicu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seitenberechtigungen auswählen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seleccione los permisos de página"@es .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selecione as permissões de página"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select page permissions"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select page permissions"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sélectionner les permissions d'accès aux pages"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выберите разрешения для страницы"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_select_permission" .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

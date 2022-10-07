@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:insufficient_authorization.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Lamentamos, mas você não está autorizado a ver a página solicitada. Se você acha que isso é um erro, por favor, entre em contato conosco e teremos o maior prazer em ajudar."@pt-BR ;
+        rdfs:label       "Nemate autoritet da pristupite stranici koju ste zatražili. Ako smatrate da je došlo do greške, molimo Vas kontaktirajte nas kako bi Vam pomogli."@sr-Latn-RS ;
+        rdfs:label       "Lo sentimos, pero no está autorizado para ver la página solicitada. Si cree que esto es un error, por favor póngase en contacto con nosotros para poder ayudarle."@es ;
+        rdfs:label       "Désolé, vous n'êtes pas autorisé à consulter la page demandée. Si vous considérez qu'il s'agit d'une erreur, veuillez contacter le support de VIVO."@fr-CA ;
+        rdfs:label       "Извините, но Вам не разрешено просматривать запрашиваемую страницу. Если Вы считаете, что это ошибка, пожалуйста, свяжитесь с нами, и мы будем рады помочь."@ru-RU ;
+        rdfs:label       "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-CA ;
+        rdfs:label       "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-US ;
+        rdfs:label       "Sie sind zur Anzeige der angefragten Seite nicht berechtigt. Wenn Sie denken, dass dies ein Fehler ist, kontaktieren Sie uns bitte und wir helfen Ihnen gerne weiter."@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "insufficient_authorization" ;
+        prop:hasPackage  "Vitro-languages" .

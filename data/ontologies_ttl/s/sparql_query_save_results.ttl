@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:sparql_query_save_results.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-sparqlQueryForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "sparql_query_save_results" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:sparql_query_save_results.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Sačuvajte rezultate u fajl"@sr-Latn-RS ;
+        rdfs:label       "Сохранить результаты в файл"@ru-RU ;
+        rdfs:label       "Save results to file"@de-DE ;
+        rdfs:label       "Save results to file"@en-US ;
+        rdfs:label       "Save results to file"@es ;
+        rdfs:label       "Save results to file"@fr-CA ;
+        rdfs:label       "Save results to file"@pt-BR ;
+        rdfs:label       "Save results to file"@en-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "sparql_query_save_results" ;
+        prop:hasPackage  "Vitro-languages" .

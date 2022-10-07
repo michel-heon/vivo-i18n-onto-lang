@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_type_report.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Izveštaj"@sr-Latn-RS ;
+        rdfs:label       "Report"@de-DE ;
+        rdfs:label       "Report"@en-CA ;
+        rdfs:label       "Отчёт"@ru-RU ;
+        rdfs:label       "Report"@en-US ;
+        rdfs:label       "Rapport"@fr-CA ;
+        rdfs:label       "Informe"@es ;
+        rdfs:label       "Relatório"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_type_report" ;
+        prop:hasPackage  "VIVO-languages" .

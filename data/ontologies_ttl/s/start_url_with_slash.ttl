@@ -1,0 +1,32 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:start_url_with_slash.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/menuManagement.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "start_url_with_slash" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:start_url_with_slash.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Понятный URL следует начинать с косой черты"@ru-RU ;
+        rdfs:label       "Ulepšan URL mora da počinje sa kosom crtom"@sr-Latn-RS ;
+        rdfs:label       "A URL muito deve começar com uma líder de barra"@pt-BR ;
+        rdfs:label       "The pretty URL must begin with a leading forward slash"@en-US ;
+        rdfs:label       "The pretty URL must begin with a leading forward slash"@en-CA ;
+        rdfs:label       "L'URL conviviale doit débuter par une barre oblique"@fr-CA ;
+        rdfs:label       "Die lesbare URL muss mit einem Schrägstrich beginnen"@de-DE ;
+        rdfs:label       "La URL confiable debe comenzar con una barra diagonal principal"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "start_url_with_slash" ;
+        prop:hasPackage  "Vitro-languages" .

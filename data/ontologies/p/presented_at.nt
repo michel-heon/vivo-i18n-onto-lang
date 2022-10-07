@@ -1,0 +1,31 @@
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "presented_at" .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Presentado en"@es .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Presented At"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Presented At"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Prezentovano na"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Présenté à"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "apresentado na"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "präsentiert bei"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Представлено на"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "presented_at" .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Presented At"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "presented_at" .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#presented_at.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

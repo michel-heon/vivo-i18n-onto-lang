@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "orcid_step1_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Das Auslesen Ihres ORCID Eintrags ist fehlgeschlagen.</p> <p>Die Überprüfung kann nicht fortgesetzt werden.</p>"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>Falla para leer su registro ORCID.</p> <p>La confirmación no puede continuar.</p>"@es .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>VIVO failed to read your ORCID record.</p> <p>Confirmation can't continue.</p>"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>VIVO failed to read your ORCID record.</p> <p>Confirmation can't continue.</p>"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>VIVO falhou ao ler seu registro ORCID.</p> <p>A confirmação não pode continuar.</p>"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>VIVO n'a pas pu lire votre dossier ORCID.</p> <p>La confirmation a échoué.</p>"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>VIVO nije uspeo da pročita vaš ORCID zapis.</p> <p>Nije moguće nastaviti sa procesom potvrde.</p>"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "<p>VIVO не удалось прочитать Вашу запись ORCID.</p><p>Подтверждение не может быть продолжено.</p>"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "orcid_step1_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_failed.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

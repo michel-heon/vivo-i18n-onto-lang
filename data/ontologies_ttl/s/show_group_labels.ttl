@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:show_group_labels.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Afficher les noms"@fr-CA ;
+        rdfs:label       "mostrar las etiquetas de los grupos"@es ;
+        rdfs:label       "Gruppenbeschriftungen einblenden"@de-DE ;
+        rdfs:label       "show group labels"@en-CA ;
+        rdfs:label       "show group labels"@en-US ;
+        rdfs:label       "показать метки групп"@ru-RU ;
+        rdfs:label       "prikažite labele grupa"@sr-Latn-RS ;
+        rdfs:label       "mostrar etiquetas de grupo"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "show_group_labels" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:show_group_labels.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "show_group_labels" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

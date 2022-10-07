@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "missing_person_in_role" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "aucune personne associée à ce rôle"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "falta la persona en este rol"@es .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "fehlende Person in dieser Rolle"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "missing person in this role"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "missing person in this role"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nedostaje osoba sa datom ulogom"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "pessoa não encontrada com este papel"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "недостаёт персоны в этой роли"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "missing_person_in_role" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "missing person in this role"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-relatedRole.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "missing_person_in_role" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#missing_person_in_role.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

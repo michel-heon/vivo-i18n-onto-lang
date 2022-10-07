@@ -1,0 +1,24 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:add_new_entry_for.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Adicionar nova entrada para:"@pt-BR ;
+        rdfs:label       "Добавить новую запись для:"@ru-RU ;
+        rdfs:label       "Agregar nueva entrada para:"@es ;
+        rdfs:label       "Neuen Eintrag hinzufügen für:"@de-DE ;
+        rdfs:label       "Dodajte novi unos za:"@sr-Latn-RS ;
+        rdfs:label       "Add new entry for:"@en-CA ;
+        rdfs:label       "Add new entry for:"@en-US ;
+        rdfs:label       "Ajouter un enregistrement pour:"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "add_new_entry_for" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .

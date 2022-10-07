@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "hide_subclasses" .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ocultar subclasses"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Verberge Subklassen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "hide subclasses"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "hide subclasses"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "masquer les sous-classes"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ocultar subclases"@es .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "sakrijte podklase"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "скрыть подклассы"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-classHierarchy.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "hide_subclasses" .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#hide_subclasses.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

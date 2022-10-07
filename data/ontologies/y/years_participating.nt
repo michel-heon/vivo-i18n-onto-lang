@@ -1,0 +1,34 @@
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "years_participating" .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Années de participation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Años de participación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Godine učestvovanja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Jahre der Mitarbeit"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Years of Participation"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Years of Participation"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "anos de participação"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Годы участия в проекте"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "years_participating" .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Years of Participation"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdviseeRelationship.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdvisorRelationship.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "years_participating" .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

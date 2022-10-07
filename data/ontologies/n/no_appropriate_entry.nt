@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addConceptThroughObjectPropertyCreateNew.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_appropriate_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_appropriate_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ako ne možete da pronađete odgovarajuću stavku iz liste iznad"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "If you don't find the appropriate entry on the selection list above"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "If you don't find the appropriate entry on the selection list above"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Se você não encontrar a entrada apropriada na lista de seleção acima"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Si no encuentra la entrada correspondiente en la lista de selección anterior"@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Si vous ne trouvez pas l'enregistrement approprié dans la liste de sélection ci-dessus"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Wenn Sie keinen den entsprechenden Eintrag in der Auswahlliste oben finden"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Если вы не найдете подходящую запись в списке выбора выше"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultOfferCreateNewOptionForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_appropriate_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_appropriate_entry.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

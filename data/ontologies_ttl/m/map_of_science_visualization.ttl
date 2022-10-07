@@ -1,0 +1,41 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:map_of_science_visualization.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Map of Science Visualization"@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_of_science_visualization" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:map_of_science_visualization.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_of_science_visualization" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:map_of_science_visualization.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Vizualizacije naučne mape"@sr-Latn-RS ;
+        rdfs:label       "Визуализация карты науки"@ru-RU ;
+        rdfs:label       "Visualisation de la carte des sciences"@fr-CA ;
+        rdfs:label       "Map of Science Visualization"@en-CA ;
+        rdfs:label       "Map of Science Visualization"@en-US ;
+        rdfs:label       "Visualisierung der Wissenschaftslandkarte"@de-DE ;
+        rdfs:label       "Visualización del Mapa de la Ciencia"@es ;
+        rdfs:label       "Mapa de Visualization Ciência"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_of_science_visualization" ;
+        prop:hasPackage  "VIVO-languages" .

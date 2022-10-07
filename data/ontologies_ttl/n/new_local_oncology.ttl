@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:new_local_oncology.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "a new local ontology"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "new_local_oncology" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:new_local_oncology.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "new_local_oncology" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:new_local_oncology.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "nova lokalna ontologija"@sr-Latn-RS ;
+        rdfs:label       "новую онтологию"@ru-RU ;
+        rdfs:label       "uma nova ontologia local"@pt-BR ;
+        rdfs:label       "eine neue lokale Ontologie"@de-DE ;
+        rdfs:label       "a new local ontology"@en-US ;
+        rdfs:label       "a new local ontology"@en-CA ;
+        rdfs:label       "una nueva ontología local"@es ;
+        rdfs:label       "une nouvelle ontologie locale"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "new_local_oncology" ;
+        prop:hasPackage  "VIVO-languages" .

@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:entity_comp_error_text1.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonErrorCommonBody.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "entity_comp_error_text1" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:entity_comp_error_text1.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Ova organizacije nema ni pod-organizacije ni ljude sa"@sr-Latn-RS ;
+        rdfs:label       "Cette organisation n'a aucune organisation subordonnée, ni aucune personne aillant des"@fr-CA ;
+        rdfs:label       "Diese Organisation hat weder Unterorganisationen noch Personen mit"@de-DE ;
+        rdfs:label       "This organization has neither sub-organizations nor people with"@en-CA ;
+        rdfs:label       "This organization has neither sub-organizations nor people with"@en-US ;
+        rdfs:label       "Esta organización no tiene suborganizaciones ni personas con"@es ;
+        rdfs:label       "У этой организации нет ни подорганизаций, ни людей"@ru-RU ;
+        rdfs:label       "Esta organização tem nem sub-organizações, nem as pessoas com"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "entity_comp_error_text1" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:entity_comp_error_text1.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "This organization has neither sub-organizations nor people with"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "entity_comp_error_text1" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

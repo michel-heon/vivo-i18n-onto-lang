@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:person_successfully_excluded.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Die Person wurde erfolgreich von der Seite der Organisation ausgeschlossen."@de-DE ;
+        rdfs:label       "La persona se ha excluido con éxito desde la página de la organización."@es ;
+        rdfs:label       "La personne a été retirée avec succès de la page de l'organisation."@fr-CA ;
+        rdfs:label       "Osoba je uspešno uklonjena sa stranice organizacije."@sr-Latn-RS ;
+        rdfs:label       "Данное лицо было успешно удалено со страницы организации."@ru-RU ;
+        rdfs:label       "A pessoa foi excluído com sucesso a partir da página da organização."@pt-BR ;
+        rdfs:label       "The person has been successfully excluded from the organization page."@en-CA ;
+        rdfs:label       "The person has been successfully excluded from the organization page."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "person_successfully_excluded" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:person_successfully_excluded.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "The person has been successfully excluded from the organization page."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "person_successfully_excluded" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:person_successfully_excluded.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePeopleForOrganization.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "person_successfully_excluded" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

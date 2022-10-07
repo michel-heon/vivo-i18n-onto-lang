@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:award_honor_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Award or Honor Name"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "award_honor_name" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:award_honor_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Nombre del Premio u Honor"@es ;
+        rdfs:label       "Name der Auszeichnung oder des Preises"@de-DE ;
+        rdfs:label       "Titre du prix ou de la distinction"@fr-CA ;
+        rdfs:label       "Naziv nagrade ili priznanja"@sr-Latn-RS ;
+        rdfs:label       "Nome do prêmio ou honra"@pt-BR ;
+        rdfs:label       "Award or Honor Name"@en-US ;
+        rdfs:label       "Название награды или почетной грамоты"@ru-RU ;
+        rdfs:label       "Award or Honor Name"@en-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "award_honor_name" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:award_honor_name.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAwardOrHonor.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "award_honor_name" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

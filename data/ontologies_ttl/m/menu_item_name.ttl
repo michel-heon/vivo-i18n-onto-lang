@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_item_name.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "menu_item_name" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:menu_item_name.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Название пункта меню"@ru-RU ;
+        rdfs:label       "Nombre del elemento de Menú"@es ;
+        rdfs:label       "Naziv stavke menija"@sr-Latn-RS ;
+        rdfs:label       "Menu Item Name"@en-CA ;
+        rdfs:label       "Menu Item Name"@en-US ;
+        rdfs:label       "Nome do item de menu"@pt-BR ;
+        rdfs:label       "Titre de l'élément de menu"@fr-CA ;
+        rdfs:label       "Name des Menüpunktes"@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "menu_item_name" ;
+        prop:hasPackage  "Vitro-languages" .

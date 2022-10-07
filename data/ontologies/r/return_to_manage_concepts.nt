@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "return_to_manage_concepts" .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Povratak na upravljanje konceptima"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Regresar a Administrar Conceptos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Return to Manage Concepts"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Return to Manage Concepts"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Revenir à la gestion des concepts"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Voltar para Gerenciar Conceito"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Zurück zu Konzepte verwalten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Вернуться к работе с понятиями"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "return_to_manage_concepts" .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Return to Manage Concepts"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addUserDefinedConcept.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "return_to_manage_concepts" .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#return_to_manage_concepts.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

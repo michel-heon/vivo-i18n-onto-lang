@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_not_created_msg" .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Došlo je do greške prilikom kreiranja stranica, molimo Vas pogledajte logove."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Es ist ein Fehler beim Erstellen der Seite aufgetreten. Bitte prüfen Sie die Logfiles."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hubo un error al crear la página, verifique los registros."@es .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Il y a eu une erreur lors de la création de la page, veuillez vérifier les journaux."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ocorreu um erro ao criar a página, verifique os logs."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There was an error while creating the page, please check the logs."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There was an error while creating the page, please check the logs."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#page_not_created_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "При создании страницы произошла ошибка, пожалуйста, проверьте журналы."@ru-RU .

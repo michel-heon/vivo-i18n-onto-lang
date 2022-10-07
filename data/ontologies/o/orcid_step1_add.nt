@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "orcid_step1_add" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Korak 1: Dodajte Vaš ORCID iD"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Paso 1: Agregar su ORCID iD"@es .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Passo 1: Adicione seu ID de ORCID"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Schritt 1: Hinzufügen Ihrer ORCID iD"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Step 1: Adding your ORCID iD"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Step 1: Adding your ORCID iD"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étape 1: Ajouter votre identifiant ORCID"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Шаг 1: Добавление вашего ORCID"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "orcid_step1_add" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#orcid_step1_add.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

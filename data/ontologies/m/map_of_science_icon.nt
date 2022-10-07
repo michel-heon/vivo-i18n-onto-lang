@@ -1,0 +1,29 @@
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "map_of_science_icon" .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Icon der Wissenschaftslandkarte"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "icono del mapa de la ciencia"@es .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "icône de la carte des sciences"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ikonica za naučnu mapu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "map of science icon"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "map of science icon"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "mapa de ícone ciência"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "значок карты науки"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceStandalone.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "map_of_science_icon" .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "map of science icon"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "map_of_science_icon" .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#map_of_science_icon.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

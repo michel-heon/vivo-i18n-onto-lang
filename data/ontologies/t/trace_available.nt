@@ -1,0 +1,21 @@
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "trace_available" .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Traza completa disponible en el registro de VIVO"@es .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vollständiger Trace verfügbar im VIVO-Log"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "detaljne informacije o greškama možete naći u log-u"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "full trace available in the vivo log"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "full trace available in the vivo log"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "rastreamento disponível no log do vivo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "trace complète disponible dans le log de VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "полная трассировка стека находится в лог файлах сервера приложений"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-display.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-email.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "trace_available" .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#trace_available.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

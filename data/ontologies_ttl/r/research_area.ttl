@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:research_area.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "personnes du département associées à ce domaine de recherche"@fr-CA ;
+        rdfs:label       "сотрудников кафедры, ведущих исследования в данной области"@ru-RU ;
+        rdfs:label       "osobe unutar departmana koje se bave ovom istraživačkom oblasti."@sr-Latn-RS ;
+        rdfs:label       "Personen in dem Fachbereich mit diesem Forschungsgebiet"@de-DE ;
+        rdfs:label       "indivíduos do departamento com pesquisa nesta área"@pt-BR ;
+        rdfs:label       "individuals in the department with this research area"@en-US ;
+        rdfs:label       "individuals in the department with this research area"@en-CA ;
+        rdfs:label       "área de investigación"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "research_area" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:research_area.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individuals in the department with this research area"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "research_area" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:research_area.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "osobe unutar departmana sa datom oblasti istraživanja"@sr-Latn-RS ;
+        rdfs:label       "indivíduos do departamento com pesquisa nesta área"@pt-BR ;
+        rdfs:label       "individuals in the department with this research area"@en-CA ;
+        rdfs:label       "individuals in the department with this research area"@en-US ;
+        rdfs:label       "сотрудников кафедры, ведущих исследования в данной области"@ru-RU ;
+        rdfs:label       "Personen in dem Fachbereich mit diesem Forschungsgebiet"@de-DE ;
+        rdfs:label       "personnes du département associées à ce domaine"@fr-CA ;
+        rdfs:label       "área de investigación"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "research_area" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .

@@ -1,0 +1,42 @@
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "loading_website_image" .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Bild wird geladen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Cargando imagen del sitio web"@es .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Carregando a imagem do site"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Chargement de l'image"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Loading website image"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Loading website image"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Učitavanje slike za vebsajt"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Загрузка изображения сайта"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "loading_website_image" .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Bild wird geladen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Cargando imagen del sitio web"@es .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Carregando a imagem do site"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Chargement du site"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Loading website image"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Loading website image"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Učitavanje slike veb stranice"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Загрузка изображения сайта"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "loading_website_image" .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Loading website image"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-webpage-quickview.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "loading_website_image" .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -29,6 +29,7 @@ function extract_vars() {
         if [ -n "${THEME}" ]; then predicateValue=$PROP_KEY.$PKG.$THEME; else predicateValue=$PROP_KEY.$PKG; fi
 }
 
+
 function print_values () {
 printf "PROPFN_VAL=($PROPFN_VAL) \n \
 \t VALUE=($VALUE) \n\
@@ -40,6 +41,7 @@ printf "PROPFN_VAL=($PROPFN_VAL) \n \
 \t NT_FN=($NT_FN)\n\
 \t $BN\n\t\t PKG=$PKG\n\
 \t THEME=($THEME) \n\
+\t LOCATION=$ONTO_DATA_TTL/$SUB_REP/${ONTO_FN}.ttl \n\
 \t predicateValue=$predicateValue \n"
 }
 
@@ -52,68 +54,63 @@ function build_indv() {
     cat $1 | while read PROPFN_VAL
     do
         extract_vars
-#        print_values
+        [ "$REGION" = "all" ] && REGION='en-US'
         cat << EOF >> $TMP_ONTO_RESULT
-<$BASE_IRI#$predicateValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "$VALUE"@$REGION .
-<$BASE_IRI#$predicateValue> <http://www.w3.org/2000/01/rdf-schema#label> "$predicateValue" .
+<$BASE_IRI#$predicateValue> <http://www.w3.org/2000/01/rdf-schema#label>  "$VALUE"@$REGION .
 <$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <$SEMANTIC_BASE_IRI#PropertyKey> . 
+<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasKey> "$PROP_KEY" .
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasPackage> "$PKG" . 
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasApp> "$( echo $PKG | cut -d '-' -f 1 )" . 
 EOF
 
-        cat << EOF >> $TMP_ONTO_RESULT_FILE
-<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#propertiesUrl> "file://$GIT_HOME/$BN.properties"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-EOF
+#        cat << EOF >> $TMP_ONTO_RESULT_FILE
+# <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#propertiesUrl> "file://$GIT_HOME/$BN.properties"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+# EOF
 
         if [ -n "${THEME}" ]; then 
         cat << EOF >> $TMP_ONTO_RESULT
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasTheme> "$THEME" . 
 EOF
         fi
-    
-
     done
-    for PRODUCTS in "${PRODUCTS_LIST[@]}"
-    do
-#        echo "$PRODUCTS"
-        cd $GIT_HOME/$PRODUCTS
-        FTL_FILES=$(find . -name '*.ftl' ! -path '*target*' -exec grep -l -w $KEY {} \; | tr -s ' ' '\n')
-        if [ -n "$FTL_FILES" ]; then
-            echo $FTL_FILES | tr ' ' '\n' | while read FTL_FN
-            do
-                FTL_PATH=$GIT_HOME/"$PRODUCTS/$(echo $FTL_FN | sed 's/\.\///g')"
-                cat << EOF >> $TMP_ONTO_RESULT
-<$BASE_IRI#$KEY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<$BASE_IRI#$KEY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <$SEMANTIC_BASE_IRI#PropertyKey> . 
-<$BASE_IRI#$KEY> <http://www.w3.org/2000/01/rdf-schema#label> "$KEY" .
-EOF
-                cat << EOF >> $TMP_ONTO_RESULT_FILE
-<$BASE_IRI#$KEY> <$SEMANTIC_BASE_IRI#ftlUrl> "file://$FTL_PATH"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-EOF
-            done
-        fi
-    done
-    
 }
+
 
 function process_extraction() {
     KEY=$1
     cd $PROPERTIES_DATA
     SUB_REP="${KEY:0:1}"
-    grep -w $KEY * > $TMP_PROP_FN 
-    ONTO_FN=${KEY}_indv
-    ONTO_FN_FILE=${KEY}_file
-    echo "($LOOP_CTR/$NBR_LINE) Processing for key = '$KEY',  ontologies: '$ONTO_FN' and '$ONTO_FN_FILE'"
+    grep "^${KEY}=" * > $TMP_PROP_FN 
+    ONTO_FN=${KEY}
+    echo "($LOOP_CTR/$NBR_LINE) Processing for key = '$KEY',  ontologies: '$ONTO_FN' "
     export TMP_ONTO_RESULT=$TMPDIR/$ONTO_FN.nt
-    export TMP_ONTO_RESULT_FILE=$TMPDIR/$ONTO_FN_FILE.nt
+    touch $TMPDIR/$ONTO_FN.nt
     build_indv $TMP_PROP_FN
+    process_ftl
     cat $TMP_ONTO_RESULT | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN.nt
-    cat $TMP_ONTO_RESULT_FILE | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN_FILE.nt
     func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN.nt > $ONTO_DATA_TTL/$SUB_REP/$ONTO_FN.ttl
-    func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN_FILE.nt > $ONTO_DATA_TTL/$SUB_REP/${ONTO_FN_FILE}.ttl 
-    echo "Done $KEY!"
+    echo "  Done [$KEY] !"
 
+}
+process_ftl (){
+    cd $GIT_HOME
+    for PRODUCTS in "${PRODUCTS_LIST[@]}";  do
+         for FTL_FILE in $(find ./$PRODUCTS -name '*.ftl' -path '*main/webapp/*' -exec grep -l -w "$KEY" {} \;); do
+         PKG=$PRODUCTS
+         THEME=$(echo $FTL_FILE | grep theme | sed  's/.*themes\///g' | cut -f 1 -d '/')
+         if [ -n "${THEME}" ]; then predicateValue=$KEY.$PRODUCTS.$THEME; else predicateValue=$KEY.$PRODUCTS; fi
+         cat << EOF >> $TMP_ONTO_RESULT
+<$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <$SEMANTIC_BASE_IRI#PropertyKey> . 
+<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasKey> "$KEY" .
+<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#ftlUrl> "file://SRC_HOME${FTL_FILE#.}"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasTheme> "$THEME" . 
+<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasPackage> "$PKG" .
+<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasApp> "$( echo $PKG | cut -d '-' -f 1 )" . 
+EOF
+        done
+    done
 }
 
 ###################################################################
@@ -128,12 +125,12 @@ do
 #    KEY=create_new
     process_extraction $_KEY &
     ((j=j+1))
-    if [ $j = "5" ]
+    if [ $j = "15" ]
     then
-        wait; ((j=0)) ;  echo "New cycle"
+        wait; ((j=0)) ;  echo "################ New cycle"
     else
-        sleep 1.5
+        sleep .1
     fi
 done
 wait 
-echo "Done !"
+echo "  Done !"

@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:internal_class_intro_two.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "internal_class_intro_two" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:internal_class_intro_two.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "internal_class_intro_two" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:internal_class_intro_two.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Esto le permitirá limitar las personas que aparecen en las páginas del menú principal (Personas, Investigación, etc.) a sólo aquellos dentro de su institución."@es ;
+        rdfs:label       "Это позволит ограничить круг лиц, отображаемых на страницах меню (Люди, Исследования и т.д.), только сотрудниками вашего учреждения."@ru-RU ;
+        rdfs:label       "Isso permitirá que você para limitar os indivíduos indicados em suas páginas do menu (pessoas, investigação, etc.) para apenas aqueles dentro de sua instituição."@pt-BR ;
+        rdfs:label       "Dies ermöglicht die Begrenzung der im Menü angezeigten einzelnen Kategorien (Personen, Forschung etc. auf diejenigen, die sich auf die Institution beziehen."@de-DE ;
+        rdfs:label       "Ceci vous permettra de limiter les personnes présentées sur vos pages d'accueil (Personnes, Recherche, etc.) à celles de votre institution."@fr-CA ;
+        rdfs:label       "Ovo će Vam omogućiti da ograničite (filtrirate) pojedince koji se prikazuju na Vašim meni-stranicama (Ljudi, Istraživanja, itd.) na samo one koji su deo vaše institucije."@sr-Latn-RS ;
+        rdfs:label       "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@en-CA ;
+        rdfs:label       "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "internal_class_intro_two" ;
+        prop:hasPackage  "VIVO-languages" .

@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:ip_address.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "IP-адреса"@ru-RU ;
+        rdfs:label       "IP adresa"@sr-Latn-RS ;
+        rdfs:label       "Dirección IP"@es ;
+        rdfs:label       "adresse IP"@fr-CA ;
+        rdfs:label       "Endereço IP"@pt-BR ;
+        rdfs:label       "IP address"@en-CA ;
+        rdfs:label       "IP address"@en-US ;
+        rdfs:label       "IP-Adresse"@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "ip_address" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:ip_address.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-email.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "ip_address" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

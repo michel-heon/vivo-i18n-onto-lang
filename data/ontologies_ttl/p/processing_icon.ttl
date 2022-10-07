@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:processing_icon.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "obrada"@sr-Latn-RS ;
+        rdfs:label       "в обработке"@ru-RU ;
+        rdfs:label       "processing"@en-CA ;
+        rdfs:label       "processing"@en-US ;
+        rdfs:label       "processing"@fr-CA ;
+        rdfs:label       "Processando"@pt-BR ;
+        rdfs:label       "procesando"@es ;
+        rdfs:label       "verarbeite"@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "processing_icon" ;
+        prop:hasPackage  "Vitro-languages" .

@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:fill_in_template_with_data.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "fill_in_template_with_data" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:fill_in_template_with_data.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Saisir les données dans le gabarit. Vous pouvez compléter plusieurs gabarits si vous souhaitez moissonner plusieurs fichiers simultanément."@fr-CA ;
+        rdfs:label       "Заполните шаблон своими данными. Вы можете заполнить несколько шаблонов, если хотите собрать несколько файлов одновременно."@ru-RU ;
+        rdfs:label       "Popunite šablon sa vašim podacima. Možete popuniti više šablona ako želite da prikupljate više fajlova istovremeno."@sr-Latn-RS ;
+        rdfs:label       "Complete la plantilla con sus datos. Puede completar varias plantillas si desea cosechar varios archivos a la vez."@es ;
+        rdfs:label       "Tragen Sie Ihre Daten in das Template ein. Sie können mehrere Templates ausfüllen, falls Daten aus mehreren Dateien auf einmal gesammelt werden sollen."@de-DE ;
+        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-CA ;
+        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
+        rdfs:label       "Preencha o modelo com seus dados. Você pode preencher vários modelos se você deseja enviar vários arquivos de uma só vez."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "fill_in_template_with_data" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:fill_in_template_with_data.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "fill_in_template_with_data" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

@@ -1,0 +1,21 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:edit_page_title.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Éditer"@fr-CA ;
+        rdfs:label       "Ažuriranje"@sr-Latn-RS ;
+        rdfs:label       "Редактировать"@ru-RU ;
+        rdfs:label       "Edit"@de-DE ;
+        rdfs:label       "Edit"@en-US ;
+        rdfs:label       "Edit"@pt-BR ;
+        rdfs:label       "Edit"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "edit_page_title" ;
+        prop:hasPackage  "Vitro-languages" .

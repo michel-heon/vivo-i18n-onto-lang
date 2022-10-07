@@ -1,0 +1,67 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_powered.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Propulsé par"@fr-CA ;
+        rdfs:label       "Powered by"@de-DE ;
+        rdfs:label       "Powered by"@en-CA ;
+        rdfs:label       "Powered by"@en-US ;
+        rdfs:label       "Работает под управлением"@ru-RU ;
+        rdfs:label       "Desenvolvido por"@pt-BR ;
+        rdfs:label       "Desarrollado por"@es ;
+        rdfs:label       "Sajt održava"@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_powered" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:menu_powered.VIVO.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/footer.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_powered" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:menu_powered.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Desenvolvido por"@pt-BR ;
+        rdfs:label       "Desarrollado por"@es ;
+        rdfs:label       "Powered by"@de-DE ;
+        rdfs:label       "Powered by"@en-CA ;
+        rdfs:label       "Powered by"@en-US ;
+        rdfs:label       "Omogućili:"@sr-Latn-RS ;
+        rdfs:label       "Propulsé"@fr-CA ;
+        rdfs:label       "Работает под управлением"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_powered" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:menu_powered.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Powered by"@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/footer.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_powered" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:menu_powered.VIVO.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/footer.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_powered" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "tenderfoot" .

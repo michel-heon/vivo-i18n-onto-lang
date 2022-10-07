@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:imageUpload.errorBadMultipartRequest.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Došlo je do greške prilikom parsiranja 'multi-part' zahteva prilikom postavljanja slike."@sr-Latn-RS ;
+        rdfs:label       "Falha ao analisar a solicitação de multi-parte para fazer upload de uma imagem."@pt-BR ;
+        rdfs:label       "Failed to parse the multi-part request for uploading an image."@en-CA ;
+        rdfs:label       "Failed to parse the multi-part request for uploading an image."@en-US ;
+        rdfs:label       "Échec de l'analyse de la demande en plusieurs parties pour le téléversement d'une image."@fr-CA ;
+        rdfs:label       "Parsen der Multi-Part-Anfrage für den Bild-Upload fehlgeschlagen."@de-DE ;
+        rdfs:label       "Не удалось разобрать многокомпонентный запрос на загрузку изображения."@ru-RU ;
+        rdfs:label       "Error al analizar la solicitud de varias partes para subir una imagen."@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "imageUpload.errorBadMultipartRequest" ;
+        prop:hasPackage  "Vitro-languages" .

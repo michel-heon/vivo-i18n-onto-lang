@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:check_pubs_to_exclude.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Check those publications you want to <em>exclude</em> from the profile page."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "check_pubs_to_exclude" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:check_pubs_to_exclude.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePublicationsForIndividual.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "check_pubs_to_exclude" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:check_pubs_to_exclude.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Отметьте те публикации, которые вы хотите <em>убрать</em> со страницы профиля."@ru-RU ;
+        rdfs:label       "Confira essas publicações que você deseja excluir da página do perfil."@pt-BR ;
+        rdfs:label       "Compruebe las subvenciones que desea excluir de la página de perfil."@es ;
+        rdfs:label       "Markieren Sie die Publikationen, die auf der Profilseite nicht berücksichtigt werden sollen."@de-DE ;
+        rdfs:label       "Choisir les publications que vous souhaitez <em>exclure</em> de la page des profils."@fr-CA ;
+        rdfs:label       "Selektujte one publikacije koje želite da <em>izostavite</em> sa profilne stranice."@sr-Latn-RS ;
+        rdfs:label       "Check those publications you want to <em>exclude</em> from the profile page."@en-US ;
+        rdfs:label       "Check those publications you want to <em>exclude</em> from the profile page."@en-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "check_pubs_to_exclude" ;
+        prop:hasPackage  "VIVO-languages" .

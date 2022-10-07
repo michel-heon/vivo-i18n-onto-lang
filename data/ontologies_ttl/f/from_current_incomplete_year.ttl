@@ -1,0 +1,41 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:from_current_incomplete_year.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "from_current_incomplete_year" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:from_current_incomplete_year.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "from current incomplete year"@en-US ;
+        rdfs:label       "from current incomplete year"@en-CA ;
+        rdfs:label       "depuis l'année courante incomplète"@fr-CA ;
+        rdfs:label       "a partir do atual ano incompleto"@pt-BR ;
+        rdfs:label       "od tekuće godine"@sr-Latn-RS ;
+        rdfs:label       "в текущем неполном году"@ru-RU ;
+        rdfs:label       "del año en curso incompleto"@es ;
+        rdfs:label       "laufendes, unvollständiges Jahr"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "from_current_incomplete_year" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:from_current_incomplete_year.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "from current incomplete year"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "from_current_incomplete_year" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_type_article_journal" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Article de journal"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Artigo de revista"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Artículo de revista"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Journal Article"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Journal Article"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Journal Artikel"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Članam u časopisu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_article_journal.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Журнальная статья"@ru-RU .

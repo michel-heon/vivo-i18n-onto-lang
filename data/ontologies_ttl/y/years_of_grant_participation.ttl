@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:years_of_grant_participation.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Años de participación en la subvención"@es ;
+        rdfs:label       "Years of Participation in Grant"@en-CA ;
+        rdfs:label       "Years of Participation in Grant"@en-US ;
+        rdfs:label       "Anos de participação no Grant"@pt-BR ;
+        rdfs:label       "Годы участия в гранте"@ru-RU ;
+        rdfs:label       "Années de participation à cette subvention"@fr-CA ;
+        rdfs:label       "Jahre der Mitarbeit im Forschungsprojekt"@de-DE ;
+        rdfs:label       "Godine primanja granta"@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "years_of_grant_participation" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:years_of_grant_participation.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addGrantRoleToPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "years_of_grant_participation" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:years_of_grant_participation.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Years of Participation in Grant"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "years_of_grant_participation" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

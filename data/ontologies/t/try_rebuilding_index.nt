@@ -1,0 +1,22 @@
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "try_rebuilding_index" .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Essayez de construire l'index"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Intenta reconstruir el índice de búsqueda"@es .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pokušajte ponovo da kreirate indeks pretrage"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tente reconstruir o índice de pesquisa"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Try rebuilding the search index"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Try rebuilding the search index"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Versuchen Sie, den Suchindex wieder aufzubauen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Попробуйте перестроить поисковый индекс."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individualList-checkForData.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/classgroups-checkForData.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-checkForData.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "try_rebuilding_index" .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#try_rebuilding_index.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

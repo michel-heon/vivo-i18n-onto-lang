@@ -1,0 +1,88 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:email_address.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Адрес электронной почты"@ru-RU ;
+        rdfs:label       "Email Adresa"@sr-Latn-RS ;
+        rdfs:label       "Dirección de correo clectrónico"@es ;
+        rdfs:label       "Endereço Email"@pt-BR ;
+        rdfs:label       "E-Mail-Adresse"@de-DE ;
+        rdfs:label       "Email Address"@en-CA ;
+        rdfs:label       "Email Address"@en-US ;
+        rdfs:label       "Courriel"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "email_address" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:email_address.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Endereço de e-mail"@pt-BR ;
+        rdfs:label       "Email adresa"@sr-Latn-RS ;
+        rdfs:label       "E-Mail-Adresse"@de-DE ;
+        rdfs:label       "Адрес электронной почты"@ru-RU ;
+        rdfs:label       "Dirección de correo electrónico"@es ;
+        rdfs:label       "Email address"@en-US ;
+        rdfs:label       "Email address"@en-CA ;
+        rdfs:label       "Adresse courriel"@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "email_address" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:email_address.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Email Address"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "email_address" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:email_address.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Endereço Email"@pt-BR ;
+        rdfs:label       "Адрес электронной почты"@ru-RU ;
+        rdfs:label       "Dirección de correo clectrónico"@es ;
+        rdfs:label       "Email adresa"@sr-Latn-RS ;
+        rdfs:label       "E-Mail-Adresse"@de-DE ;
+        rdfs:label       "Courriel"@fr-CA ;
+        rdfs:label       "Email Address"@en-CA ;
+        rdfs:label       "Email Address"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "email_address" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:email_address.Vitro
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showAuth.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-firstTimeExternal.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-email.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "email_address" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:email_address.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEmailAddress.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "email_address" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

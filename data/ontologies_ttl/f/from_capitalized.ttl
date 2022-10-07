@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:from_capitalized.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Od"@sr-Latn-RS ;
+        rdfs:label       "Von"@de-DE ;
+        rdfs:label       "De"@es ;
+        rdfs:label       "De"@pt-BR ;
+        rdfs:label       "From"@en-US ;
+        rdfs:label       "From"@en-CA ;
+        rdfs:label       "Depuis"@fr-CA ;
+        rdfs:label       "C"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "from_capitalized" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:from_capitalized.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-email.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "from_capitalized" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

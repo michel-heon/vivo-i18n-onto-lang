@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_appropriate_entry.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultOfferCreateNewOptionForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "no_appropriate_entry" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:no_appropriate_entry.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addConceptThroughObjectPropertyCreateNew.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_appropriate_entry" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:no_appropriate_entry.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "If you don't find the appropriate entry on the selection list above"@en-CA ;
+        rdfs:label       "If you don't find the appropriate entry on the selection list above"@en-US ;
+        rdfs:label       "Wenn Sie keinen den entsprechenden Eintrag in der Auswahlliste oben finden"@de-DE ;
+        rdfs:label       "Ako ne možete da pronađete odgovarajuću stavku iz liste iznad"@sr-Latn-RS ;
+        rdfs:label       "Если вы не найдете подходящую запись в списке выбора выше"@ru-RU ;
+        rdfs:label       "Se você não encontrar a entrada apropriada na lista de seleção acima"@pt-BR ;
+        rdfs:label       "Si no encuentra la entrada correspondiente en la lista de selección anterior"@es ;
+        rdfs:label       "Si vous ne trouvez pas l'enregistrement approprié dans la liste de sélection ci-dessus"@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "no_appropriate_entry" ;
+        prop:hasPackage  "Vitro-languages" .

@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_editors_desc" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ako ste urednik ovog rada, molimo Vas odaberite \"Urednik\"."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "If you edited the work, please select \"Editor\"."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "If you edited the work, please select \"Editor\"."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Se você editou a obra, por favor selecione \"Editor\"."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Si ha editado la obra, seleccione \"Editor\"."@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Si vous êtes l'éditeur de la publication, choisissez \"Éditeur(-trice)\""@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Wenn Sie Herausgeber der Veröffentlichung sind, wählen Sie bitte \"Editor\" aus."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Если вы редактировали работу, выберите „Редактор“."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_editors_desc" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_editors_desc.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

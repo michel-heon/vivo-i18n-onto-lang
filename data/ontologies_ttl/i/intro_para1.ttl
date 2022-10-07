@@ -1,0 +1,69 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:intro_para1.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "VIVO ist ein forschungsorientiertes Recherchewerkzeug, das die Zusammenarbeit zwischen Wissenschaftlern quer durch alle Fachbereiche ermöglicht."@de-DE ;
+        rdfs:label       "VIVO es una herramienta de descubrimiento de investigación centrada en permitir la colaboración entre científicos de todas las disciplinas."@es ;
+        rdfs:label       "VIVO это система для поиска информации о научных исследованиях, облегчающая междисциплинарное сотрудничество учёных."@ru-RU ;
+        rdfs:label       "VIVO est une plateforme de valorisation de la recherche facilitant la collaboration entre chercheurs de toutes les disciplines."@fr-CA ;
+        rdfs:label       "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines."@en-CA ;
+        rdfs:label       "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines."@en-US ;
+        rdfs:label       "VIVO je alat za pretragu i istraživanje koji se fokusira na oblast akademije i istraživača i omogućuje kolaboraciju naučnika iz različitih disciplina."@sr-Latn-RS ;
+        rdfs:label       "Vivo é uma ferramenta de descobertas focada em pesquisa, que permite a colaboração entre cientistas em todas as disciplinas."@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "intro_para1" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:intro_para1.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "VIVO это система для поиска информации о научных исследованиях, облегчающая междисциплинарное сотрудничество учёных."@ru-RU ;
+        rdfs:label       "VIVO es una herramienta de descubrimiento de investigación centrada en permitir la colaboración entre científicos de todas las disciplinas."@es ;
+        rdfs:label       "VIVO est une plateforme de valorisation de la recherche facilitant la collaboration entre chercheur(-euses)s de toutes les disciplines."@fr-CA ;
+        rdfs:label       "VIVO je alat namenjen pretraživanju i otkrivanju istraživačkih radova i aktivnosti, koji omogućuje saradnju između naučnika iz različitih disciplina i oblasti."@sr-Latn-RS ;
+        rdfs:label       "VIVO ist ein forschungsorientiertes Recherchewerkzeug, das die Zusammenarbeit zwischen Wissenschaftlern quer durch alle Fachbereiche ermöglicht."@de-DE ;
+        rdfs:label       "Vivo é uma ferramenta de descobertas focada em pesquisa, que permite a colaboração entre cientistas em todas as disciplinas."@pt-BR ;
+        rdfs:label       "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines."@en-CA ;
+        rdfs:label       "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines."@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "intro_para1" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:intro_para1.VIVO.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "intro_para1" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:intro_para1.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "VIVO is a searchable tool that will connect you to faculty who may share your interest or with whom you wish to collaborate."@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "intro_para1" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:intro_para1.VIVO.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "intro_para1" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "wilma" .

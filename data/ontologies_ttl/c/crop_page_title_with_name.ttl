@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:crop_page_title_with_name.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Recortar imagen por {0}"@es ;
+        rdfs:label       "imagem = Cortar para {0}"@pt-BR ;
+        rdfs:label       "Crop image for {0}"@en-CA ;
+        rdfs:label       "Crop image for {0}"@en-US ;
+        rdfs:label       "Обрезка фотографии для {0}"@ru-RU ;
+        rdfs:label       "Isecite sliku za {0}"@sr-Latn-RS ;
+        rdfs:label       "Rogner l'image de {0}"@fr-CA ;
+        rdfs:label       "Bild zuschneiden für {0}"@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "crop_page_title_with_name" ;
+        prop:hasPackage  "Vitro-languages" .

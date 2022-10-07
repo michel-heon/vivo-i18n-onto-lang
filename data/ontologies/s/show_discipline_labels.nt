@@ -1,0 +1,29 @@
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "show_discipline_labels" .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Afficher les étiquettes des disciplines"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fachbezeichnungen anzeigen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Mostrar etiquetas de disciplina"@es .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Mostrar rótulos de disciplina"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Prikažite labele discipline"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Show discipline labels"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Show discipline labels"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Показать метки дисциплин"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "show_discipline_labels" .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Show discipline labels"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "show_discipline_labels" .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#show_discipline_labels.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

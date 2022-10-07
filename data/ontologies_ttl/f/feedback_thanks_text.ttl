@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:feedback_thanks_text.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Vielen Dank für das Kontaktieren unserer Kuration und des Entwicklungsteams. Wir werden so schnell wie möglich auf Ihre Anfrage reagieren."@de-DE ;
+        rdfs:label       "Thank you for contacting our curation and development team. We will respond to your inquiry as soon as possible."@en-US ;
+        rdfs:label       "Thank you for contacting our curation and development team. We will respond to your inquiry as soon as possible."@en-CA ;
+        rdfs:label       "Hvala Vam što ste kontaktirali timove za razvoj i održavanje aplikacije. Odgovorićemo Vam u što kraćem vremensokm periodu."@sr-Latn-RS ;
+        rdfs:label       "Gracias por ponerse en contacto con nuestro equipo de conservación y desarrollo. Nosotros responderemos a su consulta lo antes posible."@es ;
+        rdfs:label       "Obrigado por entrar em contato com nossa equipe de desenvolvimento. Vamos responder a sua pergunta o mais rápido possível."@pt-BR ;
+        rdfs:label       "Благодарим вас за обращение к нашей команде кураторов и разработчиков. Мы ответим на ваш запрос при первой возможности."@ru-RU ;
+        rdfs:label       "Merci d'avoir contacté notre équipe. Nous vous répondrons dès que possible."@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "feedback_thanks_text" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:feedback_thanks_text.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-confirmation.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "feedback_thanks_text" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

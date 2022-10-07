@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "please_format_email" .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Actualizar su dirección de correo electrónico como:"@es .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bitte formatieren Sie Ihre E-Mail-Adresse so:"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Molimo Vas formatirajte Vašu email adresu kao:"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please format your e-mail address as:"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please format your e-mail address as:"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, formatar o seu endereço de e-mail como:"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Veuillez formater votre adresse e-mail de la façon suivante :"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста введите свой адрес электронной почты в формате:"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "please_format_email" .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#please_format_email.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

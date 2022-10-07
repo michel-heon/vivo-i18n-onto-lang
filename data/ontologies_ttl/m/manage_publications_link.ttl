@@ -1,0 +1,58 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:manage_publications_link.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Gérer les publications"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "manage_publications_link" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:manage_publications_link.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Gérer les publications"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "manage_publications_link" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:manage_publications_link.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-properties.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "manage_publications_link" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .
+
+prop-data:manage_publications_link.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "управление публикациями"@ru-RU ;
+        rdfs:label       "manage publications"@en-CA ;
+        rdfs:label       "Publikationen verwalten"@de-DE ;
+        rdfs:label       "manage publications"@en-US ;
+        rdfs:label       "Gérer les publications"@fr-CA ;
+        rdfs:label       "administrar publicaciones"@es ;
+        rdfs:label       "upravljajte publikacijama"@sr-Latn-RS ;
+        rdfs:label       "gerenciar publicações"@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "manage_publications_link" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:manage_publications_link.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-properties.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "manage_publications_link" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

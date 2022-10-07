@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:warnings_issued.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "{0} avertissements au démarrage"@fr-CA ;
+        rdfs:label       "{0} emitiu algum avisos durante a inicialização."@pt-BR ;
+        rdfs:label       "{0} ausgegebene Warnungen während des Starts."@de-DE ;
+        rdfs:label       "{0} выдал предупреждения во время запуска."@ru-RU ;
+        rdfs:label       "{0} surgieron advertencias durante el arranque."@es ;
+        rdfs:label       "{0} je izdao upozorenja za vreme pokretanja aplikacije."@sr-Latn-RS ;
+        rdfs:label       "{0} issued warnings during startup."@en-CA ;
+        rdfs:label       "{0} issued warnings during startup."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "warnings_issued" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:warnings_issued.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/startupStatus-display.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "warnings_issued" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "" .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:imageUpload.errorNoPhotoSelected.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Parcourir et choisir une photo."@fr-CA ;
+        rdfs:label       "Пожалуйста, просмотрите и выберите фотографию."@ru-RU ;
+        rdfs:label       "Por favor, busque y seleccione una fotografía."@es ;
+        rdfs:label       "Por favor, procure e selecione uma foto."@pt-BR ;
+        rdfs:label       "Please browse and select a photo."@en-US ;
+        rdfs:label       "Please browse and select a photo."@en-CA ;
+        rdfs:label       "Bitte wählen Sie ein Foto aus."@de-DE ;
+        rdfs:label       "Molimo Vas odaberite sliku."@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "imageUpload.errorNoPhotoSelected" ;
+        prop:hasPackage  "Vitro-languages" .

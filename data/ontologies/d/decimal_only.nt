@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "decimal_only" .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Entrada invalida. Se permite un punto decimal, pero los separadores de miles no lo son."@es .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Entrada inválida. Um ponto decimal é permitido, mas milhares de separadores não são."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Entrée invalide. Un point décimal est autorisé, mais les séparateurs de milliers ne le sont pas."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Neispravan unos. Dozvoljeno je koristiti tačku da napišete decimalan broj, ali nije dozvoljeno korišćenje separatora između hiljada."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ungültiger Eintrag. Dezimalpunkte sind erlaubt, aber Tausendertrennzeichen sind es nicht."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Неверный ввод. Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDataPropertyForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "decimal_only" .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

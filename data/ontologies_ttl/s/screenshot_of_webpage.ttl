@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:screenshot_of_webpage.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "capture de la page web {0}"@fr-CA ;
+        rdfs:label       "Screenshot der Webseite {0}"@de-DE ;
+        rdfs:label       "скриншот страницы {0}"@ru-RU ;
+        rdfs:label       "slika veb stranice {0}"@sr-Latn-RS ;
+        rdfs:label       "captura de pantalla de la página web {0}"@es ;
+        rdfs:label       "screenshot of webpage {0}"@en-CA ;
+        rdfs:label       "screenshot of webpage {0}"@en-US ;
+        rdfs:label       "captura de tela da página {0}"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "screenshot_of_webpage" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:screenshot_of_webpage.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "screenshot of webpage {0}"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "screenshot_of_webpage" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:screenshot_of_webpage.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-webpage-quickview.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "screenshot_of_webpage" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .

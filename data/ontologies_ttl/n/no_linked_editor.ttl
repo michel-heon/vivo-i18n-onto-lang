@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:no_linked_editor.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "aucun(e) éditeur(-trice) lié(e)"@fr-CA ;
+        rdfs:label       "ningún editor vinculado"@es ;
+        rdfs:label       "keine Verknüpfung zu einem/einer HerausgeberIn"@de-DE ;
+        rdfs:label       "nema povezanik urednika"@sr-Latn-RS ;
+        rdfs:label       "no linked editor"@en-CA ;
+        rdfs:label       "no linked editor"@en-US ;
+        rdfs:label       "нет связанного редактора"@ru-RU ;
+        rdfs:label       "editor não ligados"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_linked_editor" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:no_linked_editor.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_linked_editor" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "" .
+
+prop-data:no_linked_editor.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "no linked editor"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_linked_editor" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-menu.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "reordering_menus_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "reordering_menus_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error al reordenar los elementos de menú."@es .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La réorganisation des éléments du menu a échoué."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Neuanordnung von Menüpunkten ist fehlgeschlagen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Promena redosleda stavki u meniju nije uspela."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Reordering of menu items failed."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Reordering of menu items failed."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "reordenação de itens de menu falhou."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Переупорядочивание пунктов меню не удалось."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-menu.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "reordering_menus_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#reordering_menus_failed.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
