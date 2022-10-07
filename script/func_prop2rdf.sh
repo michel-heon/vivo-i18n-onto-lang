@@ -22,7 +22,7 @@ export REGION="en_US" # Default Value
 function extract_region() {
     lang_pkg=$(echo $PROPFN | cut -d ',' -f 1)
     if [[ $lang_pkg == *"languages"* ]]; then
-        REGION=$(echo $PROPFN | cut -d ',' -f 2)
+        REGION=$(echo $PROPFN | cut -d ',' -f 2|tr '_' '-')
     fi
     [ "$REGION" = "all" ] && REGION='en-US'
     BN=$(basename $PROPFN .properties | tr -s ',' '/')
@@ -50,13 +50,13 @@ WHERE {
     ?s ?p ?o 
     FILTER(!regex(str(?p),"label")) .
     ?s rdfs:label ?label .
-    FILTER (lang(?label) = 'fr-CA') .
+    FILTER (lang(?label) = '$REGION') .
     ?s prop:hasTheme "$THEME" .
     ?s prop:hasPackage "$PKG" .
     FILTER(regex(str(?s),"properties")) .
 }
 EOF
-
+# cat $TMPDIR/describe.sparql
 sparql --results=TURTLE --query=$TMPDIR/describe.sparql \
     --data=$DATA/all.ttl \
     --base "$BASE_IRI" \

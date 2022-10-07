@@ -4,84 +4,77 @@
 <http://vivoweb.org/ontology/core/properties/individual#collapsed_menu_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#collapsed_menu_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#collapsed_menu_name.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#collapsed_menu_name.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Menu"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#collapsed_menu_name.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Cardápio"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#collapsed_menu_name.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_capitalized" .
 <http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Créer"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Criar"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_termuse" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Conditions d'utilisation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Termos de Uso"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_position_editing.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_position_editing.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "unable_to_handle_position_editing" .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_position_editing.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_position_editing.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_position_editing.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_position_editing.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Impossible d'éditer ce poste depuis le formulaire. Le poste est associé à plusieurs individus."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_position_editing.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Este formulário é incapaz de lidar com a edição desta posição porque está associada com vários posição de indivíduos."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_position_editing.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
-<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
-<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "collection_or_series" .
-<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
-<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "collection ou série"@fr-CA .
-<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#last_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#last_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "last_name" .
 <http://vivoweb.org/ontology/core/properties/individual#last_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#last_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#last_name.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#last_name.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Nom de famille"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_name.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Sobrenome"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#last_name.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#first_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#first_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "first_name" .
 <http://vivoweb.org/ontology/core/properties/individual#first_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#first_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#first_name.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#first_name.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Prénom"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_name.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Primeiro nome"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#first_name.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#grant_type.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_type.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grant_type" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_type.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_type.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_type.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#grant_type.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "type de subvention"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grant_type.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de concessão"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#grant_type.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_members_of_org.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_members_of_org.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "view_all_members_of_org" .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_members_of_org.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_members_of_org.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_members_of_org.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#view_all_members_of_org.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Voir tous les membres de cette organisation."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_members_of_org.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Ver todos os membros desta organização."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_members_of_org.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#display_more.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#display_more.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "display_more" .
 <http://vivoweb.org/ontology/core/properties/individual#display_more.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#display_more.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#display_more.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#display_more.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "plus"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#display_more.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "mais"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#display_more.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "edit_mailing_address" .
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Éditer le courriel"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Editar Endereço para correspondência"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "first_publication" .
 <http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Première publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Primeira Publicação"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#first_publication.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#no_faculty_found.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#no_faculty_found.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -89,35 +82,35 @@
 <http://vivoweb.org/ontology/core/properties/individual#no_faculty_found.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#no_faculty_found.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#no_faculty_found.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#no_faculty_found.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Aucun membre de la faculté retrouvé."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_faculty_found.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Nenhum membro do corpo docente encontrado."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#no_faculty_found.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_myprofile" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Mon profil"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Meu perfil"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_powered.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_powered.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_powered" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_powered.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_powered.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_powered.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_powered.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Propulsé"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_powered.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Desenvolvido por"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_powered.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_text_one" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Este corpo é do arquivo do modelo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. No modelo de exibição, a página de doações tem um display: requiresBodyTemplate propriedade que define que a página de doações substitui o modelo padrão. O modelo padrão para estas páginas é a /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_title" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "VIVO | Connecter, partager, découvrir"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "VIVO | conectar compartilhar descobrir"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#researchers.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#researchers.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -125,42 +118,42 @@
 <http://vivoweb.org/ontology/core/properties/individual#researchers.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#researchers.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#researchers.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#researchers.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "chercheurs"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#researchers.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "pesquisadores"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#researchers.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "indiv_foafperson_for" .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "para"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#identity_index.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_index.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_index" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_index.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_index.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_index.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#identity_index.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Index"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_index.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Index"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#identity_index.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#vivo_profile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#vivo_profile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "vivo_profile" .
 <http://vivoweb.org/ontology/core/properties/individual#vivo_profile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#vivo_profile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#vivo_profile.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#vivo_profile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "profil VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#vivo_profile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "perfil VIVO"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#vivo_profile.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_logout.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_logout.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_logout" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_logout.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_logout.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_logout.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_logout.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Déconnexion"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_logout.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Sair"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_logout.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_entry" .
 <http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Créer un enregistrement"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Criar Entrada"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#placeholder_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#placeholder_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -168,21 +161,21 @@
 <http://vivoweb.org/ontology/core/properties/individual#placeholder_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#placeholder_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#placeholder_image.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#placeholder_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "emplacement de l'image"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#placeholder_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "imagem padrão"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#placeholder_image.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#first_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#first_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "first_grant" .
 <http://vivoweb.org/ontology/core/properties/individual#first_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#first_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#first_grant.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#first_grant.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Première subvention"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#first_grant.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Primeiro Grant"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#first_grant.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "attendee_capitalized" .
 <http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Participant"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Participante"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#map_state_string.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#map_state_string.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -190,42 +183,42 @@
 <http://vivoweb.org/ontology/core/properties/individual#map_state_string.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#map_state_string.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#map_state_string.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#map_state_string.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "province."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#map_state_string.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "estado."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#map_state_string.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_about.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_about.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_about" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_about.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_about.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_about.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_about.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "À propos"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_about.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Sobre"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_about.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_two" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Esta técnica pode ser usada para definir páginas sem itens do menu, que obtenha seu conteúdo a partir de um template freemarker. Um exemplo seria a página sobre."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#service_provider_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#service_provider_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "service_provider_role" .
 <http://vivoweb.org/ontology/core/properties/individual#service_provider_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#service_provider_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#service_provider_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#service_provider_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Rôle du fournisseur de service"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#service_provider_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Provedor de Serviço de Função"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#service_provider_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#profile_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#profile_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "profile_capitalized" .
 <http://vivoweb.org/ontology/core/properties/individual#profile_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#profile_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#profile_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#profile_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Profil"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#profile_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Perfil"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#profile_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "email_address" .
 <http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Courriel"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Endereço Email"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -233,7 +226,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "localisations de niveau provincial."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "locais em todo o estado."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#limit_search.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#limit_search.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -241,33 +234,33 @@
 <http://vivoweb.org/ontology/core/properties/individual#limit_search.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#limit_search.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#limit_search.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#limit_search.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Filtrer la recherche"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#limit_search.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "busca limite"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#limit_search.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "province_or_region" .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Province ou région"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "província ou região"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_copyright.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_copyright.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_copyright" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_copyright.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_copyright.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_copyright.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_copyright.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "droit d'auteur"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_copyright.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "copyright"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_copyright.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "place_of_grant" .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Lieu de la subvention"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Local de publicação"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "para"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "à"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "to" .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
@@ -280,49 +273,49 @@
 <http://vivoweb.org/ontology/core/properties/individual#countries.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#countries.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#countries.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#countries.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "pays"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#countries.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "países"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#countries.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_edit" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Éditer la page"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Editar Página"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_new_role_value" .
 <http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Saisir une nouvelle valeur dans le champs Rôle."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Por favor, insira um novo valor no campo Regras."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_version.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_version.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_version" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_version.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_version.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_version.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_version.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Version"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_version.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Versão"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_version.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#last_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#last_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "last_grant" .
 <http://vivoweb.org/ontology/core/properties/individual#last_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#last_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#last_grant.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#last_grant.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Dernière subvention"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_grant.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Última Grant"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#last_grant.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_grants_for" .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Actuellement aucune subvention pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Actualmente não há subsídios para"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_one.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_one.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "address_street_one" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_one.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_one.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_one.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#address_street_one.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "première ligne d'adresse"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_one.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "rua um endereço"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_one.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#map_states_string.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#map_states_string.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -330,35 +323,35 @@
 <http://vivoweb.org/ontology/core/properties/individual#map_states_string.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#map_states_string.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#map_states_string.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#map_states_string.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "provinces."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#map_states_string.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "estados."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#map_states_string.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "loading_website_image" .
 <http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Chargement de l'image"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Carregando a imagem do site"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#loading_website_image.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#intro_filtersearch.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_filtersearch.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "intro_filtersearch" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_filtersearch.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_filtersearch.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_filtersearch.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#intro_filtersearch.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Filtrer"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_filtersearch.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Filtrar busca"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#intro_filtersearch.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#identity_user.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_user.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_user" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_user.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_user.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_user.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#identity_user.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "utilisateur(trice)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_user.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Usuário"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#identity_user.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_grant_editing.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_grant_editing.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "unable_to_handle_grant_editing" .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_grant_editing.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_grant_editing.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_grant_editing.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_grant_editing.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Impossible d'éditer cette subvention depuis le formulaire. La subvention est associée à plusieurs chercheur(-euse)s."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_grant_editing.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Este formulário é incapaz de lidar com a edição desta subvenção, pois está associada a vários indivíduos de subvenção."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#unable_to_handle_grant_editing.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_researchers.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_researchers.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -366,7 +359,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_researchers.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_researchers.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_researchers.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#currently_no_researchers.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Aucun chercheur(-euse) ayant une facette géographique."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_researchers.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Atualmente não há pesquisadores com um foco geográfico definido."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_researchers.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_departments.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_departments.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -374,14 +367,14 @@
 <http://vivoweb.org/ontology/core/properties/individual#view_all_departments.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_departments.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_departments.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#view_all_departments.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "voir tous les départements"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_departments.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "ver todos os departamentos acadêmicos"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_departments.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#view.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#view.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "view" .
 <http://vivoweb.org/ontology/core/properties/individual#view.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#view.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#view.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#view.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "vue"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "visualizção"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#view.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#regions.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#regions.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -389,28 +382,28 @@
 <http://vivoweb.org/ontology/core/properties/individual#regions.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#regions.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#regions.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#regions.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "régions"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#regions.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "regiões"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#regions.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "organizer_role" .
 <http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Rôle d'organisateur(-trice)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Regras da Organização"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#identity_admin.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_admin.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_admin" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_admin.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_admin.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_admin.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#identity_admin.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Administration du site"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_admin.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Site Admin"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#identity_admin.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_support.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_support.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_support" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_support.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_support.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_support.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_support.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Aide"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_support.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Suporte"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_support.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#researchers_in.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#researchers_in.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -418,35 +411,35 @@
 <http://vivoweb.org/ontology/core/properties/individual#researchers_in.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#researchers_in.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#researchers_in.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#researchers_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "chercheur(-euse)s en"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#researchers_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "pesquisadores em"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#researchers_in.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_memberships.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_memberships.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "faculty_memberships" .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_memberships.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_memberships.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_memberships.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#faculty_memberships.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Membres facultaires"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_memberships.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Faculdade Associadas"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_memberships.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "last_publication" .
 <http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Dernière publication"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Última Publicação"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#last_publication.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_item.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_item.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_item" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_item.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_item.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_item.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_item.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "élément de menu"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_item.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "item de menu"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_item.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_loginfull.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_loginfull.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_loginfull" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_loginfull.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_loginfull.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_loginfull.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_loginfull.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Connectez-vous pour gérer ce site"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_loginfull.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Login para o gerenciamento do site"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_loginfull.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#countries_and_regions.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#countries_and_regions.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -454,14 +447,14 @@
 <http://vivoweb.org/ontology/core/properties/individual#countries_and_regions.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#countries_and_regions.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#countries_and_regions.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#countries_and_regions.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "pays et régions."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#countries_and_regions.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "países e regiões."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#countries_and_regions.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#reviewer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#reviewer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "reviewer_role" .
 <http://vivoweb.org/ontology/core/properties/individual#reviewer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#reviewer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#reviewer_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#reviewer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Rôle de réviseur(e)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#reviewer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "regras do revisor"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#reviewer_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#no_departments_found.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#no_departments_found.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -469,91 +462,91 @@
 <http://vivoweb.org/ontology/core/properties/individual#no_departments_found.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#no_departments_found.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#no_departments_found.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#no_departments_found.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Aucun département retrouvé."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_departments_found.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Nenhum departamento acadêmico encontrado."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#no_departments_found.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "return_to_grant" .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_grant.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_grant.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#return_to_grant.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Retourner à la subvention"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_grant.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Retornar para grant"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_grant.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#grant_entry_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_entry_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grant_entry_for" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_entry_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_entry_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_entry_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#grant_entry_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "subvention pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grant_entry_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "entrada de concessão para"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#grant_entry_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#intro_searchvivo.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_searchvivo.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "intro_searchvivo" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_searchvivo.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_searchvivo.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_searchvivo.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#intro_searchvivo.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Chercher dans VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_searchvivo.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Buscar no VIVO"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#intro_searchvivo.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "address_street_three" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "3e ligne d'adresse"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Endereço três"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#address_label.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#address_label.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "address_label" .
 <http://vivoweb.org/ontology/core/properties/individual#address_label.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#address_label.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#address_label.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#address_label.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "étiquette d'adresse"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#address_label.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "etiqueta de endereço"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#address_label.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#change_selection.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#change_selection.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "change_selection" .
 <http://vivoweb.org/ontology/core/properties/individual#change_selection.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#change_selection.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#change_selection.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#change_selection.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "changer votre sélection"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#change_selection.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "seleção mudança"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#change_selection.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_who_are_members_of_org.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_who_are_members_of_org.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "faculty_who_are_members_of_org" .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_who_are_members_of_org.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_who_are_members_of_org.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_who_are_members_of_org.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#faculty_who_are_members_of_org.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Voici les personnes des {0} départements qui font partie de cette organisation."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faculty_who_are_members_of_org.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Aqui estão os docentes do departamento da {0} que são membros desta organização."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#faculty_who_are_members_of_org.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#grants_in_vivo.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_in_vivo.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_in_vivo" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_in_vivo.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_in_vivo.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_in_vivo.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#grants_in_vivo.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "subventions dans VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grants_in_vivo.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "subsídios na Vivo"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#grants_in_vivo.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#leadership_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#leadership_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "leadership_role" .
 <http://vivoweb.org/ontology/core/properties/individual#leadership_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#leadership_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#leadership_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#leadership_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Rôle de direction"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#leadership_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Regras da Liderança"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#leadership_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "currently_no_papers_for" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Aucun {0} article pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Actualmente não há {0} papéis para"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_welcomestart.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_welcomestart.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_welcomestart" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_welcomestart.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_welcomestart.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_welcomestart.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_welcomestart.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Bienvenue"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_welcomestart.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Bem vindo"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_welcomestart.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#add_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#add_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "add_capitalized" .
 <http://vivoweb.org/ontology/core/properties/individual#add_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#add_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#add_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#add_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Ajouter"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Adicionar"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#add_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -561,35 +554,35 @@
 <http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Bienvenue dans VIVO"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Bem-vindo ao VIVO"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#intro_title.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_text_three" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Isso criaria uma página que usaria about.ftl como o corpo. A página seria acessada via /about e iria substituir todos os mapeamentos de servlet no web.xml."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#research_area.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#research_area.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "research_area" .
 <http://vivoweb.org/ontology/core/properties/individual#research_area.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#research_area.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#research_area.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#research_area.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "personnes du département associées à ce domaine"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#research_area.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "indivíduos do departamento com pesquisa nesta área"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#research_area.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_contactus.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_contactus.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_contactus" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_contactus.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_contactus.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_contactus.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_contactus.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Nous joindre"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_contactus.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Fale Conosco"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_contactus.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#password.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#password.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "password" .
 <http://vivoweb.org/ontology/core/properties/individual#password.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#password.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#password.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#password.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "mot de passe"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#password.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "senha"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#password.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para1.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para1.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -597,63 +590,56 @@
 <http://vivoweb.org/ontology/core/properties/individual#intro_para1.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para1.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para1.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#intro_para1.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "VIVO est une plateforme de valorisation de la recherche facilitant la collaboration entre chercheurs de toutes les disciplines."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_para1.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Vivo é uma ferramenta de descobertas focada em pesquisa, que permite a colaboração entre cientistas em todas as disciplinas."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para1.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#collection_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#collection_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "collection_capitalized" .
 <http://vivoweb.org/ontology/core/properties/individual#collection_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#collection_capitalized.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#collection_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#collection_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Collection"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#collection_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Colecção"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#collection_capitalized.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "address_street_two" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "2e ligne d'adresse"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "endereço de rua em dois"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_two.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_award" .
 <http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Distinction choisie"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Premio Selecionado"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
-<http://vivoweb.org/ontology/core/properties/individual#manage_publications_link.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_publications_link.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_publications_link" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_publications_link.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_publications_link.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_publications_link.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#manage_publications_link.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Gérer les publications"@fr-CA .
-<http://vivoweb.org/ontology/core/properties/individual#manage_publications_link.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "loading_data" .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#loading_data.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "chargement des données"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#loading_data.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "carregamento de dados"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_return.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_return.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "indiv_foafperson_return" .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_return.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_return.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_return.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_return.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "retourner à"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_return.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "retorno à"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#indiv_foafperson_return.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#menu_login.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_login.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_login" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_login.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_login.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#menu_login.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#menu_login.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Connexion"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_login.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Login"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#menu_login.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#grant_date.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_date.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grant_date" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_date.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_date.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_date.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#grant_date.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "date de la subvention"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grant_date.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "concessão Data"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#grant_date.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para2.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para2.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -661,28 +647,28 @@
 <http://vivoweb.org/ontology/core/properties/individual#intro_para2.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para2.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para2.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#intro_para2.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Consulter ou chercher de l'information sur les personnes, départements, cours, subventions et publications."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#intro_para2.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Busca ou pesquisa de informações sobre pessoas, departamentos, cursos e muito mais."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#intro_para2.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_myaccount" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Mon compte"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Minha Conta"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#identity_myaccount.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#full_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#full_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "full_name" .
 <http://vivoweb.org/ontology/core/properties/individual#full_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#full_name.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#full_name.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#full_name.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Nom complet"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#full_name.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Nome completo"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#full_name.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "years_participation_in" .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Années de participation dans"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "anos de participação no"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
@@ -690,5 +676,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "voir toutes les facultés"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label> "visualizar todos os docentes"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#view_all_faculty.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
