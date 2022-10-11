@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:drag_drop_to_reorder_menus.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Arrastrar y soltar para cambiar el orden de los elementos de menú"@es ;
+        rdfs:label       "Prevucite kako bi ste promenili redosled stavki u meniju"@sr-Latn-RS ;
+        rdfs:label       "Drag and drop to reorder menu items"@en-CA ;
+        rdfs:label       "Drag and drop to reorder menu items"@en-US ;
+        rdfs:label       "Drag&Drop, um die Menüpunkte neu zu ordnen"@de-DE ;
+        rdfs:label       "Arrastar e soltar para reordenar os itens do menu"@pt-BR ;
+        rdfs:label       "Glisser-déposer pour réorganiser les éléments du menu"@fr-CA ;
+        rdfs:label       "Перетащите пункты меню для изменения порядка их следования"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "drag_drop_to_reorder_menus" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:drag_drop_to_reorder_menus.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-menu.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "drag_drop_to_reorder_menus" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:drag_drop_to_reorder_menus.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-menu.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "drag_drop_to_reorder_menus" ;
+        prop:hasPackage  "Vitro" .

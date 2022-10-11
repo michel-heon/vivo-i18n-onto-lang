@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:edit_this_individual.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-adminPanel.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "edit_this_individual" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:edit_this_individual.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Éditer ce dossier"@fr-CA ;
+        rdfs:label       "Ažurirajte osobu"@sr-Latn-RS ;
+        rdfs:label       "Editar este indivíduo"@pt-BR ;
+        rdfs:label       "Редактировать данные этого лица"@ru-RU ;
+        rdfs:label       "Edit this individual"@en-CA ;
+        rdfs:label       "Edit this individual"@en-US ;
+        rdfs:label       "Editar este usuario"@es ;
+        rdfs:label       "Diesen Datensatz bearbeiten"@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "edit_this_individual" ;
+        prop:hasPackage  "Vitro-languages" .

@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:confirm_term_deletion.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "confirm_term_deletion" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:confirm_term_deletion.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Are you sure you want to remove this term?"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "confirm_term_deletion" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:confirm_term_deletion.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Tem certeza de que deseja remover este termo?"@pt-BR ;
+        rdfs:label       "Da li ste sigurni da želite da uklonite ovaj izraz?"@sr-Latn-RS ;
+        rdfs:label       "Soll dieser Begriff wirklich gelöscht werden?"@de-DE ;
+        rdfs:label       "Are you sure you want to remove this term?"@en-CA ;
+        rdfs:label       "Are you sure you want to remove this term?"@en-US ;
+        rdfs:label       "Êtes-vous certain de vouloir retirer ce terme?"@fr-CA ;
+        rdfs:label       "Вы уверены, что хотите удалить этот термин?"@ru-RU ;
+        rdfs:label       "¿Está seguro que desea eliminar este término?"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "confirm_term_deletion" ;
+        prop:hasPackage  "VIVO-languages" .

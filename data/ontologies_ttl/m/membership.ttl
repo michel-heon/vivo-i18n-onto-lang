@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:membership.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "membership"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "membership" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:membership.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Affiliation"@fr-CA ;
+        rdfs:label       "članstvo"@sr-Latn-RS ;
+        rdfs:label       "Mitgliedschaft"@de-DE ;
+        rdfs:label       "membership"@en-US ;
+        rdfs:label       "membership"@en-CA ;
+        rdfs:label       "участие"@ru-RU ;
+        rdfs:label       "membro"@pt-BR ;
+        rdfs:label       "afiliación"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "membership" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:membership.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addMemberRoleToPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "membership" ;
+        prop:hasPackage  "VIVO" .

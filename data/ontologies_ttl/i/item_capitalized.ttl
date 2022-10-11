@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:item_capitalized.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addReviewerRoleToPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "item_capitalized" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:item_capitalized.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Item"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "item_capitalized" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:item_capitalized.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Stavka"@sr-Latn-RS ;
+        rdfs:label       "Item"@en-CA ;
+        rdfs:label       "Item"@en-US ;
+        rdfs:label       "Élément"@fr-CA ;
+        rdfs:label       "Artículo"@es ;
+        rdfs:label       "Eintrag"@de-DE ;
+        rdfs:label       "Работа,"@ru-RU ;
+        rdfs:label       "item"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "item_capitalized" ;
+        prop:hasPackage  "VIVO-languages" .

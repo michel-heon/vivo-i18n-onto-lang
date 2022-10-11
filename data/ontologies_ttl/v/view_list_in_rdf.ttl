@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:view_list_in_rdf.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Ver la lista {0} en formato RDF"@es ;
+        rdfs:label       "Показать список {0} в формате RDF"@ru-RU ;
+        rdfs:label       "Voir la liste des {0} en format RDF"@fr-CA ;
+        rdfs:label       "Sehen Sie die {0} Liste im RDF-Format"@de-DE ;
+        rdfs:label       "Ver a {0} lista em formato RDF"@pt-BR ;
+        rdfs:label       "View the {0} list in RDF format"@en-CA ;
+        rdfs:label       "View the {0} list in RDF format"@en-US ;
+        rdfs:label       "Pogledajte {0} listu u RDF formatu"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "view_list_in_rdf" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:view_list_in_rdf.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individualList.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "view_list_in_rdf" ;
+        prop:hasPackage  "Vitro" .

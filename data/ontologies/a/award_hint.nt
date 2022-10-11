@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "award_hint" .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(Por ejemplo, para premios de muchos años)"@es .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(e.g., for multi-year awards)"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(e.g., for multi-year awards)"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(npr. za nagrade koje se ne dodljuju svake godine)"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(por exemplo, para os prémios plurianuais)"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(z. B. für mehrjährige Auszeichnungen )"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(например, для многолетних премий)"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ex.: pour des prix couvrant plusieurs années"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "award_hint" .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "(e.g., for multi-year awards)"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAwardOrHonor.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "award_hint" .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:comments_questions.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "comments_questions" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:comments_questions.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Comentários, perguntas ou sugestões"@pt-BR ;
+        rdfs:label       "Questions, commentaires ou suggestions"@fr-CA ;
+        rdfs:label       "Kommentare, Fragen oder Anregungen"@de-DE ;
+        rdfs:label       "Comments, questions, or suggestions"@en-CA ;
+        rdfs:label       "Comments, questions, or suggestions"@en-US ;
+        rdfs:label       "Komentari, pitanja, ili predlozi"@sr-Latn-RS ;
+        rdfs:label       "Comentarios, preguntas o sugerencias"@es ;
+        rdfs:label       "Комментарии, вопросы или предложения"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "comments_questions" ;
+        prop:hasPackage  "Vitro-languages" .

@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_class_for_search" .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Debe seleccionar una clase para mostrar sus individuos."@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Morate odabrati klasu kako bi ste prikazali pojedince koji joj pripadaju."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sie müssen eine Klasse wählen, um die zugehörigen Datensätze anzuzeigen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Você deve selecionar uma classe para exibir seus indivíduos."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vous devez sélectionner une classe pour afficher ses éléments."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must select a class to display its individuals."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must select a class to display its individuals."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Чтобы отобразить его экземпляры класса, следует выбрать класс."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--searchIndividuals.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_class_for_search" .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

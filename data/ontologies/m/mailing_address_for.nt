@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "mailing_address_for" .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Postanschrift für"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "adresse postale pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "dirección postal"@es .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "endereço de correio para"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "mail adresa za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "mailing address for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "mailing address for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "почтовый адрес для"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "mailing_address_for" .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "mailing address for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/subjectHasMailingAddress.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "mailing_address_for" .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#mailing_address_for.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vis_tools_note_four.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_four" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:vis_tools_note_four.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Модели обновляются при каждом перезапуске сервера. Поскольку на производственных экземплярах это обычно нецелесообразно, администраторы могут использовать ссылку „Обновить кэш“ выше, чтобы сделать это без перезапуска."@ru-RU ;
+        rdfs:label       "Os modelos são atualizadas a cada vez que o servidor for reiniciado. Uma vez que este não é geralmente prático sobre instâncias de produção, os administradores podem passar a usar o link \"cache refresh\" acima de fazer isso sem uma reinicialização."@pt-BR ;
+        rdfs:label       "Les modèles sont actualisés chaque fois que le serveur redémarre. Comme ce n'est généralement pas pratique sur les instances de production, les administrateurs peuvent utiliser le lien \"rafraîchir le cache\" ci-dessus pour le faire sans redémarrer."@fr-CA ;
+        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-CA ;
+        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
+        rdfs:label       "Modeli se ponovo učitavaju svaki put kad se server restartuje. Sa obzirom da ovo nije praktično u produkciji, administratori mogu da koriste \"osvežite keš\" link iznad da učitaju ponovo modele bez potrebe za restartom servera."@sr-Latn-RS ;
+        rdfs:label       "Los modelos se actualizan cada vez que se reinicia el servidor. Dado que esto no es generalmente práctico sobre instancias de producción, los administradores pueden usar el enlace \"actualización de caché\" para hacer esto sin reiniciar."@es ;
+        rdfs:label       "Die Modelle werden bei jedem Neustart des Servers aktualisiert. Da dies auf der Produktionsinstanz allgemein unpraktisch ist, können AdministratorInnen stattdessen den “Zwischenspeicher aktualisieren”-Link oben verwenden, um ohne einen Neustart eine Aktualisierung durchzuführen."@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_four" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:vis_tools_note_four.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_four" ;
+        prop:hasPackage  "VIVO" .

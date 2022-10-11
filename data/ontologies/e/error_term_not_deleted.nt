@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_term_not_deleted" .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erreur lors du traitement de la demande: le terme ne peut être retiré"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erro ao processar o pedido: termo não removido"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error al procesar la petición: El término no se ha eliminado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: term not removed"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: term not removed"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fehler bei der Bearbeitung des Auftrags: Begriff wurde nicht gelöscht."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Greška pri obradi zahteva: izraz nije uklonjen"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ошибка при обработке запроса: термин не удален"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_term_not_deleted" .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: term not removed"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_term_not_deleted" .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_term_not_deleted.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

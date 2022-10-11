@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "auth_matching_id_label" .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Auth externo. ID / correspondência ID"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "External Auth. ID / Matching ID"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "External Auth. ID / Matching ID"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Externe Auth. ID / Matching-ID"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ID d'authentification externe / ID d'appariement"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identicador externo / Identificador compatible"@es .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Spoljni ID/Podudarajući ID"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Внешний идентификатор / Совпадающий идентификатор"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-associateProfilePanel.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "auth_matching_id_label" .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#auth_matching_id_label.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "drag_drop_to_reorder_webpages" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Arrastar e soltar para reorganizar páginas da web"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Arrastrar y soltar para cambiar el orden de las páginas web"@es .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Drag and drop to reorder web pages"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Drag and drop to reorder web pages"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Glisser et déplacer pour réorganiser les pages web"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Prevucite stavku na drugu poziciju kako bi ste promenilči redosled veb stranica"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Webseiten mit Drag-and-Drop neu ordnen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Меняйте порядок перечисления веб-страниц перетаскиванием"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "drag_drop_to_reorder_webpages" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Drag and drop to reorder web pages"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "drag_drop_to_reorder_webpages" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_webpages.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "temporal_graph_drill_up" .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "forage du graphe temporel"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "gráfico temporal sintetizado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "gráfico temporal"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "izrada vremenskog grafikona"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "temporal graph drill up"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "temporal graph drill up"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "zeitlicher Graph Drill-up"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Развёртка временного графика"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "temporal_graph_drill_up" .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "temporal graph drill up"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "temporal_graph_drill_up" .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#temporal_graph_drill_up.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

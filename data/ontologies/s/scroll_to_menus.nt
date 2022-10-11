@@ -1,0 +1,27 @@
+    <http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-property-group-tabs.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "scroll_to_menus" .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "scroll_to_menus" .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Zu Gruppenmenüs scrollen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "desplazarse al menú grupo de propiedades"@es .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "faites défiler jusqu'aux menus de groupe de propriétés"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "idite na grupu menija za svojstva"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "navegar pela propriedade do grupo menus"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "scroll to property group menus"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "scroll to property group menus"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "перейдите к меню групп свойств"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-property-group-menus.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-property-group-tabs.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "scroll_to_menus" .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:site_name.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "naziv sajta"@sr-Latn-RS ;
+        rdfs:label       "nombre del sitio"@es ;
+        rdfs:label       "nom du site"@fr-CA ;
+        rdfs:label       "Site-Name"@de-DE ;
+        rdfs:label       "site name"@en-CA ;
+        rdfs:label       "site name"@en-US ;
+        rdfs:label       "nome do site"@pt-BR ;
+        rdfs:label       "имя сайта"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "site_name" ;
+        prop:hasPackage  "Vitro-languages" .

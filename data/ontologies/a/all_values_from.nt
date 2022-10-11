@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "all_values_from" .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "all values from"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "all values from"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "alle Werte von"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "sve vrednosti iz"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "todos los valores de"@es .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "todos os valores de"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "toutes les valeurs de"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#all_values_from.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "все значения из"@ru-RU .

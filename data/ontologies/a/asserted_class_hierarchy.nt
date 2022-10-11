@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "asserted_class_hierarchy" .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Angenommene Klassenhierarchie (asserted)"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Asserted Class Hierarchy"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Asserted Class Hierarchy"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hierarquia da Classe gerado Manualmente"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hijerarhija utvrđenih klasa"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hiérarchie de classes assertées"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Jerarquía de clase afirmada"@es .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Иерархия утверждаемых классов"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-classHierarchy.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "asserted_class_hierarchy" .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#asserted_class_hierarchy.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

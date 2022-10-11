@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:more_details_about_site.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/identity.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "more_details_about_site" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:more_details_about_site.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Más detalles sobre este sitio"@es ;
+        rdfs:label       "Mehr Details über diese Seite"@de-DE ;
+        rdfs:label       "Više detalja o sajtu"@sr-Latn-RS ;
+        rdfs:label       "More details about this site"@en-CA ;
+        rdfs:label       "More details about this site"@en-US ;
+        rdfs:label       "Больше информации об этом сайте"@ru-RU ;
+        rdfs:label       "Mais detalhes sobre este site"@pt-BR ;
+        rdfs:label       "Informations supplémentaires concernant ce site"@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "more_details_about_site" ;
+        prop:hasPackage  "Vitro-languages" .

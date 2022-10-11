@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_error_instructions_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "property in runtime.properties is pointed to the Harvester installation directory."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_three" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:harvest_error_instructions_three.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "property in runtime.properties is pointed to the Harvester installation directory."@en-CA ;
+        rdfs:label       "property in runtime.properties is pointed to the Harvester installation directory."@en-US ;
+        rdfs:label       "propriedade em runtime.properties é apontado para o diretório de instalação Harvester."@pt-BR ;
+        rdfs:label       "property dans runtime.properties pointe sur le répertoire d'installation de l'outil de moissonnage (harvester)."@fr-CA ;
+        rdfs:label       "Svojsvo unutar runtime.properties fajla pokazuje na direktorijum gde je instaliran Prikupljač."@sr-Latn-RS ;
+        rdfs:label       "в runtime.properties указывает на каталог установки Подборщика."@ru-RU ;
+        rdfs:label       "Eigenschaft aus Laufzeit.Eigenschaften verweist auf das Harvester-Installations-Verzeichnis."@de-DE ;
+        rdfs:label       "propiedad en tiempo de ejecución. Las propiedades se apuntaron al directorio de instalación del Cosechador."@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_three" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:harvest_error_instructions_three.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_three" ;
+        prop:hasPackage  "VIVO" .

@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cap_map_key1.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "cap_map_key1" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:cap_map_key1.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "capability"@en-CA ;
+        rdfs:label       "capability"@en-US ;
+        rdfs:label       "capacidad"@es ;
+        rdfs:label       "Fähigkeit"@de-DE ;
+        rdfs:label       "возможность"@ru-RU ;
+        rdfs:label       "capacidade"@pt-BR ;
+        rdfs:label       "capacité"@fr-CA ;
+        rdfs:label       "sposobnosti"@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "cap_map_key1" ;
+        prop:hasPackage  "VIVO-languages" .

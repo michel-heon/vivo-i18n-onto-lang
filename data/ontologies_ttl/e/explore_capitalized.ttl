@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:explore_capitalized.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Istražite"@sr-Latn-RS ;
+        rdfs:label       "Explore"@en-CA ;
+        rdfs:label       "Explore"@en-US ;
+        rdfs:label       "Explorer"@fr-CA ;
+        rdfs:label       "Исследовать"@ru-RU ;
+        rdfs:label       "mehr erfahren"@de-DE ;
+        rdfs:label       "Explorar"@es ;
+        rdfs:label       "Explorar"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "explore_capitalized" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:explore_capitalized.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Explore"@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "explore_capitalized" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:explore_capitalized.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "explore_capitalized" ;
+        prop:hasPackage  "VIVO" .

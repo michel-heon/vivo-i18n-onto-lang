@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "screenshot_of_webpage" .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Screenshot der Webseite {0}"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "captura de pantalla de la página web {0}"@es .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "captura de tela da página {0}"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "capture de la page web {0}"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "screenshot of webpage {0}"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "screenshot of webpage {0}"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "slika veb stranice {0}"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "скриншот страницы {0}"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "screenshot_of_webpage" .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "screenshot of webpage {0}"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-webpage-quickview.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "screenshot_of_webpage" .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#screenshot_of_webpage.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

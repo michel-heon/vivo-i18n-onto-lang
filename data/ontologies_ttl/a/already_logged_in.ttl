@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:already_logged_in.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Vous êtes déjà connecté."@fr-CA ;
+        rdfs:label       "Sie sind bereits angemeldet."@de-DE ;
+        rdfs:label       "Usted ya está registrado"@es ;
+        rdfs:label       "Već ste prijavljeni."@sr-Latn-RS ;
+        rdfs:label       "You are already logged in."@en-US ;
+        rdfs:label       "You are already logged in."@en-CA ;
+        rdfs:label       "Você já está logado."@pt-BR ;
+        rdfs:label       "Вы уже вошли."@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "already_logged_in" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:already_logged_in.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-login.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "already_logged_in" ;
+        prop:hasPackage  "Vitro" .

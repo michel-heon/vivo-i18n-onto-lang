@@ -21,15 +21,11 @@ export ONTOFN=$PROPERTIES_ONTO_DATA/$(basename $PROPFN .properties).nt
 function extract_region() {
     lang_pkg=$(echo $PROPFN | cut -d ',' -f 1)
     if [[ $lang_pkg == *"languages"* ]]; then
-<<<<<<< HEAD
         REGION=$(echo $PROPFN | cut -d ',' -f 2)
         LANG=$(echo $REGION| tr -s '_' '-')
     else
         REGION=""
         LANG='en-US'
-=======
-        REGION=$(echo $PROPFN | cut -d ',' -f 2|tr '_' '-')
->>>>>>> 4c93203d43e79934d734f1a44369997d53075715
     fi
     BN=$(basename $PROPFN .properties | tr -s ',' '/')
     PKG=$(echo $BN | cut -f 1 -d '/')
@@ -82,10 +78,6 @@ WHERE {
     ?s ?p ?o .
     ?s rdf:type prop:PropertyKey .
     ?s rdfs:label ?label .
-<<<<<<< HEAD
-=======
-    FILTER (lang(?label) = '$REGION') .
->>>>>>> 4c93203d43e79934d734f1a44369997d53075715
     ?s prop:hasTheme "$THEME" .
     ?s prop:hasPackage "$PKG" .
     ?s prop:ftlUrl ?ftl .
@@ -96,7 +88,6 @@ WHERE {
     FILTER (lang(?label) = '$LANG') .
 }
 EOF
-<<<<<<< HEAD
 fi
 #    cat $TMPDIR/describe.sparql
     sparql --results=TURTLE --query=$TMPDIR/describe.sparql \
@@ -104,13 +95,6 @@ fi
         --base "$BASE_IRI" \
         --results=ntriples > $ONTOFN
    # cat $ONTOFN
-=======
-# cat $TMPDIR/describe.sparql
-sparql --results=TURTLE --query=$TMPDIR/describe.sparql \
-    --data=$DATA/all.ttl \
-    --base "$BASE_IRI" \
-    --results=ntriples >> $ONTOFN
->>>>>>> 4c93203d43e79934d734f1a44369997d53075715
 }
 ###################################################################
 # Traduire la clé-valeurs en RDF

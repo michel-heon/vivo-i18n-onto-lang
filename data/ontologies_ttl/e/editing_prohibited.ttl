@@ -1,0 +1,42 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:editing_prohibited.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addConceptThroughObjectPropertyForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addConceptThroughObjectPropertyAutoComplete.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "editing_prohibited" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:editing_prohibited.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "This property is currently configured to prohibit editing."@en-CA ;
+        rdfs:label       "This property is currently configured to prohibit editing."@en-US ;
+        rdfs:label       "Cette propriété est actuellement configurée pour interdire l'édition."@fr-CA ;
+        rdfs:label       "Esta propriedade está atualmente configurado para proibir a edição."@pt-BR ;
+        rdfs:label       "Esta propiedad está configurada para no permitir la edición."@es ;
+        rdfs:label       "В настоящее время для этого свойства действует запрет на редактирование."@ru-RU ;
+        rdfs:label       "Diese Eigenschaft ist derzeit so konfiguriert, dass die Bearbeitung zu verboten ist."@de-DE ;
+        rdfs:label       "Ovo svojstvo je trenutno konfigurisano tako da ne dozvoljava ažuriranje."@sr-Latn-RS ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "editing_prohibited" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:editing_prohibited.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultPropertyForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/rdfTypeForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "editing_prohibited" ;
+        prop:hasPackage  "Vitro" .

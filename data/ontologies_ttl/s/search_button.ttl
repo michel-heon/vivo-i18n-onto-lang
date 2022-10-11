@@ -1,0 +1,91 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_button.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:search_button.VIVO.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/search.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:search_button.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:search_button.VIVO.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/search.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:search_button.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/identity.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/search.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:search_button.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/search.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:search_button.Vitro.vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/search.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "vitro" .
+
+prop-data:search_button.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Chercher"@fr-CA ;
+        rdfs:label       "Suchen"@de-DE ;
+        rdfs:label       "Search"@en-CA ;
+        rdfs:label       "Search"@en-US ;
+        rdfs:label       "Buscar"@es ;
+        rdfs:label       "Buscar"@pt-BR ;
+        rdfs:label       "Pretraga"@sr-Latn-RS ;
+        rdfs:label       "Искать"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "Vitro-languages" .

@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cap_map_text6.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Dieses Fenster zeigt eine Liste der Suchbegriffe an, die sich derzeit in der Grafik befinden. Um zu beginnen, bitte nach etwas suchen."@de-DE ;
+        rdfs:label       "Cet espace présente la liste des termes de la recherche en cours dans la cartographie. Inscrire un terme de recherche pour débuter."@fr-CA ;
+        rdfs:label       "Ovaj panel prikazuje listu izraza pretrage koji se trenutno nalaze na grafikonu. Za početak uradite pretragu po nekom izrazu."@sr-Latn-RS ;
+        rdfs:label       "На этой панели отображается список поисковых запросов, которые в настоящее время находятся на графике. Начните поиск."@ru-RU ;
+        rdfs:label       "This panel displays a list of the search terms currently on the graph. Search for something to begin."@en-CA ;
+        rdfs:label       "This panel displays a list of the search terms currently on the graph. Search for something to begin."@en-US ;
+        rdfs:label       "Este panel muestra una lista de los términos de búsqueda actualmente en el gráfico. Busque algo para comenzar."@es ;
+        rdfs:label       "Este painel exibe uma lista dos termos de pesquisa atualmente no gráfico. Procure por algo para começar."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "cap_map_text6" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:cap_map_text6.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "cap_map_text6" ;
+        prop:hasPackage  "VIVO" .

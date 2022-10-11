@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:verify_this_match.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-associateProfilePanel.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "verify_this_match" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:verify_this_match.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "проверить это соответствие"@ru-RU ;
+        rdfs:label       "proverite podudaranje"@sr-Latn-RS ;
+        rdfs:label       "vérifier cette correspondance"@fr-CA ;
+        rdfs:label       "Diesen Treffer verifizieren"@de-DE ;
+        rdfs:label       "Verificar esta opración"@es ;
+        rdfs:label       "verify this match"@en-CA ;
+        rdfs:label       "verify this match"@en-US ;
+        rdfs:label       "verificar esta combinação"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "verify_this_match" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:verify_this_match.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addConceptThroughObjectPropertyAutoComplete.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "verify_this_match" ;
+        prop:hasPackage  "VIVO" .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:imageUpload.errorUnrecognizedURI.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Cette URI n'est reliée à aucun individu: ''{0}''"@fr-CA ;
+        rdfs:label       "This URI is not recognized as belonging to anyone: ''{0}''"@en-CA ;
+        rdfs:label       "This URI is not recognized as belonging to anyone: ''{0}''"@en-US ;
+        rdfs:label       "Este URI não é reconhecido como pertencente a alguém: '' {0} ''"@pt-BR ;
+        rdfs:label       "Este URI no perteneciente a nada:'' {0}''"@es ;
+        rdfs:label       "URI koji ste uneli ne pripada ni jednom entitetu: ''{0}''"@sr-Latn-RS ;
+        rdfs:label       "Diese URI konnte keiner Entität zugeordnet werden: '' {0} ''"@de-DE ;
+        rdfs:label       "Этот URI не распознан как принадлежащий кому-либо: ''{0}''"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "imageUpload.errorUnrecognizedURI" ;
+        prop:hasPackage  "Vitro-languages" .

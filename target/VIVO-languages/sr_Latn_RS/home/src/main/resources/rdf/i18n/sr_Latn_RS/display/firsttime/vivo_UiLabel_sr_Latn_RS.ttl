@@ -1,0 +1,49 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:file.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "fajl"@sr-Latn-RS ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/aboutMapOfScience_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "file" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:email.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "email"@sr-Latn-RS ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "email" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "u"@sr-Latn-RS ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/aboutMapOfScience_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "in" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:of.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "od"@sr-Latn-RS ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/aboutMapOfScience_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_sr_Latn_RS.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "of" ;
+        prop:hasPackage  "VIVO-languages" .

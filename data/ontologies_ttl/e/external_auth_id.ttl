@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:external_auth_id.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Eksterni ID za autentifikaciju"@sr-Latn-RS ;
+        rdfs:label       "Внешний идентификатор авторизации"@ru-RU ;
+        rdfs:label       "External Auth ID"@en-CA ;
+        rdfs:label       "External Auth ID"@en-US ;
+        rdfs:label       "ID d'authentification externe"@fr-CA ;
+        rdfs:label       "ID de autenticación externa"@es ;
+        rdfs:label       "externe Auth ID"@de-DE ;
+        rdfs:label       "Autor Externo ID"@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "external_auth_id" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:external_auth_id.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showAuth.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "external_auth_id" ;
+        prop:hasPackage  "Vitro" .

@@ -1,0 +1,33 @@
+    <http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "using_cache_time" .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Die dargestellten Informationen wurden zuletzt aktualisiert am"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Koriste se informacije keširane u"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Usando información almacenada en caché"@es .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Usando informações em cache em"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Using information cached at"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Using information cached at"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Utilisation des données cachées à"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Используя информацию, кэшированную на"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceStandalone.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "using_cache_time" .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Using information cached at"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "using_cache_time" .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#using_cache_time.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

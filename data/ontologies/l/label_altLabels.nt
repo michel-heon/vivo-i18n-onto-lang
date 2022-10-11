@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "label_altLabels" .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bezeichnung (Alternativbezeichnungen)"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Label (Alternate Labels)"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Label (Alternate Labels)"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Label (Etiquetas alternas)"@es .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Labela (Alternativne labele)"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rótulo (Labels suplente)"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étiquette (étiquettes alternatives)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Метка (альтернативные метки)"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "label_altLabels" .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Label (Alternate Labels)"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConceptVocabSpecificDisplay.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "label_altLabels" .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_altLabels.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

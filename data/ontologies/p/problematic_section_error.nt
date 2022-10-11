@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "problematic_section_error" .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erreur: les sections problématiques telles que ci-dessus devraient toutes avoir été traitées."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erro: seção problemática como acima devem todos ter sido manipuladas."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error: la sección problemática que se ha indicado anteriormente han sido tratada."@es .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error: problematic section as above should all have been handled."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error: problematic section as above should all have been handled."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error: problematic section as above should all have been handled."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fehler: ein problematischer Abschnitt wie oben sollte bereits verarbeitet sein."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Greška: problematična sekcija, kao što je gore navedena, je trebalo već da bude rešene."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "problematic_section_error" .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Error: problematic section as above should all have been handled."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "problematic_section_error" .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#problematic_section_error.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

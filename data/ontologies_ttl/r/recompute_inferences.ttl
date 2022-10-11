@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:recompute_inferences.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/recomputeInferences.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteMaintenance.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "recompute_inferences" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:recompute_inferences.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Schlussfolgerungen neuberechnen"@de-DE ;
+        rdfs:label       "Rekompajlirajte interfejse"@sr-Latn-RS ;
+        rdfs:label       "Recompute Inferences"@en-CA ;
+        rdfs:label       "Recompute Inferences"@en-US ;
+        rdfs:label       "Перестроить интерфейс"@ru-RU ;
+        rdfs:label       "Recalculer l'inférence"@fr-CA ;
+        rdfs:label       "Recomputar as Inferências"@pt-BR ;
+        rdfs:label       "Recalcular inferencias"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "recompute_inferences" ;
+        prop:hasPackage  "Vitro-languages" .

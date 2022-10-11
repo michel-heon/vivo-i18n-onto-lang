@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:unique_coinvestigators.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/copi/coInvestigationSparklineContent.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "unique_coinvestigators" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:unique_coinvestigators.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Unique co-investigators"@en-CA ;
+        rdfs:label       "Unique co-investigators"@en-US ;
+        rdfs:label       "Уникальные со-исследователи"@ru-RU ;
+        rdfs:label       "cochercheur(-euse)s dédoublonné(e)s"@fr-CA ;
+        rdfs:label       "Co-pesquisadores unico"@pt-BR ;
+        rdfs:label       "Jedinstvenih ko-istražitelja"@sr-Latn-RS ;
+        rdfs:label       "Coinvestigadores únicos"@es ;
+        rdfs:label       "einzelne KoforscherInnen"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "unique_coinvestigators" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:unique_coinvestigators.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Unique co-investigators"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "unique_coinvestigators" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

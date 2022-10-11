@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:quick_view_icon.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-2column.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "quick_view_icon" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:quick_view_icon.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "icone de visualizção rápido"@pt-BR ;
+        rdfs:label       "quick view icon"@en-CA ;
+        rdfs:label       "quick view icon"@en-US ;
+        rdfs:label       "icône de vue rapide"@fr-CA ;
+        rdfs:label       "Schnellanzeige-Icon"@de-DE ;
+        rdfs:label       "пиктограмма просмотра краткого варианта"@ru-RU ;
+        rdfs:label       "ikonica za kratak pregled"@sr-Latn-RS ;
+        rdfs:label       "Icono de vista rápida"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "quick_view_icon" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:quick_view_icon.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "quick view icon"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "quick_view_icon" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

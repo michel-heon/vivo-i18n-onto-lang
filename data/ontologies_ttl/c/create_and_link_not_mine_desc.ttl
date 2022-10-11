@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_not_mine_desc.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_not_mine_desc" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:create_and_link_not_mine_desc.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Si vous ne souhaitez pas revendiquer une publication, choisissez \"Cette publication n'est pas la mienne\"."@fr-CA ;
+        rdfs:label       "Ako ne želite da položite autorska prava na ovaj rad, odaberite \"Ovo nije moj rad\"."@sr-Latn-RS ;
+        rdfs:label       "Если вы не хотите заявлять права на произведение, выберите „Это не моя работа“."@ru-RU ;
+        rdfs:label       "Se você não deseja reivindicar uma obra, por favor selecione \"Esta obra não é minha\"."@pt-BR ;
+        rdfs:label       "Wenn Sie diese Arbeit nicht für sich beanspruchen wollen, wählen Sie bitte \"Das ist nicht meine Veröffentlichung\"."@de-DE ;
+        rdfs:label       "If you do not wish to claim a work, select \"This is not my work\"."@en-US ;
+        rdfs:label       "If you do not wish to claim a work, select \"This is not my work\"."@en-CA ;
+        rdfs:label       "Si no desea reclamar una obra, seleccione “Esta no es mi obra\""@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_not_mine_desc" ;
+        prop:hasPackage  "VIVO-languages" .

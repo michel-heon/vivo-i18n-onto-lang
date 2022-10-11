@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:submit_save.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Sauvegarder la photo"@fr-CA ;
+        rdfs:label       "Save photo"@en-US ;
+        rdfs:label       "Save photo"@en-CA ;
+        rdfs:label       "Salvar foto"@pt-BR ;
+        rdfs:label       "Foto speichern"@de-DE ;
+        rdfs:label       "Сохранить фото."@ru-RU ;
+        rdfs:label       "Sačuvajte fotografiju"@sr-Latn-RS ;
+        rdfs:label       "Guardar foto"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "submit_save" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:submit_save.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-cropImage.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "submit_save" ;
+        prop:hasPackage  "Vitro" .

@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:by_grants.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "por subvenciones"@es ;
+        rdfs:label       "by Grants"@en-CA ;
+        rdfs:label       "by Grants"@en-US ;
+        rdfs:label       "po grantovima"@sr-Latn-RS ;
+        rdfs:label       "по грантам"@ru-RU ;
+        rdfs:label       "por Grants"@pt-BR ;
+        rdfs:label       "par subvention"@fr-CA ;
+        rdfs:label       "nach Forschungsprojekten"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "by_grants" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:by_grants.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "by_grants" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:by_grants.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "by Grants"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "by_grants" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

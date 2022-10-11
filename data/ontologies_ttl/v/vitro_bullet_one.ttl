@@ -1,0 +1,32 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vitro_bullet_one.Vitro.vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_one" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "vitro" .
+
+prop-data:vitro_bullet_one.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Créer ou charger des ontologies au format OWL"@fr-CA ;
+        rdfs:label       "Create or load ontologies in OWL format"@en-CA ;
+        rdfs:label       "Create or load ontologies in OWL format"@en-US ;
+        rdfs:label       "Kreirati ili učitavati ontologije u OWL formatu"@sr-Latn-RS ;
+        rdfs:label       "Erstellen oder Laden von Ontologien im OWL-Format"@de-DE ;
+        rdfs:label       "Создавать и загружать онтологии в формате OWL"@ru-RU ;
+        rdfs:label       "Crear o cargar ontologías en formato OWL"@es ;
+        rdfs:label       "Criar ou carregar ontologias no formato OWL"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_one" ;
+        prop:hasPackage  "Vitro-languages" .

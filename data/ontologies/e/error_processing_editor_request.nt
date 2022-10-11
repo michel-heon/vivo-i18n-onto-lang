@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_processing_editor_request" .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erreur lors du traitement de la demande: L'éditeur(-trice) n'a pas été retiré(e)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erro ao processar o pedido: editor não retirados"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error al procesar la solicitud: el editor no se puede eliminar"@es .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: editor not removed"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: editor not removed"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fehler bei der Bearbeitung des Auftrags: HerausgeberIn wurde nicht gelöscht"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Greška pri obradi zahteva: urednik nije uklonjen"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ошибка при обработке запроса: редактор не удален"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_processing_editor_request" .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: editor not removed"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_processing_editor_request" .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_editor_request.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

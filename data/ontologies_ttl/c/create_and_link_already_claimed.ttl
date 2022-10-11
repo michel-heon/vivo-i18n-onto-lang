@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_already_claimed.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_already_claimed" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:create_and_link_already_claimed.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "You have already claimed this work."@en-CA ;
+        rdfs:label       "Sie haben diese Veröffentlichung bereits für sich beansprucht."@de-DE ;
+        rdfs:label       "You have already claimed this work."@en-US ;
+        rdfs:label       "Ya ha reclamado esta obra."@es ;
+        rdfs:label       "Вы уже заявили о своей претензии на эту работу."@ru-RU ;
+        rdfs:label       "Você já reivindicou esta obra."@pt-BR ;
+        rdfs:label       "Vous avez déjà revendiqué cette publication."@fr-CA ;
+        rdfs:label       "Več ste položili autorska prava na ovaj rad."@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_already_claimed" ;
+        prop:hasPackage  "VIVO-languages" .

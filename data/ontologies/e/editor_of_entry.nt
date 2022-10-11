@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "editor_of_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Eintrag für HerausgeberIn von"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "editor de entrada para"@es .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "editor de entrada para"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "editor of entry for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "editor of entry for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "enregistrement d'éditeur pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "urednik unosa za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "запись о роли редактора для"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "editor_of_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "editor of entry for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorshipToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "editor_of_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#editor_of_entry.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

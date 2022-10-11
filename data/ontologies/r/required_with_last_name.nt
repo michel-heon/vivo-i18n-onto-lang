@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "required_with_last_name" .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Potrebno je novo prezime"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "neuer Nachname erforderlich"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "requeimento necessita um novo sobrenome"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "requerido con nuevos Apellidos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "required with new Last name"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "required with new Last name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "requis avec un nouveau nom de famille"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "требуется новая фамилия"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "required_with_last_name" .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "required with new Last name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "required_with_last_name" .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#required_with_last_name.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

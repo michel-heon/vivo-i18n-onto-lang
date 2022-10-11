@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:degree_candidacy.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Kandidatura za diplomu"@sr-Latn-RS ;
+        rdfs:label       "Degree Candidacy"@en-CA ;
+        rdfs:label       "Degree Candidacy"@en-US ;
+        rdfs:label       "Grado de candidatura"@es ;
+        rdfs:label       "BachelorandIn/ MasterandIn/ DoktorandIn"@de-DE ;
+        rdfs:label       "Учёная степень"@ru-RU ;
+        rdfs:label       "Candidature au diplôme"@fr-CA ;
+        rdfs:label       "Grau de candidatura"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "degree_candidacy" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:degree_candidacy.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdvisorRelationship.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdviseeRelationship.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "degree_candidacy" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:degree_candidacy.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Degree Candidacy"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "degree_candidacy" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

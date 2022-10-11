@@ -1,0 +1,82 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:support.VIVO.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/footer.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "support" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:support.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/publication/personPublicationCountDynamicActivator.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "support" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:support.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "support" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:support.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Unterstützung"@de-DE ;
+        rdfs:label       "Support"@en-CA ;
+        rdfs:label       "Support"@en-US ;
+        rdfs:label       "Soporte"@es ;
+        rdfs:label       "Поддержка"@ru-RU ;
+        rdfs:label       "Aide"@fr-CA ;
+        rdfs:label       "Podrška"@sr-Latn-RS ;
+        rdfs:label       "Suporte"@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "support" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:support.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-home-page.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/footer.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/menu.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "support" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:support.VIVO.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/footer.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "support" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:support.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/footer.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/developerPanel.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/subMenuLinks.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/identity.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/dateTimeWithPrecision.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-list.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "support" ;
+        prop:hasPackage  "Vitro" .

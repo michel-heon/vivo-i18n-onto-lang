@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:manage_list_of.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Управление списком"@ru-RU ;
+        rdfs:label       "Manage list of"@en-CA ;
+        rdfs:label       "Administrar la lista de"@es ;
+        rdfs:label       "Upravljajte listom"@sr-Latn-RS ;
+        rdfs:label       "Manage list of"@en-US ;
+        rdfs:label       "Gerenciar lista de"@pt-BR ;
+        rdfs:label       "Liste verwalten von"@de-DE ;
+        rdfs:label       "Gérer la liste de"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "manage_list_of" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:manage_list_of.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "manage_list_of" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:manage_list_of.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "manage_list_of" ;
+        prop:hasPackage  "Vitro" .

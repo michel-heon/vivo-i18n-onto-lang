@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_concepts_specified" .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Actualmente no hay conceptos especificados."@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Atualmente não há conceitos especificados."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Aucun concept spécifié."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There are currently no concepts specified."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There are currently no concepts specified."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Trenutno ni jedan koncept nije specificiran."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Zur Zeit werden keine Konzepte näher beschrieben."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "В настоящее время не определено ни одного понятия."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_concepts_specified" .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "There are currently no concepts specified."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_concepts_specified" .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_concepts_specified.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:external_id_already_in_use.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Cuenta de usuario ya existe para ''{0}''"@es ;
+        rdfs:label       "Un compte d'usager est déjà présent pour ''{0}''"@fr-CA ;
+        rdfs:label       "Учетная запись пользователя ''{0}'&#039 уже существует;"@ru-RU ;
+        rdfs:label       "Usuário já existe para '' {0} ''"@pt-BR ;
+        rdfs:label       "User account already exists for ''{0}''"@en-CA ;
+        rdfs:label       "User account already exists for ''{0}''"@en-US ;
+        rdfs:label       "Nalog već postoji za korisnika ''{0}''"@sr-Latn-RS ;
+        rdfs:label       "Benutzerkonto existiert bereits für '' {0} ''"@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "external_id_already_in_use" ;
+        prop:hasPackage  "Vitro-languages" .

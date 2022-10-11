@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "feedback_thanks_heading" .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gracias por su colaboración"@es .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hvala Vam na povratnim informacijama"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Merci pour vos commentaires"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Obrigado pelo seu feedback"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Thank you for your feedback"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Thank you for your feedback"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vielen Dank für Ihr Feedback"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Благодарим вас за отзыв"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-confirmation.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "feedback_thanks_heading" .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#feedback_thanks_heading.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

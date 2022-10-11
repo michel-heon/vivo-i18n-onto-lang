@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_linked_author" .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "aucun(e) auteur(e) lié(e)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "autor não possui linl"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "keine Verknüpfung zu einer/einem AutorIn"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nema povezanih autora"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ningún autor vinculados"@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "no linked author"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "no linked author"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "автор не указан"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_linked_author" .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "no linked author"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_linked_author" .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_linked_author.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

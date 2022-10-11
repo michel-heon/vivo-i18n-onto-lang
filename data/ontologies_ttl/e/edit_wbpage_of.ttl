@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:edit_wbpage_of.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditWebpageForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "edit_wbpage_of" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:edit_wbpage_of.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Ažurirajte veb stranicu"@sr-Latn-RS ;
+        rdfs:label       "Edit webpage of"@en-CA ;
+        rdfs:label       "Edit webpage of"@en-US ;
+        rdfs:label       "Éditer la page web de"@fr-CA ;
+        rdfs:label       "Editar página de"@es ;
+        rdfs:label       "Editar página de"@pt-BR ;
+        rdfs:label       "Редактировать веб-страницу"@ru-RU ;
+        rdfs:label       "Webseite bearbeiten von"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "edit_wbpage_of" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:edit_wbpage_of.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Edit webpage of"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "edit_wbpage_of" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

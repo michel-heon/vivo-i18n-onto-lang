@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:has_no_webpages.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "This individual currently has no web pages specified. Add a new web page by clicking on the button below."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "has_no_webpages" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:has_no_webpages.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "has_no_webpages" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:has_no_webpages.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "This individual currently has no web pages specified. Add a new web page by clicking on the button below."@en-US ;
+        rdfs:label       "This individual currently has no web pages specified. Add a new web page by clicking on the button below."@en-CA ;
+        rdfs:label       "Für diese Kategorie sind zur Zeit keine Webseiten definiert. Fügen Sie eine neue Webseite durch einen Klick auf den Button unten hinzu."@de-DE ;
+        rdfs:label       "Aucune page web n'est associée à cette personne. Ajouter une page web en cliquant sur le bouton ci-dessous."@fr-CA ;
+        rdfs:label       "Este indivíduo não há páginas web específicas. Adicione uma nova página web, clicando no botão abaixo."@pt-BR ;
+        rdfs:label       "Для этого объекта пока не указаны веб-страницы. Добавьте новую веб-страницу, нажав на кнопку ниже."@ru-RU ;
+        rdfs:label       "Ova osoba trenutno nema veb stranicu specificiranu. Dodajte novu veb stranicu klikom na dugme ispod."@sr-Latn-RS ;
+        rdfs:label       "Esta persona no tiene actualmente páginas web. Agregue una nueva página web haciendo clic en el botón de abajo."@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "has_no_webpages" ;
+        prop:hasPackage  "VIVO-languages" .

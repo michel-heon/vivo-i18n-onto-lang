@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_account_to_delete" .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Wählen Sie diesen Account, um ihn zu löschen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "odaberite ovaj nalog za brisanje"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "seleccionar esta conta para excluír"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "seleccione una cuenta para eliminarla"@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "select this account to delete it"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "select this account to delete it"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "sélectionner un compte à supprimer"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "выберите эту учетную запись, чтобы удалить ее"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_account_to_delete" .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_account_to_delete.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

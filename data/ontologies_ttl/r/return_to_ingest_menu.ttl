@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:return_to_ingest_menu.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "return_to_ingest_menu" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:return_to_ingest_menu.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Return to the Data Ingest Tools menu"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "return_to_ingest_menu" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:return_to_ingest_menu.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Povratak na meni sa alatima za učitavanje podataka"@sr-Latn-RS ;
+        rdfs:label       "Voltar para menu de Ferramentas de Inserção de Dados"@pt-BR ;
+        rdfs:label       "Volver al menu Herramienta de Procesamiento de Datos"@es ;
+        rdfs:label       "Возврат к меню Инструменты ввода данных"@ru-RU ;
+        rdfs:label       "Return to the Data Ingest Tools menu"@en-CA ;
+        rdfs:label       "Return to the Data Ingest Tools menu"@en-US ;
+        rdfs:label       "Zurück zum Data Ingest Tools-Menü"@de-DE ;
+        rdfs:label       "Revenir au menu des outils de moissonnage de données"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "return_to_ingest_menu" ;
+        prop:hasPackage  "VIVO-languages" .

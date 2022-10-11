@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:persistent_link_to_visualization.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Persistent link to current visualization"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "persistent_link_to_visualization" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:persistent_link_to_visualization.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "persistent_link_to_visualization" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:persistent_link_to_visualization.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Permalink zur aktuellen Visualisierung"@de-DE ;
+        rdfs:label       "Lien persistant vers la visualisation courante"@fr-CA ;
+        rdfs:label       "ligação persistente para visualização atual"@pt-BR ;
+        rdfs:label       "Trajna veza (link) do trenutne vizualizacije"@sr-Latn-RS ;
+        rdfs:label       "Enlace permanente a la visualización actual"@es ;
+        rdfs:label       "Persistent link to current visualization"@en-CA ;
+        rdfs:label       "Persistent link to current visualization"@en-US ;
+        rdfs:label       "Постоянная ссылка на текущую визуализацию"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "persistent_link_to_visualization" ;
+        prop:hasPackage  "VIVO-languages" .

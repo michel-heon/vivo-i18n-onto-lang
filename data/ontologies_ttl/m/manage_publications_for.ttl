@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:manage_publications_for.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Administrar Publicaciones para"@es ;
+        rdfs:label       "Manage Publications for"@en-CA ;
+        rdfs:label       "Manage Publications for"@en-US ;
+        rdfs:label       "Gestion des publications pour"@fr-CA ;
+        rdfs:label       "Publikationen für verwalten"@de-DE ;
+        rdfs:label       "Upravljajte publikacijama za"@sr-Latn-RS ;
+        rdfs:label       "gerenciar publicações para"@pt-BR ;
+        rdfs:label       "Управление списком публикаций для"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "manage_publications_for" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:manage_publications_for.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePublicationsForIndividual.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "manage_publications_for" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:manage_publications_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Manage Publications for"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "manage_publications_for" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

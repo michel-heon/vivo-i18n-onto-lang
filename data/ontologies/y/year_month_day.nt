@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "year_month_day" .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Entrada invalida. Por favor ingrese un año, mes y día."@es .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Entrada inválida. Por favor, insira um ano, mês e dia."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Entrée invalide. Veuillez entrer une année, un mois et un jour."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Invalid entry. Please enter a Year, Month and Day."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Invalid entry. Please enter a Year, Month and Day."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Neispravan unos. Molimo Vas unesite godinu, mesec i dan."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ungültiger Eintrag. Bitte geben Sie ein Jahr, Monat und Tag an."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Неверный ввод. Пожалуйста, введите год, месяц и день."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDataPropertyForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "year_month_day" .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#year_month_day.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "background_threads" .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Background Threads"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Background Threads"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Background Threads"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hintergrund-Threads"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pozadinske niti"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Temas de fondo"@es .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tâches d'arrière-plan"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Фоновые потоки"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showThreads.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "background_threads" .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#background_threads.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

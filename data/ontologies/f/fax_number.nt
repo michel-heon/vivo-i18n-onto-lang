@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "fax_number" .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Faks broj"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fax Number"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fax Number"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fax"@es .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Faxnummer"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Numéro de télécopieur"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Número Fax"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Номер факса"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "fax_number" .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Fax Number"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/subjectHasPhoneFaxNumber.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "fax_number" .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#fax_number.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,45 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:middle_name.VIVO
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/newIndividualForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/manageLabelsForIndividualAddForm.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addFullNameToPerson.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "middle_name" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:middle_name.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "zweiter Vorname"@de-DE ;
+        rdfs:label       "Segundo nombre"@es ;
+        rdfs:label       "Middle name"@en-CA ;
+        rdfs:label       "Middle name"@en-US ;
+        rdfs:label       "nome do meio"@pt-BR ;
+        rdfs:label       "Deuxième prénom"@fr-CA ;
+        rdfs:label       "Отчество"@ru-RU ;
+        rdfs:label       "Ime roditelja"@sr-Latn-RS ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "middle_name" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:middle_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Middle name"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "middle_name" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

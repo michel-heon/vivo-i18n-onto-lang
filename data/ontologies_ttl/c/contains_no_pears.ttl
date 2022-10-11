@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:contains_no_pears.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/samples.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "contains_no_pears" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:contains_no_pears.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "ne sadrži kruške"@sr-Latn-RS ;
+        rdfs:label       "contains no pears"@en-US ;
+        rdfs:label       "contains no pears"@en-CA ;
+        rdfs:label       "enthält keine Birnen"@de-DE ;
+        rdfs:label       "no contiene peras"@es ;
+        rdfs:label       "Не содержит груш"@ru-RU ;
+        rdfs:label       "ne contient pas de poires"@fr-CA ;
+        rdfs:label       "não contém pears"@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "contains_no_pears" ;
+        prop:hasPackage  "Vitro-languages" .

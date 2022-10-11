@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "rebuild_vis_cache" .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ponovo kreirajte keširanu vizualizaciju"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rebuild visualization cache"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rebuild visualization cache"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Reconstruir cache de Visualização"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Reconstruir caché de visualización"@es .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Reconstruire la cache de visualisation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Visualisierungs-Cache neu aufbauen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Перестроить кэш визуализаций"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteMaintenance.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "rebuild_vis_cache" .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#rebuild_vis_cache.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

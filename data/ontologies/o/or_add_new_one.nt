@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "or_add_new_one" .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ili dodajte novog."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "o añadir uno nuevo."@es .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "oder fügen Sie eine/n neue/n AutorIn hinzu."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "or add a new one."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "or add a new one."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ou adicionar um novo."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ou en ajouter un nouveau."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "или введите нового."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "or_add_new_one" .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "or add a new one."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "or_add_new_one" .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#or_add_new_one.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

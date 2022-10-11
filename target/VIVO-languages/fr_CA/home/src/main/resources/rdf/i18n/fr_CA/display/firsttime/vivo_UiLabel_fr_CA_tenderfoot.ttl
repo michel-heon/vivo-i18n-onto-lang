@@ -1,0 +1,199 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:currently_no_researchers.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Aucun chercheur(-euse) ayant une facette géographique."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "currently_no_researchers" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:researchers_in.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "chercheur(-euse)s en"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "researchers_in" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:map_states_string.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "provinces."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_states_string" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:to.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "à"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/body/individual/individual--foaf-person_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "to" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:no_departments_found.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Aucun département retrouvé."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_departments_found" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:statewide_locations.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "localisations de niveau provincial."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "statewide_locations" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:view_all_departments.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "voir tous les départements"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "view_all_departments" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:regions.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "régions"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "regions" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:countries.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "pays"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "countries" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:countries_and_regions.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "pays et régions."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "countries_and_regions" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:no_faculty_found.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Aucun membre de la faculté retrouvé."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_faculty_found" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:placeholder_image.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "emplacement de l'image"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "placeholder_image" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:map_state_string.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "province."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_state_string" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:intro_para2.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Consulter ou chercher de l'information sur les personnes, départements, cours, subventions et publications."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "intro_para2" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:intro_title.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Bienvenue dans VIVO"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "intro_title" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:intro_para1.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "VIVO est une plateforme de valorisation de la recherche facilitant la collaboration entre chercheurs de toutes les disciplines."@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "intro_para1" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:view_all_faculty.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "voir toutes les facultés"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "view_all_faculty" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:limit_search.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Filtrer la recherche"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "limit_search" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:researchers.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "chercheurs"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "researchers" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .

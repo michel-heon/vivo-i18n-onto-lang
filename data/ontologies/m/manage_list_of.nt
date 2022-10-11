@@ -1,0 +1,28 @@
+    <http://vivoweb.org/ontology/core/properties/individual#manage_list_of.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_list_of" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_list_of" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Administrar la lista de"@es .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gerenciar lista de"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gérer la liste de"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Liste verwalten von"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Manage list of"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Manage list of"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Upravljajte listom"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Управление списком"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_list_of" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_list_of.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

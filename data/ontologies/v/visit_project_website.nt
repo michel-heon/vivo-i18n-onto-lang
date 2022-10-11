@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "visit_project_website" .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Besuchen Sie die nationale Projektwebseite"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Posetite veb sajt nacionalnog projekta"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Visit the national project web site"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Visit the national project web site"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Visite el sitio web de la institución"@es .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Visite o web site do projeto nacional"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Visitez le site web du projet national"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Посетите сайт национального проекта"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/identity.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "visit_project_website" .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#visit_project_website.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "external_login_failed" .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Eksterna prijava nije uspela"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error de inicio"@es .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "External login failed"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "External login failed"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Externe Anmeldung fehlgeschlagen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La connexion externe a échoué."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "login externo falhou"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#external_login_failed.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Не удалось выполнить внешний вход"@ru-RU .

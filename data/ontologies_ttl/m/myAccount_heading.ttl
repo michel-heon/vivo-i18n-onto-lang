@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:myAccount_heading.Vitro.vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/identity.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "myAccount_heading" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "vitro" .
+
+prop-data:myAccount_heading.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "My account"@en-CA ;
+        rdfs:label       "My account"@en-US ;
+        rdfs:label       "Mi cuenta"@es ;
+        rdfs:label       "Minha conta"@pt-BR ;
+        rdfs:label       "Моя учетная запись"@ru-RU ;
+        rdfs:label       "Moj nalog"@sr-Latn-RS ;
+        rdfs:label       "Mein Konto"@de-DE ;
+        rdfs:label       "Mon dossier"@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "myAccount_heading" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:myAccount_heading.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "myAccount_heading" ;
+        prop:hasPackage  "Vitro" .

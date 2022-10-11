@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:year_not_chartered.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "year (not charted above)"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "year_not_chartered" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:year_not_chartered.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "year_not_chartered" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:year_not_chartered.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "год (не указан выше)"@ru-RU ;
+        rdfs:label       "godinu (nije označeno iznad)"@sr-Latn-RS ;
+        rdfs:label       "year (not charted above)"@en-CA ;
+        rdfs:label       "year (not charted above)"@en-US ;
+        rdfs:label       "años (no trazada anteriormente)"@es ;
+        rdfs:label       "année (non indiquée dans le tableau ci-dessus)"@fr-CA ;
+        rdfs:label       "ano (não cartografado acima)"@pt-BR ;
+        rdfs:label       "Jahr (oben nicht aufgeführt)"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "year_not_chartered" ;
+        prop:hasPackage  "VIVO-languages" .

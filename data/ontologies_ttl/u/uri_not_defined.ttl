@@ -1,0 +1,32 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:uri_not_defined.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/pagemanagement/pageList.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/pagemanagement/page-pageList.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menupage/page-pageList.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "uri_not_defined" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:uri_not_defined.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "URI para página não está definida"@pt-BR ;
+        rdfs:label       "URI for page not defined"@en-US ;
+        rdfs:label       "URI for page not defined"@en-CA ;
+        rdfs:label       "URI für die Seite nicht definiert"@de-DE ;
+        rdfs:label       "URI de la page non définie"@fr-CA ;
+        rdfs:label       "URI za stranicu nije pronađen"@sr-Latn-RS ;
+        rdfs:label       "URI для страницы не задан"@ru-RU ;
+        rdfs:label       "URI de página no definido"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "uri_not_defined" ;
+        prop:hasPackage  "Vitro-languages" .

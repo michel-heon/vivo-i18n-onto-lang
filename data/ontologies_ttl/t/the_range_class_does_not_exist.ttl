@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:the_range_class_does_not_exist.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Класс диапазона для данного отношения не определён в системе."@ru-RU ;
+        rdfs:label       "Klasa raspona za ovo svojstvo ne postoji u sistemu."@sr-Latn-RS ;
+        rdfs:label       "La classe de plage pour cette propriété n'existe pas dans le système."@fr-CA ;
+        rdfs:label       "Der Klassenbereich für diese Eigenschaft ist im System nicht vorhanden."@de-DE ;
+        rdfs:label       "A classe intervalo para essa propriedade não existe no sistema."@pt-BR ;
+        rdfs:label       "The range class for this property does not exist in the system."@en-CA ;
+        rdfs:label       "The range class for this property does not exist in the system."@en-US ;
+        rdfs:label       "La clase de rango de esta propiedad no existe en el sistema."@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "the_range_class_does_not_exist" ;
+        prop:hasPackage  "Vitro-languages" .

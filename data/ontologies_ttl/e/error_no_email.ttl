@@ -1,0 +1,33 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_no_email.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Morate uneti email adresu."@sr-Latn-RS ;
+        rdfs:label       "Debe proporcionar una dirección de correo electrónico."@es ;
+        rdfs:label       "Sie müssen eine E-Mail-Adresse angeben."@de-DE ;
+        rdfs:label       "Vous devez inscrire une adresse courriel."@fr-CA ;
+        rdfs:label       "You must supply an email address."@en-US ;
+        rdfs:label       "You must supply an email address."@en-CA ;
+        rdfs:label       "Você deve fornecer um endereço de e-mail."@pt-BR ;
+        rdfs:label       "Необходимо указать адрес электронной почты."@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "error_no_email" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:error_no_email.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-firstTimeExternal.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "error_no_email" ;
+        prop:hasPackage  "Vitro" .

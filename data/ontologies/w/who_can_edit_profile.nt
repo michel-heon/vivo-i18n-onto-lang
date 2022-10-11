@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "who_can_edit_profile" .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ko može da ažurira moj profil"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Quem pode editar meu perfil"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Qui peut éditer mon profil"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Quién puede modificar mi perfil"@es .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Wer kann mein Profil bearbeiten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Who can edit my profile"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Who can edit my profile"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Кто может редактировать мой профиль"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myProxiesPanel.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "who_can_edit_profile" .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#who_can_edit_profile.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

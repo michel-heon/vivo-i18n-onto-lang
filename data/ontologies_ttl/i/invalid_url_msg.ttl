@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:invalid_url_msg.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Cette URL doit commencer par http:// ou https://"@fr-CA ;
+        rdfs:label       "Este URL deve começar com http: // ou https: //"@pt-BR ;
+        rdfs:label       "Ovaj URL mora da počinje sa http:// ili https://"@sr-Latn-RS ;
+        rdfs:label       "Diese URL muss mit http:// oder https:// beginnen."@de-DE ;
+        rdfs:label       "Этот URL должен начинаться с http:// или https://"@ru-RU ;
+        rdfs:label       "This URL must start with http:// or https://"@en-CA ;
+        rdfs:label       "This URL must start with http:// or https://"@en-US ;
+        rdfs:label       "Esta URL debe comenzar con http: // o https: //"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "invalid_url_msg" ;
+        prop:hasPackage  "Vitro-languages" .

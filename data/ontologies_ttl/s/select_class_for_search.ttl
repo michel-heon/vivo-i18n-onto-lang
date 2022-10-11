@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_class_for_search.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "You must select a class to display its individuals."@en-CA ;
+        rdfs:label       "You must select a class to display its individuals."@en-US ;
+        rdfs:label       "Você deve selecionar uma classe para exibir seus indivíduos."@pt-BR ;
+        rdfs:label       "Чтобы отобразить его экземпляры класса, следует выбрать класс."@ru-RU ;
+        rdfs:label       "Sie müssen eine Klasse wählen, um die zugehörigen Datensätze anzuzeigen."@de-DE ;
+        rdfs:label       "Debe seleccionar una clase para mostrar sus individuos."@es ;
+        rdfs:label       "Morate odabrati klasu kako bi ste prikazali pojedince koji joj pripadaju."@sr-Latn-RS ;
+        rdfs:label       "Vous devez sélectionner une classe pour afficher ses éléments."@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_class_for_search" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:select_class_for_search.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--searchIndividuals.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_class_for_search" ;
+        prop:hasPackage  "Vitro" .

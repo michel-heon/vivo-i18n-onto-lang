@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_classes_to_select" .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Es gibt keine Klassen im System, die zur Auswahl stehen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Il n'y a pas de classes parmi lesquelles vous pouvez choisir dans le système."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "No hay clases en el sistema del cual seleccionar."@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Não há aulas no sistema a partir do qual a escolha."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There are no Classes in the system from which to select."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "There are no Classes in the system from which to select."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "U sistemu se ne nalazi ni jedna klasa koju bi ste mogli odabrati."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "В системе нет классов, из которых можно было бы выбирать."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/rdfTypeForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_classes_to_select" .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_classes_to_select.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

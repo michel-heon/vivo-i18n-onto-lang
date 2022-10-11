@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_was_reported.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-display.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "error_was_reported" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:error_was_reported.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Dieser Fehler wurde dem Administrator gemeldet."@de-DE ;
+        rdfs:label       "Об этой ошибке было сообщено администратору сайта."@ru-RU ;
+        rdfs:label       "Ova greška je prijavljena administratoru."@sr-Latn-RS ;
+        rdfs:label       "This error has been reported to the site administrator."@en-CA ;
+        rdfs:label       "This error has been reported to the site administrator."@en-US ;
+        rdfs:label       "Cette erreur a été signalée à l'administrateur du site."@fr-CA ;
+        rdfs:label       "Este error se ha reportado al administrador del sitio."@es ;
+        rdfs:label       "Este erro foi relatado para o administrador do site."@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "error_was_reported" ;
+        prop:hasPackage  "Vitro-languages" .

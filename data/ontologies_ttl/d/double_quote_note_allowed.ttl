@@ -1,0 +1,32 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:double_quote_note_allowed.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--searchIndividuals.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--sparqlQuery.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--fixedHtml.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "double_quote_note_allowed" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:double_quote_note_allowed.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "The variable name should not have a double quote."@en-US ;
+        rdfs:label       "The variable name should not have a double quote."@en-CA ;
+        rdfs:label       "O nome da variável não deve ter uma dupla citação."@pt-BR ;
+        rdfs:label       "В имени переменной не должно быть двойных кавычек."@ru-RU ;
+        rdfs:label       "Le nom de la variable ne doit pas comporter de double guillemet."@fr-CA ;
+        rdfs:label       "Naziv promenjive ne treba da ima navodnike."@sr-Latn-RS ;
+        rdfs:label       "El nombre de la variable no debería tener una comilla doble."@es ;
+        rdfs:label       "Der Name der Variable darf keine Anführungszeichen beinhalten."@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "double_quote_note_allowed" ;
+        prop:hasPackage  "Vitro-languages" .

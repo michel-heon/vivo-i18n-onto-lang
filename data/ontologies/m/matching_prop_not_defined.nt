@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "matching_prop_not_defined" .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La propiedad de coincidencia no está definida"@es .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Matching-Eigenschaft ist nicht definiert"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Svojstvo po kom vršite povezivanje nije definisano"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "la propriété d'appariement n'est pas définie"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "matching property is not defined"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "matching property is not defined"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "propriedade correspondente não está definido"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "соответствующее свойство не определено"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showAuth.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "matching_prop_not_defined" .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#matching_prop_not_defined.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,26 @@
+    <http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-menu.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "drag_drop_to_reorder_menus" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "drag_drop_to_reorder_menus" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Arrastar e soltar para reordenar os itens do menu"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Arrastrar y soltar para cambiar el orden de los elementos de menú"@es .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Drag and drop to reorder menu items"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Drag and drop to reorder menu items"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Drag&Drop, um die Menüpunkte neu zu ordnen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Glisser-déposer pour réorganiser les éléments du menu"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Prevucite kako bi ste promenili redosled stavki u meniju"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Перетащите пункты меню для изменения порядка их следования"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-menu.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "drag_drop_to_reorder_menus" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#drag_drop_to_reorder_menus.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

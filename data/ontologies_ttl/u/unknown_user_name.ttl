@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:unknown_user_name.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "фрэнд"@ru-RU ;
+        rdfs:label       "ami"@fr-CA ;
+        rdfs:label       "friend"@en-CA ;
+        rdfs:label       "friend"@en-US ;
+        rdfs:label       "amigo"@es ;
+        rdfs:label       "amigo"@pt-BR ;
+        rdfs:label       "Freund"@de-DE ;
+        rdfs:label       "prijatelj"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "unknown_user_name" ;
+        prop:hasPackage  "Vitro-languages" .

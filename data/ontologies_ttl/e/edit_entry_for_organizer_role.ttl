@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:edit_entry_for_organizer_role.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       ": Ažurirajte ovu ulogu organizatora"@sr-Latn-RS ;
+        rdfs:label       ": Изменить эту роль организатора"@ru-RU ;
+        rdfs:label       ": Edite este papel de organizador"@pt-BR ;
+        rdfs:label       ": Edite este rol de organizador"@es ;
+        rdfs:label       ": Diese Organisatorenrolle bearbeiten"@de-DE ;
+        rdfs:label       ": Edit this organizer role"@en-CA ;
+        rdfs:label       ": Edit this organizer role"@en-US ;
+        rdfs:label       ": Éditer ce rôle d'organisateur(trice)"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "edit_entry_for_organizer_role" ;
+        prop:hasPackage  "VIVO-languages" .

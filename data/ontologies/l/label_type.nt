@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "label_type" .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bezeichnung (Typ)"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Etiqueta (Tipo)"@es .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Label (Type)"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Label (Type)"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Labela (Tip)"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rótulo (Type)"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étiquette (type d )"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Метка (тип)"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "label_type" .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Label (Type)"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConceptVocabSpecificDisplay.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "label_type" .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#label_type.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "javascript_require_to_edit" .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Da bi ste ažurirali sadržaj, morate da omogućite JavaScript."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "In order to edit content, you'll need to enable JavaScript."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "In order to edit content, you'll need to enable JavaScript."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Para editar el contenido, tendrá que activar JavaScript."@es .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Para editar o conteúdo, você precisa ativar o JavaScript."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pour pouvoir modifier le contenu, vous devez activer JavaScript."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Um den Inhalt bearbeiten zu können, muss JavaScript aktiviert sein."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Для редактирования необходимо разрешить JavaScript."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-login.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "javascript_require_to_edit" .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_require_to_edit.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

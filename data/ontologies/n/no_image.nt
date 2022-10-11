@@ -1,0 +1,28 @@
+    <http://vivoweb.org/ontology/core/properties/individual#no_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_image" .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_image" .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "kein Bild"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nema slike"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ninguna imagen"@es .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "no image"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "no image"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "pas d'image"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "sem imagem"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "изображение отсутствует"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_image" .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#no_image.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

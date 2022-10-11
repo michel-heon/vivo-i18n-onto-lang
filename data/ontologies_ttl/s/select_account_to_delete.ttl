@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_account_to_delete.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "sélectionner un compte à supprimer"@fr-CA ;
+        rdfs:label       "Wählen Sie diesen Account, um ihn zu löschen"@de-DE ;
+        rdfs:label       "select this account to delete it"@en-CA ;
+        rdfs:label       "select this account to delete it"@en-US ;
+        rdfs:label       "выберите эту учетную запись, чтобы удалить ее"@ru-RU ;
+        rdfs:label       "odaberite ovaj nalog za brisanje"@sr-Latn-RS ;
+        rdfs:label       "seleccione una cuenta para eliminarla"@es ;
+        rdfs:label       "seleccionar esta conta para excluír"@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_account_to_delete" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:select_account_to_delete.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_account_to_delete" ;
+        prop:hasPackage  "Vitro" .

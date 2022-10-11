@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:imageUpload.errorUnknown.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Leider waren wir nicht in der Lage, das bereitgestellte Foto zu verarbeiten. Bitte versuchen Sie es mit einem anderen Foto."@de-DE ;
+        rdfs:label       "Sorry, we were unable to process the photo you provided. Please try another photo."@en-CA ;
+        rdfs:label       "Sorry, we were unable to process the photo you provided. Please try another photo."@en-US ;
+        rdfs:label       "К сожалению, мы не смогли обработать предоставленную вами фотографию. Пожалуйста, попробуйте другую фотографию."@ru-RU ;
+        rdfs:label       "Lo sentimos, la fotografía no ha podido ser procesada. Por favor, intente con otra fotografía"@es ;
+        rdfs:label       "Došlo je do greške pri obradi slike. Molimo Vas odaberete neku drugu sliku."@sr-Latn-RS ;
+        rdfs:label       "Desculpe, não fomos capazes de processar a foto que você forneceu. Por favor, tente outra foto."@pt-BR ;
+        rdfs:label       "Désolé, impossible de traiter la photo fournie. Veuillez fournir une autre photo."@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "imageUpload.errorUnknown" ;
+        prop:hasPackage  "Vitro-languages" .

@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:save_profile_changes.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Sačuvajte promene u okviru profila"@sr-Latn-RS ;
+        rdfs:label       "Speichere Änderungen zu Profilen"@de-DE ;
+        rdfs:label       "Сохранить изменения профилей"@ru-RU ;
+        rdfs:label       "Appliquer les changements aux profils"@fr-CA ;
+        rdfs:label       "Guarde los cambios en los perfiles"@es ;
+        rdfs:label       "Save changes to profiles"@en-CA ;
+        rdfs:label       "Save changes to profiles"@en-US ;
+        rdfs:label       "Salvar alterações em perfis"@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "save_profile_changes" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:save_profile_changes.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "save_profile_changes" ;
+        prop:hasPackage  "Vitro" .

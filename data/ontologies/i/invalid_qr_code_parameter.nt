@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "invalid_qr_code_parameter" .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ha pasado un valor no válido para el parámetro de visualización qrCode."@es .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Le paramètre saisi pour le code QR est invalide."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sie haben einen ungültigen Wert für den QR-Code-Anzeigeparameter übergeben."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Uneli ste neispravnu vrednost parametra za prikaz \"qrCode\"-a."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Você passou um valor inválido para o parâmetro de visualização do QRCode."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You have passed an invalid value for the qrCode display parameter."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You have passed an invalid value for the qrCode display parameter."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Вы передали недопустимое значение для параметра отображения qrCode."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "invalid_qr_code_parameter" .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "You have passed an invalid value for the qrCode display parameter."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-qrCodeGenerator.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "invalid_qr_code_parameter" .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#invalid_qr_code_parameter.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

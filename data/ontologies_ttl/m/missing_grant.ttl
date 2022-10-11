@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:missing_grant.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-organizationAdministersGrant.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "missing_grant" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:missing_grant.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "fehlendes Forschungsprojekt"@de-DE ;
+        rdfs:label       "concessão desaparecida"@pt-BR ;
+        rdfs:label       "missing grant"@en-CA ;
+        rdfs:label       "missing grant"@en-US ;
+        rdfs:label       "subvention manquante"@fr-CA ;
+        rdfs:label       "nedostaje grant"@sr-Latn-RS ;
+        rdfs:label       "falta subvención"@es ;
+        rdfs:label       "не указан грант"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "missing_grant" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:missing_grant.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "missing grant"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "missing_grant" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

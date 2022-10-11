@@ -1,0 +1,67 @@
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "email_address" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Courriel"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Dirección de correo clectrónico"@es .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "E-Mail-Adresse"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Email Address"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Email Address"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Email Adresa"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Endereço Email"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Адрес электронной почты"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "email_address" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Courriel"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Dirección de correo clectrónico"@es .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "E-Mail-Adresse"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Email Address"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Email Address"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Email adresa"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Endereço Email"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Адрес электронной почты"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "email_address" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Email Address"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEmailAddress.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "email_address" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "email_address" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Adresse courriel"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Dirección de correo electrónico"@es .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "E-Mail-Adresse"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Email address"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Email address"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Email adresa"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Endereço de e-mail"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Адрес электронной почты"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-firstTimeExternal.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showAuth.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-email.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "email_address" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#email_address.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

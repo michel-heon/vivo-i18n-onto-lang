@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "ingest_tools" .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Alati za prikupljanje podataka"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ferramentas de Inserção"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Herramientas de importación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ingest tools"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ingest tools"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ingest-Tools"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Outils d'ingestion"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Инструменты для ввода данных"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-advancedDataTools.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "ingest_tools" .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#ingest_tools.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

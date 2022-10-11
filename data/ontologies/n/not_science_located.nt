@@ -1,0 +1,29 @@
+    <http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "not_science_located" .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "gilt nicht als wissenschaftliche Publikation."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "has not been \"science-located.\""@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "has not been \"science-located.\""@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "n'a pas été positionnée selon le domaine scientifique."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nije \"naučno-lociran.\""@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "no se han 'localizado por la ciencia.'"@es .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "não foi \"ciência localizado.\""@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "не была „научно локализована“"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "not_science_located" .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "has not been \"science-located.\""@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "not_science_located" .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#not_science_located.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

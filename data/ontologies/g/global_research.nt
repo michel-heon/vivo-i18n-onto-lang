@@ -1,0 +1,32 @@
+    <http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "global_research" .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Global Research"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Global Research"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Global Research"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Globalno istraživanje"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Investigación global"@es .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Recherche globale"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "weltweite Forschung"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Глобальное исследование"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-home-page.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "global_research" .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Global Research"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "global_research" .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#global_research.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:cached_models_regenerated.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/modelconstructor/regenerateConstructedModels.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "cached_models_regenerated" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:cached_models_regenerated.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "The following cached models will be regenerated."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "cached_models_regenerated" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:cached_models_regenerated.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Les modèles en cache suivants seront régénérés."@fr-CA ;
+        rdfs:label       "Se regenerarán los siguientes modelos de caché."@es ;
+        rdfs:label       "Os seguintes modelos em cache será regenerado."@pt-BR ;
+        rdfs:label       "Folgende Modelle im Zwischenspeicher werden wiederhergestellt."@de-DE ;
+        rdfs:label       "Следующие кэшированные модели будут перестроены."@ru-RU ;
+        rdfs:label       "Sledeći keširani modeli će biti ponovo generisani."@sr-Latn-RS ;
+        rdfs:label       "The following cached models will be regenerated."@en-CA ;
+        rdfs:label       "The following cached models will be regenerated."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "cached_models_regenerated" ;
+        prop:hasPackage  "VIVO-languages" .

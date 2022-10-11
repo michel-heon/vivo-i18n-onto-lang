@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:faculty_memberships.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Faculty Memberships"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "faculty_memberships" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:faculty_memberships.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Članstvo na fakultetu"@sr-Latn-RS ;
+        rdfs:label       "Faculdade Associadas"@pt-BR ;
+        rdfs:label       "Faculty Memberships"@en-US ;
+        rdfs:label       "ProfessorInnen"@de-DE ;
+        rdfs:label       "Принадлежность к преподавательскому составу"@ru-RU ;
+        rdfs:label       "Participación en la facultad"@es ;
+        rdfs:label       "Membres facultaires"@fr-CA ;
+        rdfs:label       "Faculty Memberships"@en-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "faculty_memberships" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:faculty_memberships.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Принадлежность к преподавательскому составу"@ru-RU ;
+        rdfs:label       "Membres facultaires"@fr-CA ;
+        rdfs:label       "Faculty Memberships"@en-CA ;
+        rdfs:label       "Faculty Memberships"@en-US ;
+        rdfs:label       "Članstvo na fakultetu"@sr-Latn-RS ;
+        rdfs:label       "Faculdade Associadas"@pt-BR ;
+        rdfs:label       "ProfessorInnen"@de-DE ;
+        rdfs:label       "Participación en la facultad"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "faculty_memberships" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .

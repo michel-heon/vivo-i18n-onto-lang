@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:imageUpload.errorFileTooBig.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Odaberite sliku koja zauzima manje od {0} megabajta."@sr-Latn-RS ;
+        rdfs:label       "Favor de elegir una imagen más pequeña de {0} megabytes."@es ;
+        rdfs:label       "Bitte laden Sie ein Bild kleiner als {0} Megabyte hoch."@de-DE ;
+        rdfs:label       "Veuillez téléverser une image de moins de {0} mégaoctets."@fr-CA ;
+        rdfs:label       "Faça upload de uma imagem menor do que {0} megabytes."@pt-BR ;
+        rdfs:label       "Please upload an image smaller than {0} megabytes."@en-US ;
+        rdfs:label       "Пожалуйста, загрузите изображение размером менее {0} мегабайт."@ru-RU ;
+        rdfs:label       "Please upload an image smaller than {0} megabytes."@en-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "imageUpload.errorFileTooBig" ;
+        prop:hasPackage  "Vitro-languages" .

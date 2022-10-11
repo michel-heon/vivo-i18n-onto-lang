@@ -1,0 +1,52 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:co_investigator_network.VIVO.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "co_investigator_network" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:co_investigator_network.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "co-investigator network"@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-custom-visualizationFoafPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "co_investigator_network" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:co_investigator_network.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationQuickView.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "co_investigator_network" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:co_investigator_network.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "co-investigator network"@en-US ;
+        rdfs:label       "co-investigator network"@en-CA ;
+        rdfs:label       "réseau des cochercheur(-euse)s"@fr-CA ;
+        rdfs:label       "red de coinvestigador"@es ;
+        rdfs:label       "mreža koautora"@sr-Latn-RS ;
+        rdfs:label       "Koforscher-Netzwerk"@de-DE ;
+        rdfs:label       "co-investigador rede"@pt-BR ;
+        rdfs:label       "сеть участников исследования"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "co_investigator_network" ;
+        prop:hasPackage  "VIVO-languages" .

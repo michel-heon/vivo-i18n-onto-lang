@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:probably_a_bug_so_report.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "probably_a_bug_so_report" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:probably_a_bug_so_report.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "The end user should not see this error under normal circumstances, so this is probably a bug and should be reported."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "probably_a_bug_so_report" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:probably_a_bug_so_report.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "L'utilisateur ne devrait pas normalement voir cette erreur. Il s'agit vraisemblablement d'un problème qui doit être rapporté."@fr-CA ;
+        rdfs:label       "Krajnji korisnik ne bi trebalo da vidi ovu grešku u normalnim okolnostima, te je ovo verovatno greška i treba da je prijavite."@sr-Latn-RS ;
+        rdfs:label       "Diese Fehlermeldung sollte der/dem EndnutzerIn normalerweise nicht angezeigt werden, daher handelt es sich wahrscheinlich um einen Fehler, der gemeldet werden sollte."@de-DE ;
+        rdfs:label       "O usuário final não deve ver este erro em circunstâncias normais, de modo que este é provavelmente um bug e deve ser relatado."@pt-BR ;
+        rdfs:label       "The end user should not see this error under normal circumstances, so this is probably a bug and should be reported."@en-CA ;
+        rdfs:label       "The end user should not see this error under normal circumstances, so this is probably a bug and should be reported."@en-US ;
+        rdfs:label       "El usuario final no debería ver este error en circunstancias normales, por lo que este es probablemente un error y se debe informar."@es ;
+        rdfs:label       "Конечный пользователь не должен видеть эту ошибку при нормальных обстоятельствах, поэтому, вероятно, это ошибка, о которой следует сообщить."@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "probably_a_bug_so_report" ;
+        prop:hasPackage  "VIVO-languages" .

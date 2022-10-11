@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:orcid_step2_added.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "orcid_step2_added" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:orcid_step2_added.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "<p>Seu registro ORCID está vinculado ao VIVO</p>"@pt-BR ;
+        rdfs:label       "<p>Su registro ORCID está conectado a VIVO</p>"@es ;
+        rdfs:label       "<p>Ваша запись ORCID связана с VIVO</p>"@ru-RU ;
+        rdfs:label       "<p>Ihr ORCID Eintrag wurde mit VIVO verknüpft.</p>"@de-DE ;
+        rdfs:label       "<p>Votre dossier ORCID est lié à VIVO</p>"@fr-CA ;
+        rdfs:label       "<p>Your ORCID record is linked to VIVO</p>"@en-CA ;
+        rdfs:label       "<p>Your ORCID record is linked to VIVO</p>"@en-US ;
+        rdfs:label       "<p>Vaš ORCID sadržaj je povezan sa VIVO-om</p>"@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "orcid_step2_added" ;
+        prop:hasPackage  "VIVO-languages" .

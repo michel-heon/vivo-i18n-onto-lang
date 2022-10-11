@@ -1,0 +1,67 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_loginfull.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Log in to manage this site"@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/identity.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_loginfull" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:menu_loginfull.VIVO-languages.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Login para o gerenciamento do site"@pt-BR ;
+        rdfs:label       "Connectez-vous pour gérer ce site"@fr-CA ;
+        rdfs:label       "Administrationszugang - Anmeldung"@de-DE ;
+        rdfs:label       "Iniciar sesión para administrar este sitio"@es ;
+        rdfs:label       "Prijavite se kako bi ste upravljanli sajtom i sadržajem"@sr-Latn-RS ;
+        rdfs:label       "Войдите, чтобы работать с сайтом"@ru-RU ;
+        rdfs:label       "Log in to manage this site"@en-CA ;
+        rdfs:label       "Log in to manage this site"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_loginfull" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:menu_loginfull.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Log in to manage this site"@en-CA ;
+        rdfs:label       "Log in to manage this site"@en-US ;
+        rdfs:label       "Войдите, чтобы работать с сайтом"@ru-RU ;
+        rdfs:label       "Ulogujte se kako bi ste upravljali sajtom."@sr-Latn-RS ;
+        rdfs:label       "Connectez-vous pour gérer ce site"@fr-CA ;
+        rdfs:label       "Login para o gerenciamento do site"@pt-BR ;
+        rdfs:label       "Administrationszugang - Anmeldung"@de-DE ;
+        rdfs:label       "Iniciar sesión para administrar este sitio"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_loginfull" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:menu_loginfull.VIVO.wilma
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/identity.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_loginfull" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:menu_loginfull.VIVO.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/identity.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "menu_loginfull" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "tenderfoot" .

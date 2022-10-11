@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "view_content_index" .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pogledajte kratak pregled sadržaja ovog sajta"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sehen Sie einen Überblick über den Inhalt dieser Website"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ver um esboço do conteúdo deste site"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ver un resumen de los contenidos de este sitio"@es .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "View an outline of the content in this site"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "View an outline of the content in this site"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Voir un aperçu du contenu de ce site"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ознакомиться с кратким содержанием этого сайта"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/identity.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "view_content_index" .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#view_content_index.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "unique_coinvestigators_per_year" .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Coinvestigadores únicos por año"@es .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Jedinstvenih ko-istražitelja po godini"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Unique Co-Investigators per year"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Unique Co-Investigators per year"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "cochercheur(-euse)s dédoublonné(e)s par année"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "einzelne KoforscherInnen pro Jahr"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Único co-pesquisadores por ano"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Уникальных со-исследователей в год"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "unique_coinvestigators_per_year" .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Unique Co-Investigators per year"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/copi/coInvestigationSparklineContent.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "unique_coinvestigators_per_year" .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#unique_coinvestigators_per_year.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

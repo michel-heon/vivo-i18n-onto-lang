@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_error_instructions_fiveB.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "registro/"@es ;
+        rdfs:label       "logs/"@de-DE ;
+        rdfs:label       "logs/"@en-CA ;
+        rdfs:label       "logs/"@en-US ;
+        rdfs:label       "logs/"@ru-RU ;
+        rdfs:label       "logs /"@pt-BR ;
+        rdfs:label       "logs/"@sr-Latn-RS ;
+        rdfs:label       "logs/"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fiveB" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:harvest_error_instructions_fiveB.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fiveB" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:harvest_error_instructions_fiveB.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "logs/"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_fiveB" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

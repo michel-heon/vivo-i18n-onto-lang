@@ -1,0 +1,26 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:of.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "de"@es ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/es/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_es.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/es/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/aboutMapOfScience_es.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "of" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:resume.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "continuar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/es/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_es.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "resume" ;
+        prop:hasPackage  "VIVO-languages" .

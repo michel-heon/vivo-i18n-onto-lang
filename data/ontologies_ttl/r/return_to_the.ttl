@@ -1,0 +1,33 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:return_to_the.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-standard.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-confirmation.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-error.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-display.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "return_to_the" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:return_to_the.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Vratite se na"@sr-Latn-RS ;
+        rdfs:label       "Вернуться на"@ru-RU ;
+        rdfs:label       "Retornar para a"@pt-BR ;
+        rdfs:label       "Return to the"@en-CA ;
+        rdfs:label       "Return to the"@en-US ;
+        rdfs:label       "Zurück zu"@de-DE ;
+        rdfs:label       "Revenir à la"@fr-CA ;
+        rdfs:label       "Vuelva a la"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "return_to_the" ;
+        prop:hasPackage  "Vitro-languages" .

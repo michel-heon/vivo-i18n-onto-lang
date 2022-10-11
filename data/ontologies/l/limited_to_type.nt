@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "limited_to_type" .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  " ограничены по типу объектов"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "beschränkt auf den Typ"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limitado a tipo de registro"@es .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limite do tipo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limited to type"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limited to type"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limité aux types"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ograničeno na tip"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/search/search-pagedResults.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "limited_to_type" .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

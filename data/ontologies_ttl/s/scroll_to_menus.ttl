@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:scroll_to_menus.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-property-group-menus.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-property-group-tabs.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "scroll_to_menus" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:scroll_to_menus.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-property-group-tabs.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "scroll_to_menus" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:scroll_to_menus.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "перейдите к меню групп свойств"@ru-RU ;
+        rdfs:label       "navegar pela propriedade do grupo menus"@pt-BR ;
+        rdfs:label       "idite na grupu menija za svojstva"@sr-Latn-RS ;
+        rdfs:label       "faites défiler jusqu'aux menus de groupe de propriétés"@fr-CA ;
+        rdfs:label       "Zu Gruppenmenüs scrollen"@de-DE ;
+        rdfs:label       "scroll to property group menus"@en-CA ;
+        rdfs:label       "scroll to property group menus"@en-US ;
+        rdfs:label       "desplazarse al menú grupo de propiedades"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "scroll_to_menus" ;
+        prop:hasPackage  "Vitro-languages" .

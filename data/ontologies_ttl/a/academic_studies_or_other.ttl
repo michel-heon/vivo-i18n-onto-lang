@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:academic_studies_or_other.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Academic Studies or Other Training"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "academic_studies_or_other" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:academic_studies_or_other.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEducationalTraining.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "academic_studies_or_other" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:academic_studies_or_other.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Academic Studies or Other Training"@en-CA ;
+        rdfs:label       "Academic Studies or Other Training"@en-US ;
+        rdfs:label       "Hochschulstudium oder andere Ausbildung"@de-DE ;
+        rdfs:label       "Akademske studije ili drugi treninzi"@sr-Latn-RS ;
+        rdfs:label       "Estudos Acadêmicos ou outra formação"@pt-BR ;
+        rdfs:label       "Études universitaires ou autre formation"@fr-CA ;
+        rdfs:label       "Академическое обучение или другая подготовка"@ru-RU ;
+        rdfs:label       "Otros estudios académicos o de formación"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "academic_studies_or_other" ;
+        prop:hasPackage  "VIVO-languages" .

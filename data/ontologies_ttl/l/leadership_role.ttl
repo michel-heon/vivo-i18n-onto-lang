@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:leadership_role.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Leadership Role"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "leadership_role" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:leadership_role.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Rôle de direction"@fr-CA ;
+        rdfs:label       "Uloga Lidera"@sr-Latn-RS ;
+        rdfs:label       "Papel de liderazgo"@es ;
+        rdfs:label       "Leadership Role"@en-CA ;
+        rdfs:label       "Leadership Role"@en-US ;
+        rdfs:label       "Führungsposition"@de-DE ;
+        rdfs:label       "Regras da Liderança"@pt-BR ;
+        rdfs:label       "Роль руководителя"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "leadership_role" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:leadership_role.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Rôle de direction"@fr-CA ;
+        rdfs:label       "Papel de liderazgo"@es ;
+        rdfs:label       "Роль руководителя"@ru-RU ;
+        rdfs:label       "Vodeća uloga"@sr-Latn-RS ;
+        rdfs:label       "Führungsposition"@de-DE ;
+        rdfs:label       "Regras da Liderança"@pt-BR ;
+        rdfs:label       "Leadership Role"@en-CA ;
+        rdfs:label       "Leadership Role"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "leadership_role" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .

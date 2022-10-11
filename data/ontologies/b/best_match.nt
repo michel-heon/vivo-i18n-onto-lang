@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "best_match" .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Best Match"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Best Match"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Meilleure correspondance"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Mejor resultado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Melhor correspondência"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Najbolje podudaranje"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "größte Übereinstimmung"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Лучшее соответствие"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "best_match" .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Best Match"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "best_match" .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#best_match.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

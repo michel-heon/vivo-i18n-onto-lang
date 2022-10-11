@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_error" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Es konnten keine näheren Angaben zur Publikation ermittelt werden."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Impossible de retrouver les métadonnées"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Incapaz de recuperar datos de la citación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Incapaz de recuperar os detalhes da citação"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Nije moguće dobaviti detalje o citatima"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Unable to retrieve citation details"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Unable to retrieve citation details"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Невозможно получить данные о цитировании"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_error" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_error.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

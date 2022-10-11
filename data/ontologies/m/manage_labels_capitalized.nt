@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_labels_capitalized" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Administrar etiquetas"@es .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gerenciar Labels"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gérer les étiquettes"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Labels verwalten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Manage Labels"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Manage Labels"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Upravljajte labelama"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Управление метками"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/manageLabelsForIndividual.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_labels_capitalized" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_capitalized.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

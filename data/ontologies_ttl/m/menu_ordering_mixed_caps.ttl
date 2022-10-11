@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:menu_ordering_mixed_caps.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteConfiguration.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "menu_ordering_mixed_caps" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:menu_ordering_mixed_caps.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Menu Ordenado"@pt-BR ;
+        rdfs:label       "Redosled opcija unutar menija"@sr-Latn-RS ;
+        rdfs:label       "Menu ordering"@en-CA ;
+        rdfs:label       "Menu ordering"@en-US ;
+        rdfs:label       "Упорядочивание меню"@ru-RU ;
+        rdfs:label       "Menüsortierung"@de-DE ;
+        rdfs:label       "Orden del Menú"@es ;
+        rdfs:label       "Ordre des menus"@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "menu_ordering_mixed_caps" ;
+        prop:hasPackage  "Vitro-languages" .

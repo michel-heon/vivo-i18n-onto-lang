@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_or_create_organization.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAwardOrHonor.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/grantAdministeredBy.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_or_create_organization" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:select_or_create_organization.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Select an existing Organization or create a new one."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_or_create_organization" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:select_or_create_organization.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Selecione uma organização existente ou criar um novo."@pt-BR ;
+        rdfs:label       "Выберите существующую организацию или создайте новую."@ru-RU ;
+        rdfs:label       "Wählen Sie eine bestehende Organisation aus oder erstellen Sie eine neue."@de-DE ;
+        rdfs:label       "Odaberite postojeću organizaciju ili kreirajte novu."@sr-Latn-RS ;
+        rdfs:label       "Select an existing Organization or create a new one."@en-CA ;
+        rdfs:label       "Select an existing Organization or create a new one."@en-US ;
+        rdfs:label       "Sélectionner une organisation existante ou en créer une nouvelle."@fr-CA ;
+        rdfs:label       "Seleccione una organización existente o cree una nueva."@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_or_create_organization" ;
+        prop:hasPackage  "VIVO-languages" .

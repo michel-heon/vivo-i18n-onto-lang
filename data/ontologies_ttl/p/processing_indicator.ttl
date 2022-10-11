@@ -1,0 +1,41 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:processing_indicator.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Bearbeite Zeitindikator"@de-DE ;
+        rdfs:label       "indicateur du temps de traitement"@fr-CA ;
+        rdfs:label       "indicador de tempo de processamento"@pt-BR ;
+        rdfs:label       "Indicador de tiempo de procesamiento"@es ;
+        rdfs:label       "processing time indicator"@en-CA ;
+        rdfs:label       "processing time indicator"@en-US ;
+        rdfs:label       "indikator vremena potrebnog za obradu"@sr-Latn-RS ;
+        rdfs:label       "индикатор времени обработки"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "processing_indicator" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:processing_indicator.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "processing_indicator" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:processing_indicator.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "processing_indicator" ;
+        prop:hasPackage  "Vitro" .

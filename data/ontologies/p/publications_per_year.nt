@@ -1,0 +1,29 @@
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "publications_per_year" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Publicaciones por año"@es .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Publications par année"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Publications per year"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Publications per year"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Publicações por ano"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Publikationen pro Jahr"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Radovi po godini"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Публикации по годам"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "publications_per_year" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Publications per year"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/publication/personPublicationSparklineContent.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "publications_per_year" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#publications_per_year.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

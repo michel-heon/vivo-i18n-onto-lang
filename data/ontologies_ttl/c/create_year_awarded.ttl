@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_year_awarded.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Create year awarded"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_year_awarded" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:create_year_awarded.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Kreirajte godinu dodele"@sr-Latn-RS ;
+        rdfs:label       "Jahr der Auszeichung erstellen"@de-DE ;
+        rdfs:label       "Create year awarded"@en-CA ;
+        rdfs:label       "Create year awarded"@en-US ;
+        rdfs:label       "Criar ano premiado"@pt-BR ;
+        rdfs:label       "Задать год награждения"@ru-RU ;
+        rdfs:label       "Crear año otorgado"@es ;
+        rdfs:label       "Créer l'année récompensée"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_year_awarded" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:create_year_awarded.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeValueForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_year_awarded" ;
+        prop:hasPackage  "VIVO" .

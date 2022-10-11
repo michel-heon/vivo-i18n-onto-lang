@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:years_inclusive.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Años incluidos"@es ;
+        rdfs:label       "einschließlich der Jahre"@de-DE ;
+        rdfs:label       "Годы включительно"@ru-RU ;
+        rdfs:label       "Anos Inclusive"@pt-BR ;
+        rdfs:label       "Years Inclusive"@en-CA ;
+        rdfs:label       "Years Inclusive"@en-US ;
+        rdfs:label       "Années couvertes"@fr-CA ;
+        rdfs:label       "Uključene godine"@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "years_inclusive" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:years_inclusive.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Years Inclusive"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "years_inclusive" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:years_inclusive.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAwardOrHonor.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasIssuedCredential.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "years_inclusive" ;
+        prop:hasPackage  "VIVO" .

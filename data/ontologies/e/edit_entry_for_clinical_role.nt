@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "edit_entry_for_clinical_role" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Ažurirajte ovu kliničku aktivnost"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Diese klinische Position bearbeiten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Edit this clinical activity"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Edit this clinical activity"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Edite esta actividad clínica"@es .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Edite esta atividade clínica"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Éditer cette activité clinique"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Изменить это клиническое мероприятие"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addClinicalRoleToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "edit_entry_for_clinical_role" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_clinical_role.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:malformed_last_name_msg.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Le champ Nom de famille ne peut contenir une virgule. Veuillez saisir le prénom dans le champ Prénom."@fr-CA ;
+        rdfs:label       "Polje za prezime ne sve da sadrži zarez. Molimo Vas unesite ime u polje za ime."@sr-Latn-RS ;
+        rdfs:label       "El campo de apellido no puede contener una coma. Ingrese el nombre en el campo Nombre."@es ;
+        rdfs:label       "The last name field may not contain a comma. Please enter first name in First Name field."@en-CA ;
+        rdfs:label       "The last name field may not contain a comma. Please enter first name in First Name field."@en-US ;
+        rdfs:label       "В поле Фамилия не допускаются запятые. Пожалуйста, введите имя в предназначенное для этого поле Имя."@ru-RU ;
+        rdfs:label       "Das Feld Nachname darf kein Komma enthalten. Bitte geben Sie den Vornamen in das Feld Vorname ein."@de-DE ;
+        rdfs:label       "O campo de sobrenome não pode conter vírgulas. Por favor, insira o primeiro nome no campo Nome."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "malformed_last_name_msg" ;
+        prop:hasPackage  "VIVO-languages" .

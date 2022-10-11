@@ -1,0 +1,22 @@
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_no_email" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Debe proporcionar una dirección de correo electrónico."@es .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Morate uneti email adresu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sie müssen eine E-Mail-Adresse angeben."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Você deve fornecer um endereço de e-mail."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vous devez inscrire une adresse courriel."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must supply an email address."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must supply an email address."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Необходимо указать адрес электронной почты."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-firstTimeExternal.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_no_email" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#error_no_email.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:grants_text_three.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Dadurch würde eine Seite entstehen, die about.ftl als Hauptteil benutzt. Die Seite wäre zugänglich über /about und würde alle servlet mappings in web.xml außer Kraft setzen."@de-DE ;
+        rdfs:label       "Ovo bi kreiralo stranicu koja bi koristila about.ftl za svoje telo. Stranici bi se pristupalo preko /about putanje i override-ovala bi sva servlet mapiranja u okviru web.xml-a."@sr-Latn-RS ;
+        rdfs:label       "Esto crearía una página que utilice about.ftl como el cuerpo. Se accede a la página a través de /about y anularía todas las asignaciones de servlet mapeados en web.xml."@es ;
+        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-CA ;
+        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA ;
+        rdfs:label       "Isso criaria uma página que usaria about.ftl como o corpo. A página seria acessada via /about e iria substituir todos os mapeamentos de servlet no web.xml."@pt-BR ;
+        rdfs:label       "Таким образом, будет создана страница, использующая в качестве основы файл about.ftl. Страница будет доступна через /about и она будет переопределять все сопоставления сервлетов в web.xml."@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "grants_text_three" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:grants_text_three.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "grants_text_three" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:grants_text_three.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-CA ;
+        rdfs:label       "Esto crearía una página que utilice about.ftl como el cuerpo. Se accede a la página a través de /about y anularía todas las asignaciones de servlet mapeados en web.xml."@es ;
+        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA ;
+        rdfs:label       "Таким образом, будет создана страница, использующая в качестве основы файл about.ftl. Страница будет доступна через /about и она будет переопределять все сопоставления сервлетов в web.xml."@ru-RU ;
+        rdfs:label       "Ovo bi kreiralo stranicu koja bi koristila about.ftl za telo. Stranici bi se pristupalopreko putanje /about koja bi pregazila svo mapiranje servleta u web.xml-u."@sr-Latn-RS ;
+        rdfs:label       "Dadurch würde eine Seite entstehen, die about.ftl als Hauptteil benutzt. Die Seite wäre zugänglich über /about und würde alle servlet mappings in web.xml außer Kraft setzen."@de-DE ;
+        rdfs:label       "Isso criaria uma página que usaria about.ftl como o corpo. A página seria acessada via /about e iria substituir todos os mapeamentos de servlet no web.xml."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "grants_text_three" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .

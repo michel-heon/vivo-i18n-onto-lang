@@ -1,0 +1,30 @@
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "standard_view" .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Standard profile view"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Standard profile view"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Standard-Ansicht des Profils"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Standardni pregled profila"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vista estándar del perfil"@es .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Visualização padrão do perfil"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vue complète du profil"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Показать полную анкету"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "standard_view" .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Standard profile view"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-profilePageTypes.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "standard_view" .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#standard_view.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

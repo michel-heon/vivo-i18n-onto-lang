@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:test_for_logged_in_users.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-test.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "test_for_logged_in_users" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:test_for_logged_in_users.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Ceci est le widget de test pour les utilisateurs connectés."@fr-CA ;
+        rdfs:label       "Este es el widget de pruebas para usuarios registrados."@es ;
+        rdfs:label       "Это пробный виджет для авторизованных пользователей."@ru-RU ;
+        rdfs:label       "Ovo je test vidžet za prijavljene korisnike."@sr-Latn-RS ;
+        rdfs:label       "This is the test widget for logged-in users."@en-CA ;
+        rdfs:label       "This is the test widget for logged-in users."@en-US ;
+        rdfs:label       "Este é o widget de teste para usuários registrados."@pt-BR ;
+        rdfs:label       "Dies ist das Test-Widget für angemeldete Benutzer."@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "test_for_logged_in_users" ;
+        prop:hasPackage  "Vitro-languages" .

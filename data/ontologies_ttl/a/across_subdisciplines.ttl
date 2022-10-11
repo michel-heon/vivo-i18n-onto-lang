@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:across_subdisciplines.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "across_subdisciplines" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:across_subdisciplines.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "quer durch alle 554 wissenschaftlichen Subdisziplinen"@de-DE ;
+        rdfs:label       "tras 554 subdisciplinas científicas"@es ;
+        rdfs:label       "através de 554 sub-disciplinas científicas"@pt-BR ;
+        rdfs:label       "u okviru 554 naučne poddiscipline"@sr-Latn-RS ;
+        rdfs:label       "à travers 554 sous-disciplines scientifiques"@fr-CA ;
+        rdfs:label       "по 554 научным субдисциплинам"@ru-RU ;
+        rdfs:label       "across 554 scientific subdisciplines"@en-CA ;
+        rdfs:label       "across 554 scientific subdisciplines"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "across_subdisciplines" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:across_subdisciplines.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "across 554 scientific subdisciplines"@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "across_subdisciplines" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

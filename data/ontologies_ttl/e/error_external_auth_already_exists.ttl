@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:error_external_auth_already_exists.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "An account with that external authorization ID already exists."@en-CA ;
+        rdfs:label       "An account with that external authorization ID already exists."@en-US ;
+        rdfs:label       "Nalog sa unetim ID-em Eksterne Autorizacije već postoji."@sr-Latn-RS ;
+        rdfs:label       "Una cuenta con dicho ID de autorización ya existe."@es ;
+        rdfs:label       "Es ist bereits ein Konto mit dieser externen Berechtigungs-ID vorhanden."@de-DE ;
+        rdfs:label       "Учетная запись с таким идентификатором внешней авторизации уже существует."@ru-RU ;
+        rdfs:label       "Un compte correspondant à cet identifiant externe est déjà présent."@fr-CA ;
+        rdfs:label       "uma conta com esse ID de autorização externa já existe."@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "error_external_auth_already_exists" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:error_external_auth_already_exists.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "error_external_auth_already_exists" ;
+        prop:hasPackage  "Vitro" .

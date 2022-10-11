@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:advisee_capitalized_first_name.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Nome próprio"@pt-BR ;
+        rdfs:label       "Prénom"@fr-CA ;
+        rdfs:label       "Nombre"@es ;
+        rdfs:label       "Vorname"@de-DE ;
+        rdfs:label       "Ime"@sr-Latn-RS ;
+        rdfs:label       "Имя"@ru-RU ;
+        rdfs:label       "First Name"@en-CA ;
+        rdfs:label       "First Name"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "advisee_capitalized_first_name" ;
+        prop:hasPackage  "VIVO-languages" .

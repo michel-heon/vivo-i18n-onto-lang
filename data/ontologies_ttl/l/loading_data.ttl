@@ -1,0 +1,48 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:loading_data.VIVO-languages.tenderfoot
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "učitavanje podataka"@sr-Latn-RS ;
+        rdfs:label       "loading data"@en-CA ;
+        rdfs:label       "loading data"@en-US ;
+        rdfs:label       "carregamento de dados"@pt-BR ;
+        rdfs:label       "загрузка данных"@ru-RU ;
+        rdfs:label       "Daten werden geladen"@de-DE ;
+        rdfs:label       "chargement des données"@fr-CA ;
+        rdfs:label       "cargando datos"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_data" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
+
+prop-data:loading_data.VIVO-languages.wilma
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "cargando datos"@es ;
+        rdfs:label       "učitavanje podataka"@sr-Latn-RS ;
+        rdfs:label       "Daten werden geladen"@de-DE ;
+        rdfs:label       "chargement des données"@fr-CA ;
+        rdfs:label       "carregamento de dados"@pt-BR ;
+        rdfs:label       "loading data"@en-CA ;
+        rdfs:label       "loading data"@en-US ;
+        rdfs:label       "загружаются данные"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_data" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
+
+prop-data:loading_data.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "loading data"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_data" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

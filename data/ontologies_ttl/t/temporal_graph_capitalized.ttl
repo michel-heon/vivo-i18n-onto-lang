@@ -1,0 +1,42 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:temporal_graph_capitalized.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Temporal Graph"@en-US ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-visualizationTemporalGraph.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "temporal_graph_capitalized" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:temporal_graph_capitalized.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Vremenski grafikon"@sr-Latn-RS ;
+        rdfs:label       "Graphe temporel"@fr-CA ;
+        rdfs:label       "Temporal Graph"@en-CA ;
+        rdfs:label       "Temporal Graph"@en-US ;
+        rdfs:label       "Временной график"@ru-RU ;
+        rdfs:label       "Zeitlicher Graph"@de-DE ;
+        rdfs:label       "Gráfico temporal"@es ;
+        rdfs:label       "Gráfico Temporal"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "temporal_graph_capitalized" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:temporal_graph_capitalized.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonErrorCommonBody.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationTemporalGraph.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "temporal_graph_capitalized" ;
+        prop:hasPackage  "VIVO" .

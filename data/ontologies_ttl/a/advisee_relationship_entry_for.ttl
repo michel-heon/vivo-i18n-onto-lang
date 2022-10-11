@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:advisee_relationship_entry_for.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdviseeRelationship.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "advisee_relationship_entry_for" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:advisee_relationship_entry_for.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Betreuungsverhältnis zu"@de-DE ;
+        rdfs:label       "unos odnosa sa kandidatom za"@sr-Latn-RS ;
+        rdfs:label       "orientando relacionado para"@pt-BR ;
+        rdfs:label       "entrada para la relación de Asesoría"@es ;
+        rdfs:label       "запись о взаимоотношениях с консультантом для"@ru-RU ;
+        rdfs:label       "advisee relationship entry for"@en-CA ;
+        rdfs:label       "advisee relationship entry for"@en-US ;
+        rdfs:label       "enregistrement d'une relation d'assistant pour"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "advisee_relationship_entry_for" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:advisee_relationship_entry_for.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "advisee relationship entry for"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "advisee_relationship_entry_for" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

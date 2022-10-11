@@ -1,0 +1,31 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_content_type.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Usted debe seleccionar el contenido que se incluirán en la página"@es ;
+        rdfs:label       "Você deve selecionar o conteúdo a ser incluído na página"@pt-BR ;
+        rdfs:label       "Vous devez sélectionner le contenu à inclure dans la page"@fr-CA ;
+        rdfs:label       "Morate odabrati sadržaj koji će biti prikazan na stranici"@sr-Latn-RS ;
+        rdfs:label       "Следует выбрать содержимое, которое будет включено в страницу"@ru-RU ;
+        rdfs:label       "Sie müssen Inhalte auswählen, die auf die Seite aufgenommen werden"@de-DE ;
+        rdfs:label       "You must select content to be included on the page"@en-CA ;
+        rdfs:label       "You must select content to be included on the page"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_content_type" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:select_content_type.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/menuManagement.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_content_type" ;
+        prop:hasPackage  "Vitro" .

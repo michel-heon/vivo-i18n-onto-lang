@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:harvest_error_instructions_one.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Isso é mais provável devido a uma configuração imprópria. Por favor, verifique o seguinte:"@pt-BR ;
+        rdfs:label       "Uzrok ovoga je najverovatnije nepravilno podešavanje za prikupljanje fajlova. Molimo Vas da proverite sledeće:"@sr-Latn-RS ;
+        rdfs:label       "Die Ursache ist sehr wahrscheinlich eine falsche Harvester-Konfiguration. Bitte überprüfen Sie folgendes:"@de-DE ;
+        rdfs:label       "This is most likely due to an improper Harvester configuration. Please ensure the following:"@en-CA ;
+        rdfs:label       "This is most likely due to an improper Harvester configuration. Please ensure the following:"@en-US ;
+        rdfs:label       "Скорее всего, это связано с неправильной конфигурацией Подборщика. Пожалуйста, убедитесь в следующем:"@ru-RU ;
+        rdfs:label       "Esto es debido a una configuración incorrecta del Cosechador. Por favor, asegúrese de lo siguiente:"@es ;
+        rdfs:label       "Ceci est généralement dû à une configuration erronnée du moissonnage. Veuillez vous assurer que:"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_one" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:harvest_error_instructions_one.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_one" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:harvest_error_instructions_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "This is most likely due to an improper Harvester configuration. Please ensure the following:"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "harvest_error_instructions_one" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

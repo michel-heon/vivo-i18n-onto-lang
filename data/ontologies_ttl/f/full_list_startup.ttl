@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:full_list_startup.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Lista događaja i poruka nastalih za vreme pokretanja aplikacije."@sr-Latn-RS ;
+        rdfs:label       "A Lista Completa dos Eventos de Inicialização e suas Mensagens."@pt-BR ;
+        rdfs:label       "Die vollständige Liste der Startereignisse und Nachrichten."@de-DE ;
+        rdfs:label       "Lista completa de eventos y mensajes de inicio."@es ;
+        rdfs:label       "The full list of startup events and messages."@en-CA ;
+        rdfs:label       "The full list of startup events and messages."@en-US ;
+        rdfs:label       "Полный список стартовых событий и сообщений."@ru-RU ;
+        rdfs:label       "La liste complète des événements et messages au démarrage."@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "full_list_startup" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:full_list_startup.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/startupStatus-display.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "full_list_startup" ;
+        prop:hasPackage  "Vitro" .

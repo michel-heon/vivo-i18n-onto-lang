@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:namespace_must_use_this_pattern.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Afin qu'une ontologie locale soit reconnue ici, son espace de nom URI doit respecter cette structure"@fr-CA ;
+        rdfs:label       "A fin de que una ontología local pueda ser reconocida aquí, su URI de espacio de nombres debe seguir este patrón"@es ;
+        rdfs:label       "Для того чтобы здесь применялась локальная онтология, ее URI пространства имен должен соответствовать следующему образцу"@ru-RU ;
+        rdfs:label       "Para que uma ontologia local ser reconhecido aqui, o seu namespace URI deve seguir nesse padrão"@pt-BR ;
+        rdfs:label       "In order for a local ontology to be recognized here, its namespace URI must follow this pattern"@en-US ;
+        rdfs:label       "In order for a local ontology to be recognized here, its namespace URI must follow this pattern"@en-CA ;
+        rdfs:label       "Da bi lokalna ontologija ovde bila prepoznata, URI njenog imenskog prostora (namespace URI) mora da prati sledeći šablon"@sr-Latn-RS ;
+        rdfs:label       "Damit eine lokale Ontologie erkannt werden kann, muss die Namensraum-URI diesem Muster folgen"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "namespace_must_use_this_pattern" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:namespace_must_use_this_pattern.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "namespace_must_use_this_pattern" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:namespace_must_use_this_pattern.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "In order for a local ontology to be recognized here, its namespace URI must follow this pattern"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "namespace_must_use_this_pattern" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

@@ -1,0 +1,90 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:for.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "para"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "for" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:or.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "ou"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "or" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:and.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "e"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/search-help_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "and" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:not.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "não"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/search-help_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "not" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:add.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "adicionar"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/search-help_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "add" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:account.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "conta"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-confirmEmailChangedEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedExternalOnlyEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "account" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:to.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "para"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/search-help_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "to" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:name.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "nome"@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "name" ;
+        prop:hasPackage  "Vitro-languages" .

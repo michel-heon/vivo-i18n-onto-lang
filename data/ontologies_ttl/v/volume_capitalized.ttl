@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:volume_capitalized.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "volume_capitalized" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:volume_capitalized.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Volume"@en-CA ;
+        rdfs:label       "Volume"@en-US ;
+        rdfs:label       "Volumen"@es ;
+        rdfs:label       "Volume"@pt-BR ;
+        rdfs:label       "Volume"@fr-CA ;
+        rdfs:label       "Том"@ru-RU ;
+        rdfs:label       "Band"@de-DE ;
+        rdfs:label       "Tom"@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "volume_capitalized" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:volume_capitalized.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Volume"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "volume_capitalized" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

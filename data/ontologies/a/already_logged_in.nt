@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "already_logged_in" .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sie sind bereits angemeldet."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Usted ya está registrado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Već ste prijavljeni."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Você já está logado."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vous êtes déjà connecté."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You are already logged in."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You are already logged in."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Вы уже вошли."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-login.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "already_logged_in" .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#already_logged_in.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

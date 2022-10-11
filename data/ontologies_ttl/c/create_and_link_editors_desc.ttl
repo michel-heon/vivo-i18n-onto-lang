@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_editors_desc.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_editors_desc" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:create_and_link_editors_desc.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Ako ste urednik ovog rada, molimo Vas odaberite \"Urednik\"."@sr-Latn-RS ;
+        rdfs:label       "Se você editou a obra, por favor selecione \"Editor\"."@pt-BR ;
+        rdfs:label       "If you edited the work, please select \"Editor\"."@en-CA ;
+        rdfs:label       "If you edited the work, please select \"Editor\"."@en-US ;
+        rdfs:label       "Si vous êtes l'éditeur de la publication, choisissez \"Éditeur(-trice)\""@fr-CA ;
+        rdfs:label       "Если вы редактировали работу, выберите „Редактор“."@ru-RU ;
+        rdfs:label       "Si ha editado la obra, seleccione \"Editor\"."@es ;
+        rdfs:label       "Wenn Sie Herausgeber der Veröffentlichung sind, wählen Sie bitte \"Editor\" aus."@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_editors_desc" ;
+        prop:hasPackage  "VIVO-languages" .

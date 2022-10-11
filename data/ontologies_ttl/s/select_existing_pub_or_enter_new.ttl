@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_existing_pub_or_enter_new.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Molimo Vas da odaberete postojeću publikaciju u polju za Naslov ili unesite novu."@sr-Latn-RS ;
+        rdfs:label       "Choisir une publication existante ou en saisir une nouvelle dans le champ Titre."@fr-CA ;
+        rdfs:label       "Bitte im Feld Titel eine bestehende Publikation auswählen oder eine neue eintragen."@de-DE ;
+        rdfs:label       "Пожалуйста, выберите существующую публикацию в поле Название или введите новую."@ru-RU ;
+        rdfs:label       "Please select an existing publication in the Title field or enter a new one."@en-CA ;
+        rdfs:label       "Please select an existing publication in the Title field or enter a new one."@en-US ;
+        rdfs:label       "Selecione uma publicação existente no campo Título ou digite um novo."@pt-BR ;
+        rdfs:label       "Por favor seleccione una publicación existente en el campo Título o introduzca uno nuevo."@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_existing_pub_or_enter_new" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:select_existing_pub_or_enter_new.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_existing_pub_or_enter_new" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:select_existing_pub_or_enter_new.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Please select an existing publication in the Title field or enter a new one."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "select_existing_pub_or_enter_new" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

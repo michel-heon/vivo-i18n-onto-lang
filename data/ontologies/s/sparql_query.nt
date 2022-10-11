@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "sparql_query" .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Consulta SPARQL"@es .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Consulta SPARQL"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Requête SPARQL"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "SPARQL Query"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "SPARQL query"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "SPARQL query"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "SPARQL upiti"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Запрос SPARQL"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-advancedDataTools.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "sparql_query" .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

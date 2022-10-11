@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_content_display" .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odaberite sadržaj za prikaz"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seleccione el contenido para mostrar"@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selecione conteúdo a ser exibido"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select content to display"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select content to display"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sélectionner le contenu à afficher"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Wählen Sie anzuzeigende Inhalte"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выберите содержимое для отображения"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/menuManagement.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--browseClassGroups.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_content_display" .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_content_display.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

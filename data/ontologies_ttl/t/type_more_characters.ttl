@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:type_more_characters.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Tippen Sie mehr Zeichen"@de-DE ;
+        rdfs:label       "Escribir más caracteres"@es ;
+        rdfs:label       "продолжайте вводить"@ru-RU ;
+        rdfs:label       "type more characters"@en-CA ;
+        rdfs:label       "type more characters"@en-US ;
+        rdfs:label       "Entrer plus de caractères"@fr-CA ;
+        rdfs:label       "Entre com mais caracteres"@pt-BR ;
+        rdfs:label       "unesite više karaktera"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "type_more_characters" ;
+        prop:hasPackage  "Vitro-languages" .
+
+prop-data:type_more_characters.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myProxiesPanel.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "type_more_characters" ;
+        prop:hasPackage  "Vitro" .

@@ -1,0 +1,35 @@
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_new_role_value" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Bitte im Feld Rolle einen neuen Wert eintragen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a new value in the Role field."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a new value in the Role field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, insira um novo valor no campo Regras."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, introduzca un nuevo valor en el campo Rol."@es .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Saisir une nouvelle valeur dans le champs Rôle."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Unesite novu vrednost u polje za uloga."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста, введите новое значение в поле „Роль“."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_new_role_value" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Bitte im Feld Rolle einen neuen Wert eintragen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Molimo Vas unesite novu vrednost u polje za uloge."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a new value in the Role field."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a new value in the Role field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, insira um novo valor no campo Regras."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, introduzca un nuevo valor en el campo Rol."@es .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Saisir une nouvelle valeur dans le champ Rôle."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста, введите новое значение в поле „Роль“."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_new_role_value" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_new_role_value.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a new value in the Role field."@en-US .

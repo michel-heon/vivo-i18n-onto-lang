@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vis_tools_note_one.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Les visualisations à grande échelle comme le graphique temporel ou la carte des sciences impliquent de calculer le nombre total de publications ou de subventions pour une entité donnée. Comme cela signifie aussi vérifier toutes ses sous-entités, les requêtes sous-jacentes peuvent demander beaucoup de mémoire et prendre beaucoup de temps. Pour une expérience utilisateur plus rapide, nous souhaitons sauvegarder les résultats de ces requêtes pour une réutilisation ultérieure."@fr-CA ;
+        rdfs:label       "Крупномасштабные визуализации, такие как Временной график или Карта науки, предполагают подсчет общего количества публикаций или грантов для некоторого объекта. Поскольку это также означает проверку всех его подсубъектов, базовые запросы могут занимать много памяти и времени. Для ускорения работы пользователей мы хотим сохранить результаты этих запросов для последующего повторного использования."@ru-RU ;
+        rdfs:label       "Vizualizacije velikih skupova podataka, kao što su 'Temporal Graph' ili 'Map of Science' uključuju računanje ukupnog broja publikacija ili grant-ova za određen entitet. S obzirom da to podrazumeva prolazak kroz sve pod-entitete datog entiteta, upit koji izvršava ovu operaciju zahteva i dosta memorije, i dosta vremena za izvršavanje. Da bi korisnici dobili brže svoje odgovore, rezultati datog upita se čuvaju u memoriji za brži pristup pri svakoj sledećoj vizualizaciji."@sr-Latn-RS ;
+        rdfs:label       "Visualisierungen im großen Rahmen wie der zeitliche Graph oder die Wissenschaftslandkarte beinhalten die Berechnung der Gesamtzahl von Publikationen oder Forschungsprojekten für eine bestimmte Einheit. Da dies auch die Überprüfung aller Untereinheiten bedeutet, können die zugrundeliegenden Suchanfragen sowohl speicherintensiv als auch zeitaufwändig sein. Um die Anwendererfahrung zu beschleunigen, möchten wir die Ergebnisse dieser Suchanfragen zur späteren Wiederverwendung speichern."@de-DE ;
+        rdfs:label       "Visualización a gran escala, como el Gráfico temporal o el Mapa de Ciencia implican calcular el recuento total de publicaciones en forma de subvenciones para alguna entidad. Dado que esto también significa la comprobación a través de todos sus subentidades, las consultas subyacentes pueden hacer uso intensivo de la memoria y consumir mucho tiempo. Para una experiencia de usuario más rápida, queremos guardar los resultados de estas consultas para su posterior reutilización."@es ;
+        rdfs:label       "visualizações de grande escala como o Temporal Graph ou o Mapa de ciência envolvem cálculo contagens totais de publicações ou de doações para alguma entidade. Uma vez que este também significa verificar através de todas as suas sub-entidades, as consultas subjacentes pode ser tanto memória intensiva e demorado. Para uma experiência de usuário mais rápido, queremos salvar os resultados destas consultas para reutilização posterior."@pt-BR ;
+        rdfs:label       "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@en-CA ;
+        rdfs:label       "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_one" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:vis_tools_note_one.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_one" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:vis_tools_note_one.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Large-scale visualizations like the Temporal Graph or the Map of Science involve calculating total counts of publications or of grants for some entity. Since this also means checking through all of its sub-entities, the underlying queries can be both memory-intensive and time-consuming. For a faster user experience, we wish to save the results of these queries for later re-use."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_tools_note_one" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

@@ -1,0 +1,42 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:selected_person.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationHasPositionHistory.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/projectHasParticipant.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/grantHasContributor.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_person" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:selected_person.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Selected Person"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_person" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:selected_person.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Selected Person"@en-CA ;
+        rdfs:label       "Selected Person"@en-US ;
+        rdfs:label       "Persona seleccionada"@es ;
+        rdfs:label       "Odabrana osoba"@sr-Latn-RS ;
+        rdfs:label       "Personne sélectionnée"@fr-CA ;
+        rdfs:label       "Выбранное лицо"@ru-RU ;
+        rdfs:label       "pessoa selecionada"@pt-BR ;
+        rdfs:label       "ausgewählte Person"@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "selected_person" ;
+        prop:hasPackage  "VIVO-languages" .

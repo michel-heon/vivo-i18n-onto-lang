@@ -1,0 +1,32 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vitro_bullet_three.Vitro.vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/page-home.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_three" ;
+        prop:hasPackage  "Vitro" ;
+        prop:hasTheme    "vitro" .
+
+prop-data:vitro_bullet_three.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Construir un sitio web público para mostrar sus datos"@es ;
+        rdfs:label       "Aufbauen einer öffentlich zugänglichen Webseite zur Anzeeige Ihrer Daten"@de-DE ;
+        rdfs:label       "Создать вебсайт для отображения ваших данных"@ru-RU ;
+        rdfs:label       "Build a public web site to display your data"@en-CA ;
+        rdfs:label       "Build a public web site to display your data"@en-US ;
+        rdfs:label       "Kreirate veb sajt za prikaz Vaših podataka"@sr-Latn-RS ;
+        rdfs:label       "Construir um site público para exibir seus dados"@pt-BR ;
+        rdfs:label       "Construire un site web public pour afficher vos données"@fr-CA ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_three" ;
+        prop:hasPackage  "Vitro-languages" .

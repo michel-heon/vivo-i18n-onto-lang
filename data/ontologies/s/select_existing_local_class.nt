@@ -1,0 +1,26 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_existing_local_class" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Choisir une classe existante d'une extension locale"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odaberite postojeću klasu iz lokalnog proširenja ontologije"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seleccione una clase existente desde una extensión local"@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selecione uma classe existente a partir de uma extensão local"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing class from a local extension"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing class from a local extension"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "eine existierende Klasse einer lokalen Erweiterung auswählen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выберите существующий класс"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_existing_local_class" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing class from a local extension"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_existing_local_class" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_local_class.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

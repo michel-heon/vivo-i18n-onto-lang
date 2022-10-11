@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:award_receipt_name.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "nome do prêmio recibo"@pt-BR ;
+        rdfs:label       "Nombre del premio recibido"@es ;
+        rdfs:label       "award receipt name"@en-CA ;
+        rdfs:label       "award receipt name"@en-US ;
+        rdfs:label       "Récipiendaire du prix"@fr-CA ;
+        rdfs:label       "название наградного документа"@ru-RU ;
+        rdfs:label       "Name des Auszeichnungsnachweises"@de-DE ;
+        rdfs:label       "naziv zapisa o dodeli nagrade"@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "award_receipt_name" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:award_receipt_name.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "award receipt name"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "award_receipt_name" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:award_receipt_name.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-awardOrHonor.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-awardOrHonorGiven.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "award_receipt_name" ;
+        prop:hasPackage  "VIVO" .

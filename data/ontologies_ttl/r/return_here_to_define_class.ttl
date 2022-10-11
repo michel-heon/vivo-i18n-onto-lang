@@ -1,0 +1,39 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:return_here_to_define_class.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "and then return here to define the institutional internal class."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "return_here_to_define_class" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .
+
+prop-data:return_here_to_define_class.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "y luego regrese aquí para definir la clase interna institucional."@es ;
+        rdfs:label       "and then return here to define the institutional internal class."@en-CA ;
+        rdfs:label       "and then return here to define the institutional internal class."@en-US ;
+        rdfs:label       "e depois volte aqui para definir a classe institucional."@pt-BR ;
+        rdfs:label       "и затем вернитесь сюда, чтобы задать собственный класс для учреждения."@ru-RU ;
+        rdfs:label       "und dann hierher zurückkehren, um die interne Klasse für die Institution zu definieren."@de-DE ;
+        rdfs:label       "i zatim se vratite ovde da definišete unutrašnje klase institucije."@sr-Latn-RS ;
+        rdfs:label       "revenir ici ensuite pour définir la classe interne institutionnelle."@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "return_here_to_define_class" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:return_here_to_define_class.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "return_here_to_define_class" ;
+        prop:hasPackage  "VIVO" .

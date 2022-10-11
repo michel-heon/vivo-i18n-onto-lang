@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:site_config.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteConfiguration.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "site_config" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:site_config.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Настройка сайта"@ru-RU ;
+        rdfs:label       "Konfiguration"@de-DE ;
+        rdfs:label       "Configuração do Site"@pt-BR ;
+        rdfs:label       "Configuration du site"@fr-CA ;
+        rdfs:label       "Configuración de la plataforma"@es ;
+        rdfs:label       "Site Configuration"@en-CA ;
+        rdfs:label       "Konfiguracija sajta"@sr-Latn-RS ;
+        rdfs:label       "Site Configuration"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "site_config" ;
+        prop:hasPackage  "Vitro-languages" .

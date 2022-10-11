@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_enter_pmid_intro.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Вы можете ввести один или несколько идентификаторов PubMed ID для сопоставления. Идентификаторы должны разделяться запятой или символом перевода строки."@ru-RU ;
+        rdfs:label       "You may enter one or more PubMed IDs to match. Each ID should be separated by a comma or new line."@en-US ;
+        rdfs:label       "You may enter one or more PubMed IDs to match. Each ID should be separated by a comma or new line."@en-CA ;
+        rdfs:label       "Puede agregar uno o varios IDs de PubMed para que coincidan. Cada ID debe separarse mediante coma o linea nueva."@es ;
+        rdfs:label       "Sie können eine oder mehrere PubMed IDs eingeben. Jede PubMed ID sollte durch Komma oder Zeilenumbruch getrennt werden."@de-DE ;
+        rdfs:label       "Možete uneti jedan ili više \"PubMed\" ID-eva za pretragu. Svaki ID treba da bude razdvojen zarezom ili novim redom."@sr-Latn-RS ;
+        rdfs:label       "Você pode inserir um ou mais IDs PubMed para corresponder. Cada ID deve ser separado por uma vírgula ou nova linha."@pt-BR ;
+        rdfs:label       "Vous pouvez inscrire un ou plusieurs identifiant(s) PubMed à lier. Les identifiants doivent être séparés par des virgules ou des sauts de ligne."@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_enter_pmid_intro" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:create_and_link_enter_pmid_intro.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_enter_pmid_intro" ;
+        prop:hasPackage  "VIVO" .

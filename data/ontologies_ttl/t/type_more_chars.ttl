@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:type_more_chars.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "type_more_chars" ;
+        prop:hasPackage  "Vitro" .
+
+prop-data:type_more_chars.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "type more character"@en-US ;
+        rdfs:label       "type more character"@en-CA ;
+        rdfs:label       "digite mais caracteres"@pt-BR ;
+        rdfs:label       "unesite još karaktera"@sr-Latn-RS ;
+        rdfs:label       "tapez plus de caractères"@fr-CA ;
+        rdfs:label       "Mehr Zeichen eingeben"@de-DE ;
+        rdfs:label       "escribir más caracteres"@es ;
+        rdfs:label       "продолжайте набирать"@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "type_more_chars" ;
+        prop:hasPackage  "Vitro-languages" .

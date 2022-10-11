@@ -1,0 +1,178 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:faculty_capitalized.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Преподаватель"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "faculty_capitalized" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:country.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Страна"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "country" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:geographic_focus.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Географическая ориентация"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "geographic_focus" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:at.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "на"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "at" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:of.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "из"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/aboutMapOfScience_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "of" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:departments.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Научные подразделения"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "departments" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:country_wide_research.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Исследование в масштабах страны"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "country_wide_research" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:view_all_research.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "показать все исследования"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "view_all_research" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:view_all.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Показать все..."@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "view_all" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:loading_faculty.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Загружаем данные преподавателя . . ."@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_faculty" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:in.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "в"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/aboutMapOfScience_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "in" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:no_research_content_found.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Информация об исследованиях не найдена."@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "no_research_content_found" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:file.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "файл"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/aboutMapOfScience_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "file" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:local_research.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Местное исследование"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "local_research" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:research_capitalized.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Исследования"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "research_capitalized" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:global_research.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Глобальное исследование"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "global_research" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:publications.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "публикации"@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "publications" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:loading_map_information.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Загрузка информации о карте..."@ru-RU ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "loading_map_information" ;
+        prop:hasPackage  "VIVO-languages" .

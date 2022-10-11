@@ -1,0 +1,40 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:specify_role_for_activity.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "specify_role_for_activity" ;
+        prop:hasPackage  "VIVO" .
+
+prop-data:specify_role_for_activity.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Por favor, especifique un rol para esta actividad."@es ;
+        rdfs:label       "Veuillez spécifier un rôle pour cette activité."@fr-CA ;
+        rdfs:label       "Bitte geben Sie eine Rolle für diese Aktivität an."@de-DE ;
+        rdfs:label       "Пожалуйста, укажите роль для этой деятельности."@ru-RU ;
+        rdfs:label       "Molimo Vas unesite ulogu za ovu aktivnost."@sr-Latn-RS ;
+        rdfs:label       "Please specify a role for this activity."@en-CA ;
+        rdfs:label       "Please specify a role for this activity."@en-US ;
+        rdfs:label       "Por favor especifique um regra para essa atividade."@pt-BR ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "specify_role_for_activity" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:specify_role_for_activity.VIVO.nemo
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Please specify a role for this activity."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "specify_role_for_activity" ;
+        prop:hasPackage  "VIVO" ;
+        prop:hasTheme    "nemo" .

@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "site_name" .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Site-Name"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "naziv sajta"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nom du site"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nombre del sitio"@es .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nome do site"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "site name"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "site name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#site_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "имя сайта"@ru-RU .

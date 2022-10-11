@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:replace_page_title_with_name.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Заменить изображение для {0}"@ru-RU ;
+        rdfs:label       "Replace image for {0}"@en-CA ;
+        rdfs:label       "Replace image for {0}"@en-US ;
+        rdfs:label       "Remplacer l'image de {0}"@fr-CA ;
+        rdfs:label       "Bild ersetzen für {0}"@de-DE ;
+        rdfs:label       "Reemplazar imagen por {0}"@es ;
+        rdfs:label       "Substituir imagem para {0}"@pt-BR ;
+        rdfs:label       "Zamena slike za {0}"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "replace_page_title_with_name" ;
+        prop:hasPackage  "Vitro-languages" .

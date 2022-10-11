@@ -1,0 +1,20 @@
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_text" .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seitentext"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "page text"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "page text"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "tekst stranice"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "text página"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "texte de la page"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "texto de la página"@es .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "текст страницы"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menupage/menupage--defaultSearchIndividuals.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menupage/menupage--exampleMultipleContentTypes.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_text" .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_text.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

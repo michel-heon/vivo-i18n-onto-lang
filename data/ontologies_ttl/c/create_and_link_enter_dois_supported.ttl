@@ -1,0 +1,30 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:create_and_link_enter_dois_supported.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Currently, DOIs issued by Crossref, DataCite and mEDRA are supported.<br />Each DOI should be separated by a comma or new line."@en-CA ;
+        rdfs:label       "Currently, DOIs issued by Crossref, DataCite and mEDRA are supported.<br />Each DOI should be separated by a comma or new line."@en-US ;
+        rdfs:label       "В настоящее время поддерживаются DOI, выданные Crossref, DataCite и mEDRA.<br />Они должны разделяться запятыми или символами перевода строки."@ru-RU ;
+        rdfs:label       "Zur Zeit werden DOIs unterstützt, die von Crossref, DataCite und mEDRA vergeben wurden.<br />Jeder DOI sollte durch Komma oder Zeilenumbruch getrennt werden."@de-DE ;
+        rdfs:label       "Actualmente, se soportan los DOIs emitidos por Crossref, DataCite y mEDRA.<br />Los DOIs deben separarse mediante coma o linea nueva."@es ;
+        rdfs:label       "Actuellement, les DOIs émis par Crossref, DataCite et mEDRA sont reconnus.<br />Les DOIs doivent être séparés par une virgule ou un saut de ligne."@fr-CA ;
+        rdfs:label       "Trenutno su podržani DOI koje izdaju \"Crossref\", \"DataCite\" i \"mEDRA\".<br />Svaki zaseban DOI treba da bude razdvojen zarezom ili novim redom."@sr-Latn-RS ;
+        rdfs:label       "Atualmente, DOIs emitidos por Crossref, DataCite e mEDRA são suportados.<br />Cada DOI deve ser separado por uma vírgula ou nova linha."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_enter_dois_supported" ;
+        prop:hasPackage  "VIVO-languages" .
+
+prop-data:create_and_link_enter_dois_supported.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^xsd:anyURI ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_enter_dois_supported" ;
+        prop:hasPackage  "VIVO" .

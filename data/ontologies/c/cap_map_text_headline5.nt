@@ -1,0 +1,19 @@
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "cap_map_text_headline5" .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Alterando o valor de corte"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Cambiar el valor de corte"@es .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Changer la limite des résultats"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Changing the cutoff value"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Changing the cutoff value"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Promena maksimalnog broja rezultata pretrage"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ändern des Cutoff-Wertes"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Изменение значения отсечки"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "cap_map_text_headline5" .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text_headline5.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

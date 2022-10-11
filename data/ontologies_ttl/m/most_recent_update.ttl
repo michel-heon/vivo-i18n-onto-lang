@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:most_recent_update.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Последнее обновление датировано"@ru-RU ;
+        rdfs:label       "Die letzte Aktualisierung erfolgte am"@de-DE ;
+        rdfs:label       "La actualización más reciente fue en"@es ;
+        rdfs:label       "La plus récente mise à jour a été exécutée à"@fr-CA ;
+        rdfs:label       "A atualização mais recente foi em"@pt-BR ;
+        rdfs:label       "The most recent update was at"@en-CA ;
+        rdfs:label       "The most recent update was at"@en-US ;
+        rdfs:label       "Poslednje ažuriranje je bilo u"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "most_recent_update" ;
+        prop:hasPackage  "Vitro-languages" .
