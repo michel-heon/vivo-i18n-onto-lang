@@ -15,13 +15,12 @@ prop-data:presentation_hint.VIVO-languages
         rdfs:label       "npr. Moderator, Govornik, Panelista"@sr-Latn-RS ;
         rdfs:label       "eg, Moderador, Palestrante, Especialista"@pt-BR ;
         rdfs:label       "ex.: modérateur, conférencier, panéliste"@fr-CA ;
-        rdfs:label       "e.g., Moderator, Speaker, Panelist"@en-CA ;
         rdfs:label       "e.g., Moderator, Speaker, Panelist"@en-US ;
+        rdfs:label       "e.g., Moderator, Speaker, Panelist"@en-CA ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_hint" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:presentation_hint.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -38,5 +37,4 @@ prop-data:presentation_hint.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_hint" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .

@@ -12,8 +12,7 @@ prop-data:continue.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "continue" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:continue.Vitro
         rdf:type         owl:NamedIndividual ;
@@ -22,8 +21,7 @@ prop-data:continue.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/unrecognizedUser.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "continue" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:continue.Vitro-languages
         rdf:type         owl:NamedIndividual ;

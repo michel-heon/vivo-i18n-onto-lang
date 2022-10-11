@@ -36,5 +36,4 @@ prop-data:active_grants_for.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-dept-active-grants.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "active_grants_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .

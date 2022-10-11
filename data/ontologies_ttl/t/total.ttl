@@ -19,8 +19,7 @@ prop-data:total.VIVO  rdf:type  owl:NamedIndividual ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "total" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:total.VIVO.tenderfoot
         rdf:type         owl:NamedIndividual ;
@@ -56,8 +55,7 @@ prop-data:total.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "total" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:total.Vitro
         rdf:type         owl:NamedIndividual ;
@@ -66,5 +64,4 @@ prop-data:total.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/searchIndexStatus.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "total" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .

@@ -12,8 +12,7 @@ prop-data:temporal_graph_drill_up.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "temporal_graph_drill_up" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:temporal_graph_drill_up.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

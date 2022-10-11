@@ -12,8 +12,7 @@ prop-data:selected_conference.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "selected_conference" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:selected_conference.VIVO-languages
         rdf:type         prop:PropertyKey ;
@@ -29,8 +28,7 @@ prop-data:selected_conference.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "selected_conference" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:selected_conference.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

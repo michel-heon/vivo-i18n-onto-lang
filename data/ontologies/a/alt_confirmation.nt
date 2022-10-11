@@ -15,6 +15,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#alt_confirmation.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#alt_confirmation.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "alt_confirmation" .
 <http://vivoweb.org/ontology/core/properties/individual#alt_confirmation.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#alt_confirmation.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#alt_confirmation.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#alt_confirmation.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

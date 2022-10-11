@@ -27,5 +27,4 @@ prop-data:class_group_link.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/search/search-pagedResults.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "class_group_link" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .

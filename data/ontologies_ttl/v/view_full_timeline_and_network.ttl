@@ -12,8 +12,7 @@ prop-data:view_full_timeline_and_network.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/coauthorship/coAuthorshipSparklineContent.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_full_timeline_and_network" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:view_full_timeline_and_network.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

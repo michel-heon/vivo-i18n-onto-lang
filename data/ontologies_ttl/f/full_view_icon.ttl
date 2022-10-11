@@ -18,8 +18,8 @@ prop-data:full_view_icon.VIVO.nemo
 prop-data:full_view_icon.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "full view icon"@en-CA ;
         rdfs:label       "full view icon"@en-US ;
+        rdfs:label       "full view icon"@en-CA ;
         rdfs:label       "Vollansicht-Icon"@de-DE ;
         rdfs:label       "пиктограмма просмотра полного вариант"@ru-RU ;
         rdfs:label       "Icono vista completa"@es ;
@@ -30,8 +30,7 @@ prop-data:full_view_icon.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "full_view_icon" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:full_view_icon.VIVO
         rdf:type         owl:NamedIndividual ;
@@ -39,5 +38,4 @@ prop-data:full_view_icon.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "full_view_icon" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .

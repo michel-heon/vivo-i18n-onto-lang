@@ -14,8 +14,7 @@ prop-data:co_author_icon.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_author_icon" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:co_author_icon.VIVO.tenderfoot
         rdf:type         owl:NamedIndividual ;
@@ -50,5 +49,4 @@ prop-data:co_author_icon.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_author_icon" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

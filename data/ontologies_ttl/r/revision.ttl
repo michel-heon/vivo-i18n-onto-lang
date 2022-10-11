@@ -13,8 +13,7 @@ prop-data:revision.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/version.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "revision" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:revision.Vitro-languages
         rdf:type         prop:PropertyKey ;

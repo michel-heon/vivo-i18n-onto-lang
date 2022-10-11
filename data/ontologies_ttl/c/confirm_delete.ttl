@@ -48,8 +48,7 @@ prop-data:confirm_delete.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-newImage.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_delete" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:confirm_delete.VIVO.wilma
         rdf:type         owl:NamedIndividual ;
@@ -67,8 +66,7 @@ prop-data:confirm_delete.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-2column.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "confirm_delete" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:confirm_delete.VIVO-languages
         rdf:type         owl:NamedIndividual ;
@@ -77,5 +75,4 @@ prop-data:confirm_delete.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "confirm_delete" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

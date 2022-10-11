@@ -21,8 +21,7 @@ prop-data:check_pubs_to_exclude.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePublicationsForIndividual.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "check_pubs_to_exclude" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:check_pubs_to_exclude.VIVO-languages
         rdf:type         owl:NamedIndividual ;

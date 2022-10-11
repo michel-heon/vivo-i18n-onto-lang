@@ -13,8 +13,7 @@ prop-data:editing_prohibited.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addConceptThroughObjectPropertyAutoComplete.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "editing_prohibited" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:editing_prohibited.Vitro-languages
         rdf:type         prop:PropertyKey ;
@@ -30,8 +29,7 @@ prop-data:editing_prohibited.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "editing_prohibited" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:editing_prohibited.Vitro
         rdf:type         owl:NamedIndividual ;
@@ -41,5 +39,4 @@ prop-data:editing_prohibited.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/rdfTypeForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "editing_prohibited" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .

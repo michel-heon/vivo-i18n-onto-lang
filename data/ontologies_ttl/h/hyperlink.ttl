@@ -12,8 +12,7 @@ prop-data:hyperlink.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/foaf-person--exportQrCode.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "hyperlink" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:hyperlink.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -41,5 +40,4 @@ prop-data:hyperlink.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/en_US/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_en_US.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "hyperlink" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

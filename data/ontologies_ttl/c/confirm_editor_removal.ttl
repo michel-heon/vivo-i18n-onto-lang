@@ -21,8 +21,7 @@ prop-data:confirm_editor_removal.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "confirm_editor_removal" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:confirm_editor_removal.VIVO-languages
         rdf:type         owl:NamedIndividual ;

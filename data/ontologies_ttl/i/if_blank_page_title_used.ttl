@@ -12,8 +12,7 @@ prop-data:if_blank_page_title_used.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "if_blank_page_title_used" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:if_blank_page_title_used.Vitro-languages
         rdf:type         owl:NamedIndividual ;

@@ -77,8 +77,7 @@ prop-data:page.Vitro  rdf:type  prop:PropertyKey ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-propertyGroupMenu.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:page.Vitro-languages
         rdf:type         owl:NamedIndividual ;
@@ -95,8 +94,7 @@ prop-data:page.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:page.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
@@ -183,8 +181,7 @@ prop-data:page.VIVO  rdf:type  prop:PropertyKey ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-issuedCredential.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "page" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:page.Vitro.vitro
         rdf:type         owl:NamedIndividual ;
@@ -269,5 +266,4 @@ prop-data:page.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "page" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

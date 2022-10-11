@@ -21,8 +21,7 @@ prop-data:external_vocabulary_services.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "external_vocabulary_services" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:external_vocabulary_services.VIVO-languages
         rdf:type         owl:NamedIndividual ;

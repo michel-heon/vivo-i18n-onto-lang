@@ -27,8 +27,7 @@ prop-data:standardview_tooltip_two.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-2column.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "standardview_tooltip_two" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:standardview_tooltip_two.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

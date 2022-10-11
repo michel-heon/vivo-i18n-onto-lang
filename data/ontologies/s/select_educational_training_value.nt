@@ -25,6 +25,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#select_educational_training_value.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#select_educational_training_value.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_educational_training_value" .
 <http://vivoweb.org/ontology/core/properties/individual#select_educational_training_value.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#select_educational_training_value.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#select_educational_training_value.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#select_educational_training_value.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

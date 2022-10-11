@@ -28,8 +28,7 @@ prop-data:label.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_pt_BR.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "label" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:label.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -120,8 +119,7 @@ prop-data:label.VIVO  rdf:type  owl:NamedIndividual ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/subjectHasPhoneFaxNumber.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "label" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:label.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
@@ -219,8 +217,7 @@ prop-data:label.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "label" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:label.Vitro-languages
         rdf:type         owl:NamedIndividual ;
@@ -237,5 +234,4 @@ prop-data:label.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "label" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .

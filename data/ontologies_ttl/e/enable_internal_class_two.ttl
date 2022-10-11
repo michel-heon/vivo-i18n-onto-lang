@@ -13,8 +13,7 @@ prop-data:enable_internal_class_two.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--classIntersections.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "enable_internal_class_two" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:enable_internal_class_two.VIVO-languages
         rdf:type         owl:NamedIndividual ;

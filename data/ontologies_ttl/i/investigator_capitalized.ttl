@@ -14,14 +14,13 @@ prop-data:investigator_capitalized.VIVO-languages
         rdfs:label       "chercheur(-euse)"@fr-CA ;
         rdfs:label       "Investigador"@es ;
         rdfs:label       "Investigator"@en-CA ;
-        rdfs:label       "Investigator"@en-US ;
         rdfs:label       "Investigator"@pt-BR ;
+        rdfs:label       "Investigator"@en-US ;
         rdfs:label       "ForscherIn"@de-DE ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "investigator_capitalized" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:investigator_capitalized.VIVO
         rdf:type         owl:NamedIndividual ;
@@ -30,8 +29,7 @@ prop-data:investigator_capitalized.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addGrantRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "investigator_capitalized" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:investigator_capitalized.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

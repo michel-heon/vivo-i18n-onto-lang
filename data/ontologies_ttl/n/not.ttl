@@ -50,8 +50,7 @@ prop-data:not.Vitro  rdf:type  owl:NamedIndividual ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDataPropertyForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "not" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:not.Vitro-languages
         rdf:type         prop:PropertyKey ;
@@ -83,8 +82,7 @@ prop-data:not.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "not" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:not.VIVO  rdf:type  owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -160,8 +158,7 @@ prop-data:not.VIVO  rdf:type  owl:NamedIndividual ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-webpage-quickview.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "not" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:not.VIVO.wilma
         rdf:type         owl:NamedIndividual ;
@@ -206,8 +203,7 @@ prop-data:not.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/en_US/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_en_US.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "not" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:not.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;

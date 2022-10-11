@@ -12,16 +12,15 @@ prop-data:publication_s_capitalized.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "publication_s_capitalized" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:publication_s_capitalized.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Publicación (es)"@es ;
+        rdfs:label       "Publication(s)"@en-CA ;
         rdfs:label       "Publication(s)"@en-US ;
         rdfs:label       "Publication(s)"@fr-CA ;
-        rdfs:label       "Publication(s)"@en-CA ;
         rdfs:label       "Публикация(и)"@ru-RU ;
         rdfs:label       "Publikacija"@sr-Latn-RS ;
         rdfs:label       "Publikation(en)"@de-DE ;
@@ -29,8 +28,7 @@ prop-data:publication_s_capitalized.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "publication_s_capitalized" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:publication_s_capitalized.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

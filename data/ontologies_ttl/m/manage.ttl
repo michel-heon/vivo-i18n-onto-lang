@@ -12,8 +12,7 @@ prop-data:manage.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:manage.Vitro-languages
         rdf:type         prop:PropertyKey ;
@@ -22,15 +21,14 @@ prop-data:manage.Vitro-languages
         rdfs:label       "gérer"@fr-CA ;
         rdfs:label       "gerenciar"@pt-BR ;
         rdfs:label       "Administrar"@es ;
-        rdfs:label       "manage"@de-DE ;
-        rdfs:label       "manage"@en-US ;
         rdfs:label       "manage"@en-CA ;
+        rdfs:label       "manage"@en-US ;
+        rdfs:label       "manage"@de-DE ;
         rdfs:label       "upravljajte"@sr-Latn-RS ;
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:manage.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

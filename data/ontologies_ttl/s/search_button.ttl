@@ -52,8 +52,7 @@ prop-data:search_button.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "search_button" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:search_button.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -82,12 +81,11 @@ prop-data:search_button.Vitro-languages
         rdfs:label       "Suchen"@de-DE ;
         rdfs:label       "Search"@en-CA ;
         rdfs:label       "Search"@en-US ;
-        rdfs:label       "Buscar"@pt-BR ;
         rdfs:label       "Buscar"@es ;
+        rdfs:label       "Buscar"@pt-BR ;
         rdfs:label       "Pretraga"@sr-Latn-RS ;
         rdfs:label       "Искать"@ru-RU ;
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "search_button" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .

@@ -31,7 +31,9 @@ function extract_vars() {
 
 
 function print_values () {
-printf "PROPFN_VAL=($PROPFN_VAL) \n \
+printf "###################################\n\
+\t predicateValue=$predicateValue \n\
+\t PROPFN_VAL=($PROPFN_VAL) \n \
 \t VALUE=($VALUE) \n\
 \t PROP_FN_KEY=($PROP_FN_KEY) \n\
 \t PROP_FN=($PROP_FN) \n\
@@ -39,10 +41,9 @@ printf "PROPFN_VAL=($PROPFN_VAL) \n \
 \t BN=($BN) \n\
 \t REGION=($REGION) \n\
 \t NT_FN=($NT_FN)\n\
-\t $BN\n\t\t PKG=$PKG\n\
+\t PKG=$PKG\n\
 \t THEME=($THEME) \n\
-\t LOCATION=$ONTO_DATA_TTL/$SUB_REP/${ONTO_FN}.ttl \n\
-\t predicateValue=$predicateValue \n"
+\t LOCATION=$ONTO_DATA_TTL/$SUB_REP/${ONTO_FN}.ttl \n"
 }
 
 ###################################################################
@@ -98,17 +99,23 @@ process_ftl (){
     for PRODUCTS in "${PRODUCTS_LIST[@]}";  do
          for FTL_FILE in $(find ./$PRODUCTS -name '*.ftl' -path '*main/webapp/*' -exec grep -l -w "$KEY" {} \;); do
          PKG=$PRODUCTS
-         THEME=$(echo $FTL_FILE | grep theme | sed  's/.*themes\///g' | cut -f 1 -d '/')
+         THEME=$(echo $FTL_FILE | grep themes | sed  's/.*themes\///g' | cut -f 1 -d '/')
          if [ -n "${THEME}" ]; then predicateValue=$KEY.$PRODUCTS.$THEME; else predicateValue=$KEY.$PRODUCTS; fi
+         
          cat << EOF >> $TMP_ONTO_RESULT
 <$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <$BASE_IRI#$predicateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <$SEMANTIC_BASE_IRI#PropertyKey> . 
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasKey> "$KEY" .
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#ftlUrl> "file://SRC_HOME${FTL_FILE#.}"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasTheme> "$THEME" . 
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasPackage> "$PKG" .
 <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasApp> "$( echo $PKG | cut -d '-' -f 1 )" . 
 EOF
+
+        if [ -n "${THEME}" ]; then 
+        cat << EOF >> $TMP_ONTO_RESULT
+    <$BASE_IRI#$predicateValue> <$SEMANTIC_BASE_IRI#hasTheme> "$THEME" . 
+EOF
+        fi
         done
     done
 }
@@ -122,7 +129,7 @@ NBR_LINE=$(cat $LIST_OF_KEYS_FN | wc -l )
 for _KEY in $(cat $LIST_OF_KEYS_FN)
 do
     ((LOOP_CTR=LOOP_CTR+1))
-#    KEY=create_new
+#    KEY=in
     process_extraction $_KEY &
     ((j=j+1))
     if [ $j = "15" ]

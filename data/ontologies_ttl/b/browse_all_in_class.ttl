@@ -28,8 +28,7 @@ prop-data:browse_all_in_class.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-vClassesInClassgroup.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "browse_all_in_class" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:browse_all_in_class.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

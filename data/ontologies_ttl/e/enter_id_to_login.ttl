@@ -12,8 +12,7 @@ prop-data:enter_id_to_login.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/login/fakeExternalAuth.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "enter_id_to_login" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:enter_id_to_login.Vitro-languages
         rdf:type         owl:NamedIndividual ;

@@ -31,8 +31,7 @@ prop-data:or_create_new_one.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "or_create_new_one" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:or_create_new_one.VIVO-languages
         rdf:type         owl:NamedIndividual ;
@@ -41,8 +40,7 @@ prop-data:or_create_new_one.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "or_create_new_one" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:or_create_new_one.Vitro
         rdf:type         owl:NamedIndividual ;
@@ -50,15 +48,14 @@ prop-data:or_create_new_one.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "or_create_new_one" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:or_create_new_one.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "ou criar um novo."@pt-BR ;
-        rdfs:label       "or create a new one."@en-US ;
         rdfs:label       "or create a new one."@en-CA ;
+        rdfs:label       "or create a new one."@en-US ;
         rdfs:label       "o cree uno nuevo."@es ;
         rdfs:label       "ili kreirajte novi."@sr-Latn-RS ;
         rdfs:label       "ou en créer un nouveau."@fr-CA ;
@@ -67,5 +64,4 @@ prop-data:or_create_new_one.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "or_create_new_one" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .

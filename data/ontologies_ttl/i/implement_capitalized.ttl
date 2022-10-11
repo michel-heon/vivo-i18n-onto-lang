@@ -12,8 +12,7 @@ prop-data:implement_capitalized.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menupage/emptyPage.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "implement_capitalized" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:implement_capitalized.Vitro-languages
         rdf:type         prop:PropertyKey ;

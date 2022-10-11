@@ -22,22 +22,20 @@ prop-data:research_areas.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-researchAreas.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "research_areas" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:research_areas.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "áreas de pesquisa"@pt-BR ;
         rdfs:label       "Forschungsgebiete"@de-DE ;
-        rdfs:label       "research areas"@en-US ;
-        rdfs:label       "istraživačke oblasti"@sr-Latn-RS ;
         rdfs:label       "research areas"@en-CA ;
+        rdfs:label       "istraživačke oblasti"@sr-Latn-RS ;
+        rdfs:label       "research areas"@en-US ;
         rdfs:label       "области исследований"@ru-RU ;
         rdfs:label       "domaines de recherche"@fr-CA ;
         rdfs:label       "áreas de investigación"@es ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-researchAreas_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "research_areas" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

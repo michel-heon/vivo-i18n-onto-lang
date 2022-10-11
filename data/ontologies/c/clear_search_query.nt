@@ -1,3 +1,4 @@
+    <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
 <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "clear_search_query" .
 <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
@@ -25,6 +26,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "clear_search_query" .
 <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#clear_search_query.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

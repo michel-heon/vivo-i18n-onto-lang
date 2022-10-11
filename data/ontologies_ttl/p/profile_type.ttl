@@ -14,15 +14,14 @@ prop-data:profile_type.VIVO-languages
         rdfs:label       "Tip profila"@sr-Latn-RS ;
         rdfs:label       "Tipo de perfil"@es ;
         rdfs:label       "Profiltyp"@de-DE ;
-        rdfs:label       "Profile Type"@en-US ;
         rdfs:label       "Profile Type"@en-CA ;
+        rdfs:label       "Profile Type"@en-US ;
         rdfs:label       "Type de profil"@fr-CA ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "profile_type" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:profile_type.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -40,5 +39,4 @@ prop-data:profile_type.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-profilePageTypes.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "profile_type" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .

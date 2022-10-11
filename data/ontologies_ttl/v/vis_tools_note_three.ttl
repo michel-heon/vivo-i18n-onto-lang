@@ -27,8 +27,7 @@ prop-data:vis_tools_note_three.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:vis_tools_note_three.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

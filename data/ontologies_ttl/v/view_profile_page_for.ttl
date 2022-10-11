@@ -12,8 +12,7 @@ prop-data:view_profile_page_for.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/shortview/view-browse-people.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_profile_page_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:view_profile_page_for.Vitro
         rdf:type         owl:NamedIndividual ;
@@ -21,8 +20,7 @@ prop-data:view_profile_page_for.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/shortview/view-browse-default.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "view_profile_page_for" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:view_profile_page_for.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

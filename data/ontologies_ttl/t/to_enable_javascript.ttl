@@ -27,8 +27,7 @@ prop-data:to_enable_javascript.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-login.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "to_enable_javascript" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:to_enable_javascript.Vitro.vitro
         rdf:type         owl:NamedIndividual ;

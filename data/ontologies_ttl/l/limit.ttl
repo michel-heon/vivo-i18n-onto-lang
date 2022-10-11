@@ -13,16 +13,15 @@ prop-data:limit.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/search/search-pagedResults.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "limit" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:limit.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Limitar"@es ;
         rdfs:label       "Beschränken von"@de-DE ;
-        rdfs:label       "Limite"@pt-BR ;
         rdfs:label       "Limite"@fr-CA ;
+        rdfs:label       "Limite"@pt-BR ;
         rdfs:label       "Ограничить"@ru-RU ;
         rdfs:label       "Ograničite"@sr-Latn-RS ;
         rdfs:label       "Limit"@en-CA ;
@@ -31,8 +30,7 @@ prop-data:limit.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "limit" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:limit.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

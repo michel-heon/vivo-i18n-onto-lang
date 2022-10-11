@@ -1,8 +1,8 @@
+    <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_grants_and_projects_link" .
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
@@ -22,6 +22,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_grants_and_projects_link" .
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects_link.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -12,8 +12,7 @@ prop-data:vclassAlpha_not_implemented.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-browse.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "vclassAlpha_not_implemented" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:vclassAlpha_not_implemented.Vitro-languages
         rdf:type         prop:PropertyKey ;

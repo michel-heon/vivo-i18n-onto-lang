@@ -31,8 +31,7 @@ prop-data:about.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-sequence.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "about" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:about.VIVO-languages
         rdf:type         owl:NamedIndividual ;
@@ -58,8 +57,7 @@ prop-data:about.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/de_DE/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/aboutMapOfScience_de_DE.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "about" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:about.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -87,8 +85,7 @@ prop-data:about.VIVO  rdf:type  owl:NamedIndividual ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "about" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:about.VIVO.wilma
         rdf:type         owl:NamedIndividual ;

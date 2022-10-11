@@ -27,8 +27,7 @@ prop-data:select_existing_pub_or_enter_new.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "select_existing_pub_or_enter_new" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:select_existing_pub_or_enter_new.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

@@ -12,8 +12,7 @@ prop-data:grant_sparkline_note.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grant_sparkline_note" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:grant_sparkline_note.VIVO-languages
         rdf:type         owl:NamedIndividual ;
@@ -24,13 +23,12 @@ prop-data:grant_sparkline_note.VIVO-languages
         rdfs:label       "Die Linien oben zeigen Forschungsprojekte im Verlauf des gesamten letzten Kalenderjahres. In den folgenden Tabellen finden sich dagegen Angaben zu Forschungsprojekten aus allen Jahren, die auf den Informationen beruhen, die in das VIVO-System geladen wurden."@de-DE ;
         rdfs:label       "Las líneas de inicio que se muestran arriba reflejan las becas del último año completo. Sin embargo, estas tablas muestran la información de subvención para todos los años, basados en la información cargada en el sistema VIVO."@es ;
         rdfs:label       "As linhas de ignição mostrados acima refletem bolsas do último ano civil completo. Estas tabelas mostram, contudo, a informação de subvenção para todos os anos, com base na informação carregada no sistema VIVO."@pt-BR ;
-        rdfs:label       "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-US ;
         rdfs:label       "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-CA ;
+        rdfs:label       "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grant_sparkline_note" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:grant_sparkline_note.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

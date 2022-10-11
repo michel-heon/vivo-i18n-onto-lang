@@ -12,8 +12,7 @@ prop-data:configure_page_if_permissable.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menupage/emptyPage.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "configure_page_if_permissable" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:configure_page_if_permissable.Vitro-languages
         rdf:type         prop:PropertyKey ;

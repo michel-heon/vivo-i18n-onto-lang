@@ -14,8 +14,7 @@ prop-data:co_investigator_icon.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigator_icon" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:co_investigator_icon.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -33,16 +32,15 @@ prop-data:co_investigator_icon.VIVO-languages
         rdfs:label       "ikonica koautora"@sr-Latn-RS ;
         rdfs:label       "значок со-исследователя"@ru-RU ;
         rdfs:label       "icon = co-investigador"@pt-BR ;
-        rdfs:label       "co-investigator icon"@en-CA ;
         rdfs:label       "co-investigator icon"@en-US ;
+        rdfs:label       "co-investigator icon"@en-CA ;
         rdfs:label       "icono de coinvestigador"@es ;
         rdfs:label       "icône de cochercheur(-euse)"@fr-CA ;
         rdfs:label       "KoforscherIn-Icon"@de-DE ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigator_icon" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:co_investigator_icon.VIVO.tenderfoot
         rdf:type         owl:NamedIndividual ;

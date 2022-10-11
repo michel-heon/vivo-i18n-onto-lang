@@ -33,14 +33,13 @@ prop-data:co_investigator_network.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigator_network" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:co_investigator_network.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "co-investigator network"@en-CA ;
         rdfs:label       "co-investigator network"@en-US ;
+        rdfs:label       "co-investigator network"@en-CA ;
         rdfs:label       "réseau des cochercheur(-euse)s"@fr-CA ;
         rdfs:label       "red de coinvestigador"@es ;
         rdfs:label       "mreža koautora"@sr-Latn-RS ;
@@ -50,5 +49,4 @@ prop-data:co_investigator_network.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigator_network" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

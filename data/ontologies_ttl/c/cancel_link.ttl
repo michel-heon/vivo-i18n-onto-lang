@@ -43,8 +43,7 @@ prop-data:cancel_link.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menuN3Edit.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "cancel_link" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:cancel_link.VIVO
         rdf:type         prop:PropertyKey ;
@@ -86,8 +85,7 @@ prop-data:cancel_link.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cancel_link" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:cancel_link.VIVO-languages
         rdf:type         owl:NamedIndividual ;
@@ -97,8 +95,7 @@ prop-data:cancel_link.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cancel_link" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:cancel_link.Vitro-languages
         rdf:type         owl:NamedIndividual ;
@@ -109,10 +106,9 @@ prop-data:cancel_link.Vitro-languages
         rdfs:label       "Abbrechen"@de-DE ;
         rdfs:label       "Отменить"@ru-RU ;
         rdfs:label       "Poništite"@sr-Latn-RS ;
-        rdfs:label       "Cancel"@en-US ;
         rdfs:label       "Cancel"@en-CA ;
+        rdfs:label       "Cancel"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "cancel_link" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .

@@ -1,3 +1,8 @@
+    <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+    <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+    <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+    <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+    <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "statewide_locations" .
@@ -43,13 +48,11 @@
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "statewide_locations" .
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "statewide_locations" .
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#statewide_locations.VIVO.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

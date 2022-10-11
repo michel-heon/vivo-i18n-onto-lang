@@ -21,8 +21,8 @@ prop-data:grant.VIVO-languages
         rdfs:label       "subvention"@fr-CA ;
         rdfs:label       "grant"@en-CA ;
         rdfs:label       "grant"@en-US ;
-        rdfs:label       "grant"@sr-Latn-RS ;
         rdfs:label       "conceder"@es ;
+        rdfs:label       "grant"@sr-Latn-RS ;
         rdfs:label       "Forschungsprojekt"@de-DE ;
         rdfs:label       "concessão"@pt-BR ;
         rdfs:label       "грант"@ru-RU ;
@@ -30,8 +30,7 @@ prop-data:grant.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grant" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:grant.VIVO  rdf:type  prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -49,5 +48,4 @@ prop-data:grant.VIVO  rdf:type  prop:PropertyKey ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/grant/personGrantSparklineContent.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grant" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .

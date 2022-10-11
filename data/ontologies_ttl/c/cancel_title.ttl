@@ -14,8 +14,7 @@ prop-data:cancel_title.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cancel_title" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:cancel_title.VIVO
         rdf:type         prop:PropertyKey ;
@@ -57,16 +56,15 @@ prop-data:cancel_title.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cancel_title" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:cancel_title.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "poništite"@sr-Latn-RS ;
         rdfs:label       "Abbrechen"@de-DE ;
-        rdfs:label       "cancel"@en-CA ;
         rdfs:label       "cancel"@en-US ;
+        rdfs:label       "cancel"@en-CA ;
         rdfs:label       "Cancelar"@es ;
         rdfs:label       "Cancelar"@pt-BR ;
         rdfs:label       "annuler"@fr-CA ;
@@ -74,8 +72,7 @@ prop-data:cancel_title.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "cancel_title" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:cancel_title.Vitro
         rdf:type         prop:PropertyKey ;
@@ -113,5 +110,4 @@ prop-data:cancel_title.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultPropertyForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "cancel_title" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .

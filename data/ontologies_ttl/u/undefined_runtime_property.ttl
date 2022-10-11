@@ -12,8 +12,7 @@ prop-data:undefined_runtime_property.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "undefined_runtime_property" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:undefined_runtime_property.VIVO-languages
         rdf:type         owl:NamedIndividual ;

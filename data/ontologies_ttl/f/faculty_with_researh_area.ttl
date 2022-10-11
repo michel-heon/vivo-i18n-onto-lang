@@ -27,8 +27,7 @@ prop-data:faculty_with_researh_area.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-dept-res-area-details.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "faculty_with_researh_area" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:faculty_with_researh_area.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

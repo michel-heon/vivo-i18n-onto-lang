@@ -12,8 +12,7 @@ prop-data:containers_do_not_pick_up_changes.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/samples.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "containers_do_not_pick_up_changes" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:containers_do_not_pick_up_changes.Vitro-languages
         rdf:type         owl:NamedIndividual ;

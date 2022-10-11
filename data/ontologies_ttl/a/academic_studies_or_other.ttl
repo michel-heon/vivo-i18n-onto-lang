@@ -22,8 +22,7 @@ prop-data:academic_studies_or_other.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEducationalTraining.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "academic_studies_or_other" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:academic_studies_or_other.VIVO-languages
         rdf:type         owl:NamedIndividual ;

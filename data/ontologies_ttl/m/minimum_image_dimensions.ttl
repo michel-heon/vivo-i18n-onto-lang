@@ -13,8 +13,7 @@ prop-data:minimum_image_dimensions.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-newImage.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "minimum_image_dimensions" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:minimum_image_dimensions.Vitro-languages
         rdf:type         prop:PropertyKey ;

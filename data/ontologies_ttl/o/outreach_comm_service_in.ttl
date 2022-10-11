@@ -27,8 +27,7 @@ prop-data:outreach_comm_service_in.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addOutreachProviderRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "outreach_comm_service_in" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:outreach_comm_service_in.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

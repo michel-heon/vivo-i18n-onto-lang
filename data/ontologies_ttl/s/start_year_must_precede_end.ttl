@@ -10,8 +10,8 @@ prop-data:start_year_must_precede_end.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Das Anfangsjahr muss vor dem Endjahr liegen."@de-DE ;
-        rdfs:label       "The Start Year must be earlier than the End Year."@en-CA ;
         rdfs:label       "The Start Year must be earlier than the End Year."@en-US ;
+        rdfs:label       "The Start Year must be earlier than the End Year."@en-CA ;
         rdfs:label       "El Inicio de Año debe ser anterior al Fin de Año."@es ;
         rdfs:label       "L'année de début doit précéder l'année de fin."@fr-CA ;
         rdfs:label       "Год начала должен предшествовать году окончания."@ru-RU ;
@@ -21,8 +21,7 @@ prop-data:start_year_must_precede_end.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "start_year_must_precede_end" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:start_year_must_precede_end.VIVO
         rdf:type         prop:PropertyKey ;
@@ -42,8 +41,7 @@ prop-data:start_year_must_precede_end.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAwardOrHonor.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "start_year_must_precede_end" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:start_year_must_precede_end.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

@@ -12,8 +12,7 @@ prop-data:error_processing_editor_request.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "error_processing_editor_request" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:error_processing_editor_request.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

@@ -15,14 +15,13 @@ prop-data:quick_view.VIVO-languages
         rdfs:label       "Quick profile view"@en-CA ;
         rdfs:label       "Quick profile view"@en-US ;
         rdfs:label       "Kratak pregled profila"@sr-Latn-RS ;
-        rdfs:label       "Vista rápida del perfil"@es ;
         rdfs:label       "Visualização rapida"@pt-BR ;
+        rdfs:label       "Vista rápida del perfil"@es ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "quick_view" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:quick_view.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -40,5 +39,4 @@ prop-data:quick_view.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-profilePageTypes.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "quick_view" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .

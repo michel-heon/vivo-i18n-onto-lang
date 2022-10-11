@@ -13,15 +13,14 @@ prop-data:there_are_no_entries_for_selection.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "there_are_no_entries_for_selection" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:there_are_no_entries_for_selection.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Il n'y a pas d'entrées dans le système à partir desquelles vous pouvez sélectionner."@fr-CA ;
-        rdfs:label       "There are no entries in the system from which to select."@en-US ;
         rdfs:label       "There are no entries in the system from which to select."@en-CA ;
+        rdfs:label       "There are no entries in the system from which to select."@en-US ;
         rdfs:label       "В системе нет записей, из которых можно было бы выбрать."@ru-RU ;
         rdfs:label       "Não existem entradas no sistema a partir do qual escolher."@pt-BR ;
         rdfs:label       "No hay entradas en el sistema desde el cual elegir."@es ;
@@ -30,8 +29,7 @@ prop-data:there_are_no_entries_for_selection.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "there_are_no_entries_for_selection" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:there_are_no_entries_for_selection.VIVO
         rdf:type         owl:NamedIndividual ;
@@ -40,5 +38,4 @@ prop-data:there_are_no_entries_for_selection.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addConceptThroughObjectPropertyAutoComplete.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "there_are_no_entries_for_selection" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .

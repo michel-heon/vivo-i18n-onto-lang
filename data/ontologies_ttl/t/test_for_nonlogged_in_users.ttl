@@ -12,8 +12,7 @@ prop-data:test_for_nonlogged_in_users.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-test.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "test_for_nonlogged_in_users" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:test_for_nonlogged_in_users.Vitro-languages
         rdf:type         owl:NamedIndividual ;

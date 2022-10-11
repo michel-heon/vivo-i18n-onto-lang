@@ -20,14 +20,13 @@ prop-data:search_vitro.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Pesquisa no VITRO"@pt-BR ;
         rdfs:label       "Recherche VITRO"@fr-CA ;
-        rdfs:label       "Búsqueda en VITRO"@es ;
         rdfs:label       "Search VITRO"@en-CA ;
         rdfs:label       "Search VITRO"@en-US ;
+        rdfs:label       "Búsqueda en VITRO"@es ;
         rdfs:label       "Pretražite Vitro"@sr-Latn-RS ;
         rdfs:label       "Поиск в VITRO"@ru-RU ;
         rdfs:label       "Suche in VITRO"@de-DE ;
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "search_vitro" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .

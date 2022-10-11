@@ -78,8 +78,7 @@ prop-data:file.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/search-help_sr_Lant_RS.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:file.VIVO-languages
         rdf:type         prop:PropertyKey ;
@@ -128,17 +127,7 @@ prop-data:file.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_pt_BR.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "file" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
-
-<http://vivoweb.org/ontology/core/properties/individual#file.Vitro..>
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/themeStylesheets.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "file" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "." .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:file.VIVO.tenderfoot
         rdf:type         owl:NamedIndividual ;
@@ -345,8 +334,7 @@ prop-data:file.VIVO  rdf:type  prop:PropertyKey ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-phoneFaxNumber.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "file" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:file.VIVO.nemo
         rdf:type         prop:PropertyKey ;
@@ -474,6 +462,7 @@ prop-data:file.Vitro  rdf:type  owl:NamedIndividual ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/confirmDeleteIndividualForm.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/missingEditConfig.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteMaintenance.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/themeStylesheets.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/manageLabelsForIndividualMacros.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--customDataScript.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--sparqlQuery.ftl"^^xsd:anyURI ;
@@ -606,8 +595,7 @@ prop-data:file.Vitro  rdf:type  owl:NamedIndividual ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/jspTransition.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:file.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;

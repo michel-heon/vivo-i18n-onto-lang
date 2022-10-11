@@ -12,8 +12,7 @@ prop-data:refresh_cached_vis_models.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "refresh_cached_vis_models" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:refresh_cached_vis_models.VIVO-languages
         rdf:type         prop:PropertyKey ;

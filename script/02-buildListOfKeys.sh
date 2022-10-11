@@ -29,7 +29,7 @@ function store_properties_files () {
 
 function extract_prop_keys () {
     cd $PROPERTIES_DATA
-    cat $(ls *.properties) | grep = | cut -f 1 -d '=' | sort | uniq | grep -Ev "^$"  > $LIST_OF_KEYS_FN
+    cat $(ls *.properties) | grep = | cut -f 1 -d '=' | sort | uniq | grep -Ev "^$" > $LIST_OF_KEYS_FN
 }
 
 

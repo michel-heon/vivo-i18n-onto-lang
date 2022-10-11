@@ -1,3 +1,4 @@
+    <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "javascript_ie_alert_text" .
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
@@ -15,6 +16,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "javascript_ie_alert_text" .
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

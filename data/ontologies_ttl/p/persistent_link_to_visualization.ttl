@@ -21,8 +21,7 @@ prop-data:persistent_link_to_visualization.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "persistent_link_to_visualization" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:persistent_link_to_visualization.VIVO-languages
         rdf:type         owl:NamedIndividual ;

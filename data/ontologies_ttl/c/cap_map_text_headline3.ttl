@@ -12,8 +12,7 @@ prop-data:cap_map_text_headline3.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cap_map_text_headline3" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:cap_map_text_headline3.VIVO-languages
         rdf:type         owl:NamedIndividual ;

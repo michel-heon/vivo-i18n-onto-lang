@@ -89,7 +89,7 @@ WHERE {
 }
 EOF
 fi
-    #cat $TMPDIR/describe.sparql
+#    cat $TMPDIR/describe.sparql
     sparql --results=TURTLE --query=$TMPDIR/describe.sparql \
         --data=$DATA/all.ttl \
         --base "$BASE_IRI" \

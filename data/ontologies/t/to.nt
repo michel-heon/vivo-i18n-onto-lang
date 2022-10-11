@@ -1,3 +1,9 @@
+    <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+    <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+    <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
+    <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
+    <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
+    <http://vivoweb.org/ontology/core/properties/individual#to.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/body/individual/individual--foaf-person_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
@@ -55,7 +61,6 @@
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "to" .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
-<http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/custom-geoFocusMapScripts.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
@@ -91,7 +96,6 @@
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "to" .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#to.VIVO.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/head.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
@@ -101,7 +105,6 @@
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "to" .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#to.VIVO.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
@@ -216,7 +219,6 @@
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "to" .
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#to.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/search-help_de_DE.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
@@ -244,7 +246,6 @@
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "to" .
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
-<http://vivoweb.org/ontology/core/properties/individual#to.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "a"@es .
@@ -259,7 +260,6 @@
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "to" .
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#to.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro.vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro.vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
@@ -327,6 +327,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "to" .
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#to.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#to.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

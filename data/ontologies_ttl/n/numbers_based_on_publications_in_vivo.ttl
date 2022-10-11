@@ -13,8 +13,7 @@ prop-data:numbers_based_on_publications_in_vivo.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/publication/personPublicationCountNoSparkline.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "numbers_based_on_publications_in_vivo" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:numbers_based_on_publications_in_vivo.VIVO-languages
         rdf:type         owl:NamedIndividual ;

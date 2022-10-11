@@ -12,8 +12,7 @@ prop-data:refresh_page_after_reordering.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-menu.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "refresh_page_after_reordering" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:refresh_page_after_reordering.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

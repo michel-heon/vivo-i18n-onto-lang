@@ -14,8 +14,7 @@ prop-data:double_quote_note_allowed.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--fixedHtml.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "double_quote_note_allowed" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:double_quote_note_allowed.Vitro-languages
         rdf:type         prop:PropertyKey ;

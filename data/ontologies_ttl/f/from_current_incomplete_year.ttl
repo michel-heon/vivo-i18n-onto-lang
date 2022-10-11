@@ -13,8 +13,7 @@ prop-data:from_current_incomplete_year.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "from_current_incomplete_year" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:from_current_incomplete_year.VIVO-languages
         rdf:type         owl:NamedIndividual ;

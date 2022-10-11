@@ -12,8 +12,7 @@ prop-data:please_select_type.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "please_select_type" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:please_select_type.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -30,13 +29,12 @@ prop-data:please_select_type.VIVO-languages
         rdfs:label       "Пожалуйста, выберите тип из выпадающего списка."@ru-RU ;
         rdfs:label       "Por favor seleccione un tipo en la lista desplegable."@es ;
         rdfs:label       "Bitte wählen Sie einen Typ aus der Dropdown-Liste aus."@de-DE ;
-        rdfs:label       "Please select a type from the drop-down list."@en-CA ;
         rdfs:label       "Please select a type from the drop-down list."@en-US ;
+        rdfs:label       "Please select a type from the drop-down list."@en-CA ;
         rdfs:label       "SVP, sélectionner un type dans la liste déroulante."@fr-CA ;
         rdfs:label       "Molimo Vas odaberite tip iz padajuće liste."@sr-Latn-RS ;
         rdfs:label       "Selecione um tipo na lista drop-down."@pt-BR ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "please_select_type" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

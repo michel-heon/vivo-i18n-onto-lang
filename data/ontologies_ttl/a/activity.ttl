@@ -38,8 +38,7 @@ prop-data:activity.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addTeacherRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "activity" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:activity.VIVO-languages
         rdf:type         prop:PropertyKey ;
@@ -64,5 +63,4 @@ prop-data:activity.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/de_DE/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_de_DE.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "activity" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

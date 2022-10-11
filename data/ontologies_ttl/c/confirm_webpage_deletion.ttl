@@ -27,8 +27,7 @@ prop-data:confirm_webpage_deletion.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "confirm_webpage_deletion" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:confirm_webpage_deletion.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

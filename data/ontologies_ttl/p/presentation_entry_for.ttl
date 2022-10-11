@@ -21,16 +21,15 @@ prop-data:presentation_entry_for.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_entry_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:presentation_entry_for.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Unos prezentacije za"@sr-Latn-RS ;
         rdfs:label       "enregistrement d'une présentation pour"@fr-CA ;
-        rdfs:label       "presentation entry for"@en-CA ;
         rdfs:label       "presentation entry for"@en-US ;
+        rdfs:label       "presentation entry for"@en-CA ;
         rdfs:label       "entrada apresentação para"@pt-BR ;
         rdfs:label       "Eintrag eines Vortrags für"@de-DE ;
         rdfs:label       "Entrada de presentación para"@es ;
@@ -38,5 +37,4 @@ prop-data:presentation_entry_for.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_entry_for" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

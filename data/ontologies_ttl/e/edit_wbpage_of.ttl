@@ -12,8 +12,7 @@ prop-data:edit_wbpage_of.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditWebpageForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "edit_wbpage_of" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:edit_wbpage_of.VIVO-languages
         rdf:type         owl:NamedIndividual ;

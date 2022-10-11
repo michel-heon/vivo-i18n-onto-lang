@@ -22,15 +22,14 @@ prop-data:author_capitalized.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "author_capitalized" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:author_capitalized.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Autor"@es ;
-        rdfs:label       "Autor"@pt-BR ;
         rdfs:label       "Autor"@sr-Latn-RS ;
+        rdfs:label       "Autor"@pt-BR ;
         rdfs:label       "AutorIn"@de-DE ;
         rdfs:label       "Автор"@ru-RU ;
         rdfs:label       "Auteur(e)"@fr-CA ;
@@ -39,5 +38,4 @@ prop-data:author_capitalized.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "author_capitalized" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

@@ -12,8 +12,7 @@ prop-data:edit_entry_for_clinical_role.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addClinicalRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "edit_entry_for_clinical_role" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:edit_entry_for_clinical_role.VIVO-languages
         rdf:type         prop:PropertyKey ;

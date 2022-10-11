@@ -12,8 +12,7 @@ prop-data:presentation_capitalized.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_capitalized" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:presentation_capitalized.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -32,11 +31,10 @@ prop-data:presentation_capitalized.VIVO-languages
         rdfs:label       "Presentación"@es ;
         rdfs:label       "Vortrag"@de-DE ;
         rdfs:label       "Apresentação"@pt-BR ;
-        rdfs:label       "Presentation"@en-CA ;
         rdfs:label       "Presentation"@en-US ;
+        rdfs:label       "Presentation"@en-CA ;
         rdfs:label       "Présentation"@fr-CA ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_capitalized" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

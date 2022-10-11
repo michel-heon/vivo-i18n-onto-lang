@@ -3,7 +3,6 @@
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grant_sparkline_note" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
-<http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "As linhas de ignição mostrados acima refletem bolsas do último ano civil completo. Estas tabelas mostram, contudo, a informação de subvenção para todos os anos, com base na informação carregada no sistema VIVO."@pt-BR .
@@ -25,6 +24,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grant_sparkline_note" .
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#grant_sparkline_note.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

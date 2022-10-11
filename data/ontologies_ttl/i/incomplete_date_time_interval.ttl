@@ -12,8 +12,7 @@ prop-data:incomplete_date_time_interval.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-dateTimeInterval.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "incomplete_date_time_interval" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:incomplete_date_time_interval.VIVO.nemo
         rdf:type         owl:NamedIndividual ;

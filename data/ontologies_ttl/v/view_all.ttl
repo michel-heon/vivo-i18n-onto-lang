@@ -40,8 +40,7 @@ prop-data:view_all.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_all" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:view_all.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
@@ -58,8 +57,8 @@ prop-data:view_all.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Alle anzeigen ..."@de-DE ;
-        rdfs:label       "View all ..."@en-CA ;
         rdfs:label       "View all ..."@en-US ;
+        rdfs:label       "View all ..."@en-CA ;
         rdfs:label       "Ver tudo ..."@pt-BR ;
         rdfs:label       "Prikažite sve ..."@sr-Latn-RS ;
         rdfs:label       "Ver todo ..."@es ;
@@ -69,8 +68,7 @@ prop-data:view_all.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page_ru_RU.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_all" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:view_all.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;

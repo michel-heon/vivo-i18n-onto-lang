@@ -12,8 +12,7 @@ prop-data:file_upload_confirm_delete.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-vitro.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file_upload_confirm_delete" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:file_upload_confirm_delete.Vitro-languages
         rdf:type         owl:NamedIndividual ;

@@ -22,8 +22,7 @@ prop-data:publications_per_year.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "publications_per_year" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:publications_per_year.VIVO-languages
         rdf:type         prop:PropertyKey ;
@@ -32,12 +31,11 @@ prop-data:publications_per_year.VIVO-languages
         rdfs:label       "Publicaciones por año"@es ;
         rdfs:label       "Publikationen pro Jahr"@de-DE ;
         rdfs:label       "Publications par année"@fr-CA ;
-        rdfs:label       "Publications per year"@en-US ;
         rdfs:label       "Publications per year"@en-CA ;
+        rdfs:label       "Publications per year"@en-US ;
         rdfs:label       "Radovi po godini"@sr-Latn-RS ;
         rdfs:label       "Публикации по годам"@ru-RU ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "publications_per_year" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

@@ -21,8 +21,7 @@ prop-data:internal_class_intro_two.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "internal_class_intro_two" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:internal_class_intro_two.VIVO-languages
         rdf:type         owl:NamedIndividual ;

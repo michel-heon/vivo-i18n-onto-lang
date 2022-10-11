@@ -3,7 +3,6 @@
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "currently_no_grants_for" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
-<http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Actualmente não há {0} bolsas para"@pt-BR .
@@ -25,6 +24,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "currently_no_grants_for" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "" . 
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

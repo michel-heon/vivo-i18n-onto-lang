@@ -12,8 +12,7 @@ prop-data:resume.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "resume" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:resume.VIVO-languages
         rdf:type         prop:PropertyKey ;
@@ -30,5 +29,4 @@ prop-data:resume.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceTooltips_pt_BR.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "resume" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

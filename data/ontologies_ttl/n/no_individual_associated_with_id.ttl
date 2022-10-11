@@ -12,8 +12,7 @@ prop-data:no_individual_associated_with_id.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/unrecognizedUser.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "no_individual_associated_with_id" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:no_individual_associated_with_id.Vitro-languages
         rdf:type         owl:NamedIndividual ;

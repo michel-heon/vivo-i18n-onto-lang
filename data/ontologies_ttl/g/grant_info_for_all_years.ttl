@@ -21,15 +21,14 @@ prop-data:grant_info_for_all_years.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grant_info_for_all_years" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:grant_info_for_all_years.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "L'information des tables suivantes couvre toutes les années."@fr-CA ;
-        rdfs:label       "The information in the following tables is for all years."@en-US ;
         rdfs:label       "The information in the following tables is for all years."@en-CA ;
+        rdfs:label       "The information in the following tables is for all years."@en-US ;
         rdfs:label       "Информация в следующих таблицах представлена за все годы."@ru-RU ;
         rdfs:label       "La información de las siguientes tablas es para todos los años."@es ;
         rdfs:label       "Die Angaben in den folgenden Tabellen beziehen sich auf alle Jahre."@de-DE ;
@@ -38,5 +37,4 @@ prop-data:grant_info_for_all_years.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grant_info_for_all_years" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

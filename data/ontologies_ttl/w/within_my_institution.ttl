@@ -22,8 +22,7 @@ prop-data:within_my_institution.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--classIntersections.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "within_my_institution" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:within_my_institution.VIVO-languages
         rdf:type         owl:NamedIndividual ;

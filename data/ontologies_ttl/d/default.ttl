@@ -55,8 +55,7 @@ prop-data:default.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "default" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:default.Vitro-languages
         rdf:type         prop:PropertyKey ;
@@ -64,16 +63,15 @@ prop-data:default.Vitro-languages
         rdfs:label       "Podrazumevana"@sr-Latn-RS ;
         rdfs:label       "Perdeterminado"@es ;
         rdfs:label       "Défaut"@fr-CA ;
+        rdfs:label       "Default"@en-US ;
         rdfs:label       "Default"@de-DE ;
         rdfs:label       "Default"@en-CA ;
-        rdfs:label       "Default"@en-US ;
         rdfs:label       "Padrão"@pt-BR ;
         rdfs:label       "Стандартный"@ru-RU ;
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "default" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:default.VIVO.tenderfoot
         rdf:type         owl:NamedIndividual ;
@@ -138,8 +136,7 @@ prop-data:default.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAttendeeRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "default" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:default.Vitro
         rdf:type         owl:NamedIndividual ;
@@ -158,5 +155,4 @@ prop-data:default.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "default" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .

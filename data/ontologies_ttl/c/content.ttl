@@ -28,8 +28,7 @@ prop-data:content.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "content" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:content.VIVO.tenderfoot
         rdf:type         owl:NamedIndividual ;
@@ -46,8 +45,8 @@ prop-data:content.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Inhalt"@de-DE ;
-        rdfs:label       "content"@en-CA ;
         rdfs:label       "content"@en-US ;
+        rdfs:label       "content"@en-CA ;
         rdfs:label       "sadržaj"@sr-Latn-RS ;
         rdfs:label       "contenu"@fr-CA ;
         rdfs:label       "содержимое"@ru-RU ;
@@ -57,8 +56,7 @@ prop-data:content.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "content" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:content.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
@@ -105,8 +103,7 @@ prop-data:content.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-dateTimeValue.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "content" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:content.Vitro
         rdf:type         prop:PropertyKey ;
@@ -129,5 +126,4 @@ prop-data:content.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--sparqlQuery.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "content" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .

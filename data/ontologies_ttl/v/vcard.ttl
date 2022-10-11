@@ -19,8 +19,7 @@ prop-data:vcard.VIVO  rdf:type  owl:NamedIndividual ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-2column.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vcard" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:vcard.VIVO.wilma
         rdf:type         owl:NamedIndividual ;
@@ -60,8 +59,7 @@ prop-data:vcard.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-vitro.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "vcard" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:vcard.VIVO-languages
         rdf:type         prop:PropertyKey ;
@@ -72,14 +70,13 @@ prop-data:vcard.VIVO-languages
         rdfs:label       "Vcard"@en-US ;
         rdfs:label       "Vcard"@es ;
         rdfs:label       "Vcard"@fr-CA ;
-        rdfs:label       "Vcard"@pt-BR ;
         rdfs:label       "Vcard"@sr-Latn-RS ;
+        rdfs:label       "Vcard"@pt-BR ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vcard" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .
 
 prop-data:vcard.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;

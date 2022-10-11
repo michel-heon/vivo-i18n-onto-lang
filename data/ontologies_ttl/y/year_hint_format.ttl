@@ -35,8 +35,7 @@ prop-data:year_hint_format.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdvisorRelationship.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "year_hint_format" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:year_hint_format.VIVO-languages
         rdf:type         owl:NamedIndividual ;
@@ -44,8 +43,8 @@ prop-data:year_hint_format.VIVO-languages
         rdfs:label       "ГГГГ"@ru-RU ;
         rdfs:label       "YYYY"@en-CA ;
         rdfs:label       "YYYY"@en-US ;
-        rdfs:label       "AAAA"@pt-BR ;
         rdfs:label       "AAAA"@fr-CA ;
+        rdfs:label       "AAAA"@pt-BR ;
         rdfs:label       "YYYY"@es ;
         rdfs:label       "YYYY"@sr-Latn-RS ;
         rdfs:label       "JJJJ"@de-DE ;
@@ -53,5 +52,4 @@ prop-data:year_hint_format.VIVO-languages
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "year_hint_format" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

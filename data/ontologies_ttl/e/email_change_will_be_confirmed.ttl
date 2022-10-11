@@ -12,8 +12,7 @@ prop-data:email_change_will_be_confirmed.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "email_change_will_be_confirmed" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:email_change_will_be_confirmed.Vitro-languages
         rdf:type         prop:PropertyKey ;

@@ -12,8 +12,7 @@ prop-data:unsupported_ie_version.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-vivo-form.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "unsupported_ie_version" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:unsupported_ie_version.Vitro
         rdf:type         owl:NamedIndividual ;
@@ -21,8 +20,7 @@ prop-data:unsupported_ie_version.Vitro
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-vitro-form.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "unsupported_ie_version" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro" .
 
 prop-data:unsupported_ie_version.Vitro-languages
         rdf:type         prop:PropertyKey ;

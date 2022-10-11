@@ -12,8 +12,7 @@ prop-data:co_investigators_capitalized.VIVO
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigators_capitalized" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO" .
 
 prop-data:co_investigators_capitalized.VIVO-languages
         rdf:type         prop:PropertyKey ;
@@ -24,10 +23,9 @@ prop-data:co_investigators_capitalized.VIVO-languages
         rdfs:label       "Co-investigators"@en-CA ;
         rdfs:label       "Co-investigators"@en-US ;
         rdfs:label       "Koautori"@sr-Latn-RS ;
-        rdfs:label       "Co-investigadores"@pt-BR ;
         rdfs:label       "Co-investigadores"@es ;
+        rdfs:label       "Co-investigadores"@pt-BR ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigators_capitalized" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "VIVO-languages" .

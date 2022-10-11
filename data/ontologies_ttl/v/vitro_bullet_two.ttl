@@ -9,8 +9,8 @@
 prop-data:vitro_bullet_two.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Edit instances and relationships"@en-US ;
         rdfs:label       "Edit instances and relationships"@en-CA ;
+        rdfs:label       "Edit instances and relationships"@en-US ;
         rdfs:label       "Bearbeiten von Instanzen und Beziehungen"@de-DE ;
         rdfs:label       "Éditer des instances et des relations"@fr-CA ;
         rdfs:label       "Editar instâncias e relacionamentos"@pt-BR ;
@@ -20,8 +20,7 @@ prop-data:vitro_bullet_two.Vitro-languages
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "vitro_bullet_two" ;
-        prop:hasPackage  "Vitro-languages" ;
-        prop:hasTheme    "" .
+        prop:hasPackage  "Vitro-languages" .
 
 prop-data:vitro_bullet_two.Vitro.vitro
         rdf:type         owl:NamedIndividual ;
