@@ -1,0 +1,806 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:for.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "para"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "for" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:cancel_link.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Cancelar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "cancel_link" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:add_new_entry_for.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Agregar nueva entrada para:"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "add_new_entry_for" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:selected.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Seleccionado"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "selected" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:manage_list_of_labels.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Administrar la lista de etiquetas"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "manage_list_of_labels" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:there_are_no_entries_for_selection.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "No hay entradas en el sistema desde el cual elegir."@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "there_are_no_entries_for_selection" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:or.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "o"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "or" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:search_vitro.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Búsqueda en VITRO"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:object.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "objeto"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "object" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:pages.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "páginas"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "pages" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:label.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "etiqueta"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "label" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:alt_thumbnail_photo.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Foto del usuario"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "alt_thumbnail_photo" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:vitro_bullet_four.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Buscar sus datos"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_four" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:add_capitalized.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Agregar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "add_capitalized" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:create_entry.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Crear entrada"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "create_entry" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:verify_this_match.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Verificar esta opración"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "verify_this_match" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:vitro_description.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Vitro es una ontología basada en la web de propósito general y editor de instancia pública con la navegación personalizable. Vitro es una aplicación web Java que se ejecuta en un contenedor de servlets Tomcat."@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_description" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:or_create_new_one.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "o cree uno nuevo."@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "or_create_new_one" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:editing_prohibited.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Esta propiedad está configurada para no permitir la edición."@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "editing_prohibited" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:properties.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "propiedades"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "properties" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:photo.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Foto"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "photo" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:click_to_view_larger.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "clic para ampliar la imagen"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "click_to_view_larger" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:limit.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Limitar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "limit" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:property.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "propiedad"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "property" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:cancel_title.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Cancelar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "cancel_title" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:filter_search.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Filtrar búsqueda"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "filter_search" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:content.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "contenido"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "content" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:manage.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Administrar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "manage" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:delete_entry.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "eliminar esta entrada"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "delete_entry" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:and.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "y"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/search-help_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/search-help_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/search-help_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/search-help_de_DE.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "and" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:no_image.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "ninguna imagen"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "no_image" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:rdf.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "RDF"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "rdf" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:add.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Agregar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/search-help_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/search-help_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/search-help_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/es/webapp/src/main/webapp/templates/freemarker/search-help_es.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/search-help_sr_Lant_RS.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/search-help_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "add" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:vitro_bullet_three.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Construir un sitio web público para mostrar sus datos"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_three" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:default.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Perdeterminado"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "default" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:all.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "todo"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "all" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:may.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Mayo"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "may" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:edit_capitalized.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Editar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "edit_capitalized" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:with_vitro.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Con Vitro, puede:"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "with_vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:search_form.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Formulario de búsqueda"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_form" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:name_capitalized.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Nombre"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "name_capitalized" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:account.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "cuenta"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedExternalOnlyEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedExternalOnlyEmail_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedExternalOnlyEmail_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/userAccounts-confirmEmailChangedEmail_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/userAccounts-confirmEmailChangedEmail_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-confirmEmailChangedEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-confirmEmailChangedEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-confirmEmailChangedEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedExternalOnlyEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedExternalOnlyEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedExternalOnlyEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-confirmEmailChangedEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-firstTimeExternalEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "account" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:all_capitalized.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Todo"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "all_capitalized" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:not.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "no"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/search-help_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "not" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:view.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "ver"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "view" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:other.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "otro"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "other" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:delete.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "borrar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "delete" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:search_button.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Buscar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_button" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:to.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "a"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/search-help_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/search-help_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/ru_RU/webapp/src/main/webapp/templates/freemarker/search-help_ru_RU.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-acctCreatedEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/userAccounts-passwordResetPendingEmail_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/search-help_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/de_DE/webapp/src/main/webapp/templates/freemarker/search-help_de_DE.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/sr_Latn_RS/webapp/src/main/webapp/templates/freemarker/search-help_sr_Lant_RS.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/search-help_en_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "to" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:vitro_bullet_two.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Editar instancias y relaciones"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_two" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:save_button.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Guardar"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "save_button" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:edit_entry.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "modifique esta entrada"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "edit_entry" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:vitro_bullet_one.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Crear o cargar ontologías en formato OWL"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_one" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:select_existing_collaborator.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Seleccione un colaborador existente para {0}"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_existing_collaborator" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:name.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "nombre"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/termsOfUse_pt_BR.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "name" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:since.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Desde"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "since" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:view_list_of_labels.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Visualizarla la lista de etiquetas"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "view_list_of_labels" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:placeholder_image.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Marcador de posición de la imagen"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "placeholder_image" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:select_an_existing_document.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Seleccione un documento existente"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_an_existing_document" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:select_an_existing.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Seleccione un nombre existente de"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_an_existing" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:data.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "datos"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/termsOfUse_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/en_US/webapp/src/main/webapp/templates/freemarker/termsOfUse_en_US.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "data" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:page.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "página"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page_fr_CA.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "page" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:change_selection.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "cambiar selección"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "change_selection" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:what_is_vitro.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "¿Qué es VITRO?"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "what_is_vitro" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
+
+prop-data:manage_list_of.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Administrar la lista de"@es ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "manage_list_of" ;
+        prop:hasPackage  "Vitro-languages" ;
+        prop:hasTheme    "" .
