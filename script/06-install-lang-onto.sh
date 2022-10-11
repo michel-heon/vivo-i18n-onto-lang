@@ -12,7 +12,7 @@
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/../00-env.sh
 
-for file in $PROPERTIES_ONTO_DATA/*-languages*
+for file in $PROPERTIES_ONTO_DATA/VIVO,*
 do
     FILE=$(basename $file .nt)
     PROP_URL=$(echo $FILE | tr ',' '/').properties

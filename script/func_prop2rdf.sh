@@ -15,54 +15,87 @@ source $PROP_SCRIPT_DIR/func_cleanup.sh
 
 export PROPFN=$1
 export ONTOFN=$PROPERTIES_ONTO_DATA/$(basename $PROPFN .properties).nt
-echo "" >$ONTOFN
 
-export REGION="en_US" # Default Value
+#export REGION="en_US" # Default Value
 
 function extract_region() {
     lang_pkg=$(echo $PROPFN | cut -d ',' -f 1)
     if [[ $lang_pkg == *"languages"* ]]; then
         REGION=$(echo $PROPFN | cut -d ',' -f 2)
+        LANG=$(echo $REGION| tr -s '_' '-')
+    else
+        REGION=""
+        LANG='en-US'
     fi
-    [ "$REGION" = "all" ] && REGION='en-US'
     BN=$(basename $PROPFN .properties | tr -s ',' '/')
     PKG=$(echo $BN | cut -f 1 -d '/')
     THEME=$(echo $PROPFN | grep themes | sed  's/.*themes,//g'| cut -d ',' -f 1)
 }
 
 function print_values () {
-printf "PROPFN_VAL=($PROPFN_VAL) \n \
+printf "\
+\t PROPFN=($PROPFN) \n\
 \t BN=($BN) \n\
 \t REGION=($REGION) \n\
+\t LANG=($LANG) \n\
 \t PKG=$PKG\n\
 \t THEME=($THEME) \n\
 \t ONTOFN=$ONTOFN\n"
 }
 
 function to_rdf () {
+IRI=$BASE_IRI#
+if [ -z $THEME ]; then
 cat << EOF > $TMPDIR/describe.sparql
 $(cat $SPARQL_SCRIPT_DIR/header.sparql)
 construct {
     ?s ?p ?o .
     ?s rdfs:label ?label .
+    ?s prop:ftlUrl ?ftl .
 } 
 WHERE {
-    ?s ?p ?o 
-    FILTER(!regex(str(?p),"label")) .
+    ?s ?p ?o .
+    ?s rdf:type prop:PropertyKey .
     ?s rdfs:label ?label .
-    FILTER (lang(?label) = 'fr-CA') .
-    ?s prop:hasTheme "$THEME" .
+    ?s prop:ftlUrl ?ftl .
     ?s prop:hasPackage "$PKG" .
-    FILTER(regex(str(?s),"properties")) .
+    FILTER (regex(str(?s),".*$PKG\$")) .
+    FILTER (!regex(str(?p),"http://www.w3.org/2000/01/rdf-schema#label")) .
+    FILTER (!regex(str(?p),"ftlUrl")) .
+    FILTER (regex(str(?ftl),"${REGION}.ftl")) .
+    FILTER (lang(?label) = '$LANG') .
 }
 EOF
-
-sparql --results=TURTLE --query=$TMPDIR/describe.sparql \
-    --data=$DATA/all.ttl \
-    --base "$BASE_IRI" \
-    --results=ntriples >> $ONTOFN
+else 
+cat << EOF > $TMPDIR/describe.sparql
+$(cat $SPARQL_SCRIPT_DIR/header.sparql)
+construct {
+    ?s ?p ?o .
+    ?s rdfs:label ?label .
+    ?s prop:ftlUrl ?ftl .
+} 
+WHERE {
+    ?s ?p ?o .
+    ?s rdf:type prop:PropertyKey .
+    ?s rdfs:label ?label .
+    ?s prop:hasTheme "$THEME" .
+    ?s prop:hasPackage "$PKG" .
+    ?s prop:ftlUrl ?ftl .
+    FILTER (regex(str(?s),".*$PKG.$THEME\$")) .
+    FILTER (!regex(str(?p),"http://www.w3.org/2000/01/rdf-schema#label")) .
+    FILTER (!regex(str(?p),"ftlUrl")) .
+    FILTER (regex(str(?ftl),"${REGION}.ftl")) .
+    FILTER (lang(?label) = '$LANG') .
 }
-
+EOF
+fi
+    #cat $TMPDIR/describe.sparql
+    sparql --results=TURTLE --query=$TMPDIR/describe.sparql \
+        --data=$DATA/all.ttl \
+        --base "$BASE_IRI" \
+        --results=ntriples > $ONTOFN
+   # cat $ONTOFN
+}
 ###################################################################
 # Traduire la clé-valeurs en RDF
 NBR_LINE=$(cat $PROPFN | wc -l )
@@ -70,4 +103,3 @@ PROPFN=$1
 extract_region
 print_values
 to_rdf
-exit 0
