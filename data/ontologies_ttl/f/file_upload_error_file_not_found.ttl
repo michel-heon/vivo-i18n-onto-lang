@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:file_upload_error_file_not_found.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "File to upload not found"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "file_upload_error_file_not_found" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:file_upload_error_file_not_found.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

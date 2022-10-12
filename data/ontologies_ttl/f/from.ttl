@@ -41,6 +41,7 @@ prop-data:from.VIVO-languages
 
 prop-data:from.VIVO  rdf:type  prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "from"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConceptVocabSpecificDisplay.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonOnPublicationsStandalone.ftl"^^xsd:anyURI ;

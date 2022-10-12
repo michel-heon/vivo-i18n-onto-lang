@@ -33,6 +33,7 @@ prop-data:upload_files.VIVO-languages
 prop-data:upload_files.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Upload file(s)"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "upload_files" ;

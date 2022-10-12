@@ -24,6 +24,7 @@ prop-data:class_name.Vitro-languages
 prop-data:class_name.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "class name"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-browse.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/classGroups.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;

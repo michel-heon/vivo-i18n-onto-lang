@@ -20,3 +20,11 @@ prop-data:manage_labels.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage_labels" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:manage_labels.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage labels"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "manage_labels" ;
+        prop:hasPackage  "Vitro" .

@@ -33,6 +33,7 @@ prop-data:webpage_reordering_failed.VIVO-languages
 prop-data:webpage_reordering_failed.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Reordering of web pages failed."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "webpage_reordering_failed" ;

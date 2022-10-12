@@ -20,3 +20,11 @@ prop-data:sparql_query_description_0.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "sparql_query_description_0" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:sparql_query_description_0.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "# This example query gets 20 geographic locations"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "sparql_query_description_0" ;
+        prop:hasPackage  "Vitro" .

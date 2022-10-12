@@ -33,6 +33,7 @@ prop-data:harvest_error_instructions_fiveC.VIVO.nemo
 prop-data:harvest_error_instructions_fiveC.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "directory exists and the web server user has read and write access to it."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_error_instructions_fiveC" ;

@@ -33,6 +33,7 @@ prop-data:cannot_find_concept.VIVO-languages
 prop-data:cannot_find_concept.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Can't find the concept you want? Select or create a VIVO-defined concept."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cannot_find_concept" ;

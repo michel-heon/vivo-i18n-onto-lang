@@ -15,5 +15,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text4.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text4.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "cap_map_text4" .
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text4.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text4.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text4.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text4.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#cap_map_text4.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "To make the visualisation easier to read, search terms and groups are scaled according to the number of results returned. Groups are also given different shades according to the number of connected search terms. The darker the shade, the more search terms a group is connected to."@en-US .

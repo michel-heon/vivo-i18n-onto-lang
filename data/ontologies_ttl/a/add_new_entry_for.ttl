@@ -21,3 +21,11 @@ prop-data:add_new_entry_for.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_new_entry_for" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:add_new_entry_for.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Add new entry for:"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "add_new_entry_for" ;
+        prop:hasPackage  "Vitro" .

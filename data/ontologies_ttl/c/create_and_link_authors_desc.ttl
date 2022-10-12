@@ -9,6 +9,7 @@
 prop-data:create_and_link_authors_desc.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "If you are an author of a work, please select your name in the author list.<br />Retrieved metadata may be incomplete. If you can not see your name listed, select \"Unlisted Author\"."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_authors_desc" ;

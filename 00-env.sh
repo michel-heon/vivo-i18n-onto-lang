@@ -37,10 +37,10 @@ export UI_LABELS_VOCAB="$TARGET_HOME/Vitro/home/src/main/resources/rdf/tbox/firs
 ###################################################################
 # generic for VIVO
 export PRODUCTS_LIST=( \
-VIVO \
 VIVO-languages \
-Vitro \
 Vitro-languages \
+VIVO \
+Vitro \
 )
 
 ###################################################################

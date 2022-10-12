@@ -11,3 +11,9 @@
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Lettre"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pismo"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Письмо в редакцию"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_type_personal_communication" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_personal_communication.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Letter"@en-US .

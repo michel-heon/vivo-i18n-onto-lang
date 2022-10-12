@@ -9,6 +9,7 @@
 prop-data:there_are_no_entries_for_selection.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "There are no entries in the system from which to select."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultPropertyForm.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;

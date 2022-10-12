@@ -33,6 +33,7 @@ prop-data:grant_administered_by.VIVO-languages
 prop-data:grant_administered_by.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "grant being administered by"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-organizationAdministersGrant.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationAdministersGrant.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;

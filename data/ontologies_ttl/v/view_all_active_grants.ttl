@@ -19,6 +19,7 @@ prop-data:view_all_active_grants.VIVO.nemo
 prop-data:view_all_active_grants.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "View all active grants"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-organization.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_all_active_grants" ;

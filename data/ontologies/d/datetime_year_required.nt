@@ -15,5 +15,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#datetime_year_required.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#datetime_year_required.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "datetime_year_required" .
 <http://vivoweb.org/ontology/core/properties/individual#datetime_year_required.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#datetime_year_required.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#datetime_year_required.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#datetime_year_required.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#datetime_year_required.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Date/time intervals must begin with a year. Enter either a Start Year, an End Year or both."@en-US .

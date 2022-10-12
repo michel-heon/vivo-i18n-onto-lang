@@ -33,6 +33,7 @@ prop-data:max_entity_note.VIVO.nemo
 prop-data:max_entity_note.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "A Maximum 10 entities can be compared. Please remove some & try again."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "max_entity_note" ;

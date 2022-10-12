@@ -33,6 +33,7 @@ prop-data:select_existing_local_class.VIVO.nemo
 prop-data:select_existing_local_class.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Select an existing class from a local extension"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "select_existing_local_class" ;

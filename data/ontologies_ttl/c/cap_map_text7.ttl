@@ -24,6 +24,7 @@ prop-data:cap_map_text7.VIVO-languages
 prop-data:cap_map_text7.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "This panel displays information about individual search terms and groups. Click on a group to display its information."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cap_map_text7" ;

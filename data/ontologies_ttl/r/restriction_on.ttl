@@ -20,3 +20,11 @@ prop-data:restriction_on.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "restriction_on" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:restriction_on.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "restriction on"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "restriction_on" ;
+        prop:hasPackage  "Vitro" .

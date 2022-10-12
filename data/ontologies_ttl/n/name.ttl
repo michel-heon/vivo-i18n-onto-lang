@@ -186,6 +186,7 @@ prop-data:name.VIVO-languages
 
 prop-data:name.Vitro  rdf:type  owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "name"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/login/login.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-properties.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/recomputeInferences.ftl"^^xsd:anyURI ;

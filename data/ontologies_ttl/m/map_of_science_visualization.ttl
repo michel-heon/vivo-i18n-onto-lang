@@ -19,6 +19,7 @@ prop-data:map_of_science_visualization.VIVO.nemo
 prop-data:map_of_science_visualization.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Map of Science Visualization"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "map_of_science_visualization" ;

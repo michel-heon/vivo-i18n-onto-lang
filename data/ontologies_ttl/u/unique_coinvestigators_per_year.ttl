@@ -33,6 +33,7 @@ prop-data:unique_coinvestigators_per_year.VIVO-languages
 prop-data:unique_coinvestigators_per_year.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Unique Co-Investigators per year"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/copi/coInvestigationSparklineContent.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "unique_coinvestigators_per_year" ;

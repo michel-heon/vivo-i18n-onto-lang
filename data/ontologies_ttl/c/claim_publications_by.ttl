@@ -24,6 +24,14 @@ prop-data:claim_publications_by.VIVO-languages.wilma
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
 
+prop-data:claim_publications_by.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Claim publications by"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "claim_publications_by" ;
+        prop:hasPackage  "VIVO" .
+
 prop-data:claim_publications_by.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

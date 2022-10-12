@@ -24,6 +24,7 @@ prop-data:return_to_individual.Vitro-languages
 prop-data:return_to_individual.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Return to Individual Page"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/manageLabelsForIndividualTerms.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "return_to_individual" ;

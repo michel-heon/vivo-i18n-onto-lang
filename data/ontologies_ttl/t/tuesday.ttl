@@ -21,6 +21,14 @@ prop-data:tuesday.Vitro-languages
         prop:hasKey      "tuesday" ;
         prop:hasPackage  "Vitro-languages" .
 
+prop-data:tuesday.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Tuesday"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "tuesday" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:tuesday.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

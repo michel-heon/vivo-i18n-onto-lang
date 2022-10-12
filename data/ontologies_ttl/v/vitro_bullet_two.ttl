@@ -30,3 +30,11 @@ prop-data:vitro_bullet_two.Vitro.vitro
         prop:hasKey      "vitro_bullet_two" ;
         prop:hasPackage  "Vitro" ;
         prop:hasTheme    "vitro" .
+
+prop-data:vitro_bullet_two.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Edit instances and relationships"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_two" ;
+        prop:hasPackage  "Vitro" .

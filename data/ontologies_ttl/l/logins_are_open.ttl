@@ -24,6 +24,7 @@ prop-data:logins_are_open.Vitro-languages
 prop-data:logins_are_open.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Logins are open to all."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-restrictLogins.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "logins_are_open" ;

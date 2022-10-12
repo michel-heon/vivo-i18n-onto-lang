@@ -24,6 +24,7 @@ prop-data:orcid_return_to_vivo.VIVO-languages
 prop-data:orcid_return_to_vivo.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Return to your VIVO profile page"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "orcid_return_to_vivo" ;

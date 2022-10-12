@@ -24,6 +24,7 @@ prop-data:edit_entry_for_service_provider_role.VIVO-languages
 prop-data:edit_entry_for_service_provider_role.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       ": Edit this service provider role"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addServiceProviderRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "edit_entry_for_service_provider_role" ;

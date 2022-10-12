@@ -33,6 +33,7 @@ prop-data:telephone_number_for.VIVO.nemo
 prop-data:telephone_number_for.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "telephone number for"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/subjectHasPhoneFaxNumber.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "telephone_number_for" ;

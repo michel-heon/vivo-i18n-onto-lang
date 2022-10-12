@@ -24,6 +24,7 @@ prop-data:run_sdb_setup.Vitro-languages
 prop-data:run_sdb_setup.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Run SDB Setup"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/sdbSetup.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "run_sdb_setup" ;

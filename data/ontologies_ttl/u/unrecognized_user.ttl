@@ -24,6 +24,7 @@ prop-data:unrecognized_user.Vitro-languages
 prop-data:unrecognized_user.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Unrecognized user"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/unrecognizedUser.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "unrecognized_user" ;

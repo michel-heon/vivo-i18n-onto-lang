@@ -240,6 +240,7 @@ prop-data:and.VIVO  rdf:type  prop:PropertyKey ;
 
 prop-data:and.Vitro  rdf:type  owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "and"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-fauxPropertiesList.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-datetime.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showSources.ftl"^^xsd:anyURI ;

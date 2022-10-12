@@ -20,3 +20,11 @@ prop-data:imageUpload.errorUnknown.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "imageUpload.errorUnknown" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:imageUpload.errorUnknown.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Sorry, we were unable to process the photo you provided. Please try another photo."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "imageUpload.errorUnknown" ;
+        prop:hasPackage  "Vitro" .

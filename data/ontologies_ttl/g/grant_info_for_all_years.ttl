@@ -18,6 +18,7 @@ prop-data:grant_info_for_all_years.VIVO.nemo
 prop-data:grant_info_for_all_years.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "The information in the following tables is for all years."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grant_info_for_all_years" ;

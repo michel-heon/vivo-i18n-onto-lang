@@ -69,5 +69,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "show_more_content" .
 <http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#show_more_content.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "show more content"@en-US .

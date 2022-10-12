@@ -18,6 +18,7 @@ prop-data:within_my_institution.VIVO.nemo
 prop-data:within_my_institution.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "within my institution"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/menuManagement--classIntersections.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--classIntersections.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;

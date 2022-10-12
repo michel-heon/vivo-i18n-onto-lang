@@ -24,6 +24,7 @@ prop-data:namespace_must_use_this_pattern.VIVO-languages
 prop-data:namespace_must_use_this_pattern.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "In order for a local ontology to be recognized here, its namespace URI must follow this pattern"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "namespace_must_use_this_pattern" ;

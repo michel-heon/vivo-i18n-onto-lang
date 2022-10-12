@@ -33,6 +33,7 @@ prop-data:view_timeline_copi_network.VIVO.nemo
 prop-data:view_timeline_copi_network.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "View full timeline and co-investigator network."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/copi/coInvestigationSparklineContent.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_timeline_copi_network" ;

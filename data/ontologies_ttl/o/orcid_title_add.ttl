@@ -24,6 +24,7 @@ prop-data:orcid_title_add.VIVO-languages
 prop-data:orcid_title_add.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Do you want to add an ORCID iD?"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "orcid_title_add" ;

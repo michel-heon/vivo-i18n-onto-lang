@@ -33,6 +33,7 @@ prop-data:display_has_element_error.Vitro-languages
 prop-data:display_has_element_error.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "There was an error in the system. The display:hasElement property could not be retrieved."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-menu.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "display_has_element_error" ;

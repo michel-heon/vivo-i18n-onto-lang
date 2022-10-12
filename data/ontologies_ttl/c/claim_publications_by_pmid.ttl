@@ -56,3 +56,11 @@ prop-data:claim_publications_by_pmid.VIVO.wilma
         prop:hasKey      "claim_publications_by_pmid" ;
         prop:hasPackage  "VIVO" ;
         prop:hasTheme    "wilma" .
+
+prop-data:claim_publications_by_pmid.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "PubMed ID"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "claim_publications_by_pmid" ;
+        prop:hasPackage  "VIVO" .

@@ -24,6 +24,7 @@ prop-data:label.dateTimeWithPrecision.year_capitalized.Vitro-languages
 prop-data:label.dateTimeWithPrecision.year_capitalized.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Year"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/dateTimeWithPrecision.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeEntryForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;

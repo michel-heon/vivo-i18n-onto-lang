@@ -20,3 +20,11 @@ prop-data:has_value.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "has_value" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:has_value.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "has value"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "has_value" ;
+        prop:hasPackage  "Vitro" .

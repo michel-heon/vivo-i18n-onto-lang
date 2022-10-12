@@ -33,6 +33,7 @@ prop-data:vocabulary_service_unavailable.VIVO.nemo
 prop-data:vocabulary_service_unavailable.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "An error was encountered in executing this search."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vocabulary_service_unavailable" ;

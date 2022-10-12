@@ -20,3 +20,11 @@ prop-data:create_and_link_type_map.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_type_map" ;
         prop:hasPackage  "VIVO-languages" .
+
+prop-data:create_and_link_type_map.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Map"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_type_map" ;
+        prop:hasPackage  "VIVO" .

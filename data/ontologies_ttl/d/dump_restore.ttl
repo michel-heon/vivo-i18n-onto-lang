@@ -20,3 +20,11 @@ prop-data:dump_restore.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "dump_restore" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:dump_restore.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Dump/Restore application"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "dump_restore" ;
+        prop:hasPackage  "Vitro" .

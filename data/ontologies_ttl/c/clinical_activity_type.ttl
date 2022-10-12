@@ -24,6 +24,7 @@ prop-data:clinical_activity_type.VIVO-languages
 prop-data:clinical_activity_type.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "clinical activity type"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addClinicalRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "clinical_activity_type" ;

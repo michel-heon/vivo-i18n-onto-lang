@@ -11,9 +11,7 @@
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/../00-env.sh
-
-for file in $PROPERTIES_ONTO_DATA/*
-do
+function process_file {
     FILE=$(basename $file .nt)
     PROP_URL=$(echo $FILE | tr ',' '/').properties
     PROP_FN=$(basename $PROP_URL .properties)
@@ -22,7 +20,6 @@ do
     PKG=$(basename $ROOT_PKG)
     APP=$(echo $PKG | cut -f 1 -d '-' | tr '[:upper:]' '[:lower:]')
     REGION=$(echo $file | cut -f 2 -d ',')
-    README_URL=$TARGET_HOME/$PROP_DIR_LOC/README_$PROP_FN.txt
     LANG_REPO=$PKG/$REGION/home/src/main/resources/rdf/i18n/$REGION/display/firsttime
     TARGET_REPO=$TARGET_HOME/$LANG_REPO
     THEME=$(echo $PROP_DIR_LOC | grep theme | sed  's/.*themes\///g' | cut -f 1 -d '/')
@@ -31,6 +28,7 @@ do
     else 
         UI_ONTO_FN=${APP}_UiLabel_${REGION}.ttl
     fi
+    README_URL=$TARGET_HOME/$PROP_DIR_LOC/README_$(basename $UI_ONTO_FN .ttl).txt
     echo "===================================================="
     echo "Processing $file"
     echo "      FILE         = $FILE"
@@ -45,6 +43,8 @@ do
     echo "      PROP_URL_FN  = $PROP_URL_FN"
     echo "      UI_ONTO_FN   = $UI_ONTO_FN"
     echo "      README_URL   = $README_URL"
+    echo ""
+    
     mkdir -p $TARGET_REPO
     mkdir -p $TARGET_HOME/$PROP_DIR_LOC/
 cat << EOF > $README_URL
@@ -58,4 +58,21 @@ directory as this Readme file.
 
 EOF
     func_nt2ttl.sh < $file > $TARGET_REPO/$UI_ONTO_FN
+    echo "Done installing $TARGET_REPO/$UI_ONTO_FN"
+}
+###################################################################
+# Main loop
+for file in $PROPERTIES_ONTO_DATA/*
+do
+    process_file &
+    ((j=j+1))
+    if [ $j = "5" ]
+    then
+        wait; ((j=0)) ;  echo "################ New cycle"
+    else
+        sleep .2
+    fi
 done
+wait
+echo "DONE!"
+

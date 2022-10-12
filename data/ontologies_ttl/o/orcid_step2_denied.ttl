@@ -9,6 +9,7 @@
 prop-data:orcid_step2_denied.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "<p>You denied VIVO's request to add an External ID to your ORCID record.</p> <p>Linking can't continue.</p>"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "orcid_step2_denied" ;

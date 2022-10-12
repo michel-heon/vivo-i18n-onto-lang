@@ -24,6 +24,7 @@ prop-data:relate_editors_profiles.Vitro-languages
 prop-data:relate_editors_profiles.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Relate profile editors and profiles"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "relate_editors_profiles" ;

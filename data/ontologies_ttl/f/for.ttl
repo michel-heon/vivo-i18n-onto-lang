@@ -47,6 +47,7 @@ prop-data:for.Vitro-languages
 
 prop-data:for.Vitro  rdf:type  prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "for"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-vitro-form.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteConfiguration.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/startupStatus-display.ftl"^^xsd:anyURI ;

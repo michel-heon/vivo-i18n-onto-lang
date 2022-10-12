@@ -9,6 +9,7 @@
 prop-data:orcid_step2_description.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "<ul><li>VIVO redirects you to ORCID's web site</li> <li>You tell ORCID that VIVO may add an \"external ID\" to your ORCID record.</li> <li>VIVO adds the external ID.</li></ul>"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "orcid_step2_description" ;

@@ -29,3 +29,11 @@ prop-data:individual_name.VIVO
         prop:hasApp      "VIVO" ;
         prop:hasKey      "individual_name" ;
         prop:hasPackage  "VIVO" .
+
+prop-data:individual_name.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "individual name"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "individual_name" ;
+        prop:hasPackage  "Vitro" .

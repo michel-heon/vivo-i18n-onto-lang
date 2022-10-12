@@ -18,3 +18,9 @@
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro.vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "javascript_ie_alert_text" .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#javascript_ie_alert_text.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-US .

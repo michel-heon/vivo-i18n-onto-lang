@@ -22,5 +22,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "harvest_error_instructions_fourA" .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the"@en-US .

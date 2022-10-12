@@ -20,3 +20,11 @@ prop-data:request_failed.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "request_failed" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:request_failed.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Request failed. Please contact your system administrator."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "request_failed" ;
+        prop:hasPackage  "Vitro" .

@@ -22,5 +22,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#probably_a_bug_so_report.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#probably_a_bug_so_report.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "probably_a_bug_so_report" .
 <http://vivoweb.org/ontology/core/properties/individual#probably_a_bug_so_report.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#probably_a_bug_so_report.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#probably_a_bug_so_report.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#probably_a_bug_so_report.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#probably_a_bug_so_report.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "The end user should not see this error under normal circumstances, so this is probably a bug and should be reported."@en-US .

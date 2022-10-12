@@ -19,6 +19,7 @@ prop-data:no_publications_for_this_organization.VIVO.nemo
 prop-data:no_publications_for_this_organization.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "No publications in the system have been attributed to this organization."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceStandalone.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_publications_for_this_organization" ;

@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:malformed_last_name_msg.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "The last name field may not contain a comma. Please enter first name in First Name field."@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "malformed_last_name_msg" ;
+        prop:hasPackage  "VIVO" .
+
 prop-data:malformed_last_name_msg.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

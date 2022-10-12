@@ -18,6 +18,7 @@ prop-data:internal_class_intro_two.VIVO.nemo
 prop-data:internal_class_intro_two.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "This will allow you to limit the individuals displayed on your menu pages (People, Research, etc.) to only those within your institution."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "internal_class_intro_two" ;

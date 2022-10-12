@@ -9,6 +9,7 @@
 prop-data:cached_models_regenerated.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "The following cached models will be regenerated."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/modelconstructor/regenerateConstructedModels.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cached_models_regenerated" ;

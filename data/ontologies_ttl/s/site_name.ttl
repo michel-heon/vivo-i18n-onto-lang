@@ -20,3 +20,11 @@ prop-data:site_name.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "site_name" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:site_name.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "site name"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "site_name" ;
+        prop:hasPackage  "Vitro" .

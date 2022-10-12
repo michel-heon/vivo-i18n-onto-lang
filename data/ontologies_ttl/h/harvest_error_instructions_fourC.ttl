@@ -33,6 +33,7 @@ prop-data:harvest_error_instructions_fourC.VIVO-languages
 prop-data:harvest_error_instructions_fourC.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "directory and all of its children."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_error_instructions_fourC" ;

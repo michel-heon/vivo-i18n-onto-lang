@@ -20,3 +20,11 @@ prop-data:insufficient_authorization.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "insufficient_authorization" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:insufficient_authorization.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "We're sorry, but you are not authorized to view the page you requested. If you think this is an error, please contact us and we'll be happy to help."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "insufficient_authorization" ;
+        prop:hasPackage  "Vitro" .

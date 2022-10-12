@@ -26,5 +26,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#editing_prohibited.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#editing_prohibited.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "editing_prohibited" .
 <http://vivoweb.org/ontology/core/properties/individual#editing_prohibited.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#editing_prohibited.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#editing_prohibited.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#editing_prohibited.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#editing_prohibited.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "This property is currently configured to prohibit editing."@en-US .

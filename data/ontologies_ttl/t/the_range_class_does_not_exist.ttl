@@ -20,3 +20,11 @@ prop-data:the_range_class_does_not_exist.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "the_range_class_does_not_exist" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:the_range_class_does_not_exist.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "The range class for this property does not exist in the system."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "the_range_class_does_not_exist" ;
+        prop:hasPackage  "Vitro" .

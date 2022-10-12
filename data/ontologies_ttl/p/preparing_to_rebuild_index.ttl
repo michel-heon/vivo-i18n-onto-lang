@@ -20,3 +20,11 @@ prop-data:preparing_to_rebuild_index.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "preparing_to_rebuild_index" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:preparing_to_rebuild_index.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Preparing to rebuild the search index."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "preparing_to_rebuild_index" ;
+        prop:hasPackage  "Vitro" .

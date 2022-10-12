@@ -17,6 +17,7 @@ prop-data:view_profile_page_for.VIVO
 prop-data:view_profile_page_for.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "View the profile page for"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/shortview/view-browse-default.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "view_profile_page_for" ;

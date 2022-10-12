@@ -22,5 +22,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_existing_pub_or_enter_new" .
 <http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_existing_pub_or_enter_new.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Please select an existing publication in the Title field or enter a new one."@en-US .

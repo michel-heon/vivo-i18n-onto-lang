@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:external_id_already_in_use.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "User account already exists for ''{0}''"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "external_id_already_in_use" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:external_id_already_in_use.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

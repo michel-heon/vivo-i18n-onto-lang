@@ -15,5 +15,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_enter_pmid_intro.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_enter_pmid_intro.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_enter_pmid_intro" .
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_enter_pmid_intro.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_enter_pmid_intro.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_enter_pmid_intro.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_enter_pmid_intro.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_and_link_enter_pmid_intro.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "You may enter one or more PubMed IDs to match. Each ID should be separated by a comma or new line."@en-US .

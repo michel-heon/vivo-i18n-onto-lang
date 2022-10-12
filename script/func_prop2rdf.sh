@@ -14,7 +14,7 @@ SPARQL_SCRIPT_DIR=$PROP_SCRIPT_DIR/sparql
 source $PROP_SCRIPT_DIR/func_cleanup.sh
 
 export PROPFN=$1
-export ONTOFN=$PROPERTIES_ONTO_DATA/$(basename $PROPFN .properties).nt
+export ONTOFN=$PROPERTIES_ONTO_DATA/$(basename $PROPFN .properties).ntriples
 
 #export REGION="en_US" # Default Value
 
@@ -45,56 +45,80 @@ printf "\
 
 function to_rdf () {
 IRI=$BASE_IRI#
+if [ -z $REGION ]; then
+URLFILTER=''
+else
+URLFILTER="FILTER(regex(str(?url),\"${REGION}\")) ."
+fi
 if [ -z $THEME ]; then
 cat << EOF > $TMPDIR/describe.sparql
 $(cat $SPARQL_SCRIPT_DIR/header.sparql)
-construct {
-    ?s ?p ?o .
-    ?s rdfs:label ?label .
-    ?s prop:ftlUrl ?ftl .
+CONSTRUCT {
+        ?s a  ?type .
+        ?s rdfs:label ?label .
+        ?s prop:ftlUrl  ?url .
+        ?s prop:hasApp  ?app .
+        ?s prop:hasKey  ?key  .
+        ?s prop:hasPackage ?pkg .
 } 
 WHERE {
-    ?s ?p ?o .
-    ?s rdf:type prop:PropertyKey .
-    ?s rdfs:label ?label .
-    ?s prop:ftlUrl ?ftl .
-    ?s prop:hasPackage "$PKG" .
-    FILTER (regex(str(?s),".*$PKG\$")) .
-    FILTER (!regex(str(?p),"http://www.w3.org/2000/01/rdf-schema#label")) .
-    FILTER (!regex(str(?p),"ftlUrl")) .
-    FILTER (regex(str(?ftl),"${REGION}.ftl")) .
-    FILTER (lang(?label) = '$LANG') .
+        ?s rdf:type prop:PropertyKey .
+        ?s a  ?type .
+        ?s prop:hasApp  ?app .
+        ?s prop:hasKey  ?key  .
+        ?s prop:hasPackage ?pkg .
+        FILTER NOT EXISTS{ ?s prop:hasTheme ?theme }
+        FILTER (str(?pkg) = '$PKG') .
+        OPTIONAL {
+            ?s rdfs:label ?label .
+            FILTER (lang(?label) = '$LANG') .
+        }
+        OPTIONAL {
+            ?s prop:ftlUrl  ?url .
+            $URLFILTER
+        }
 }
 EOF
+
 else 
 cat << EOF > $TMPDIR/describe.sparql
 $(cat $SPARQL_SCRIPT_DIR/header.sparql)
-construct {
-    ?s ?p ?o .
-    ?s rdfs:label ?label .
-    ?s prop:ftlUrl ?ftl .
+CONSTRUCT {
+        ?s a  ?type .
+        ?s rdfs:label ?label .
+        ?s prop:ftlUrl  ?url .
+        ?s prop:hasApp  ?app .
+        ?s prop:hasKey  ?key  .
+        ?s prop:hasPackage ?pkg .
+        ?s prop:hasTheme ?theme .
 } 
 WHERE {
-    ?s ?p ?o .
-    ?s rdf:type prop:PropertyKey .
-    ?s rdfs:label ?label .
-    ?s prop:hasTheme "$THEME" .
-    ?s prop:hasPackage "$PKG" .
-    ?s prop:ftlUrl ?ftl .
-    FILTER (regex(str(?s),".*$PKG.$THEME\$")) .
-    FILTER (!regex(str(?p),"http://www.w3.org/2000/01/rdf-schema#label")) .
-    FILTER (!regex(str(?p),"ftlUrl")) .
-    FILTER (regex(str(?ftl),"${REGION}.ftl")) .
-    FILTER (lang(?label) = '$LANG') .
+        ?s rdf:type prop:PropertyKey .
+        ?s a  ?type .
+        ?s prop:hasApp  ?app .
+        ?s prop:hasKey  ?key  .
+        ?s prop:hasPackage ?pkg .
+        ?s prop:hasTheme ?theme .
+        FILTER (str(?theme) = '$THEME') .
+        FILTER (str(?pkg) = '$PKG') .
+        OPTIONAL {
+            ?s rdfs:label ?label .
+            FILTER (lang(?label) = '$LANG') .
+        }
+        OPTIONAL {
+            ?s prop:ftlUrl  ?url .
+            $URLFILTER
+        }
 }
 EOF
 fi
-#    cat $TMPDIR/describe.sparql
+   # cat $TMPDIR/describe.sparql
     sparql --results=TURTLE --query=$TMPDIR/describe.sparql \
         --data=$DATA/all.ttl \
         --base "$BASE_IRI" \
         --results=ntriples > $ONTOFN
-   # cat $ONTOFN
+#    cat $ONTOFN
+    
 }
 ###################################################################
 # Traduire la clé-valeurs en RDF
@@ -103,3 +127,56 @@ PROPFN=$1
 extract_region
 print_values
 to_rdf
+
+exit 0
+construct {
+    ?$VAR_NAME ?p ?o .
+    ?$VAR_NAME rdfs:label ?label .
+    ?$VAR_NAME prop:ftlUrl ?ftl .
+} 
+WHERE {
+    ?s ?p ?o .
+    ?s rdf:type prop:PropertyKey .
+    ?s rdfs:label ?label .
+    ?s prop:hasPackage "$PKG" .
+    FILTER (regex(str(?s),".*$PKG\$")) .
+    FILTER (!regex(str(?p),"http://www.w3.org/2000/01/rdf-schema#label")) .
+    FILTER (lang(?label) = '$LANG') .
+    FILTER (!regex(str(?p),"ftlUrl")) .
+    FILTER NOT EXISTS { ?$VAR_NAME prop:hasTheme ?theme . }
+    OPTIONAL {
+        ?$VAR_NAME prop:ftlUrl ?ftl .
+        FILTER (regex(str(?ftl),"${REGION}.ftl")) .
+    }
+}
+EOF
+
+
+
+avec theme
+construct {
+    ?$VAR_NAME ?p ?o .
+    ?$VAR_NAME rdfs:label ?label .
+    ?$VAR_NAME prop:ftlUrl ?ftl .
+    ?$VAR_NAME prop:hasTheme "$THEME" .
+} 
+WHERE {
+    ?s ?p ?o .
+    ?s rdf:type prop:PropertyKey .
+    ?s rdfs:label ?label .
+    ?s prop:hasTheme "$THEME" .
+    ?s prop:hasPackage "$PKG" .
+    FILTER (regex(str(?s),".*$PKG.$THEME\$")) .
+    FILTER (!regex(str(?p),"http://www.w3.org/2000/01/rdf-schema#label")) .
+    FILTER (!regex(str(?p),"ftlUrl")) .
+    FILTER (lang(?label) = '$LANG') .
+    OPTIONAL {
+        ?$VAR_NAME prop:ftlUrl ?ftl .
+        ?$VAR_NAME prop:hasTheme "$THEME" .
+        FILTER (regex(str(?ftl),"${REGION}.ftl")) .
+    }
+}
+EOF
+
+
+

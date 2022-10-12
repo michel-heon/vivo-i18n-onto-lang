@@ -9,6 +9,7 @@
 prop-data:vis_tools_note_two.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_two" ;

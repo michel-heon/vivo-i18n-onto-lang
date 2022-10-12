@@ -22,6 +22,14 @@ prop-data:filter_search.Vitro-languages
         prop:hasKey      "filter_search" ;
         prop:hasPackage  "Vitro-languages" .
 
+prop-data:filter_search.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "filter search"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "filter_search" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:filter_search.Vitro.vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

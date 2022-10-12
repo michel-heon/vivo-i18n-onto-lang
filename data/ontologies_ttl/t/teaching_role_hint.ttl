@@ -18,6 +18,7 @@ prop-data:teaching_role_hint.VIVO.nemo
 prop-data:teaching_role_hint.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "e.g., Instructor, Facilitator, Assistant"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addTeacherRoleToPerson.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "teaching_role_hint" ;

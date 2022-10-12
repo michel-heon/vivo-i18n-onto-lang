@@ -33,6 +33,7 @@ prop-data:advisingRel_label.VIVO.nemo
 prop-data:advisingRel_label.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "advisory label"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-adviseeIn.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-advisorIn.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;

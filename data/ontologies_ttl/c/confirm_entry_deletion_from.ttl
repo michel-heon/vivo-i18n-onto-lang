@@ -24,6 +24,7 @@ prop-data:confirm_entry_deletion_from.Vitro-languages
 prop-data:confirm_entry_deletion_from.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Are you sure you want to delete the following entry from"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/confirmDeletePropertyForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_entry_deletion_from" ;

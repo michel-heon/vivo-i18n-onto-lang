@@ -132,7 +132,7 @@ do
 #    KEY=in
     process_extraction $_KEY &
     ((j=j+1))
-    if [ $j = "15" ]
+    if [ $j = "36" ]
     then
         wait; ((j=0)) ;  echo "################ New cycle"
     else

@@ -24,6 +24,7 @@ prop-data:new_account_notification.Vitro-languages
 prop-data:new_account_notification.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "A notification email has been sent to {0} with instructions for activating the account and creating a password."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "new_account_notification" ;

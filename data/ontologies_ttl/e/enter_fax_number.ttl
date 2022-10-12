@@ -24,6 +24,7 @@ prop-data:enter_fax_number.VIVO-languages
 prop-data:enter_fax_number.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Please enter a value in the Fax Number field."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/subjectHasPhoneFaxNumber.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "enter_fax_number" ;

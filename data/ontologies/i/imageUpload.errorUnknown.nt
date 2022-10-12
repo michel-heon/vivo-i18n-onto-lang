@@ -11,3 +11,9 @@
 <http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sorry, we were unable to process the photo you provided. Please try another photo."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sorry, we were unable to process the photo you provided. Please try another photo."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "К сожалению, мы не смогли обработать предоставленную вами фотографию. Пожалуйста, попробуйте другую фотографию."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "imageUpload.errorUnknown" .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorUnknown.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Sorry, we were unable to process the photo you provided. Please try another photo."@en-US .

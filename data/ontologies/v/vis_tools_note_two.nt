@@ -22,5 +22,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "vis_tools_note_two" .
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_two.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "To this end we have devised a caching solution which will retain information about the hierarchy of organizations -- namely, which publications are attributed to which organizations -- by storing the RDF model."@en-US .

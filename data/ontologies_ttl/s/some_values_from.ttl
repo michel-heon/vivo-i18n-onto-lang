@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:some_values_from.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "some values from"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "some_values_from" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:some_values_from.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

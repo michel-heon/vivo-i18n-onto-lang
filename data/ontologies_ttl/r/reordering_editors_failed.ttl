@@ -33,6 +33,7 @@ prop-data:reordering_editors_failed.VIVO-languages
 prop-data:reordering_editors_failed.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Reordering of editors failed."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "reordering_editors_failed" ;

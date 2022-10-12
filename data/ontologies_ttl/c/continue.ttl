@@ -17,6 +17,7 @@ prop-data:continue.VIVO
 prop-data:continue.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Continue"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/startupStatus-displayRaw.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/unrecognizedUser.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;

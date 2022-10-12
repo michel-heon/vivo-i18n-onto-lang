@@ -24,6 +24,7 @@ prop-data:create_and_link_enter_pmid_intro.VIVO-languages
 prop-data:create_and_link_enter_pmid_intro.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "You may enter one or more PubMed IDs to match. Each ID should be separated by a comma or new line."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_enter_pmid_intro" ;

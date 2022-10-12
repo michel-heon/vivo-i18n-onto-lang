@@ -22,5 +22,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "organization_hierarchy_note" .
 <http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organization_hierarchy_note.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Note: the organizations or people listed below are only those which are directly beneath {0} in the organization hierarchy. You may 'drill down' to see the organizations or people below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-US .

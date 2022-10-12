@@ -24,6 +24,7 @@ prop-data:logins_temporarily_disabled.Vitro-languages
 prop-data:logins_temporarily_disabled.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "User logins are temporarily disabled while the system is being maintained."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/login/adminLogin.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "logins_temporarily_disabled" ;

@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:paging_link_more.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "more..."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "paging_link_more" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:paging_link_more.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

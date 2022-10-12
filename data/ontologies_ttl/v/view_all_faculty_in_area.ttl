@@ -18,6 +18,7 @@ prop-data:view_all_faculty_in_area.VIVO.nemo
 prop-data:view_all_faculty_in_area.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "View all faculty with an interest in this area."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-dept-res-area-details.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_all_faculty_in_area" ;

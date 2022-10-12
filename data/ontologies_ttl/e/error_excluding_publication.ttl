@@ -33,6 +33,7 @@ prop-data:error_excluding_publication.VIVO.nemo
 prop-data:error_excluding_publication.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Error processing request: the publication cannot be excluded from the profile page."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePublicationsForIndividual.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "error_excluding_publication" ;

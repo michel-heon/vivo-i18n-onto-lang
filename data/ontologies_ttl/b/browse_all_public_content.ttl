@@ -24,6 +24,7 @@ prop-data:browse_all_public_content.Vitro-languages
 prop-data:browse_all_public_content.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "You can browse all of the public content currently in the system using the"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-checkForData.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "browse_all_public_content" ;

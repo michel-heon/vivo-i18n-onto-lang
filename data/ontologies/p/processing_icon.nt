@@ -11,3 +11,9 @@
 <http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "processing"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "verarbeite"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "в обработке"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "processing_icon" .
+<http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#processing_icon.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "processing"@en-US .

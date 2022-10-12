@@ -24,6 +24,7 @@ prop-data:browse_all_in_class.Vitro-languages
 prop-data:browse_all_in_class.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Browse all individuals in this class"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-browse.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-vClassesInClassgroup.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;

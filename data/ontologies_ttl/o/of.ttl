@@ -369,6 +369,7 @@ prop-data:of.Vitro  rdf:type  prop:PropertyKey ;
 
 prop-data:of.VIVO  rdf:type  prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "of"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-personInPosition.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConceptVocabSpecificDisplay.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-home-page.ftl"^^xsd:anyURI ;

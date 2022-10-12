@@ -33,6 +33,7 @@ prop-data:entity_comp_error_text4.VIVO-languages
 prop-data:entity_comp_error_text4.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "for a more complete overview."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonErrorCommonBody.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "entity_comp_error_text4" ;

@@ -33,6 +33,7 @@ prop-data:affiliated_research_areas.VIVO.nemo
 prop-data:affiliated_research_areas.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Affiliated Research Areas"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-affiliated-research-areas.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "affiliated_research_areas" ;

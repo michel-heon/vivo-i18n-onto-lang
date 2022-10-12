@@ -11,3 +11,9 @@
 <http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Login falhou - External ID não foi encontrado."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Prijava neuspešna - Eksterni ID nije pronađen"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Вход не удался — внешний идентификатор не найден."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "external_id_not_provided" .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#external_id_not_provided.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Login failed - External ID is not found."@en-US .

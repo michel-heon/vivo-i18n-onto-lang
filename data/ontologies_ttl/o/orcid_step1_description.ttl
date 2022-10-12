@@ -9,6 +9,7 @@
 prop-data:orcid_step1_description.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "<ul><li>VIVO redirects you to ORCID's web site.</li> <li>You log in to your ORCID account. <ul class=\"inner\"><li>If you don't have an account, you can create one.</li></ul></li> <li>You tell ORCID that VIVO may read your ORCID record.</li> <li>VIVO reads your ORCID record.</li> <li>VIVO notes that your ORCID iD is confirmed.</li></ul>"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "orcid_step1_description" ;

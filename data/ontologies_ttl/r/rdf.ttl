@@ -57,12 +57,13 @@ prop-data:rdf.VIVO  rdf:type  owl:NamedIndividual ;
         prop:hasKey      "rdf" ;
         prop:hasPackage  "VIVO" .
 
-prop-data:rdf.Vitro  rdf:type  owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individualList.ftl"^^xsd:anyURI ;
+prop-data:rdf.Vitro  rdf:type  prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "RDF"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-sparqlQueryForm.ftl"^^xsd:anyURI ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/head.ftl"^^xsd:anyURI ;
+        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individualList.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "rdf" ;
         prop:hasPackage  "Vitro" .

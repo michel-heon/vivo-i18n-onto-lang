@@ -24,6 +24,7 @@ prop-data:send_feedback_questions.Vitro-languages
 prop-data:send_feedback_questions.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Send us your feedback or ask a question"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/identity.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "send_feedback_questions" ;

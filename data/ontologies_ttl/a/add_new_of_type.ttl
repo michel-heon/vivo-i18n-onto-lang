@@ -17,6 +17,7 @@ prop-data:add_new_of_type.VIVO
 prop-data:add_new_of_type.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Add a new item of this type"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultOfferCreateNewOptionForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_new_of_type" ;

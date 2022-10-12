@@ -9,6 +9,7 @@
 prop-data:cropping_note.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "To make adjustments, you can drag around and resize the photo to the right. When you are happy with your photo click the \"Save Photo\" button."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-cropImage.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "cropping_note" ;

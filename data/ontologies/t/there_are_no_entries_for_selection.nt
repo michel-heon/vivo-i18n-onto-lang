@@ -25,5 +25,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#there_are_no_entries_for_selection.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#there_are_no_entries_for_selection.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "there_are_no_entries_for_selection" .
 <http://vivoweb.org/ontology/core/properties/individual#there_are_no_entries_for_selection.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#there_are_no_entries_for_selection.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#there_are_no_entries_for_selection.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#there_are_no_entries_for_selection.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#there_are_no_entries_for_selection.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "There are no entries in the system from which to select."@en-US .

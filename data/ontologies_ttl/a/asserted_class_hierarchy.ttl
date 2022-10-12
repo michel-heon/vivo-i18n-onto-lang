@@ -24,6 +24,7 @@ prop-data:asserted_class_hierarchy.Vitro-languages
 prop-data:asserted_class_hierarchy.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Asserted Class Hierarchy"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-classHierarchy.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "asserted_class_hierarchy" ;

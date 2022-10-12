@@ -25,8 +25,10 @@
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_affiliated_people" .
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Manage People Affiliated with"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_affiliated_people" .

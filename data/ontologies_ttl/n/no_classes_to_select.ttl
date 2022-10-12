@@ -24,6 +24,7 @@ prop-data:no_classes_to_select.Vitro-languages
 prop-data:no_classes_to_select.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "There are no Classes in the system from which to select."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/rdfTypeForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "no_classes_to_select" ;

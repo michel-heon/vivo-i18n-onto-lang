@@ -24,6 +24,7 @@ prop-data:faculty_with_researh_area.VIVO-languages
 prop-data:faculty_with_researh_area.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Here are the faculty members in the {0} department who have an interest in this research area."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-dept-res-area-details.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "faculty_with_researh_area" ;

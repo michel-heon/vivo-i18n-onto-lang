@@ -18,6 +18,7 @@ prop-data:check_grants_to_exclude.VIVO.nemo
 prop-data:check_grants_to_exclude.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Check those grants and projects you want to <em>exclude</em> from the profile page."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageGrantsForIndividual.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "check_grants_to_exclude" ;

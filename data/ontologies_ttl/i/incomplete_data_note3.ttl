@@ -18,6 +18,7 @@ prop-data:incomplete_data_note3.VIVO.nemo
 prop-data:incomplete_data_note3.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Log in to enter additional details about your publications on your profile page."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "incomplete_data_note3" ;

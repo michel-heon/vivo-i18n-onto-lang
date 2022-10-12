@@ -33,6 +33,7 @@ prop-data:select_existing_collaborator.Vitro-languages
 prop-data:select_existing_collaborator.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Select an existing Collaborator for {0}"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/autoCompleteObjectPropForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "select_existing_collaborator" ;

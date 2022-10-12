@@ -22,11 +22,11 @@ do
     (echo "start for $file ";func_prop2rdf.sh  $file ; echo "done $file" ) &
     echo "################ ($LOOP_CTR/$NBR_FILE)  $(basename $file)"  
     ((j=j+1))
-    if [ $j = "11" ]
+    if [ $j = "17" ]
     then
-        wait; ((j=0)) ;  echo "################ New cycle"
+        sleep 1; echo "Waiting end of tasks" ; wait; ((j=0)) ;  echo "################ New cycle"
     else
-        sleep .25
+        sleep .5
     fi
 done
 wait

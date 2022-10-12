@@ -24,6 +24,7 @@ prop-data:scopus_id_link.VIVO-languages
 prop-data:scopus_id_link.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Scopus ID Link"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-scopusId.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "scopus_id_link" ;

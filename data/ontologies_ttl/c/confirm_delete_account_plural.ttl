@@ -24,6 +24,7 @@ prop-data:confirm_delete_account_plural.Vitro-languages
 prop-data:confirm_delete_account_plural.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Are you sure you want to delete these accounts?"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_delete_account_plural" ;

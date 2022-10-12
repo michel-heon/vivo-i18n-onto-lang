@@ -20,3 +20,11 @@ prop-data:login_welcome_message.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "login_welcome_message" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:login_welcome_message.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Welcome{1, choice, 1# |1< back}, {0}"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "login_welcome_message" ;
+        prop:hasPackage  "Vitro" .

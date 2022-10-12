@@ -24,6 +24,7 @@ prop-data:data_property_hierarchy.Vitro-languages
 prop-data:data_property_hierarchy.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Data property hierarchy"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-ontologyEditor.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "data_property_hierarchy" ;

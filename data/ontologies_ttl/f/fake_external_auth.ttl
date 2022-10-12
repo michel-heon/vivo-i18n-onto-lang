@@ -24,6 +24,7 @@ prop-data:fake_external_auth.Vitro-languages
 prop-data:fake_external_auth.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Fake External Authentication"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/login/fakeExternalAuth.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "fake_external_auth" ;

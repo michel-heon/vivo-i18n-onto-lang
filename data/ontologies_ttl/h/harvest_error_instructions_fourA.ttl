@@ -9,6 +9,7 @@
 prop-data:harvest_error_instructions_fourA.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_error_instructions_fourA" ;

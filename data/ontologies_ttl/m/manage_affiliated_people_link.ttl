@@ -33,6 +33,7 @@ prop-data:manage_affiliated_people_link.VIVO.nemo
 prop-data:manage_affiliated_people_link.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "manage affiliated people"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-properties.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage_affiliated_people_link" ;

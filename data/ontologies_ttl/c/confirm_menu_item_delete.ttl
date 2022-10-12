@@ -24,6 +24,7 @@ prop-data:confirm_menu_item_delete.Vitro-languages
 prop-data:confirm_menu_item_delete.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Are you sure you want to remove"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/menuManagement-remove.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_menu_item_delete" ;

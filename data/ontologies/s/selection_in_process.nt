@@ -11,3 +11,9 @@
 <http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Your selection is being processed."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Your selection is being processed."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Идёт обработка выбранной вами информации."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "selection_in_process" .
+<http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#selection_in_process.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Your selection is being processed."@en-US .

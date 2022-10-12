@@ -33,6 +33,7 @@ prop-data:drag_drop_reorder_authors.VIVO.nemo
 prop-data:drag_drop_reorder_authors.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Drag and drop to reorder authors"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "drag_drop_reorder_authors" ;

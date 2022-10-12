@@ -24,6 +24,7 @@ prop-data:create_and_link_unknown_profile.VIVO-languages
 prop-data:create_and_link_unknown_profile.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Unknown Profile"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/unknownProfile.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_unknown_profile" ;

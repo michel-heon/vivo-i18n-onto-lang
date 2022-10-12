@@ -30,3 +30,11 @@ prop-data:vitro_bullet_four.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "vitro_bullet_four" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:vitro_bullet_four.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Search your data"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_bullet_four" ;
+        prop:hasPackage  "Vitro" .

@@ -33,6 +33,7 @@ prop-data:drag_drop_to_reorder_menus.VIVO.nemo
 prop-data:drag_drop_to_reorder_menus.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Drag and drop to reorder menu items"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-menu.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "drag_drop_to_reorder_menus" ;

@@ -14,6 +14,14 @@ prop-data:thursday.VIVO
         prop:hasKey      "thursday" ;
         prop:hasPackage  "VIVO" .
 
+prop-data:thursday.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Thursday"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "thursday" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:thursday.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

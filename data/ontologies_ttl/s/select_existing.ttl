@@ -20,3 +20,11 @@ prop-data:select_existing.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "select_existing" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:select_existing.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Select existing"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_existing" ;
+        prop:hasPackage  "Vitro" .

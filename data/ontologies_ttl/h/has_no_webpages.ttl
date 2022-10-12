@@ -18,6 +18,7 @@ prop-data:has_no_webpages.VIVO.nemo
 prop-data:has_no_webpages.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "This individual currently has no web pages specified. Add a new web page by clicking on the button below."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "has_no_webpages" ;

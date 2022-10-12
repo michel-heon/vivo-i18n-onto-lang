@@ -15,5 +15,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_in_security_field" .
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter the letters displayed below into the security field"@en-US .

@@ -9,6 +9,7 @@
 prop-data:probably_a_bug_so_report.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "The end user should not see this error under normal circumstances, so this is probably a bug and should be reported."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "probably_a_bug_so_report" ;

@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:imageUpload.errorNoURI.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "No entity URI was provided"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "imageUpload.errorNoURI" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:imageUpload.errorNoURI.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

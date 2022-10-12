@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:all_rights_reserved.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "All Rights Reserved."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "all_rights_reserved" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:all_rights_reserved.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

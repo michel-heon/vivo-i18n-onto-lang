@@ -24,6 +24,7 @@ prop-data:fatal_error_detected.Vitro-languages
 prop-data:fatal_error_detected.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "{0} detected a fatal error during startup."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/startupStatus-display.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "fatal_error_detected" ;

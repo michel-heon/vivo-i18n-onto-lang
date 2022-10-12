@@ -18,6 +18,7 @@ prop-data:vis_caching_process.VIVO.nemo
 prop-data:vis_caching_process.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "What's involved in the caching process?"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_caching_process" ;

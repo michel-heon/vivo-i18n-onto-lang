@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:vitro_description.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Vitro is a general-purpose web-based ontology and instance editor with customizable public browsing. Vitro is a Java web application that runs in a Tomcat servlet container."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "vitro_description" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:vitro_description.Vitro.vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

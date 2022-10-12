@@ -24,6 +24,7 @@ prop-data:individuals_with_researh_area_two.VIVO-languages
 prop-data:individuals_with_researh_area_two.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Here are the individuals in the <a href=\"{1}\">{0}</a> who have an interest in this research area."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-affiliated-res-area-details.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "individuals_with_researh_area_two" ;

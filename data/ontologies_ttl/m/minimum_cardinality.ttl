@@ -20,3 +20,11 @@ prop-data:minimum_cardinality.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "minimum_cardinality" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:minimum_cardinality.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "minimum cardinality"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "minimum_cardinality" ;
+        prop:hasPackage  "Vitro" .

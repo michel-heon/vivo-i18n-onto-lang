@@ -24,6 +24,7 @@ prop-data:first_time_login_note.Vitro-languages
 prop-data:first_time_login_note.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Note: An email will be sent to the address entered above notifying that an account has been created."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-firstTimeExternal.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "first_time_login_note" ;

@@ -33,6 +33,7 @@ prop-data:clear_all_selected_entities.VIVO.nemo
 prop-data:clear_all_selected_entities.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Clear all selected entities."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "clear_all_selected_entities" ;

@@ -11,3 +11,9 @@
 <http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The range class for this property does not exist in the system."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The range class for this property does not exist in the system."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Класс диапазона для данного отношения не определён в системе."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "the_range_class_does_not_exist" .
+<http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#the_range_class_does_not_exist.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "The range class for this property does not exist in the system."@en-US .

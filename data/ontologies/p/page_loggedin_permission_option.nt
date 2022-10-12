@@ -11,3 +11,9 @@
 <http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Somente indivíduos logados podem visualizar esta página"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Usuarios conectados pueden ver esta página"@es .
 <http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Эту страницу могут просматривать пользователи, вошедшие в систему"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_loggedin_permission_option" .
+<http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#page_loggedin_permission_option.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Logged in individuals can view this page"@en-US .

@@ -17,5 +17,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#double_quote_note_allowed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#double_quote_note_allowed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "double_quote_note_allowed" .
 <http://vivoweb.org/ontology/core/properties/individual#double_quote_note_allowed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#double_quote_note_allowed.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#double_quote_note_allowed.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#double_quote_note_allowed.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#double_quote_note_allowed.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "The variable name should not have a double quote."@en-US .

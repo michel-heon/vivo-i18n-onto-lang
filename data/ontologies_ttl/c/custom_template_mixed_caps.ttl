@@ -24,6 +24,7 @@ prop-data:custom_template_mixed_caps.Vitro-languages
 prop-data:custom_template_mixed_caps.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Custom template"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/menuManagement.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "custom_template_mixed_caps" ;

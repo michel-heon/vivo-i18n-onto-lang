@@ -20,3 +20,11 @@ prop-data:external_id_not_provided.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "external_id_not_provided" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:external_id_not_provided.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Login failed - External ID is not found."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "external_id_not_provided" ;
+        prop:hasPackage  "Vitro" .

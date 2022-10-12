@@ -33,6 +33,7 @@ prop-data:reordering_menus_failed.VIVO.nemo
 prop-data:reordering_menus_failed.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Reordering of menu items failed."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-menu.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "reordering_menus_failed" ;

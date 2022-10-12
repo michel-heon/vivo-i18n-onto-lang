@@ -9,6 +9,7 @@
 prop-data:no_appropriate_entry.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "If you don't find the appropriate entry on the selection list above"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultOfferCreateNewOptionForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "no_appropriate_entry" ;

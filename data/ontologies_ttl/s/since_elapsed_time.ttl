@@ -20,3 +20,11 @@ prop-data:since_elapsed_time.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "since_elapsed_time" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:since_elapsed_time.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "since {0}, elapsed time {1}"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "since_elapsed_time" ;
+        prop:hasPackage  "Vitro" .

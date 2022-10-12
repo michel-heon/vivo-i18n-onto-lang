@@ -15,5 +15,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "new_account_notification" .
 <http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_account_notification.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "A notification email has been sent to {0} with instructions for activating the account and creating a password."@en-US .

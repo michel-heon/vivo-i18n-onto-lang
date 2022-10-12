@@ -18,6 +18,7 @@ prop-data:incomplete_grant_data_note1.VIVO.nemo
 prop-data:incomplete_grant_data_note1.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Note: This information is based solely on grants that have been loaded into the VIVO system. This may only be a small sample of the person's total work."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "incomplete_grant_data_note1" ;

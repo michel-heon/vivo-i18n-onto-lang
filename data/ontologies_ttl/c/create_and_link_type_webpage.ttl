@@ -20,3 +20,11 @@ prop-data:create_and_link_type_webpage.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_type_webpage" ;
         prop:hasPackage  "VIVO-languages" .
+
+prop-data:create_and_link_type_webpage.VIVO
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Webpage"@en-US ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "create_and_link_type_webpage" ;
+        prop:hasPackage  "VIVO" .

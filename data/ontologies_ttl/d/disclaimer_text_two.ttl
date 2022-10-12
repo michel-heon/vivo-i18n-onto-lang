@@ -24,6 +24,7 @@ prop-data:disclaimer_text_two.VIVO-languages
 prop-data:disclaimer_text_two.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "which have been loaded into the VIVO system as of"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "disclaimer_text_two" ;

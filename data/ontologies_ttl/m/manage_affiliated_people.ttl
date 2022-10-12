@@ -42,6 +42,7 @@ prop-data:manage_affiliated_people.VIVO.nemo
 prop-data:manage_affiliated_people.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Manage People Affiliated with"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePeopleForOrganization.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "manage_affiliated_people" ;

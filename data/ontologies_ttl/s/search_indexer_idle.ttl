@@ -20,3 +20,11 @@ prop-data:search_indexer_idle.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "search_indexer_idle" ;
         prop:hasPackage  "Vitro-languages" .
+
+prop-data:search_indexer_idle.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "The search indexer is idle."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_indexer_idle" ;
+        prop:hasPackage  "Vitro" .

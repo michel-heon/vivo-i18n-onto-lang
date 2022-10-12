@@ -6,6 +6,14 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+prop-data:page_uri_missing_msg.Vitro
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "page_uri_missing_msg" ;
+        prop:hasPackage  "Vitro" .
+
 prop-data:page_uri_missing_msg.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

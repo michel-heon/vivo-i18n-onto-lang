@@ -18,6 +18,7 @@ prop-data:return_to_manage_concepts.VIVO.nemo
 prop-data:return_to_manage_concepts.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Return to Manage Concepts"@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addUserDefinedConcept.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "return_to_manage_concepts" ;
