@@ -1185,7 +1185,7 @@ prop-data:malformed_last_name_msg.VIVO-languages
 prop-data:orcid_step1_description.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "<ul><li>VIVO leitet Sie auf die ORCID Seite um.</li> <li>Melden Sie sich mit Ihrem ORCID Account an. <ul class=\"inner\"><li>Wenn Sie noch keinen Account besitzen, können Sie einen neuen Account erstellen.</li></ul></li> <li>Bestätigen Sie ORCID, dass VIVO Ihren ORCID Eintrag lesen darf.</li> <li>VIVO liest Ihren ORCID Eintrag aus.</li> <li>Im VIVO wird Ihre ORCID iD jetzt als bestätigt angezeigt.</li></ul>"@de-DE ;
+        rdfs:label       "<ul><li>VIVO leitet Sie auf die  ORCID Seite um.</li> <li>Melden Sie sich mit Ihrem ORCID Account an. <ul class=\"inner\"><li>Wenn Sie noch keinen Account besitzen, können Sie einen neuen Account erstellen.</li></ul></li> <li>Bestätigen Sie ORCID, dass VIVO Ihren ORCID Eintrag lesen darf.</li> <li>VIVO liest Ihren ORCID Eintrag aus.</li> <li>Im VIVO wird Ihre ORCID iD jetzt als bestätigt angezeigt.</li></ul>"@de-DE ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "orcid_step1_description" ;
         prop:hasPackage  "VIVO-languages" .
@@ -2969,7 +2969,7 @@ prop-data:vis_caching_process.VIVO-languages
 prop-data:orcid_step2_description.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "<ul><li>VIVO leitet Sie auf die ORCID Seite um.</li> <li>Sie erlauben ORCID, dass VIVO eine \"external ID\" zu Ihrem ORCID Eintrag hinzufügt.</li> <li>VIVO ergänzt Ihren nORCID Eintrag.</li></ul>"@de-DE ;
+        rdfs:label       "<ul><li>VIVO leitet Sie auf die  ORCID Seite um.</li> <li>Sie erlauben ORCID, dass VIVO eine \"external ID\" zu Ihrem ORCID Eintrag hinzufügt.</li> <li>VIVO ergänzt Ihren nORCID Eintrag.</li></ul>"@de-DE ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "orcid_step2_description" ;
         prop:hasPackage  "VIVO-languages" .
@@ -4724,7 +4724,7 @@ prop-data:create_entry_for_organizer_role.VIVO-languages
 prop-data:award_hint.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "(z. B. für mehrjährige Auszeichnungen )"@de-DE ;
+        rdfs:label       "(z. B. für mehrjährige Auszeichnungen  )"@de-DE ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "award_hint" ;
         prop:hasPackage  "VIVO-languages" .
@@ -6127,7 +6127,7 @@ prop-data:numbers_based_on_publications_in_vivo.VIVO-languages
 prop-data:vis_tools_note_four.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Die Modelle werden bei jedem Neustart des Servers aktualisiert. Da dies auf der Produktionsinstanz allgemein unpraktisch ist, können AdministratorInnen stattdessen den “Zwischenspeicher aktualisieren”-Link oben verwenden, um ohne einen Neustart eine Aktualisierung durchzuführen."@de-DE ;
+        rdfs:label       "Die Modelle werden bei jedem Neustart des Servers aktualisiert. Da dies auf der Produktionsinstanz  allgemein unpraktisch ist, können AdministratorInnen stattdessen den “Zwischenspeicher aktualisieren”-Link oben verwenden, um ohne einen Neustart eine Aktualisierung durchzuführen."@de-DE ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_four" ;
         prop:hasPackage  "VIVO-languages" .

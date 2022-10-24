@@ -9,7 +9,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#add_new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Add new entry for:"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#add_new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Adicionar nova entrada para:"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#add_new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Agregar nueva entrada para:"@es .
-<http://vivoweb.org/ontology/core/properties/individual#add_new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ajouter un enregistrement pour:"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ajouter un enregistrement pour: "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#add_new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Dodajte novi unos za:"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#add_new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Neuen Eintrag hinzufügen für:"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#add_new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Добавить новую запись для:"@ru-RU .

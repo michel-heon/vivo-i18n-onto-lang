@@ -11,11 +11,11 @@ prop-data:none_of_the.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "None of the"@en-CA ;
         rdfs:label       "None of the"@en-US ;
+        rdfs:label       "Ni jedan "@sr-Latn-RS ;
         rdfs:label       "Keine der"@de-DE ;
         rdfs:label       "Ни одна из"@ru-RU ;
         rdfs:label       "None do"@pt-BR ;
         rdfs:label       "Aucune des"@fr-CA ;
-        rdfs:label       "Ni jedan"@sr-Latn-RS ;
         rdfs:label       "Ninguno de los"@es ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "none_of_the" ;

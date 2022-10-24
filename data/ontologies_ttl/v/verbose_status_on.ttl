@@ -16,7 +16,7 @@ prop-data:verbose_status_on.Vitro-languages
         rdfs:label       "on"@en-US ;
         rdfs:label       "uključen"@sr-Latn-RS ;
         rdfs:label       "encendido"@es ;
-        rdfs:label       "actif"@fr-CA ;
+        rdfs:label       "actif "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "verbose_status_on" ;
         prop:hasPackage  "Vitro-languages" .

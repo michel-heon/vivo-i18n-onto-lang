@@ -18,13 +18,13 @@ prop-data:map_processor_error.Vitro
 prop-data:map_processor_error.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-US ;
+        rdfs:label       "Une erreur s'est produite et la carte des processeurs pour ce contenu est manquante. Veuillez contacter l'administrateur. "@fr-CA ;
         rdfs:label       "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-CA ;
+        rdfs:label       "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-US ;
         rdfs:label       "Ein Fehler ist aufgetreten und die Map von Prozessoren für diesen Inhalt fehlt. Bitte kontaktieren Sie den Administrator"@de-DE ;
         rdfs:label       "Ha ocurrido un error y el mapa de los procesadores con este tipo de contenido está ausente. Por favor, póngase en contacto con el administrador"@es ;
         rdfs:label       "Произошла ошибка, и карта процессоров для этого контента отсутствует. Пожалуйста, свяжитесь с администратором"@ru-RU ;
         rdfs:label       "Ocorreu um erro e o mapa de processadores para este conteúdo está faltando. Entre em contato com o administrador"@pt-BR ;
-        rdfs:label       "Une erreur s'est produite et la carte des processeurs pour ce contenu est manquante. Veuillez contacter l'administrateur."@fr-CA ;
         rdfs:label       "Došlo je do greške i mapa procesora za ovaj sadržaj nije pronađena. Molimo Vas kontaktirajte administratora."@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "map_processor_error" ;

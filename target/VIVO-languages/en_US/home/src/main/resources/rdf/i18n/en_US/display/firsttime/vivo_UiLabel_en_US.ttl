@@ -404,7 +404,7 @@ prop-data:view_profile_in_rdf.VIVO-languages
 prop-data:harvest_complete.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
         prop:hasPackage  "VIVO-languages" .
@@ -1550,7 +1550,7 @@ prop-data:invalid_qr_code_parameter.VIVO-languages
 prop-data:vis_tools_note_three.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
+        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
         prop:hasPackage  "VIVO-languages" .
@@ -4404,7 +4404,7 @@ prop-data:middle_name.VIVO-languages
 prop-data:fill_in_template_with_data.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
+        rdfs:label       "Fill in the template with your data.  You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "fill_in_template_with_data" ;
         prop:hasPackage  "VIVO-languages" .
@@ -6170,7 +6170,7 @@ prop-data:numbers_based_on_publications_in_vivo.VIVO-languages
 prop-data:vis_tools_note_four.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
+        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_four" ;
         prop:hasPackage  "VIVO-languages" .

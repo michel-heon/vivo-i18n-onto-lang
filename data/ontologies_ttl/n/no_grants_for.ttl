@@ -9,7 +9,7 @@
 prop-data:no_grants_for.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Currently there are no grants for"@en-US ;
+        rdfs:label       "Currently there are no grants for "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_grants_for" ;
         prop:hasPackage  "VIVO" ;
@@ -18,11 +18,11 @@ prop-data:no_grants_for.VIVO.nemo
 prop-data:no_grants_for.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Currently there are no grants for "@en-CA ;
+        rdfs:label       "Currently there are no grants for "@en-US ;
         rdfs:label       "Trenutno nema stipendija za"@sr-Latn-RS ;
         rdfs:label       "De momento no hay subvenciones para"@es ;
         rdfs:label       "Zurzeit gibt es keine Forschungsprojekte für"@de-DE ;
-        rdfs:label       "Currently there are no grants for"@en-CA ;
-        rdfs:label       "Currently there are no grants for"@en-US ;
         rdfs:label       "В настоящее время не найдено информации о грантах у"@ru-RU ;
         rdfs:label       "Actualmente não há subsídios para"@pt-BR ;
         rdfs:label       "Actuellement aucune subvention pour"@fr-CA ;
@@ -35,12 +35,12 @@ prop-data:no_grants_for.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Zurzeit gibt es keine Forschungsprojekte für"@de-DE ;
-        rdfs:label       "В данный момент не найдено грантов у"@ru-RU ;
-        rdfs:label       "Actuellement aucune subvention pour"@fr-CA ;
+        rdfs:label       "Actuellement aucune subvention pour "@fr-CA ;
         rdfs:label       "De momento no hay subvenciones para"@es ;
-        rdfs:label       "Currently there are no grants for"@en-CA ;
-        rdfs:label       "Currently there are no grants for"@en-US ;
+        rdfs:label       "Currently there are no grants for "@en-CA ;
+        rdfs:label       "Currently there are no grants for "@en-US ;
         rdfs:label       "Trenutno nema grant-ova za"@sr-Latn-RS ;
+        rdfs:label       "В данный момент не найдено грантов у "@ru-RU ;
         rdfs:label       "Actualmente não há subsídios para"@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_grants_for" ;

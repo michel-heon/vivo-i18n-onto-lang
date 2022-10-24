@@ -476,7 +476,7 @@ prop-data:authenticator.Vitro-languages
 prop-data:preparing_to_rebuild_index.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Préparation de la reconstruction de l'index de recherche."@fr-CA ;
+        rdfs:label       "Préparation de la  reconstruction de l'index de recherche."@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "preparing_to_rebuild_index" ;
         prop:hasPackage  "Vitro-languages" .
@@ -660,7 +660,7 @@ prop-data:in.Vitro-languages
 prop-data:most_recent_update.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "La plus récente mise à jour a été exécutée à"@fr-CA ;
+        rdfs:label       "La plus récente mise à jour a été exécutée à "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "most_recent_update" ;
         prop:hasPackage  "Vitro-languages" .
@@ -812,7 +812,7 @@ prop-data:add_new_classes.Vitro-languages
 prop-data:identifier_factories.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "facteurs d'identifiations"@fr-CA ;
+        rdfs:label       "facteurs d'identifiations "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "identifier_factories" ;
         prop:hasPackage  "Vitro-languages" .
@@ -876,7 +876,7 @@ prop-data:account_no_longer_exists.Vitro-languages
 prop-data:page_select_permission.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Sélectionner les permissions d'accès aux pages"@fr-CA ;
+        rdfs:label       "Sélectionner les permissions d'accès aux pages "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_select_permission" ;
         prop:hasPackage  "Vitro-languages" .
@@ -1527,7 +1527,7 @@ prop-data:external_auth_only.Vitro-languages
 prop-data:return_to_individual.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Retournez à la page index des enregistrements"@fr-CA ;
+        rdfs:label       "Retournez à la page index des enregistrements "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "return_to_individual" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2169,7 +2169,7 @@ prop-data:site_config.Vitro-languages
 prop-data:undo_camelcasing.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Retirer la casse chameau"@fr-CA ;
+        rdfs:label       "Retirer la casse chameau "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "undo_camelcasing" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2531,7 +2531,7 @@ prop-data:internal_class_i_capped.Vitro-languages
 prop-data:decimal_only.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Entrée invalide. Un point décimal est autorisé, mais les séparateurs de milliers ne le sont pas."@fr-CA ;
+        rdfs:label       "Entrée invalide.  Un point décimal est autorisé, mais les séparateurs de milliers ne le sont pas."@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2619,7 +2619,7 @@ prop-data:new_account_1.Vitro-languages
 prop-data:imageUpload.errorUnrecognizedFileType.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "''{0}'' n'est pas un format d'image reconnu. Veuillez choisir une image au format JPEG, GIF ou PNG."@fr-CA ;
+        rdfs:label       "''{0}''  n'est pas un format d'image reconnu. Veuillez choisir une image au format JPEG, GIF ou PNG."@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "imageUpload.errorUnrecognizedFileType" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2755,7 +2755,7 @@ prop-data:profile_editors.Vitro-languages
 prop-data:implement_capitalized.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Créer"@fr-CA ;
+        rdfs:label       "Créer "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "implement_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2836,7 +2836,7 @@ prop-data:edit_date_time_value.Vitro-languages
 prop-data:limited_to_type.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "limité aux types"@fr-CA ;
+        rdfs:label       "limité aux types "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "limited_to_type" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3447,7 +3447,7 @@ prop-data:please_create.Vitro-languages
 prop-data:verbose_status_off.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "inactif"@fr-CA ;
+        rdfs:label       "inactif "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "verbose_status_off" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3513,7 +3513,7 @@ prop-data:logged_in_but_no_profile.Vitro-languages
 prop-data:page_text.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "texte de la page"@fr-CA ;
+        rdfs:label       "texte de la page "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_text" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3551,7 +3551,7 @@ prop-data:not.Vitro-languages
 prop-data:range_data_type.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Étendue du type de données"@fr-CA ;
+        rdfs:label       "Étendue du type de données "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "range_data_type" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3796,7 +3796,7 @@ prop-data:unrecognized_user.Vitro-languages
 prop-data:password_change_invalid_key.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Le lien que vous avez utilisé pour {0} n'est pas valide. Veuillez demander à l'administrateur du site de renvoyer le lien."@fr-CA ;
+        rdfs:label       "Le lien que vous avez utilisé pour {0} n'est pas valide. Veuillez demander à l'administrateur du site de renvoyer le lien. "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "password_change_invalid_key" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3804,7 +3804,7 @@ prop-data:password_change_invalid_key.Vitro-languages
 prop-data:change_text_for.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Changement du texte pour:"@fr-CA ;
+        rdfs:label       "Changement du texte pour: "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "change_text_for" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3844,7 +3844,7 @@ prop-data:filter_by_roles.Vitro-languages
 prop-data:page_uri_missing_msg.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Il n'a pas été possible de générer une page parce qu'il n'était pas clair quelle page était demandée. Il se peut qu'il manque un mappage d'URL."@fr-CA ;
+        rdfs:label       "Il n'a pas été possible de générer une page parce qu'il n'était pas clair quelle page était demandée.  Il se peut qu'il manque un mappage d'URL."@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_uri_missing_msg" ;
         prop:hasPackage  "Vitro-languages" .
@@ -4106,7 +4106,7 @@ prop-data:file_must_be_entered_msg.Vitro-languages
 prop-data:entity_to_query_for.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Cet identifiant est celui de l'élément sur lequel porte la requête. \"netid\" fonctionne également"@fr-CA ;
+        rdfs:label       "Cet identifiant est celui de l'élément sur lequel porte la requête. \"netid\" fonctionne également "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "entity_to_query_for" ;
         prop:hasPackage  "Vitro-languages" .
@@ -4162,7 +4162,7 @@ prop-data:select_all.Vitro-languages
 prop-data:local_name.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Nom local"@fr-CA ;
+        rdfs:label       "Nom local "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "local_name" ;
         prop:hasPackage  "Vitro-languages" .
@@ -4257,7 +4257,7 @@ prop-data:editing_prohibited.Vitro-languages
 prop-data:verbose_status_on.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "actif"@fr-CA ;
+        rdfs:label       "actif "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "verbose_status_on" ;
         prop:hasPackage  "Vitro-languages" .
@@ -4650,7 +4650,7 @@ prop-data:click_to_view_account.Vitro-languages
 prop-data:add_new_entry_for.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Ajouter un enregistrement pour:"@fr-CA ;
+        rdfs:label       "Ajouter un enregistrement pour: "@fr-CA ;
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_new_entry_for" ;
@@ -4667,7 +4667,7 @@ prop-data:menu_ordering.Vitro-languages
 prop-data:map_processor_error.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Une erreur s'est produite et la carte des processeurs pour ce contenu est manquante. Veuillez contacter l'administrateur."@fr-CA ;
+        rdfs:label       "Une erreur s'est produite et la carte des processeurs pour ce contenu est manquante. Veuillez contacter l'administrateur. "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "map_processor_error" ;
         prop:hasPackage  "Vitro-languages" .
@@ -5156,7 +5156,7 @@ prop-data:log_out.Vitro-languages
 prop-data:select_vclass_uri.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "VClass sélectionné"@fr-CA ;
+        rdfs:label       "VClass sélectionné "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "select_vclass_uri" ;
         prop:hasPackage  "Vitro-languages" .
@@ -5259,7 +5259,7 @@ prop-data:who_can_edit_profile.Vitro-languages
 prop-data:add_an_entry_to.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Ajouter un enregistrement de type"@fr-CA ;
+        rdfs:label       "Ajouter un enregistrement de type "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_an_entry_to" ;
         prop:hasPackage  "Vitro-languages" .
@@ -5371,7 +5371,7 @@ prop-data:file_upload_error_no_action.Vitro-languages
 prop-data:change_entry_for.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Modifier l'enregistrement pour:"@fr-CA ;
+        rdfs:label       "Modifier l'enregistrement pour: "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "change_entry_for" ;
         prop:hasPackage  "Vitro-languages" .
@@ -5452,7 +5452,7 @@ prop-data:code_processing_error.Vitro-languages
 prop-data:base_property_capitalized.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Propriété Base"@fr-CA ;
+        rdfs:label       "Propriété Base "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "base_property_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
@@ -5600,7 +5600,7 @@ prop-data:auth_id_explanation.Vitro-languages
 prop-data:support.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Aide"@fr-CA ;
+        rdfs:label       "Aide "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "support" ;
         prop:hasPackage  "Vitro-languages" .
@@ -5859,7 +5859,7 @@ prop-data:levels.Vitro-languages
 prop-data:range_class.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Étendue de la classe"@fr-CA ;
+        rdfs:label       "Étendue de la classe "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "range_class" ;
         prop:hasPackage  "Vitro-languages" .
@@ -6062,7 +6062,7 @@ prop-data:reset_search_index.Vitro-languages
 prop-data:please_provide_contact_information.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Veuillez inscrire une adresse courriel pour compléter la création de votre compte."@fr-CA ;
+        rdfs:label       "Veuillez inscrire une adresse courriel pour compléter la création de votre compte. "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "please_provide_contact_information" ;
         prop:hasPackage  "Vitro-languages" .
@@ -6118,7 +6118,7 @@ prop-data:all_classes.Vitro-languages
 prop-data:viewing_page.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Page d'aperçu probable"@fr-CA ;
+        rdfs:label       "Page d'aperçu probable "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "viewing_page" ;
         prop:hasPackage  "Vitro-languages" .
@@ -6238,7 +6238,7 @@ prop-data:first_time_login.Vitro-languages
 prop-data:faux_property_by_base.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "propriétés Faux par propriété Base"@fr-CA ;
+        rdfs:label       "propriétés Faux par propriété Base "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "faux_property_by_base" ;
         prop:hasPackage  "Vitro-languages" .

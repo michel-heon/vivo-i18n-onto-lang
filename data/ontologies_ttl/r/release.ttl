@@ -68,8 +68,8 @@ prop-data:release.VIVO-languages.wilma
 prop-data:release.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "выпуск "@ru-RU ;
         rdfs:label       "izdanje"@sr-Latn-RS ;
-        rdfs:label       "выпуск"@ru-RU ;
         rdfs:label       "liberar"@es ;
         rdfs:label       "liberação"@pt-BR ;
         rdfs:label       "release"@en-CA ;

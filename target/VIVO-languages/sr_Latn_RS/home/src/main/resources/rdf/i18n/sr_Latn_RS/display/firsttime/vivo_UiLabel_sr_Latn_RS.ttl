@@ -774,7 +774,7 @@ prop-data:harvest_error_instructions_fourA.VIVO-languages
 prop-data:advisor_label.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "labela savetnika"@sr-Latn-RS ;
+        rdfs:label       "labela savetnika\t"@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "advisor_label" ;
         prop:hasPackage  "VIVO-languages" .
@@ -1796,7 +1796,7 @@ prop-data:reordering_editors_failed.VIVO-languages
 prop-data:none_of_the.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Ni jedan"@sr-Latn-RS ;
+        rdfs:label       "Ni jedan "@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "none_of_the" ;
         prop:hasPackage  "VIVO-languages" .
@@ -3435,7 +3435,7 @@ prop-data:presented_at.VIVO-languages
 prop-data:co_investigator.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "koautiri"@sr-Latn-RS ;
+        rdfs:label       "koautiri "@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigator" ;
         prop:hasPackage  "VIVO-languages" .
@@ -6009,7 +6009,7 @@ prop-data:faculty_capitalized.VIVO-languages
 prop-data:co_investigator_icon.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "ikonica koautora"@sr-Latn-RS ;
+        rdfs:label       "ikonica koautora "@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigator_icon" ;
         prop:hasPackage  "VIVO-languages" .
@@ -6092,7 +6092,7 @@ prop-data:create_and_link_finished.VIVO-languages
 prop-data:active_grants_for.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Aktivni grantovi za"@sr-Latn-RS ;
+        rdfs:label       "Aktivni grantovi za "@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "active_grants_for" ;
         prop:hasPackage  "VIVO-languages" .

@@ -26,8 +26,8 @@ prop-data:vitro_description.Vitro.vitro
 prop-data:vitro_description.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Vitro - это универсальный веб-редактор онтологий и экземпляров с настраиваемым общедоступным доступом. Также Vitro - это веб-приложение Java, работающее в контейнере сервлетов Tomcat."@ru-RU ;
         rdfs:label       "Vitro est un éditeur d'ontologies et d'instances web à usage général avec une navigation publique personnalisable. Vitro est une application web Java qui s'exécute dans un conteneur de servlet Tomcat."@fr-CA ;
+        rdfs:label       "Vitro - это универсальный веб-редактор онтологий и экземпляров с настраиваемым общедоступным доступом. Также Vitro - это веб-приложение Java, работающее в контейнере сервлетов Tomcat. "@ru-RU ;
         rdfs:label       "Vitro ist ein universeller Web-basierter Ontologie- und Instanzeditor mit einer anpassbaren öffentlichen Oberfläche. Vitro ist eine Java-Web-Anwendung, die in einem Tomcat-Servlet-Container ausgeführt wird."@de-DE ;
         rdfs:label       "Vitro é uma ontologia e exemplo de editor baseado na web para uso geral para uma navegação público e personalizável. Vitro é uma aplicação Java Web que roda em um contêiner servlet Tomcat."@pt-BR ;
         rdfs:label       "Vitro je veb editor opšte namene za rad sa ontologijama koji omogućava javnu pretragu istih. Vitro je Java veb aplikacija koja se pokreće unutar Tomcat servlet kontejnera."@sr-Latn-RS ;

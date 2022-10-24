@@ -20,7 +20,7 @@ prop-data:refreshing_data_message.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-CA ;
         rdfs:label       "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US ;
-        rdfs:label       "сейчас обновляется. Визуализация загрузится, как только мы закончим вычисления, или вы можете искать или просматривать другие данные в VIVO и вернуться через несколько минут."@ru-RU ;
+        rdfs:label       "сейчас обновляется. Визуализация загрузится, как только мы закончим вычисления, или вы можете искать или просматривать другие данные в VIVO и вернуться через несколько минут. "@ru-RU ;
         rdfs:label       "ahora está siendo actualizado. La visualización se cargará tan pronto como hayamos terminado de calcular, o puede buscar o navegar por otros datos en VIVO y regresar en unos minutos."@es ;
         rdfs:label       "werden aktualisiert. Die Visualisierung wird geladen, sobald die Berechnung abgeschlossen ist - Sie können VIVO durchstöbern oder nach anderen Daten suchen und in wenigen Minuten zurückkehren."@de-DE ;
         rdfs:label       "se trenutno osvežavaju. Vizualizacije će biti prikazana čim se završi proračunavanje, možete da pretražujete ostale podatke unutar VIVO-a, i da se vratite na ovu stranicu za nekoliko minuta."@sr-Latn-RS ;

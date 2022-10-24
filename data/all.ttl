@@ -297,10 +297,10 @@ prop-data:updated_account_1.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "The account for"@en-CA ;
         rdfs:label       "The account for"@en-US ;
-        rdfs:label       "Учётная запись"@ru-RU ;
         rdfs:label       "Le compte de"@fr-CA ;
         rdfs:label       "Nalog za"@sr-Latn-RS ;
         rdfs:label       "Das Konto für"@de-DE ;
+        rdfs:label       "Учётная запись "@ru-RU ;
         rdfs:label       "A conta para"@pt-BR ;
         rdfs:label       "La cuenta para el"@es ;
         prop:hasApp      "Vitro" ;
@@ -1066,7 +1066,7 @@ prop-data:range_class.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Rango de clase"@es ;
-        rdfs:label       "Étendue de la classe"@fr-CA ;
+        rdfs:label       "Étendue de la classe "@fr-CA ;
         rdfs:label       "Класс диапазона"@ru-RU ;
         rdfs:label       "intervalo da Classe"@pt-BR ;
         rdfs:label       "Range Class"@de-DE ;
@@ -1116,9 +1116,9 @@ prop-data:search_accounts_button.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Искать учетные записи"@ru-RU ;
         rdfs:label       "Konten suchen"@de-DE ;
+        rdfs:label       "Pretražite naloge "@sr-Latn-RS ;
         rdfs:label       "Search accounts"@en-CA ;
         rdfs:label       "Search accounts"@en-US ;
-        rdfs:label       "Pretražite naloge"@sr-Latn-RS ;
         rdfs:label       "pesquisa"@pt-BR ;
         rdfs:label       "Buscar cuentas"@es ;
         rdfs:label       "Rechercher des comptes d'usagers"@fr-CA ;
@@ -1572,8 +1572,8 @@ prop-data:local_name.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Lokalni naziv"@sr-Latn-RS ;
+        rdfs:label       "Nom local "@fr-CA ;
         rdfs:label       "Локальное название"@ru-RU ;
-        rdfs:label       "Nom local"@fr-CA ;
         rdfs:label       "Nome Local"@pt-BR ;
         rdfs:label       "Local Name"@de-DE ;
         rdfs:label       "Nombre local"@es ;
@@ -2159,10 +2159,10 @@ prop-data:grants_text_three.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Dadurch würde eine Seite entstehen, die about.ftl als Hauptteil benutzt. Die Seite wäre zugänglich über /about und würde alle servlet mappings in web.xml außer Kraft setzen."@de-DE ;
         rdfs:label       "Ovo bi kreiralo stranicu koja bi koristila about.ftl za svoje telo. Stranici bi se pristupalo preko /about putanje i override-ovala bi sva servlet mapiranja u okviru web.xml-a."@sr-Latn-RS ;
+        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@en-CA ;
+        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA ;
         rdfs:label       "Esto crearía una página que utilice about.ftl como el cuerpo. Se accede a la página a través de /about y anularía todas las asignaciones de servlet mapeados en web.xml."@es ;
-        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-CA ;
-        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
-        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA ;
         rdfs:label       "Isso criaria uma página que usaria about.ftl como o corpo. A página seria acessada via /about e iria substituir todos os mapeamentos de servlet no web.xml."@pt-BR ;
         rdfs:label       "Таким образом, будет создана страница, использующая в качестве основы файл about.ftl. Страница будет доступна через /about и она будет переопределять все сопоставления сервлетов в web.xml."@ru-RU ;
         prop:hasApp      "VIVO" ;
@@ -2795,10 +2795,10 @@ prop-data:verify_match_capitalized.VIVO.nemo
 prop-data:limit_to.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Ограничить до "@ru-RU ;
         rdfs:label       "Limiter à"@fr-CA ;
         rdfs:label       "Limite para"@pt-BR ;
         rdfs:label       "Limitar a"@es ;
-        rdfs:label       "Ограничить до"@ru-RU ;
         rdfs:label       "Limit to"@en-CA ;
         rdfs:label       "Limit to"@en-US ;
         rdfs:label       "Beschränken auf"@de-DE ;
@@ -3627,13 +3627,13 @@ prop-data:minimum_ymd.Vitro
 prop-data:new_account_notification.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Email sa uputstvina za aktiviranje naloga i kreiranje lozinke je poslat na adresu {0}"@sr-Latn-RS ;
         rdfs:label       "Um e-mail de notificação foi enviado para {0} com instruções para ativar a conta e criar uma senha."@pt-BR ;
         rdfs:label       "An {0} wurde eine Benachrichtigungs-E-Mail mit einer Anleitung zur Konten-Aktivierung und zur Erstellung eines Passwort gesendet."@de-DE ;
         rdfs:label       "На адрес {0} было отправлено письмо с инструкциями по активации учетной записи и созданию пароля."@ru-RU ;
         rdfs:label       "A notification email has been sent to {0} with instructions for activating the account and creating a password."@en-US ;
         rdfs:label       "A notification email has been sent to {0} with instructions for activating the account and creating a password."@en-CA ;
         rdfs:label       "Un courriel de confirmation a été envoyé à {0}. Il comporte des instructions pour activer le compte et créer un mot de passe."@fr-CA ;
+        rdfs:label       "Email sa uputstvina za aktiviranje naloga i kreiranje lozinke je poslat na adresu {0} "@sr-Latn-RS ;
         rdfs:label       "Un correo electrónico de notificación ha sido enviada a {0} con las instrucciones para activar la cuenta y crear una contraseña."@es ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "new_account_notification" ;
@@ -3911,10 +3911,10 @@ prop-data:sparql_query_header.Vitro-languages
 prop-data:grants_text_three.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-CA ;
+        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@en-CA ;
         rdfs:label       "Esto crearía una página que utilice about.ftl como el cuerpo. Se accede a la página a través de /about y anularía todas las asignaciones de servlet mapeados en web.xml."@es ;
-        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
-        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA ;
+        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@fr-CA ;
         rdfs:label       "Таким образом, будет создана страница, использующая в качестве основы файл about.ftl. Страница будет доступна через /about и она будет переопределять все сопоставления сервлетов в web.xml."@ru-RU ;
         rdfs:label       "Ovo bi kreiralo stranicu koja bi koristila about.ftl za telo. Stranici bi se pristupalopreko putanje /about koja bi pregazila svo mapiranje servleta u web.xml-u."@sr-Latn-RS ;
         rdfs:label       "Dadurch würde eine Seite entstehen, die about.ftl als Hauptteil benutzt. Die Seite wäre zugänglich über /about und würde alle servlet mappings in web.xml außer Kraft setzen."@de-DE ;
@@ -4697,7 +4697,7 @@ prop-data:view_all_faculty.VIVO.tenderfoot
 prop-data:grants_text_three.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_three" ;
         prop:hasPackage  "VIVO" ;
@@ -5378,7 +5378,7 @@ prop-data:were.VIVO-languages
 prop-data:vis_tools_note_three.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
+        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
@@ -5738,13 +5738,13 @@ prop-data:active_grants_for.VIVO.nemo
 prop-data:faux_property_by_base.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "faux properties by base property"@en-CA ;
         rdfs:label       "faux properties by base property"@en-US ;
+        rdfs:label       "faux properties by base property"@en-CA ;
+        rdfs:label       "propriétés Faux par propriété Base "@fr-CA ;
         rdfs:label       "propiedades falsas por propiedad base"@es ;
         rdfs:label       "propriedades faux por propriedade base"@pt-BR ;
         rdfs:label       "Faux-Properties je Base-Property"@de-DE ;
         rdfs:label       "номинальные свойства, упорядоченные по базовому свойству"@ru-RU ;
-        rdfs:label       "propriétés Faux par propriété Base"@fr-CA ;
         rdfs:label       "faux svojstva po baznim svojstvima"@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "faux_property_by_base" ;
@@ -6501,7 +6501,7 @@ prop-data:enter_in_security_field.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Bitte geben Sie die unten angezeigten Buchstaben in das Sicherheitsfeld ein"@de-DE ;
         rdfs:label       "Veuillez saisir les caractères apparaissant ci-dessous dans le champs sécurisé prévu à cet effet"@fr-CA ;
-        rdfs:label       "Пожалуйста, введите показанные ниже буквы в поле безопасности"@ru-RU ;
+        rdfs:label       "Пожалуйста, введите показанные ниже буквы в поле безопасности "@ru-RU ;
         rdfs:label       "Por favor insira as letras que aparecerem abaixo em matéria de segurança"@pt-BR ;
         rdfs:label       "Por favor introduce las letras que se muestran a continuación en el campo de seguridad"@es ;
         rdfs:label       "Please enter the letters displayed below into the security field"@en-CA ;
@@ -6984,14 +6984,14 @@ prop-data:selected.VIVO.tenderfoot
 prop-data:vis_tools_note_four.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Модели обновляются при каждом перезапуске сервера. Поскольку на производственных экземплярах это обычно нецелесообразно, администраторы могут использовать ссылку „Обновить кэш“ выше, чтобы сделать это без перезапуска."@ru-RU ;
         rdfs:label       "Os modelos são atualizadas a cada vez que o servidor for reiniciado. Uma vez que este não é geralmente prático sobre instâncias de produção, os administradores podem passar a usar o link \"cache refresh\" acima de fazer isso sem uma reinicialização."@pt-BR ;
+        rdfs:label       "Модели обновляются при каждом перезапуске сервера.  Поскольку на производственных экземплярах это обычно нецелесообразно, администраторы могут использовать ссылку „Обновить кэш“ выше, чтобы сделать это без перезапуска."@ru-RU ;
+        rdfs:label       "Die Modelle werden bei jedem Neustart des Servers aktualisiert. Da dies auf der Produktionsinstanz  allgemein unpraktisch ist, können AdministratorInnen stattdessen den “Zwischenspeicher aktualisieren”-Link oben verwenden, um ohne einen Neustart eine Aktualisierung durchzuführen."@de-DE ;
         rdfs:label       "Les modèles sont actualisés chaque fois que le serveur redémarre. Comme ce n'est généralement pas pratique sur les instances de production, les administrateurs peuvent utiliser le lien \"rafraîchir le cache\" ci-dessus pour le faire sans redémarrer."@fr-CA ;
-        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-CA ;
-        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
         rdfs:label       "Modeli se ponovo učitavaju svaki put kad se server restartuje. Sa obzirom da ovo nije praktično u produkciji, administratori mogu da koriste \"osvežite keš\" link iznad da učitaju ponovo modele bez potrebe za restartom servera."@sr-Latn-RS ;
         rdfs:label       "Los modelos se actualizan cada vez que se reinicia el servidor. Dado que esto no es generalmente práctico sobre instancias de producción, los administradores pueden usar el enlace \"actualización de caché\" para hacer esto sin reiniciar."@es ;
-        rdfs:label       "Die Modelle werden bei jedem Neustart des Servers aktualisiert. Da dies auf der Produktionsinstanz allgemein unpraktisch ist, können AdministratorInnen stattdessen den “Zwischenspeicher aktualisieren”-Link oben verwenden, um ohne einen Neustart eine Aktualisierung durchzuführen."@de-DE ;
+        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-CA ;
+        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_four" ;
         prop:hasPackage  "VIVO-languages" .
@@ -7533,6 +7533,7 @@ prop-data:activity_name.VIVO
 prop-data:active_grants_for.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Aktivni grantovi za "@sr-Latn-RS ;
         rdfs:label       "Subventions actives pour"@fr-CA ;
         rdfs:label       "laufende Forschungsprojekte für"@de-DE ;
         rdfs:label       "Subvenciones activos para"@es ;
@@ -7540,7 +7541,6 @@ prop-data:active_grants_for.VIVO-languages
         rdfs:label       "Действующие гранты в"@ru-RU ;
         rdfs:label       "Active Grants for the"@en-CA ;
         rdfs:label       "Active Grants for the"@en-US ;
-        rdfs:label       "Aktivni grantovi za"@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "active_grants_for" ;
         prop:hasPackage  "VIVO-languages" .
@@ -7835,13 +7835,13 @@ prop-data:issue_capitalized.VIVO-languages
 prop-data:vis_tools_note_three.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "В настоящее время мы кэшируем эти модели в памяти. Кэш создается (только один раз) при первом запросе пользователя после перезапуска сервера. Из-за этого одна и та же модель будет обслуживаться до следующего перезапуска. Это означает, что данные в этих моделях могут устаревать в зависимости от того, когда они были созданы в последний раз. Пока это работает достаточно хорошо. В будущих релизах мы улучшим это решение, чтобы модели хранились на диске и периодически обновлялись."@ru-RU ;
         rdfs:label       "No momento, estamos cache esses modelos na memória. O cache é construído (apenas uma vez) na primeira solicitação do usuário após a reinicialização do servidor. Devido a isso, o mesmo modelo será servido até a próxima reinicialização. Isto significa que os dados nestes modelos pode tornar-se obsoleto dependendo de quando foi criado último. Isso funciona bem o suficiente para agora. Em versões futuras, vamos melhorar esta solução para que os modelos são armazenados no disco e periodicamente atualizado."@pt-BR ;
+        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-CA ;
+        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
         rdfs:label       "Trenutno ove modele keširamo u memoriji. Keš se kreira (samo jednom) prilikom prvog zahteva korisnika nakon restarta servera. Zbog ovog će se koristiti isti model sve dok se server ne restartuje, što znači da podaci u modelu možda neće biti konzistentni u zavisnosti od toga kada su kreirani. Ovo funkcioniše dovoljno dobro za sada. U narednim verzijama aplikacije ćemo unaprediti ovo rešenje tako da se modeli čuvaju na disku i periodično periodično osvežavaju."@sr-Latn-RS ;
         rdfs:label       "Zurzeit speichern wir diese Modelle im Hauptspeicherbereich zwischen. Der Zwischenspeicher wird (nur einmal) bei der ersten Benutzeranfrage nach einem Neustart des Servers aufgebaut. Daher wird bis zum nächsten Neustart das gleiche Modell bedient. Das bedeutet, dass die Daten in den Modellen veralten können, je nachdem, wann das Modell zum letzten Mal erstellt wurde. Das funktioniert fürs Erste gut. In kommenden Releases werden wir diese Lösung dahingehend verbessern, dass Modelle auf Festplatte gespeichert und regelmäßig aktualisiert werden."@de-DE ;
-        rdfs:label       "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
-        rdfs:label       "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-CA ;
-        rdfs:label       "Nous sommes en train de mettre ces modèles en mémoire cache. Le cache est construit (une seule fois) à la première demande de l'utilisateur après un redémarrage du serveur. Pour cette raison, le même modèle sera servi jusqu'au prochain redémarrage. Cela signifie que les données de ces modèles peuvent devenir périmées selon la date de leur dernière création. Cela fonctionne assez bien pour l'instant. Dans les prochaines versions, nous améliorerons cette solution afin que les modèles soient stockés sur disque et mis à jour périodiquement."@fr-CA ;
+        rdfs:label       "В настоящее время мы кэшируем эти модели в памяти.  Кэш создается (только один раз) при первом запросе пользователя после перезапуска сервера.  Из-за этого одна и та же модель будет обслуживаться до следующего перезапуска. Это означает, что данные в этих моделях могут устаревать в зависимости от того, когда они были созданы в последний раз. Пока это работает достаточно хорошо. В будущих релизах мы улучшим это решение, чтобы модели хранились на диске и периодически обновлялись."@ru-RU ;
+        rdfs:label       "Nous sommes en train de mettre ces modèles en mémoire cache. Le cache est construit (une seule fois) à la première demande de l'utilisateur après un redémarrage du serveur.  Pour cette raison, le même modèle sera servi jusqu'au prochain redémarrage. Cela signifie que les données de ces modèles peuvent devenir périmées selon la date de leur dernière création. Cela fonctionne assez bien pour l'instant. Dans les prochaines versions, nous améliorerons cette solution afin que les modèles soient stockés sur disque et mis à jour périodiquement."@fr-CA ;
         rdfs:label       "Actualmente el cache de estos modelos estan en la memoria. La caché se construye (sólo una vez) en la primera solicitud de un usuario después de un reinicio del servidor. Debido a esto, el mismo modelo sirve hasta el siguiente reinicio. Esto significa que los datos de estos modelos pueden convertirse en obsoletos dependiendo de cuando fueron creados. Esto funciona bastante bien por ahora. En futuras versiones, mejoraremos esta solución para que los modelos se almacenan en el disco y se actualizan periódicamente."@es ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
@@ -7905,7 +7905,7 @@ prop-data:drag_drop_to_reorder_menus.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Arrastrar y soltar para cambiar el orden de los elementos de menú"@es ;
-        rdfs:label       "Prevucite kako bi ste promenili redosled stavki u meniju"@sr-Latn-RS ;
+        rdfs:label       "Prevucite kako bi ste promenili redosled stavki u meniju "@sr-Latn-RS ;
         rdfs:label       "Drag and drop to reorder menu items"@en-CA ;
         rdfs:label       "Drag and drop to reorder menu items"@en-US ;
         rdfs:label       "Drag&Drop, um die Menüpunkte neu zu ordnen"@de-DE ;
@@ -8251,9 +8251,9 @@ prop-data:advisor_label.VIVO-languages
         rdfs:label       "advisor label"@en-CA ;
         rdfs:label       "метка консультанта"@ru-RU ;
         rdfs:label       "Bezeichnung der Betreuerin / des Betreuers"@de-DE ;
-        rdfs:label       "labela savetnika"@sr-Latn-RS ;
         rdfs:label       "etiqueta asesor"@es ;
         rdfs:label       "rótulo orientador"@pt-BR ;
+        rdfs:label       "labela savetnika\t"@sr-Latn-RS ;
         rdfs:label       "étiquette de conseiller"@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "advisor_label" ;
@@ -10261,9 +10261,9 @@ prop-data:orcid_step1_description.VIVO-languages
         rdfs:label       "<ul><li>VIVO redirects you to ORCID's web site.</li> <li>You log in to your ORCID account. <ul class=\"inner\"><li>If you don't have an account, you can create one.</li></ul></li> <li>You tell ORCID that VIVO may read your ORCID record.</li> <li>VIVO reads your ORCID record.</li> <li>VIVO notes that your ORCID iD is confirmed.</li></ul>"@en-CA ;
         rdfs:label       "<ul><li>VIVO redirects you to ORCID's web site.</li> <li>You log in to your ORCID account. <ul class=\"inner\"><li>If you don't have an account, you can create one.</li></ul></li> <li>You tell ORCID that VIVO may read your ORCID record.</li> <li>VIVO reads your ORCID record.</li> <li>VIVO notes that your ORCID iD is confirmed.</li></ul>"@en-US ;
         rdfs:label       "<ul><li>VIVO перенаправляет вас на веб-сайт ORCID.</li><li>Вы входите в свою учетную запись ORCID.<ul class=\"inner\"><li>Если у вас нет учетной записи, вы можете ее создать.</li></ul></li><li>Вы сообщаете ORCID, что VIVO разрешено читать информацию из вашей записи ORCID.</li> <li>VIVO считывает информацию из вашей записи ORCID.</li><li>VIVO сообщает, что Ваш ORCID iD подтверждён.</li></ul>"@ru-RU ;
-        rdfs:label       "<ul><li>VIVO leitet Sie auf die ORCID Seite um.</li> <li>Melden Sie sich mit Ihrem ORCID Account an. <ul class=\"inner\"><li>Wenn Sie noch keinen Account besitzen, können Sie einen neuen Account erstellen.</li></ul></li> <li>Bestätigen Sie ORCID, dass VIVO Ihren ORCID Eintrag lesen darf.</li> <li>VIVO liest Ihren ORCID Eintrag aus.</li> <li>Im VIVO wird Ihre ORCID iD jetzt als bestätigt angezeigt.</li></ul>"@de-DE ;
         rdfs:label       "<ul><li>VIVO redireciona você para o site do ORCID.</li> <li>Você faz login na sua conta ORCID. <ul class=\"inner\"><li>Se você não tem uma conta, pode criar uma.</li></ul></li> <li>Você diz ao ORCID que o VIVO pode ler o seu registro do ORCID.</li> <li>VIVO lê seu registro ORCID.</li> <li>VIVO nota que seu ID de ORCID está confirmado.</li></ul>"@pt-BR ;
         rdfs:label       "<ul><li>VIVO le redirigirá a la pagina web de ORCID.</li> <li>Inicie sesión con su cuenta ORCID. <ul class=\"inner\"><li>Si no tiene una cuenta de ORCID, puede crearla.</li></ul></li> <li>Autorizar a ORCID que VIVO puede leer su registro ORCID.</li> <li>VIVO lee su registro ORCID.</li> <li>VIVO nota que su ORCID iD está confirmado.</li></ul>"@es ;
+        rdfs:label       "<ul><li>VIVO leitet Sie auf die  ORCID Seite um.</li> <li>Melden Sie sich mit Ihrem ORCID Account an. <ul class=\"inner\"><li>Wenn Sie noch keinen Account besitzen, können Sie einen neuen Account erstellen.</li></ul></li> <li>Bestätigen Sie ORCID, dass VIVO Ihren ORCID Eintrag lesen darf.</li> <li>VIVO liest Ihren ORCID Eintrag aus.</li> <li>Im VIVO wird Ihre ORCID iD jetzt als bestätigt angezeigt.</li></ul>"@de-DE ;
         rdfs:label       "<ul><li>VIVO Vas preusmerava na ORCID-ov veb sajt.</li> <li>Ulogujete se na Vaš ORCID nalog. <ul class=\"inner\"><li>Ako nemate nalog, možete ga kreirati.</li></ul></li> <li>Napomenite ORCID-u da će VIVO možda čitati vaš ORCID sadržaj.</li> <li>VIVO pristupa vašem ORCID zapisu.</li> <li>VIVO beleži da je Vaš ORCID iD proveren i potvrđen.</li></ul>"@sr-Latn-RS ;
         rdfs:label       "<ul><li>VIVO vous redirige vers le site d'ORCID.</li> <li>Connectez-vous à votre compte ORCID. <ul class=\"inner\"><li>Si vous n'avez pas encore d'identifiant ORCID, vous pouvez en créer un.</li></ul></li> <li>Vous permettez à VIVO de lire votre dossier ORCID (une seule fois)</li> <li>VIVO lit votre dossier ORCID.</li> <li>VIVO enregistre que votre identifiant ORCID iD est confirmé.</li></ul>"@fr-CA ;
         prop:hasApp      "VIVO" ;
@@ -10808,7 +10808,7 @@ prop-data:selected_publisher.VIVO.nemo
 prop-data:grants_two.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
+        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_two" ;
         prop:hasPackage  "VIVO" ;
@@ -11965,12 +11965,12 @@ prop-data:harvest_complete.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Harvesting abgeschlossen. Zum Wiederholen bitte die Seite aktualisieren."@de-DE ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-CA ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         rdfs:label       "Prikupljanje završeno. Za još jedno, molimo Vas da ponovo učitate stranicu."@sr-Latn-RS ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-CA ;
         rdfs:label       "Cosecha completa. Para realizar otra, por favor, actualice la página."@es ;
         rdfs:label       "Moissonnage complété. Pour un nouveau jeu de métadonnées, veuillez recharger la page."@fr-CA ;
-        rdfs:label       "Сбор данных завершен. Для повтора, пожалуйста, обновите страницу."@ru-RU ;
+        rdfs:label       "Сбор данных завершен.  Для повтора, пожалуйста, обновите страницу."@ru-RU ;
         rdfs:label       "Dados recebidos. Por outro lado, por favor, atualize a página."@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
@@ -12045,7 +12045,7 @@ prop-data:or.VIVO-languages.wilma
 prop-data:theses_capitalized.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Theses"@en-US ;
+        rdfs:label       "Theses "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "theses_capitalized" ;
         prop:hasPackage  "VIVO" ;
@@ -12125,7 +12125,7 @@ prop-data:submit_save.Vitro
 prop-data:select_vclass_uri.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "VClass sélectionné"@fr-CA ;
+        rdfs:label       "VClass sélectionné "@fr-CA ;
         rdfs:label       "VClass auswählen"@de-DE ;
         rdfs:label       "Seleccione VClass"@es ;
         rdfs:label       "Select VClass"@en-CA ;
@@ -12964,10 +12964,10 @@ prop-data:identity_title.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "VIVO | Connecter, partager, découvrir"@fr-CA ;
+        rdfs:label       "VIVO | povežite se  delite  otkrijte"@sr-Latn-RS ;
         rdfs:label       "VIVO | connect share discover"@en-CA ;
         rdfs:label       "VIVO | connect share discover"@en-US ;
         rdfs:label       "VIVO | conectar compartir descubrir"@es ;
-        rdfs:label       "VIVO | povežite se delite otkrijte"@sr-Latn-RS ;
         rdfs:label       "VIVO | conectar compartilhar descobrir"@pt-BR ;
         rdfs:label       "VIVO | связывайтесь, делитесь, ищите"@ru-RU ;
         rdfs:label       "VIVO | verbinden teilen entdecken"@de-DE ;
@@ -13578,13 +13578,13 @@ prop-data:return_to_the.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Vratite se na"@sr-Latn-RS ;
-        rdfs:label       "Вернуться на"@ru-RU ;
         rdfs:label       "Retornar para a"@pt-BR ;
         rdfs:label       "Return to the"@en-CA ;
         rdfs:label       "Return to the"@en-US ;
         rdfs:label       "Zurück zu"@de-DE ;
         rdfs:label       "Revenir à la"@fr-CA ;
         rdfs:label       "Vuelva a la"@es ;
+        rdfs:label       "Вернуться на "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "return_to_the" ;
         prop:hasPackage  "Vitro-languages" .
@@ -15994,7 +15994,7 @@ prop-data:account_management.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Gestion des comptes d'usagers"@fr-CA ;
-        rdfs:label       "Upravljanje nalozima"@sr-Latn-RS ;
+        rdfs:label       "Upravljanje nalozima "@sr-Latn-RS ;
         rdfs:label       "Gerenciamento de Conta"@pt-BR ;
         rdfs:label       "Account Management"@en-CA ;
         rdfs:label       "Account Management"@en-US ;
@@ -17264,8 +17264,8 @@ prop-data:viewing_page.Vitro-languages
         rdfs:label       "Wahrscheinlich betrachtete Seite"@de-DE ;
         rdfs:label       "Likely viewing page"@en-CA ;
         rdfs:label       "Likely viewing page"@en-US ;
+        rdfs:label       "Page d'aperçu probable "@fr-CA ;
         rdfs:label       "Вероятная просматриваемая страница"@ru-RU ;
-        rdfs:label       "Page d'aperçu probable"@fr-CA ;
         rdfs:label       "página de visualização Likely"@pt-BR ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "viewing_page" ;
@@ -17756,8 +17756,8 @@ prop-data:please_provide_contact_information.Vitro-languages
         rdfs:label       "Please provide your contact information to finish creating your account."@en-US ;
         rdfs:label       "Por favor proporcione su información de contacto para terminar de crear la cuenta."@es ;
         rdfs:label       "Molimo Vas unesite kontakt informacije kako bi ste završili kreiranje naloga."@sr-Latn-RS ;
-        rdfs:label       "Veuillez inscrire une adresse courriel pour compléter la création de votre compte."@fr-CA ;
         rdfs:label       "Por favor, forneça suas informações de contato para terminar de criar a sua conta."@pt-BR ;
+        rdfs:label       "Veuillez inscrire une adresse courriel pour compléter la création de votre compte. "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "please_provide_contact_information" ;
         prop:hasPackage  "Vitro-languages" .
@@ -17923,9 +17923,9 @@ prop-data:data.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "podatak"@sr-Latn-RS ;
+        rdfs:label       "данные "@ru-RU ;
         rdfs:label       "data"@en-CA ;
         rdfs:label       "data"@en-US ;
-        rdfs:label       "данные"@ru-RU ;
         rdfs:label       "datos"@es ;
         rdfs:label       "Daten"@de-DE ;
         rdfs:label       "dado"@pt-BR ;
@@ -17963,7 +17963,7 @@ prop-data:verbose_status_on.Vitro-languages
         rdfs:label       "on"@en-US ;
         rdfs:label       "uključen"@sr-Latn-RS ;
         rdfs:label       "encendido"@es ;
-        rdfs:label       "actif"@fr-CA ;
+        rdfs:label       "actif "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "verbose_status_on" ;
         prop:hasPackage  "Vitro-languages" .
@@ -18542,10 +18542,10 @@ prop-data:june.VIVO  rdf:type  owl:NamedIndividual ;
 prop-data:co_investigator.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "koautiri "@sr-Latn-RS ;
         rdfs:label       "со-исследователь"@ru-RU ;
         rdfs:label       "co-investigador"@pt-BR ;
         rdfs:label       "cochercheur(-euse)"@fr-CA ;
-        rdfs:label       "koautiri"@sr-Latn-RS ;
         rdfs:label       "co-investigator"@en-CA ;
         rdfs:label       "co-investigator"@en-US ;
         rdfs:label       "KoforscherIn"@de-DE ;
@@ -18646,14 +18646,14 @@ prop-data:file_upload_no_allowed_media.Vitro
 prop-data:verbose_status_off.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "off"@en-CA ;
         rdfs:label       "off"@en-US ;
+        rdfs:label       "off"@en-CA ;
         rdfs:label       "desligado"@pt-BR ;
         rdfs:label       "isključen"@sr-Latn-RS ;
+        rdfs:label       "inactif "@fr-CA ;
         rdfs:label       "aus"@de-DE ;
         rdfs:label       "apagado"@es ;
         rdfs:label       "отключено"@ru-RU ;
-        rdfs:label       "inactif"@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "verbose_status_off" ;
         prop:hasPackage  "Vitro-languages" .
@@ -18928,11 +18928,11 @@ prop-data:menu_powered.VIVO.tenderfoot
 prop-data:grants_two.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker.  Примером может быть страница „О системе“."@ru-RU ;
         rdfs:label       "Esta técnica podría usarse para definir las páginas sin elementos de menú, que obtienen su contenido a partir de una plantilla FreeMarker. Un ejemplo sería la página acerca de."@es ;
-        rdfs:label       "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker. Примером может быть страница „О системе“."@ru-RU ;
-        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-CA ;
-        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
-        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA ;
+        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@en-CA ;
+        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@en-US ;
+        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@fr-CA ;
         rdfs:label       "Diese Technik könnte dazu benutzt werden, Seiten ohne Menüpunkte mit Inhalten aus einem Freemarker-Template zu definieren. Ein Beispiel hierfür wäre die Impressum-Seite."@de-DE ;
         rdfs:label       "Ova tehnika se može koristiti za definisanje stranica bez menija, koje dobavljaju svoj sadržaj iz freemarker template-a. Primer bi bio about stranica."@sr-Latn-RS ;
         rdfs:label       "Esta técnica pode ser usada para definir páginas sem itens do menu, que obtenha seu conteúdo a partir de um template freemarker. Um exemplo seria a página sobre."@pt-BR ;
@@ -21971,8 +21971,8 @@ prop-data:cap_map_text2.VIVO-languages
         rdfs:label       "Tip: you can expand a broad search term into smaller concepts by clicking &lsquo;search and expand&rsquo;."@en-US ;
         rdfs:label       "Sugerencia: puede expandir un término de búsqueda amplio en conceptos más pequeños haciendo clic en & lsquo; buscar y expandir & rsquo ;."@es ;
         rdfs:label       "Tipp: Sie können einen groben Suchbegriff durch Klicken auf &lsquo;suchen und erweitern&rsquo; in speziellere Begriffe erweitern."@de-DE ;
-        rdfs:label       "Совет: вы можете конкретизировать широкий поисковый термин через более узкие понятия, нажав ‘найти и раскрыть’."@ru-RU ;
-        rdfs:label       "Conseil: pour étendre la recherche à d'autres concepts reliés cliquewr sur &lsquo;Étendre&rsquo;."@fr-CA ;
+        rdfs:label       "Совет: вы можете конкретизировать широкий поисковый термин через более узкие понятия, нажав ‘найти и раскрыть’. "@ru-RU ;
+        rdfs:label       "Conseil: pour étendre la recherche à d'autres concepts reliés cliquewr sur  &lsquo;Étendre&rsquo;."@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cap_map_text2" ;
         prop:hasPackage  "VIVO-languages" .
@@ -23362,11 +23362,11 @@ prop-data:you_can.Vitro-languages
         rdfs:label       "Вы можете"@ru-RU ;
         rdfs:label       "You can"@en-CA ;
         rdfs:label       "You can"@en-US ;
+        rdfs:label       "Možete "@sr-Latn-RS ;
         rdfs:label       "Usted puede"@es ;
         rdfs:label       "Sie können"@de-DE ;
         rdfs:label       "Você pode"@pt-BR ;
         rdfs:label       "Vous pouvez"@fr-CA ;
-        rdfs:label       "Možete"@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "you_can" ;
         prop:hasPackage  "Vitro-languages" .
@@ -23633,11 +23633,11 @@ prop-data:none_of_the.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "None of the"@en-CA ;
         rdfs:label       "None of the"@en-US ;
+        rdfs:label       "Ni jedan "@sr-Latn-RS ;
         rdfs:label       "Keine der"@de-DE ;
         rdfs:label       "Ни одна из"@ru-RU ;
         rdfs:label       "None do"@pt-BR ;
         rdfs:label       "Aucune des"@fr-CA ;
-        rdfs:label       "Ni jedan"@sr-Latn-RS ;
         rdfs:label       "Ninguno de los"@es ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "none_of_the" ;
@@ -26545,7 +26545,7 @@ prop-data:credentials.VIVO-languages
 prop-data:grants_text_one.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_one" ;
         prop:hasPackage  "VIVO" ;
@@ -26709,12 +26709,12 @@ prop-data:fatal_error.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Erreur fatale"@fr-CA ;
         rdfs:label       "Error Fatal"@es ;
+        rdfs:label       "Fatalna greška "@sr-Latn-RS ;
         rdfs:label       "Erro Fatal"@pt-BR ;
         rdfs:label       "Фатальная ошибка"@ru-RU ;
         rdfs:label       "Fatal Error"@de-DE ;
         rdfs:label       "Fatal Error"@en-CA ;
         rdfs:label       "Fatal Error"@en-US ;
-        rdfs:label       "Fatalna greška"@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "fatal_error" ;
         prop:hasPackage  "Vitro-languages" .
@@ -27089,7 +27089,7 @@ prop-data:loading_data_for.VIVO-languages
         rdfs:label       "Daten werden geladen für"@de-DE ;
         rdfs:label       "Carregamento de dados para"@pt-BR ;
         rdfs:label       "Učitavanje podataka za"@sr-Latn-RS ;
-        rdfs:label       "Загрузка данных для"@ru-RU ;
+        rdfs:label       "Загрузка данных для "@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "loading_data_for" ;
         prop:hasPackage  "VIVO-languages" .
@@ -27381,7 +27381,7 @@ prop-data:variable_name_all_caps.Vitro
 prop-data:harvest_complete.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
         prop:hasPackage  "VIVO" ;
@@ -27518,7 +27518,7 @@ prop-data:range_data_type.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Tipo de dados de intervalo"@pt-BR ;
         rdfs:label       "Tip podataka za raspon"@sr-Latn-RS ;
-        rdfs:label       "Étendue du type de données"@fr-CA ;
+        rdfs:label       "Étendue du type de données "@fr-CA ;
         rdfs:label       "Тип данных Диапазон"@ru-RU ;
         rdfs:label       "Range Data Type"@en-CA ;
         rdfs:label       "Range Data Type"@en-US ;
@@ -27652,7 +27652,7 @@ prop-data:country.VIVO-languages.tenderfoot
 prop-data:confirm_individual_deletion.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Are you sure you want to delete the following individual?"@en-US ;
+        rdfs:label       "Are you sure you want to delete the following individual? "@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/confirmDeleteIndividualForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_individual_deletion" ;
@@ -27848,7 +27848,7 @@ prop-data:error_processing_editor_request.VIVO-languages
 prop-data:fill_in_template_with_data.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
+        rdfs:label       "Fill in the template with your data.  You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "fill_in_template_with_data" ;
         prop:hasPackage  "VIVO" ;
@@ -28569,10 +28569,10 @@ prop-data:create_and_link_type_speech.VIVO-languages
 prop-data:send_mail.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Отправить письмо"@ru-RU ;
         rdfs:label       "Enviar correo"@es ;
         rdfs:label       "Envoyer le courriel"@fr-CA ;
         rdfs:label       "Enviar e-mail"@pt-BR ;
+        rdfs:label       "Отправить письмо "@ru-RU ;
         rdfs:label       "Pošaljite email"@sr-Latn-RS ;
         rdfs:label       "Mail senden"@de-DE ;
         rdfs:label       "Send Mail"@en-CA ;
@@ -29071,7 +29071,7 @@ prop-data:entity_comp_error_text1.VIVO
 prop-data:fill_in_template_with_data.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
+        rdfs:label       "Fill in the template with your data.  You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "fill_in_template_with_data" ;
@@ -29109,7 +29109,7 @@ prop-data:error_alert_icon.Vitro-languages
         rdfs:label       "icono alerta de error"@es ;
         rdfs:label       "Значок оповещения об ошибке"@ru-RU ;
         rdfs:label       "Icône d'alerte d'erreur"@fr-CA ;
-        rdfs:label       "Warnsymbol Fehler"@de-DE ;
+        rdfs:label       "Warnsymbol Fehler "@de-DE ;
         rdfs:label       "Erro ícone de alerta"@pt-BR ;
         rdfs:label       "Error alert icon"@en-CA ;
         prop:hasApp      "Vitro" ;
@@ -30092,13 +30092,13 @@ prop-data:region.VIVO.nemo
 prop-data:map_processor_error.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-US ;
+        rdfs:label       "Une erreur s'est produite et la carte des processeurs pour ce contenu est manquante. Veuillez contacter l'administrateur. "@fr-CA ;
         rdfs:label       "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-CA ;
+        rdfs:label       "An error has occurred and the map of processors for this content is missing. Please contact the administrator"@en-US ;
         rdfs:label       "Ein Fehler ist aufgetreten und die Map von Prozessoren für diesen Inhalt fehlt. Bitte kontaktieren Sie den Administrator"@de-DE ;
         rdfs:label       "Ha ocurrido un error y el mapa de los procesadores con este tipo de contenido está ausente. Por favor, póngase en contacto con el administrador"@es ;
         rdfs:label       "Произошла ошибка, и карта процессоров для этого контента отсутствует. Пожалуйста, свяжитесь с администратором"@ru-RU ;
         rdfs:label       "Ocorreu um erro e o mapa de processadores para este conteúdo está faltando. Entre em contato com o administrador"@pt-BR ;
-        rdfs:label       "Une erreur s'est produite et la carte des processeurs pour ce contenu est manquante. Veuillez contacter l'administrateur."@fr-CA ;
         rdfs:label       "Došlo je do greške i mapa procesora za ovaj sadržaj nije pronađena. Molimo Vas kontaktirajte administratora."@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "map_processor_error" ;
@@ -30967,9 +30967,9 @@ prop-data:scroll_to_menus.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "перейдите к меню групп свойств"@ru-RU ;
         rdfs:label       "navegar pela propriedade do grupo menus"@pt-BR ;
+        rdfs:label       "Zu Gruppenmenüs scrollen "@de-DE ;
         rdfs:label       "idite na grupu menija za svojstva"@sr-Latn-RS ;
         rdfs:label       "faites défiler jusqu'aux menus de groupe de propriétés"@fr-CA ;
-        rdfs:label       "Zu Gruppenmenüs scrollen"@de-DE ;
         rdfs:label       "scroll to property group menus"@en-CA ;
         rdfs:label       "scroll to property group menus"@en-US ;
         rdfs:label       "desplazarse al menú grupo de propiedades"@es ;
@@ -31066,9 +31066,9 @@ prop-data:cap_map_text_intro.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Bem-vindo à ferramenta Mapeamento de Capacidade. Esta ferramenta visualiza como os pesquisadores se relacionam com outros pesquisadores através de termos de pesquisa."@pt-BR ;
         rdfs:label       "Dobrodošli u alat za mapiranje sposobnosti. Ovaj alat se koristi za vizualizaciju odnosa između različitih istraživača korišćenjem specifičnih izraza za pretragu."@sr-Latn-RS ;
+        rdfs:label       "Добро пожаловать в инструмент „Картирование возможностей“. Это средство представления в визуальной форме связей между исследователями, обнаруживаемых при помощи поисковых запросов. "@ru-RU ;
         rdfs:label       "La cartographie d'expertises est un outil simple et efficace qui permet la recherche, l'exploration et la découverte d'experts à travers une cartographie visuelle représentant les liens entre les chercheurs et leurs domaines de recherche."@fr-CA ;
         rdfs:label       "Willkommen beim Capability-Mapping-Tool. Dieses Tool veranschaulicht die Beziehung zwischen verschiedenen Forschenden über Suchbegriffe."@de-DE ;
-        rdfs:label       "Добро пожаловать в инструмент „Картирование возможностей“. Это средство представления в визуальной форме связей между исследователями, обнаруживаемых при помощи поисковых запросов."@ru-RU ;
         rdfs:label       "Bienvenido a la herramienta de Mapeo de capacidades. Esta herramienta visualiza cómo los investigadores se relacionan con otros investigadores a través de términos de búsqueda."@es ;
         rdfs:label       "Welcome to the Capability Mapping tool. This tool visualises how researchers relate to other researchers via search terms."@en-CA ;
         rdfs:label       "Welcome to the Capability Mapping tool. This tool visualises how researchers relate to other researchers via search terms."@en-US ;
@@ -31591,9 +31591,9 @@ prop-data:error_previous_password.Vitro-languages
         rdfs:label       "Your new password cannot match the current one."@en-CA ;
         rdfs:label       "Your new password cannot match the current one."@en-US ;
         rdfs:label       "Vaša nova lozinka ne sme da bude ista kao trenutna."@sr-Latn-RS ;
-        rdfs:label       "Sua nova senha não pode ser iqual a sua atual."@pt-BR ;
         rdfs:label       "Ваш новый пароль не может совпадать с текущим."@ru-RU ;
         rdfs:label       "Ihr neues Passwort darf nicht dem Aktuellen entsprechen."@de-DE ;
+        rdfs:label       "Sua nova senha não pode  ser iqual a sua atual."@pt-BR ;
         rdfs:label       "La nueva contraseña no debe ser igual a la contraseña actual."@es ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "error_previous_password" ;
@@ -31768,7 +31768,7 @@ prop-data:co_investigator.VIVO.nemo
 prop-data:decimal_only.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-US ;
+        rdfs:label       "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDataPropertyForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
@@ -33058,11 +33058,11 @@ prop-data:error_was_reported.Vitro
 prop-data:no_grants_for.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Currently there are no grants for "@en-CA ;
+        rdfs:label       "Currently there are no grants for "@en-US ;
         rdfs:label       "Trenutno nema stipendija za"@sr-Latn-RS ;
         rdfs:label       "De momento no hay subvenciones para"@es ;
         rdfs:label       "Zurzeit gibt es keine Forschungsprojekte für"@de-DE ;
-        rdfs:label       "Currently there are no grants for"@en-CA ;
-        rdfs:label       "Currently there are no grants for"@en-US ;
         rdfs:label       "В настоящее время не найдено информации о грантах у"@ru-RU ;
         rdfs:label       "Actualmente não há subsídios para"@pt-BR ;
         rdfs:label       "Actuellement aucune subvention pour"@fr-CA ;
@@ -33791,10 +33791,10 @@ prop-data:alt_error_alert.Vitro-languages
         rdfs:label       "Icône d'alerte"@fr-CA ;
         rdfs:label       "Error alert icon"@en-CA ;
         rdfs:label       "Error alert icon"@en-US ;
+        rdfs:label       "Warnsymbol Fehler "@de-DE ;
         rdfs:label       "Ícone de alerta de Erro"@pt-BR ;
         rdfs:label       "Icono de alerta de error"@es ;
         rdfs:label       "Значок оповещения об ошибке"@ru-RU ;
-        rdfs:label       "Warnsymbol Fehler"@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "alt_error_alert" ;
         prop:hasPackage  "Vitro-languages" .
@@ -34141,10 +34141,10 @@ prop-data:return_to_individual.Vitro-languages
         rdfs:label       "Вернуться к личной странице"@ru-RU ;
         rdfs:label       "Retornar para Página Individual"@pt-BR ;
         rdfs:label       "Vratite se na stranicu pojedinca"@sr-Latn-RS ;
-        rdfs:label       "Retournez à la page index des enregistrements"@fr-CA ;
         rdfs:label       "Zurück zur Seite des Datensatzes"@de-DE ;
-        rdfs:label       "Return to Individual Page"@en-US ;
+        rdfs:label       "Retournez à la page index des enregistrements "@fr-CA ;
         rdfs:label       "Return to Individual Page"@en-CA ;
+        rdfs:label       "Return to Individual Page"@en-US ;
         rdfs:label       "Volver a la página de usuarios"@es ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "return_to_individual" ;
@@ -34251,10 +34251,10 @@ prop-data:undo_camelcasing.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Deshacer el formato camelcase"@es ;
-        rdfs:label       "Retirer la casse chameau"@fr-CA ;
         rdfs:label       "Убрать ВерблюжийРегистр"@ru-RU ;
         rdfs:label       "Ukloniti CamelCase notaciju"@sr-Latn-RS ;
         rdfs:label       "CamelCase-Formatierung rückgängig machen"@de-DE ;
+        rdfs:label       "Retirer la casse chameau "@fr-CA ;
         rdfs:label       "Uncamelcasing"@en-CA ;
         rdfs:label       "Uncamelcasing"@pt-BR ;
         rdfs:label       "Uncamelcasing"@en-US ;
@@ -34265,7 +34265,7 @@ prop-data:undo_camelcasing.Vitro-languages
 prop-data:vis_tools_note_three.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
+        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
         prop:hasPackage  "VIVO" ;
@@ -34356,13 +34356,13 @@ prop-data:vcard_qr.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "QR de vCard"@fr-CA ;
+        rdfs:label       "QR-код электронной визитной карточки vCard "@ru-RU ;
         rdfs:label       "vCard-QR"@de-DE ;
         rdfs:label       "vCard QR"@en-CA ;
         rdfs:label       "vCard QR"@en-US ;
         rdfs:label       "vCard QR"@pt-BR ;
         rdfs:label       "vCard QR"@sr-Latn-RS ;
         rdfs:label       "vCard QR"@es ;
-        rdfs:label       "QR-код электронной визитной карточки vCard"@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vcard_qr" ;
         prop:hasPackage  "VIVO-languages" .
@@ -34901,8 +34901,8 @@ prop-data:country.VIVO-languages
 prop-data:please_create.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Bitte erstellen Sie "@de-DE ;
         rdfs:label       "Crie Por favor"@pt-BR ;
-        rdfs:label       "Bitte erstellen Sie"@de-DE ;
         rdfs:label       "Por favor crear"@es ;
         rdfs:label       "Veuillez créer"@fr-CA ;
         rdfs:label       "Please create"@en-CA ;
@@ -35508,8 +35508,8 @@ prop-data:limited_to_type.Vitro-languages
         rdfs:label       "limitado a tipo de registro"@es ;
         rdfs:label       "limited to type"@en-CA ;
         rdfs:label       "limited to type"@en-US ;
+        rdfs:label       "limité aux types "@fr-CA ;
         rdfs:label       "beschränkt auf den Typ"@de-DE ;
-        rdfs:label       "limité aux types"@fr-CA ;
         rdfs:label       "ograničeno na tip"@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "limited_to_type" ;
@@ -35815,7 +35815,7 @@ prop-data:entry.VIVO.nemo
 prop-data:vis_tools_note_four.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
+        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_four" ;
         prop:hasPackage  "VIVO" ;
@@ -35831,7 +35831,7 @@ prop-data:add_new_entry_for.Vitro-languages
         rdfs:label       "Dodajte novi unos za:"@sr-Latn-RS ;
         rdfs:label       "Add new entry for:"@en-CA ;
         rdfs:label       "Add new entry for:"@en-US ;
-        rdfs:label       "Ajouter un enregistrement pour:"@fr-CA ;
+        rdfs:label       "Ajouter un enregistrement pour: "@fr-CA ;
         prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_new_entry_for" ;
@@ -35845,7 +35845,7 @@ prop-data:menu_powered.VIVO-languages.tenderfoot
         rdfs:label       "Powered by"@de-DE ;
         rdfs:label       "Powered by"@en-CA ;
         rdfs:label       "Powered by"@en-US ;
-        rdfs:label       "Omogućili:"@sr-Latn-RS ;
+        rdfs:label       "Omogućili: "@sr-Latn-RS ;
         rdfs:label       "Propulsé"@fr-CA ;
         rdfs:label       "Работает под управлением"@ru-RU ;
         prop:hasApp      "VIVO" ;
@@ -35943,14 +35943,14 @@ prop-data:visualization_tools.VIVO
 prop-data:grants_two.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-CA ;
-        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
-        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@fr-CA ;
         rdfs:label       "Diese Technik könnte dazu benutzt werden, Seiten ohne Menüpunkte mit Inhalten aus einem Freemarker-Template zu definieren. Ein Beispiel hierfür wäre die Impressum-Seite."@de-DE ;
-        rdfs:label       "Ova tehnika se može koristiti za definisanje stranica bez stavki menija, koje dobijaju svoj sadržaj iz freemarker šablona. Primer ovoga je stranica \"O sajtu\" (About)."@sr-Latn-RS ;
         rdfs:label       "Esta técnica pode ser usada para definir páginas sem itens do menu, que obtenha seu conteúdo a partir de um template freemarker. Um exemplo seria a página sobre."@pt-BR ;
+        rdfs:label       "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker.  Примером может быть страница „О системе“."@ru-RU ;
+        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@en-CA ;
+        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@en-US ;
         rdfs:label       "Esta técnica podría usarse para definir las páginas sin elementos de menú, que obtienen su contenido a partir de una plantilla FreeMarker. Un ejemplo sería la página acerca de."@es ;
-        rdfs:label       "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker. Примером может быть страница „О системе“."@ru-RU ;
+        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@fr-CA ;
+        rdfs:label       "Ova tehnika se može koristiti za definisanje stranica bez stavki menija, koje dobijaju svoj sadržaj iz freemarker šablona.  Primer ovoga je stranica \"O sajtu\" (About)."@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_two" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -36386,7 +36386,7 @@ prop-data:powered_by.Vitro-languages
 prop-data:page_uri_missing_msg.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-US ;
+        rdfs:label       "Could not generate page beacause it was unclear what page was being requested.  A URL mapping may be missing."@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_uri_missing_msg" ;
         prop:hasPackage  "Vitro" .
@@ -36472,7 +36472,7 @@ prop-data:orcid_return_to_vivo.VIVO
 prop-data:no_grants_for.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Currently there are no grants for"@en-US ;
+        rdfs:label       "Currently there are no grants for "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_grants_for" ;
         prop:hasPackage  "VIVO" ;
@@ -37104,14 +37104,14 @@ prop-data:search_indexer_idle.Vitro
 prop-data:decimal_only.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Неверный ввод. Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU ;
-        rdfs:label       "Entrée invalide. Un point décimal est autorisé, mais les séparateurs de milliers ne le sont pas."@fr-CA ;
+        rdfs:label       "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-US ;
+        rdfs:label       "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-CA ;
+        rdfs:label       "Entrée invalide.  Un point décimal est autorisé, mais les séparateurs de milliers ne le sont pas."@fr-CA ;
+        rdfs:label       "Неверный ввод.  Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU ;
         rdfs:label       "Entrada invalida. Se permite un punto decimal, pero los separadores de miles no lo son."@es ;
         rdfs:label       "Ungültiger Eintrag. Dezimalpunkte sind erlaubt, aber Tausendertrennzeichen sind es nicht."@de-DE ;
-        rdfs:label       "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-CA ;
-        rdfs:label       "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-US ;
+        rdfs:label       "Neispravan unos.  Dozvoljeno je koristiti tačku da napišete decimalan broj, ali nije dozvoljeno korišćenje separatora između hiljada."@sr-Latn-RS ;
         rdfs:label       "Entrada inválida. Um ponto decimal é permitido, mas milhares de separadores não são."@pt-BR ;
-        rdfs:label       "Neispravan unos. Dozvoljeno je koristiti tačku da napišete decimalan broj, ali nije dozvoljeno korišćenje separatora između hiljada."@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
         prop:hasPackage  "Vitro-languages" .
@@ -37250,12 +37250,12 @@ prop-data:fill_in_template_with_data.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Saisir les données dans le gabarit. Vous pouvez compléter plusieurs gabarits si vous souhaitez moissonner plusieurs fichiers simultanément."@fr-CA ;
-        rdfs:label       "Заполните шаблон своими данными. Вы можете заполнить несколько шаблонов, если хотите собрать несколько файлов одновременно."@ru-RU ;
+        rdfs:label       "Fill in the template with your data.  You may fill in multiple templates if you wish to harvest multiple files at once."@en-CA ;
+        rdfs:label       "Fill in the template with your data.  You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
         rdfs:label       "Popunite šablon sa vašim podacima. Možete popuniti više šablona ako želite da prikupljate više fajlova istovremeno."@sr-Latn-RS ;
         rdfs:label       "Complete la plantilla con sus datos. Puede completar varias plantillas si desea cosechar varios archivos a la vez."@es ;
+        rdfs:label       "Заполните шаблон своими данными.  Вы можете заполнить несколько шаблонов, если хотите собрать несколько файлов одновременно."@ru-RU ;
         rdfs:label       "Tragen Sie Ihre Daten in das Template ein. Sie können mehrere Templates ausfüllen, falls Daten aus mehreren Dateien auf einmal gesammelt werden sollen."@de-DE ;
-        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-CA ;
-        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
         rdfs:label       "Preencha o modelo com seus dados. Você pode preencher vários modelos se você deseja enviar vários arquivos de uma só vez."@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "fill_in_template_with_data" ;
@@ -39155,7 +39155,7 @@ prop-data:imageUpload.errorUnrecognizedFileType.Vitro-languages
         rdfs:label       "''{0}'' не является поддерживаемым типом файла изображения. Пожалуйста, загружайте только файлы JPEG, GIF или PNG."@ru-RU ;
         rdfs:label       "'' {0} '' ist kein akzeptierter Bilddateityp. Bitte laden Sie JPEG, GIF oder PNG-Dateien hoch."@de-DE ;
         rdfs:label       "''{0}'' no es un tipo de archivo de imagen reconocida. Por favor, subir archivos JPEG, GIF o PNG solamente."@es ;
-        rdfs:label       "''{0}'' n'est pas un format d'image reconnu. Veuillez choisir une image au format JPEG, GIF ou PNG."@fr-CA ;
+        rdfs:label       "''{0}''  n'est pas un format d'image reconnu. Veuillez choisir une image au format JPEG, GIF ou PNG."@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "imageUpload.errorUnrecognizedFileType" ;
         prop:hasPackage  "Vitro-languages" .
@@ -39254,8 +39254,8 @@ prop-data:to.VIVO.tenderfoot
 prop-data:all_x_properties.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Todos  {0} das Propriedades"@pt-BR ;
         rdfs:label       "Todos los {0} propiedades"@es ;
-        rdfs:label       "Todos {0} das Propriedades"@pt-BR ;
         rdfs:label       "Alle {0} Eigenschaften"@de-DE ;
         rdfs:label       "Toutes les propriétés {0}"@fr-CA ;
         rdfs:label       "Sva {0} svojstva"@sr-Latn-RS ;
@@ -39487,10 +39487,10 @@ prop-data:page_select_permission.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Selecione as permissões de página"@pt-BR ;
         rdfs:label       "Seitenberechtigungen auswählen"@de-DE ;
-        rdfs:label       "Sélectionner les permissions d'accès aux pages"@fr-CA ;
         rdfs:label       "Odaberite dozvole za stranicu"@sr-Latn-RS ;
         rdfs:label       "Seleccione los permisos de página"@es ;
         rdfs:label       "Выберите разрешения для страницы"@ru-RU ;
+        rdfs:label       "Sélectionner les permissions d'accès aux pages "@fr-CA ;
         rdfs:label       "Select page permissions"@en-CA ;
         rdfs:label       "Select page permissions"@en-US ;
         prop:hasApp      "Vitro" ;
@@ -39524,7 +39524,7 @@ prop-data:position_type.VIVO.nemo
 prop-data:sparql_query_results.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Rezultati SPARQL upita"@sr-Latn-RS ;
+        rdfs:label       "Rezultati SPARQL upita "@sr-Latn-RS ;
         rdfs:label       "Resultados de consulta SPARQL"@es ;
         rdfs:label       "Sparql Query Results"@en-CA ;
         rdfs:label       "Sparql Query Results"@en-US ;
@@ -39581,7 +39581,7 @@ prop-data:refreshing_data_message.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-CA ;
         rdfs:label       "is now being refreshed. The visualization will load as soon as we are done computing, or you can search or browse other data in VIVO and come back in a few minutes."@en-US ;
-        rdfs:label       "сейчас обновляется. Визуализация загрузится, как только мы закончим вычисления, или вы можете искать или просматривать другие данные в VIVO и вернуться через несколько минут."@ru-RU ;
+        rdfs:label       "сейчас обновляется. Визуализация загрузится, как только мы закончим вычисления, или вы можете искать или просматривать другие данные в VIVO и вернуться через несколько минут. "@ru-RU ;
         rdfs:label       "ahora está siendo actualizado. La visualización se cargará tan pronto como hayamos terminado de calcular, o puede buscar o navegar por otros datos en VIVO y regresar en unos minutos."@es ;
         rdfs:label       "werden aktualisiert. Die Visualisierung wird geladen, sobald die Berechnung abgeschlossen ist - Sie können VIVO durchstöbern oder nach anderen Daten suchen und in wenigen Minuten zurückkehren."@de-DE ;
         rdfs:label       "se trenutno osvežavaju. Vizualizacije će biti prikazana čim se završi proračunavanje, možete da pretražujete ostale podatke unutar VIVO-a, i da se vratite na ovu stranicu za nekoliko minuta."@sr-Latn-RS ;
@@ -40102,7 +40102,7 @@ prop-data:view_all_faculty_in_area.VIVO-languages
 prop-data:vis_tools_note_four.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
+        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_four" ;
@@ -40389,7 +40389,7 @@ prop-data:identifier_factories.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Идентификационные центры"@ru-RU ;
-        rdfs:label       "facteurs d'identifiations"@fr-CA ;
+        rdfs:label       "facteurs d'identifiations "@fr-CA ;
         rdfs:label       "Factores de identificación"@es ;
         rdfs:label       "Centri za identifikatore"@sr-Latn-RS ;
         rdfs:label       "Identifier factories"@en-CA ;
@@ -40883,9 +40883,9 @@ prop-data:regions.VIVO.nemo
 prop-data:replace_photo.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Foto ersetzen"@de-DE ;
         rdfs:label       "Remplacer la Photo"@fr-CA ;
         rdfs:label       "Заменить фо"@ru-RU ;
+        rdfs:label       "Foto ersetzen "@de-DE ;
         rdfs:label       "Replace Photo"@en-CA ;
         rdfs:label       "Replace Photo"@en-US ;
         rdfs:label       "Reemplazar foto"@es ;
@@ -41415,11 +41415,11 @@ prop-data:disclaimer_text_two.VIVO-languages
         rdfs:label       "que hayan sido cargados en el sistema VIVO como"@es ;
         rdfs:label       "koji se nalaze unutar VIVO sistema od"@sr-Latn-RS ;
         rdfs:label       "que foram introduzidos no sistema a partir de VIVO"@pt-BR ;
-        rdfs:label       "которые были загружены в систему VIVO к"@ru-RU ;
         rdfs:label       "qui ont été chargés dans le système VIVO comme"@fr-CA ;
         rdfs:label       "which have been loaded into the VIVO system as of"@en-CA ;
         rdfs:label       "which have been loaded into the VIVO system as of"@en-US ;
         rdfs:label       "die ab in das VIVO-System geladen wurden."@de-DE ;
+        rdfs:label       "которые были загружены в систему VIVO к "@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "disclaimer_text_two" ;
         prop:hasPackage  "VIVO-languages" .
@@ -41758,14 +41758,14 @@ prop-data:orcid_step2_denied.VIVO-languages
 prop-data:grants_text_one.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Это содержимое взято из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl. В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
         rdfs:label       "Este cuerpo es de la plantilla en el archivo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. En el modelo de presentación, la página de becas muestra: la propiedad requiresBodyTemplate que define que la página de becas anula la plantilla predeterminada. La plantilla predeterminada de estas páginas está en /vitro/webapp/web/templates/freemarker/cuerpo/menupage/menupage.ftl"@es ;
-        rdfs:label       "Ovaj deo stranice je iz fajla sa šablonom (freemarker template) vivo/productMods/templates/freemarker/body/menupage/grants.ftl. U modelu prikazivanja, stranica za stipendije ima display:requiresBodyTemplate svojstvo koje definiše da strancie za stipendije treba da \"pregazi\" podrazumevani šablon. Podrazumevani šablon za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS ;
-        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
-        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
-        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA ;
+        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
+        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA ;
         rdfs:label       "Dieser Teil stammt aus der Template-Datei vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In der Bildschirmanzeige hat die Seite Forschungsprojekte eine display:requiresBodyTemplate Eigenschaft, die definiert, dass die Seite Forschungsprojekte das Standard-Template aufhebt. Das Standard-Template für diese Seiten findet sich auf /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@de-DE ;
+        rdfs:label       "Это содержимое взято из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
         rdfs:label       "Este corpo é do arquivo do modelo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. No modelo de exibição, a página de doações tem um display: requiresBodyTemplate propriedade que define que a página de doações substitui o modelo padrão. O modelo padrão para estas páginas é a /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@pt-BR ;
+        rdfs:label       "Ovaj deo stranice je iz fajla sa šablonom (freemarker template) vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  U modelu prikazivanja, stranica za stipendije ima display:requiresBodyTemplate svojstvo koje definiše da strancie za stipendije treba da \"pregazi\" podrazumevani šablon. Podrazumevani šablon za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_one" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -41891,10 +41891,10 @@ prop-data:province_or_region.VIVO-languages.wilma
         rdfs:label       "Province ou région"@fr-CA ;
         rdfs:label       "Область или регион"@ru-RU ;
         rdfs:label       "província ou região"@pt-BR ;
-        rdfs:label       "Bundesland oder Bezirk"@de-DE ;
         rdfs:label       "Province or Region"@en-CA ;
         rdfs:label       "Province or Region"@en-US ;
         rdfs:label       "Provincia o región"@es ;
+        rdfs:label       "Bundesland oder Bezirk "@de-DE ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "province_or_region" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -42195,8 +42195,8 @@ prop-data:add_an_entry_to.Vitro-languages
         rdfs:label       "Agregue una entrada de tipo"@es ;
         rdfs:label       "Dodajte entitet tipa"@sr-Latn-RS ;
         rdfs:label       "Добавить запись к"@ru-RU ;
-        rdfs:label       "Ajouter un enregistrement de type"@fr-CA ;
         rdfs:label       "Füge einen Eintrag hinzu vom Typ"@de-DE ;
+        rdfs:label       "Ajouter un enregistrement de type "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_an_entry_to" ;
         prop:hasPackage  "Vitro-languages" .
@@ -42263,8 +42263,8 @@ prop-data:create_entry.Vitro-languages
         rdfs:label       "Создать запись"@ru-RU ;
         rdfs:label       "Create Entry"@en-CA ;
         rdfs:label       "Create Entry"@en-US ;
-        rdfs:label       "Kreirajte unos"@sr-Latn-RS ;
         rdfs:label       "Créer une entrée"@fr-CA ;
+        rdfs:label       "Kreirajte unos "@sr-Latn-RS ;
         rdfs:label       "Criar Entrada"@pt-BR ;
         rdfs:label       "Crear entrada"@es ;
         rdfs:label       "Eintrag erstellen"@de-DE ;
@@ -42295,7 +42295,7 @@ prop-data:add_property_group.Vitro-languages
         rdfs:label       "Adicionar um novo grupo de propriedade"@pt-BR ;
         rdfs:label       "Add new property group"@en-US ;
         rdfs:label       "Add new property group"@en-CA ;
-        rdfs:label       "Dodajte novu grupu svojstava"@sr-Latn-RS ;
+        rdfs:label       "Dodajte novu grupu svojstava "@sr-Latn-RS ;
         rdfs:label       "Agregar nuevo grupo de propiedades"@es ;
         rdfs:label       "Добавить новую группу свойств"@ru-RU ;
         rdfs:label       "Ajouter un nouveau groupe de propriétés"@fr-CA ;
@@ -42494,7 +42494,7 @@ prop-data:support.Vitro-languages
         rdfs:label       "Support"@en-US ;
         rdfs:label       "Soporte"@es ;
         rdfs:label       "Поддержка"@ru-RU ;
-        rdfs:label       "Aide"@fr-CA ;
+        rdfs:label       "Aide "@fr-CA ;
         rdfs:label       "Podrška"@sr-Latn-RS ;
         rdfs:label       "Suporte"@pt-BR ;
         prop:hasApp      "Vitro" ;
@@ -43399,12 +43399,12 @@ prop-data:no_grants_for.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Zurzeit gibt es keine Forschungsprojekte für"@de-DE ;
-        rdfs:label       "В данный момент не найдено грантов у"@ru-RU ;
-        rdfs:label       "Actuellement aucune subvention pour"@fr-CA ;
+        rdfs:label       "Actuellement aucune subvention pour "@fr-CA ;
         rdfs:label       "De momento no hay subvenciones para"@es ;
-        rdfs:label       "Currently there are no grants for"@en-CA ;
-        rdfs:label       "Currently there are no grants for"@en-US ;
+        rdfs:label       "Currently there are no grants for "@en-CA ;
+        rdfs:label       "Currently there are no grants for "@en-US ;
         rdfs:label       "Trenutno nema grant-ova za"@sr-Latn-RS ;
+        rdfs:label       "В данный момент не найдено грантов у "@ru-RU ;
         rdfs:label       "Actualmente não há subsídios para"@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_grants_for" ;
@@ -44076,11 +44076,11 @@ prop-data:currently_no_constructed_models.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Il n'existe actuellement aucun modèle construit pour la visualisation."@fr-CA ;
+        rdfs:label       "В настоящее время не существует построенных моделей для использования  в визуализации."@ru-RU ;
         rdfs:label       "modelos Atualmente não há são construídos para uso através da visualização."@pt-BR ;
         rdfs:label       "Currently there are no constructed models for use by visualization."@en-US ;
         rdfs:label       "Currently there are no constructed models for use by visualization."@en-CA ;
         rdfs:label       "De momento no hay modelos construidos para el uso de la visualización."@es ;
-        rdfs:label       "В настоящее время не существует построенных моделей для использования в визуализации."@ru-RU ;
         rdfs:label       "Trenutno ne postoje konstruisani modeli za vizualizaciju."@sr-Latn-RS ;
         rdfs:label       "Bisher wurden keine Modelle erstellt, die zur Visualisierung genutzt werden können."@de-DE ;
         prop:hasApp      "VIVO" ;
@@ -44774,11 +44774,11 @@ prop-data:enter_first_name.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "SVP, inscrire le prénom de cette personne."@fr-CA ;
         rdfs:label       "Por favor, introduzca un Nombre para esta persona."@es ;
+        rdfs:label       "Пожалуйста, введите имя этого человека. "@ru-RU ;
         rdfs:label       "Molimo Vas unesite ime ove osobe."@sr-Latn-RS ;
         rdfs:label       "Please enter a First name for this person."@en-CA ;
         rdfs:label       "Please enter a First name for this person."@en-US ;
         rdfs:label       "Digite um nome para essa pessoa."@pt-BR ;
-        rdfs:label       "Пожалуйста, введите имя этого человека."@ru-RU ;
         rdfs:label       "Bitte einen Vornamen für diese Person eintragen."@de-DE ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
@@ -45014,8 +45014,8 @@ prop-data:properties.Vitro-languages
 prop-data:confirm_individual_deletion.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Are you sure you want to delete the following individual?"@en-CA ;
-        rdfs:label       "Are you sure you want to delete the following individual?"@en-US ;
+        rdfs:label       "Are you sure you want to delete the following individual? "@en-CA ;
+        rdfs:label       "Are you sure you want to delete the following individual? "@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_individual_deletion" ;
         prop:hasPackage  "Vitro-languages" .
@@ -45977,11 +45977,11 @@ prop-data:start_capitalized.Vitro-languages
         rdfs:label       "Début"@fr-CA ;
         rdfs:label       "Início"@pt-BR ;
         rdfs:label       "Iniciar"@es ;
-        rdfs:label       "Начало,"@ru-RU ;
         rdfs:label       "Start"@de-DE ;
         rdfs:label       "Početak"@sr-Latn-RS ;
-        rdfs:label       "Start"@en-US ;
         rdfs:label       "Start"@en-CA ;
+        rdfs:label       "Start"@en-US ;
+        rdfs:label       "Начало, "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "start_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
@@ -46062,10 +46062,10 @@ prop-data:implement_capitalized.Vitro-languages
         rdfs:label       "Implementirajte"@sr-Latn-RS ;
         rdfs:label       "Implementar"@es ;
         rdfs:label       "Implementar"@pt-BR ;
+        rdfs:label       "Créer "@fr-CA ;
         rdfs:label       "Implement"@en-CA ;
         rdfs:label       "Implement"@en-US ;
         rdfs:label       "Внедрить"@ru-RU ;
-        rdfs:label       "Créer"@fr-CA ;
         rdfs:label       "Implementieren"@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "implement_capitalized" ;
@@ -46144,9 +46144,9 @@ prop-data:change_text_for.Vitro-languages
         rdfs:label       "Изменить текст для:"@ru-RU ;
         rdfs:label       "Cambiar texto por:"@es ;
         rdfs:label       "Promenite tekst za:"@sr-Latn-RS ;
-        rdfs:label       "Changement du texte pour:"@fr-CA ;
         rdfs:label       "Change text for:"@en-CA ;
         rdfs:label       "Change text for:"@en-US ;
+        rdfs:label       "Changement du texte pour: "@fr-CA ;
         rdfs:label       "Text ändern für:"@de-DE ;
         rdfs:label       "Alterar texto para:"@pt-BR ;
         prop:hasApp      "Vitro" ;
@@ -46398,8 +46398,8 @@ prop-data:create_entry_for_head_role.VIVO-languages
 prop-data:entity_to_query_for.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Cet identifiant est celui de l'élément sur lequel porte la requête. \"netid\" fonctionne également"@fr-CA ;
         rdfs:label       "Este id é o ID da entidade para consultar. netid também funciona."@pt-BR ;
+        rdfs:label       "Cet identifiant est celui de l'élément sur lequel porte la requête. \"netid\" fonctionne également "@fr-CA ;
         rdfs:label       "Diese ID ist die ID der Entität die angefragt wird, netid funktioniert auch."@de-DE ;
         rdfs:label       "Это идентификатор объекта, который нужно запросить. Подойдёт также и идентификатор netid."@ru-RU ;
         rdfs:label       "This id is the id of the entity to query for. netid also works."@en-CA ;
@@ -46448,10 +46448,10 @@ prop-data:award_hint.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "(npr. za nagrade koje se ne dodljuju svake godine)"@sr-Latn-RS ;
         rdfs:label       "(Por ejemplo, para premios de muchos años)"@es ;
+        rdfs:label       "(z. B. für mehrjährige Auszeichnungen  )"@de-DE ;
         rdfs:label       "(e.g., for multi-year awards)"@en-CA ;
         rdfs:label       "(e.g., for multi-year awards)"@en-US ;
         rdfs:label       "ex.: pour des prix couvrant plusieurs années"@fr-CA ;
-        rdfs:label       "(z. B. für mehrjährige Auszeichnungen )"@de-DE ;
         rdfs:label       "(por exemplo, para os prémios plurianuais)"@pt-BR ;
         rdfs:label       "(например, для многолетних премий)"@ru-RU ;
         prop:hasApp      "VIVO" ;
@@ -46550,10 +46550,10 @@ prop-data:province_or_region.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Province ou région"@fr-CA ;
         rdfs:label       "Provincija ili Regija"@sr-Latn-RS ;
+        rdfs:label       "Bundesland oder Bezirk "@de-DE ;
         rdfs:label       "Province or Region"@en-US ;
         rdfs:label       "Province or Region"@en-CA ;
         rdfs:label       "Область или регион"@ru-RU ;
-        rdfs:label       "Bundesland oder Bezirk"@de-DE ;
         rdfs:label       "Provincia o región"@es ;
         rdfs:label       "província ou região"@pt-BR ;
         prop:hasApp      "VIVO" ;
@@ -46732,13 +46732,13 @@ prop-data:account.VIVO.nemo
 prop-data:page_text.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "page text"@en-US ;
         rdfs:label       "page text"@en-CA ;
-        rdfs:label       "texte de la page"@fr-CA ;
+        rdfs:label       "page text"@en-US ;
         rdfs:label       "text página"@pt-BR ;
         rdfs:label       "texto de la página"@es ;
         rdfs:label       "Seitentext"@de-DE ;
         rdfs:label       "tekst stranice"@sr-Latn-RS ;
+        rdfs:label       "texte de la page "@fr-CA ;
         rdfs:label       "текст страницы"@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_text" ;
@@ -47224,7 +47224,6 @@ prop-data:properties.Vitro
 prop-data:currently_no_grants_for.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "В данный момент не найдено грантов {0} у"@ru-RU ;
         rdfs:label       "Zurzeit gibt es keine {0} Forschungsprojekte"@de-DE ;
         rdfs:label       "Actualmente não há {0} bolsas para"@pt-BR ;
         rdfs:label       "De momento no hay {0} subvenciones para"@es ;
@@ -47232,6 +47231,7 @@ prop-data:currently_no_grants_for.VIVO-languages
         rdfs:label       "Actuellement, il n'y a aucune subvention de {0} pour"@fr-CA ;
         rdfs:label       "Currently there are no {0} grants for"@en-CA ;
         rdfs:label       "Currently there are no {0} grants for"@en-US ;
+        rdfs:label       "В данный момент не найдено грантов {0}  у"@ru-RU ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "currently_no_grants_for" ;
@@ -47310,13 +47310,13 @@ prop-data:change_entry_for.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Изменить запись для:"@ru-RU ;
+        rdfs:label       "Modifier l'enregistrement pour: "@fr-CA ;
         rdfs:label       "Change entry for:"@en-CA ;
         rdfs:label       "Change entry for:"@en-US ;
         rdfs:label       "Promenite unos za:"@sr-Latn-RS ;
         rdfs:label       "Eintrag ändern für:"@de-DE ;
         rdfs:label       "Altere a entrada para:"@pt-BR ;
         rdfs:label       "Cambiar entrada para:"@es ;
-        rdfs:label       "Modifier l'enregistrement pour:"@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "change_entry_for" ;
         prop:hasPackage  "Vitro-languages" .
@@ -48152,10 +48152,10 @@ prop-data:at.VIVO.nemo
 prop-data:browse_by.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Просматривать"@ru-RU ;
         rdfs:label       "Búsqueda por"@es ;
         rdfs:label       "Pregledajte po"@sr-Latn-RS ;
         rdfs:label       "Parcourir par"@fr-CA ;
+        rdfs:label       "Просматривать "@ru-RU ;
         rdfs:label       "Durchsuchen nach"@de-DE ;
         rdfs:label       "Procurar por"@pt-BR ;
         rdfs:label       "Browse by"@en-CA ;
@@ -48275,12 +48275,12 @@ prop-data:of.VIVO-languages.tenderfoot
 prop-data:co_investigator_icon.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "ikonica koautora"@sr-Latn-RS ;
         rdfs:label       "значок со-исследователя"@ru-RU ;
         rdfs:label       "icon = co-investigador"@pt-BR ;
         rdfs:label       "co-investigator icon"@en-US ;
         rdfs:label       "co-investigator icon"@en-CA ;
         rdfs:label       "icono de coinvestigador"@es ;
+        rdfs:label       "ikonica koautora "@sr-Latn-RS ;
         rdfs:label       "icône de cochercheur(-euse)"@fr-CA ;
         rdfs:label       "KoforscherIn-Icon"@de-DE ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
@@ -48454,13 +48454,13 @@ prop-data:grants_text_one.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Dieser Teil stammt aus der Template-Datei vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In der Bildschirmanzeige hat die Seite Forschungsprojekte eine display:requiresBodyTemplate Eigenschaft, die definiert, dass die Seite Forschungsprojekte das Standard-Template aufhebt. Das Standard-Template für diese Seiten findet sich auf /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@de-DE ;
+        rdfs:label       "Это содержимое берется из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
         rdfs:label       "Este cuerpo es de la plantilla en el archivo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. En el modelo de presentación, la página de becas muestra: la propiedad requiresBodyTemplate que define que la página de becas anula la plantilla predeterminada. La plantilla predeterminada de estas páginas está en /vitro/webapp/web/templates/freemarker/cuerpo/menupage/menupage.ftl"@es ;
-        rdfs:label       "Ovo telo je iz template fajla vivo/productMods/templates/freemarker/body/menupage/grants.ftl. Unutar modela za prikaz, stranica sa grant-ovima ima display:requiresBodyTemplate svojstvo koje definiše da stranica sa grantovima override-uje pretpostavljen template. Pretpostavljen template za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS ;
         rdfs:label       "Este corpo é do arquivo do modelo vivo/productMods/templates/freemarker/body/menupage/grants.ftl. No modelo de exibição, a página de doações tem um display: requiresBodyTemplate propriedade que define que a página de doações substitui o modelo padrão. O modelo padrão para estas páginas é a /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@pt-BR ;
-        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
-        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA ;
-        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
-        rdfs:label       "Это содержимое берется из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl. В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
+        rdfs:label       "Ovo telo je iz template fajla vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  Unutar modela za prikaz, stranica sa grant-ovima ima display:requiresBodyTemplate svojstvo koje definiše da stranica sa grantovima override-uje pretpostavljen template. Pretpostavljen template za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS ;
+        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-CA ;
+        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_one" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -49383,8 +49383,8 @@ prop-data:crop_page_title.Vitro-languages
 prop-data:release.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "выпуск "@ru-RU ;
         rdfs:label       "izdanje"@sr-Latn-RS ;
-        rdfs:label       "выпуск"@ru-RU ;
         rdfs:label       "liberar"@es ;
         rdfs:label       "liberação"@pt-BR ;
         rdfs:label       "release"@en-CA ;
@@ -49498,13 +49498,13 @@ prop-data:password_change_invalid_key.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "The link you used for {0} is invalid. Please ask your system administrator to resend the link."@en-CA ;
-        rdfs:label       "Der Link, den Sie für {0} verwendet haben, ist ungültig. Bitten Sie den Site-Administrator, den Link erneut zu senden."@de-DE ;
+        rdfs:label       "Der Link, den Sie für {0} verwendet haben, ist ungültig. Bitten Sie den Site-Administrator, den Link erneut zu senden. "@de-DE ;
+        rdfs:label       "Le lien que vous avez utilisé pour {0} n'est pas valide. Veuillez demander à l'administrateur du site de renvoyer le lien. "@fr-CA ;
+        rdfs:label       "O link que você usou para {0} é inválido. Peça ao administrador do site para reenviar o link. "@pt-BR ;
         rdfs:label       "Link koji ste isoristili za {0} nije ispravan. Molimo Vas tražite od administaratora da Vam ponovo pošalje link."@sr-Latn-RS ;
         rdfs:label       "The link you used for {0} is invalid. Please ask site administrator to resend the link."@en-US ;
         rdfs:label       "Ссылка, которую вы использовали для {0}, недействительна. Пожалуйста, попросите администратора сайта повторно отправить ссылку."@ru-RU ;
-        rdfs:label       "Le lien que vous avez utilisé pour {0} n'est pas valide. Veuillez demander à l'administrateur du site de renvoyer le lien."@fr-CA ;
-        rdfs:label       "El vínculo que usó para {0} no es válido. Solicite al administrador del sitio que vuelva a enviar el enlace."@es ;
-        rdfs:label       "O link que você usou para {0} é inválido. Peça ao administrador do site para reenviar o link."@pt-BR ;
+        rdfs:label       "El vínculo que usó para {0} no es válido. Solicite al administrador del sitio que vuelva a enviar el enlace. "@es ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "password_change_invalid_key" ;
         prop:hasPackage  "Vitro-languages" .
@@ -49778,10 +49778,10 @@ prop-data:refresh_page_after_reordering.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Actualice la página después de reordenar los elementos de menú"@es ;
-        rdfs:label       "Ponovo učitajte stranicu nakon napravljenih promena"@sr-Latn-RS ;
         rdfs:label       "Refresh page after reordering menu items"@en-CA ;
         rdfs:label       "Refresh page after reordering menu items"@en-US ;
         rdfs:label       "Обновите страницу после изменения порядка следования пунктов меню"@ru-RU ;
+        rdfs:label       "Ponovo učitajte stranicu nakon napravljenih promena "@sr-Latn-RS ;
         rdfs:label       "Laden Sie die Seite erneut, nachdem Sie Menüpunkte neu angeordnet haben."@de-DE ;
         rdfs:label       "A atualização da página ocorrre após a reordenação dos itens do menu"@pt-BR ;
         rdfs:label       "Rafraîchir la page une fois les éléments de menu réordonnés"@fr-CA ;
@@ -49842,10 +49842,10 @@ prop-data:start_capitalized.VIVO-languages
         rdfs:label       "Início"@pt-BR ;
         rdfs:label       "Inicio"@es ;
         rdfs:label       "Start"@de-DE ;
-        rdfs:label       "Start"@en-CA ;
         rdfs:label       "Start"@en-US ;
-        rdfs:label       "Начало,"@ru-RU ;
+        rdfs:label       "Start"@en-CA ;
         rdfs:label       "Početak"@sr-Latn-RS ;
+        rdfs:label       "Начало, "@ru-RU ;
         rdfs:label       "Début"@fr-CA ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
@@ -50014,7 +50014,7 @@ prop-data:password_saved_please_login.Vitro
 prop-data:harvest_complete.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
@@ -50681,12 +50681,12 @@ prop-data:page_not_created.Vitro
 prop-data:page_uri_missing_msg.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Не удалось сгенерировать страницу, потому что неясно, какая страница запрашивается. Возможно, отсутствует сопоставление URL."@ru-RU ;
+        rdfs:label       "Could not generate page beacause it was unclear what page was being requested.  A URL mapping may be missing."@en-CA ;
+        rdfs:label       "Could not generate page beacause it was unclear what page was being requested.  A URL mapping may be missing."@en-US ;
+        rdfs:label       "Не удалось сгенерировать страницу, потому что неясно, какая страница запрашивается.  Возможно, отсутствует сопоставление URL."@ru-RU ;
+        rdfs:label       "Il n'a pas été possible de générer une page parce qu'il n'était pas clair quelle page était demandée.  Il se peut qu'il manque un mappage d'URL."@fr-CA ;
         rdfs:label       "Não foi possível gerar página porque não estava claro qual a página que estava sendo solicitada. Um mapeamento de URL pode estar faltando."@pt-BR ;
-        rdfs:label       "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-CA ;
-        rdfs:label       "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-US ;
         rdfs:label       "No se pudo generar la página porque no estaba claro qué página se estaba solicitando. Es posible que falte una asignación de URL."@es ;
-        rdfs:label       "Il n'a pas été possible de générer une page parce qu'il n'était pas clair quelle page était demandée. Il se peut qu'il manque un mappage d'URL."@fr-CA ;
         rdfs:label       "Konnte Seite nicht generieren, weil unklar war, welche Seite angefragt wurde. Es fehlt eventuell ein URL-Mapping."@de-DE ;
         rdfs:label       "Generisanje stranice nije uspelo jer nije jasno koju stranicu tražite. Možda nedostaje URL mapiranje."@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
@@ -51675,8 +51675,8 @@ prop-data:years_participation_in.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Années de participation dans"@fr-CA ;
-        rdfs:label       "Godina učestvovanja u"@sr-Latn-RS ;
         rdfs:label       "Años de participación en"@es ;
+        rdfs:label       "Godina učestvovanja u "@sr-Latn-RS ;
         rdfs:label       "Годы участия в"@ru-RU ;
         rdfs:label       "Years of Participation in"@en-CA ;
         rdfs:label       "Years of Participation in"@en-US ;
@@ -51898,13 +51898,13 @@ prop-data:save_unmapped_publications.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Sačiuvajte publikacije koje nisu mapirane"@sr-Latn-RS ;
-        rdfs:label       "Сохранить не отображенные на карте публикации"@ru-RU ;
         rdfs:label       "Sauvegarder les publications non cartographiées"@fr-CA ;
+        rdfs:label       "Сохранить не отображенные  на карте публикации"@ru-RU ;
         rdfs:label       "Guardar publicaciones no mapeadas"@es ;
         rdfs:label       "nicht abgebildete Publikationen speichern"@de-DE ;
         rdfs:label       "Salvar UNMAPPED Publicações"@pt-BR ;
-        rdfs:label       "Save Unmapped Publications"@en-CA ;
         rdfs:label       "Save Unmapped Publications"@en-US ;
+        rdfs:label       "Save Unmapped Publications"@en-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "save_unmapped_publications" ;
         prop:hasPackage  "VIVO-languages" .
@@ -51946,10 +51946,10 @@ prop-data:manage_labels_intro.Vitro-languages
         rdfs:label       "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
         rdfs:label       "No caso de multiplos labels existirem com mesma linguagem, por favor remova um link labels que voce nao deseja exiber na sua pagina do perfil."@pt-BR ;
         rdfs:label       "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US ;
-        rdfs:label       "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка."@ru-RU ;
         rdfs:label       "En el caso de que existan varias etiquetas en el mismo idioma, por favor, utilice el enlace remove para eliminar las etiquetas que no desea que aparezcan en la página de perfil para un determinado idioma."@es ;
         rdfs:label       "Dans le cas où plusieurs étiquettes existent dans la même langue, veuillez utiliser le lien de suppression pour supprimer les étiquettes que vous ne voulez pas voir apparaître sur la page de profil pour une langue donnée."@fr-CA ;
         rdfs:label       "Wenn mehrere Labels in der gleichen Sprache existieren, nutzen Sie bitte den Entfernen-Link, um die Labels zu entfernen, die Sie nicht auf der Profilseite der angegebenen Sprache anzeigen möchten."@de-DE ;
+        rdfs:label       "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка. "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage_labels_intro" ;
         prop:hasPackage  "Vitro-languages" .
@@ -52589,12 +52589,12 @@ prop-data:enter_new_role_value.VIVO-languages.tenderfoot
 prop-data:base_property_capitalized.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Propriété Base"@fr-CA ;
         rdfs:label       "Базовое свойство"@ru-RU ;
         rdfs:label       "Propiedad base"@es ;
         rdfs:label       "Base Property"@en-CA ;
         rdfs:label       "Base Property"@en-US ;
         rdfs:label       "Bazno svojstvo"@sr-Latn-RS ;
+        rdfs:label       "Propriété Base "@fr-CA ;
         rdfs:label       "Base-Property"@de-DE ;
         rdfs:label       "Propriedade da base"@pt-BR ;
         prop:hasApp      "Vitro" ;
@@ -53147,7 +53147,7 @@ prop-data:faculty_with_researh_area.VIVO-languages
         rdfs:label       "Следующие преподаватели подразделения {0} интересуются данной областью исследований."@ru-RU ;
         rdfs:label       "Here are the faculty members in the {0} department who have an interest in this research area."@en-US ;
         rdfs:label       "Here are the faculty members in the {0} department who have an interest in this research area."@en-CA ;
-        rdfs:label       "Voici les chercheur(-euse)s du département {0} qui sont intéressé(e)s par ce domaine."@fr-CA ;
+        rdfs:label       "Voici les chercheur(-euse)s du département {0}  qui sont intéressé(e)s par ce domaine."@fr-CA ;
         rdfs:label       "Estos son los miembros de la facultad en el departamento de {0} que tienen un interés en el área de investigación."@es ;
         rdfs:label       "Ovo su članovi zaposleni sa {0} departmana koji su zainteresovani za ovu istraživačku oblast."@sr-Latn-RS ;
         rdfs:label       "Aqui estão os membros do corpo docente no {0} departamento que têm interesse nessa área de pesquisa."@pt-BR ;
@@ -53287,8 +53287,8 @@ prop-data:verify_match_capitalized.VIVO-languages
 prop-data:internal_class_intro_two.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Esto le permitirá limitar las personas que aparecen en las páginas del menú principal (Personas, Investigación, etc.) a sólo aquellos dentro de su institución."@es ;
         rdfs:label       "Это позволит ограничить круг лиц, отображаемых на страницах меню (Люди, Исследования и т.д.), только сотрудниками вашего учреждения."@ru-RU ;
+        rdfs:label       "Esto le permitirá limitar las personas que aparecen en las páginas del menú  principal (Personas, Investigación, etc.) a sólo aquellos dentro de su institución."@es ;
         rdfs:label       "Isso permitirá que você para limitar os indivíduos indicados em suas páginas do menu (pessoas, investigação, etc.) para apenas aqueles dentro de sua instituição."@pt-BR ;
         rdfs:label       "Dies ermöglicht die Begrenzung der im Menü angezeigten einzelnen Kategorien (Personen, Forschung etc. auf diejenigen, die sich auf die Institution beziehen."@de-DE ;
         rdfs:label       "Ceci vous permettra de limiter les personnes présentées sur vos pages d'accueil (Personnes, Recherche, etc.) à celles de votre institution."@fr-CA ;
@@ -53387,9 +53387,9 @@ prop-data:place_of_grant.VIVO-languages.wilma
         rdfs:label       "Место предоставления гранта"@ru-RU ;
         rdfs:label       "Lugar de subvención"@es ;
         rdfs:label       "Ort des Forschungsprojektes"@de-DE ;
-        rdfs:label       "Mesto izdavanja stipendije"@sr-Latn-RS ;
-        rdfs:label       "Place of grant"@en-US ;
+        rdfs:label       "Mesto izdavanja stipendije "@sr-Latn-RS ;
         rdfs:label       "Place of grant"@en-CA ;
+        rdfs:label       "Place of grant"@en-US ;
         rdfs:label       "Local de publicação"@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "place_of_grant" ;
@@ -53540,7 +53540,6 @@ prop-data:grants_per_year.VIVO
 prop-data:uri_independent_model.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Независимая модель URI"@ru-RU ;
         rdfs:label       "URI Independent Model"@en-US ;
         rdfs:label       "URI Independent Model"@en-CA ;
         rdfs:label       "unabhängiges URI-Modell"@de-DE ;
@@ -53548,6 +53547,7 @@ prop-data:uri_independent_model.VIVO-languages
         rdfs:label       "URI nezavisan model"@sr-Latn-RS ;
         rdfs:label       "Modèle URI indépendant"@fr-CA ;
         rdfs:label       "URI Independent Modelo"@pt-BR ;
+        rdfs:label       "Независимая модель URI "@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "uri_independent_model" ;
         prop:hasPackage  "VIVO-languages" .
@@ -53960,7 +53960,7 @@ prop-data:researcher.VIVO
 prop-data:harvest_error_instructions_fourA.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the"@en-US ;
+        rdfs:label       "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_error_instructions_fourA" ;
         prop:hasPackage  "VIVO" ;
@@ -55858,8 +55858,8 @@ prop-data:most_recent_update.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Последнее обновление датировано"@ru-RU ;
         rdfs:label       "Die letzte Aktualisierung erfolgte am"@de-DE ;
+        rdfs:label       "La plus récente mise à jour a été exécutée à "@fr-CA ;
         rdfs:label       "La actualización más reciente fue en"@es ;
-        rdfs:label       "La plus récente mise à jour a été exécutée à"@fr-CA ;
         rdfs:label       "A atualização mais recente foi em"@pt-BR ;
         rdfs:label       "The most recent update was at"@en-CA ;
         rdfs:label       "The most recent update was at"@en-US ;
@@ -56029,7 +56029,7 @@ prop-data:preparing_to_rebuild_index.Vitro-languages
         rdfs:label       "Preparing to rebuild the search index."@en-US ;
         rdfs:label       "Preparación para reconstruir el índice de búsqueda."@es ;
         rdfs:label       "Preparando-se para reconstruir o índice de pesquisa."@pt-BR ;
-        rdfs:label       "Préparation de la reconstruction de l'index de recherche."@fr-CA ;
+        rdfs:label       "Préparation de la  reconstruction de l'index de recherche."@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "preparing_to_rebuild_index" ;
         prop:hasPackage  "Vitro-languages" .
@@ -56264,8 +56264,8 @@ prop-data:faux_property_listing.Vitro
 prop-data:vitro_description.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Vitro - это универсальный веб-редактор онтологий и экземпляров с настраиваемым общедоступным доступом. Также Vitro - это веб-приложение Java, работающее в контейнере сервлетов Tomcat."@ru-RU ;
         rdfs:label       "Vitro est un éditeur d'ontologies et d'instances web à usage général avec une navigation publique personnalisable. Vitro est une application web Java qui s'exécute dans un conteneur de servlet Tomcat."@fr-CA ;
+        rdfs:label       "Vitro - это универсальный веб-редактор онтологий и экземпляров с настраиваемым общедоступным доступом. Также Vitro - это веб-приложение Java, работающее в контейнере сервлетов Tomcat. "@ru-RU ;
         rdfs:label       "Vitro ist ein universeller Web-basierter Ontologie- und Instanzeditor mit einer anpassbaren öffentlichen Oberfläche. Vitro ist eine Java-Web-Anwendung, die in einem Tomcat-Servlet-Container ausgeführt wird."@de-DE ;
         rdfs:label       "Vitro é uma ontologia e exemplo de editor baseado na web para uso geral para uma navegação público e personalizável. Vitro é uma aplicação Java Web que roda em um contêiner servlet Tomcat."@pt-BR ;
         rdfs:label       "Vitro je veb editor opšte namene za rad sa ontologijama koji omogućava javnu pretragu istih. Vitro je Java veb aplikacija koja se pokreće unutar Tomcat servlet kontejnera."@sr-Latn-RS ;
@@ -56991,11 +56991,11 @@ prop-data:orcid_step2_description.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "<ul><li>VIVO перенаправляет Вас на сайт ORCID</li><li>Вы информируете ORCID, что VIVO может добавить „внешний ID“ к вашей записи ORCID.</li><li>VIVO добавляет внешний ID.</li></ul>"@ru-RU ;
         rdfs:label       "<ul><li>VIVO vous redirige vers le site d'ORCID</li> <li>Vous permettez à VIVO d'ajouter un identifiant externe à votre dossier ORCID (une seule fois)</li> <li>VIVO ajoute un identifiant externe à votre dossier.</li></ul>"@fr-CA ;
-        rdfs:label       "<ul><li>VIVO redirects you to ORCID's web site</li> <li>You tell ORCID that VIVO may add an \"external ID\" to your ORCID record.</li> <li>VIVO adds the external ID.</li></ul>"@en-CA ;
         rdfs:label       "<ul><li>VIVO redirects you to ORCID's web site</li> <li>You tell ORCID that VIVO may add an \"external ID\" to your ORCID record.</li> <li>VIVO adds the external ID.</li></ul>"@en-US ;
+        rdfs:label       "<ul><li>VIVO redirects you to ORCID's web site</li> <li>You tell ORCID that VIVO may add an \"external ID\" to your ORCID record.</li> <li>VIVO adds the external ID.</li></ul>"@en-CA ;
         rdfs:label       "<ul><li>VIVO Vas preusmerava na ORCID-ov veb sajt.</li> <li>Napomenete ORCID-u da će VIVO možda dodati \"eksterni ID\" unutar Vašeg ORCID zapisa.</li> <li>VIVO dodaje eksterni ID.</li></ul>"@sr-Latn-RS ;
         rdfs:label       "<ul><li>VIVO redireciona você para o site do ORCID.</li> <li>Você diz ao ORCID que VIVO pode adicionar um \"ID externo\" ao seu registro ORCID.</li> <li>VIVO adiciona o ID externo.</li></ul>"@pt-BR ;
-        rdfs:label       "<ul><li>VIVO leitet Sie auf die ORCID Seite um.</li> <li>Sie erlauben ORCID, dass VIVO eine \"external ID\" zu Ihrem ORCID Eintrag hinzufügt.</li> <li>VIVO ergänzt Ihren nORCID Eintrag.</li></ul>"@de-DE ;
+        rdfs:label       "<ul><li>VIVO leitet Sie auf die  ORCID Seite um.</li> <li>Sie erlauben ORCID, dass VIVO eine \"external ID\" zu Ihrem ORCID Eintrag hinzufügt.</li> <li>VIVO ergänzt Ihren nORCID Eintrag.</li></ul>"@de-DE ;
         rdfs:label       "<ul><li>VIVO le redirigirá a la pagina web de ORCID</li> <li>Autorice a ORCID que VIVO permita añadir su ID externo a su registro ORCID.</li> <li>VIVO añade el ID externo.</li></ul>"@es ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "orcid_step2_description" ;

@@ -12,7 +12,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "De momento no hay {0} subvenciones para"@es .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Trenutno nema {0} grant-ova za"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Zurzeit gibt es keine {0} Forschungsprojekte"@de-DE .
-<http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "В данный момент не найдено грантов {0} у"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "В данный момент не найдено грантов {0}  у"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "currently_no_grants_for" .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 

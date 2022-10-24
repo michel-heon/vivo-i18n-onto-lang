@@ -911,7 +911,7 @@ prop-data:last_grant.VIVO-languages.wilma
 prop-data:grants_text_one.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Это содержимое взято из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl. В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
+        rdfs:label       "Это содержимое взято из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_one" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -1031,7 +1031,7 @@ prop-data:loading_data.VIVO-languages.wilma
 prop-data:grants_two.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker. Примером может быть страница „О системе“."@ru-RU ;
+        rdfs:label       "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker.  Примером может быть страница „О системе“."@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_two" ;
         prop:hasPackage  "VIVO-languages" ;

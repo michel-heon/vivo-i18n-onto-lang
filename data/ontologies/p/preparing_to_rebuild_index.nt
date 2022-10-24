@@ -8,7 +8,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#preparing_to_rebuild_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Preparing to rebuild the search index."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#preparing_to_rebuild_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Preparing to rebuild the search index."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#preparing_to_rebuild_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Priprema za kreiranje indeksa pretrage."@sr-Latn-RS .
-<http://vivoweb.org/ontology/core/properties/individual#preparing_to_rebuild_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Préparation de la reconstruction de l'index de recherche."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#preparing_to_rebuild_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Préparation de la  reconstruction de l'index de recherche."@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#preparing_to_rebuild_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vorbereiten des Aufbauens des Suchindexes."@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#preparing_to_rebuild_index.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Подготовка к перестройке поискового индекса."@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#preparing_to_rebuild_index.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 

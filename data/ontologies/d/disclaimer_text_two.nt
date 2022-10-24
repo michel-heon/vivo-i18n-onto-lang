@@ -10,7 +10,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#disclaimer_text_two.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "qui ont été chargés dans le système VIVO comme"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#disclaimer_text_two.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "which have been loaded into the VIVO system as of"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#disclaimer_text_two.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "which have been loaded into the VIVO system as of"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#disclaimer_text_two.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "которые были загружены в систему VIVO к"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#disclaimer_text_two.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "которые были загружены в систему VIVO к "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#disclaimer_text_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#disclaimer_text_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "disclaimer_text_two" .
 <http://vivoweb.org/ontology/core/properties/individual#disclaimer_text_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 

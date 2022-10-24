@@ -30,7 +30,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "place_of_grant" .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "Mesto izdavanja stipendije"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "Mesto izdavanja stipendije "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#place_of_grant.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#select_award.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
@@ -301,7 +301,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_title" .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "VIVO | povežite se delite otkrijte"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "VIVO | povežite se  delite  otkrijte"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#create_capitalized.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
@@ -697,7 +697,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_text_one" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "Ovaj deo stranice je iz fajla sa šablonom (freemarker template) vivo/productMods/templates/freemarker/body/menupage/grants.ftl. U modelu prikazivanja, stranica za stipendije ima display:requiresBodyTemplate svojstvo koje definiše da strancie za stipendije treba da \"pregazi\" podrazumevani šablon. Podrazumevani šablon za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "Ovaj deo stranice je iz fajla sa šablonom (freemarker template) vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  U modelu prikazivanja, stranica za stipendije ima display:requiresBodyTemplate svojstvo koje definiše da strancie za stipendije treba da \"pregazi\" podrazumevani šablon. Podrazumevani šablon za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
@@ -789,7 +789,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_two" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "Ova tehnika se može koristiti za definisanje stranica bez stavki menija, koje dobijaju svoj sadržaj iz freemarker šablona. Primer ovoga je stranica \"O sajtu\" (About)."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label> "Ova tehnika se može koristiti za definisanje stranica bez stavki menija, koje dobijaju svoj sadržaj iz freemarker šablona.  Primer ovoga je stranica \"O sajtu\" (About)."@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#for.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#for.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .

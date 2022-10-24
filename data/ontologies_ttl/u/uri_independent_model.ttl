@@ -9,7 +9,6 @@
 prop-data:uri_independent_model.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Независимая модель URI"@ru-RU ;
         rdfs:label       "URI Independent Model"@en-US ;
         rdfs:label       "URI Independent Model"@en-CA ;
         rdfs:label       "unabhängiges URI-Modell"@de-DE ;
@@ -17,6 +16,7 @@ prop-data:uri_independent_model.VIVO-languages
         rdfs:label       "URI nezavisan model"@sr-Latn-RS ;
         rdfs:label       "Modèle URI indépendant"@fr-CA ;
         rdfs:label       "URI Independent Modelo"@pt-BR ;
+        rdfs:label       "Независимая модель URI "@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "uri_independent_model" ;
         prop:hasPackage  "VIVO-languages" .

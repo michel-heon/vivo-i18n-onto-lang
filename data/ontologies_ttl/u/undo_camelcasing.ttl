@@ -10,10 +10,10 @@ prop-data:undo_camelcasing.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Deshacer el formato camelcase"@es ;
-        rdfs:label       "Retirer la casse chameau"@fr-CA ;
         rdfs:label       "Убрать ВерблюжийРегистр"@ru-RU ;
         rdfs:label       "Ukloniti CamelCase notaciju"@sr-Latn-RS ;
         rdfs:label       "CamelCase-Formatierung rückgängig machen"@de-DE ;
+        rdfs:label       "Retirer la casse chameau "@fr-CA ;
         rdfs:label       "Uncamelcasing"@en-CA ;
         rdfs:label       "Uncamelcasing"@pt-BR ;
         rdfs:label       "Uncamelcasing"@en-US ;

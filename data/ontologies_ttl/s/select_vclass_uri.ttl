@@ -9,7 +9,7 @@
 prop-data:select_vclass_uri.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "VClass sélectionné"@fr-CA ;
+        rdfs:label       "VClass sélectionné "@fr-CA ;
         rdfs:label       "VClass auswählen"@de-DE ;
         rdfs:label       "Seleccione VClass"@es ;
         rdfs:label       "Select VClass"@en-CA ;

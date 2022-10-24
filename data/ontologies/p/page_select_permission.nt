@@ -9,7 +9,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selecione as permissões de página"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select page permissions"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select page permissions"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sélectionner les permissions d'accès aux pages"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sélectionner les permissions d'accès aux pages "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выберите разрешения для страницы"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#page_select_permission.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 

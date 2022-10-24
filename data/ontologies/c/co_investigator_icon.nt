@@ -13,7 +13,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "icon = co-investigador"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "icono de coinvestigador"@es .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "icône de cochercheur(-euse)"@fr-CA .
-<http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ikonica koautora"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ikonica koautora "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "значок со-исследователя"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-custom-visualizationFoafPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 

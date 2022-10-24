@@ -18,7 +18,7 @@ prop-data:harvest_error_instructions_fourA.VIVO
 prop-data:harvest_error_instructions_fourA.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the"@en-US ;
+        rdfs:label       "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_error_instructions_fourA" ;
         prop:hasPackage  "VIVO" ;

@@ -9,12 +9,12 @@
 prop-data:base_property_capitalized.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Propriété Base"@fr-CA ;
         rdfs:label       "Базовое свойство"@ru-RU ;
         rdfs:label       "Propiedad base"@es ;
         rdfs:label       "Base Property"@en-CA ;
         rdfs:label       "Base Property"@en-US ;
         rdfs:label       "Bazno svojstvo"@sr-Latn-RS ;
+        rdfs:label       "Propriété Base "@fr-CA ;
         rdfs:label       "Base-Property"@de-DE ;
         rdfs:label       "Propriedade da base"@pt-BR ;
         prop:hasApp      "Vitro" ;

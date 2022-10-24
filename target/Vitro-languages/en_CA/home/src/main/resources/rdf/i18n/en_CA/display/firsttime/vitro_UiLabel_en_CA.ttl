@@ -2493,7 +2493,7 @@ prop-data:internal_class_i_capped.Vitro-languages
 prop-data:decimal_only.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-CA ;
+        rdfs:label       "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2877,7 +2877,7 @@ prop-data:create_new.Vitro-languages
 prop-data:confirm_individual_deletion.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Are you sure you want to delete the following individual?"@en-CA ;
+        rdfs:label       "Are you sure you want to delete the following individual? "@en-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_individual_deletion" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3790,7 +3790,7 @@ prop-data:filter_by_roles.Vitro-languages
 prop-data:page_uri_missing_msg.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-CA ;
+        rdfs:label       "Could not generate page beacause it was unclear what page was being requested.  A URL mapping may be missing."@en-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_uri_missing_msg" ;
         prop:hasPackage  "Vitro-languages" .

@@ -2700,7 +2700,7 @@ prop-data:volume_capitalized.VIVO
 prop-data:vis_tools_note_four.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
+        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_four" ;
@@ -5948,7 +5948,7 @@ prop-data:selected.VIVO
 prop-data:vis_tools_note_three.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
+        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
@@ -6682,7 +6682,7 @@ prop-data:harvest_error_instructions_one.VIVO
 prop-data:harvest_complete.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
@@ -10109,7 +10109,7 @@ prop-data:create_and_link_type_post_weblog.VIVO
 prop-data:fill_in_template_with_data.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
+        rdfs:label       "Fill in the template with your data.  You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "fill_in_template_with_data" ;

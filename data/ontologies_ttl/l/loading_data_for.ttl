@@ -36,7 +36,7 @@ prop-data:loading_data_for.VIVO-languages
         rdfs:label       "Daten werden geladen für"@de-DE ;
         rdfs:label       "Carregamento de dados para"@pt-BR ;
         rdfs:label       "Učitavanje podataka za"@sr-Latn-RS ;
-        rdfs:label       "Загрузка данных для"@ru-RU ;
+        rdfs:label       "Загрузка данных для "@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "loading_data_for" ;
         prop:hasPackage  "VIVO-languages" .

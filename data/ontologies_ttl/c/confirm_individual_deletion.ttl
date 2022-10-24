@@ -9,7 +9,7 @@
 prop-data:confirm_individual_deletion.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Are you sure you want to delete the following individual?"@en-US ;
+        rdfs:label       "Are you sure you want to delete the following individual? "@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/confirmDeleteIndividualForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_individual_deletion" ;
@@ -18,8 +18,8 @@ prop-data:confirm_individual_deletion.Vitro
 prop-data:confirm_individual_deletion.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Are you sure you want to delete the following individual?"@en-CA ;
-        rdfs:label       "Are you sure you want to delete the following individual?"@en-US ;
+        rdfs:label       "Are you sure you want to delete the following individual? "@en-CA ;
+        rdfs:label       "Are you sure you want to delete the following individual? "@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_individual_deletion" ;
         prop:hasPackage  "Vitro-languages" .

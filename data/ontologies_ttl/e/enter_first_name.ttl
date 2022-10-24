@@ -32,11 +32,11 @@ prop-data:enter_first_name.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "SVP, inscrire le prénom de cette personne."@fr-CA ;
         rdfs:label       "Por favor, introduzca un Nombre para esta persona."@es ;
+        rdfs:label       "Пожалуйста, введите имя этого человека. "@ru-RU ;
         rdfs:label       "Molimo Vas unesite ime ove osobe."@sr-Latn-RS ;
         rdfs:label       "Please enter a First name for this person."@en-CA ;
         rdfs:label       "Please enter a First name for this person."@en-US ;
         rdfs:label       "Digite um nome para essa pessoa."@pt-BR ;
-        rdfs:label       "Пожалуйста, введите имя этого человека."@ru-RU ;
         rdfs:label       "Bitte einen Vornamen für diese Person eintragen."@de-DE ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;

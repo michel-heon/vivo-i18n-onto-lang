@@ -190,7 +190,7 @@ prop-data:identity_myprofile.VIVO-languages.tenderfoot
 prop-data:grants_text_one.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Ovo telo je iz template fajla vivo/productMods/templates/freemarker/body/menupage/grants.ftl. Unutar modela za prikaz, stranica sa grant-ovima ima display:requiresBodyTemplate svojstvo koje definiše da stranica sa grantovima override-uje pretpostavljen template. Pretpostavljen template za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS ;
+        rdfs:label       "Ovo telo je iz template fajla vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  Unutar modela za prikaz, stranica sa grant-ovima ima display:requiresBodyTemplate svojstvo koje definiše da stranica sa grantovima override-uje pretpostavljen template. Pretpostavljen template za ove stranice se nalazi na /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_one" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -199,7 +199,7 @@ prop-data:grants_text_one.VIVO-languages.tenderfoot
 prop-data:menu_powered.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Omogućili:"@sr-Latn-RS ;
+        rdfs:label       "Omogućili: "@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "menu_powered" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -1245,7 +1245,7 @@ prop-data:full_name.VIVO-languages.tenderfoot
 prop-data:years_participation_in.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Godina učestvovanja u"@sr-Latn-RS ;
+        rdfs:label       "Godina učestvovanja u "@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "years_participation_in" ;
         prop:hasPackage  "VIVO-languages" ;

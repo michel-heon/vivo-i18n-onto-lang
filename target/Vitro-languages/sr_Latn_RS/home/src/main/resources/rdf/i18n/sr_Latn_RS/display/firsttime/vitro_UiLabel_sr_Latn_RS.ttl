@@ -511,7 +511,7 @@ prop-data:fixed_html.Vitro-languages
 prop-data:you_can.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Možete"@sr-Latn-RS ;
+        rdfs:label       "Možete "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "you_can" ;
         prop:hasPackage  "Vitro-languages" .
@@ -615,7 +615,7 @@ prop-data:alt_confirmation.Vitro-languages
 prop-data:drag_drop_to_reorder_menus.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Prevucite kako bi ste promenili redosled stavki u meniju"@sr-Latn-RS ;
+        rdfs:label       "Prevucite kako bi ste promenili redosled stavki u meniju "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "drag_drop_to_reorder_menus" ;
         prop:hasPackage  "Vitro-languages" .
@@ -828,7 +828,7 @@ prop-data:warnings_issued.Vitro-languages
 prop-data:account_management.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Upravljanje nalozima"@sr-Latn-RS ;
+        rdfs:label       "Upravljanje nalozima "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "account_management" ;
         prop:hasPackage  "Vitro-languages" .
@@ -1897,7 +1897,7 @@ prop-data:display_less.Vitro-languages
 prop-data:add_property_group.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Dodajte novu grupu svojstava"@sr-Latn-RS ;
+        rdfs:label       "Dodajte novu grupu svojstava "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_property_group" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2334,7 +2334,7 @@ prop-data:enter_new_password.Vitro-languages
 prop-data:sparql_query_results.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Rezultati SPARQL upita"@sr-Latn-RS ;
+        rdfs:label       "Rezultati SPARQL upita "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "sparql_query_results" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2390,7 +2390,7 @@ prop-data:no_class_restrictions.Vitro-languages
 prop-data:refresh_page_after_reordering.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Ponovo učitajte stranicu nakon napravljenih promena"@sr-Latn-RS ;
+        rdfs:label       "Ponovo učitajte stranicu nakon napravljenih promena "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "refresh_page_after_reordering" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2472,7 +2472,7 @@ prop-data:internal_class_i_capped.Vitro-languages
 prop-data:decimal_only.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Neispravan unos. Dozvoljeno je koristiti tačku da napišete decimalan broj, ali nije dozvoljeno korišćenje separatora između hiljada."@sr-Latn-RS ;
+        rdfs:label       "Neispravan unos.  Dozvoljeno je koristiti tačku da napišete decimalan broj, ali nije dozvoljeno korišćenje separatora između hiljada."@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3087,7 +3087,7 @@ prop-data:selected_page_content_type.Vitro-languages
 prop-data:create_entry.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Kreirajte unos"@sr-Latn-RS ;
+        rdfs:label       "Kreirajte unos "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "create_entry" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3389,7 +3389,7 @@ prop-data:page_not_configured.Vitro-languages
 prop-data:new_account_notification.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Email sa uputstvina za aktiviranje naloga i kreiranje lozinke je poslat na adresu {0}"@sr-Latn-RS ;
+        rdfs:label       "Email sa uputstvina za aktiviranje naloga i kreiranje lozinke je poslat na adresu {0} "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "new_account_notification" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3765,7 +3765,7 @@ prop-data:page_uri_missing_msg.Vitro-languages
 prop-data:fatal_error.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Fatalna greška"@sr-Latn-RS ;
+        rdfs:label       "Fatalna greška "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "fatal_error" ;
         prop:hasPackage  "Vitro-languages" .
@@ -4751,7 +4751,7 @@ prop-data:startup_trace.Vitro-languages
 prop-data:search_accounts_button.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Pretražite naloge"@sr-Latn-RS ;
+        rdfs:label       "Pretražite naloge "@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "search_accounts_button" ;
         prop:hasPackage  "Vitro-languages" .

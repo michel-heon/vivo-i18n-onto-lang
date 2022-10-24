@@ -10,7 +10,7 @@ prop-data:identifier_factories.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Идентификационные центры"@ru-RU ;
-        rdfs:label       "facteurs d'identifiations"@fr-CA ;
+        rdfs:label       "facteurs d'identifiations "@fr-CA ;
         rdfs:label       "Factores de identificación"@es ;
         rdfs:label       "Centri za identifikatore"@sr-Latn-RS ;
         rdfs:label       "Identifier factories"@en-CA ;

@@ -18,7 +18,6 @@ prop-data:currently_no_grants_for.VIVO
 prop-data:currently_no_grants_for.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "В данный момент не найдено грантов {0} у"@ru-RU ;
         rdfs:label       "Zurzeit gibt es keine {0} Forschungsprojekte"@de-DE ;
         rdfs:label       "Actualmente não há {0} bolsas para"@pt-BR ;
         rdfs:label       "De momento no hay {0} subvenciones para"@es ;
@@ -26,6 +25,7 @@ prop-data:currently_no_grants_for.VIVO-languages
         rdfs:label       "Actuellement, il n'y a aucune subvention de {0} pour"@fr-CA ;
         rdfs:label       "Currently there are no {0} grants for"@en-CA ;
         rdfs:label       "Currently there are no {0} grants for"@en-US ;
+        rdfs:label       "В данный момент не найдено грантов {0}  у"@ru-RU ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "currently_no_grants_for" ;

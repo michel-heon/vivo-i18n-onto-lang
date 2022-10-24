@@ -20,9 +20,9 @@ prop-data:change_text_for.Vitro-languages
         rdfs:label       "Изменить текст для:"@ru-RU ;
         rdfs:label       "Cambiar texto por:"@es ;
         rdfs:label       "Promenite tekst za:"@sr-Latn-RS ;
-        rdfs:label       "Changement du texte pour:"@fr-CA ;
         rdfs:label       "Change text for:"@en-CA ;
         rdfs:label       "Change text for:"@en-US ;
+        rdfs:label       "Changement du texte pour: "@fr-CA ;
         rdfs:label       "Text ändern für:"@de-DE ;
         rdfs:label       "Alterar texto para:"@pt-BR ;
         prop:hasApp      "Vitro" ;

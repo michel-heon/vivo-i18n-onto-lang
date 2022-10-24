@@ -18,10 +18,10 @@ prop-data:limit_to.Vitro
 prop-data:limit_to.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Ограничить до "@ru-RU ;
         rdfs:label       "Limiter à"@fr-CA ;
         rdfs:label       "Limite para"@pt-BR ;
         rdfs:label       "Limitar a"@es ;
-        rdfs:label       "Ограничить до"@ru-RU ;
         rdfs:label       "Limit to"@en-CA ;
         rdfs:label       "Limit to"@en-US ;
         rdfs:label       "Beschränken auf"@de-DE ;

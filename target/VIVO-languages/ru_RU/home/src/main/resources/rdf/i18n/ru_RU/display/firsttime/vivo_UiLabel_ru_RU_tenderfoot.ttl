@@ -190,7 +190,7 @@ prop-data:identity_myprofile.VIVO-languages.tenderfoot
 prop-data:grants_text_one.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Это содержимое берется из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl. В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
+        rdfs:label       "Это содержимое берется из файла шаблона vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  В модели отображения, страница грантов имеет свойство display:requiresBodyTemplate свойство, которое определяет, что страница грантов переопределяет шаблон по умолчанию. Шаблон по умолчанию для этих страниц находится в /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_one" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -420,7 +420,7 @@ prop-data:claim_publications_by_doi.VIVO-languages.tenderfoot
 prop-data:grants_two.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker. Примером может быть страница „О системе“."@ru-RU ;
+        rdfs:label       "Эта техника может быть использована для определения страниц без пунктов меню, которые получают свое содержание из шаблона freemarker.  Примером может быть страница „О системе“."@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_two" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -627,7 +627,7 @@ prop-data:last_grant.VIVO-languages.tenderfoot
 prop-data:no_grants_for.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "В данный момент не найдено грантов у"@ru-RU ;
+        rdfs:label       "В данный момент не найдено грантов у "@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_grants_for" ;
         prop:hasPackage  "VIVO-languages" ;

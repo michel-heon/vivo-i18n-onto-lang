@@ -9,7 +9,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "faux svojstva po baznim svojstvima"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "propiedades falsas por propiedad base"@es .
 <http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "propriedades faux por propriedade base"@pt-BR .
-<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "propriétés Faux par propriété Base"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "propriétés Faux par propriété Base "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "номинальные свойства, упорядоченные по базовому свойству"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#faux_property_by_base.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "faux_property_by_base" .

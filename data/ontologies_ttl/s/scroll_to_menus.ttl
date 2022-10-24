@@ -30,9 +30,9 @@ prop-data:scroll_to_menus.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "перейдите к меню групп свойств"@ru-RU ;
         rdfs:label       "navegar pela propriedade do grupo menus"@pt-BR ;
+        rdfs:label       "Zu Gruppenmenüs scrollen "@de-DE ;
         rdfs:label       "idite na grupu menija za svojstva"@sr-Latn-RS ;
         rdfs:label       "faites défiler jusqu'aux menus de groupe de propriétés"@fr-CA ;
-        rdfs:label       "Zu Gruppenmenüs scrollen"@de-DE ;
         rdfs:label       "scroll to property group menus"@en-CA ;
         rdfs:label       "scroll to property group menus"@en-US ;
         rdfs:label       "desplazarse al menú grupo de propiedades"@es ;

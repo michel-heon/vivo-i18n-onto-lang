@@ -15,8 +15,8 @@ prop-data:please_provide_contact_information.Vitro-languages
         rdfs:label       "Please provide your contact information to finish creating your account."@en-US ;
         rdfs:label       "Por favor proporcione su información de contacto para terminar de crear la cuenta."@es ;
         rdfs:label       "Molimo Vas unesite kontakt informacije kako bi ste završili kreiranje naloga."@sr-Latn-RS ;
-        rdfs:label       "Veuillez inscrire une adresse courriel pour compléter la création de votre compte."@fr-CA ;
         rdfs:label       "Por favor, forneça suas informações de contato para terminar de criar a sua conta."@pt-BR ;
+        rdfs:label       "Veuillez inscrire une adresse courriel pour compléter la création de votre compte. "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "please_provide_contact_information" ;
         prop:hasPackage  "Vitro-languages" .

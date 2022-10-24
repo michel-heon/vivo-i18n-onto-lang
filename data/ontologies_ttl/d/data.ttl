@@ -135,9 +135,9 @@ prop-data:data.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "podatak"@sr-Latn-RS ;
+        rdfs:label       "данные "@ru-RU ;
         rdfs:label       "data"@en-CA ;
         rdfs:label       "data"@en-US ;
-        rdfs:label       "данные"@ru-RU ;
         rdfs:label       "datos"@es ;
         rdfs:label       "Daten"@de-DE ;
         rdfs:label       "dado"@pt-BR ;

@@ -10,7 +10,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
 <http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Zu Gruppenmenüs scrollen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Zu Gruppenmenüs scrollen "@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "desplazarse al menú grupo de propiedades"@es .
 <http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "faites défiler jusqu'aux menus de groupe de propriétés"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#scroll_to_menus.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "idite na grupu menija za svojstva"@sr-Latn-RS .

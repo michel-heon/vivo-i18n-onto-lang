@@ -19,8 +19,8 @@ prop-data:most_recent_update.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Последнее обновление датировано"@ru-RU ;
         rdfs:label       "Die letzte Aktualisierung erfolgte am"@de-DE ;
+        rdfs:label       "La plus récente mise à jour a été exécutée à "@fr-CA ;
         rdfs:label       "La actualización más reciente fue en"@es ;
-        rdfs:label       "La plus récente mise à jour a été exécutée à"@fr-CA ;
         rdfs:label       "A atualização mais recente foi em"@pt-BR ;
         rdfs:label       "The most recent update was at"@en-CA ;
         rdfs:label       "The most recent update was at"@en-US ;

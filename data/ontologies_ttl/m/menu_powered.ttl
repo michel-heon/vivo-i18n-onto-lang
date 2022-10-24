@@ -39,7 +39,7 @@ prop-data:menu_powered.VIVO-languages.tenderfoot
         rdfs:label       "Powered by"@de-DE ;
         rdfs:label       "Powered by"@en-CA ;
         rdfs:label       "Powered by"@en-US ;
-        rdfs:label       "Omogućili:"@sr-Latn-RS ;
+        rdfs:label       "Omogućili: "@sr-Latn-RS ;
         rdfs:label       "Propulsé"@fr-CA ;
         rdfs:label       "Работает под управлением"@ru-RU ;
         prop:hasApp      "VIVO" ;

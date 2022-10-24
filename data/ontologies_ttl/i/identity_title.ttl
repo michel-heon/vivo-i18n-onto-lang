@@ -35,10 +35,10 @@ prop-data:identity_title.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "VIVO | Connecter, partager, découvrir"@fr-CA ;
+        rdfs:label       "VIVO | povežite se  delite  otkrijte"@sr-Latn-RS ;
         rdfs:label       "VIVO | connect share discover"@en-CA ;
         rdfs:label       "VIVO | connect share discover"@en-US ;
         rdfs:label       "VIVO | conectar compartir descubrir"@es ;
-        rdfs:label       "VIVO | povežite se delite otkrijte"@sr-Latn-RS ;
         rdfs:label       "VIVO | conectar compartilhar descobrir"@pt-BR ;
         rdfs:label       "VIVO | связывайтесь, делитесь, ищите"@ru-RU ;
         rdfs:label       "VIVO | verbinden teilen entdecken"@de-DE ;

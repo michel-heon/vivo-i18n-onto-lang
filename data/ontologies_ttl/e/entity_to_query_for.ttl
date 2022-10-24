@@ -9,8 +9,8 @@
 prop-data:entity_to_query_for.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Cet identifiant est celui de l'élément sur lequel porte la requête. \"netid\" fonctionne également"@fr-CA ;
         rdfs:label       "Este id é o ID da entidade para consultar. netid também funciona."@pt-BR ;
+        rdfs:label       "Cet identifiant est celui de l'élément sur lequel porte la requête. \"netid\" fonctionne également "@fr-CA ;
         rdfs:label       "Diese ID ist die ID der Entität die angefragt wird, netid funktioniert auch."@de-DE ;
         rdfs:label       "Это идентификатор объекта, который нужно запросить. Подойдёт также и идентификатор netid."@ru-RU ;
         rdfs:label       "This id is the id of the entity to query for. netid also works."@en-CA ;

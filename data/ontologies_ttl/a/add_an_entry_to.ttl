@@ -23,8 +23,8 @@ prop-data:add_an_entry_to.Vitro-languages
         rdfs:label       "Agregue una entrada de tipo"@es ;
         rdfs:label       "Dodajte entitet tipa"@sr-Latn-RS ;
         rdfs:label       "Добавить запись к"@ru-RU ;
-        rdfs:label       "Ajouter un enregistrement de type"@fr-CA ;
         rdfs:label       "Füge einen Eintrag hinzu vom Typ"@de-DE ;
+        rdfs:label       "Ajouter un enregistrement de type "@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_an_entry_to" ;
         prop:hasPackage  "Vitro-languages" .

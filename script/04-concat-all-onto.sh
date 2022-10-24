@@ -14,7 +14,7 @@ source $SCRIPT_DIR/../00-env.sh
 cd $ONTO_DATA
 find . -name "*.nt" -exec cat {}  \; > $DATA/all.nt
 echo "Done creation of $DATA/all.nt" 
-$BATCH_DIR/func_nt2ttl.sh < $DATA/all.nt > $DATA/all.ttl
+$LIB/func_nt2ttl.sh < $DATA/all.nt > $DATA/all.ttl
 echo "Done creation of $DATA/all.ttl" 
 echo "Done !" 
 

@@ -202,7 +202,7 @@ prop-data:remove_author_link.VIVO.nemo
 prop-data:harvest_error_instructions_fourA.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the"@en-US ;
+        rdfs:label       "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_error_instructions_fourA" ;
         prop:hasPackage  "VIVO" ;
@@ -731,7 +731,7 @@ prop-data:manage_list_of_labels.VIVO.nemo
 prop-data:grants_text_one.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
+        rdfs:label       "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_one" ;
         prop:hasPackage  "VIVO" ;
@@ -889,7 +889,7 @@ prop-data:cannot_find_concept.VIVO.nemo
 prop-data:vis_tools_note_three.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
+        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
         prop:hasPackage  "VIVO" ;
@@ -1777,7 +1777,7 @@ prop-data:first_grant.VIVO.nemo
 prop-data:vis_tools_note_four.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
+        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_four" ;
         prop:hasPackage  "VIVO" ;
@@ -2103,7 +2103,7 @@ prop-data:co_investigators.VIVO.nemo
 prop-data:grants_text_three.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
+        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_text_three" ;
         prop:hasPackage  "VIVO" ;
@@ -2212,7 +2212,7 @@ prop-data:uploaded_files.VIVO.nemo
 prop-data:grants_two.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US ;
+        rdfs:label       "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grants_two" ;
         prop:hasPackage  "VIVO" ;
@@ -3373,7 +3373,7 @@ prop-data:number_of.VIVO.nemo
 prop-data:fill_in_template_with_data.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
+        rdfs:label       "Fill in the template with your data.  You may fill in multiple templates if you wish to harvest multiple files at once."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "fill_in_template_with_data" ;
         prop:hasPackage  "VIVO" ;
@@ -6152,7 +6152,7 @@ prop-data:parent_entity.VIVO.nemo
 prop-data:theses_capitalized.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Theses"@en-US ;
+        rdfs:label       "Theses "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "theses_capitalized" ;
         prop:hasPackage  "VIVO" ;
@@ -6180,7 +6180,7 @@ prop-data:award_name.VIVO.nemo
 prop-data:no_grants_for.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Currently there are no grants for"@en-US ;
+        rdfs:label       "Currently there are no grants for "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_grants_for" ;
         prop:hasPackage  "VIVO" ;
@@ -6802,7 +6802,7 @@ prop-data:in.VIVO.nemo
 prop-data:harvest_complete.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
         prop:hasPackage  "VIVO" ;

@@ -414,7 +414,7 @@ prop-data:since.Vitro-languages
 prop-data:limit_to.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Ограничить до"@ru-RU ;
+        rdfs:label       "Ограничить до "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "limit_to" ;
         prop:hasPackage  "Vitro-languages" .
@@ -430,7 +430,7 @@ prop-data:password_created_subject.Vitro-languages
 prop-data:vitro_description.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Vitro - это универсальный веб-редактор онтологий и экземпляров с настраиваемым общедоступным доступом. Также Vitro - это веб-приложение Java, работающее в контейнере сервлетов Tomcat."@ru-RU ;
+        rdfs:label       "Vitro - это универсальный веб-редактор онтологий и экземпляров с настраиваемым общедоступным доступом. Также Vitro - это веб-приложение Java, работающее в контейнере сервлетов Tomcat. "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "vitro_description" ;
         prop:hasPackage  "Vitro-languages" .
@@ -454,7 +454,7 @@ prop-data:current_time.Vitro-languages
 prop-data:release.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "выпуск"@ru-RU ;
+        rdfs:label       "выпуск "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "release" ;
         prop:hasPackage  "Vitro-languages" .
@@ -1762,7 +1762,7 @@ prop-data:search_indexer_idle.Vitro-languages
 prop-data:start_capitalized.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Начало,"@ru-RU ;
+        rdfs:label       "Начало, "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "start_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
@@ -1914,7 +1914,7 @@ prop-data:add_property_group.Vitro-languages
 prop-data:browse_by.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Просматривать"@ru-RU ;
+        rdfs:label       "Просматривать "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "browse_by" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2359,7 +2359,7 @@ prop-data:display_more_ellipsis.Vitro-languages
 prop-data:updated_account_1.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Учётная запись"@ru-RU ;
+        rdfs:label       "Учётная запись "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "updated_account_1" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2480,7 +2480,7 @@ prop-data:internal_class_i_capped.Vitro-languages
 prop-data:decimal_only.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Неверный ввод. Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU ;
+        rdfs:label       "Неверный ввод.  Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2903,7 +2903,7 @@ prop-data:comments_questions.Vitro-languages
 prop-data:send_mail.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Отправить письмо"@ru-RU ;
+        rdfs:label       "Отправить письмо "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "send_mail" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3461,7 +3461,7 @@ prop-data:create_new_entry.Vitro-languages
 prop-data:enter_in_security_field.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Пожалуйста, введите показанные ниже буквы в поле безопасности"@ru-RU ;
+        rdfs:label       "Пожалуйста, введите показанные ниже буквы в поле безопасности "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "enter_in_security_field" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3765,7 +3765,7 @@ prop-data:filter_by_roles.Vitro-languages
 prop-data:page_uri_missing_msg.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Не удалось сгенерировать страницу, потому что неясно, какая страница запрашивается. Возможно, отсутствует сопоставление URL."@ru-RU ;
+        rdfs:label       "Не удалось сгенерировать страницу, потому что неясно, какая страница запрашивается.  Возможно, отсутствует сопоставление URL."@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_uri_missing_msg" ;
         prop:hasPackage  "Vitro-languages" .
@@ -4037,7 +4037,7 @@ prop-data:manage_grants_and_projects_link.Vitro-languages
 prop-data:manage_labels_intro.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка."@ru-RU ;
+        rdfs:label       "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка. "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage_labels_intro" ;
         prop:hasPackage  "Vitro-languages" .
@@ -4926,7 +4926,7 @@ prop-data:friday.Vitro-languages
 prop-data:return_to_the.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Вернуться на"@ru-RU ;
+        rdfs:label       "Вернуться на "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "return_to_the" ;
         prop:hasPackage  "Vitro-languages" .
@@ -5602,7 +5602,7 @@ prop-data:save_this_content.Vitro-languages
 prop-data:data.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "данные"@ru-RU ;
+        rdfs:label       "данные "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "data" ;
         prop:hasPackage  "Vitro-languages" .

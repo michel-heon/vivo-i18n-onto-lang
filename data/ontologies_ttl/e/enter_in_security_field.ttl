@@ -11,7 +11,7 @@ prop-data:enter_in_security_field.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Bitte geben Sie die unten angezeigten Buchstaben in das Sicherheitsfeld ein"@de-DE ;
         rdfs:label       "Veuillez saisir les caractères apparaissant ci-dessous dans le champs sécurisé prévu à cet effet"@fr-CA ;
-        rdfs:label       "Пожалуйста, введите показанные ниже буквы в поле безопасности"@ru-RU ;
+        rdfs:label       "Пожалуйста, введите показанные ниже буквы в поле безопасности "@ru-RU ;
         rdfs:label       "Por favor insira as letras que aparecerem abaixo em matéria de segurança"@pt-BR ;
         rdfs:label       "Por favor introduce las letras que se muestran a continuación en el campo de seguridad"@es ;
         rdfs:label       "Please enter the letters displayed below into the security field"@en-CA ;

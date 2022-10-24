@@ -19,13 +19,13 @@ prop-data:page_text.Vitro
 prop-data:page_text.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "page text"@en-US ;
         rdfs:label       "page text"@en-CA ;
-        rdfs:label       "texte de la page"@fr-CA ;
+        rdfs:label       "page text"@en-US ;
         rdfs:label       "text página"@pt-BR ;
         rdfs:label       "texto de la página"@es ;
         rdfs:label       "Seitentext"@de-DE ;
         rdfs:label       "tekst stranice"@sr-Latn-RS ;
+        rdfs:label       "texte de la page "@fr-CA ;
         rdfs:label       "текст страницы"@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_text" ;

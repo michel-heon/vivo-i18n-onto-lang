@@ -9,8 +9,8 @@
 prop-data:all_x_properties.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Todos  {0} das Propriedades"@pt-BR ;
         rdfs:label       "Todos los {0} propiedades"@es ;
-        rdfs:label       "Todos {0} das Propriedades"@pt-BR ;
         rdfs:label       "Alle {0} Eigenschaften"@de-DE ;
         rdfs:label       "Toutes les propriétés {0}"@fr-CA ;
         rdfs:label       "Sva {0} svojstva"@sr-Latn-RS ;

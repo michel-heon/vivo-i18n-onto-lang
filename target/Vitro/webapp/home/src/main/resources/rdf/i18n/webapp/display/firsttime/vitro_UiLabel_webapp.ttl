@@ -2305,7 +2305,7 @@ prop-data:new_password.Vitro
 prop-data:page_uri_missing_msg.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-US ;
+        rdfs:label       "Could not generate page beacause it was unclear what page was being requested.  A URL mapping may be missing."@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_uri_missing_msg" ;
         prop:hasPackage  "Vitro" .
@@ -5745,7 +5745,7 @@ prop-data:selected_page_content_type.Vitro
 prop-data:decimal_only.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-US ;
+        rdfs:label       "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDataPropertyForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
@@ -6887,7 +6887,7 @@ prop-data:supply_sparql_query.Vitro
 prop-data:confirm_individual_deletion.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Are you sure you want to delete the following individual?"@en-US ;
+        rdfs:label       "Are you sure you want to delete the following individual? "@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/confirmDeleteIndividualForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_individual_deletion" ;

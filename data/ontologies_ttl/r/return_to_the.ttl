@@ -22,13 +22,13 @@ prop-data:return_to_the.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Vratite se na"@sr-Latn-RS ;
-        rdfs:label       "Вернуться на"@ru-RU ;
         rdfs:label       "Retornar para a"@pt-BR ;
         rdfs:label       "Return to the"@en-CA ;
         rdfs:label       "Return to the"@en-US ;
         rdfs:label       "Zurück zu"@de-DE ;
         rdfs:label       "Revenir à la"@fr-CA ;
         rdfs:label       "Vuelva a la"@es ;
+        rdfs:label       "Вернуться на "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "return_to_the" ;
         prop:hasPackage  "Vitro-languages" .

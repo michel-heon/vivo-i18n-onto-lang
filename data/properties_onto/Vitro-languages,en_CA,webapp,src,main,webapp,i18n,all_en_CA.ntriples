@@ -1872,7 +1872,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "decimal_only" .
 <http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#new_account_2.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#new_account_2.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -2160,7 +2160,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "confirm_individual_deletion" .
 <http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Are you sure you want to delete the following individual?"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Are you sure you want to delete the following individual? "@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#confirm_individual_deletion.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#september.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#september.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -2849,7 +2849,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_uri_missing_msg" .
 <http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Could not generate page beacause it was unclear what page was being requested. A URL mapping may be missing."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Could not generate page beacause it was unclear what page was being requested.  A URL mapping may be missing."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .

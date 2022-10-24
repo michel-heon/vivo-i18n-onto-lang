@@ -20,12 +20,12 @@ prop-data:fatal_error.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Erreur fatale"@fr-CA ;
         rdfs:label       "Error Fatal"@es ;
+        rdfs:label       "Fatalna greška "@sr-Latn-RS ;
         rdfs:label       "Erro Fatal"@pt-BR ;
         rdfs:label       "Фатальная ошибка"@ru-RU ;
         rdfs:label       "Fatal Error"@de-DE ;
         rdfs:label       "Fatal Error"@en-CA ;
         rdfs:label       "Fatal Error"@en-US ;
-        rdfs:label       "Fatalna greška"@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "fatal_error" ;
         prop:hasPackage  "Vitro-languages" .

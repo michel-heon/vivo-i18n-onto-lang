@@ -12,7 +12,7 @@
 ###################################################################
 export LOC_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $LOC_SCRIPT_DIR/../00-env.sh
-source $LOC_SCRIPT_DIR/func_cleanup.sh
+source $LIB/func_cleanup.sh
 export TMP_LIST_OF_KEYS_FN=$TMPDIR/tmp_ListOfKeys.txt
 export TMP_LIST_OF_PROPERTIES_FN=$TMPDIR/tmp_ListOfPropFn.txt
 function list_properties_fn () {
@@ -25,7 +25,7 @@ function store_properties_files () {
         echo $PROPERTIES_URL $PROPERTIES_FN
 #        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL | grep '^at=' > $PROPERTIES_DATA/$PROPERTIES_FN 
 #        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL | grep '^co_investigator_network=\|^create_and_link_confirm_works=\|^region=' > $PROPERTIES_DATA/$PROPERTIES_FN &
-        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL > $PROPERTIES_DATA/$PROPERTIES_FN &
+        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL | sort > $PROPERTIES_DATA/$PROPERTIES_FN &
         ((j=j+1))
         if [ $j = "11" ]
         then

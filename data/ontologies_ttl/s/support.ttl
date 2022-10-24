@@ -41,7 +41,7 @@ prop-data:support.Vitro-languages
         rdfs:label       "Support"@en-US ;
         rdfs:label       "Soporte"@es ;
         rdfs:label       "Поддержка"@ru-RU ;
-        rdfs:label       "Aide"@fr-CA ;
+        rdfs:label       "Aide "@fr-CA ;
         rdfs:label       "Podrška"@sr-Latn-RS ;
         rdfs:label       "Suporte"@pt-BR ;
         prop:hasApp      "Vitro" ;

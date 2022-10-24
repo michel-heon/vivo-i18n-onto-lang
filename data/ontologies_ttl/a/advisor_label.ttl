@@ -13,9 +13,9 @@ prop-data:advisor_label.VIVO-languages
         rdfs:label       "advisor label"@en-CA ;
         rdfs:label       "метка консультанта"@ru-RU ;
         rdfs:label       "Bezeichnung der Betreuerin / des Betreuers"@de-DE ;
-        rdfs:label       "labela savetnika"@sr-Latn-RS ;
         rdfs:label       "etiqueta asesor"@es ;
         rdfs:label       "rótulo orientador"@pt-BR ;
+        rdfs:label       "labela savetnika\t"@sr-Latn-RS ;
         rdfs:label       "étiquette de conseiller"@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "advisor_label" ;

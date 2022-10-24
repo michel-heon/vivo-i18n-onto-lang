@@ -9,7 +9,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fatal Error"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fatal Error"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fatal Error"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fatalna greška"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fatalna greška "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Фатальная ошибка"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/startupStatus-display.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 

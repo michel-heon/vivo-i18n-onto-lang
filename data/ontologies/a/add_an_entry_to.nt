@@ -7,7 +7,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#add_an_entry_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Add an entry of type"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#add_an_entry_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Adicione uma entrada de tipo"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#add_an_entry_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Agregue una entrada de tipo"@es .
-<http://vivoweb.org/ontology/core/properties/individual#add_an_entry_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ajouter un enregistrement de type"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_an_entry_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ajouter un enregistrement de type "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#add_an_entry_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Dodajte entitet tipa"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#add_an_entry_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Füge einen Eintrag hinzu vom Typ"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#add_an_entry_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Добавить запись к"@ru-RU .

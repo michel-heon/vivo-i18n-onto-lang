@@ -10,8 +10,8 @@ prop-data:local_name.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Lokalni naziv"@sr-Latn-RS ;
+        rdfs:label       "Nom local "@fr-CA ;
         rdfs:label       "Локальное название"@ru-RU ;
-        rdfs:label       "Nom local"@fr-CA ;
         rdfs:label       "Nome Local"@pt-BR ;
         rdfs:label       "Local Name"@de-DE ;
         rdfs:label       "Nombre local"@es ;

@@ -19,7 +19,7 @@ prop-data:account_management.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Gestion des comptes d'usagers"@fr-CA ;
-        rdfs:label       "Upravljanje nalozima"@sr-Latn-RS ;
+        rdfs:label       "Upravljanje nalozima "@sr-Latn-RS ;
         rdfs:label       "Gerenciamento de Conta"@pt-BR ;
         rdfs:label       "Account Management"@en-CA ;
         rdfs:label       "Account Management"@en-US ;

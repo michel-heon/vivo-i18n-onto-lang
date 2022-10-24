@@ -38,9 +38,9 @@ prop-data:place_of_grant.VIVO-languages.wilma
         rdfs:label       "Место предоставления гранта"@ru-RU ;
         rdfs:label       "Lugar de subvención"@es ;
         rdfs:label       "Ort des Forschungsprojektes"@de-DE ;
-        rdfs:label       "Mesto izdavanja stipendije"@sr-Latn-RS ;
-        rdfs:label       "Place of grant"@en-US ;
+        rdfs:label       "Mesto izdavanja stipendije "@sr-Latn-RS ;
         rdfs:label       "Place of grant"@en-CA ;
+        rdfs:label       "Place of grant"@en-US ;
         rdfs:label       "Local de publicação"@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "place_of_grant" ;

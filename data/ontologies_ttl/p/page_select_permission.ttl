@@ -11,10 +11,10 @@ prop-data:page_select_permission.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Selecione as permissões de página"@pt-BR ;
         rdfs:label       "Seitenberechtigungen auswählen"@de-DE ;
-        rdfs:label       "Sélectionner les permissions d'accès aux pages"@fr-CA ;
         rdfs:label       "Odaberite dozvole za stranicu"@sr-Latn-RS ;
         rdfs:label       "Seleccione los permisos de página"@es ;
         rdfs:label       "Выберите разрешения для страницы"@ru-RU ;
+        rdfs:label       "Sélectionner les permissions d'accès aux pages "@fr-CA ;
         rdfs:label       "Select page permissions"@en-CA ;
         rdfs:label       "Select page permissions"@en-US ;
         prop:hasApp      "Vitro" ;

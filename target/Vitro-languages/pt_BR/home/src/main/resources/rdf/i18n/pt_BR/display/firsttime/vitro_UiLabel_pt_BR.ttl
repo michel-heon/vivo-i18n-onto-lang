@@ -1357,7 +1357,7 @@ prop-data:create_capitalized.Vitro-languages
 prop-data:error_previous_password.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Sua nova senha não pode ser iqual a sua atual."@pt-BR ;
+        rdfs:label       "Sua nova senha não pode  ser iqual a sua atual."@pt-BR ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "error_previous_password" ;
         prop:hasPackage  "Vitro-languages" .
@@ -1508,7 +1508,7 @@ prop-data:return_to_individual.Vitro-languages
 prop-data:all_x_properties.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Todos {0} das Propriedades"@pt-BR ;
+        rdfs:label       "Todos  {0} das Propriedades"@pt-BR ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "all_x_properties" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3726,7 +3726,7 @@ prop-data:unrecognized_user.Vitro-languages
 prop-data:password_change_invalid_key.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "O link que você usou para {0} é inválido. Peça ao administrador do site para reenviar o link."@pt-BR ;
+        rdfs:label       "O link que você usou para {0} é inválido. Peça ao administrador do site para reenviar o link. "@pt-BR ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "password_change_invalid_key" ;
         prop:hasPackage  "Vitro-languages" .

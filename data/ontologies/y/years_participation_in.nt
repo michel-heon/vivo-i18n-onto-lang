@@ -6,7 +6,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Années de participation dans"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Años de participación en"@es .
-<http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Godina učestvovanja u"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Godina učestvovanja u "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Jahre der Mitarbeit in"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Years of Participation in"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Years of Participation in"@en-US .

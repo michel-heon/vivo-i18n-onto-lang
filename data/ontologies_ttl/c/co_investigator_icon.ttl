@@ -30,12 +30,12 @@ prop-data:co_investigator_icon.VIVO.nemo
 prop-data:co_investigator_icon.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "ikonica koautora"@sr-Latn-RS ;
         rdfs:label       "значок со-исследователя"@ru-RU ;
         rdfs:label       "icon = co-investigador"@pt-BR ;
         rdfs:label       "co-investigator icon"@en-US ;
         rdfs:label       "co-investigator icon"@en-CA ;
         rdfs:label       "icono de coinvestigador"@es ;
+        rdfs:label       "ikonica koautora "@sr-Latn-RS ;
         rdfs:label       "icône de cochercheur(-euse)"@fr-CA ;
         rdfs:label       "KoforscherIn-Icon"@de-DE ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;

@@ -1307,7 +1307,7 @@ prop-data:orcid_step1_description.VIVO-languages
 prop-data:internal_class_intro_two.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Esto le permitirá limitar las personas que aparecen en las páginas del menú principal (Personas, Investigación, etc.) a sólo aquellos dentro de su institución."@es ;
+        rdfs:label       "Esto le permitirá limitar las personas que aparecen en las páginas del menú  principal (Personas, Investigación, etc.) a sólo aquellos dentro de su institución."@es ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "internal_class_intro_two" ;
         prop:hasPackage  "VIVO-languages" .

@@ -10,7 +10,7 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export PROP_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-SPARQL_SCRIPT_DIR=$PROP_SCRIPT_DIR/sparql
+SPARQL_SCRIPT_DIR=$PROP_SCRIPT_DIR/../sparql
 source $PROP_SCRIPT_DIR/func_cleanup.sh
 
 export PROPFN=$1
@@ -52,7 +52,7 @@ URLFILTER="FILTER(regex(str(?url),\"${REGION}\")) ."
 fi
 if [ -z $THEME ]; then
 cat << EOF > $TMPDIR/describe.sparql
-$(cat $SPARQL_SCRIPT_DIR/header.sparql)
+$(cat $SPARQL_HEADER)
 CONSTRUCT {
         ?s a  ?type .
         ?s rdfs:label ?label .

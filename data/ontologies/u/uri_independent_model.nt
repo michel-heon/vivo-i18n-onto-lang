@@ -10,7 +10,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#uri_independent_model.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "URI Independent Modelo"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#uri_independent_model.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "URI nezavisan model"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#uri_independent_model.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "unabhängiges URI-Modell"@de-DE .
-<http://vivoweb.org/ontology/core/properties/individual#uri_independent_model.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Независимая модель URI"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#uri_independent_model.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Независимая модель URI "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#uri_independent_model.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#uri_independent_model.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "uri_independent_model" .
 <http://vivoweb.org/ontology/core/properties/individual#uri_independent_model.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 

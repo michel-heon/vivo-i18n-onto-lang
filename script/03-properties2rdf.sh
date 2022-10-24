@@ -11,17 +11,15 @@
 ###################################################################
 export LOC_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $LOC_SCRIPT_DIR/../00-env.sh
-source $LOC_SCRIPT_DIR/func_cleanup.sh
+source $LIB/func_cleanup.sh
 PATH=$PATH:$LOC_SCRIPT_DIR
 TMP_PROP_FN=$TMPDIR/propFn.txt
 export ONTO_FN=""
 function extract_vars() {
-        QUOTE_VALUE="$(echo $PROPFN_VAL | cut -f 2- -d '=')"
+        QUOTE_VALUE="$(grep "^${KEY}=" $PROPFN_VAL | cut -f 2- -d '=')"
         VALUE=${QUOTE_VALUE//\"/\\\"} # replace " by \" in value
-        PROP_FN_KEY=$(echo $PROPFN_VAL | cut -f 1 -d '=')
-        PROP_FN=$(echo $PROP_FN_KEY | cut -f 1 -d ':')
-        PROP_KEY=$(echo $PROP_FN_KEY | cut -f 2 -d ':')
-        BN=$(basename $PROP_FN .properties | tr -s ',' '/')
+        PROP_KEY=$KEY
+        BN=$(basename $PROPFN_VAL .properties | tr -s ',' '/')
         REGION=$(basename $BN | cut -f 2- -d '_' | tr -s '_' '-'| sed 's/all-//g')
         NT_FN=$KEY.nt
         PKG=$(echo $BN | cut -f 1 -d '/')
@@ -29,14 +27,24 @@ function extract_vars() {
         if [ -n "${THEME}" ]; then predicateValue=$PROP_KEY.$PKG.$THEME; else predicateValue=$PROP_KEY.$PKG; fi
 }
 
-
+function print_extracted_values () {
+printf "###################################\n\
+\t QUOTE_VALUE=$QUOTE_VALUE \n\
+\t VALUE=($VALUE) \n \
+\t PROPFN_VAL=($PROPFN_VAL) \n\
+\t PROP_KEY=($PROP_KEY) \n\
+\t BN=($BN) \n\
+\t REGION=($REGION) \n\
+\t NT_FN=($NT_FN)\n\
+\t PKG=$PKG\n\
+\t THEME=($THEME) \n\
+\t LOCATION=$ONTO_DATA_TTL/$SUB_REP/${ONTO_FN}.ttl \n"
+}
 function print_values () {
 printf "###################################\n\
 \t predicateValue=$predicateValue \n\
 \t PROPFN_VAL=($PROPFN_VAL) \n \
 \t VALUE=($VALUE) \n\
-\t PROP_FN_KEY=($PROP_FN_KEY) \n\
-\t PROP_FN=($PROP_FN) \n\
 \t PROP_KEY=($PROP_KEY) \n\
 \t BN=($BN) \n\
 \t REGION=($REGION) \n\
@@ -55,6 +63,7 @@ function build_indv() {
     cat $1 | while read PROPFN_VAL
     do
         extract_vars
+       #  print_extracted_values  # For debugging
         [ "$REGION" = "all" ] && REGION='en-US'
         cat << EOF >> $TMP_ONTO_RESULT
 <$BASE_IRI#$predicateValue> <http://www.w3.org/2000/01/rdf-schema#label>  "$VALUE"@$REGION .
@@ -82,7 +91,7 @@ function process_extraction() {
     KEY=$1
     cd $PROPERTIES_DATA
     SUB_REP="${KEY:0:1}"
-    grep "^${KEY}=" * > $TMP_PROP_FN 
+    grep -l "^${KEY}=" * > $TMP_PROP_FN  # Extract the list of files containing the key
     ONTO_FN=${KEY}
     echo "($LOOP_CTR/$NBR_LINE) Processing for key = '$KEY',  ontologies: '$ONTO_FN' "
     export TMP_ONTO_RESULT=$TMPDIR/$ONTO_FN.nt
@@ -90,7 +99,9 @@ function process_extraction() {
     build_indv $TMP_PROP_FN
     process_ftl
     cat $TMP_ONTO_RESULT | sort | uniq | grep -Ev "^$" > $ONTO_DATA/$SUB_REP/$ONTO_FN.nt
+    echo "      Convert $ONTO_DATA/$SUB_REP/$ONTO_FN.nt to TTL"
     func_nt2ttl.sh < $ONTO_DATA/$SUB_REP/$ONTO_FN.nt > $ONTO_DATA_TTL/$SUB_REP/$ONTO_FN.ttl
+    echo "      Done convert $ONTO_DATA/$SUB_REP/$ONTO_FN.nt to TTL"
     echo "  Done [$KEY] !"
 
 }
@@ -129,10 +140,11 @@ NBR_LINE=$(cat $LIST_OF_KEYS_FN | wc -l )
 for _KEY in $(cat $LIST_OF_KEYS_FN)
 do
     ((LOOP_CTR=LOOP_CTR+1))
-#    KEY=in
+#    _KEY=first_name
     process_extraction $_KEY &
+#    exit 0
     ((j=j+1))
-    if [ $j = "36" ]
+    if [ $j = "48" ]
     then
         wait; ((j=0)) ;  echo "################ New cycle"
     else

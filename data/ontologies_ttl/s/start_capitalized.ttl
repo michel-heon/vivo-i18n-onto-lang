@@ -12,11 +12,11 @@ prop-data:start_capitalized.Vitro-languages
         rdfs:label       "Début"@fr-CA ;
         rdfs:label       "Início"@pt-BR ;
         rdfs:label       "Iniciar"@es ;
-        rdfs:label       "Начало,"@ru-RU ;
         rdfs:label       "Start"@de-DE ;
         rdfs:label       "Početak"@sr-Latn-RS ;
-        rdfs:label       "Start"@en-US ;
         rdfs:label       "Start"@en-CA ;
+        rdfs:label       "Start"@en-US ;
+        rdfs:label       "Начало, "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "start_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
@@ -46,10 +46,10 @@ prop-data:start_capitalized.VIVO-languages
         rdfs:label       "Início"@pt-BR ;
         rdfs:label       "Inicio"@es ;
         rdfs:label       "Start"@de-DE ;
-        rdfs:label       "Start"@en-CA ;
         rdfs:label       "Start"@en-US ;
-        rdfs:label       "Начало,"@ru-RU ;
+        rdfs:label       "Start"@en-CA ;
         rdfs:label       "Početak"@sr-Latn-RS ;
+        rdfs:label       "Начало, "@ru-RU ;
         rdfs:label       "Début"@fr-CA ;
         prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;

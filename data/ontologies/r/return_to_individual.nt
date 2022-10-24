@@ -4,7 +4,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#return_to_individual.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#return_to_individual.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_individual.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Retornar para Página Individual"@pt-BR .
-<http://vivoweb.org/ontology/core/properties/individual#return_to_individual.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Retournez à la page index des enregistrements"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_individual.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Retournez à la page index des enregistrements "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_individual.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Return to Individual Page"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_individual.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Return to Individual Page"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_individual.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Volver a la página de usuarios"@es .

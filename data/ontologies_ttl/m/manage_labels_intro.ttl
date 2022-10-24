@@ -13,10 +13,10 @@ prop-data:manage_labels_intro.Vitro-languages
         rdfs:label       "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-CA ;
         rdfs:label       "No caso de multiplos labels existirem com mesma linguagem, por favor remova um link labels que voce nao deseja exiber na sua pagina do perfil."@pt-BR ;
         rdfs:label       "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US ;
-        rdfs:label       "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка."@ru-RU ;
         rdfs:label       "En el caso de que existan varias etiquetas en el mismo idioma, por favor, utilice el enlace remove para eliminar las etiquetas que no desea que aparezcan en la página de perfil para un determinado idioma."@es ;
         rdfs:label       "Dans le cas où plusieurs étiquettes existent dans la même langue, veuillez utiliser le lien de suppression pour supprimer les étiquettes que vous ne voulez pas voir apparaître sur la page de profil pour une langue donnée."@fr-CA ;
         rdfs:label       "Wenn mehrere Labels in der gleichen Sprache existieren, nutzen Sie bitte den Entfernen-Link, um die Labels zu entfernen, die Sie nicht auf der Profilseite der angegebenen Sprache anzeigen möchten."@de-DE ;
+        rdfs:label       "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка. "@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage_labels_intro" ;
         prop:hasPackage  "Vitro-languages" .

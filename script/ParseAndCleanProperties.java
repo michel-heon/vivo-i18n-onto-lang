@@ -7,7 +7,10 @@ import java.util.Iterator;
 import java.util.Properties;
 /*
  * Sert au traitement des valeurs des propriétés dont notamment
- *  la suppression des caractères "\" de saut de ligne pour mettre la valeur sur une seule ligne
+ * la suppression des caractères "\" de saut de ligne pour mettre la valeur sur une seule ligne
+ *  
+ * Used for the treatment of the values of the properties of which in particular the suppression 
+ * of the characters "\" of line break to put the value on only one line
  */
 public class LIST_PROPERTIES {
 

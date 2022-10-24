@@ -7,8 +7,8 @@
 <http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "All {0} Properties"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Alle {0} Eigenschaften"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sva {0} svojstva"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Todos  {0} das Propriedades"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Todos los {0} propiedades"@es .
-<http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Todos {0} das Propriedades"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Toutes les propriétés {0}"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Все {0} свойств"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#all_x_properties.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-objectPropHierarchy.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 

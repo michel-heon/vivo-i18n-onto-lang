@@ -7,7 +7,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#change_text_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Cambiar texto por:"@es .
 <http://vivoweb.org/ontology/core/properties/individual#change_text_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Change text for:"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#change_text_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Change text for:"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#change_text_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Changement du texte pour:"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#change_text_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Changement du texte pour: "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#change_text_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Promenite tekst za:"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#change_text_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Text ändern für:"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#change_text_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Изменить текст для:"@ru-RU .

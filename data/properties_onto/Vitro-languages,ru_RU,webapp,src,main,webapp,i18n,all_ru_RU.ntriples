@@ -307,7 +307,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#limit_to.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#limit_to.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "limit_to" .
 <http://vivoweb.org/ontology/core/properties/individual#limit_to.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#limit_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Ограничить до"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#limit_to.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Ограничить до "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#limit_to.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#password_created_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#password_created_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -319,7 +319,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#vitro_description.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#vitro_description.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "vitro_description" .
 <http://vivoweb.org/ontology/core/properties/individual#vitro_description.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#vitro_description.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Vitro - это универсальный веб-редактор онтологий и экземпляров с настраиваемым общедоступным доступом. Также Vitro - это веб-приложение Java, работающее в контейнере сервлетов Tomcat."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#vitro_description.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Vitro - это универсальный веб-редактор онтологий и экземпляров с настраиваемым общедоступным доступом. Также Vitro - это веб-приложение Java, работающее в контейнере сервлетов Tomcat. "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#vitro_description.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#logins_disabled_for_maintenance.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#logins_disabled_for_maintenance.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -337,7 +337,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "release" .
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "выпуск"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "выпуск "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#authenticator.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#authenticator.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -1321,7 +1321,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "start_capitalized" .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Начало,"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Начало, "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#minimum_cardinality.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#minimum_cardinality.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -1435,7 +1435,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#browse_by.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#browse_by.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "browse_by" .
 <http://vivoweb.org/ontology/core/properties/individual#browse_by.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#browse_by.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Просматривать"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#browse_by.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Просматривать "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#browse_by.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#class_group_link.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#class_group_link.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -1768,7 +1768,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "updated_account_1" .
 <http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Учётная запись"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Учётная запись "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#updated_account_1.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#add_page.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#add_page.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -1859,7 +1859,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "decimal_only" .
 <http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Неверный ввод. Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Неверный ввод.  Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#decimal_only.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#new_account_2.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#new_account_2.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -2176,7 +2176,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "send_mail" .
 <http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Отправить письмо"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Отправить письмо "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#send_mail.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#change_profile.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#change_profile.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -2596,7 +2596,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_in_security_field" .
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Пожалуйста, введите показанные ниже буквы в поле безопасности"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Пожалуйста, введите показанные ниже буквы в поле безопасности "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#enter_in_security_field.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#not.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#not.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -2824,7 +2824,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_uri_missing_msg" .
 <http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Не удалось сгенерировать страницу, потому что неясно, какая страница запрашивается. Возможно, отсутствует сопоставление URL."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Не удалось сгенерировать страницу, потому что неясно, какая страница запрашивается.  Возможно, отсутствует сопоставление URL."@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#page_uri_missing_msg.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#fatal_error.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -3028,7 +3028,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_labels_intro" .
 <http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка."@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "В случае, если на одном языке существует несколько меток, воспользуйтесь ссылкой для удаления, чтобы удалить метки, которые вы не хотите отображать на странице профиля для данного языка. "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#manage_labels_intro.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#hide_show_properties.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -3695,7 +3695,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#return_to_the.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_the.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "return_to_the" .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_the.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#return_to_the.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Вернуться на"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#return_to_the.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Вернуться на "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#return_to_the.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#sparql_query.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
@@ -4201,7 +4201,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "data" .
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "данные"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label> "данные "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#error_incorrect_credentials.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .

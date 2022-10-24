@@ -18,10 +18,10 @@ prop-data:co_investigator.VIVO.nemo
 prop-data:co_investigator.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "koautiri "@sr-Latn-RS ;
         rdfs:label       "со-исследователь"@ru-RU ;
         rdfs:label       "co-investigador"@pt-BR ;
         rdfs:label       "cochercheur(-euse)"@fr-CA ;
-        rdfs:label       "koautiri"@sr-Latn-RS ;
         rdfs:label       "co-investigator"@en-CA ;
         rdfs:label       "co-investigator"@en-US ;
         rdfs:label       "KoforscherIn"@de-DE ;

@@ -1658,7 +1658,7 @@ prop-data:invalid_qr_code_parameter.VIVO-languages
 prop-data:vis_tools_note_three.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Nous sommes en train de mettre ces modèles en mémoire cache. Le cache est construit (une seule fois) à la première demande de l'utilisateur après un redémarrage du serveur. Pour cette raison, le même modèle sera servi jusqu'au prochain redémarrage. Cela signifie que les données de ces modèles peuvent devenir périmées selon la date de leur dernière création. Cela fonctionne assez bien pour l'instant. Dans les prochaines versions, nous améliorerons cette solution afin que les modèles soient stockés sur disque et mis à jour périodiquement."@fr-CA ;
+        rdfs:label       "Nous sommes en train de mettre ces modèles en mémoire cache. Le cache est construit (une seule fois) à la première demande de l'utilisateur après un redémarrage du serveur.  Pour cette raison, le même modèle sera servi jusqu'au prochain redémarrage. Cela signifie que les données de ces modèles peuvent devenir périmées selon la date de leur dernière création. Cela fonctionne assez bien pour l'instant. Dans les prochaines versions, nous améliorerons cette solution afin que les modèles soient stockés sur disque et mis à jour périodiquement."@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
         prop:hasPackage  "VIVO-languages" .
@@ -2192,7 +2192,7 @@ prop-data:institutional_internal_class.VIVO-languages
 prop-data:faculty_with_researh_area.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Voici les chercheur(-euse)s du département {0} qui sont intéressé(e)s par ce domaine."@fr-CA ;
+        rdfs:label       "Voici les chercheur(-euse)s du département {0}  qui sont intéressé(e)s par ce domaine."@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "faculty_with_researh_area" ;
         prop:hasPackage  "VIVO-languages" .
@@ -5241,7 +5241,7 @@ prop-data:subject_area.VIVO-languages
 prop-data:cap_map_text2.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Conseil: pour étendre la recherche à d'autres concepts reliés cliquewr sur &lsquo;Étendre&rsquo;."@fr-CA ;
+        rdfs:label       "Conseil: pour étendre la recherche à d'autres concepts reliés cliquewr sur  &lsquo;Étendre&rsquo;."@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cap_map_text2" ;
         prop:hasPackage  "VIVO-languages" .

@@ -1,0 +1,12 @@
+         QUOTE_VALUE=Ajouter un identifiant 
+         VALUE=(Ajouter un identifiant) 
+         PROP_FN_KEY=(VIVO-languages,fr_CA,webapp,src,main,webapp,i18n,vivo_all_fr_CA.properties:add_orcid_id) 
+         PROPFN_VAL=(VIVO-languages,fr_CA,webapp,src,main,webapp,i18n,vivo_all_fr_CA.properties:add_orcid_id=Ajouter un identifiant) 
+         PROP_FN=(VIVO-languages,fr_CA,webapp,src,main,webapp,i18n,vivo_all_fr_CA.properties) 
+         PROP_KEY=(add_orcid_id) 
+         BN=(VIVO-languages/fr_CA/webapp/src/main/webapp/i18n/vivo_all_fr_CA) 
+         REGION=(fr-CA) 
+         NT_FN=(add_orcid_id.nt)
+         PKG=VIVO-languages
+         THEME=() 
+         LOCATION=/home/ubuntu/VIVO_UQAM_PRE_PROD/00-GIT/vivo-i18n-onto-lang/data/ontologies_ttl/a/add_orcid_id.ttl 

@@ -18,14 +18,14 @@ prop-data:verbose_status_off.Vitro
 prop-data:verbose_status_off.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "off"@en-CA ;
         rdfs:label       "off"@en-US ;
+        rdfs:label       "off"@en-CA ;
         rdfs:label       "desligado"@pt-BR ;
         rdfs:label       "isključen"@sr-Latn-RS ;
+        rdfs:label       "inactif "@fr-CA ;
         rdfs:label       "aus"@de-DE ;
         rdfs:label       "apagado"@es ;
         rdfs:label       "отключено"@ru-RU ;
-        rdfs:label       "inactif"@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "verbose_status_off" ;
         prop:hasPackage  "Vitro-languages" .

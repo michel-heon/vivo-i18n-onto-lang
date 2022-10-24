@@ -20,10 +20,10 @@ prop-data:updated_account_1.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "The account for"@en-CA ;
         rdfs:label       "The account for"@en-US ;
-        rdfs:label       "Учётная запись"@ru-RU ;
         rdfs:label       "Le compte de"@fr-CA ;
         rdfs:label       "Nalog za"@sr-Latn-RS ;
         rdfs:label       "Das Konto für"@de-DE ;
+        rdfs:label       "Учётная запись "@ru-RU ;
         rdfs:label       "A conta para"@pt-BR ;
         rdfs:label       "La cuenta para el"@es ;
         prop:hasApp      "Vitro" ;

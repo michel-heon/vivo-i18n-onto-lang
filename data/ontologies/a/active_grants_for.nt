@@ -5,7 +5,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Active Grants for the"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Active Grants for the"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Aktivni grantovi za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Aktivni grantovi za "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bolsas ativas para a"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Subvenciones activos para"@es .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Subventions actives pour"@fr-CA .

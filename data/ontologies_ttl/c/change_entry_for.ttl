@@ -18,13 +18,13 @@ prop-data:change_entry_for.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Изменить запись для:"@ru-RU ;
+        rdfs:label       "Modifier l'enregistrement pour: "@fr-CA ;
         rdfs:label       "Change entry for:"@en-CA ;
         rdfs:label       "Change entry for:"@en-US ;
         rdfs:label       "Promenite unos za:"@sr-Latn-RS ;
         rdfs:label       "Eintrag ändern für:"@de-DE ;
         rdfs:label       "Altere a entrada para:"@pt-BR ;
         rdfs:label       "Cambiar entrada para:"@es ;
-        rdfs:label       "Modifier l'enregistrement pour:"@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "change_entry_for" ;
         prop:hasPackage  "Vitro-languages" .

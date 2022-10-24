@@ -10,7 +10,7 @@ prop-data:drag_drop_to_reorder_menus.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Arrastrar y soltar para cambiar el orden de los elementos de menú"@es ;
-        rdfs:label       "Prevucite kako bi ste promenili redosled stavki u meniju"@sr-Latn-RS ;
+        rdfs:label       "Prevucite kako bi ste promenili redosled stavki u meniju "@sr-Latn-RS ;
         rdfs:label       "Drag and drop to reorder menu items"@en-CA ;
         rdfs:label       "Drag and drop to reorder menu items"@en-US ;
         rdfs:label       "Drag&Drop, um die Menüpunkte neu zu ordnen"@de-DE ;

@@ -9,7 +9,7 @@
 prop-data:decimal_only.Vitro
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-US ;
+        rdfs:label       "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDataPropertyForm.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
@@ -18,14 +18,14 @@ prop-data:decimal_only.Vitro
 prop-data:decimal_only.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Неверный ввод. Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU ;
-        rdfs:label       "Entrée invalide. Un point décimal est autorisé, mais les séparateurs de milliers ne le sont pas."@fr-CA ;
+        rdfs:label       "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-US ;
+        rdfs:label       "Invalid entry.  A decimal point is allowed, but thousands-separators are not."@en-CA ;
+        rdfs:label       "Entrée invalide.  Un point décimal est autorisé, mais les séparateurs de milliers ne le sont pas."@fr-CA ;
+        rdfs:label       "Неверный ввод.  Десятичная точка разрешена, а разделители тысяч - нет."@ru-RU ;
         rdfs:label       "Entrada invalida. Se permite un punto decimal, pero los separadores de miles no lo son."@es ;
         rdfs:label       "Ungültiger Eintrag. Dezimalpunkte sind erlaubt, aber Tausendertrennzeichen sind es nicht."@de-DE ;
-        rdfs:label       "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-CA ;
-        rdfs:label       "Invalid entry. A decimal point is allowed, but thousands-separators are not."@en-US ;
+        rdfs:label       "Neispravan unos.  Dozvoljeno je koristiti tačku da napišete decimalan broj, ali nije dozvoljeno korišćenje separatora između hiljada."@sr-Latn-RS ;
         rdfs:label       "Entrada inválida. Um ponto decimal é permitido, mas milhares de separadores não são."@pt-BR ;
-        rdfs:label       "Neispravan unos. Dozvoljeno je koristiti tačku da napišete decimalan broj, ali nije dozvoljeno korišćenje separatora između hiljada."@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "decimal_only" ;
         prop:hasPackage  "Vitro-languages" .

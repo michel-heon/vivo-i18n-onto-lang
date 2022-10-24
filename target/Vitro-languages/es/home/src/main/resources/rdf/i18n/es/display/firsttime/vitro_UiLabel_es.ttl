@@ -4090,7 +4090,7 @@ prop-data:unrecognized_user.Vitro-languages
 prop-data:password_change_invalid_key.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "El vínculo que usó para {0} no es válido. Solicite al administrador del sitio que vuelva a enviar el enlace."@es ;
+        rdfs:label       "El vínculo que usó para {0} no es válido. Solicite al administrador del sitio que vuelva a enviar el enlace. "@es ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "password_change_invalid_key" ;
         prop:hasPackage  "Vitro-languages" .

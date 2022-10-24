@@ -16,7 +16,7 @@ prop-data:preparing_to_rebuild_index.Vitro-languages
         rdfs:label       "Preparing to rebuild the search index."@en-US ;
         rdfs:label       "Preparación para reconstruir el índice de búsqueda."@es ;
         rdfs:label       "Preparando-se para reconstruir o índice de pesquisa."@pt-BR ;
-        rdfs:label       "Préparation de la reconstruction de l'index de recherche."@fr-CA ;
+        rdfs:label       "Préparation de la  reconstruction de l'index de recherche."@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "preparing_to_rebuild_index" ;
         prop:hasPackage  "Vitro-languages" .

@@ -20,10 +20,10 @@ prop-data:award_hint.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "(npr. za nagrade koje se ne dodljuju svake godine)"@sr-Latn-RS ;
         rdfs:label       "(Por ejemplo, para premios de muchos años)"@es ;
+        rdfs:label       "(z. B. für mehrjährige Auszeichnungen  )"@de-DE ;
         rdfs:label       "(e.g., for multi-year awards)"@en-CA ;
         rdfs:label       "(e.g., for multi-year awards)"@en-US ;
         rdfs:label       "ex.: pour des prix couvrant plusieurs années"@fr-CA ;
-        rdfs:label       "(z. B. für mehrjährige Auszeichnungen )"@de-DE ;
         rdfs:label       "(por exemplo, para os prémios plurianuais)"@pt-BR ;
         rdfs:label       "(например, для многолетних премий)"@ru-RU ;
         prop:hasApp      "VIVO" ;

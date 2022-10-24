@@ -13,7 +13,7 @@ prop-data:add_property_group.Vitro-languages
         rdfs:label       "Adicionar um novo grupo de propriedade"@pt-BR ;
         rdfs:label       "Add new property group"@en-US ;
         rdfs:label       "Add new property group"@en-CA ;
-        rdfs:label       "Dodajte novu grupu svojstava"@sr-Latn-RS ;
+        rdfs:label       "Dodajte novu grupu svojstava "@sr-Latn-RS ;
         rdfs:label       "Agregar nuevo grupo de propiedades"@es ;
         rdfs:label       "Добавить новую группу свойств"@ru-RU ;
         rdfs:label       "Ajouter un nouveau groupe de propriétés"@fr-CA ;

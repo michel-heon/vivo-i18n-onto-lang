@@ -12,11 +12,11 @@ prop-data:disclaimer_text_two.VIVO-languages
         rdfs:label       "que hayan sido cargados en el sistema VIVO como"@es ;
         rdfs:label       "koji se nalaze unutar VIVO sistema od"@sr-Latn-RS ;
         rdfs:label       "que foram introduzidos no sistema a partir de VIVO"@pt-BR ;
-        rdfs:label       "которые были загружены в систему VIVO к"@ru-RU ;
         rdfs:label       "qui ont été chargés dans le système VIVO comme"@fr-CA ;
         rdfs:label       "which have been loaded into the VIVO system as of"@en-CA ;
         rdfs:label       "which have been loaded into the VIVO system as of"@en-US ;
         rdfs:label       "die ab in das VIVO-System geladen wurden."@de-DE ;
+        rdfs:label       "которые были загружены в систему VIVO к "@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "disclaimer_text_two" ;
         prop:hasPackage  "VIVO-languages" .

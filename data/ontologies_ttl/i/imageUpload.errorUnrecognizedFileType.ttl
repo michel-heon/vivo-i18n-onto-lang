@@ -24,7 +24,7 @@ prop-data:imageUpload.errorUnrecognizedFileType.Vitro-languages
         rdfs:label       "''{0}'' не является поддерживаемым типом файла изображения. Пожалуйста, загружайте только файлы JPEG, GIF или PNG."@ru-RU ;
         rdfs:label       "'' {0} '' ist kein akzeptierter Bilddateityp. Bitte laden Sie JPEG, GIF oder PNG-Dateien hoch."@de-DE ;
         rdfs:label       "''{0}'' no es un tipo de archivo de imagen reconocida. Por favor, subir archivos JPEG, GIF o PNG solamente."@es ;
-        rdfs:label       "''{0}'' n'est pas un format d'image reconnu. Veuillez choisir une image au format JPEG, GIF ou PNG."@fr-CA ;
+        rdfs:label       "''{0}''  n'est pas un format d'image reconnu. Veuillez choisir une image au format JPEG, GIF ou PNG."@fr-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "imageUpload.errorUnrecognizedFileType" ;
         prop:hasPackage  "Vitro-languages" .

@@ -10,11 +10,11 @@ prop-data:currently_no_constructed_models.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Il n'existe actuellement aucun modèle construit pour la visualisation."@fr-CA ;
+        rdfs:label       "В настоящее время не существует построенных моделей для использования  в визуализации."@ru-RU ;
         rdfs:label       "modelos Atualmente não há são construídos para uso através da visualização."@pt-BR ;
         rdfs:label       "Currently there are no constructed models for use by visualization."@en-US ;
         rdfs:label       "Currently there are no constructed models for use by visualization."@en-CA ;
         rdfs:label       "De momento no hay modelos construidos para el uso de la visualización."@es ;
-        rdfs:label       "В настоящее время не существует построенных моделей для использования в визуализации."@ru-RU ;
         rdfs:label       "Trenutno ne postoje konstruisani modeli za vizualizaciju."@sr-Latn-RS ;
         rdfs:label       "Bisher wurden keine Modelle erstellt, die zur Visualisierung genutzt werden können."@de-DE ;
         prop:hasApp      "VIVO" ;

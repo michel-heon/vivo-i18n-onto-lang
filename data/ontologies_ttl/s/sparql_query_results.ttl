@@ -20,7 +20,7 @@ prop-data:sparql_query_results.Vitro
 prop-data:sparql_query_results.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Rezultati SPARQL upita"@sr-Latn-RS ;
+        rdfs:label       "Rezultati SPARQL upita "@sr-Latn-RS ;
         rdfs:label       "Resultados de consulta SPARQL"@es ;
         rdfs:label       "Sparql Query Results"@en-CA ;
         rdfs:label       "Sparql Query Results"@en-US ;

@@ -83,7 +83,7 @@ prop-data:error_alert_icon.Vitro-languages
         rdfs:label       "icono alerta de error"@es ;
         rdfs:label       "Значок оповещения об ошибке"@ru-RU ;
         rdfs:label       "Icône d'alerte d'erreur"@fr-CA ;
-        rdfs:label       "Warnsymbol Fehler"@de-DE ;
+        rdfs:label       "Warnsymbol Fehler "@de-DE ;
         rdfs:label       "Erro ícone de alerta"@pt-BR ;
         rdfs:label       "Error alert icon"@en-CA ;
         prop:hasApp      "Vitro" ;

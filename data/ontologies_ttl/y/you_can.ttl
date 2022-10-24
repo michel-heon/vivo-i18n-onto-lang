@@ -12,11 +12,11 @@ prop-data:you_can.Vitro-languages
         rdfs:label       "Вы можете"@ru-RU ;
         rdfs:label       "You can"@en-CA ;
         rdfs:label       "You can"@en-US ;
+        rdfs:label       "Možete "@sr-Latn-RS ;
         rdfs:label       "Usted puede"@es ;
         rdfs:label       "Sie können"@de-DE ;
         rdfs:label       "Você pode"@pt-BR ;
         rdfs:label       "Vous pouvez"@fr-CA ;
-        rdfs:label       "Možete"@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "you_can" ;
         prop:hasPackage  "Vitro-languages" .

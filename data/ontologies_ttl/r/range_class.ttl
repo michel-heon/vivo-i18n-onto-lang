@@ -20,7 +20,7 @@ prop-data:range_class.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Rango de clase"@es ;
-        rdfs:label       "Étendue de la classe"@fr-CA ;
+        rdfs:label       "Étendue de la classe "@fr-CA ;
         rdfs:label       "Класс диапазона"@ru-RU ;
         rdfs:label       "intervalo da Classe"@pt-BR ;
         rdfs:label       "Range Class"@de-DE ;

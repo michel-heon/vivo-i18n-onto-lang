@@ -23,8 +23,8 @@ prop-data:limited_to_type.Vitro-languages
         rdfs:label       "limitado a tipo de registro"@es ;
         rdfs:label       "limited to type"@en-CA ;
         rdfs:label       "limited to type"@en-US ;
+        rdfs:label       "limité aux types "@fr-CA ;
         rdfs:label       "beschränkt auf den Typ"@de-DE ;
-        rdfs:label       "limité aux types"@fr-CA ;
         rdfs:label       "ograničeno na tip"@sr-Latn-RS ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "limited_to_type" ;

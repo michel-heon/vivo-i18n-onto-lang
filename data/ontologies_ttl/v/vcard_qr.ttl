@@ -28,13 +28,13 @@ prop-data:vcard_qr.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "QR de vCard"@fr-CA ;
+        rdfs:label       "QR-код электронной визитной карточки vCard "@ru-RU ;
         rdfs:label       "vCard-QR"@de-DE ;
         rdfs:label       "vCard QR"@en-CA ;
         rdfs:label       "vCard QR"@en-US ;
         rdfs:label       "vCard QR"@pt-BR ;
         rdfs:label       "vCard QR"@sr-Latn-RS ;
         rdfs:label       "vCard QR"@es ;
-        rdfs:label       "QR-код электронной визитной карточки vCard"@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vcard_qr" ;
         prop:hasPackage  "VIVO-languages" .

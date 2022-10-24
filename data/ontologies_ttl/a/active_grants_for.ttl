@@ -9,6 +9,7 @@
 prop-data:active_grants_for.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Aktivni grantovi za "@sr-Latn-RS ;
         rdfs:label       "Subventions actives pour"@fr-CA ;
         rdfs:label       "laufende Forschungsprojekte für"@de-DE ;
         rdfs:label       "Subvenciones activos para"@es ;
@@ -16,7 +17,6 @@ prop-data:active_grants_for.VIVO-languages
         rdfs:label       "Действующие гранты в"@ru-RU ;
         rdfs:label       "Active Grants for the"@en-CA ;
         rdfs:label       "Active Grants for the"@en-US ;
-        rdfs:label       "Aktivni grantovi za"@sr-Latn-RS ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "active_grants_for" ;
         prop:hasPackage  "VIVO-languages" .

@@ -55,7 +55,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "release"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "release"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "version"@fr-CA .
-<http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "выпуск"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#release.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "выпуск "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-vitro.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/revisionInfo.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#release.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 

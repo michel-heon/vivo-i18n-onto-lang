@@ -53,8 +53,8 @@ prop-data:create_entry.Vitro-languages
         rdfs:label       "Создать запись"@ru-RU ;
         rdfs:label       "Create Entry"@en-CA ;
         rdfs:label       "Create Entry"@en-US ;
-        rdfs:label       "Kreirajte unos"@sr-Latn-RS ;
         rdfs:label       "Créer une entrée"@fr-CA ;
+        rdfs:label       "Kreirajte unos "@sr-Latn-RS ;
         rdfs:label       "Criar Entrada"@pt-BR ;
         rdfs:label       "Crear entrada"@es ;
         rdfs:label       "Eintrag erstellen"@de-DE ;

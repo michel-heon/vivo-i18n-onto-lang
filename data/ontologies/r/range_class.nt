@@ -9,7 +9,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#range_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Range Class"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#range_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rango de clase"@es .
 <http://vivoweb.org/ontology/core/properties/individual#range_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "intervalo da Classe"@pt-BR .
-<http://vivoweb.org/ontology/core/properties/individual#range_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étendue de la classe"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#range_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étendue de la classe "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#range_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Класс диапазона"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#range_class.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-fauxPropertiesList.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#range_class.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-objectPropHierarchy.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 

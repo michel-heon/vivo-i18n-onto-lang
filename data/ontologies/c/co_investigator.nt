@@ -12,7 +12,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "co-investigator"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "cochercheur(-euse)"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "coinvestigador"@es .
-<http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "koautiri"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "koautiri "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "со-исследователь"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "co_investigator" .

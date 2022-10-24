@@ -11,7 +11,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#loading_data_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Loading data for"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Loading data for"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Učitavanje podataka za"@sr-Latn-RS .
-<http://vivoweb.org/ontology/core/properties/individual#loading_data_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Загрузка данных для"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#loading_data_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Загрузка данных для "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#loading_data_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#loading_data_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#loading_data_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "loading_data_for" .

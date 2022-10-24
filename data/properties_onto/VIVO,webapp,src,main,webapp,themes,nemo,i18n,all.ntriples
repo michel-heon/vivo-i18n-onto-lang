@@ -156,7 +156,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "harvest_error_instructions_fourA" .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "In VIVO Harvester, the web server user (typically tomcat6) has read and write access to the "@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_fourA.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#years_participation_in.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -571,7 +571,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_text_one" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl. In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "This body is from the the template file vivo/productMods/templates/freemarker/body/menupage/grants.ftl.  In the display model, the grants page has a display:requiresBodyTemplate property that defines that the grants page overrides the default template. The default template for these pages is at /vitro/webapp/web/templates/freemarker/body/menupage/menupage.ftl"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_one.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -695,7 +695,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "vis_tools_note_three" .
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_three.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "We're currently caching these models in memory. The cache is built (only once) on the first user request after a server restart. Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_three.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_three.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#remove_editor_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#remove_editor_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -1411,7 +1411,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_four.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_four.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "vis_tools_note_four" .
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_four.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_four.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "The models are refreshed each time the server restarts. Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_four.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#vis_tools_note_four.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#home_faculty_para1.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#home_faculty_para1.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -1673,7 +1673,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_text_three" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "This would create a page that would use about.ftl as the body. The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#grants_text_three.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#number_capitalized.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#number_capitalized.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -1758,7 +1758,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grants_two" .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "This technique could be used to define pages without menu items, that get their content from a freemarker template. An example would be the about page."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "This technique could be used to define pages without menu items, that get their content from a freemarker template.  An example would be the about page."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#grants_two.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_constructed_models.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#currently_no_constructed_models.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -2681,7 +2681,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#fill_in_template_with_data.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#fill_in_template_with_data.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "fill_in_template_with_data" .
 <http://vivoweb.org/ontology/core/properties/individual#fill_in_template_with_data.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#fill_in_template_with_data.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "Fill in the template with your data. You may fill in multiple templates if you wish to harvest multiple files at once."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#fill_in_template_with_data.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "Fill in the template with your data.  You may fill in multiple templates if you wish to harvest multiple files at once."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#fill_in_template_with_data.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#count_capitalized.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#count_capitalized.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -4892,7 +4892,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#theses_capitalized.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#theses_capitalized.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "theses_capitalized" .
 <http://vivoweb.org/ontology/core/properties/individual#theses_capitalized.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#theses_capitalized.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "Theses"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#theses_capitalized.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "Theses "@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#theses_capitalized.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_network_capitalized.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_network_capitalized.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -4914,7 +4914,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_grants_for" .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "Currently there are no grants for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "Currently there are no grants for "@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#no_grants_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#attendee_capitalized.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .
@@ -5418,7 +5418,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#harvest_complete.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_complete.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "harvest_complete" .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_complete.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_complete.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "Harvest complete. For another, please refresh the page."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#harvest_complete.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label> "Harvest complete.  For another, please refresh the page."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_complete.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_authors.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#drag_drop_reorder_authors.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" .

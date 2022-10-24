@@ -18,9 +18,9 @@ prop-data:replace_photo.Vitro
 prop-data:replace_photo.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Foto ersetzen"@de-DE ;
         rdfs:label       "Remplacer la Photo"@fr-CA ;
         rdfs:label       "Заменить фо"@ru-RU ;
+        rdfs:label       "Foto ersetzen "@de-DE ;
         rdfs:label       "Replace Photo"@en-CA ;
         rdfs:label       "Replace Photo"@en-US ;
         rdfs:label       "Reemplazar foto"@es ;

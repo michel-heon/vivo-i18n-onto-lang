@@ -10,12 +10,12 @@ prop-data:harvest_complete.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Harvesting abgeschlossen. Zum Wiederholen bitte die Seite aktualisieren."@de-DE ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-CA ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         rdfs:label       "Prikupljanje završeno. Za još jedno, molimo Vas da ponovo učitate stranicu."@sr-Latn-RS ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-CA ;
         rdfs:label       "Cosecha completa. Para realizar otra, por favor, actualice la página."@es ;
         rdfs:label       "Moissonnage complété. Pour un nouveau jeu de métadonnées, veuillez recharger la page."@fr-CA ;
-        rdfs:label       "Сбор данных завершен. Для повтора, пожалуйста, обновите страницу."@ru-RU ;
+        rdfs:label       "Сбор данных завершен.  Для повтора, пожалуйста, обновите страницу."@ru-RU ;
         rdfs:label       "Dados recebidos. Por outro lado, por favor, atualize a página."@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
@@ -24,7 +24,7 @@ prop-data:harvest_complete.VIVO-languages
 prop-data:harvest_complete.VIVO
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
@@ -33,7 +33,7 @@ prop-data:harvest_complete.VIVO
 prop-data:harvest_complete.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Harvest complete. For another, please refresh the page."@en-US ;
+        rdfs:label       "Harvest complete.  For another, please refresh the page."@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_complete" ;
         prop:hasPackage  "VIVO" ;

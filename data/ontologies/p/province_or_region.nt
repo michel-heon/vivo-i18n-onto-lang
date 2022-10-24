@@ -4,7 +4,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" . 
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Bundesland oder Bezirk"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Bundesland oder Bezirk "@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Province or Region"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Province or Region"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Province ou région"@fr-CA .
@@ -18,7 +18,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" . 
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Bundesland oder Bezirk"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Bundesland oder Bezirk "@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Province or Region"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Province or Region"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#province_or_region.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Province ou région"@fr-CA .

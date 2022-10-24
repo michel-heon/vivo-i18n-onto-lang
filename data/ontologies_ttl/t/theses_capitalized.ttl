@@ -24,7 +24,7 @@ prop-data:theses_capitalized.VIVO-languages
 prop-data:theses_capitalized.VIVO.nemo
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Theses"@en-US ;
+        rdfs:label       "Theses "@en-US ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "theses_capitalized" ;
         prop:hasPackage  "VIVO" ;

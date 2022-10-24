@@ -486,7 +486,7 @@ prop-data:login_status.Vitro-languages
 prop-data:scroll_to_menus.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Zu Gruppenmenüs scrollen"@de-DE ;
+        rdfs:label       "Zu Gruppenmenüs scrollen "@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "scroll_to_menus" ;
         prop:hasPackage  "Vitro-languages" .
@@ -2233,7 +2233,7 @@ prop-data:some_values_from.Vitro-languages
 prop-data:alt_error_alert.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Warnsymbol Fehler"@de-DE ;
+        rdfs:label       "Warnsymbol Fehler "@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "alt_error_alert" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3374,7 +3374,7 @@ prop-data:selection_in_process.Vitro-languages
 prop-data:please_create.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Bitte erstellen Sie"@de-DE ;
+        rdfs:label       "Bitte erstellen Sie "@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "please_create" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3719,7 +3719,7 @@ prop-data:unrecognized_user.Vitro-languages
 prop-data:password_change_invalid_key.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Der Link, den Sie für {0} verwendet haben, ist ungültig. Bitten Sie den Site-Administrator, den Link erneut zu senden."@de-DE ;
+        rdfs:label       "Der Link, den Sie für {0} verwendet haben, ist ungültig. Bitten Sie den Site-Administrator, den Link erneut zu senden. "@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "password_change_invalid_key" ;
         prop:hasPackage  "Vitro-languages" .
@@ -3927,7 +3927,7 @@ prop-data:new_account_note.Vitro-languages
 prop-data:error_alert_icon.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Warnsymbol Fehler"@de-DE ;
+        rdfs:label       "Warnsymbol Fehler "@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "error_alert_icon" ;
         prop:hasPackage  "Vitro-languages" .
@@ -5454,7 +5454,7 @@ prop-data:site_name.Vitro-languages
 prop-data:replace_photo.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Foto ersetzen"@de-DE ;
+        rdfs:label       "Foto ersetzen "@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "replace_photo" ;
         prop:hasPackage  "Vitro-languages" .

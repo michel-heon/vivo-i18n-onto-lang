@@ -12,7 +12,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Start"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Start"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Start"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#start_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Начало,"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#start_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Начало, "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addGrantRoleToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
@@ -43,7 +43,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Start"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Start"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Start"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Начало,"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Начало, "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeIntervalForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#start_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "start_capitalized" .

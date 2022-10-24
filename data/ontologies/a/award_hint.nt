@@ -8,7 +8,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(e.g., for multi-year awards)"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(npr. za nagrade koje se ne dodljuju svake godine)"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(por exemplo, para os prémios plurianuais)"@pt-BR .
-<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(z. B. für mehrjährige Auszeichnungen )"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(z. B. für mehrjährige Auszeichnungen  )"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "(например, для многолетних премий)"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ex.: pour des prix couvrant plusieurs années"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#award_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 

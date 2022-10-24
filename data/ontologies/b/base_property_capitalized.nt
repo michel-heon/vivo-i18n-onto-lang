@@ -9,7 +9,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#base_property_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bazno svojstvo"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#base_property_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Propiedad base"@es .
 <http://vivoweb.org/ontology/core/properties/individual#base_property_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Propriedade da base"@pt-BR .
-<http://vivoweb.org/ontology/core/properties/individual#base_property_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Propriété Base"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#base_property_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Propriété Base "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#base_property_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Базовое свойство"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#base_property_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-fauxPropertiesList.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#base_property_capitalized.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 

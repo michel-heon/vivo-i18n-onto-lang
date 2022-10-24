@@ -26,7 +26,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "VIVO | conectar compartir descubrir"@es .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "VIVO | connect share discover"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "VIVO | connect share discover"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "VIVO | povežite se delite otkrijte"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "VIVO | povežite se  delite  otkrijte"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "VIVO | verbinden teilen entdecken"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "VIVO | связывайтесь, делитесь, ищите"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#identity_title.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/identity.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 

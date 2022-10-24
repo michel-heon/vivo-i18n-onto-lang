@@ -30,10 +30,10 @@ prop-data:alt_error_alert.Vitro-languages
         rdfs:label       "Icône d'alerte"@fr-CA ;
         rdfs:label       "Error alert icon"@en-CA ;
         rdfs:label       "Error alert icon"@en-US ;
+        rdfs:label       "Warnsymbol Fehler "@de-DE ;
         rdfs:label       "Ícone de alerta de Erro"@pt-BR ;
         rdfs:label       "Icono de alerta de error"@es ;
         rdfs:label       "Значок оповещения об ошибке"@ru-RU ;
-        rdfs:label       "Warnsymbol Fehler"@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "alt_error_alert" ;
         prop:hasPackage  "Vitro-languages" .

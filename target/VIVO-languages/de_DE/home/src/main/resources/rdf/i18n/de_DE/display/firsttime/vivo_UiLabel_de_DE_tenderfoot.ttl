@@ -490,7 +490,7 @@ prop-data:verbose_turn_off.VIVO-languages.tenderfoot
 prop-data:province_or_region.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Bundesland oder Bezirk"@de-DE ;
+        rdfs:label       "Bundesland oder Bezirk "@de-DE ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "province_or_region" ;
         prop:hasPackage  "VIVO-languages" ;

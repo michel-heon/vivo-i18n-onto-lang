@@ -6,7 +6,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#verbose_status_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "apagado"@es .
 <http://vivoweb.org/ontology/core/properties/individual#verbose_status_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "aus"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#verbose_status_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "desligado"@pt-BR .
-<http://vivoweb.org/ontology/core/properties/individual#verbose_status_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "inactif"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_status_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "inactif "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#verbose_status_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "isključen"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#verbose_status_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "off"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#verbose_status_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "off"@en-US .

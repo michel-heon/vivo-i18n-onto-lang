@@ -1,0 +1,384 @@
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./en_CA/webapp/src/main/webapp/i18n/vivo_all_en_CA.properties
+THEME=
+UI_ONTO_FN=_UiLabel_en_CA.ttl
+REGION=en_CA
+MATCH_ONTO=./en_CA/home/src/main/resources/rdf/i18n/en_CA/display/firsttime/vivo_UiLabel_en_CA.ttl
+= EVALUATION FOR vivo_UiLabel_en_CA.txt AND vivo_all_en_CA.txt in ()================
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_en_CA.txt)
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_all_en_CA.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./en_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_CA.properties
+THEME=tenderfoot
+UI_ONTO_FN=_UiLabel_en_CA_tenderfoot.ttl
+REGION=en_CA
+MATCH_ONTO=./en_CA/home/src/main/resources/rdf/i18n/en_CA/display/firsttime/vivo_UiLabel_en_CA_tenderfoot.ttl
+= EVALUATION FOR vivo_UiLabel_en_CA_tenderfoot.txt AND all_en_CA.txt in (tenderfoot)================
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_en_CA_tenderfoot.txt)
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/all_en_CA.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./en_CA/webapp/src/main/webapp/themes/wilma/i18n/all_en_CA.properties
+THEME=wilma
+UI_ONTO_FN=_UiLabel_en_CA_wilma.ttl
+REGION=en_CA
+MATCH_ONTO=./en_CA/home/src/main/resources/rdf/i18n/en_CA/display/firsttime/vivo_UiLabel_en_CA_wilma.ttl
+= EVALUATION FOR vivo_UiLabel_en_CA_wilma.txt AND all_en_CA.txt in (wilma)================
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_en_CA_wilma.txt)
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/all_en_CA.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./sr_Latn_RS/webapp/src/main/webapp/i18n/vivo_all_sr_Latn_RS.properties
+THEME=
+UI_ONTO_FN=_UiLabel_sr_Latn_RS.ttl
+REGION=sr_Latn_RS
+MATCH_ONTO=./sr_Latn_RS/home/src/main/resources/rdf/i18n/sr_Latn_RS/display/firsttime/vivo_UiLabel_sr_Latn_RS.ttl
+= EVALUATION FOR vivo_UiLabel_sr_Latn_RS.txt AND vivo_all_sr_Latn_RS.txt in ()================
+= Word Count = (752 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_sr_Latn_RS.txt)
+= Word Count = (752 /tmp/tmp.Pw22FkdcV/vivo_all_sr_Latn_RS.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./sr_Latn_RS/webapp/src/main/webapp/themes/tenderfoot/i18n/all_sr_Latn_RS.properties
+THEME=tenderfoot
+UI_ONTO_FN=_UiLabel_sr_Latn_RS_tenderfoot.ttl
+REGION=sr_Latn_RS
+MATCH_ONTO=./sr_Latn_RS/home/src/main/resources/rdf/i18n/sr_Latn_RS/display/firsttime/vivo_UiLabel_sr_Latn_RS_tenderfoot.ttl
+= EVALUATION FOR vivo_UiLabel_sr_Latn_RS_tenderfoot.txt AND all_sr_Latn_RS.txt in (tenderfoot)================
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_sr_Latn_RS_tenderfoot.txt)
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/all_sr_Latn_RS.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./sr_Latn_RS/webapp/src/main/webapp/themes/wilma/i18n/all_sr_Latn_RS.properties
+THEME=wilma
+UI_ONTO_FN=_UiLabel_sr_Latn_RS_wilma.ttl
+REGION=sr_Latn_RS
+MATCH_ONTO=./sr_Latn_RS/home/src/main/resources/rdf/i18n/sr_Latn_RS/display/firsttime/vivo_UiLabel_sr_Latn_RS_wilma.ttl
+= EVALUATION FOR vivo_UiLabel_sr_Latn_RS_wilma.txt AND all_sr_Latn_RS.txt in (wilma)================
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_sr_Latn_RS_wilma.txt)
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/all_sr_Latn_RS.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties
+THEME=
+UI_ONTO_FN=_UiLabel_en_US.ttl
+REGION=en_US
+MATCH_ONTO=./en_US/home/src/main/resources/rdf/i18n/en_US/display/firsttime/vivo_UiLabel_en_US.ttl
+= EVALUATION FOR vivo_UiLabel_en_US.txt AND vivo_all_en_US.txt in ()================
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_en_US.txt)
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_all_en_US.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./en_US/webapp/src/main/webapp/themes/tenderfoot/i18n/all_en_US.properties
+THEME=tenderfoot
+UI_ONTO_FN=_UiLabel_en_US_tenderfoot.ttl
+REGION=en_US
+MATCH_ONTO=./en_US/home/src/main/resources/rdf/i18n/en_US/display/firsttime/vivo_UiLabel_en_US_tenderfoot.ttl
+= EVALUATION FOR vivo_UiLabel_en_US_tenderfoot.txt AND all_en_US.txt in (tenderfoot)================
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_en_US_tenderfoot.txt)
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/all_en_US.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./en_US/webapp/src/main/webapp/themes/wilma/i18n/all_en_US.properties
+THEME=wilma
+UI_ONTO_FN=_UiLabel_en_US_wilma.ttl
+REGION=en_US
+MATCH_ONTO=./en_US/home/src/main/resources/rdf/i18n/en_US/display/firsttime/vivo_UiLabel_en_US_wilma.ttl
+= EVALUATION FOR vivo_UiLabel_en_US_wilma.txt AND all_en_US.txt in (wilma)================
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_en_US_wilma.txt)
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/all_en_US.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./fr_CA/webapp/src/main/webapp/i18n/vivo_all_fr_CA.properties
+THEME=
+UI_ONTO_FN=_UiLabel_fr_CA.ttl
+REGION=fr_CA
+MATCH_ONTO=./fr_CA/home/src/main/resources/rdf/i18n/fr_CA/display/firsttime/vivo_UiLabel_fr_CA.ttl
+= EVALUATION FOR vivo_UiLabel_fr_CA.txt AND vivo_all_fr_CA.txt in ()================
+= Word Count = (755 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_fr_CA.txt)
+= Word Count = (755 /tmp/tmp.Pw22FkdcV/vivo_all_fr_CA.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./fr_CA/webapp/src/main/webapp/themes/tenderfoot/i18n/all_fr_CA.properties
+THEME=tenderfoot
+UI_ONTO_FN=_UiLabel_fr_CA_tenderfoot.ttl
+REGION=fr_CA
+MATCH_ONTO=./fr_CA/home/src/main/resources/rdf/i18n/fr_CA/display/firsttime/vivo_UiLabel_fr_CA_tenderfoot.ttl
+= EVALUATION FOR vivo_UiLabel_fr_CA_tenderfoot.txt AND all_fr_CA.txt in (tenderfoot)================
+= Word Count = (96 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_fr_CA_tenderfoot.txt)
+= Word Count = (96 /tmp/tmp.Pw22FkdcV/all_fr_CA.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./fr_CA/webapp/src/main/webapp/themes/wilma/i18n/all_fr_CA.properties
+THEME=wilma
+UI_ONTO_FN=_UiLabel_fr_CA_wilma.ttl
+REGION=fr_CA
+MATCH_ONTO=./fr_CA/home/src/main/resources/rdf/i18n/fr_CA/display/firsttime/vivo_UiLabel_fr_CA_wilma.ttl
+= EVALUATION FOR vivo_UiLabel_fr_CA_wilma.txt AND all_fr_CA.txt in (wilma)================
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_fr_CA_wilma.txt)
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/all_fr_CA.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./de_DE/webapp/src/main/webapp/i18n/vivo_all_de_DE.properties
+THEME=
+UI_ONTO_FN=_UiLabel_de_DE.ttl
+REGION=de_DE
+MATCH_ONTO=./de_DE/home/src/main/resources/rdf/i18n/de_DE/display/firsttime/vivo_UiLabel_de_DE.ttl
+= EVALUATION FOR vivo_UiLabel_de_DE.txt AND vivo_all_de_DE.txt in ()================
+= Word Count = (756 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_de_DE.txt)
+= Word Count = (756 /tmp/tmp.Pw22FkdcV/vivo_all_de_DE.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./de_DE/webapp/src/main/webapp/themes/tenderfoot/i18n/all_de_DE.properties
+THEME=tenderfoot
+UI_ONTO_FN=_UiLabel_de_DE_tenderfoot.ttl
+REGION=de_DE
+MATCH_ONTO=./de_DE/home/src/main/resources/rdf/i18n/de_DE/display/firsttime/vivo_UiLabel_de_DE_tenderfoot.ttl
+= EVALUATION FOR vivo_UiLabel_de_DE_tenderfoot.txt AND all_de_DE.txt in (tenderfoot)================
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_de_DE_tenderfoot.txt)
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/all_de_DE.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./de_DE/webapp/src/main/webapp/themes/wilma/i18n/all_de_DE.properties
+THEME=wilma
+UI_ONTO_FN=_UiLabel_de_DE_wilma.ttl
+REGION=de_DE
+MATCH_ONTO=./de_DE/home/src/main/resources/rdf/i18n/de_DE/display/firsttime/vivo_UiLabel_de_DE_wilma.ttl
+= EVALUATION FOR vivo_UiLabel_de_DE_wilma.txt AND all_de_DE.txt in (wilma)================
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_de_DE_wilma.txt)
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/all_de_DE.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./es/webapp/src/main/webapp/i18n/vivo_all_es.properties
+THEME=
+UI_ONTO_FN=_UiLabel_es.ttl
+REGION=es
+MATCH_ONTO=./es/home/src/main/resources/rdf/i18n/es/display/firsttime/vivo_UiLabel_es.ttl
+= EVALUATION FOR vivo_UiLabel_es.txt AND vivo_all_es.txt in ()================
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_es.txt)
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_all_es.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./es/webapp/src/main/webapp/themes/tenderfoot/i18n/all_es.properties
+THEME=tenderfoot
+UI_ONTO_FN=_UiLabel_es_tenderfoot.ttl
+REGION=es
+MATCH_ONTO=./es/home/src/main/resources/rdf/i18n/es/display/firsttime/vivo_UiLabel_es_tenderfoot.ttl
+= EVALUATION FOR vivo_UiLabel_es_tenderfoot.txt AND all_es.txt in (tenderfoot)================
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_es_tenderfoot.txt)
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/all_es.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./es/webapp/src/main/webapp/themes/wilma/i18n/all_es.properties
+THEME=wilma
+UI_ONTO_FN=_UiLabel_es_wilma.ttl
+REGION=es
+MATCH_ONTO=./es/home/src/main/resources/rdf/i18n/es/display/firsttime/vivo_UiLabel_es_wilma.ttl
+= EVALUATION FOR vivo_UiLabel_es_wilma.txt AND all_es.txt in (wilma)================
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_es_wilma.txt)
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/all_es.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./pt_BR/webapp/src/main/webapp/i18n/vivo_all_pt_BR.properties
+THEME=
+UI_ONTO_FN=_UiLabel_pt_BR.ttl
+REGION=pt_BR
+MATCH_ONTO=./pt_BR/home/src/main/resources/rdf/i18n/pt_BR/display/firsttime/vivo_UiLabel_pt_BR.ttl
+= EVALUATION FOR vivo_UiLabel_pt_BR.txt AND vivo_all_pt_BR.txt in ()================
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_pt_BR.txt)
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_all_pt_BR.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./pt_BR/webapp/src/main/webapp/themes/tenderfoot/i18n/all_pt_BR.properties
+THEME=tenderfoot
+UI_ONTO_FN=_UiLabel_pt_BR_tenderfoot.ttl
+REGION=pt_BR
+MATCH_ONTO=./pt_BR/home/src/main/resources/rdf/i18n/pt_BR/display/firsttime/vivo_UiLabel_pt_BR_tenderfoot.ttl
+= EVALUATION FOR vivo_UiLabel_pt_BR_tenderfoot.txt AND all_pt_BR.txt in (tenderfoot)================
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_pt_BR_tenderfoot.txt)
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/all_pt_BR.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./pt_BR/webapp/src/main/webapp/themes/wilma/i18n/all_pt_BR.properties
+THEME=wilma
+UI_ONTO_FN=_UiLabel_pt_BR_wilma.ttl
+REGION=pt_BR
+MATCH_ONTO=./pt_BR/home/src/main/resources/rdf/i18n/pt_BR/display/firsttime/vivo_UiLabel_pt_BR_wilma.ttl
+= EVALUATION FOR vivo_UiLabel_pt_BR_wilma.txt AND all_pt_BR.txt in (wilma)================
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_pt_BR_wilma.txt)
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/all_pt_BR.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./ru_RU/webapp/src/main/webapp/i18n/vivo_all_ru_RU.properties
+THEME=
+UI_ONTO_FN=_UiLabel_ru_RU.ttl
+REGION=ru_RU
+MATCH_ONTO=./ru_RU/home/src/main/resources/rdf/i18n/ru_RU/display/firsttime/vivo_UiLabel_ru_RU.ttl
+= EVALUATION FOR vivo_UiLabel_ru_RU.txt AND vivo_all_ru_RU.txt in ()================
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_ru_RU.txt)
+= Word Count = (753 /tmp/tmp.Pw22FkdcV/vivo_all_ru_RU.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./ru_RU/webapp/src/main/webapp/themes/tenderfoot/i18n/all_ru_RU.properties
+THEME=tenderfoot
+UI_ONTO_FN=_UiLabel_ru_RU_tenderfoot.ttl
+REGION=ru_RU
+MATCH_ONTO=./ru_RU/home/src/main/resources/rdf/i18n/ru_RU/display/firsttime/vivo_UiLabel_ru_RU_tenderfoot.ttl
+= EVALUATION FOR vivo_UiLabel_ru_RU_tenderfoot.txt AND all_ru_RU.txt in (tenderfoot)================
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_ru_RU_tenderfoot.txt)
+= Word Count = (94 /tmp/tmp.Pw22FkdcV/all_ru_RU.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+
+===================== REPORT ===============================
+Processing VIVO-languages
+A_PRODUCT=VIVO-languages
+A_PROPERTY=./ru_RU/webapp/src/main/webapp/themes/wilma/i18n/all_ru_RU.properties
+THEME=wilma
+UI_ONTO_FN=_UiLabel_ru_RU_wilma.ttl
+REGION=ru_RU
+MATCH_ONTO=./ru_RU/home/src/main/resources/rdf/i18n/ru_RU/display/firsttime/vivo_UiLabel_ru_RU_wilma.ttl
+= EVALUATION FOR vivo_UiLabel_ru_RU_wilma.txt AND all_ru_RU.txt in (wilma)================
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/vivo_UiLabel_ru_RU_wilma.txt)
+= Word Count = (92 /tmp/tmp.Pw22FkdcV/all_ru_RU.txt)
+= DIFF Report ===
+      If the list is empty, it means that the keys of the property file and the ontology match
+= DIFF Report END===
+===================== REPORT END============================
+

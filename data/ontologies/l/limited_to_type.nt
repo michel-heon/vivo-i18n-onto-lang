@@ -9,7 +9,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limite do tipo"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limited to type"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limited to type"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limité aux types"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "limité aux types "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ograničeno na tip"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/search/search-pagedResults.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#limited_to_type.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 

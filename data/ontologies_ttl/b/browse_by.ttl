@@ -9,10 +9,10 @@
 prop-data:browse_by.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Просматривать"@ru-RU ;
         rdfs:label       "Búsqueda por"@es ;
         rdfs:label       "Pregledajte po"@sr-Latn-RS ;
         rdfs:label       "Parcourir par"@fr-CA ;
+        rdfs:label       "Просматривать "@ru-RU ;
         rdfs:label       "Durchsuchen nach"@de-DE ;
         rdfs:label       "Procurar por"@pt-BR ;
         rdfs:label       "Browse by"@en-CA ;

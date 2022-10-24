@@ -20,9 +20,9 @@ prop-data:search_accounts_button.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Искать учетные записи"@ru-RU ;
         rdfs:label       "Konten suchen"@de-DE ;
+        rdfs:label       "Pretražite naloge "@sr-Latn-RS ;
         rdfs:label       "Search accounts"@en-CA ;
         rdfs:label       "Search accounts"@en-US ;
-        rdfs:label       "Pretražite naloge"@sr-Latn-RS ;
         rdfs:label       "pesquisa"@pt-BR ;
         rdfs:label       "Buscar cuentas"@es ;
         rdfs:label       "Rechercher des comptes d'usagers"@fr-CA ;

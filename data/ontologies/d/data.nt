@@ -98,7 +98,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "datos"@es .
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "données"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "podatak"@sr-Latn-RS .
-<http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "данные"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#data.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "данные "@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myProxiesPanel.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showSources.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#data.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/datatools/datatools-dumpRestore.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 

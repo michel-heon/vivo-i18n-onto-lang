@@ -29,13 +29,13 @@ prop-data:save_unmapped_publications.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Sačiuvajte publikacije koje nisu mapirane"@sr-Latn-RS ;
-        rdfs:label       "Сохранить не отображенные на карте публикации"@ru-RU ;
         rdfs:label       "Sauvegarder les publications non cartographiées"@fr-CA ;
+        rdfs:label       "Сохранить не отображенные  на карте публикации"@ru-RU ;
         rdfs:label       "Guardar publicaciones no mapeadas"@es ;
         rdfs:label       "nicht abgebildete Publikationen speichern"@de-DE ;
         rdfs:label       "Salvar UNMAPPED Publicações"@pt-BR ;
-        rdfs:label       "Save Unmapped Publications"@en-CA ;
         rdfs:label       "Save Unmapped Publications"@en-US ;
+        rdfs:label       "Save Unmapped Publications"@en-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "save_unmapped_publications" ;
         prop:hasPackage  "VIVO-languages" .

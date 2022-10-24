@@ -17,8 +17,8 @@ prop-data:please_create.VIVO
 prop-data:please_create.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Bitte erstellen Sie "@de-DE ;
         rdfs:label       "Crie Por favor"@pt-BR ;
-        rdfs:label       "Bitte erstellen Sie"@de-DE ;
         rdfs:label       "Por favor crear"@es ;
         rdfs:label       "Veuillez créer"@fr-CA ;
         rdfs:label       "Please create"@en-CA ;

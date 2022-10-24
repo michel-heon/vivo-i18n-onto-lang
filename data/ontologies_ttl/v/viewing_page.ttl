@@ -23,8 +23,8 @@ prop-data:viewing_page.Vitro-languages
         rdfs:label       "Wahrscheinlich betrachtete Seite"@de-DE ;
         rdfs:label       "Likely viewing page"@en-CA ;
         rdfs:label       "Likely viewing page"@en-US ;
+        rdfs:label       "Page d'aperçu probable "@fr-CA ;
         rdfs:label       "Вероятная просматриваемая страница"@ru-RU ;
-        rdfs:label       "Page d'aperçu probable"@fr-CA ;
         rdfs:label       "página de visualização Likely"@pt-BR ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "viewing_page" ;

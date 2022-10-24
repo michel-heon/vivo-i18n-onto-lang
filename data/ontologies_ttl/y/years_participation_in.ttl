@@ -35,8 +35,8 @@ prop-data:years_participation_in.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Années de participation dans"@fr-CA ;
-        rdfs:label       "Godina učestvovanja u"@sr-Latn-RS ;
         rdfs:label       "Años de participación en"@es ;
+        rdfs:label       "Godina učestvovanja u "@sr-Latn-RS ;
         rdfs:label       "Годы участия в"@ru-RU ;
         rdfs:label       "Years of Participation in"@en-CA ;
         rdfs:label       "Years of Participation in"@en-US ;

@@ -8,7 +8,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#alt_error_alert.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Icono de alerta de error"@es .
 <http://vivoweb.org/ontology/core/properties/individual#alt_error_alert.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Icône d'alerte"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#alt_error_alert.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ikonica za upozorenje o grešci"@sr-Latn-RS .
-<http://vivoweb.org/ontology/core/properties/individual#alt_error_alert.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Warnsymbol Fehler"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#alt_error_alert.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Warnsymbol Fehler "@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#alt_error_alert.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ícone de alerta de Erro"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#alt_error_alert.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Значок оповещения об ошибке"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#alt_error_alert.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 

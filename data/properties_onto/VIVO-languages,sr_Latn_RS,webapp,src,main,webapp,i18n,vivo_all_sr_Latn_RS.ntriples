@@ -573,7 +573,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "advisor_label" .
 <http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "labela savetnika"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "labela savetnika\t"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_book.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_type_book.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
@@ -1337,7 +1337,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "none_of_the" .
 <http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Ni jedan"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Ni jedan "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#none_of_the.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#advising.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#advising.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
@@ -2564,7 +2564,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "co_investigator" .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "koautiri"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "koautiri "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
@@ -4490,7 +4490,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "co_investigator_icon" .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "ikonica koautora"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "ikonica koautora "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#co_investigator_icon.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#this_investigator.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#this_investigator.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
@@ -4553,7 +4553,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "active_grants_for" .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Aktivni grantovi za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label> "Aktivni grantovi za "@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
 <http://vivoweb.org/ontology/core/properties/individual#controls.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#controls.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .

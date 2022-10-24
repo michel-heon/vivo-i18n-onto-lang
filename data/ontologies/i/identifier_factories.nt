@@ -9,7 +9,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identifier factories"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identifier factories"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identifier factories"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "facteurs d'identifiations"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "facteurs d'identifiations "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Идентификационные центры"@ru-RU .
 <http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showAuth.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 

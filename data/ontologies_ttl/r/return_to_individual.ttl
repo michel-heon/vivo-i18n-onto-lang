@@ -12,10 +12,10 @@ prop-data:return_to_individual.Vitro-languages
         rdfs:label       "Вернуться к личной странице"@ru-RU ;
         rdfs:label       "Retornar para Página Individual"@pt-BR ;
         rdfs:label       "Vratite se na stranicu pojedinca"@sr-Latn-RS ;
-        rdfs:label       "Retournez à la page index des enregistrements"@fr-CA ;
         rdfs:label       "Zurück zur Seite des Datensatzes"@de-DE ;
-        rdfs:label       "Return to Individual Page"@en-US ;
+        rdfs:label       "Retournez à la page index des enregistrements "@fr-CA ;
         rdfs:label       "Return to Individual Page"@en-CA ;
+        rdfs:label       "Return to Individual Page"@en-US ;
         rdfs:label       "Volver a la página de usuarios"@es ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "return_to_individual" ;

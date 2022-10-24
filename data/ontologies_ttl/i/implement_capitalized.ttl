@@ -21,10 +21,10 @@ prop-data:implement_capitalized.Vitro-languages
         rdfs:label       "Implementirajte"@sr-Latn-RS ;
         rdfs:label       "Implementar"@es ;
         rdfs:label       "Implementar"@pt-BR ;
+        rdfs:label       "Créer "@fr-CA ;
         rdfs:label       "Implement"@en-CA ;
         rdfs:label       "Implement"@en-US ;
         rdfs:label       "Внедрить"@ru-RU ;
-        rdfs:label       "Créer"@fr-CA ;
         rdfs:label       "Implementieren"@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "implement_capitalized" ;

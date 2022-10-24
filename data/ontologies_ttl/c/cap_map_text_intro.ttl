@@ -11,9 +11,9 @@ prop-data:cap_map_text_intro.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Bem-vindo à ferramenta Mapeamento de Capacidade. Esta ferramenta visualiza como os pesquisadores se relacionam com outros pesquisadores através de termos de pesquisa."@pt-BR ;
         rdfs:label       "Dobrodošli u alat za mapiranje sposobnosti. Ovaj alat se koristi za vizualizaciju odnosa između različitih istraživača korišćenjem specifičnih izraza za pretragu."@sr-Latn-RS ;
+        rdfs:label       "Добро пожаловать в инструмент „Картирование возможностей“. Это средство представления в визуальной форме связей между исследователями, обнаруживаемых при помощи поисковых запросов. "@ru-RU ;
         rdfs:label       "La cartographie d'expertises est un outil simple et efficace qui permet la recherche, l'exploration et la découverte d'experts à travers une cartographie visuelle représentant les liens entre les chercheurs et leurs domaines de recherche."@fr-CA ;
         rdfs:label       "Willkommen beim Capability-Mapping-Tool. Dieses Tool veranschaulicht die Beziehung zwischen verschiedenen Forschenden über Suchbegriffe."@de-DE ;
-        rdfs:label       "Добро пожаловать в инструмент „Картирование возможностей“. Это средство представления в визуальной форме связей между исследователями, обнаруживаемых при помощи поисковых запросов."@ru-RU ;
         rdfs:label       "Bienvenido a la herramienta de Mapeo de capacidades. Esta herramienta visualiza cómo los investigadores se relacionan con otros investigadores a través de términos de búsqueda."@es ;
         rdfs:label       "Welcome to the Capability Mapping tool. This tool visualises how researchers relate to other researchers via search terms."@en-CA ;
         rdfs:label       "Welcome to the Capability Mapping tool. This tool visualises how researchers relate to other researchers via search terms."@en-US ;

@@ -3,7 +3,7 @@
 <http://vivoweb.org/ontology/core/properties/individual#implement_capitalized.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
 <http://vivoweb.org/ontology/core/properties/individual#implement_capitalized.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#implement_capitalized.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#implement_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Créer"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#implement_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Créer "@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#implement_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Implement"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#implement_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Implement"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#implement_capitalized.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Implementar"@es .

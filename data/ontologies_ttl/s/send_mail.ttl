@@ -18,10 +18,10 @@ prop-data:send_mail.Vitro
 prop-data:send_mail.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Отправить письмо"@ru-RU ;
         rdfs:label       "Enviar correo"@es ;
         rdfs:label       "Envoyer le courriel"@fr-CA ;
         rdfs:label       "Enviar e-mail"@pt-BR ;
+        rdfs:label       "Отправить письмо "@ru-RU ;
         rdfs:label       "Pošaljite email"@sr-Latn-RS ;
         rdfs:label       "Mail senden"@de-DE ;
         rdfs:label       "Send Mail"@en-CA ;

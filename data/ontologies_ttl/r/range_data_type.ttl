@@ -20,7 +20,7 @@ prop-data:range_data_type.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Tipo de dados de intervalo"@pt-BR ;
         rdfs:label       "Tip podataka za raspon"@sr-Latn-RS ;
-        rdfs:label       "Étendue du type de données"@fr-CA ;
+        rdfs:label       "Étendue du type de données "@fr-CA ;
         rdfs:label       "Тип данных Диапазон"@ru-RU ;
         rdfs:label       "Range Data Type"@en-CA ;
         rdfs:label       "Range Data Type"@en-US ;
