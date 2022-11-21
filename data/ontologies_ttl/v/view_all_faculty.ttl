@@ -17,30 +17,10 @@ prop-data:view_all_faculty.VIVO-languages.wilma
         rdfs:label       "ver todos los profesores"@es ;
         rdfs:label       "показать все факультеты"@ru-RU ;
         rdfs:label       "pogledajte sve fakultete"@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_all_faculty" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:view_all_faculty.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "view_all_faculty" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:view_all_faculty.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "view all faculty"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "view_all_faculty" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
 
 prop-data:view_all_faculty.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
@@ -53,17 +33,7 @@ prop-data:view_all_faculty.VIVO-languages.tenderfoot
         rdfs:label       "gesamten Fachbereich anzeigen"@de-DE ;
         rdfs:label       "visualizar todos os docentes"@pt-BR ;
         rdfs:label       "voir toutes les facultés"@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_all_faculty" ;
         prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:view_all_faculty.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "view_all_faculty" ;
-        prop:hasPackage  "VIVO" ;
         prop:hasTheme    "tenderfoot" .

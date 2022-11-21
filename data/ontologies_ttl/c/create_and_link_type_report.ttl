@@ -20,11 +20,3 @@ prop-data:create_and_link_type_report.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_type_report" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_type_report.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Report"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_type_report" ;
-        prop:hasPackage  "VIVO" .

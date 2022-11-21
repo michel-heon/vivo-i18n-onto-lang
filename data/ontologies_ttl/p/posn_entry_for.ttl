@@ -20,21 +20,3 @@ prop-data:posn_entry_for.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "posn_entry_for" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:posn_entry_for.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "position entry for"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "posn_entry_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:posn_entry_for.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "position entry for"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasPositionHistory.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "posn_entry_for" ;
-        prop:hasPackage  "VIVO" .

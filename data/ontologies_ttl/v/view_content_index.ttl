@@ -20,12 +20,3 @@ prop-data:view_content_index.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "view_content_index" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:view_content_index.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "View an outline of the content in this site"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/identity.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "view_content_index" ;
-        prop:hasPackage  "Vitro" .

@@ -21,46 +21,17 @@ prop-data:start_capitalized.Vitro-languages
         prop:hasKey      "start_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
 
-prop-data:start_capitalized.VIVO
-        rdf:type         prop:PropertyKey ;
-        rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Start"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addGrantRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasIssuedCredential.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasPositionHistory.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEducationalTraining.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdvisorRelationship.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationHasPositionHistory.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdviseeRelationship.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAwardOrHonor.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "start_capitalized" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:start_capitalized.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Início"@pt-BR ;
         rdfs:label       "Inicio"@es ;
-        rdfs:label       "Start"@de-DE ;
-        rdfs:label       "Start"@en-US ;
         rdfs:label       "Start"@en-CA ;
+        rdfs:label       "Start"@en-US ;
+        rdfs:label       "Start"@de-DE ;
         rdfs:label       "Početak"@sr-Latn-RS ;
         rdfs:label       "Начало, "@ru-RU ;
         rdfs:label       "Début"@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "start_capitalized" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:start_capitalized.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Start"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeIntervalForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "start_capitalized" ;
-        prop:hasPackage  "Vitro" .

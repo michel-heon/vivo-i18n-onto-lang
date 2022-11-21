@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rogner l'image de {0}"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "imagem = Cortar para {0}"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Обрезка фотографии для {0}"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "crop_page_title_with_name" .
-<http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#crop_page_title_with_name.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Crop image for {0}"@en-US .

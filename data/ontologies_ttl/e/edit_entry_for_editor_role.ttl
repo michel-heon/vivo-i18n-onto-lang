@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:edit_entry_for_editor_role.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       ": Edit this editor role"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "edit_entry_for_editor_role" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:edit_entry_for_editor_role.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -26,7 +17,6 @@ prop-data:edit_entry_for_editor_role.VIVO-languages
         rdfs:label       ": Edit this editor role"@en-CA ;
         rdfs:label       ": Edit this editor role"@en-US ;
         rdfs:label       ": Diese Herausgeberschaft bearbeiten"@de-DE ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "edit_entry_for_editor_role" ;
         prop:hasPackage  "VIVO-languages" .

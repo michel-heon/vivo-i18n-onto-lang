@@ -20,11 +20,3 @@ prop-data:display_admin_header.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "display_admin_header" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:display_admin_header.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Display Admin and Configuration"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "display_admin_header" ;
-        prop:hasPackage  "Vitro" .

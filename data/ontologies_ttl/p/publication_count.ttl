@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:publication_count.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Publication Count"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "publication_count" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:publication_count.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -29,12 +20,3 @@ prop-data:publication_count.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "publication_count" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:publication_count.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Publication Count"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "publication_count" ;
-        prop:hasPackage  "VIVO" .

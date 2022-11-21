@@ -20,21 +20,3 @@ prop-data:must_be_admin.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "must_be_admin" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:must_be_admin.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "You must be an administrator to use this tool."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "must_be_admin" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:must_be_admin.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "You must be an administrator to use this tool."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "must_be_admin" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

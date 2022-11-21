@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:menu_welcomestart.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/message.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_welcomestart" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "tenderfoot" .
-
 prop-data:menu_welcomestart.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -31,16 +22,6 @@ prop-data:menu_welcomestart.VIVO-languages.wilma
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
 
-prop-data:menu_welcomestart.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Welcome"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/menu.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_welcomestart" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:menu_welcomestart.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -56,12 +37,3 @@ prop-data:menu_welcomestart.VIVO-languages.tenderfoot
         prop:hasKey      "menu_welcomestart" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:menu_welcomestart.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/menu.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_welcomestart" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .

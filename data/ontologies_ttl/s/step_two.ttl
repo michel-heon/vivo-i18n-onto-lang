@@ -20,21 +20,3 @@ prop-data:step_two.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "step_two" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:step_two.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Step 2"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "step_two" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:step_two.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Step 2"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "step_two" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

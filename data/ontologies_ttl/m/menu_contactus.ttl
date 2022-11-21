@@ -37,31 +37,3 @@ prop-data:menu_contactus.VIVO-languages.tenderfoot
         prop:hasKey      "menu_contactus" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:menu_contactus.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/footer.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_contactus" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:menu_contactus.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/footer.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_contactus" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:menu_contactus.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Contact Us"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/footer.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_contactus" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:grant_sparkline_note.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "grant_sparkline_note" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:grant_sparkline_note.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -26,16 +17,6 @@ prop-data:grant_sparkline_note.VIVO-languages
         rdfs:label       "As linhas de ignição mostrados acima refletem bolsas do último ano civil completo. Estas tabelas mostram, contudo, a informação de subvenção para todos os anos, com base na informação carregada no sistema VIVO."@pt-BR ;
         rdfs:label       "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-CA ;
         rdfs:label       "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "grant_sparkline_note" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:grant_sparkline_note.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The spark lines shown above reflect grants through the last complete calendar year. These tables, however, show the grant information for all years, based on the information loaded in the VIVO system."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "grant_sparkline_note" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

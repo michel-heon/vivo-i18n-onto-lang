@@ -6,17 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:double_quote_note_allowed.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The variable name should not have a double quote."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--searchIndividuals.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--sparqlQuery.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--fixedHtml.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "double_quote_note_allowed" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:double_quote_note_allowed.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

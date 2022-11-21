@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:vis_tools_note_four.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "vis_tools_note_four" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:vis_tools_note_four.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:vis_tools_note_four.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_four" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:vis_tools_note_four.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The models are refreshed each time the server restarts.  Since this is not generally practical on production instances, administrators can instead use the \"refresh cache\" link above to do this without a restart."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "vis_tools_note_four" ;
-        prop:hasPackage  "VIVO" .

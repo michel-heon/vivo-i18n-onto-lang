@@ -6,24 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:hyperlink.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Hyperlink"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/foaf-person--exportQrCode.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "hyperlink" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:hyperlink.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Hyperlink"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "hyperlink" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:hyperlink.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -35,10 +17,6 @@ prop-data:hyperlink.VIVO-languages
         rdfs:label       "Гиперссылка"@ru-RU ;
         rdfs:label       "Hyperlien"@fr-CA ;
         rdfs:label       "Hiperlink"@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/pt_BR/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_pt_BR.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_fr_CA.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/en_CA/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_en_CA.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/en_US/webapp/src/main/webapp/templates/freemarker/body/aboutQrCodes_en_US.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "hyperlink" ;
         prop:hasPackage  "VIVO-languages" .

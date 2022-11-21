@@ -20,12 +20,3 @@ prop-data:or_enter_valid_address.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "or_enter_valid_address" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:or_enter_valid_address.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "or enter another complete and valid email address."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "or_enter_valid_address" ;
-        prop:hasPackage  "Vitro" .

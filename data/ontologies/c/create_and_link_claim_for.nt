@@ -11,12 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Reivindicação obras para<br />{0}"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Revendiquer les publications de<br />{0}"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Заявить о правах на работы для<br />{0}"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_and_link_claim_for" .
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#create_and_link_claim_for.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Claiming works for<br />{0}"@en-US .

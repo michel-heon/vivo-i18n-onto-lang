@@ -20,13 +20,3 @@ prop-data:no_content_in_system.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "no_content_in_system" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:no_content_in_system.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "There is currently no {0} content in the system"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-checkForData.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individualList-checkForData.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "no_content_in_system" ;
-        prop:hasPackage  "Vitro" .

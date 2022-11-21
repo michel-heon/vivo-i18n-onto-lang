@@ -20,11 +20,3 @@ prop-data:entity_to_query_for.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "entity_to_query_for" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:entity_to_query_for.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This id is the id of the entity to query for. netid also works."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "entity_to_query_for" ;
-        prop:hasPackage  "Vitro" .

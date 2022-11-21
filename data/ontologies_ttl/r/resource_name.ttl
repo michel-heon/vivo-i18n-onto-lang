@@ -20,25 +20,3 @@ prop-data:resource_name.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "resource_name" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:resource_name.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "resource name"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/propStatement-authorInAuthorship.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "resource_name" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:resource_name.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "resource name"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-editorship.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-publicationVenueFor.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-publisherOf.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-authorInAuthorship.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "resource_name" ;
-        prop:hasPackage  "VIVO" .

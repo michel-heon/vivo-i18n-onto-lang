@@ -20,21 +20,3 @@ prop-data:drag_drop_reorder_authors.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "drag_drop_reorder_authors" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:drag_drop_reorder_authors.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Drag and drop to reorder authors"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "drag_drop_reorder_authors" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:drag_drop_reorder_authors.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Drag and drop to reorder authors"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "drag_drop_reorder_authors" ;
-        prop:hasPackage  "VIVO" .

@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The search request contained errors."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Zahtev za pretragu sadrži greške."@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Поисковый запрос содержал ошибки."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_in_search_request" .
-<http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#error_in_search_request.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "The search request contained errors."@en-US .

@@ -15,26 +15,8 @@ prop-data:filter_search.Vitro-languages
         rdfs:label       "filtrer la recherche"@fr-CA ;
         rdfs:label       "Filtrar búsqueda"@es ;
         rdfs:label       "busca filtro"@pt-BR ;
-        rdfs:label       "filter search"@en-CA ;
         rdfs:label       "filter search"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        rdfs:label       "filter search"@en-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "filter_search" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:filter_search.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "filter search"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "filter_search" ;
-        prop:hasPackage  "Vitro" .
-
-prop-data:filter_search.Vitro.vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "filter_search" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "vitro" .

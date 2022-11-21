@@ -6,28 +6,21 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:last_name.Vitro-languages
+prop-data:last_name.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Prezime"@sr-Latn-RS ;
-        rdfs:label       "Apellido"@es ;
         rdfs:label       "Last name"@en-CA ;
         rdfs:label       "Last name"@en-US ;
         rdfs:label       "Sobrenome"@pt-BR ;
         rdfs:label       "Nom de famille"@fr-CA ;
-        rdfs:label       "Фамилия"@ru-RU ;
         rdfs:label       "Nachname"@de-DE ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "last_name" ;
-        prop:hasPackage  "Vitro-languages" .
-
-prop-data:last_name.VIVO-languages
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm_fr_CA.ftl"^^xsd:anyURI ;
+        rdfs:label       "Prezime"@sr-Latn-RS ;
+        rdfs:label       "Apellido"@es ;
+        rdfs:label       "Фамилия"@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "last_name" ;
-        prop:hasPackage  "VIVO-languages" .
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .
 
 prop-data:last_name.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
@@ -45,61 +38,17 @@ prop-data:last_name.VIVO-languages.wilma
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
 
-prop-data:last_name.Vitro
-        rdf:type         prop:PropertyKey ;
-        rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Last name"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-firstTimeExternal.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showAuth.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "last_name" ;
-        prop:hasPackage  "Vitro" .
-
-prop-data:last_name.VIVO-languages.tenderfoot
+prop-data:last_name.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Prezime"@sr-Latn-RS ;
+        rdfs:label       "Apellido"@es ;
         rdfs:label       "Last name"@en-CA ;
         rdfs:label       "Last name"@en-US ;
         rdfs:label       "Sobrenome"@pt-BR ;
         rdfs:label       "Nom de famille"@fr-CA ;
-        rdfs:label       "Nachname"@de-DE ;
-        rdfs:label       "Prezime"@sr-Latn-RS ;
-        rdfs:label       "Apellido"@es ;
         rdfs:label       "Фамилия"@ru-RU ;
-        prop:hasApp      "VIVO" ;
+        rdfs:label       "Nachname"@de-DE ;
+        prop:hasApp      "Vitro" ;
         prop:hasKey      "last_name" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:last_name.VIVO
-        rdf:type         prop:PropertyKey ;
-        rdf:type         owl:NamedIndividual ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultAddMissingIndividualForm.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/grantHasContributor.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addFullNameToPerson.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/manageLabelsForIndividualAddForm.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/newIndividualForm.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdvisorRelationship.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/projectHasParticipant.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdviseeRelationship.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationHasPositionHistory.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "last_name" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:last_name.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Last name"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "last_name" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
+        prop:hasPackage  "Vitro-languages" .

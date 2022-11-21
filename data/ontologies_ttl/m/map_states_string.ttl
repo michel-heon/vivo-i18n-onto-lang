@@ -12,44 +12,15 @@ prop-data:map_states_string.VIVO-languages.wilma
         rdfs:label       "estados."@es ;
         rdfs:label       "estados."@pt-BR ;
         rdfs:label       "provinces."@fr-CA ;
-        rdfs:label       "states."@en-US ;
         rdfs:label       "states."@en-CA ;
+        rdfs:label       "states."@en-US ;
         rdfs:label       "Länder."@de-DE ;
         rdfs:label       "države."@sr-Latn-RS ;
         rdfs:label       "штаты."@ru-RU ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "map_states_string" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:map_states_string.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "map_states_string" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:map_states_string.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "map_states_string" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:map_states_string.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "states."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "map_states_string" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
 
 prop-data:map_states_string.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
@@ -57,12 +28,11 @@ prop-data:map_states_string.VIVO-languages.tenderfoot
         rdfs:label       "штаты."@ru-RU ;
         rdfs:label       "estados."@es ;
         rdfs:label       "estados."@pt-BR ;
-        rdfs:label       "states."@en-US ;
         rdfs:label       "states."@en-CA ;
+        rdfs:label       "states."@en-US ;
         rdfs:label       "države."@sr-Latn-RS ;
         rdfs:label       "Länder."@de-DE ;
         rdfs:label       "provinces."@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "map_states_string" ;
         prop:hasPackage  "VIVO-languages" ;

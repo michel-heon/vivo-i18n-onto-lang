@@ -6,48 +6,17 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:co_investigator_icon.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "co-investigator icon"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationQuickView.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "co_investigator_icon" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:co_investigator_icon.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "co-investigator icon"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-custom-visualizationFoafPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "co_investigator_icon" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:co_investigator_icon.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "значок со-исследователя"@ru-RU ;
         rdfs:label       "icon = co-investigador"@pt-BR ;
-        rdfs:label       "co-investigator icon"@en-US ;
         rdfs:label       "co-investigator icon"@en-CA ;
+        rdfs:label       "co-investigator icon"@en-US ;
         rdfs:label       "icono de coinvestigador"@es ;
         rdfs:label       "ikonica koautora "@sr-Latn-RS ;
         rdfs:label       "icône de cochercheur(-euse)"@fr-CA ;
         rdfs:label       "KoforscherIn-Icon"@de-DE ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_investigator_icon" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:co_investigator_icon.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/body/partials/individual/individual-visualizationFoafPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "co_investigator_icon" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "tenderfoot" .

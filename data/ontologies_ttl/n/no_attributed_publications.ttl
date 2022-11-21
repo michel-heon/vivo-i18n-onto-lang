@@ -20,22 +20,3 @@ prop-data:no_attributed_publications.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_attributed_publications" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:no_attributed_publications.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "No publications in the system have been attributed to this"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_attributed_publications" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:no_attributed_publications.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "No publications in the system have been attributed to this"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_attributed_publications" ;
-        prop:hasPackage  "VIVO" .

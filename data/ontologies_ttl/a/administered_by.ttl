@@ -20,21 +20,3 @@ prop-data:administered_by.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "administered_by" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:administered_by.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "administered by"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "administered_by" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:administered_by.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "administered by"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-hasInvestigatorRole.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "administered_by" ;
-        prop:hasPackage  "VIVO" .

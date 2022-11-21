@@ -20,12 +20,3 @@ prop-data:profile_editing_title.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "profile_editing_title" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:profile_editing_title.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The editors you select on the left hand side will have the ability to edit the VIVO profiles you select on the right hand side. You can select multiple editors and multiple profiles, but you must select a minimum of 1 each."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "profile_editing_title" ;
-        prop:hasPackage  "Vitro" .

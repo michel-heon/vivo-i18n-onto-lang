@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:advanced_search_tips_header.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Advanced Tips"@en-CA ;
+        rdfs:label       "Advanced Tips"@en-US ;
+        rdfs:label       "Tipps für Fortgeschrittene"@de-DE ;
+        rdfs:label       "Дополнительные советы"@ru-RU ;
+        rdfs:label       "Consejos Avanzados"@es ;
+        rdfs:label       "Conseils avancés"@fr-CA ;
+        rdfs:label       "Dicas Avançadas"@pt-BR ;
+        rdfs:label       "Saveti za naprednu pretragu"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "advanced_search_tips_header" ;
+        prop:hasPackage  "Vitro-languages" .

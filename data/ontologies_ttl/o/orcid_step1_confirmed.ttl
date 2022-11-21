@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:orcid_step1_confirmed.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "<p>Your ORCID iD is confirmed as {0}</p>"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "orcid_step1_confirmed" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:orcid_step1_confirmed.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

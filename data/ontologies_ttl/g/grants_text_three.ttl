@@ -22,15 +22,6 @@ prop-data:grants_text_three.VIVO-languages.tenderfoot
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
 
-prop-data:grants_text_three.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This would create a page that would use about.ftl as the body.  The page would be accessed via /about and would override all servlet mappings in web.xml."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "grants_text_three" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:grants_text_three.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

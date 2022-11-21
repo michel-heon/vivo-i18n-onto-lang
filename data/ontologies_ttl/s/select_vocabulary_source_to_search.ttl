@@ -20,21 +20,3 @@ prop-data:select_vocabulary_source_to_search.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "select_vocabulary_source_to_search" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:select_vocabulary_source_to_search.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please select at least one external vocabulary source to search."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "select_vocabulary_source_to_search" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:select_vocabulary_source_to_search.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please select at least one external vocabulary source to search."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "select_vocabulary_source_to_search" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Se ha producido un error en tu sitio VIVO en {0}."@es .
 <http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Une erreur s'est produite sur votre site VIVO à {0}."@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "На вашем сайте VIVO произошла ошибка в {0}."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-email.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_occurred_at" .
-<http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#error_occurred_at.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "An error occurred on your VIVO site at {0}."@en-US .

@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:check_startup_status.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Check startup status page and/or Tomcat logs for more information."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "check_startup_status" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:check_startup_status.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

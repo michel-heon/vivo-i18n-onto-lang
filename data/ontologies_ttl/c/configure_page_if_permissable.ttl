@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:configure_page_if_permissable.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "to configure this page if the user has permission."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menupage/emptyPage.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "configure_page_if_permissable" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:configure_page_if_permissable.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

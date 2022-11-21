@@ -1,9 +1,3 @@
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-vivo-form.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "unsupported_ie_version" .
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "unsupported_ie_version" .
 <http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
@@ -17,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Эта форма не поддерживается в версиях Internet Explorer ниже версии 8. Пожалуйста, обновите свой браузер или перейдите на другой браузер, например FireFox."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-vitro-form.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "unsupported_ie_version" .
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#unsupported_ie_version.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "This form is not supported in versions of Internet Explorer below version 8. Please upgrade your browser, or switch to another browser, such as FireFox."@en-US .

@@ -20,12 +20,3 @@ prop-data:browse_all.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "browse_all" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:browse_all.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Browse all"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/browse-classgroups.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "browse_all" ;
-        prop:hasPackage  "Vitro" .

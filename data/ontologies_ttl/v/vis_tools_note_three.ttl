@@ -20,21 +20,3 @@ prop-data:vis_tools_note_three.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_tools_note_three" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:vis_tools_note_three.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/tools.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "vis_tools_note_three" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:vis_tools_note_three.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "We're currently caching these models in memory.  The cache is built (only once) on the first user request after a server restart.  Because of this, the same model will be served until the next restart. This means that the data in these models may become stale depending upon when it was last created. This works well enough for now. In future releases we will improve this solution so that models are stored on disk and periodically updated."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "vis_tools_note_three" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

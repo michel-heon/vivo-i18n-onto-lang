@@ -20,12 +20,3 @@ prop-data:capability_map.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "capability_map" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:capability_map.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Capability Map"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "capability_map" ;
-        prop:hasPackage  "VIVO" .

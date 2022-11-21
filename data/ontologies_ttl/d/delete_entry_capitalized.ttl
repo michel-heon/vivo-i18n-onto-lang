@@ -20,12 +20,3 @@ prop-data:delete_entry_capitalized.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "delete_entry_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:delete_entry_capitalized.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Delete this entry?"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDeletePropertyForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "delete_entry_capitalized" ;
-        prop:hasPackage  "Vitro" .

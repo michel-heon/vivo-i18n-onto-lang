@@ -11,18 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "AutorIn hinzufügen"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Dodajte autora"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Добавить автора"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "add_author" .
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Add Author"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "add_author" .
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#add_author.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Add Author"@en-US .

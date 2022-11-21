@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:no_results_returned.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "No results were returned."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/menupage/menupage--defaultSparql.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "no_results_returned" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:no_results_returned.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

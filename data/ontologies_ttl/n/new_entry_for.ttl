@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:new_entry_for.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "\"{0}\" для {1}"@ru-RU ;
+        rdfs:label       "\"{0}\" para {1}"@es ;
+        rdfs:label       "\"{0}\" para {1}"@pt-BR ;
+        rdfs:label       "un nouvel enregistrement \"{0}\" pour {1}"@fr-CA ;
+        rdfs:label       "\"{0}\" entry for {1}"@en-US ;
+        rdfs:label       "\"{0}\" entry for {1}"@en-CA ;
+        rdfs:label       "\"{0}\" für {1}"@de-DE ;
+        rdfs:label       "\"{0}\" za {1}"@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "new_entry_for" ;
+        prop:hasPackage  "Vitro-languages" .

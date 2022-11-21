@@ -17,27 +17,6 @@ prop-data:standard_view.VIVO-languages
         rdfs:label       "Standard profile view"@en-CA ;
         rdfs:label       "Standard profile view"@en-US ;
         rdfs:label       "Vista estándar del perfil"@es ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "standard_view" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:standard_view.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Standard profile view"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-profilePageTypes.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "standard_view" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:standard_view.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Standard profile view"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "standard_view" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

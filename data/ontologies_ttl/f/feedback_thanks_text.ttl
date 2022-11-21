@@ -20,12 +20,3 @@ prop-data:feedback_thanks_text.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "feedback_thanks_text" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:feedback_thanks_text.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Thank you for contacting our curation and development team. We will respond to your inquiry as soon as possible."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-confirmation.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "feedback_thanks_text" ;
-        prop:hasPackage  "Vitro" .

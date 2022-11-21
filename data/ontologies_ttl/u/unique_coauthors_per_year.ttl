@@ -20,21 +20,3 @@ prop-data:unique_coauthors_per_year.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "unique_coauthors_per_year" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:unique_coauthors_per_year.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Unique Co-Authors per year"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/coauthorship/coAuthorshipSparklineContent.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "unique_coauthors_per_year" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:unique_coauthors_per_year.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Unique Co-Authors per year"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "unique_coauthors_per_year" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

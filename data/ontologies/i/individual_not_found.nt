@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Usuario no encontrado:"@es .
 <http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "élément introuvable"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Лицо не найдено"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-help.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "individual_not_found" .
-<http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#individual_not_found.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Individual not found"@en-US .

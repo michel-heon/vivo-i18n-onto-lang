@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:compare_tool_tip_text_the_third_part.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Die Spalte <b># of pubs.</b> zeigt, wie viele der Publikationen auf die einzelnen Teildisziplinen abgebildet wurden. Diese Zählung kann aufgeteilt sein, da einige Publikationsorte mit mehr als einer Teildisziplin verbunden sind. Jede Publikation an einem solchen Ort trägt nach einem Gewichtungsschema zu allen zugehörigen Teildisziplinen bei."@de-DE ;
+        rdfs:label       "The <b># of pubs.</b> column shows how many of the publications were mapped to each subdiscipline. This count can be fractional because some publication venues are associated with more than one subdiscipline. Each publication in such a venue contributes fractionally to all associated subdisciplines according to a weighting scheme."@en-CA ;
+        rdfs:label       "The <b># of pubs.</b> column shows how many of the publications were mapped to each subdiscipline. This count can be fractional because some publication venues are associated with more than one subdiscipline. Each publication in such a venue contributes fractionally to all associated subdisciplines according to a weighting scheme."@en-US ;
+        rdfs:label       "The <b># of pubs.</b> column shows how many of the publications were mapped to each subdiscipline. This count can be fractional because some publication venues are associated with more than one subdiscipline. Each publication in such a venue contributes fractionally to all associated subdisciplines according to a weighting scheme."@fr-CA ;
+        rdfs:label       "<b>'Broj publikacija'</b> kolona prikazuje koliko publikacija je mapirano na svako od (pod)disciplina. Ovaj broj ne mora biti ceo, s obzirom da su neke publikacije povezane sa više (pod)disciplina. Takve publikacije ne doprinose ceo broj ukupnom broju publikacija date discipline, već samo razlomak na osnovu težinske šeme."@sr-Latn-RS ;
+        rdfs:label       "Колонка <b>колич. публ.</b> показывает, сколько публикаций было сопоставлено с каждой субдисциплиной. Это число может оказаться не целым, поскольку некоторые места публикации связаны с более чем одной субдисциплиной. Каждая публикация в таком месте вносит дробный вклад во все связанные субдисциплины в соответствии со схемой взвешивания."@ru-RU ;
+        rdfs:label       "A coluna <b># de pubs.</b> mostra quantos dos publicações foram mapeados para cada especialidade. Este contagem pode ser fraccionada porque alguns publicação associadas a mais do que um subcampo. Cada publicação em tal local contribui fragmentação de todas as sub-disciplinas associadas de acordo com a um sistema de ponderação."@pt-BR ;
+        rdfs:label       "La columna número de publicaciones  muestra la cantidad de publicaciones que fueron asignadas a cada especialidad. Esta cuenta puede ser fraccionaria ya que algunos lugares de publicación están asociados con más de una especialidad. Cada publicación de tal lugar contribuye fraccionadamente a todas las subdisciplinas asociadas de acuerdo con un esquema de ponderación."@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "compare_tool_tip_text_the_third_part" ;
+        prop:hasPackage  "VIVO-languages" .

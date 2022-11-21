@@ -37,12 +37,3 @@ prop-data:address_label.VIVO-languages.wilma
         prop:hasKey      "address_label" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:address_label.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "address label"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "address_label" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

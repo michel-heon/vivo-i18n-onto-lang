@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Your changes have been saved."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Your changes have been saved."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ваши изменения были сохранены."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myAccount.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "myAccount_confirm_changes" .
-<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#myAccount_confirm_changes.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Your changes have been saved."@en-US .

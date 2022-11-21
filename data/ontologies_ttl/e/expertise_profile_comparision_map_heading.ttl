@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:expertise_profile_comparision_map_heading.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Mapa comparativo perfiles de conocimiento"@es ;
+        rdfs:label       "Mapa da Comparação do Conhecimento dos Perfis"@pt-BR ;
+        rdfs:label       "Карта сравнения профилей специализации"@ru-RU ;
+        rdfs:label       "Karte zum Vergleich von Kompetenzprofilen"@de-DE ;
+        rdfs:label       "Mapa poređenja ekspertskih profila"@sr-Latn-RS ;
+        rdfs:label       "Expertise Profile Comparison Map"@en-US ;
+        rdfs:label       "Expertise Profile Comparison Map"@fr-CA ;
+        rdfs:label       "Expertise Profile Comparison Map"@en-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "expertise_profile_comparision_map_heading" ;
+        prop:hasPackage  "VIVO-languages" .

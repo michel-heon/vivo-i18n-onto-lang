@@ -1,7 +1,5 @@
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "presentation_hint" .
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
 <http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -13,18 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "por ejemplo, Asesor, orador, participante"@es .
 <http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "z. B. ModeratorIn, SprecherIn, DiskussionsteilnehmerIn"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "например, модератор, докладчик, руководитель секции"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "presentation_hint" .
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "e.g., Moderator, Speaker, Panelist"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "presentation_hint" .
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#presentation_hint.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "e.g., Moderator, Speaker, Panelist"@en-US .

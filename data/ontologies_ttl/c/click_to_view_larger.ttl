@@ -6,24 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:click_to_view_larger.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "click_to_view_larger" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:click_to_view_larger.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "click to view larger image"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "click_to_view_larger" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:click_to_view_larger.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -35,7 +17,6 @@ prop-data:click_to_view_larger.Vitro-languages
         rdfs:label       "click to view larger image"@en-US ;
         rdfs:label       "clique para ver a imagem ampliada"@pt-BR ;
         rdfs:label       "нажмите для просмотра увеличенного изображения"@ru-RU ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "click_to_view_larger" ;
         prop:hasPackage  "Vitro-languages" .

@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:selected_presentation.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Selected Presentation"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "selected_presentation" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:selected_presentation.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -29,12 +20,3 @@ prop-data:selected_presentation.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "selected_presentation" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:selected_presentation.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Selected Presentation"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "selected_presentation" ;
-        prop:hasPackage  "VIVO" .

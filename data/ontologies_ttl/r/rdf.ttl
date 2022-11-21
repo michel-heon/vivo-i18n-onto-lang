@@ -6,64 +6,17 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:rdf.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/head.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "rdf" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:rdf.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/head.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "rdf" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:rdf.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/head.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "rdf" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:rdf.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "RDF"@de-DE ;
         rdfs:label       "RDF"@en-CA ;
         rdfs:label       "RDF"@en-US ;
+        rdfs:label       "RDF"@sr-Latn-RS ;
         rdfs:label       "RDF"@es ;
         rdfs:label       "RDF"@fr-CA ;
         rdfs:label       "RDF"@pt-BR ;
         rdfs:label       "RDF"@ru-RU ;
-        rdfs:label       "RDF"@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "rdf" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:rdf.VIVO  rdf:type  owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-qrCodeGenerator.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "rdf" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:rdf.Vitro  rdf:type  prop:PropertyKey ;
-        rdf:type         owl:NamedIndividual ;
-        rdfs:label       "RDF"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-sparqlQueryForm.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/page/partials/head.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individualList.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "rdf" ;
-        prop:hasPackage  "Vitro" .

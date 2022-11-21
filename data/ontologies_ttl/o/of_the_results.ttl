@@ -20,12 +20,3 @@ prop-data:of_the_results.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "of_the_results" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:of_the_results.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "of the results"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-scripts.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "of_the_results" ;
-        prop:hasPackage  "Vitro" .

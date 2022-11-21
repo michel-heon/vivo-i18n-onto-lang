@@ -6,23 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:vitro_description.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Vitro is a general-purpose web-based ontology and instance editor with customizable public browsing. Vitro is a Java web application that runs in a Tomcat servlet container."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "vitro_description" ;
-        prop:hasPackage  "Vitro" .
-
-prop-data:vitro_description.Vitro.vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "vitro_description" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "vitro" .
-
 prop-data:vitro_description.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -34,7 +17,6 @@ prop-data:vitro_description.Vitro-languages
         rdfs:label       "Vitro es una ontología basada en la web de propósito general y editor de instancia pública con la navegación personalizable. Vitro es una aplicación web Java que se ejecuta en un contenedor de servlets Tomcat."@es ;
         rdfs:label       "Vitro is a general-purpose web-based ontology and instance editor with customizable public browsing. Vitro is a Java web application that runs in a Tomcat servlet container."@en-CA ;
         rdfs:label       "Vitro is a general-purpose web-based ontology and instance editor with customizable public browsing. Vitro is a Java web application that runs in a Tomcat servlet container."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "vitro_description" ;
         prop:hasPackage  "Vitro-languages" .

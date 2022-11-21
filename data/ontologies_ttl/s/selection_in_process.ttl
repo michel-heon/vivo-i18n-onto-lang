@@ -20,11 +20,3 @@ prop-data:selection_in_process.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "selection_in_process" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:selection_in_process.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Your selection is being processed."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "selection_in_process" ;
-        prop:hasPackage  "Vitro" .

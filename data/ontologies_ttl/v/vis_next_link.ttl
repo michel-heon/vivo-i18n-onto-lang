@@ -20,23 +20,3 @@ prop-data:vis_next_link.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vis_next_link" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:vis_next_link.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Next"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceSetup.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "vis_next_link" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:vis_next_link.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Next"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "vis_next_link" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

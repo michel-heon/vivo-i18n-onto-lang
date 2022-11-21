@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:back_to_results.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Back to results"@en-CA ;
+        rdfs:label       "Back to results"@en-US ;
+        rdfs:label       "Zurück zu den Suchergebnissen"@de-DE ;
+        rdfs:label       "Назад к результатам поиска"@ru-RU ;
+        rdfs:label       "Retour aux résultats"@fr-CA ;
+        rdfs:label       "Voltar aos resultados"@pt-BR ;
+        rdfs:label       "Nazad na rezultate"@sr-Latn-RS ;
+        rdfs:label       "regresar a los resultados"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "back_to_results" ;
+        prop:hasPackage  "Vitro-languages" .

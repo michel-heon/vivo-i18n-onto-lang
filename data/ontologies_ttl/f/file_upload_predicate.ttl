@@ -9,15 +9,8 @@
 prop-data:file_upload_predicate.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "predicate"@en-CA ;
         rdfs:label       "predicate"@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file_upload_predicate" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:file_upload_predicate.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "predicate"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "file_upload_predicate" ;
-        prop:hasPackage  "Vitro" .

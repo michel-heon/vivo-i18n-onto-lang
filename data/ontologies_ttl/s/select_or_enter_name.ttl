@@ -6,16 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:select_or_enter_name.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please select an existing value or enter a new value in the Name field."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "select_or_enter_name" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:select_or_enter_name.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -25,19 +15,8 @@ prop-data:select_or_enter_name.VIVO-languages
         rdfs:label       "Пожалуйста, выберите существующее значение или введите новое значение в поле Имя."@ru-RU ;
         rdfs:label       "Selecione um valor existente ou digite um novo valor no campo Nome."@pt-BR ;
         rdfs:label       "Bitte im Feld Name einen bestehenden Wert auswählen oder einen neuen Wert eintragen."@de-DE ;
-        rdfs:label       "Please select an existing value or enter a new value in the Name field."@en-CA ;
         rdfs:label       "Please select an existing value or enter a new value in the Name field."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
+        rdfs:label       "Please select an existing value or enter a new value in the Name field."@en-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "select_or_enter_name" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:select_or_enter_name.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please select an existing value or enter a new value in the Name field."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "select_or_enter_name" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

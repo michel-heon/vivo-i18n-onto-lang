@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a future target date for publication (past dates are invalid)."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Veuillez saisir une date cible future pour la publication (les dates passées ne sont pas valides)."@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста, укажите будущую дату публикации (прошедшие даты недопустимы)."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "data_not_past_msg" .
-<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#data_not_past_msg.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a future target date for publication (past dates are invalid)."@en-US .

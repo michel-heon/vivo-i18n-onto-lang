@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_tip_three.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Sauf pour les opérateurs booléens, les recherches ne sont <strong>pas</strong> sensibles à la casse, donc \"Genève\" et \"genève\" sont équivalents."@fr-CA ;
+        rdfs:label       "За исключением булевых операторов, поиск <strong>не</strong> чувствителен к регистру, поэтому запросы \"Женева\" и \"женева\" эквивалентны."@ru-RU ;
+        rdfs:label       "Izuzev boolean operatora, pretrage <strong>NE RAZLIKUJU</strong> mala i velika slova, te su izrazi \"Ženeva\" i \"ženeva\" ekvivalentni."@sr-Latn-RS ;
+        rdfs:label       "Exceto para as operadores booleanas, pesquisas <strong>not</strong> são maiúsculas e minúsculas, por isso \"Genebra\" e \"genebra\" são equivalentes."@pt-BR ;
+        rdfs:label       "Except for boolean operators, searches are <strong>not</strong> case-sensitive, so \"Geneva\" and \"geneva\" are equivalent."@en-US ;
+        rdfs:label       "Except for boolean operators, searches are <strong>not</strong> case-sensitive, so \"Geneva\" and \"geneva\" are equivalent."@en-CA ;
+        rdfs:label       "Mit Ausnahme boolescher Operatoren, sind Suchen <strong>nicht</strong> case-sensitive, also sind \"Genf\" und \"genf\" identisch."@de-DE ;
+        rdfs:label       "A excepción de los operadores booleanos, las búsquedas <strong>no distinguen</strong> entre mayúsculas y minúsculas, por lo que \"Ginebra\" y \"ginebra\" son equivalentes."@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_tip_three" ;
+        prop:hasPackage  "Vitro-languages" .

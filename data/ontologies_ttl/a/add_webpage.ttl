@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:add_webpage.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Add Web Page"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditWebpageForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "add_webpage" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:add_webpage.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:add_webpage.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "add_webpage" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:add_webpage.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Add Web Page"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "add_webpage" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

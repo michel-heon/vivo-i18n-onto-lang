@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:compare_tool_tip_text_the_fourth_part.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "El porcentaje de la columna actividad muestra qué proporción de las publicaciones se han asignado a cada especialidad."@es ;
+        rdfs:label       "A coluna <b>% da atividade</b> mostra que proporção das publicações foram mapeados para cada especialidade."@pt-BR ;
+        rdfs:label       "Колонка <b>% активности</b> показывает, какая доля публикаций была сопоставлена с каждой субдисциплиной."@ru-RU ;
+        rdfs:label       "Die Spalte <b>% of activity</b> zeigt, welcher Anteil der Publikationen auf die einzelnen Teildisziplinen abgebildet wurde."@de-DE ;
+        rdfs:label       "The <b>% of activity</b> column shows what proportion of the publications were mapped to each subdiscipline."@en-CA ;
+        rdfs:label       "The <b>% of activity</b> column shows what proportion of the publications were mapped to each subdiscipline."@en-US ;
+        rdfs:label       "The <b>% of activity</b> column shows what proportion of the publications were mapped to each subdiscipline."@fr-CA ;
+        rdfs:label       "Kolona sa nazivom <b>% aktivnosti</b> prikazuje koji deo publikacija je mapiran na svaku od pod-disciplina."@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "compare_tool_tip_text_the_fourth_part" ;
+        prop:hasPackage  "VIVO-languages" .

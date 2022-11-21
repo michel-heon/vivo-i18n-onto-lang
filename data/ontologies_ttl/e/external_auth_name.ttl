@@ -20,12 +20,3 @@ prop-data:external_auth_name.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "external_auth_name" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:external_auth_name.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "external authentication name"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-login.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "external_auth_name" ;
-        prop:hasPackage  "Vitro" .

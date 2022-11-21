@@ -20,11 +20,3 @@ prop-data:last_name_empty_msg.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "last_name_empty_msg" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:last_name_empty_msg.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "You must enter a value in the Last Name field."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "last_name_empty_msg" ;
-        prop:hasPackage  "VIVO" .

@@ -20,12 +20,3 @@ prop-data:individual_not_found.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "individual_not_found" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:individual_not_found.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Individual not found"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/individual-help.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "individual_not_found" ;
-        prop:hasPackage  "Vitro" .

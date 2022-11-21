@@ -20,12 +20,3 @@ prop-data:manage_labels_intro.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage_labels_intro" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:manage_labels_intro.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "In the case where multiple labels exist in the same language, please use the remove link to delete the labels you do not want displayed on the profile page for a given language."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/individual/manageLabelsForIndividual.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "manage_labels_intro" ;
-        prop:hasPackage  "Vitro" .

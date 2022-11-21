@@ -20,12 +20,3 @@ prop-data:add_new_group.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "add_new_group" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:add_new_group.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Add New Group"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-classHierarchy.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "add_new_group" ;
-        prop:hasPackage  "Vitro" .

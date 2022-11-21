@@ -37,12 +37,3 @@ prop-data:reviewer_role.VIVO-languages.tenderfoot
         prop:hasKey      "reviewer_role" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:reviewer_role.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Reviewer Role"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "reviewer_role" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

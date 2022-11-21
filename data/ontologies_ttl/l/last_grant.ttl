@@ -22,15 +22,6 @@ prop-data:last_grant.VIVO-languages.wilma
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
 
-prop-data:last_grant.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Last Grant"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "last_grant" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:last_grant.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

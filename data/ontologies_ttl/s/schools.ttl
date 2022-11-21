@@ -20,21 +20,3 @@ prop-data:schools.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "schools" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:schools.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "schools"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "schools" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:schools.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "schools"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "schools" ;
-        prop:hasPackage  "VIVO" .

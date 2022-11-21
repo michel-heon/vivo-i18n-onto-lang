@@ -20,22 +20,3 @@ prop-data:select_organization_type.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "select_organization_type" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:select_organization_type.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please select a value in the Organization Type field."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "select_organization_type" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:select_organization_type.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please select a value in the Organization Type field."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEducationalTraining.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasPositionHistory.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "select_organization_type" ;
-        prop:hasPackage  "VIVO" .

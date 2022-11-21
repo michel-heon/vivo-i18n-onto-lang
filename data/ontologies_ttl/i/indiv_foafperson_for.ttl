@@ -6,15 +6,21 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:indiv_foafperson_for.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
+prop-data:indiv_foafperson_for.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "для"@ru-RU ;
+        rdfs:label       "für"@de-DE ;
+        rdfs:label       "za"@sr-Latn-RS ;
+        rdfs:label       "for"@en-CA ;
         rdfs:label       "for"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual--foaf-person.ftl"^^xsd:anyURI ;
+        rdfs:label       "para"@pt-BR ;
+        rdfs:label       "para"@es ;
+        rdfs:label       "pour"@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "indiv_foafperson_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
 
 prop-data:indiv_foafperson_for.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
@@ -31,29 +37,3 @@ prop-data:indiv_foafperson_for.VIVO-languages.tenderfoot
         prop:hasKey      "indiv_foafperson_for" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:indiv_foafperson_for.VIVO-languages.wilma
-        rdf:type         prop:PropertyKey ;
-        rdf:type         owl:NamedIndividual ;
-        rdfs:label       "для"@ru-RU ;
-        rdfs:label       "für"@de-DE ;
-        rdfs:label       "za"@sr-Latn-RS ;
-        rdfs:label       "for"@en-CA ;
-        rdfs:label       "for"@en-US ;
-        rdfs:label       "para"@es ;
-        rdfs:label       "para"@pt-BR ;
-        rdfs:label       "pour"@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/individual--foaf-person_fr_CA.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "indiv_foafperson_for" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:indiv_foafperson_for.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/individual--foaf-person.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "indiv_foafperson_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .

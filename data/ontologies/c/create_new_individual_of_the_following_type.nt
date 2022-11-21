@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_new_individual_of_the_following_type" .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Crear un objeto del siguiente tipo"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Create an object of the following type"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Create an object of the following type"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Criando o seguinte tipo de objeto"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Créer un objet du type suivant"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erstellen eines Objekts der Art"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Kreiranje objekta sledećeg tipa"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_new_individual_of_the_following_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Создание объекта следующего типа"@ru-RU .

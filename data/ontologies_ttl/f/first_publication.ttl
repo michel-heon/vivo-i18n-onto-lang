@@ -37,12 +37,3 @@ prop-data:first_publication.VIVO-languages.wilma
         prop:hasKey      "first_publication" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:first_publication.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "First publication"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "first_publication" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

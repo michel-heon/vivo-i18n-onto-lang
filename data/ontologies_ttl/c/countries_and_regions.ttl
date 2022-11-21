@@ -6,14 +6,21 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:countries_and_regions.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
+prop-data:countries_and_regions.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "países e regiões."@pt-BR ;
+        rdfs:label       "países y regiones."@es ;
+        rdfs:label       "страны и регионы."@ru-RU ;
+        rdfs:label       "Länder und Bezirke"@de-DE ;
+        rdfs:label       "države i regioni."@sr-Latn-RS ;
+        rdfs:label       "countries and regions."@en-CA ;
+        rdfs:label       "countries and regions."@en-US ;
+        rdfs:label       "pays et régions."@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "countries_and_regions" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "tenderfoot" .
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .
 
 prop-data:countries_and_regions.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
@@ -26,44 +33,7 @@ prop-data:countries_and_regions.VIVO-languages.tenderfoot
         rdfs:label       "pays et régions."@fr-CA ;
         rdfs:label       "страны и регионы."@ru-RU ;
         rdfs:label       "Länder und Bezirke"@de-DE ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "countries_and_regions" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:countries_and_regions.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "countries and regions."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "countries_and_regions" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:countries_and_regions.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "countries_and_regions" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:countries_and_regions.VIVO-languages.wilma
-        rdf:type         prop:PropertyKey ;
-        rdf:type         owl:NamedIndividual ;
-        rdfs:label       "países e regiões."@pt-BR ;
-        rdfs:label       "países y regiones."@es ;
-        rdfs:label       "страны и регионы."@ru-RU ;
-        rdfs:label       "Länder und Bezirke"@de-DE ;
-        rdfs:label       "države i regioni."@sr-Latn-RS ;
-        rdfs:label       "countries and regions."@en-CA ;
-        rdfs:label       "countries and regions."@en-US ;
-        rdfs:label       "pays et régions."@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "countries_and_regions" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "wilma" .

@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:quick_view_icon.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "quick view icon"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-2column.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "quick_view_icon" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:quick_view_icon.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:quick_view_icon.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "quick_view_icon" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:quick_view_icon.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "quick view icon"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "quick_view_icon" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

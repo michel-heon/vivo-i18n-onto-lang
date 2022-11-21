@@ -37,12 +37,3 @@ prop-data:last_publication.VIVO-languages.wilma
         prop:hasKey      "last_publication" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:last_publication.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Last publication"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "last_publication" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

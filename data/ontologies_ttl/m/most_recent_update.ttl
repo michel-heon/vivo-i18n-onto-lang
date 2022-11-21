@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:most_recent_update.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The most recent update was at"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "most_recent_update" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:most_recent_update.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

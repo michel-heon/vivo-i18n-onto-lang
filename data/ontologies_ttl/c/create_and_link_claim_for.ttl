@@ -20,13 +20,3 @@ prop-data:create_and_link_claim_for.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_claim_for" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_claim_for.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Claiming works for<br />{0}"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_claim_for" ;
-        prop:hasPackage  "VIVO" .

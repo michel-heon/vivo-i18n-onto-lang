@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:map_of_science_visualization_tool_tip_three_the_first_part.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Esta visualización se basa en las publicaciones que pudimos 'localizar a ciencia' para {0}, y por lo tanto, puede que no sea plenamente representativo de la actividad general de publicaciones de {0}."@es ;
+        rdfs:label       "Ova vizuelizacija je zasnovana na publikacijama koje smo mogli da nađemo za {0}, i zbog toga možda ne predstavlja u potpunosti sve publikacije za {0}."@sr-Latn-RS ;
+        rdfs:label       "This visualization is based on the publications we were able to 'science locate' for {0}, and therefore it may not be fully representative of the overall publication activity for {0}."@en-CA ;
+        rdfs:label       "This visualization is based on the publications we were able to 'science locate' for {0}, and therefore it may not be fully representative of the overall publication activity for {0}."@en-US ;
+        rdfs:label       "This visualization is based on the publications we were able to 'science locate' for {0}, and therefore it may not be fully representative of the overall publication activity for {0}."@fr-CA ;
+        rdfs:label       "Esta visualização é baseada nas publicações, fomos capazes de 'localizar ciência' para {0}, e portanto, não pode ser plenamente representativo a atividade de publicação global para {0}."@pt-BR ;
+        rdfs:label       "Эта визуализация основана на публикациях, которые мы смогли „научно локализовать“ для {0}, и поэтому она может не полностью отражать общую публикационную активность для {0}."@ru-RU ;
+        rdfs:label       "Diese Visualisierung basiert auf den Publikationen, die wir für {0} finden konnten, und ist daher möglicherweise nicht vollständig repräsentativ für die gesamte Publikationstätigkeit für {0}."@de-DE ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_of_science_visualization_tool_tip_three_the_first_part" ;
+        prop:hasPackage  "VIVO-languages" .

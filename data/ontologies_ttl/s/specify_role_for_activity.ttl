@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:specify_role_for_activity.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please specify a role for this activity."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "specify_role_for_activity" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:specify_role_for_activity.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -26,16 +17,6 @@ prop-data:specify_role_for_activity.VIVO-languages
         rdfs:label       "Please specify a role for this activity."@en-CA ;
         rdfs:label       "Please specify a role for this activity."@en-US ;
         rdfs:label       "Por favor especifique um regra para essa atividade."@pt-BR ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "specify_role_for_activity" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:specify_role_for_activity.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please specify a role for this activity."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "specify_role_for_activity" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -20,12 +20,3 @@ prop-data:create_and_link_thank_you.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_thank_you" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_thank_you.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Thank you"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_thank_you" ;
-        prop:hasPackage  "VIVO" .

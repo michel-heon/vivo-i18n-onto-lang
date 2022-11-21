@@ -20,21 +20,3 @@ prop-data:advisor_relationship_entry_for.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "advisor_relationship_entry_for" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:advisor_relationship_entry_for.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "advisor relationship entry for"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "advisor_relationship_entry_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:advisor_relationship_entry_for.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "advisor relationship entry for"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdvisorRelationship.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "advisor_relationship_entry_for" ;
-        prop:hasPackage  "VIVO" .

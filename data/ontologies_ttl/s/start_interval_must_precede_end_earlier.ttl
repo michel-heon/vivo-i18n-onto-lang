@@ -20,12 +20,3 @@ prop-data:start_interval_must_precede_end_earlier.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "start_interval_must_precede_end_earlier" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:start_interval_must_precede_end_earlier.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The Start interval must be earlier than the End interval."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeIntervalForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "start_interval_must_precede_end_earlier" ;
-        prop:hasPackage  "Vitro" .

@@ -20,12 +20,3 @@ prop-data:create_and_link_enter.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_enter" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_enter.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Enter {0}:"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_enter" ;
-        prop:hasPackage  "VIVO" .

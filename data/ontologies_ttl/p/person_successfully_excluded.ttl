@@ -20,21 +20,3 @@ prop-data:person_successfully_excluded.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "person_successfully_excluded" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:person_successfully_excluded.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The person has been successfully excluded from the organization page."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "person_successfully_excluded" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:person_successfully_excluded.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The person has been successfully excluded from the organization page."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePeopleForOrganization.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "person_successfully_excluded" ;
-        prop:hasPackage  "VIVO" .

@@ -6,16 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:statewide_locations.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "state-wide locations."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "statewide_locations" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:statewide_locations.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -25,9 +15,8 @@ prop-data:statewide_locations.VIVO-languages.wilma
         rdfs:label       "места в пределах штата."@ru-RU ;
         rdfs:label       "landesweite Standorte."@de-DE ;
         rdfs:label       "localisations de niveau provincial."@fr-CA ;
-        rdfs:label       "state-wide locations."@en-CA ;
         rdfs:label       "state-wide locations."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
+        rdfs:label       "state-wide locations."@en-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "statewide_locations" ;
         prop:hasPackage  "VIVO-languages" ;
@@ -37,33 +26,14 @@ prop-data:statewide_locations.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "lugares en todo el estado."@es ;
-        rdfs:label       "state-wide locations."@en-CA ;
         rdfs:label       "state-wide locations."@en-US ;
+        rdfs:label       "state-wide locations."@en-CA ;
         rdfs:label       "места в пределах штата."@ru-RU ;
         rdfs:label       "locais em todo o estado."@pt-BR ;
         rdfs:label       "landesweite Standorte."@de-DE ;
         rdfs:label       "localisations de niveau provincial."@fr-CA ;
         rdfs:label       "lokacije na nivou države."@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "statewide_locations" ;
         prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:statewide_locations.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "statewide_locations" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:statewide_locations.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "statewide_locations" ;
-        prop:hasPackage  "VIVO" ;
         prop:hasTheme    "tenderfoot" .

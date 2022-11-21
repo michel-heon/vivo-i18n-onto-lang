@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:upload_completed_templates.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Upload your completed template(s)."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "upload_completed_templates" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:upload_completed_templates.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -29,12 +20,3 @@ prop-data:upload_completed_templates.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "upload_completed_templates" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:upload_completed_templates.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Upload your completed template(s)."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "upload_completed_templates" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

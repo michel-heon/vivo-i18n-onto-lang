@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_an_existing_or_create_a_new_one" .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odaberite postojeći ili kreirajte novi."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seleccione uno existente o cree uno nuevo"@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selecione um existente ou crie um novo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing or create a new one"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing or create a new one"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sélectionnez un existant ou créez-en un nouveau"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Wählen Sie eine vorhandene oder erstellen Sie eine neue."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_or_create_a_new_one.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выберите существующий или создайте новый"@ru-RU .

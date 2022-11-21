@@ -20,21 +20,3 @@ prop-data:create_own_concept.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_own_concept" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_own_concept.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Select or create a VIVO-defined concept."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_own_concept" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:create_own_concept.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Select or create a VIVO-defined concept."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_own_concept" ;
-        prop:hasPackage  "VIVO" .

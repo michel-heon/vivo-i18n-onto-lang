@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Klassen-Verwaltung"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Upravljanje klasama"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Управение классами"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-ontologyEditor.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "class_management" .
-<http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#class_management.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Class Management"@en-US .

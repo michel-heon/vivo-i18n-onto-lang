@@ -20,11 +20,3 @@ prop-data:invalid_url_msg.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "invalid_url_msg" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:invalid_url_msg.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This URL must start with http:// or https://"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "invalid_url_msg" ;
-        prop:hasPackage  "Vitro" .

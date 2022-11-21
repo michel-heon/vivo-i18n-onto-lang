@@ -20,11 +20,3 @@ prop-data:institution_name.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "institution_name" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:institution_name.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Name of Institution"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "institution_name" ;
-        prop:hasPackage  "VIVO" .

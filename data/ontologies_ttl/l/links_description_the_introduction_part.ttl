@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:links_description_the_introduction_part.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Para outros mapas de ciência, veja"@pt-BR ;
+        rdfs:label       "For other maps of science, see"@en-CA ;
+        rdfs:label       "For other maps of science, see"@en-US ;
+        rdfs:label       "For other maps of science, see"@fr-CA ;
+        rdfs:label       "Другие карты науки см."@ru-RU ;
+        rdfs:label       "Für weitere Wissenschaftskarten siehe"@de-DE ;
+        rdfs:label       "Za druge naučne mape, pogledajte"@sr-Latn-RS ;
+        rdfs:label       "Para otros mapas de la ciencia, ver"@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "links_description_the_introduction_part" ;
+        prop:hasPackage  "VIVO-languages" .

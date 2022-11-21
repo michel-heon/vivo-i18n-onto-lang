@@ -20,21 +20,3 @@ prop-data:advisee_capitalized.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "advisee_capitalized" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:advisee_capitalized.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Advisee"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "advisee_capitalized" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:advisee_capitalized.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Advisee"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdvisorRelationship.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "advisee_capitalized" ;
-        prop:hasPackage  "VIVO" .

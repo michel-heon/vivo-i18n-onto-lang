@@ -20,12 +20,3 @@ prop-data:year_month.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "year_month" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:year_month.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Invalid entry. Please enter a Year and Month."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDataPropertyForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "year_month" ;
-        prop:hasPackage  "Vitro" .

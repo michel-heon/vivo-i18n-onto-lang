@@ -20,14 +20,3 @@ prop-data:next_capitalized.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "next_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:next_capitalized.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Next"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/account/userAccounts-accountsNav.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/search/search-pagedResults.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "next_capitalized" ;
-        prop:hasPackage  "Vitro" .

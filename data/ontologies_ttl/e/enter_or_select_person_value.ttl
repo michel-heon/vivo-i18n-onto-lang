@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:enter_or_select_person_value.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please select an existing value or enter a new value in the Person field."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationHasPositionHistory.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "enter_or_select_person_value" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:enter_or_select_person_value.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -29,12 +20,3 @@ prop-data:enter_or_select_person_value.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "enter_or_select_person_value" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:enter_or_select_person_value.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please select an existing value or enter a new value in the Person field."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "enter_or_select_person_value" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

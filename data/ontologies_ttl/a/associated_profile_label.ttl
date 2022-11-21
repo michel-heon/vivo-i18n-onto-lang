@@ -20,12 +20,3 @@ prop-data:associated_profile_label.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "associated_profile_label" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:associated_profile_label.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Associated profile:"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-associateProfilePanel.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "associated_profile_label" ;
-        prop:hasPackage  "Vitro" .

@@ -17,25 +17,6 @@ prop-data:co_authorship.VIVO-languages
         rdfs:label       "Mitautorschaft"@de-DE ;
         rdfs:label       "co-authorship"@en-CA ;
         rdfs:label       "co-authorship"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_authorship" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:co_authorship.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "co-authorship"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "co_authorship" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:co_authorship.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "co-authorship"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "co_authorship" ;
-        prop:hasPackage  "VIVO" .

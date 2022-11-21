@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:change_text_for.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Change text for:"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "change_text_for" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:change_text_for.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

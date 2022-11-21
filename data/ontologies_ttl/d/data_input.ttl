@@ -20,12 +20,3 @@ prop-data:data_input.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "data_input" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:data_input.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Data Input"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-dataInput.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "data_input" ;
-        prop:hasPackage  "Vitro" .

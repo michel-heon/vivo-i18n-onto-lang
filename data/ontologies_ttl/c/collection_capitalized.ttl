@@ -22,15 +22,6 @@ prop-data:collection_capitalized.VIVO-languages.wilma
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
 
-prop-data:collection_capitalized.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Collection"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "collection_capitalized" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:collection_capitalized.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

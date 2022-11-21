@@ -26,10 +26,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Postanschrift bearbeiten"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Éditer le courriel"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Редактировать почтовый адрес"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "edit_mailing_address" .
-<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#edit_mailing_address.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Edit Mailing Address"@en-US .

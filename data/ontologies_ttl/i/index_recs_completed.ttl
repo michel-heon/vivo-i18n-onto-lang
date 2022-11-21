@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:index_recs_completed.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Completed {0} out of {1} index records."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "index_recs_completed" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:index_recs_completed.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

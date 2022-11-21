@@ -20,12 +20,3 @@ prop-data:recompute_inferences_mixed_caps.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "recompute_inferences_mixed_caps" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:recompute_inferences_mixed_caps.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Recompute inferences"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteMaintenance.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "recompute_inferences_mixed_caps" ;
-        prop:hasPackage  "Vitro" .

@@ -1,4 +1,3 @@
-    <http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
 <http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "max_nbr_for_comp" .
 <http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
@@ -12,20 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The maximum number of items for comparison is 3."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Un maximum de trois éléments peuvent être comparés."@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Максимальное количество элементов для сравнения – 3."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "max_nbr_for_comp" .
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "The maximum number of items for comparison is 3."@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "max_nbr_for_comp" .
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#max_nbr_for_comp.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "The maximum number of items for comparison is 3."@en-US .

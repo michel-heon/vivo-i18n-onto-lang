@@ -6,16 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:with_known_year.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "with known year"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "with_known_year" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:with_known_year.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -30,12 +20,3 @@ prop-data:with_known_year.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "with_known_year" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:with_known_year.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "with known year"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "with_known_year" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

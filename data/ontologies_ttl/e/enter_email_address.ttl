@@ -20,21 +20,3 @@ prop-data:enter_email_address.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "enter_email_address" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:enter_email_address.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please enter a value in the Email Address field."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "enter_email_address" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:enter_email_address.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please enter a value in the Email Address field."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEmailAddress.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "enter_email_address" ;
-        prop:hasPackage  "VIVO" .

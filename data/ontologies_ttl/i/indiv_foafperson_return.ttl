@@ -17,19 +17,9 @@ prop-data:indiv_foafperson_return.VIVO-languages.wilma
         rdfs:label       "вернуться к"@ru-RU ;
         rdfs:label       "volver a"@es ;
         rdfs:label       "revenir à"@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/individual--foaf-person_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "indiv_foafperson_return" ;
         prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:indiv_foafperson_return.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/individual--foaf-person.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "indiv_foafperson_return" ;
-        prop:hasPackage  "VIVO" ;
         prop:hasTheme    "wilma" .
 
 prop-data:indiv_foafperson_return.VIVO-languages.tenderfoot
@@ -47,13 +37,3 @@ prop-data:indiv_foafperson_return.VIVO-languages.tenderfoot
         prop:hasKey      "indiv_foafperson_return" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:indiv_foafperson_return.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "return to"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual--foaf-person.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "indiv_foafperson_return" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

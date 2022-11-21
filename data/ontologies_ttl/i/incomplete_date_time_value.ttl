@@ -20,21 +20,3 @@ prop-data:incomplete_date_time_value.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "incomplete_date_time_value" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:incomplete_date_time_value.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "incomplete date/time value"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "incomplete_date_time_value" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:incomplete_date_time_value.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "incomplete date/time value"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-dateTimeValue.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "incomplete_date_time_value" ;
-        prop:hasPackage  "VIVO" .

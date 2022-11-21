@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:publications_with.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Publications with"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "publications_with" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:publications_with.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -26,16 +17,6 @@ prop-data:publications_with.VIVO-languages
         rdfs:label       "Publikacije sa"@sr-Latn-RS ;
         rdfs:label       "Publikationen mit"@de-DE ;
         rdfs:label       "Publicaciones con"@es ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "publications_with" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:publications_with.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Publications with"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "publications_with" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -20,12 +20,3 @@ prop-data:cap_map_text4.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "cap_map_text4" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:cap_map_text4.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "To make the visualisation easier to read, search terms and groups are scaled according to the number of results returned. Groups are also given different shades according to the number of connected search terms. The darker the shade, the more search terms a group is connected to."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "cap_map_text4" ;
-        prop:hasPackage  "VIVO" .

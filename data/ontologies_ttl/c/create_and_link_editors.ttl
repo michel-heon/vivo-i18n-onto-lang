@@ -20,12 +20,3 @@ prop-data:create_and_link_editors.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_editors" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_editors.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Editors"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_editors" ;
-        prop:hasPackage  "VIVO" .

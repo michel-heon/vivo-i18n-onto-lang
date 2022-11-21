@@ -1,10 +1,3 @@
-    <http://vivoweb.org/ontology/core/properties/individual#add_new.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "add_new" .
-<http://vivoweb.org/ontology/core/properties/individual#add_new.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#add_new.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "add_new" .
 <http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
@@ -18,13 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Dodajte novi"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hinzufügen"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Добавить новый(ое)"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-objectPropHierarchy.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/rdfsLabelForm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "add_new" .
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#add_new.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Add new"@en-US .

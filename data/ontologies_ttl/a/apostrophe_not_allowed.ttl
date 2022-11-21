@@ -20,14 +20,3 @@ prop-data:apostrophe_not_allowed.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "apostrophe_not_allowed" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:apostrophe_not_allowed.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The variable name should not have an apostrophe."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--searchIndividuals.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--sparqlQuery.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--fixedHtml.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "apostrophe_not_allowed" ;
-        prop:hasPackage  "Vitro" .

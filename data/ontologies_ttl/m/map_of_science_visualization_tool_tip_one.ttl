@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:map_of_science_visualization_tool_tip_one.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "VIVO Mapa de visualização Ciêntifica retrata a experiência de uma universidade, organização ou pessoa tem com base na últimas publicações carregadas no VIVO. Aqui é mostrado o perfil de especialização da {0}--largo círculos denotam mais as publicações por área temática."@pt-BR ;
+        rdfs:label       "Визуализация \"Карта науки\" VIVO отображает тематический опыт университета, организации или человека на основе прошлых публикаций, загруженных в VIVO. Здесь показан профиль специализации {0} — более крупные круги обозначают большее количество публикаций по данной тематической области."@ru-RU ;
+        rdfs:label       "VIVO Map of Science visualization depicts the topical expertise a university, organization, or person has based on past publications loaded into VIVO. The {0} expertise profile is shown here -- larger circle sizes denote more publications per topic area."@en-CA ;
+        rdfs:label       "VIVO Map of Science visualization depicts the topical expertise a university, organization, or person has based on past publications loaded into VIVO. The {0} expertise profile is shown here -- larger circle sizes denote more publications per topic area."@fr-CA ;
+        rdfs:label       "VIVO Map of Science visualization depicts the topical expertise a university, organization, or person has based on past publications loaded into VIVO. The {0} expertise profile is shown here -- larger circle sizes denote more publications per topic area."@en-US ;
+        rdfs:label       "El Mapa la visualización de la Ciencia en VIVO representa la experiencia actual que una universidad, organización o persona tiene sobre la base de las publicaciones anteriores cargadas en VIVO. Aquí se muestra el perfil de especialización de la {0} -- los círculos más grandes denotan más publicaciones por área temática."@es ;
+        rdfs:label       "VIVOs Map of Science stellt die aktuelle Expertise einer Universität, Organisation oder Person dar, die auf vergangenen Publikationen basiert, die in VIVO geladen wurden. Hier ist das {0}-Kompetenzprofil dargestellt - größere Kreisgrößen bedeuten mehr Publikationen pro Themenbereich."@de-DE ;
+        rdfs:label       "VIVO vizuelizacija 'Map of Science' predstavlja ekspertize određenog univerziteta, organizacije ili osobe, zasnovano na publikacijama koje se nalaze u VIVO sistemu. Ovde je prikazan profil ekspertiza za {0} -- veći krugovi predstavljaju više publikacija u datoj oblasti."@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_of_science_visualization_tool_tip_one" ;
+        prop:hasPackage  "VIVO-languages" .

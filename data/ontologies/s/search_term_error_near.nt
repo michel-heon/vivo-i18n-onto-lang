@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The search term had an error near"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The search term had an error near"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Поисковый запрос содержал ошибку рядом с"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "search_term_error_near" .
-<http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#search_term_error_near.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "The search term had an error near"@en-US .

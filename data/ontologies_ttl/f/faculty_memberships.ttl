@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:faculty_memberships.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Faculty Memberships"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "faculty_memberships" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:faculty_memberships.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

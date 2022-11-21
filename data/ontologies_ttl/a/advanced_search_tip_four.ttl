@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:advanced_search_tip_four.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Des variations de mots proches seront également trouvées -- par exemple, <i>sequence</i> correspond à <i>sequences</i> et <i>sequencing</i>."@fr-CA ;
+        rdfs:label       "Wortvariationen werden auch gefunden - Bsp.: <i>Sequenz</i> findet <i>Sequenzen</i> und <i>Sequenzierung</i>."@de-DE ;
+        rdfs:label       "Asimismo, se encuentra variaciones de palabras -- por ejemplo, <i>secuencia</i> similar <i>secuencias</i> y <i>secuenciación</i>."@es ;
+        rdfs:label       "Palavras de variações proximas também serão encontradas - por exemplo, <i>sequence</i> matches <i>sequences</i> and <i>sequencing</i>."@pt-BR ;
+        rdfs:label       "Close word variations will also be found -- e.g., <i>sequence</i> matches <i>sequences</i> and <i>sequencing</i>."@en-CA ;
+        rdfs:label       "Close word variations will also be found -- e.g., <i>sequence</i> matches <i>sequences</i> and <i>sequencing</i>."@en-US ;
+        rdfs:label       "Также можно найти близкие варианты слов, например <i>очередь</i> подойдёт для поиска и <i>очереди</i>, и <i>очередной</i>."@ru-RU ;
+        rdfs:label       "Pretraga takođe vraća rezultate koji sadrže reči slične izrazu pretrage -- npr., <i>sekvenca</i> će se podudarati sa <i>sekvencama</i>."@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "advanced_search_tip_four" ;
+        prop:hasPackage  "Vitro-languages" .

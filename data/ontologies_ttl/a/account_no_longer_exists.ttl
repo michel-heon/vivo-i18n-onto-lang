@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:account_no_longer_exists.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The account you are trying to set a password on is no longer available. Please contact your system administrator if you think this is an error."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "account_no_longer_exists" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:account_no_longer_exists.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

@@ -20,21 +20,3 @@ prop-data:harvest_error_instructions_one.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_error_instructions_one" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:harvest_error_instructions_one.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This is most likely due to an improper Harvester configuration. Please ensure the following:"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "harvest_error_instructions_one" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:harvest_error_instructions_one.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This is most likely due to an improper Harvester configuration. Please ensure the following:"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "harvest_error_instructions_one" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

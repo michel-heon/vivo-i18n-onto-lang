@@ -6,36 +6,17 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:presentation_type.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Presentation Type"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "presentation_type" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:presentation_type.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Presentation Type"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "presentation_type" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:presentation_type.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Presentation Type"@en-CA ;
         rdfs:label       "Presentation Type"@en-US ;
+        rdfs:label       "Presentation Type"@en-CA ;
         rdfs:label       "Tipo de presentación"@es ;
         rdfs:label       "Apresentação Tipo"@pt-BR ;
         rdfs:label       "Type de présentation"@fr-CA ;
         rdfs:label       "Art des Vortrags"@de-DE ;
         rdfs:label       "Тип доклада"@ru-RU ;
         rdfs:label       "Tip Prezentacije"@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_type" ;
         prop:hasPackage  "VIVO-languages" .

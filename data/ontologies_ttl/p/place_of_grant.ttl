@@ -22,15 +22,6 @@ prop-data:place_of_grant.VIVO-languages.tenderfoot
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
 
-prop-data:place_of_grant.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Place of grant"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "place_of_grant" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:place_of_grant.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

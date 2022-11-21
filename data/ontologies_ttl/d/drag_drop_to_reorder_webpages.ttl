@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:drag_drop_to_reorder_webpages.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Drag and drop to reorder web pages"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "drag_drop_to_reorder_webpages" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:drag_drop_to_reorder_webpages.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:drag_drop_to_reorder_webpages.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "drag_drop_to_reorder_webpages" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:drag_drop_to_reorder_webpages.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Drag and drop to reorder web pages"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "drag_drop_to_reorder_webpages" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

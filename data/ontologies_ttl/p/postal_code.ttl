@@ -20,21 +20,3 @@ prop-data:postal_code.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "postal_code" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:postal_code.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Postal Code"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "postal_code" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:postal_code.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Postal Code"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/subjectHasMailingAddress.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "postal_code" ;
-        prop:hasPackage  "VIVO" .

@@ -20,12 +20,3 @@ prop-data:accounts_search_results.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "accounts_search_results" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:accounts_search_results.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Search results for"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-list.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "accounts_search_results" ;
-        prop:hasPackage  "Vitro" .

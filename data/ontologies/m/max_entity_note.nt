@@ -11,18 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Un máximo de 10 entidades se pueden comparar. Elimine algunas y vuelve a intentarlo."@es .
 <http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "máximo 10 entidades podem ser comparados. Por favor, remova alguns e tente novamente."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ондновременно можно сравнивать до 10 объектов. Пожалуйста удалите какие-нибудь объекты и попробуйте заново."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "max_entity_note" .
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "A Maximum 10 entities can be compared. Please remove some & try again."@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "max_entity_note" .
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#max_entity_note.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "A Maximum 10 entities can be compared. Please remove some & try again."@en-US .

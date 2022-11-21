@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:years_participation_in.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Years of Participation in"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "years_participation_in" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:years_participation_in.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

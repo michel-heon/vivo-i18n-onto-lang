@@ -20,12 +20,3 @@ prop-data:custom_template_containing_content.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "custom_template_containing_content" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:custom_template_containing_content.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Custom template containing all content"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "custom_template_containing_content" ;
-        prop:hasPackage  "Vitro" .

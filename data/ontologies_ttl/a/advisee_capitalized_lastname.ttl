@@ -20,11 +20,3 @@ prop-data:advisee_capitalized_lastname.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "advisee_capitalized_lastname" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:advisee_capitalized_lastname.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Last Name"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "advisee_capitalized_lastname" ;
-        prop:hasPackage  "VIVO" .

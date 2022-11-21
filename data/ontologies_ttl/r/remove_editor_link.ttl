@@ -20,21 +20,3 @@ prop-data:remove_editor_link.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "remove_editor_link" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:remove_editor_link.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "remove editor link"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "remove_editor_link" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:remove_editor_link.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "remove editor link"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "remove_editor_link" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

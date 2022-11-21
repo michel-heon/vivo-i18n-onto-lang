@@ -20,12 +20,3 @@ prop-data:identifier_factories.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "identifier_factories" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:identifier_factories.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Identifier factories"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showAuth.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "identifier_factories" ;
-        prop:hasPackage  "Vitro" .

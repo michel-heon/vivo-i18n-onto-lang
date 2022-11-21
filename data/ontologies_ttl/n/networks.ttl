@@ -20,21 +20,3 @@ prop-data:networks.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "networks" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:networks.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Networks"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-visualizationQuickView.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "networks" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:networks.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Networks"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "networks" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

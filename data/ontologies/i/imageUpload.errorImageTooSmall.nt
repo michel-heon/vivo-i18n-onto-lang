@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The uploaded image should be at least {0} pixels high and {1} pixels wide."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The uploaded image should be at least {0} pixels high and {1} pixels wide."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Загружаемое изображение должно быть не менее {0} пикселей в высоту и {1} пикселей в ширину."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "imageUpload.errorImageTooSmall" .
-<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorImageTooSmall.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "The uploaded image should be at least {0} pixels high and {1} pixels wide."@en-US .

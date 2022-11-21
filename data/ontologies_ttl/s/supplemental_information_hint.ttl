@@ -20,22 +20,3 @@ prop-data:supplemental_information_hint.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "supplemental_information_hint" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:supplemental_information_hint.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "(e.g., Thesis title, Transfer info, etc.)"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "supplemental_information_hint" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:supplemental_information_hint.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "(e.g., Thesis title, Transfer info, etc.)"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEducationalTraining.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "supplemental_information_hint" ;
-        prop:hasPackage  "VIVO" .

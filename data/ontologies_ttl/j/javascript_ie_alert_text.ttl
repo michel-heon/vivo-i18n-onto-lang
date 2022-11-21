@@ -6,23 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:javascript_ie_alert_text.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This site uses HTML elements that are not recognized by Internet Explorer 8 and below in the absence of JavaScript. As a result, the site will not be rendered appropriately. To correct this, please either enable JavaScript, upgrade to Internet Explorer 9, or use another browser."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "javascript_ie_alert_text" ;
-        prop:hasPackage  "Vitro" .
-
-prop-data:javascript_ie_alert_text.Vitro.vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/flash.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "javascript_ie_alert_text" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "vitro" .
-
 prop-data:javascript_ie_alert_text.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

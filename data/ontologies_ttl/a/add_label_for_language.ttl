@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:add_label_for_language.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Language"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "add_label_for_language" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:add_label_for_language.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

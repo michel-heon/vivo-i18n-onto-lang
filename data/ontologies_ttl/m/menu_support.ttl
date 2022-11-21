@@ -6,13 +6,20 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:menu_support.VIVO.wilma
+prop-data:menu_support.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/footer.ftl"^^xsd:anyURI ;
+        rdfs:label       "Поддержка"@ru-RU ;
+        rdfs:label       "Podrška"@sr-Latn-RS ;
+        rdfs:label       "Soporte"@es ;
+        rdfs:label       "Support"@en-CA ;
+        rdfs:label       "Support"@en-US ;
+        rdfs:label       "Hilfe"@de-DE ;
+        rdfs:label       "Aide"@fr-CA ;
+        rdfs:label       "Suporte"@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "menu_support" ;
-        prop:hasPackage  "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
 
 prop-data:menu_support.VIVO-languages.tenderfoot
@@ -30,38 +37,3 @@ prop-data:menu_support.VIVO-languages.tenderfoot
         prop:hasKey      "menu_support" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:menu_support.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/footer.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_support" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:menu_support.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Support"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/footer.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_support" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:menu_support.VIVO-languages.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Поддержка"@ru-RU ;
-        rdfs:label       "Podrška"@sr-Latn-RS ;
-        rdfs:label       "Soporte"@es ;
-        rdfs:label       "Support"@en-CA ;
-        rdfs:label       "Support"@en-US ;
-        rdfs:label       "Hilfe"@de-DE ;
-        rdfs:label       "Aide"@fr-CA ;
-        rdfs:label       "Suporte"@pt-BR ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "menu_support" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "wilma" .

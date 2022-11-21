@@ -6,37 +6,17 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:quickview_tooltip.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Click to view the standard profile page."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "quickview_tooltip" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:quickview_tooltip.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
         rdfs:label       "Hier klicken, um die Standard-Profilseite zu sehen."@de-DE ;
-        rdfs:label       "Clique para ver a página de perfil padrão."@pt-BR ;
         rdfs:label       "Click to view the standard profile page."@en-CA ;
+        rdfs:label       "Clique para ver a página de perfil padrão."@pt-BR ;
         rdfs:label       "Click to view the standard profile page."@en-US ;
         rdfs:label       "Cliquer pour afficher la page de profil complète."@fr-CA ;
         rdfs:label       "Kliknite da vidite standartdnu profilnu stranicu."@sr-Latn-RS ;
         rdfs:label       "Haga clic aquí para ver la página de perfil estándar."@es ;
         rdfs:label       "Щёлкните для просмотра стандартной страницы профиля."@ru-RU ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/body/individual/individual--foaf-person-quickview_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "quickview_tooltip" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:quickview_tooltip.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Click to view the standard profile page."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "quickview_tooltip" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -49,3 +49,4 @@ EOF
 # extraire la liste des clés
 cd $PROPERTIES_DATA
 build_semantic
+echo "Done $UI_LABELS_VOCAB"

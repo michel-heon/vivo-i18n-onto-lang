@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:display_more.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "more"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "display_more" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:display_more.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

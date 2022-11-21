@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:manage.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "manage"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "manage" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:manage.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -22,20 +13,10 @@ prop-data:manage.Vitro-languages
         rdfs:label       "gérer"@fr-CA ;
         rdfs:label       "gerenciar"@pt-BR ;
         rdfs:label       "Administrar"@es ;
+        rdfs:label       "manage"@de-DE ;
         rdfs:label       "manage"@en-CA ;
         rdfs:label       "manage"@en-US ;
-        rdfs:label       "manage"@de-DE ;
         rdfs:label       "upravljajte"@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "manage" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:manage.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "manage" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

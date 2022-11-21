@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:compare_tool_tip_text_the_first_part.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Superponer y examinar los perfiles de competencias de una o más organizaciones. El código de colores según la organización."@es ;
+        rdfs:label       "Overlay e examine o pergil para uma ou mais organizações. Cor definida para organização."@pt-BR ;
+        rdfs:label       "Overlay and examine expertise profiles for one or more organizations. Color coding by organization."@en-CA ;
+        rdfs:label       "Overlay and examine expertise profiles for one or more organizations. Color coding by organization."@en-US ;
+        rdfs:label       "Overlay and examine expertise profiles for one or more organizations. Color coding by organization."@fr-CA ;
+        rdfs:label       "Наложение и изучение профилей специализации для одной или нескольких организаций. Цветовое кодирование по организациям."@ru-RU ;
+        rdfs:label       "Overlay  und Prüfung von Kompetenzprofilen für eine oder mehrere Organisationen. Farbcodierung nach Organisation."@de-DE ;
+        rdfs:label       "Istražite profile ekspertiza za jednu ili više organizacija. Boje su podeljene po disciplinama."@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "compare_tool_tip_text_the_first_part" ;
+        prop:hasPackage  "VIVO-languages" .

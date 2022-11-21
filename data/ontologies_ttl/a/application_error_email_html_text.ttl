@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:application_error_email_html_text.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "<p>Une erreur s'est produite sur votre site ${siteName!} à ${datetime!}</p>"@fr-CA ;
+        rdfs:label       "<p>An error occurred on your ${siteName!} web site at ${datetime!}"@en-CA ;
+        rdfs:label       "<p>An error occurred on your ${siteName!} web site at ${datetime!}"@en-US ;
+        rdfs:label       "<p>Ocorreu um erro em seu site ${siteName!} no ${datetime!}.</p>"@pt-BR ;
+        rdfs:label       "<p>Došlo je do greške na Vašem sajtu ${siteName!} u ${datetime!}</p>"@sr-Latn-RS ;
+        rdfs:label       "<p>Se ha producido un error en tu sitio ${siteName!} en ${datetime!}.</p>"@es ;
+        rdfs:label       "<p>В ${datetime!} на сайте ${siteName!} произошла ошибка "@ru-RU ;
+        rdfs:label       "<p>Zum Zeitpunk ${datetime!} ist ein Fehler auf der Webseite ${siteName!} aufgetreten.</p>"@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "application_error_email_html_text" ;
+        prop:hasPackage  "Vitro-languages" .

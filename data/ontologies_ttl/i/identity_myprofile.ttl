@@ -6,50 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:identity_myprofile.VIVO-languages.tenderfoot
-        rdf:type         prop:PropertyKey ;
-        rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Moj profil"@sr-Latn-RS ;
-        rdfs:label       "Mi perfil"@es ;
-        rdfs:label       "Mon profil"@fr-CA ;
-        rdfs:label       "Mein Profil"@de-DE ;
-        rdfs:label       "My profile"@en-CA ;
-        rdfs:label       "My profile"@en-US ;
-        rdfs:label       "Meu perfil"@pt-BR ;
-        rdfs:label       "Мой профиль"@ru-RU ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "identity_myprofile" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:identity_myprofile.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/partials/identity.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "identity_myprofile" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:identity_myprofile.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "My profile"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/identity.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "identity_myprofile" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:identity_myprofile.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/identity.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "identity_myprofile" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .
-
 prop-data:identity_myprofile.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -65,3 +21,19 @@ prop-data:identity_myprofile.VIVO-languages.wilma
         prop:hasKey      "identity_myprofile" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
+
+prop-data:identity_myprofile.VIVO-languages.tenderfoot
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Moj profil"@sr-Latn-RS ;
+        rdfs:label       "Mi perfil"@es ;
+        rdfs:label       "Mon profil"@fr-CA ;
+        rdfs:label       "Mein Profil"@de-DE ;
+        rdfs:label       "My profile"@en-CA ;
+        rdfs:label       "My profile"@en-US ;
+        rdfs:label       "Meu perfil"@pt-BR ;
+        rdfs:label       "Мой профиль"@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "identity_myprofile" ;
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "tenderfoot" .

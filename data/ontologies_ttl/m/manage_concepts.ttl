@@ -20,21 +20,3 @@ prop-data:manage_concepts.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "manage_concepts" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:manage_concepts.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Manage Concepts"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "manage_concepts" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:manage_concepts.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Manage Concepts"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "manage_concepts" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

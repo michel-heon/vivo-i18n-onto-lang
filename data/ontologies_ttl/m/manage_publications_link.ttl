@@ -15,24 +15,6 @@ prop-data:manage_publications_link.VIVO-languages.tenderfoot
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
 
-prop-data:manage_publications_link.VIVO-languages.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Gérer les publications"@fr-CA ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "manage_publications_link" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:manage_publications_link.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "manage publications"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-properties.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "manage_publications_link" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:manage_publications_link.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -48,11 +30,11 @@ prop-data:manage_publications_link.Vitro-languages
         prop:hasKey      "manage_publications_link" ;
         prop:hasPackage  "Vitro-languages" .
 
-prop-data:manage_publications_link.VIVO.nemo
+prop-data:manage_publications_link.VIVO-languages.wilma
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-properties.ftl"^^xsd:anyURI ;
+        rdfs:label       "Gérer les publications"@fr-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "manage_publications_link" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
+        prop:hasPackage  "VIVO-languages" ;
+        prop:hasTheme    "wilma" .

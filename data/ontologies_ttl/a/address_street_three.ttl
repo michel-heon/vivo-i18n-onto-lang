@@ -22,15 +22,6 @@ prop-data:address_street_three.VIVO-languages.tenderfoot
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
 
-prop-data:address_street_three.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "address street three"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "address_street_three" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:address_street_three.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must enter a value in the Last Name field."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must enter a value in the Last Name field."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Вы должны ввести значение в поле Фамилия."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "last_name_empty_msg" .
-<http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#last_name_empty_msg.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "You must enter a value in the Last Name field."@en-US .

@@ -20,21 +20,3 @@ prop-data:last_ten_full_years.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "last_ten_full_years" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:last_ten_full_years.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "in the last 10 full years"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/publication/personPublicationCountNoSparkline.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "last_ten_full_years" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:last_ten_full_years.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "in the last 10 full years"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "last_ten_full_years" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

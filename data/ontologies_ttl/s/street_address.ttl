@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:street_address.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Street Address"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/subjectHasMailingAddress.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "street_address" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:street_address.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -29,12 +20,3 @@ prop-data:street_address.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "street_address" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:street_address.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Street Address"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "street_address" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

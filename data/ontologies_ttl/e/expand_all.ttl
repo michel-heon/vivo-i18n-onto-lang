@@ -20,13 +20,3 @@ prop-data:expand_all.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "expand_all" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:expand_all.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "expand all"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-objectPropHierarchy.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-classHierarchy.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "expand_all" ;
-        prop:hasPackage  "Vitro" .

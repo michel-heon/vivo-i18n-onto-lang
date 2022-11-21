@@ -3,7 +3,7 @@
 ###################################################################
 # Script Name   :
 # Description   :
-# Args          : 
+# Args          :
 # Author        : Michel Héon PhD
 # Institution   : Université du Québec à Montréal
 # Copyright     : Université du Québec à Montréal (c) 2022
@@ -20,12 +20,12 @@ function process_file {
     PKG=$(basename $ROOT_PKG)
     APP=$(echo $PKG | cut -f 1 -d '-' | tr '[:upper:]' '[:lower:]')
     REGION=$(echo $file | cut -f 2 -d ',')
-    LANG_REPO=$PKG/$REGION/home/src/main/resources/rdf/i18n/$REGION/display/firsttime
+    LANG_REPO=$PKG/$REGION/home/src/main/resources/rdf/i18n/$REGION/interface-i18n/firsttime
     TARGET_REPO=$TARGET_HOME/$LANG_REPO
     THEME=$(echo $PROP_DIR_LOC | grep theme | sed  's/.*themes\///g' | cut -f 1 -d '/')
-    if [ -n "${THEME}" ]; then 
+    if [ -n "${THEME}" ]; then
         UI_ONTO_FN=${APP}_UiLabel_${REGION}_${THEME}.ttl
-    else 
+    else
         UI_ONTO_FN=${APP}_UiLabel_${REGION}.ttl
     fi
     README_URL=$TARGET_HOME/$PROP_DIR_LOC/README_$(basename $UI_ONTO_FN .ttl).txt
@@ -44,16 +44,16 @@ function process_file {
     echo "      UI_ONTO_FN   = $UI_ONTO_FN"
     echo "      README_URL   = $README_URL"
     echo ""
-    
+
     mkdir -p $TARGET_REPO
     mkdir -p $TARGET_HOME/$PROP_DIR_LOC/
-cat << EOF > $README_URL
-Please note that although usage of property files for translation of UI labels is supported at the moment, 
+    cat << EOF > $README_URL
+Please note that although usage of property files for translation of UI labels is supported at the moment,
 it is deprecated and not recommended. Please, consider using ontology instead of property file located at:
 Source code: [VIVO project]$LANG_REPO/$UI_ONTO_FN
 Deployment: [VIVO home]/rdf/i18n/$REGION/display/firsttime/$UI_ONTO_FN
 
-However, if you decide to use property files, please create and post the file in the same 
+However, if you decide to use property files, please create and post the file in the same
 directory as this Readme file.
 
 EOF

@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This panel displays a list of the search terms currently on the graph. Search for something to begin."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This panel displays a list of the search terms currently on the graph. Search for something to begin."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "На этой панели отображается список поисковых запросов, которые в настоящее время находятся на графике. Начните поиск."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "cap_map_text6" .
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text6.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "This panel displays a list of the search terms currently on the graph. Search for something to begin."@en-US .

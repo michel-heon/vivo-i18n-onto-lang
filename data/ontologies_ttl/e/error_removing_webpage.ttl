@@ -20,21 +20,3 @@ prop-data:error_removing_webpage.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "error_removing_webpage" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:error_removing_webpage.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Error processing request: web page not removed."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "error_removing_webpage" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:error_removing_webpage.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Error processing request: web page not removed."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "error_removing_webpage" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

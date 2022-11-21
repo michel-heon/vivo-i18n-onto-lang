@@ -20,12 +20,3 @@ prop-data:begin_with_slash_no_example.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "begin_with_slash_no_example" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:begin_with_slash_no_example.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Must begin with a leading forward slash: /"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "begin_with_slash_no_example" ;
-        prop:hasPackage  "Vitro" .

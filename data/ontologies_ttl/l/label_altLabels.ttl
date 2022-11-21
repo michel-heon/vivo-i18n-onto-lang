@@ -20,21 +20,3 @@ prop-data:label_altLabels.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "label_altLabels" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:label_altLabels.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Label (Alternate Labels)"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "label_altLabels" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:label_altLabels.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Label (Alternate Labels)"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConceptVocabSpecificDisplay.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "label_altLabels" ;
-        prop:hasPackage  "VIVO" .

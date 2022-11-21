@@ -20,20 +20,3 @@ prop-data:verify_this_match_title.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "verify_this_match_title" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:verify_this_match_title.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "verify this match"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-associateProfilePanel.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "verify_this_match_title" ;
-        prop:hasPackage  "Vitro" .
-
-prop-data:verify_this_match_title.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/lib/lib-vivo-form.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "verify_this_match_title" ;
-        prop:hasPackage  "VIVO" .

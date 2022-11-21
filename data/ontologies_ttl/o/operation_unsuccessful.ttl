@@ -20,12 +20,3 @@ prop-data:operation_unsuccessful.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "operation_unsuccessful" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:operation_unsuccessful.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The operation was unsuccessful. Full details can be found in the system log."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "operation_unsuccessful" ;
-        prop:hasPackage  "Vitro" .

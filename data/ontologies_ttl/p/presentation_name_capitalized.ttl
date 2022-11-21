@@ -17,16 +17,6 @@ prop-data:presentation_name_capitalized.VIVO-languages
         rdfs:label       "Title of Presentation"@en-US ;
         rdfs:label       "Название доклада"@ru-RU ;
         rdfs:label       "Titre de la présentation"@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_name_capitalized" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:presentation_name_capitalized.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Title of Presentation"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "presentation_name_capitalized" ;
-        prop:hasPackage  "VIVO" .

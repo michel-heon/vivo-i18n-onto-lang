@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_info_tool_tip_text_the_first_part.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "List only (sub)disciplines whose names contain this text."@en-CA ;
+        rdfs:label       "List only (sub)disciplines whose names contain this text."@en-US ;
+        rdfs:label       "List only (sub)disciplines whose names contain this text."@fr-CA ;
+        rdfs:label       "Lista única de (sub)disciplinas cuja os nomes contenham este texto."@pt-BR ;
+        rdfs:label       "Prikažite samo one (pod)discipline čiji naziv sadrži sledeći tekst."@sr-Latn-RS ;
+        rdfs:label       "Nur (Teil-)Disziplinen auflisten, deren Namen diesen Text enthalten."@de-DE ;
+        rdfs:label       "Перечислите только те (под)дисциплины, в названиях которых есть эти слова."@ru-RU ;
+        rdfs:label       "Enumere sólo (sub)disciplinas cuyos nombres contengan el texto."@es ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "search_info_tool_tip_text_the_first_part" ;
+        prop:hasPackage  "VIVO-languages" .

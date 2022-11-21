@@ -20,12 +20,3 @@ prop-data:create_and_link_unknown_resource.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_unknown_resource" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_unknown_resource.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Unknown Resource Type"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/unknownResourceType.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_unknown_resource" ;
-        prop:hasPackage  "VIVO" .

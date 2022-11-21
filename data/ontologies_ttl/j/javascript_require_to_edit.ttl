@@ -20,12 +20,3 @@ prop-data:javascript_require_to_edit.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "javascript_require_to_edit" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:javascript_require_to_edit.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "In order to edit content, you'll need to enable JavaScript."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/widgets/widget-login.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "javascript_require_to_edit" ;
-        prop:hasPackage  "Vitro" .

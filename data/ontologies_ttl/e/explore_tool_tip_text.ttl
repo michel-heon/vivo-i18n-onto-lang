@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:explore_tool_tip_text.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Overlay and examine expertise profiles for a organization. Color coding by discipline."@en-CA ;
+        rdfs:label       "Overlay and examine expertise profiles for a organization. Color coding by discipline."@en-US ;
+        rdfs:label       "Overlay and examine expertise profiles for a organization. Color coding by discipline."@fr-CA ;
+        rdfs:label       "Overlay und Prüfung von Kompetenzprofilen für eine Organisation. Farbcodierung nach Disziplin."@de-DE ;
+        rdfs:label       "Superponer y examinar los perfiles de competencias para una o más organizaciones. El código de colores es por disciplina."@es ;
+        rdfs:label       "Наложение и изучение профилей специализации для организации. Цветовое кодирование по дисциплинам."@ru-RU ;
+        rdfs:label       "Istražite profile ekspertiza za jednu ili više organizacija. Boje su podeljene po disciplinama."@sr-Latn-RS ;
+        rdfs:label       "Overlay e examine o pergil para uma organização. Cor definida para disciplina."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "explore_tool_tip_text" ;
+        prop:hasPackage  "VIVO-languages" .

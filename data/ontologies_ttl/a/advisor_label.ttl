@@ -20,21 +20,3 @@ prop-data:advisor_label.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "advisor_label" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:advisor_label.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "advisor label"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "advisor_label" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:advisor_label.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "advisor label"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-adviseeIn.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "advisor_label" ;
-        prop:hasPackage  "VIVO" .

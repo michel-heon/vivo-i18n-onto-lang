@@ -20,21 +20,3 @@ prop-data:in_current_incomplete_year.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "in_current_incomplete_year" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:in_current_incomplete_year.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "in the current incomplete year (not charted above)"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "in_current_incomplete_year" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:in_current_incomplete_year.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "in the current incomplete year (not charted above)"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "in_current_incomplete_year" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

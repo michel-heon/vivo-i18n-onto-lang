@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:acct_created_external_only_email_html_text.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "<p> ${userAccount.firstName} ${userAccount.lastName}</p>"@ru-RU ;
+        rdfs:label       "<p>"@de-DE ;
+        rdfs:label       "<p>"@en-CA ;
+        rdfs:label       "<p>"@es ;
+        rdfs:label       "<p>"@fr-CA ;
+        rdfs:label       "<p>"@pt-BR ;
+        rdfs:label       "<p>"@sr-Latn-RS ;
+        rdfs:label       "<p>"@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "acct_created_external_only_email_html_text" ;
+        prop:hasPackage  "Vitro-languages" .

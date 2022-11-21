@@ -6,16 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:intro_title.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Welcome to VIVO"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "intro_title" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:intro_title.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -27,19 +17,9 @@ prop-data:intro_title.VIVO-languages.tenderfoot
         rdfs:label       "Bienvenido a VIVO"@es ;
         rdfs:label       "Dobrodošli na VIVO"@sr-Latn-RS ;
         rdfs:label       "Willkommen bei VIVO"@de-DE ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "intro_title" ;
         prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:intro_title.VIVO.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "intro_title" ;
-        prop:hasPackage  "VIVO" ;
         prop:hasTheme    "tenderfoot" .
 
 prop-data:intro_title.VIVO-languages.wilma
@@ -53,17 +33,7 @@ prop-data:intro_title.VIVO-languages.wilma
         rdfs:label       "Bienvenue dans VIVO"@fr-CA ;
         rdfs:label       "Welcome to VIVO"@en-CA ;
         rdfs:label       "Welcome to VIVO"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "intro_title" ;
         prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "wilma" .
-
-prop-data:intro_title.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "intro_title" ;
-        prop:hasPackage  "VIVO" ;
         prop:hasTheme    "wilma" .

@@ -20,11 +20,3 @@ prop-data:page_curator_permission_option.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_curator_permission_option" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:page_curator_permission_option.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Curators and above can view this page"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "page_curator_permission_option" ;
-        prop:hasPackage  "Vitro" .

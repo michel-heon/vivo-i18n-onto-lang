@@ -3,10 +3,5 @@
 <http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
 <http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Uploaded file is too big. Maximum file size is {0} bytes. Uploaded file is {1} bytes."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Uploaded file is too big. Maximum file size is {0} bytes. Uploaded file is {1} bytes."@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "file_upload_error_file_is_too_big" .
-<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#file_upload_error_file_is_too_big.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Uploaded file is too big. Maximum file size is {0} bytes. Uploaded file is {1} bytes."@en-US .

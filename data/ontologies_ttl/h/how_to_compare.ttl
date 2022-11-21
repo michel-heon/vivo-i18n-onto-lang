@@ -20,21 +20,3 @@ prop-data:how_to_compare.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "how_to_compare" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:how_to_compare.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "How do you want to compare?"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "how_to_compare" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:how_to_compare.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "How do you want to compare?"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "how_to_compare" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

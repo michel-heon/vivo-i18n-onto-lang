@@ -20,12 +20,3 @@ prop-data:year_numeric.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "year_numeric" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:year_numeric.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Invalid entry. The Year must be numeric."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/defaultDataPropertyForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "year_numeric" ;
-        prop:hasPackage  "Vitro" .

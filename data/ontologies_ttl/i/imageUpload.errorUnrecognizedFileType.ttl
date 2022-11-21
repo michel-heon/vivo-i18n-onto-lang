@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:imageUpload.errorUnrecognizedFileType.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "''{0}'' is not a recognized image file type. Please upload JPEG, GIF, or PNG files only."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "imageUpload.errorUnrecognizedFileType" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:imageUpload.errorUnrecognizedFileType.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

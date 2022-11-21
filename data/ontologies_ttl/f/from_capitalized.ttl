@@ -20,12 +20,3 @@ prop-data:from_capitalized.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "from_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:from_capitalized.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "From"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-email.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "from_capitalized" ;
-        prop:hasPackage  "Vitro" .

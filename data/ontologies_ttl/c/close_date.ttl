@@ -20,21 +20,3 @@ prop-data:close_date.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "close_date" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:close_date.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Close Date"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "close_date" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:close_date.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Close Date"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-dept-active-grants.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "close_date" ;
-        prop:hasPackage  "VIVO" .

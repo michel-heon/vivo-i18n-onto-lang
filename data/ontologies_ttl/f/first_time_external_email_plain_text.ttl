@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:first_time_external_email_plain_text.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@de-DE ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@en-CA ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@en-US ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@fr-CA ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@pt-BR ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@ru-RU ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@sr-Latn-RS ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "first_time_external_email_plain_text" ;
+        prop:hasPackage  "Vitro-languages" .

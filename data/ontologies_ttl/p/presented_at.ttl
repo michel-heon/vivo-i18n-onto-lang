@@ -6,37 +6,17 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:presented_at.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Presented At"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "presented_at" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:presented_at.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Presented At"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "presented_at" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:presented_at.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "Presented At"@en-CA ;
         rdfs:label       "Presented At"@en-US ;
+        rdfs:label       "Presented At"@en-CA ;
         rdfs:label       "apresentado na"@pt-BR ;
         rdfs:label       "Представлено на"@ru-RU ;
         rdfs:label       "Presentado en"@es ;
         rdfs:label       "Présenté à"@fr-CA ;
         rdfs:label       "präsentiert bei"@de-DE ;
         rdfs:label       "Prezentovano na"@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presented_at" ;
         prop:hasPackage  "VIVO-languages" .

@@ -20,21 +20,3 @@ prop-data:no_linked_author.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_linked_author" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:no_linked_author.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "no linked author"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_linked_author" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:no_linked_author.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "no linked author"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_linked_author" ;
-        prop:hasPackage  "VIVO" .

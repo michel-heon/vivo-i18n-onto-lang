@@ -6,23 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:with_vitro.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "With Vitro, you can:"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "with_vitro" ;
-        prop:hasPackage  "Vitro" .
-
-prop-data:with_vitro.Vitro.vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "with_vitro" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "vitro" .
-
 prop-data:with_vitro.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -34,7 +17,6 @@ prop-data:with_vitro.Vitro-languages
         rdfs:label       "À l'aide de Vitro, vous pouvez:"@fr-CA ;
         rdfs:label       "Mit Vitro können Sie:"@de-DE ;
         rdfs:label       "Con Vitro, puede:"@es ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "with_vitro" ;
         prop:hasPackage  "Vitro-languages" .

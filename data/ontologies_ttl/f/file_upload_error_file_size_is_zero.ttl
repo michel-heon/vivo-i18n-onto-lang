@@ -6,17 +6,10 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:file_upload_error_file_size_is_zero.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Uploaded file size is 0"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "file_upload_error_file_size_is_zero" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:file_upload_error_file_size_is_zero.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Uploaded file size is 0"@en-CA ;
         rdfs:label       "Uploaded file size is 0"@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file_upload_error_file_size_is_zero" ;

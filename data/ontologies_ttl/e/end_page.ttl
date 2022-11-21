@@ -20,21 +20,3 @@ prop-data:end_page.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "end_page" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:end_page.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "End Page"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPublicationToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "end_page" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:end_page.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "End Page"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "end_page" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

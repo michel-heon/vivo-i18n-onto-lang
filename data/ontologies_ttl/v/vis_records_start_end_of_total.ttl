@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:vis_records_start_end_of_total.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Zapisi _START_ - _END_ od ukupno _TOTAL_ "@sr-Latn-RS ;
+        rdfs:label       "Records _START_ - _END_ of _TOTAL_ "@en-CA ;
+        rdfs:label       "Records _START_ - _END_ of _TOTAL_ "@en-US ;
+        rdfs:label       "Registros _START_ - _END_ de _TOTAL_ "@pt-BR ;
+        rdfs:label       "Registros _START_ - _END_ de _TOTAL_ "@es ;
+        rdfs:label       "Eintrag _START_ - _END_ von _TOTAL_ "@de-DE ;
+        rdfs:label       "Записи _START_ - _END_ из _TOTAL_ "@ru-RU ;
+        rdfs:label       "Enregistrement _START_ - _END_ de _TOTAL_"@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "vis_records_start_end_of_total" ;
+        prop:hasPackage  "VIVO-languages" .

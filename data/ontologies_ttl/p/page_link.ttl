@@ -20,12 +20,3 @@ prop-data:page_link.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "page_link" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:page_link.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "page link"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/search/search-pagedResults.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "page_link" ;
-        prop:hasPackage  "Vitro" .

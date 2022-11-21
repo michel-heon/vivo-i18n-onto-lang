@@ -20,21 +20,3 @@ prop-data:no_local_oncologies.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_local_oncologies" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:no_local_oncologies.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "There are currently no recognized local ontologies."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_local_oncologies" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:no_local_oncologies.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "There are currently no recognized local ontologies."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_local_oncologies" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

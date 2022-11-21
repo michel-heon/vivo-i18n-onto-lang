@@ -20,11 +20,3 @@ prop-data:search_failed.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "search_failed" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:search_failed.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Search failed."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "search_failed" ;
-        prop:hasPackage  "Vitro" .

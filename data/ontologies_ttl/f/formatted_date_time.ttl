@@ -20,12 +20,3 @@ prop-data:formatted_date_time.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "formatted_date_time" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:formatted_date_time.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Formatted date-time"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/samples.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "formatted_date_time" ;
-        prop:hasPackage  "Vitro" .

@@ -11,18 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "je ispravno konfigurisan sa informacijama o vašoj bazi podataka i imenskom prostoru (namespace)."@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "richtig mit Ihren Datenbank-Informationen und dem Namensraum konfiguriert."@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "правильно сконфигурирован и содержит необходимую информацию о вашей базе данных и пространстве имен"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "harvest_error_instructions_sixC" .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "is properly configured with your database information and namespace."@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "harvest_error_instructions_sixC" .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#harvest_error_instructions_sixC.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "is properly configured with your database information and namespace."@en-US .

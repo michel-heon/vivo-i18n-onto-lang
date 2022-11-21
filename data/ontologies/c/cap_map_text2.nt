@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tip: you can expand a broad search term into smaller concepts by clicking &lsquo;search and expand&rsquo;."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tipp: Sie können einen groben Suchbegriff durch Klicken auf &lsquo;suchen und erweitern&rsquo; in speziellere Begriffe erweitern."@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Совет: вы можете конкретизировать широкий поисковый термин через более узкие понятия, нажав ‘найти и раскрыть’. "@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "cap_map_text2" .
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#cap_map_text2.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Tip: you can expand a broad search term into smaller concepts by clicking &lsquo;search and expand&rsquo;."@en-US .

@@ -20,11 +20,3 @@ prop-data:required_field_empty_msg.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "required_field_empty_msg" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:required_field_empty_msg.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This field must not be empty."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "required_field_empty_msg" ;
-        prop:hasPackage  "Vitro" .

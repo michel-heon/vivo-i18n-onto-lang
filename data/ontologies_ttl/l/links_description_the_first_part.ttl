@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:links_description_the_first_part.VIVO-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Para mais informações sobre o mapa UCSD de ciência e sistema de classificação, veja"@pt-BR ;
+        rdfs:label       "For more information on the UCSD map of science and classification system, see"@en-CA ;
+        rdfs:label       "For more information on the UCSD map of science and classification system, see"@en-US ;
+        rdfs:label       "For more information on the UCSD map of science and classification system, see"@fr-CA ;
+        rdfs:label       "Weitere Informationen zur Wissenschaftskarte und des Klassifikationssystems der UCSD finden Sie unter"@de-DE ;
+        rdfs:label       "Para obtener más información sobre el mapa UCSD de la ciencia y el sistema de clasificación, véase"@es ;
+        rdfs:label       "Для получения дополнительной информации о карте науки и системе классификации UCSD см."@ru-RU ;
+        rdfs:label       "Za više informacija o UCSD naučnoj mapi i njihovom klasifikacionom sistemu, pogledajte"@sr-Latn-RS ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "links_description_the_first_part" ;
+        prop:hasPackage  "VIVO-languages" .

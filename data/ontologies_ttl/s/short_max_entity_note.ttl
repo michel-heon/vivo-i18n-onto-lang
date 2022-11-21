@@ -20,21 +20,3 @@ prop-data:short_max_entity_note.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "short_max_entity_note" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:short_max_entity_note.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "A Maximum of 10 entities can be compared."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "short_max_entity_note" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:short_max_entity_note.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "A Maximum of 10 entities can be compared."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "short_max_entity_note" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

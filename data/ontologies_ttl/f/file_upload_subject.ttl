@@ -6,17 +6,10 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:file_upload_subject.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "subject"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "file_upload_subject" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:file_upload_subject.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "subject"@en-CA ;
         rdfs:label       "subject"@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file_upload_subject" ;

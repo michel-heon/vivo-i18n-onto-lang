@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "must be in valid date format mm/dd/yyyy."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "must be in valid date format mm/dd/yyyy."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "должна быть в допустимом формате даты ММ/ДД/ГГГГ."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "invalid_date_form_msg" .
-<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#invalid_date_form_msg.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "must be in valid date format mm/dd/yyyy."@en-US .

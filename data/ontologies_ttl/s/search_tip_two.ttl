@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_tip_two.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Koristite navodnike kako bi ste tražili čitave fraze -- npr. \"<i>savijanje proteina</i>\"."@sr-Latn-RS ;
+        rdfs:label       "Utilisez les guillemets pour rechercher une phrase entière -- par exemple, \"<i>écologie marine</i>."@fr-CA ;
+        rdfs:label       "Используйте кавычки для поиска целого словосочетания, например, \"<i>свёртывание белка</i>\"."@ru-RU ;
+        rdfs:label       "Verwenden Sie Anführungszeichen für die Suche nach eine Phrase - z.B. \"<i>protein folding</i>\"."@de-DE ;
+        rdfs:label       "Use aspas para procurar uma frase inteira - por exemplo, \"<i>protein folding</i>\"."@pt-BR ;
+        rdfs:label       "Utilice comillas para buscar una frase entera -- por ejemplo, \"<i>el plegamiento de proteínas</i>\"."@es ;
+        rdfs:label       "Use quotes to search for an entire phrase -- e.g., \"<i>protein folding</i>\"."@en-CA ;
+        rdfs:label       "Use quotes to search for an entire phrase -- e.g., \"<i>protein folding</i>\"."@en-US ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_tip_two" ;
+        prop:hasPackage  "Vitro-languages" .

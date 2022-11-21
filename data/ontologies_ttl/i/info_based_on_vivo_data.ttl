@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:info_based_on_vivo_data.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This information is based solely on {0} which have been loaded into the VIVO system."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "info_based_on_vivo_data" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:info_based_on_vivo_data.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:info_based_on_vivo_data.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "info_based_on_vivo_data" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:info_based_on_vivo_data.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This information is based solely on {0} which have been loaded into the VIVO system."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonBody.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "info_based_on_vivo_data" ;
-        prop:hasPackage  "VIVO" .

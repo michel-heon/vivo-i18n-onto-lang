@@ -28,7 +28,13 @@ prop-data:collection_or_series.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "collection ou série"@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
+        rdfs:label       "Collection or series"@en-CA ;
+        rdfs:label       "Collection or series"@en-US ;
+        rdfs:label       "Coleção ou série"@pt-BR ;
+        rdfs:label       "Sammlung oder Serie"@de-DE ;
+        rdfs:label       "Colección o serie"@es ;
+        rdfs:label       "Kolekcija ili serija"@sr-Latn-RS ;
+        rdfs:label       "Коллекция или серия"@ru-RU ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "collection_or_series" ;
         prop:hasPackage  "VIVO-languages" .

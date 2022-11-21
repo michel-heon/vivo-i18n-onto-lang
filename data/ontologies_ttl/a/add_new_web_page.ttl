@@ -20,21 +20,3 @@ prop-data:add_new_web_page.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "add_new_web_page" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:add_new_web_page.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Add New Web Page"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "add_new_web_page" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:add_new_web_page.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Add New Web Page"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/manageWebpagesForIndividual.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "add_new_web_page" ;
-        prop:hasPackage  "VIVO" .

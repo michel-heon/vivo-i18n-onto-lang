@@ -9,15 +9,8 @@
 prop-data:file_upload_error_no_action.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "No action specified"@en-CA ;
         rdfs:label       "No action specified"@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file_upload_error_no_action" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:file_upload_error_no_action.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "No action specified"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "file_upload_error_no_action" ;
-        prop:hasPackage  "Vitro" .

@@ -11,12 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Trace de la pile"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Traza de errores"@es .
 <http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Трассировка стека"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-display.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/error/error-email.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "stack_trace" .
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#stack_trace.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Stack trace"@en-US .

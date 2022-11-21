@@ -20,11 +20,3 @@ prop-data:imageUpload.errorImageTooSmall.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "imageUpload.errorImageTooSmall" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:imageUpload.errorImageTooSmall.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The uploaded image should be at least {0} pixels high and {1} pixels wide."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "imageUpload.errorImageTooSmall" ;
-        prop:hasPackage  "Vitro" .

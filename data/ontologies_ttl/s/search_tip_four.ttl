@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_tip_four.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Если вы не уверены в правильности написания, добавьте знак ~ в конце поискового запроса, например запрос <i>морков~</i> отыщет <i>морковь</i>, а по запросу <i>степан~</i> будет найдено и <i>Степун</i>, и <i>Стефан</i> (а также и другие похожие имена)."@ru-RU ;
+        rdfs:label       "Si no está seguro de la ortografía correcta, ponga ~ al final de su término de búsqueda -- por ejemplo, <i>cabage~</i> encuentra <i>cabbage</i>, <i>steven~</i> encuentra <i>Stephen</i> y <i>Stefan</i> (así como otros nombres similares)."@es ;
+        rdfs:label       "Se você não tiver certeza da grafia correta, colocar ~ no final do seu termo de busca - por exemplo,<i>cabage~</i> encontra <i>cabbage</i>, <i>steven~</i> encontra <i>Stephen</i> e <i>Stefan</i> (bem como outros nomes similares)."@pt-BR ;
+        rdfs:label       "Si vous n'êtes pas sûr de la bonne orthographe, mettez ~ à la fin de votre terme de recherche -- par exemple, <i>cabage~</i> donne <i>cabbage</i>, <i>steven~</i> donne <i>Stephen</i> et <i>Stefan</i> (ainsi que d'autres noms similaires)."@fr-CA ;
+        rdfs:label       "If you are unsure of the correct spelling, put ~ at the end of your search term -- e.g., <i>cabage~</i> finds <i>cabbage</i>, <i>steven~</i> finds <i>Stephen</i> and <i>Stefan</i> (as well as other similar names)."@en-CA ;
+        rdfs:label       "If you are unsure of the correct spelling, put ~ at the end of your search term -- e.g., <i>cabage~</i> finds <i>cabbage</i>, <i>steven~</i> finds <i>Stephen</i> and <i>Stefan</i> (as well as other similar names)."@en-US ;
+        rdfs:label       "Ako niste sigurni kako pravilno da napišete reč, stavite ~ na kraj izraza po kom radite pretragu -- npr. <i>cabage~</i> će pronaći <i>cabbage</i>, <i>steven~</i> će pronaći <i>Stephen</i> i <i>Stefan</i> (i ostala slična imena)."@sr-Latn-RS ;
+        rdfs:label       "Wenn Sie sich unsicher über die korrekte Rechtschreibung sind, nutzen Sie ~ am Ende Ihres Suchbegriffes -- Bsp.: <i>cabage~</i> findet <i>cabbage</i>, <i>steven~</i> findet <i>Stephen</i> und <i>Stefan</i> (und andere, ähnliche Namen)."@de-DE ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "search_tip_four" ;
+        prop:hasPackage  "Vitro-languages" .

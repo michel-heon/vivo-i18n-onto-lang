@@ -26,10 +26,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "adresa ulice 3"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "dirección calle tres"@es .
 <http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Строка адреса 3"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "address_street_three" .
-<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#address_street_three.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "address street three"@en-US .

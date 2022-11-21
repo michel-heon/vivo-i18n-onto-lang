@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:map_of_science_visualization_tool_tip_two_the_first_part.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Tabela ispod prikazuje publikacije predstavljene na 'Map of Science' grafu. Svaki red odgovara jednoj (pod)disciplini na mapi."@sr-Latn-RS ;
+        rdfs:label       "Die folgende Tabelle fasst die auf der Karte der Wissenschaften dargestellten Publikationen zusammen. Jede Zeile entspricht einer (Unter-)Disziplin auf der Karte."@de-DE ;
+        rdfs:label       "The table below summarizes the publications plotted on the Map of Science. Each row corresponds to a (sub)discipline on the map."@en-US ;
+        rdfs:label       "The table below summarizes the publications plotted on the Map of Science. Each row corresponds to a (sub)discipline on the map."@fr-CA ;
+        rdfs:label       "La siguiente tabla resume las publicaciones que se representan en el mapa de la Ciencia. Cada fila corresponde a una (sub) disciplina en el mapa."@es ;
+        rdfs:label       "A tabela abaixo resume as publicações plotadas no Mapa da Ciência. Cada linha corresponde a uma (Sub)disciplina no mapa."@pt-BR ;
+        rdfs:label       "The table below summarizes the publications plotted on the Map of Science. Each row corresponds to a (sub)discipline on the map"@en-CA ;
+        rdfs:label       "В приведенной ниже таблице обобщены публикации, нанесенные на Карту наук. Каждая строка соответствует (под)дисциплине на карте."@ru-RU ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_of_science_visualization_tool_tip_two_the_first_part" ;
+        prop:hasPackage  "VIVO-languages" .

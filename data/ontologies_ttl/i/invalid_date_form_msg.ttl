@@ -20,11 +20,3 @@ prop-data:invalid_date_form_msg.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "invalid_date_form_msg" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:invalid_date_form_msg.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "must be in valid date format mm/dd/yyyy."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "invalid_date_form_msg" ;
-        prop:hasPackage  "Vitro" .

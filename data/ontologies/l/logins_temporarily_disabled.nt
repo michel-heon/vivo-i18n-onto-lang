@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Usuário estão desativados temporariamente enquanto o sistema está em manutenção."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Während das System gewartet wird, sind Benutzer-Logins vorübergehend deaktiviert ."@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Вход пользователей в систему временно отключен на время обслуживания системы."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/login/adminLogin.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "logins_temporarily_disabled" .
-<http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#logins_temporarily_disabled.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "User logins are temporarily disabled while the system is being maintained."@en-US .

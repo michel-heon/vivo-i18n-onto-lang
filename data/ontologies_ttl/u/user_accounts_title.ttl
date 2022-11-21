@@ -20,13 +20,3 @@ prop-data:user_accounts_title.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "user_accounts_title" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:user_accounts_title.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "user accounts"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "user_accounts_title" ;
-        prop:hasPackage  "Vitro" .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:select_an_existing_or_create_a_new_one.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Выберите существующий или создайте новый"@ru-RU ;
+        rdfs:label       "Selecione um existente ou crie um novo"@pt-BR ;
+        rdfs:label       "Select an existing or create a new one"@en-CA ;
+        rdfs:label       "Select an existing or create a new one"@en-US ;
+        rdfs:label       "Sélectionnez un existant ou créez-en un nouveau"@fr-CA ;
+        rdfs:label       "Wählen Sie eine vorhandene oder erstellen Sie eine neue."@de-DE ;
+        rdfs:label       "Seleccione uno existente o cree uno nuevo"@es ;
+        rdfs:label       "Odaberite postojeći ili kreirajte novi."@sr-Latn-RS ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "select_an_existing_or_create_a_new_one" ;
+        prop:hasPackage  "Vitro-languages" .

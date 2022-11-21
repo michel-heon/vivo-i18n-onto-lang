@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:advanced_search_tip_two.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "\"NOT\" puede ayudar a limitar búsquedas -- por ejemplo, <i>clima</i> NOT <i>cambia</i>."@es ;
+        rdfs:label       "\"NOT\" kann zur Einschränkung der Suche verwendet werden, - z.B. <i>Klima</i> NOT <i>Veränderung</i>."@de-DE ;
+        rdfs:label       "\"NOT\" pode ajudar em limitar as pesquisas - por exemplo,<i>climate</i> NOT <i>change</i>."@pt-BR ;
+        rdfs:label       "\"NOT\" может помочь ограничить поиск, например <i>климат</i> NOT <i>изменение</i>."@ru-RU ;
+        rdfs:label       "\"NOT\" peut aider à limiter les recherches -- par exemple, <i>climat</i> NOT <i>change</i>."@fr-CA ;
+        rdfs:label       "\"NOT\" Vam može pomoći u ograničenju pretrage -- npr. <i>klimatske</i> NOT <i>promene</i>."@sr-Latn-RS ;
+        rdfs:label       "\"NOT\" can help limit searches -- e.g., <i>climate</i> NOT <i>change</i>."@en-US ;
+        rdfs:label       "\"NOT\" can help limit searches -- e.g., <i>climate</i> NOT <i>change</i>."@en-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "advanced_search_tip_two" ;
+        prop:hasPackage  "Vitro-languages" .

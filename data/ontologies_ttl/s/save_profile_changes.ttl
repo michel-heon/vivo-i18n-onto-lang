@@ -20,12 +20,3 @@ prop-data:save_profile_changes.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "save_profile_changes" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:save_profile_changes.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Save changes to profiles"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/manageproxies/manageProxies-list.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "save_profile_changes" ;
-        prop:hasPackage  "Vitro" .

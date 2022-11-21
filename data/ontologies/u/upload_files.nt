@@ -11,18 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Upload file(s)"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Upload file(s)"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Загрузить файл(ы)"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "upload_files" .
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Upload file(s)"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "upload_files" .
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#upload_files.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Upload file(s)"@en-US .

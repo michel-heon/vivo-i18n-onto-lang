@@ -17,24 +17,6 @@ prop-data:vitro_bullet_two.Vitro-languages
         rdfs:label       "Редактировать экземпляры и отношения"@ru-RU ;
         rdfs:label       "Ažurirati instance i njihove veze"@sr-Latn-RS ;
         rdfs:label       "Editar instancias y relaciones"@es ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "vitro_bullet_two" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:vitro_bullet_two.Vitro.vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "vitro_bullet_two" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "vitro" .
-
-prop-data:vitro_bullet_two.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Edit instances and relationships"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "vitro_bullet_two" ;
-        prop:hasPackage  "Vitro" .

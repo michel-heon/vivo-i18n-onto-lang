@@ -20,12 +20,3 @@ prop-data:create_and_link_not_mine.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_not_mine" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_not_mine.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This is not my work"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceConfirm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_not_mine" ;
-        prop:hasPackage  "VIVO" .

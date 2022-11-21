@@ -37,12 +37,3 @@ prop-data:edit_mailing_address.VIVO-languages.wilma
         prop:hasKey      "edit_mailing_address" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:edit_mailing_address.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Edit Mailing Address"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "edit_mailing_address" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -37,12 +37,3 @@ prop-data:grants_in_vivo.VIVO-languages.wilma
         prop:hasKey      "grants_in_vivo" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:grants_in_vivo.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "grants in VIVO"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "grants_in_vivo" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

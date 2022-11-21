@@ -20,22 +20,3 @@ prop-data:initial_okay.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "initial_okay" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:initial_okay.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "initial okay"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "initial_okay" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:initial_okay.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "initial okay"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAuthorsToInformationResource.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "initial_okay" ;
-        prop:hasPackage  "VIVO" .

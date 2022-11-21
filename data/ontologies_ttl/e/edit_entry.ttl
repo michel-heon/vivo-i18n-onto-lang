@@ -17,25 +17,6 @@ prop-data:edit_entry.Vitro-languages
         rdfs:label       "éditer ce texte"@fr-CA ;
         rdfs:label       "editar esta entrada"@pt-BR ;
         rdfs:label       "ažurirajte ovaj unos"@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "edit_entry" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:edit_entry.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "edit this entry"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "edit_entry" ;
-        prop:hasPackage  "Vitro" .
-
-prop-data:edit_entry.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "edit_entry" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

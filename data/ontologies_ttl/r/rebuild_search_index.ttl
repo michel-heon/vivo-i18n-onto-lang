@@ -20,12 +20,3 @@ prop-data:rebuild_search_index.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "rebuild_search_index" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:rebuild_search_index.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Rebuild search index"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteMaintenance.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "rebuild_search_index" ;
-        prop:hasPackage  "Vitro" .

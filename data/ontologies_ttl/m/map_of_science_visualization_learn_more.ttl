@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:map_of_science_visualization_learn_more.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Pročitajte više o 'Map of Science' vizuelizaciji?"@sr-Latn-RS ;
+        rdfs:label       "Хотите узнать больше о визуализации „Карты наук“ VIVO?"@ru-RU ;
+        rdfs:label       "Obtenga más información sobre mapas de visualización Ciencias de VIVO"@es ;
+        rdfs:label       "Learn more about VIVO's Map of Science visualization?"@en-CA ;
+        rdfs:label       "Learn more about VIVO's Map of Science visualization?"@en-US ;
+        rdfs:label       "Learn more about VIVO's Map of Science visualization?"@fr-CA ;
+        rdfs:label       "Mehr über VIVOs Map of Science lernen?"@de-DE ;
+        rdfs:label       "Saiba mais sobre VIVO Mapas de visualização Ciêntifica?"@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "map_of_science_visualization_learn_more" ;
+        prop:hasPackage  "VIVO-languages" .

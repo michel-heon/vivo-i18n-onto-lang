@@ -20,11 +20,3 @@ prop-data:cardinality.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "cardinality" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:cardinality.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "cardinality"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "cardinality" ;
-        prop:hasPackage  "Vitro" .

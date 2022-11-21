@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:enter_new_role_value.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please enter a new value in the Role field."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "enter_new_role_value" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:enter_new_role_value.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

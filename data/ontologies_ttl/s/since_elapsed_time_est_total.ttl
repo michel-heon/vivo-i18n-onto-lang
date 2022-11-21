@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:since_elapsed_time_est_total.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "since {0}, elapsed time {1}, estimated total time {2}"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "since_elapsed_time_est_total" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:since_elapsed_time_est_total.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

@@ -20,12 +20,3 @@ prop-data:subclasses_capitalized.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "subclasses_capitalized" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:subclasses_capitalized.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Subclasses"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-classHierarchy.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "subclasses_capitalized" ;
-        prop:hasPackage  "Vitro" .

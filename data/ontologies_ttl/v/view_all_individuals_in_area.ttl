@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:view_all_individuals_in_area.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "View all individuals with an interest in this area."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "view_all_individuals_in_area" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:view_all_individuals_in_area.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:view_all_individuals_in_area.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_all_individuals_in_area" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:view_all_individuals_in_area.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "View all individuals with an interest in this area."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-affiliated-res-area-details.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "view_all_individuals_in_area" ;
-        prop:hasPackage  "VIVO" .

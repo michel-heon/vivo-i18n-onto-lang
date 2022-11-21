@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:add_an_entry_to.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Add an entry of type"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "add_an_entry_to" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:add_an_entry_to.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

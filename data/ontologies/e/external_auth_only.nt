@@ -11,12 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Nur extern Authentifizierte"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sólo usuarios autentificados"@es .
 <http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Только внешняя аутентификация"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-add.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-edit.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "external_auth_only" .
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#external_auth_only.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Externally Authenticated Only"@en-US .

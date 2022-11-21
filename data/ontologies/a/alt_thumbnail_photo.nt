@@ -1,20 +1,5 @@
-    <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/lib-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "alt_thumbnail_photo" .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/foaf-person--exportQrCode.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "alt_thumbnail_photo" .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/lib/lib-properties_fr_CA.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
 <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "alt_thumbnail_photo" .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
 <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
 <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
 <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -26,13 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Photo individuelle"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "foto Individual"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Личное фото"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-newImage.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/imageUpload/imageUpload-replaceImage.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/lib/lib-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "alt_thumbnail_photo" .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#alt_thumbnail_photo.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Individual photo"@en-US .

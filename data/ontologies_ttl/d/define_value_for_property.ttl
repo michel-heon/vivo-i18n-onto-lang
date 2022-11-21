@@ -20,21 +20,3 @@ prop-data:define_value_for_property.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "define_value_for_property" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:define_value_for_property.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "define_value_for_property" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:define_value_for_property.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "In order to use this feature, please define a value for this property that points to the Harvester installation directory before redeploying and restarting the application."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "define_value_for_property" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

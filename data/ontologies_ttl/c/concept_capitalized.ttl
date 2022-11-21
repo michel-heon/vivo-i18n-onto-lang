@@ -20,21 +20,3 @@ prop-data:concept_capitalized.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "concept_capitalized" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:concept_capitalized.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Concept"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addUserDefinedConcept.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "concept_capitalized" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:concept_capitalized.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Concept"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "concept_capitalized" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

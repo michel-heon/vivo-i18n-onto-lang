@@ -20,21 +20,3 @@ prop-data:service_to_profession_in.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "service_to_profession_in" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:service_to_profession_in.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "service to the profession in"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addServiceProviderRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "service_to_profession_in" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:service_to_profession_in.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "service to the profession in"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "service_to_profession_in" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -20,21 +20,3 @@ prop-data:export_qr_codes.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "export_qr_codes" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:export_qr_codes.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Export QR codes"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "export_qr_codes" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:export_qr_codes.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Export QR codes"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-qrCodeGenerator.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "export_qr_codes" ;
-        prop:hasPackage  "VIVO" .

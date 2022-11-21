@@ -20,21 +20,3 @@ prop-data:co_authors.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "co_authors" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:co_authors.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "co-authors"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "co_authors" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:co_authors.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "co-authors"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/coauthorship/coAuthorshipSparklineContent.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "co_authors" ;
-        prop:hasPackage  "VIVO" .

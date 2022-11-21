@@ -20,11 +20,3 @@ prop-data:role_in_institution.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "role_in_institution" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:role_in_institution.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Role in Institution"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "role_in_institution" ;
-        prop:hasPackage  "VIVO" .

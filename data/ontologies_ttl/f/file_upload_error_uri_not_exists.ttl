@@ -9,15 +9,8 @@
 prop-data:file_upload_error_uri_not_exists.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Uri {0} doesn't exist."@en-CA ;
         rdfs:label       "Uri {0} doesn't exist."@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file_upload_error_uri_not_exists" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:file_upload_error_uri_not_exists.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Uri {0} doesn't exist."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "file_upload_error_uri_not_exists" ;
-        prop:hasPackage  "Vitro" .

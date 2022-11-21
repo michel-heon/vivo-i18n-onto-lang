@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:logins_disabled_for_maintenance.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "User logins are temporarily disabled while the system is being maintained."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "logins_disabled_for_maintenance" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:logins_disabled_for_maintenance.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

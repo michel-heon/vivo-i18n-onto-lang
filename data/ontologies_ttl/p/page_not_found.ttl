@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:page_not_found.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Page Not Found"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "page_not_found" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:page_not_found.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

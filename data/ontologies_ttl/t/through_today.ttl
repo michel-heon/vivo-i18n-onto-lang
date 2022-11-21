@@ -15,27 +15,8 @@ prop-data:through_today.VIVO-languages
         rdfs:label       "Publikationen des heutigen Tages"@de-DE ;
         rdfs:label       "Publicações até hoje"@pt-BR ;
         rdfs:label       "Публикации до сегодняшней даты"@ru-RU ;
-        rdfs:label       "Publications through today's date"@en-CA ;
         rdfs:label       "Publications through today's date"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
+        rdfs:label       "Publications through today's date"@en-CA ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "through_today" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:through_today.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Publications through today's date"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "through_today" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:through_today.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Publications through today's date"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "through_today" ;
-        prop:hasPackage  "VIVO" .

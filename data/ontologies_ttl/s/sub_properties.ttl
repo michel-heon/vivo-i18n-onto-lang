@@ -20,12 +20,3 @@ prop-data:sub_properties.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "sub_properties" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:sub_properties.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Subproperties"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-objectPropHierarchy.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "sub_properties" ;
-        prop:hasPackage  "Vitro" .

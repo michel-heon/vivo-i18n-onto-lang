@@ -20,12 +20,3 @@ prop-data:start_with_leading_slash.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "start_with_leading_slash" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:start_with_leading_slash.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Must begin with a leading forward slash: / (e.g., /people)"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/menuManagement.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "start_with_leading_slash" ;
-        prop:hasPackage  "Vitro" .

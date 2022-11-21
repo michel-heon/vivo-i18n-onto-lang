@@ -20,11 +20,3 @@ prop-data:imageUpload.errorBadMultipartRequest.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "imageUpload.errorBadMultipartRequest" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:imageUpload.errorBadMultipartRequest.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Failed to parse the multi-part request for uploading an image."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "imageUpload.errorBadMultipartRequest" ;
-        prop:hasPackage  "Vitro" .

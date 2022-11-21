@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rôle au sein de l'istitution"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Uloga unutar institucije"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Роль в учреждении"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "role_in_institution" .
-<http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#role_in_institution.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Role in Institution"@en-US .

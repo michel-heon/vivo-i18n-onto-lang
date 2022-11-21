@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:vitro_bullet_four.Vitro.vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/themes/vitro/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "vitro_bullet_four" ;
-        prop:hasPackage  "Vitro" ;
-        prop:hasTheme    "vitro" .
-
 prop-data:vitro_bullet_four.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -26,15 +17,6 @@ prop-data:vitro_bullet_four.Vitro-languages
         rdfs:label       "Search your data"@en-US ;
         rdfs:label       "Suchen Ihrer Daten"@de-DE ;
         rdfs:label       "questionner vos données"@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "vitro_bullet_four" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:vitro_bullet_four.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Search your data"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "vitro_bullet_four" ;
-        prop:hasPackage  "Vitro" .

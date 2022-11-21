@@ -1,10 +1,3 @@
-    <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/individual-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_affiliated_people_link" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_affiliated_people_link" .
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
@@ -18,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "manage affiliated people"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "upravljanje povezanim ljudima"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "управление аффилированными лицами"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-properties.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_affiliated_people_link" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#manage_affiliated_people_link.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "manage affiliated people"@en-US .

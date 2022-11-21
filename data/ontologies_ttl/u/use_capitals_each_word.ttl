@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:use_capitals_each_word.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "use capitals for the first letter of each word"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/institutionalInternalClassForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "use_capitals_each_word" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:use_capitals_each_word.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -29,12 +20,3 @@ prop-data:use_capitals_each_word.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "use_capitals_each_word" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:use_capitals_each_word.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "use capitals for the first letter of each word"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "use_capitals_each_word" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

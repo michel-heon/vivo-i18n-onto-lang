@@ -20,12 +20,3 @@ prop-data:search_help.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "search_help" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:search_help.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "search help"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/search/search-pagedResults.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "search_help" ;
-        prop:hasPackage  "Vitro" .

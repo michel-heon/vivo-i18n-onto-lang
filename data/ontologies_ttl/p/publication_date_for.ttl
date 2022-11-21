@@ -20,21 +20,3 @@ prop-data:publication_date_for.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "publication_date_for" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:publication_date_for.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "publication date for"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "publication_date_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:publication_date_for.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "publication date for"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeValueForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "publication_date_for" ;
-        prop:hasPackage  "VIVO" .

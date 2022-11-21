@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Dodajte novu ulogu recenzenta"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Neue Begutachtungsrolle hinzufügen"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Добавить новую роль рецензента"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addReviewerRoleToPerson.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_entry_for_reviewer_role" .
-<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#create_entry_for_reviewer_role.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  ": Add a new reviewer role"@en-US .

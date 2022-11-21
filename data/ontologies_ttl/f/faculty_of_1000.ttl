@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:faculty_of_1000.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Faculty of 1000 Link"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "faculty_of_1000" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:faculty_of_1000.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:faculty_of_1000.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "faculty_of_1000" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:faculty_of_1000.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Faculty of 1000 Link"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditWebpageForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "faculty_of_1000" ;
-        prop:hasPackage  "VIVO" .

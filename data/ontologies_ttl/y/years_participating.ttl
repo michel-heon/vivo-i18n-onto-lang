@@ -12,34 +12,11 @@ prop-data:years_participating.VIVO-languages
         rdfs:label       "Años de participación"@es ;
         rdfs:label       "Годы участия в проекте"@ru-RU ;
         rdfs:label       "Années de participation"@fr-CA ;
-        rdfs:label       "anos de participação"@pt-BR ;
         rdfs:label       "Godine učestvovanja"@sr-Latn-RS ;
+        rdfs:label       "anos de participação"@pt-BR ;
         rdfs:label       "Jahre der Mitarbeit"@de-DE ;
         rdfs:label       "Years of Participation"@en-CA ;
         rdfs:label       "Years of Participation"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "years_participating" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:years_participating.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Years of Participation"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "years_participating" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:years_participating.VIVO
-        rdf:type         prop:PropertyKey ;
-        rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Years of Participation"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdviseeRelationship.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasAdvisorRelationship.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "years_participating" ;
-        prop:hasPackage  "VIVO" .

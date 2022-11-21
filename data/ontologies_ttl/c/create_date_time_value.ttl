@@ -20,21 +20,3 @@ prop-data:create_date_time_value.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "create_date_time_value" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:create_date_time_value.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Create Date/Time Value"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeIntervalForm.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeValueForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "create_date_time_value" ;
-        prop:hasPackage  "Vitro" .
-
-prop-data:create_date_time_value.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeValueForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_date_time_value" ;
-        prop:hasPackage  "VIVO" .

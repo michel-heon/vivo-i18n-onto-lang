@@ -37,12 +37,3 @@ prop-data:service_provider_role.VIVO-languages.tenderfoot
         prop:hasKey      "service_provider_role" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:service_provider_role.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Service Provider Role"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "service_provider_role" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

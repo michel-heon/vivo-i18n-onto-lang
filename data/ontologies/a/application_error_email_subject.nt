@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "application_error_email_subject" .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" . 
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "An error occurred on your ${siteName!} web site"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "An error occurred on your ${siteName!} web site"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Došlo je do greške na Vašem sajtu ${siteName!}"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Es ist ein Fehler auf der Website ${siteName!} aufgetreten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ocorreu um erro em seu site ${siteName!}"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Se ha producido un error en tu sitio ${siteName!} "@es .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Une erreur s'est produite sur votre site ${siteName!}"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#application_error_email_subject.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "На сайте ${siteName!} произошла ошибка"@ru-RU .

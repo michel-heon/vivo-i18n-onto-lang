@@ -20,12 +20,3 @@ prop-data:datetime_year_required.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "datetime_year_required" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:datetime_year_required.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Date/time intervals must begin with a year. Enter either a Start Year, an End Year or both."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/dateTimeIntervalForm.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "datetime_year_required" ;
-        prop:hasPackage  "Vitro" .

@@ -11,18 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Se ha producido un error y el archivo de la cosecha no puede continuar."@es .
 <http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Une erreur est survenue et le processus de moissonnage doit s'arrêter."@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Произошла ошибка, и сбор файлов не может быть продолжен."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_harvest_cannot_continue" .
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "An error has occurred and the file harvest cannot continue."@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_harvest_cannot_continue" .
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#error_harvest_cannot_continue.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "An error has occurred and the file harvest cannot continue."@en-US .

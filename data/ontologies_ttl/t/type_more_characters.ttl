@@ -20,12 +20,3 @@ prop-data:type_more_characters.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "type_more_characters" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:type_more_characters.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "type more characters"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/accounts/userAccounts-myProxiesPanel.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "type_more_characters" ;
-        prop:hasPackage  "Vitro" .

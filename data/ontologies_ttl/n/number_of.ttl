@@ -20,21 +20,3 @@ prop-data:number_of.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "number_of" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:number_of.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Number of"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "number_of" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:number_of.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Number of"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/entitycomparison/entityComparisonSetup.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "number_of" ;
-        prop:hasPackage  "VIVO" .

@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "No matching results."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "No matching results."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Не найдено подходящих результатов."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_matching_results" .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_results.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "No matching results."@en-US .

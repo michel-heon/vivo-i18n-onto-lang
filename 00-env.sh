@@ -43,9 +43,9 @@ export UI_LABELS_VOCAB="$TARGET_HOME/Vitro/home/src/main/resources/rdf/tbox/firs
 export PRODUCTS_LIST=( \
 VIVO-languages \
 Vitro-languages \
-VIVO \
-Vitro \
 )
+#VIVO \
+#Vitro \
 
 ###################################################################
 # specific for VIVO overlay by UQAM packages

@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:faux_property_by_base.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "faux properties by base property"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "faux_property_by_base" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:faux_property_by_base.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

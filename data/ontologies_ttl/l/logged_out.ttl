@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:logged_out.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "You have logged out."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "logged_out" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:logged_out.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

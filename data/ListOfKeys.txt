@@ -1,9 +1,12 @@
+ <a href
+ <p> <a href
+ <p><a href
 _publications_link
 a_classgroup
 a_link
 a_menu_page
 about
-academic_studies_or_other
+about_map_of_science_heading
 account
 account_already_activated
 account_created
@@ -13,6 +16,10 @@ account_no_longer_exists
 accounts
 accounts_per_page
 accounts_search_results
+acct_created_email_html_text
+acct_created_email_plain_text
+acct_created_external_only_email_html_text
+acct_created_external_only_email_plain_text
 across_subdisciplines
 activate_developer_panel
 activate_developer_panel_mixed_caps
@@ -60,6 +67,13 @@ admin_panel
 administered_by
 administering_organization_for
 advanced_data_tools
+advanced_search_tip_five
+advanced_search_tip_four
+advanced_search_tip_one
+advanced_search_tip_six
+advanced_search_tip_three
+advanced_search_tip_two
+advanced_search_tips_header
 advisee_capitalized
 advisee_capitalized_first_name
 advisee_capitalized_lastname
@@ -91,6 +105,9 @@ and
 animal
 apostrophe_not_allowed
 apples
+application_error_email_html_text
+application_error_email_plain_text
+application_error_email_subject
 april
 ascending_order
 asserted_class_hierarchy
@@ -114,6 +131,7 @@ award_name
 award_or_honor_for
 award_receipt_name
 awarded_by
+back_to_results
 background_threads
 background_top_image
 base_property_capitalized
@@ -221,7 +239,6 @@ co_author_s_capitalized
 co_authors
 co_authors_capitalized
 co_authorship
-co_inestigators_capitalized
 co_investigator
 co_investigator_icon
 co_investigator_network
@@ -239,6 +256,10 @@ collection_series_editor_role
 comments
 comments_questions
 compare_organizations
+compare_tool_tip_text_the_first_part
+compare_tool_tip_text_the_fourth_part
+compare_tool_tip_text_the_second_part
+compare_tool_tip_text_the_third_part
 comparing_capitalized
 concept_capitalized
 concept_name
@@ -253,6 +274,8 @@ confirm_delete
 confirm_delete_account_plural
 confirm_delete_account_singular
 confirm_editor_removal
+confirm_email_changed_email_html_text
+confirm_email_changed_email_plain_text
 confirm_entry_deletion_from
 confirm_individual_deletion
 confirm_initial_password
@@ -349,9 +372,9 @@ create_entry_for_reviewer_role
 create_entry_for_service_provider_role
 create_entry_for_teacher_role
 create_mailing_address
-create_new
 create_new_class
 create_new_entry
+create_new_individual_of_the_following_type
 create_new_one
 create_own_concept
 create_own_concept_all_caps
@@ -383,6 +406,8 @@ data_being_harvested
 data_for
 data_input
 data_not_past_msg
+data_overlay_description
+data_overlay_heading
 data_property_hierarchy
 date_time_value_for
 dates
@@ -555,8 +580,11 @@ event_type
 expand
 expand_all
 expecting_content
+expertise_profile_comparision_map_description
+expertise_profile_comparision_map_heading
 explore_activity
 explore_capitalized
+explore_tool_tip_text
 export_qr_code
 export_qr_codes
 external_auth_id
@@ -614,6 +642,8 @@ first_grant
 first_name
 first_name_empty_msg
 first_publication
+first_time_external_email_html_text
+first_time_external_email_plain_text
 first_time_login
 first_time_login_note
 fixed_html
@@ -682,11 +712,7 @@ hide_properties
 hide_show_properties
 hide_show_subclasses
 hide_subclasses
-home_departments_para1
-home_faculty_para1
 home_page
-home_research_para1
-home_site_stats_para1
 how_to_compare
 hyperlink
 identifier_factories
@@ -747,6 +773,8 @@ institution_name
 institutional_internal_class
 institutions_capitalized
 insufficient_authorization
+interactivity_description
+interactivity_heading
 interest_thanks
 internal_class
 internal_class_i_capped
@@ -805,6 +833,9 @@ limited_to_type
 link
 link_name
 link_text
+links_description_the_first_part
+links_description_the_introduction_part
+links_heading
 list_elements_of
 listed_page_title
 loading_data
@@ -859,6 +890,13 @@ map_of_science
 map_of_science_capitalized
 map_of_science_icon
 map_of_science_visualization
+map_of_science_visualization_learn_more
+map_of_science_visualization_tool_tip_one
+map_of_science_visualization_tool_tip_three_the_first_part
+map_of_science_visualization_tool_tip_three_the_second_part
+map_of_science_visualization_tool_tip_two_the_first_part
+map_of_science_visualization_tool_tip_two_the_second_part
+map_of_science_visualization_tool_tip_two_the_third_part
 map_processor_error
 map_state_string
 map_states_string
@@ -933,6 +971,7 @@ new_account_2
 new_account_note
 new_account_notification
 new_account_title
+new_entry_for
 new_local_oncology
 new_local_ontology
 new_password
@@ -1063,10 +1102,17 @@ password_capitalized
 password_change_invalid_key
 password_change_not_pending
 password_changed_subject
+password_created_email_html_text
+password_created_email_plain_text
 password_created_subject
 password_length
 password_mismatch
+password_reset_complete_email_html_text
+password_reset_complete_email_plain_text
 password_reset_complete_subject
+password_reset_pending_email_html_text
+password_reset_pending_email_plain_text
+password_reset_pending_email_subject
 password_reset_pending_subject
 password_saved
 password_saved_please_login
@@ -1100,7 +1146,6 @@ powered_by
 preferred_title
 preferred_title_for
 preparing_to_rebuild_index
-presentation_capitalized
 presentation_entry_for
 presentation_hint
 presentation_name
@@ -1165,6 +1210,8 @@ rebuild_search_index
 rebuild_vis_cache
 recompute_inferences
 recompute_inferences_mixed_caps
+reference_basemap_description
+reference_basemap_heading
 refresh_cached_vis_models
 refresh_page_after_reordering
 refreshing_data_message
@@ -1258,9 +1305,16 @@ search_index_not_connected
 search_index_status
 search_indexer_idle
 search_individual_results
+search_info_tool_tip_text_the_first_part
+search_info_tool_tip_text_the_second_part
 search_results_for
 search_service_btn
 search_term_error_near
+search_tip_four
+search_tip_one
+search_tip_three
+search_tip_two
+search_tips_header
 search_vitro
 select_Award_or_enter_name
 select_a_document_name
@@ -1270,6 +1324,7 @@ select_advising_relationship_type
 select_all
 select_an_existing
 select_an_existing_document
+select_an_existing_or_create_a_new_one
 select_an_organization_name
 select_another_class
 select_associated_profile
@@ -1367,7 +1422,6 @@ specify_role_for_activity
 speeches_capitalized
 stack_trace
 standard_view
-standard_web_link
 standardview_tooltip_one
 standardview_tooltip_two
 start_capitalized
@@ -1432,6 +1486,7 @@ there_are_no_entries_starting_with
 theses_capitalized
 this_author
 this_investigator
+thousands_short
 through_today
 thursday
 title_capitalized
@@ -1536,6 +1591,7 @@ vis_first_link
 vis_last_link
 vis_next_link
 vis_previous_link
+vis_records_start_end_of_total
 vis_tools_note_four
 vis_tools_note_one
 vis_tools_note_three

@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:more_qr_info.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "More info on QR codes"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/foaf-person--exportQrCode.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "more_qr_info" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:more_qr_info.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:more_qr_info.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "more_qr_info" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:more_qr_info.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "More info on QR codes"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "more_qr_info" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

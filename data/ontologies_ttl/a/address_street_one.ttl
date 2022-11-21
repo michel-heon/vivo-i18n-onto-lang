@@ -22,15 +22,6 @@ prop-data:address_street_one.VIVO-languages.wilma
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
 
-prop-data:address_street_one.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "address street one"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "address_street_one" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:address_street_one.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

@@ -20,12 +20,3 @@ prop-data:may_not_edit.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "may_not_edit" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:may_not_edit.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "May not edit"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-showAuth.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "may_not_edit" ;
-        prop:hasPackage  "Vitro" .

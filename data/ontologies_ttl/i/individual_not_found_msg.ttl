@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:individual_not_found_msg.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The individual was not found in the system."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "individual_not_found_msg" ;
-        prop:hasPackage  "Vitro" .
-
 prop-data:individual_not_found_msg.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

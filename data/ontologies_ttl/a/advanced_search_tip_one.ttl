@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:advanced_search_tip_one.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Если вы введете более одного термина, поиск вернет результаты, содержащие все из них, если только вы не добавите логическое \"OR\" - например, <i>курица</i> OR <i>яйцо</i>."@ru-RU ;
+        rdfs:label       "Cuando se introduce más de un término, la búsqueda devolverá resultados que contengan todas ellas a menos que agregue el operador booleano \"OR\" -- por ejemplo, <i>pollo</i> OR <i>huevos</i>."@es ;
+        rdfs:label       "Wenn Sie mehr als einen Begriff angeben, wird die Suche nur Ergebnisse liefern, die alle Begriffe enthalten, es sei denn Sie ergänzen \"OR\" - z.B. <i>Huhn</i> OR <i>Ei</i>."@de-DE ;
+        rdfs:label       "Lorsque vous entrez plus d'un terme, la recherche donnera des résultats contenant tous ces termes à moins que vous n'ajoutiez le \" OU \" booléen -- par exemple, <i>poulet</i> OU <i>oeuf</i>."@fr-CA ;
+        rdfs:label       "Kada unesete više od jednog izraza, pretraga će vratiti samo rezultate koji sadrže svaki oid njih osim ako ne iskoristite boolean operator \"OR\" -- npr. <i>piletina</i> OR <i>jaja</i>."@sr-Latn-RS ;
+        rdfs:label       "When you enter more than one term, search will return results containing all of them unless you add the Boolean \"OR\" -- e.g., <i>chicken</i> OR <i>egg</i>."@en-CA ;
+        rdfs:label       "When you enter more than one term, search will return results containing all of them unless you add the Boolean \"OR\" -- e.g., <i>chicken</i> OR <i>egg</i>."@en-US ;
+        rdfs:label       "Quando você insere mais de um termo, a busca irá retornar resultados contendo todos eles a menos que você adicione o booleano \"OR\" - por exemplo, <i>chicken</i> OR <i>egg</i>."@pt-BR ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "advanced_search_tip_one" ;
+        prop:hasPackage  "Vitro-languages" .

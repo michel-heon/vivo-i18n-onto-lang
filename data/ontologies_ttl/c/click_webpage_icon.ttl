@@ -20,21 +20,3 @@ prop-data:click_webpage_icon.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "click_webpage_icon" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:click_webpage_icon.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "click webpage icon"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/propStatement-webpage-quickview.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "click_webpage_icon" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:click_webpage_icon.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "click webpage icon"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "click_webpage_icon" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -20,11 +20,3 @@ prop-data:external_login_failed.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "external_login_failed" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:external_login_failed.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "External login failed"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "external_login_failed" ;
-        prop:hasPackage  "Vitro" .

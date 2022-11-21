@@ -20,21 +20,3 @@ prop-data:harvest_error_instructions_fiveB.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "harvest_error_instructions_fiveB" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:harvest_error_instructions_fiveB.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "logs/"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/harvester/fileharvest.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "harvest_error_instructions_fiveB" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:harvest_error_instructions_fiveB.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "logs/"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "harvest_error_instructions_fiveB" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

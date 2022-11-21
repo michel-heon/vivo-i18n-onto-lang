@@ -20,12 +20,3 @@ prop-data:create_and_link_enter_dois_intro.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_enter_dois_intro" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_enter_dois_intro.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "You may enter one or more DOIs to match, and can be entered either as an ID or URL:<br /><br />e.g."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/createAndLinkResourceEnterID.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_enter_dois_intro" ;
-        prop:hasPackage  "VIVO" .

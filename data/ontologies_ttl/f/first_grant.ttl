@@ -37,12 +37,3 @@ prop-data:first_grant.VIVO-languages.wilma
         prop:hasKey      "first_grant" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:first_grant.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "First Grant"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "first_grant" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:advanced_search_tip_three.Vitro-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Wortgruppensuchen können mit booleschen Operatoren kombiniert werden - z.B. \"<i>Klimaveränderung</i>\" OR \"<i>Globale Erwärmung</i>\"."@de-DE ;
+        rdfs:label       "Možete kombinovati boolean operatore i pretragu po frazama -- npr. \"<i>klimatske promene</i>\" OR \"<i>globalno zagrejavanje</i>\"."@sr-Latn-RS ;
+        rdfs:label       "Las búsquedas de frases se pueden combinar con operadores booleanos -- por ejemplo, \"<i>cambio climático</i>\" OR \"<i>calentamiento global</i>\"."@es ;
+        rdfs:label       "Phrase searches may be combined with Boolean operators -- e.g. \"<i>climate change</i>\" OR \"<i>global warming</i>\"."@en-CA ;
+        rdfs:label       "Phrase searches may be combined with Boolean operators -- e.g. \"<i>climate change</i>\" OR \"<i>global warming</i>\"."@en-US ;
+        rdfs:label       "Pesquisas de frases podem ser combinadas com operadores Booleanos - por exemplo, \"<i>climate change</i>\" OR \"<i>global warming</i>\"."@pt-BR ;
+        rdfs:label       "Поиск по словосочетанию может комбинироваться с булевыми операторами, например \"<i>изменение климата</i>\" OR \"<i>глобальное потупление</i>\"."@ru-RU ;
+        rdfs:label       "Les recherches de phrases peuvent être combinées avec des opérateurs booléens -- par exemple \"<i>changemenst climatiques</i>\". OU \"<i>réchauffement global</i>\"."@fr-CA ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "advanced_search_tip_three" ;
+        prop:hasPackage  "Vitro-languages" .

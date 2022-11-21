@@ -20,12 +20,3 @@ prop-data:enter_in_security_field.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "enter_in_security_field" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:enter_in_security_field.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please enter the letters displayed below into the security field"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/contactForm/contactForm-form.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "enter_in_security_field" ;
-        prop:hasPackage  "Vitro" .

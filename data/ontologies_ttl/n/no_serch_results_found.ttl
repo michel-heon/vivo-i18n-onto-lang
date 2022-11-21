@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:no_serch_results_found.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "No search results were found."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_serch_results_found" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:no_serch_results_found.VIVO-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
@@ -29,12 +20,3 @@ prop-data:no_serch_results_found.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_serch_results_found" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:no_serch_results_found.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "No search results were found."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_serch_results_found" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

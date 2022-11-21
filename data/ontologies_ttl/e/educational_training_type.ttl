@@ -20,22 +20,3 @@ prop-data:educational_training_type.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "educational_training_type" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:educational_training_type.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Type of Educational Training"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "educational_training_type" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:educational_training_type.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Type of Educational Training"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/organizationForTraining.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/personHasEducationalTraining.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "educational_training_type" ;
-        prop:hasPackage  "VIVO" .

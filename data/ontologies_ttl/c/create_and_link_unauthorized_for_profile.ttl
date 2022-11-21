@@ -20,12 +20,3 @@ prop-data:create_and_link_unauthorized_for_profile.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_unauthorized_for_profile" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_unauthorized_for_profile.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "You do not have permissions to claim for this user"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/createAndLinkResource/unauthorizedForProfile.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_unauthorized_for_profile" ;
-        prop:hasPackage  "VIVO" .

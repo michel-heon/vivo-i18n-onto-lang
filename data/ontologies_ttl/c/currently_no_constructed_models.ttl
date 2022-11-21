@@ -20,21 +20,3 @@ prop-data:currently_no_constructed_models.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "currently_no_constructed_models" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:currently_no_constructed_models.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Currently there are no constructed models for use by visualization."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/modelconstructor/regenerateConstructedModels.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "currently_no_constructed_models" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:currently_no_constructed_models.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Currently there are no constructed models for use by visualization."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "currently_no_constructed_models" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

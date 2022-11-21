@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:compare_tool_tip_text_the_second_part.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Перечисленные организации являются дочерними по отношению к узлу {0} в организационной иерархии. Вы можете \"„спуститься вниз“, чтобы увидеть организации, расположенные ниже данной подорганизации, выбрав значок диаграммы рядом с названием выбранной подорганизации под графиком справа."@ru-RU ;
+        rdfs:label       "Prikazane organizacije su pod-čvorovi {0} čvora unutar organizacione hijerarhije. Možeze prikazati više informacija o organizacijama koje se nalaze ispod neke druge pod-organizacije tako što ćete kliknuti na ikonicu pored imane odabrane pod-discipline, što se nalaze ispod grafa, sa desne strane."@sr-Latn-RS ;
+        rdfs:label       "Las organizaciones mencionadas son hijos del nodo de {0} en la jerarquía organizacional. Es posible 'desglozar' para ver las organizaciones por debajo de una determinada suborganización, seleccione el icono de gráfica junto al nombre de una suborganización seleccionada por debajo de la gráfica de la derecha."@es ;
+        rdfs:label       "Die aufgeführten Organisationen sind Kinder des Knotens {0} in der Organisationshierarchie. Sie können \"drill down\" verwenden, um die Organisationen unterhalb einer bestimmten Unterorganisation zu sehen, indem Sie das Diagrammsymbol neben dem Namen einer ausgewählten Unterorganisation unterhalb des Diagramms auf der rechten Seite auswählen."@de-DE ;
+        rdfs:label       "As organizações listadas são filhos do nó {0} na hierarquia organizacional. Você pode 'drill down' para ver as organizações abaixo de um determinado sub-organização, selecionando o ícone gráfico ao lado do nome de uma sub-organização selecionada abaixo do gráfico à direita."@pt-BR ;
+        rdfs:label       "The listed organizations are children of the {0} node in the organizational hierarchy. You may 'drill down' to see the organizations below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-CA ;
+        rdfs:label       "The listed organizations are children of the {0} node in the organizational hierarchy. You may 'drill down' to see the organizations below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@en-US ;
+        rdfs:label       "The listed organizations are children of the {0} node in the organizational hierarchy. You may 'drill down' to see the organizations below a given sub-organization by selecting the chart icon next to a selected sub-organization's name below the graph on the right."@fr-CA ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "compare_tool_tip_text_the_second_part" ;
+        prop:hasPackage  "VIVO-languages" .

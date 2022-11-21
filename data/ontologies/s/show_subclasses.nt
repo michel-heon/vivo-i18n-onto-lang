@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "show subclasses"@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "show subclasses"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "отобразить подклассы"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-classHierarchy.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "show_subclasses" .
-<http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#show_subclasses.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "show subclasses"@en-US .

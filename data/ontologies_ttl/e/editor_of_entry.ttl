@@ -20,21 +20,3 @@ prop-data:editor_of_entry.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "editor_of_entry" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:editor_of_entry.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "editor of entry for"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "editor_of_entry" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:editor_of_entry.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "editor of entry for"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorshipToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "editor_of_entry" ;
-        prop:hasPackage  "VIVO" .

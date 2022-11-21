@@ -22,23 +22,6 @@ prop-data:unable_to_handle_position_editing.VIVO-languages.wilma
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
 
-prop-data:unable_to_handle_position_editing.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addGrantRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "unable_to_handle_position_editing" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:unable_to_handle_position_editing.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This form is unable to handle the editing of this position because it is associated with multiple Position individuals."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "unable_to_handle_position_editing" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
 prop-data:unable_to_handle_position_editing.VIVO-languages.tenderfoot
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;

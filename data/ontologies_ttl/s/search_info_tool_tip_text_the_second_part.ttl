@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:search_info_tool_tip_text_the_second_part.VIVO-languages
+        rdf:type         prop:PropertyKey ;
+        rdf:type         owl:NamedIndividual ;
+        rdfs:label       "Перечислить только организации, в чьем имени содержится данный текст."@ru-RU ;
+        rdfs:label       "List only organizations whose name contains this text."@en-CA ;
+        rdfs:label       "List only organizations whose name contains this text."@en-US ;
+        rdfs:label       "List only organizations whose name contains this text."@fr-CA ;
+        rdfs:label       "Nur Organisationen deren Name diesen Text enthält."@de-DE ;
+        rdfs:label       "Prikažite samo organizacije čije ime sadrži ovaj tekst."@sr-Latn-RS ;
+        rdfs:label       "Listar sólo las organizaciones cuyo nombre contenga el texto."@es ;
+        rdfs:label       "Listar apenas organizações cujo nome contém este texto."@pt-BR ;
+        prop:hasApp      "VIVO" ;
+        prop:hasKey      "search_info_tool_tip_text_the_second_part" ;
+        prop:hasPackage  "VIVO-languages" .

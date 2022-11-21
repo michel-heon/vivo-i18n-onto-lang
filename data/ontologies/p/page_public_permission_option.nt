@@ -11,9 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Qualquer um pode visualizar esta página"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Svako može da pristupi ovoj stranici"@sr-Latn-RS .
 <http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Эту страницу разрешено просматривать всем"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "page_public_permission_option" .
-<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#page_public_permission_option.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Anyone can view this page"@en-US .

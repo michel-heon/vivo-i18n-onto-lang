@@ -20,12 +20,3 @@ prop-data:vocabulary_source.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "vocabulary_source" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:vocabulary_source.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Vocabulary Source"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addAssociatedConcept.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "vocabulary_source" ;
-        prop:hasPackage  "VIVO" .

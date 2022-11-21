@@ -20,11 +20,3 @@ prop-data:create_and_link_type_post_weblog.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "create_and_link_type_post_weblog" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:create_and_link_type_post_weblog.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Blog"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_type_post_weblog" ;
-        prop:hasPackage  "VIVO" .

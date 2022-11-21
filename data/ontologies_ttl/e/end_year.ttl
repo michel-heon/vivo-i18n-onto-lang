@@ -9,8 +9,14 @@
 prop-data:end_year.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Год окончания"@ru-RU ;
         rdfs:label       "Année de fin"@fr-CA ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addRoleToPersonTwoStage_fr_CA.ftl"^^xsd:anyURI ;
+        rdfs:label       "Kraj godine"@sr-Latn-RS ;
+        rdfs:label       "Endjahr"@de-DE ;
+        rdfs:label       "End Year"@en-US ;
+        rdfs:label       "End Year"@en-CA ;
+        rdfs:label       "Ano de finalização"@pt-BR ;
+        rdfs:label       "Año final"@es ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "end_year" ;
         prop:hasPackage  "VIVO-languages" .

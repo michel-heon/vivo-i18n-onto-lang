@@ -20,12 +20,3 @@ prop-data:verbose_control.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "verbose_control" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:verbose_control.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "verbose control"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-adminPanel.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "verbose_control" ;
-        prop:hasPackage  "Vitro" .

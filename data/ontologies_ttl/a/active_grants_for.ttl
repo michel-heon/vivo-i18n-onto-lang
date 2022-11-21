@@ -20,21 +20,3 @@ prop-data:active_grants_for.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "active_grants_for" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:active_grants_for.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Active Grants for the"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "active_grants_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:active_grants_for.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Active Grants for the"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-dept-active-grants.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "active_grants_for" ;
-        prop:hasPackage  "VIVO" .

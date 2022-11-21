@@ -11,18 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Subventions actives pour"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "laufende Forschungsprojekte für"@de-DE .
 <http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Действующие гранты в"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "active_grants_for" .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "Active Grants for the"@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/partials/individual/individual-dept-active-grants.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "active_grants_for" .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#active_grants_for.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Active Grants for the"@en-US .

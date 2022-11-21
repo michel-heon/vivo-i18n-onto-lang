@@ -20,21 +20,3 @@ prop-data:view_all_grants_text.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "view_all_grants_text" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:view_all_grants_text.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "View all VIVO grants and corresponding co-investigator network."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/grant/personGrantSparklineContent.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "view_all_grants_text" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:view_all_grants_text.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "View all VIVO grants and corresponding co-investigator network."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "view_all_grants_text" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

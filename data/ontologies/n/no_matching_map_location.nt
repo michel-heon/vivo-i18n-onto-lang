@@ -1,4 +1,3 @@
-    <http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_matching_map_location" .
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" . 
@@ -12,20 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "no se podría combinar con una posición del mapa usando su información de revista."@es .
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "não poderia ser combinado com uma localização no mapa usando a sua informação do jornal."@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "не удалось сопоставить с местоположением на карте, на основе информации из их журнала."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_matching_map_location" .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "nemo" . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO.nemo> <http://www.w3.org/2000/01/rdf-schema#label>  "could not be matched with a map location using their journal information."@en-US .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/mapOfScience/mapOfScienceSetup.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "no_matching_map_location" .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#no_matching_map_location.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "could not be matched with a map location using their journal information."@en-US .

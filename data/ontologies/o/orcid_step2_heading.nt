@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Step 2 (recommended): Linking your ORCID record to VIVO"@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étape 2 (recommandé): Lier votre dossier ORCID à VIVO"@fr-CA .
 <http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Шаг 2 (рекомендуется): Свяжите свою запись ORCID с VIVO"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/body/orcid/orcidConfirm.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "orcid_step2_heading" .
-<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" .
-<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO" . 
-<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#orcid_step2_heading.VIVO> <http://www.w3.org/2000/01/rdf-schema#label>  "Step 2 (recommended): Linking your ORCID record to VIVO"@en-US .

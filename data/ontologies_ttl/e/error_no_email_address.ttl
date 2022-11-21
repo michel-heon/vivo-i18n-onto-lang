@@ -20,11 +20,3 @@ prop-data:error_no_email_address.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "error_no_email_address" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:error_no_email_address.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Please enter your email address."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "error_no_email_address" ;
-        prop:hasPackage  "Vitro" .

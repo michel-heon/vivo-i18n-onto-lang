@@ -20,11 +20,3 @@ prop-data:crop_page_title.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "crop_page_title" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:crop_page_title.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Crop image"@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "crop_page_title" ;
-        prop:hasPackage  "Vitro" .

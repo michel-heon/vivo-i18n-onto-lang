@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:first_name_empty_msg.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "You must enter a value in the First Name field."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "first_name_empty_msg" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:first_name_empty_msg.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

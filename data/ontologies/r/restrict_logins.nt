@@ -11,12 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Restringir Logins"@pt-BR .
 <http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Restringir inicios de sesión"@es .
 <http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ограничить вход в систему"@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/admin/admin-restrictLogins.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-siteMaintenance.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "restrict_logins" .
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#restrict_logins.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "Restrict Logins"@en-US .

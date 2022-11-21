@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:application_error_email_subject.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Došlo je do greške na Vašem sajtu ${siteName!}"@sr-Latn-RS ;
+        rdfs:label       "На сайте ${siteName!} произошла ошибка"@ru-RU ;
+        rdfs:label       "An error occurred on your ${siteName!} web site"@en-CA ;
+        rdfs:label       "An error occurred on your ${siteName!} web site"@en-US ;
+        rdfs:label       "Ocorreu um erro em seu site ${siteName!}"@pt-BR ;
+        rdfs:label       "Une erreur s'est produite sur votre site ${siteName!}"@fr-CA ;
+        rdfs:label       "Es ist ein Fehler auf der Website ${siteName!} aufgetreten"@de-DE ;
+        rdfs:label       "Se ha producido un error en tu sitio ${siteName!} "@es ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "application_error_email_subject" ;
+        prop:hasPackage  "Vitro-languages" .

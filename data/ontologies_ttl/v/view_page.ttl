@@ -20,12 +20,3 @@ prop-data:view_page.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "view_page" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:view_page.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "View page"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/partials/menupage/menupage-scripts.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "view_page" ;
-        prop:hasPackage  "Vitro" .

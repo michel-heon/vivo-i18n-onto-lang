@@ -9,15 +9,8 @@
 prop-data:file_upload_error_file_is_too_big.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
+        rdfs:label       "Uploaded file is too big. Maximum file size is {0} bytes. Uploaded file is {1} bytes."@en-CA ;
         rdfs:label       "Uploaded file is too big. Maximum file size is {0} bytes. Uploaded file is {1} bytes."@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "file_upload_error_file_is_too_big" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:file_upload_error_file_is_too_big.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Uploaded file is too big. Maximum file size is {0} bytes. Uploaded file is {1} bytes."@en-US ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "file_upload_error_file_is_too_big" ;
-        prop:hasPackage  "Vitro" .

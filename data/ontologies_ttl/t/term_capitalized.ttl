@@ -20,12 +20,3 @@ prop-data:term_capitalized.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "term_capitalized" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:term_capitalized.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Term"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/capabilitymap/capabilityMap.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "term_capitalized" ;
-        prop:hasPackage  "VIVO" .

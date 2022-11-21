@@ -6,15 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:publication_successfully_excluded.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The publication will has been successfully excluded from the profile page."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/managePublicationsForIndividual.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "publication_successfully_excluded" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:publication_successfully_excluded.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
@@ -29,12 +20,3 @@ prop-data:publication_successfully_excluded.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "publication_successfully_excluded" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:publication_successfully_excluded.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "The publication will has been successfully excluded from the profile page."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "publication_successfully_excluded" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

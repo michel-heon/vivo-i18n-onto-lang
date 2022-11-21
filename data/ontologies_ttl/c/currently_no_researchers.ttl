@@ -6,23 +6,21 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:currently_no_researchers.VIVO.tenderfoot
+prop-data:currently_no_researchers.VIVO-languages.tenderfoot
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home.ftl"^^xsd:anyURI ;
+        rdfs:label       "В данный момент в системе не зарегистрированы учёные из интересующего Вас географического региона."@ru-RU ;
+        rdfs:label       "Aucun chercheur(-euse) ayant une facette géographique."@fr-CA ;
+        rdfs:label       "Trenutno nema istraživača unutar definisane geografske lokacije."@sr-Latn-RS ;
+        rdfs:label       "There are currently no researchers with a defined geographic focus."@en-CA ;
+        rdfs:label       "There are currently no researchers with a defined geographic focus."@en-US ;
+        rdfs:label       "Actualmente no hay investigadores con un enfoque geográfico definido."@es ;
+        rdfs:label       "Zur Zeit gibt es keine ForscherInnen mit einem bestimmten Ort."@de-DE ;
+        rdfs:label       "Atualmente não há pesquisadores com um foco geográfico definido."@pt-BR ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "currently_no_researchers" ;
-        prop:hasPackage  "VIVO" ;
+        prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "tenderfoot" .
-
-prop-data:currently_no_researchers.VIVO.wilma
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/wilma/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "currently_no_researchers" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "wilma" .
 
 prop-data:currently_no_researchers.VIVO-languages.wilma
         rdf:type         prop:PropertyKey ;
@@ -35,35 +33,7 @@ prop-data:currently_no_researchers.VIVO-languages.wilma
         rdfs:label       "В данный момент в системе не зарегистрированы учёные из интересующего Вас географического региона."@ru-RU ;
         rdfs:label       "Aucun chercheur(-euse) trouvé(e) ayant une facette géographique."@fr-CA ;
         rdfs:label       "Zur Zeit gibt es keine ForscherInnen mit einem bestimmten Ort."@de-DE ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/wilma/templates/page-home_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "currently_no_researchers" ;
         prop:hasPackage  "VIVO-languages" ;
         prop:hasTheme    "wilma" .
-
-prop-data:currently_no_researchers.VIVO-languages.tenderfoot
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "В данный момент в системе не зарегистрированы учёные из интересующего Вас географического региона."@ru-RU ;
-        rdfs:label       "Aucun chercheur(-euse) ayant une facette géographique."@fr-CA ;
-        rdfs:label       "Trenutno nema istraživača unutar definisane geografske lokacije."@sr-Latn-RS ;
-        rdfs:label       "There are currently no researchers with a defined geographic focus."@en-CA ;
-        rdfs:label       "There are currently no researchers with a defined geographic focus."@en-US ;
-        rdfs:label       "Actualmente no hay investigadores con un enfoque geográfico definido."@es ;
-        rdfs:label       "Zur Zeit gibt es keine ForscherInnen mit einem bestimmten Ort."@de-DE ;
-        rdfs:label       "Atualmente não há pesquisadores com um foco geográfico definido."@pt-BR ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/themes/tenderfoot/templates/page/page-home_fr_CA.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "currently_no_researchers" ;
-        prop:hasPackage  "VIVO-languages" ;
-        prop:hasTheme    "tenderfoot" .
-
-prop-data:currently_no_researchers.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "There are currently no researchers with a defined geographic focus."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/themes/nemo/templates/page-home.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "currently_no_researchers" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

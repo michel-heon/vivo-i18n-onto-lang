@@ -1,0 +1,22 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix prop-data: <http://vivoweb.org/ontology/core/properties/individual#> .
+@prefix prop:  <http://vivoweb.org/ontology/core/properties/vocabulary#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+prop-data:advanced_search_tip_five.Vitro-languages
+        rdf:type         owl:NamedIndividual ;
+        rdf:type         prop:PropertyKey ;
+        rdfs:label       "Use the wildcard * character to match an even wider variation -- e.g., <i>nano*</i> will match both <i>nanotechnology</i> and <i>nanofabrication</i>."@en-CA ;
+        rdfs:label       "Use the wildcard * character to match an even wider variation -- e.g., <i>nano*</i> will match both <i>nanotechnology</i> and <i>nanofabrication</i>."@en-US ;
+        rdfs:label       "Use the wildcard * character to match an even wider variation -- e.g., <i>nano*</i> will match both <i>nanotechnology</i> and <i>nanofabrication</i>."@fr-CA ;
+        rdfs:label       "Utilice el carácter comodín * para que coincida con una variación aún mayor -- por ejemplo, <i>nano*</i> encuentra también <i>nanotecnología</i> y <i>nanofabricación</i>."@es ;
+        rdfs:label       "Verwenden Sie das Wildcard-Zeichen * um mehr Variationen zu finden - Bsp.: <i>nano*</i> findet <i>Nanotechnology</i> sowie <i>Nanofabrikation</i>."@de-DE ;
+        rdfs:label       "Use o caracterer curinga * para corresponder a uma variação ainda maior - por exemplo,<i>nano*</i> irá corresponder tanto <i>nanotechnology</i> como <i>nanofabrication</i>."@pt-BR ;
+        rdfs:label       "Koristite Džoker karakter * da bi ste pronašli još više varijacija izraza po kom pretražujete -- npr. <i>nano*</i> će vratiti i izraz <i>nanotehnologija</i> i izraz <i>nanofabrikacija</i>."@sr-Latn-RS ;
+        rdfs:label       "Используйте символ * для поиска еще более разнообразных вариантов, например <i>нано*</i> подойдёт как для <i>нанотехнологии</i>, так и для <i>нанопроизводства</i>."@ru-RU ;
+        prop:hasApp      "Vitro" ;
+        prop:hasKey      "advanced_search_tip_five" ;
+        prop:hasPackage  "Vitro-languages" .

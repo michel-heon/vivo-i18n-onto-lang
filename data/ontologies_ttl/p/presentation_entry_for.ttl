@@ -6,36 +6,17 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:presentation_entry_for.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "presentation entry for"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "presentation_entry_for" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
-
-prop-data:presentation_entry_for.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "presentation entry for"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "presentation_entry_for" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:presentation_entry_for.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
         rdfs:label       "Unos prezentacije za"@sr-Latn-RS ;
         rdfs:label       "enregistrement d'une présentation pour"@fr-CA ;
-        rdfs:label       "presentation entry for"@en-US ;
         rdfs:label       "presentation entry for"@en-CA ;
+        rdfs:label       "presentation entry for"@en-US ;
         rdfs:label       "entrada apresentação para"@pt-BR ;
         rdfs:label       "Eintrag eines Vortrags für"@de-DE ;
         rdfs:label       "Entrada de presentación para"@es ;
         rdfs:label       "запись о выступлении для"@ru-RU ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/edit/forms/addPresenterRoleToPerson_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "presentation_entry_for" ;
         prop:hasPackage  "VIVO-languages" .

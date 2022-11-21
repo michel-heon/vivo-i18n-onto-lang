@@ -11,11 +11,3 @@
 <http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must select a class to display its individuals."@en-CA .
 <http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must select a class to display its individuals."@en-US .
 <http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Чтобы отобразить его экземпляры класса, следует выбрать класс."@ru-RU .
-<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl> "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/edit/forms/pageManagement--searchIndividuals.ftl"^^<http://www.w3.org/2001/XMLSchema#anyURI> . 
-<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_class_for_search" .
-<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" .
-<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro" . 
-<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> . 
-<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vivoweb.org/ontology/core/properties/individual#select_class_for_search.Vitro> <http://www.w3.org/2000/01/rdf-schema#label>  "You must select a class to display its individuals."@en-US .

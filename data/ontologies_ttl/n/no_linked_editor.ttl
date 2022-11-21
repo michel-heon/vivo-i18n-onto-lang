@@ -20,21 +20,3 @@ prop-data:no_linked_editor.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "no_linked_editor" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:no_linked_editor.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "no linked editor"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addEditorsToInformationResource.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_linked_editor" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:no_linked_editor.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "no linked editor"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "no_linked_editor" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .

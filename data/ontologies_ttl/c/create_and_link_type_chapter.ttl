@@ -6,14 +6,6 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-prop-data:create_and_link_type_chapter.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Chapter"@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "create_and_link_type_chapter" ;
-        prop:hasPackage  "VIVO" .
-
 prop-data:create_and_link_type_chapter.VIVO-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;

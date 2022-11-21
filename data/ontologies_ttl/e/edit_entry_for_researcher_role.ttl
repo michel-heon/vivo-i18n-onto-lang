@@ -20,12 +20,3 @@ prop-data:edit_entry_for_researcher_role.VIVO-languages
         prop:hasApp      "VIVO" ;
         prop:hasKey      "edit_entry_for_researcher_role" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:edit_entry_for_researcher_role.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       ": Edit this researcher role"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/edit/forms/addResearcherRoleToPerson.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "edit_entry_for_researcher_role" ;
-        prop:hasPackage  "VIVO" .

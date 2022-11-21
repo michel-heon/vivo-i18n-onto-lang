@@ -20,12 +20,3 @@ prop-data:advanced_data_tools.Vitro-languages
         prop:hasApp      "Vitro" ;
         prop:hasKey      "advanced_data_tools" ;
         prop:hasPackage  "Vitro-languages" .
-
-prop-data:advanced_data_tools.Vitro
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "Advanced Data Tools"@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/Vitro/webapp/src/main/webapp/templates/freemarker/body/siteAdmin/siteAdmin-advancedDataTools.ftl"^^xsd:anyURI ;
-        prop:hasApp      "Vitro" ;
-        prop:hasKey      "advanced_data_tools" ;
-        prop:hasPackage  "Vitro" .

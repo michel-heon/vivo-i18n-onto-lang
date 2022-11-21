@@ -13,31 +13,10 @@ prop-data:content_requires_flash.VIVO-languages
         rdfs:label       "Este contenido requiere Adobe Flash Player."@es ;
         rdfs:label       "Este conteúdo necessita do Adobe Flash Player."@pt-BR ;
         rdfs:label       "Sie benötigen den Adobe Flash Player, um diesen Inhalt anzusehen."@de-DE ;
-        rdfs:label       "This content requires the Adobe Flash Player."@en-US ;
         rdfs:label       "This content requires the Adobe Flash Player."@en-CA ;
+        rdfs:label       "This content requires the Adobe Flash Player."@en-US ;
         rdfs:label       "Для этого содержимого требуется Adobe Flash Player."@ru-RU ;
         rdfs:label       "Ovaj sadržaj zahteva Adobe Flash Player."@sr-Latn-RS ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO-languages/fr_CA/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3_fr_CA.ftl"^^xsd:anyURI ;
         prop:hasApp      "VIVO" ;
         prop:hasKey      "content_requires_flash" ;
         prop:hasPackage  "VIVO-languages" .
-
-prop-data:content_requires_flash.VIVO
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This content requires the Adobe Flash Player."@en-US ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coAuthorPersonLevelD3.ftl"^^xsd:anyURI ;
-        prop:ftlUrl      "file://SRC_HOME/VIVO/webapp/src/main/webapp/templates/freemarker/visualization/personlevel/coPIPersonLevelD3.ftl"^^xsd:anyURI ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "content_requires_flash" ;
-        prop:hasPackage  "VIVO" .
-
-prop-data:content_requires_flash.VIVO.nemo
-        rdf:type         owl:NamedIndividual ;
-        rdf:type         prop:PropertyKey ;
-        rdfs:label       "This content requires the Adobe Flash Player."@en-US ;
-        prop:hasApp      "VIVO" ;
-        prop:hasKey      "content_requires_flash" ;
-        prop:hasPackage  "VIVO" ;
-        prop:hasTheme    "nemo" .
