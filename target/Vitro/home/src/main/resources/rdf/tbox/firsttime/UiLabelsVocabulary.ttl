@@ -1,0 +1,45 @@
+# baseURI: file:///home/ubuntu/VIVO_LYRAIS_DEV/00-GIT/vivo-i18n-onto-lang/target/Vitro/home/src/main/resources/rdf/tbox/firsttime/UiLabelsVocabulary.nt
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey>
+  a owl:Class ;
+  rdfs:label <http://www.w3.org/2004/02/skos/core#Concept> ;
+  rdfs:subClassOf owl:Thing ;
+  rdfs:subClassOf <http://www.w3.org/2004/02/skos/core#Concept> ;
+.
+<http://vivoweb.org/ontology/core/properties/vocabulary#ftlUrl>
+  a owl:DatatypeProperty ;
+  rdfs:comment "Points to the FTL file containing the key" ;
+  rdfs:domain <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> ;
+  rdfs:label "ftl file url" ;
+  rdfs:range xsd:anyURI ;
+.
+<http://vivoweb.org/ontology/core/properties/vocabulary#hasApp>
+  a owl:DatatypeProperty ;
+  rdfs:domain <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> ;
+  rdfs:label "has application" ;
+  rdfs:range xsd:string ;
+.
+<http://vivoweb.org/ontology/core/properties/vocabulary#hasKey>
+  a owl:DatatypeProperty ;
+  rdfs:comment "Value of the key" ;
+  rdfs:domain <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> ;
+  rdfs:label "Propertie file url " ;
+  rdfs:range xsd:string ;
+.
+<http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage>
+  a owl:DatatypeProperty ;
+  rdfs:domain <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> ;
+  rdfs:label "has package" ;
+  rdfs:range xsd:string ;
+.
+<http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme>
+  a owl:DatatypeProperty ;
+  rdfs:domain <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> ;
+  rdfs:label "has theme" ;
+  rdfs:range xsd:string ;
+.
