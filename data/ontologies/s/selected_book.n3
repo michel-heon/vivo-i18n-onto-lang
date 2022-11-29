@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "selected_book" .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Escolhidas"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Libro seleccionado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Livre choisi"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odabrana knjiga"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selected Book"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selected Book"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ausgewähltes Buch"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#selected_book.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выбранное издание"@ru-RU .

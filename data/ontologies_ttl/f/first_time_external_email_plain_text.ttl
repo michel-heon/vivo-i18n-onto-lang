@@ -9,14 +9,14 @@
 prop-data:first_time_external_email_plain_text.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@de-DE ;
-        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@en-CA ;
-        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@en-US ;
-        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@fr-CA ;
-        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@pt-BR ;
-        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@ru-RU ;
-        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@sr-Latn-RS ;
-        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}"@es ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}\n\nHerzlichen Glückwunsch!\n\nWir haben einen Account für Sie angelegt. Ihr Account ist\nmit der E-Mail-Adresse ${userAccount.emailAddress} verknüpft.\n\nVielen Dank!"@de-DE ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}\n\nCongratulations!\n\nNous avons créé votre nouveau compte VIVO associé à\n${userAccount.emailAddress}.\n\nMerci!"@fr-CA ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}\n\nParabéns!\n\nNós criamos sua conta nova VIVO associado com\n${userAccount.emailAddress}.\n\nObrigado!"@pt-BR ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}\n\nČestitamo!\n\nKreirali smo novi VIVO nalog povezan sa ${userAccount.emailAddress} email adresom.\n\nHvala!"@sr-Latn-RS ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}\n\nПоздравляем!\n\nМы создали новую учётную запись VIVO, связанную с адресом\n${userAccount.emailAddress}.\n\nСпасибо!"@ru-RU ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}\n\n¡Enhorabuena!\n\nHemos creado la nueva cuenta VIVO asociado con\n${userAccount.emailAddress}.\n\n¡Gracias!"@es ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}\n\nCongratulations!\n\nWe have created your new VIVO account associated with\n${userAccount.emailAddress}.\n\nThanks!"@en-US ;
+        rdfs:label       "${userAccount.firstName} ${userAccount.lastName}\n\nCongratulations!\n\nWe have created your new VIVO account associated with\n${userAccount.emailAddress}.\n\nThanks!"@en-CA ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "first_time_external_email_plain_text" ;
         prop:hasPackage  "Vitro-languages" .

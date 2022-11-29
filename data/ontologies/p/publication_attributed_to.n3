@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "publication_attributed_to" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "A publicação atribuída a este"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Die zugeschriebene Publikation"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La publicación atribuye a este"@es .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La publication attribuée à ce"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rad dopšrinosi ovone"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The publication attributed to this"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "The publication attributed to this"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publication_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Приписываемая ему публикация"@ru-RU .

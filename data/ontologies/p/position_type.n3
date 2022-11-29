@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "position_type" .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Art der Position"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Position Type"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Position Type"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tip pozicije"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tipo de posição"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tipo de puesto"@es .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Type de poste"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#position_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Тип должности"@ru-RU .

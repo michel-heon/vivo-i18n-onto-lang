@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "add_label" .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Add Label"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Add Label"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Adicionar etiqueta"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ajouter une étiquette"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Añadir etiqueta"@es .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Beschriftung hinzufügen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Dodajte labelu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#add_label.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "добавить метк"@ru-RU .

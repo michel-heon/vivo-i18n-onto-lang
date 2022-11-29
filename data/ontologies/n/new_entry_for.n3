@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "new_entry_for" .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "\"{0}\" entry for {1}"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "\"{0}\" entry for {1}"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "\"{0}\" für {1}"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "\"{0}\" para {1}"@es .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "\"{0}\" para {1}"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "\"{0}\" za {1}"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "\"{0}\" для {1}"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#new_entry_for.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "un nouvel enregistrement \"{0}\" pour {1}"@fr-CA .

@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "edit_entry_for_researcher_role" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Ažurirajte ovu ulogu istraživača"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Diese Forscherrolle bearbeiten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Edit this researcher role"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Edit this researcher role"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Edite este papel de investigador"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Edite este rol de investigador"@es .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Éditer ce rôle de chercheur(-euse)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_entry_for_researcher_role.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  ": Изменить эту роль исследователя"@ru-RU .

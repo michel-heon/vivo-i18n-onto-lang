@@ -1,0 +1,28 @@
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_edit" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Edit Page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Edit Page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Editar Página"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Editar página"@es .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Modifikujte stranicu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Seite bearbeiten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Éditer la page"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Редактировать страницу"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_edit" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Ažurirajte stranicu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Edit Page"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Edit Page"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Editar Página"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Editar página"@es .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Seite bearbeiten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Éditer la page"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_edit.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Редактировать страницу"@ru-RU .

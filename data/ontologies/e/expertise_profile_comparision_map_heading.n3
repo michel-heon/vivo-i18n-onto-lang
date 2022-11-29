@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "expertise_profile_comparision_map_heading" .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Expertise Profile Comparison Map"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Expertise Profile Comparison Map"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Expertise Profile Comparison Map"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Karte zum Vergleich von Kompetenzprofilen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Mapa comparativo perfiles de conocimiento"@es .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Mapa da Comparação do Conhecimento dos Perfis"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Mapa poređenja ekspertskih profila"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#expertise_profile_comparision_map_heading.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Карта сравнения профилей специализации"@ru-RU .

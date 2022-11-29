@@ -9,14 +9,14 @@
 prop-data:acct_created_external_only_email_html_text.Vitro-languages
         rdf:type         owl:NamedIndividual ;
         rdf:type         prop:PropertyKey ;
-        rdfs:label       "<p> ${userAccount.firstName} ${userAccount.lastName}</p>"@ru-RU ;
-        rdfs:label       "<p>"@de-DE ;
-        rdfs:label       "<p>"@en-CA ;
-        rdfs:label       "<p>"@es ;
-        rdfs:label       "<p>"@fr-CA ;
-        rdfs:label       "<p>"@pt-BR ;
-        rdfs:label       "<p>"@sr-Latn-RS ;
-        rdfs:label       "<p>"@en-US ;
+        rdfs:label       "<p>\n ${userAccount.firstName} ${userAccount.lastName}\n </p>\n\n <p>\n <strong>Herzlichen Glückwunsch!</strong>\n </p>\n\n <p>\n Wir haben einen Account für Sie angelegt. Ihr Account ist mit der E-Mail-Adresse ${userAccount.emailAddress} verknüpft.\n </p>\n\n <p>\n Vielen Dank!\n </p>"@de-DE ;
+        rdfs:label       "<p>\n ${userAccount.firstName} ${userAccount.lastName}\n </p>\n\n <p>\n <strong>Parabéns!</strong>\n </p>\n\n <p>\n Nós criamos sua conta nova VIVO associado com ${userAccount.emailAddress}.\n </p>\n\n <p>\n Obrigado!\n </p>"@pt-BR ;
+        rdfs:label       "<p>\n ${userAccount.firstName} ${userAccount.lastName}\n </p>\n\n <p>\n <strong>¡Enhorabuena!</strong>\n </p>\n\n <p>\n Hemos creado la nueva cuenta VIVO asociado con ${userAccount.emailAddress}.\n </p>\n\n <p>\n ¡Gracias!\n </p>\n"@es ;
+        rdfs:label       "<p> ${userAccount.firstName} ${userAccount.lastName}</p>\n\n <p><strong>Поздравляем!</strong></p>\n\n <p>Мы создали новую учётную запись на сайте ${siteName}, связанную с адресом ${userAccount.emailAddress}.</p>\n\n <p>Если Вы не запрашивали создания учётной записи, просто проигнорируйте это электронное письмо. Если не предпринимать никаких действий через 30 дней срок действия этого запроса закончится.</p>\n\n <p>Нажмите на ссылку ниже, чтобы создать пароль для новой учетной записи с помощью нашего защищенного сервера.</p>\n\n <p> <a href=&quot;${passwordLink}&quot; title=&quot;password&quot;>${passwordLink}</a></p>\n\n <p>Если приведенная выше ссылка не работает, вы можете скопировать и вставить ссылку непосредственно в адресную строку вашего браузера.</p>\n\n <p>Спасибо!</p>"@ru-RU ;
+        rdfs:label       "<p>\n ${userAccount.firstName} ${userAccount.lastName}\n </p>\n\n <p>\n <strong>Félicitations!</strong>\n </p>\n\n <p>\n Nous avons créé votre nouveau compte VIVO associé à ${userAccount.emailAddress}.\n </p>\n\n <p>\n Merci!\n </p>"@fr-CA ;
+        rdfs:label       "<p>\n ${userAccount.firstName} ${userAccount.lastName}\n </p>\n\n <p>\n <strong>Čestitamo!</strong>\n </p>\n\n <p>\n Kreirali smo novi VIVO nalog povezan sa ${userAccount.emailAddress} email adresom.\n </p>\n\n <p>\n Hvala!\n </p>"@sr-Latn-RS ;
+        rdfs:label       "<p>\n ${userAccount.firstName} ${userAccount.lastName}\n </p>\n\n <p>\n <strong>Congratulations!</strong>\n </p>\n\n <p>\n We have created your new VIVO account associated with ${userAccount.emailAddress}.\n </p>\n\n <p>\n Thanks!\n </p>"@en-CA ;
+        rdfs:label       "<p>\n ${userAccount.firstName} ${userAccount.lastName}\n </p>\n\n <p>\n <strong>Congratulations!</strong>\n </p>\n\n <p>\n We have created your new VIVO account associated with ${userAccount.emailAddress}.\n </p>\n\n <p>\n Thanks!\n </p>"@en-US ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "acct_created_external_only_email_html_text" ;
         prop:hasPackage  "Vitro-languages" .

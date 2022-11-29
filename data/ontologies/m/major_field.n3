@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "major_field" .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Campo principal de grado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Domaine principal du diplôme"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Glavna oblast za diplomu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hauptfach des Hochschul- oder Universitätsabschlusses"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Maior Campo de Grau"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Major Field of Degree"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Major Field of Degree"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#major_field.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Основная область обучения"@ru-RU .

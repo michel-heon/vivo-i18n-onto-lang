@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "verbose_turn_off" .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Apagar"@es .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ausschalten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Desliguar"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Isključite"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Turn off"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Turn off"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Turn off"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#verbose_turn_off.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Скрыть подробности"@ru-RU .

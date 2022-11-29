@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "quickview_tooltip" .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Click to view the standard profile page."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Click to view the standard profile page."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Clique para ver a página de perfil padrão."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Cliquer pour afficher la page de profil complète."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Haga clic aquí para ver la página de perfil estándar."@es .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Hier klicken, um die Standard-Profilseite zu sehen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Kliknite da vidite standartdnu profilnu stranicu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#quickview_tooltip.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Щёлкните для просмотра стандартной страницы профиля."@ru-RU .

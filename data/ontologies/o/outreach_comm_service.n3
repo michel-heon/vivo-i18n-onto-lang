@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "outreach_comm_service" .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "alcance e serviço comunitário"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "društveno koristan rad"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "engagement et service communautaire"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "outreach & community service"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "outreach & community service"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "servicio de extensión a la comunidad"@es .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Öffentlichkeitsarbeit und Community-Arbeit"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#outreach_comm_service.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "работа с населением и общественностью"@ru-RU .

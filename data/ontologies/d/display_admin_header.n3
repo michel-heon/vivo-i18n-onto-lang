@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "display_admin_header" .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Admin und Konfiguration anzeigen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Administracija i Konfiguracija Prikaza"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Administration et configuration de l'affichage"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Display Admin and Configuration"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Display Admin and Configuration"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Exibir Administrador e configurações"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Visualizar administración y configuración"@es .
+<http://vivoweb.org/ontology/core/properties/individual#display_admin_header.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Администрирование и конфигурация отображения"@ru-RU .

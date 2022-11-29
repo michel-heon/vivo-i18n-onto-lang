@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "years_participating" .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Années de participation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Años de participación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Godine učestvovanja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Jahre der Mitarbeit"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Years of Participation"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Years of Participation"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "anos de participação"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#years_participating.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Годы участия в проекте"@ru-RU .

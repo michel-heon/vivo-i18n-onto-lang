@@ -14,7 +14,7 @@ SPARQL_SCRIPT_DIR=$PROP_SCRIPT_DIR/../sparql
 source $PROP_SCRIPT_DIR/func_cleanup.sh
 
 export PROPFN=$1
-export ONTOFN=$PROPERTIES_ONTO_DATA/$(basename $PROPFN .properties).ntriples
+export ONTOFN=$PROPERTIES_ONTO_DATA/$(basename $PROPFN .properties).n3
 
 #export REGION="en_US" # Default Value
 
@@ -33,7 +33,7 @@ function extract_region() {
 }
 
 function print_values () {
-printf "\
+    printf "\
 \t PROPFN=($PROPFN) \n\
 \t BN=($BN) \n\
 \t REGION=($REGION) \n\
@@ -44,14 +44,14 @@ printf "\
 }
 
 function to_rdf () {
-IRI=$BASE_IRI#
-if [ -z $REGION ]; then
-URLFILTER=''
-else
-URLFILTER="FILTER(regex(str(?url),\"${REGION}\")) ."
-fi
-if [ -z $THEME ]; then
-cat << EOF > $TMPDIR/describe.sparql
+    IRI=$BASE_IRI#
+    if [ -z $REGION ]; then
+        URLFILTER=''
+    else
+        URLFILTER="FILTER(regex(str(?url),\"${REGION}\")) ."
+    fi
+    if [ -z $THEME ]; then
+        cat << EOF > $TMPDIR/describe.sparql
 $(cat $SPARQL_HEADER)
 CONSTRUCT {
         ?s a  ?type .
@@ -60,7 +60,7 @@ CONSTRUCT {
         ?s prop:hasApp  ?app .
         ?s prop:hasKey  ?key  .
         ?s prop:hasPackage ?pkg .
-} 
+}
 WHERE {
         ?s rdf:type prop:PropertyKey .
         ?s a  ?type .
@@ -80,8 +80,8 @@ WHERE {
 }
 EOF
 
-else 
-cat << EOF > $TMPDIR/describe.sparql
+    else
+        cat << EOF > $TMPDIR/describe.sparql
 $(cat $SPARQL_SCRIPT_DIR/header.sparql)
 CONSTRUCT {
         ?s a  ?type .
@@ -91,7 +91,7 @@ CONSTRUCT {
         ?s prop:hasKey  ?key  .
         ?s prop:hasPackage ?pkg .
         ?s prop:hasTheme ?theme .
-} 
+}
 WHERE {
         ?s rdf:type prop:PropertyKey .
         ?s a  ?type .
@@ -111,14 +111,14 @@ WHERE {
         }
 }
 EOF
-fi
-   # cat $TMPDIR/describe.sparql
+    fi
+    # cat $TMPDIR/describe.sparql
     sparql --results=TURTLE --query=$TMPDIR/describe.sparql \
         --data=$DATA/all.ttl \
         --base "$BASE_IRI" \
         --results=ntriples > $ONTOFN
-#    cat $ONTOFN
-    
+    #    cat $ONTOFN
+
 }
 ###################################################################
 # Traduire la clé-valeurs en RDF
@@ -133,7 +133,7 @@ construct {
     ?$VAR_NAME ?p ?o .
     ?$VAR_NAME rdfs:label ?label .
     ?$VAR_NAME prop:ftlUrl ?ftl .
-} 
+}
 WHERE {
     ?s ?p ?o .
     ?s rdf:type prop:PropertyKey .
@@ -159,7 +159,7 @@ construct {
     ?$VAR_NAME rdfs:label ?label .
     ?$VAR_NAME prop:ftlUrl ?ftl .
     ?$VAR_NAME prop:hasTheme "$THEME" .
-} 
+}
 WHERE {
     ?s ?p ?o .
     ?s rdf:type prop:PropertyKey .

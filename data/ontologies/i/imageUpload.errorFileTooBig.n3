@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "imageUpload.errorFileTooBig" .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bitte laden Sie ein Bild kleiner als {0} Megabyte hoch."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Favor de elegir una imagen más pequeña de {0} megabytes."@es .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Faça upload de uma imagem menor do que {0} megabytes."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odaberite sliku koja zauzima manje od {0} megabajta."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please upload an image smaller than {0} megabytes."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please upload an image smaller than {0} megabytes."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Veuillez téléverser une image de moins de {0} mégaoctets."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#imageUpload.errorFileTooBig.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста, загрузите изображение размером менее {0} мегабайт."@ru-RU .

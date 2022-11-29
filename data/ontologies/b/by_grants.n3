@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "by_grants" .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "by Grants"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "by Grants"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nach Forschungsprojekten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "par subvention"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "po grantovima"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "por Grants"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "por subvenciones"@es .
+<http://vivoweb.org/ontology/core/properties/individual#by_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "по грантам"@ru-RU .

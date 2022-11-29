@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_an_organization_name" .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bitte im Feld Name einen Wert eintragen oder auswählen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Molimo Vas unesite ili odaberite vrednost unutar polja za Ime."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter or select a value in the Name field."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter or select a value in the Name field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, insira ou selecione um valor no campo Nome."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, introduzca o seleccione un valor en el campo Nombre."@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "SVP, choisir une entrée existante ou en saisir une nouvelle pour le champ Nom."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_organization_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста, введите или выберите значение в поле „Название“."@ru-RU .

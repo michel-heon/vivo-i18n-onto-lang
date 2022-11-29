@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "missing_degree" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fehlender Abschluss"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "diploma em falta"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "diplôme manquant"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "grado faltante"@es .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "missing degree"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "missing degree"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nedostaje diploma"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#missing_degree.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "не определена степень"@ru-RU .

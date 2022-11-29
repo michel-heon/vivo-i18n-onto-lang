@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "must_be_admin" .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Dieses Werkzeug kann nur von Administratoren benutzt werden."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pristup ovom alatu imaju samo administratori."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Usted debe ser un administrador para usar esta herramienta."@es .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Você deve ser um administrador para usar esta ferramenta."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vous devez être administrateur(-trice) pour utiliser cet outil."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must be an administrator to use this tool."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must be an administrator to use this tool."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#must_be_admin.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Только администратору разрешено пользоваться этим инструментом."@ru-RU .

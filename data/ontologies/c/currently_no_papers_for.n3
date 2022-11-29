@@ -1,0 +1,28 @@
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "currently_no_papers_for" .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Actualmente não há {0} papéis para"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Aucun {0} article pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Currently there are no {0} papers for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Currently there are no {0} papers for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "De momento no hay {0} papeles para"@es .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Trenutno nema {0} radova za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Zurzeit gibt es keine {0} Artikel"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "В данный момент не найдено публикаций {0} у"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "currently_no_papers_for" .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Actualmente não há {0} papéis para"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Aucun article {0} pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Currently there are no {0} papers for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Currently there are no {0} papers for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "De momento no hay {0} papeles para"@es .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Trenutno nema {0} radova za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Zurzeit gibt es keine {0} Artikel"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#currently_no_papers_for.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "В данный момент не найдено публикаций {0} у"@ru-RU .

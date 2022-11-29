@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "type_more_characters" .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Entre com mais caracteres"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Entrer plus de caractères"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Escribir más caracteres"@es .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tippen Sie mehr Zeichen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "type more characters"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "type more characters"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "unesite više karaktera"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#type_more_characters.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "продолжайте вводить"@ru-RU .

@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "from_current_incomplete_year" .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "a partir do atual ano incompleto"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "del año en curso incompleto"@es .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "depuis l'année courante incomplète"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "from current incomplete year"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "from current incomplete year"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "laufendes, unvollständiges Jahr"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "od tekuće godine"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#from_current_incomplete_year.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "в текущем неполном году"@ru-RU .

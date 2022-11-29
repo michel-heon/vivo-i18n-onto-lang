@@ -1,9 +1,9 @@
-#!/bin/bash 
+#!/bin/bash
 
 ###################################################################
 # Script Name   :
 # Description   :
-# Args          : 
+# Args          :
 # Author        : Michel Héon PhD
 # Institution   : Université du Québec à Montréal
 # Copyright     : Université du Québec à Montréal (c) 2022
@@ -15,7 +15,7 @@ export TBOX_FT_REP=${UI_LABELS_VOCAB%/*}
 mkdir -p $TBOX_FT_REP
 
 function build_semantic() {
-cat << EOF >> $UI_LABELS_VOCAB
+    cat << EOF >> $UI_LABELS_VOCAB
 <$SEMANTIC_BASE_IRI#PropertyKey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
 <$SEMANTIC_BASE_IRI#PropertyKey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 <$SEMANTIC_BASE_IRI#PropertyKey> <http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -49,4 +49,5 @@ EOF
 # extraire la liste des clés
 cd $PROPERTIES_DATA
 build_semantic
+func_nt2ttl.sh < $UI_LABELS_VOCAB > $UI_LABELS_VOCAB_TTL
 echo "Done $UI_LABELS_VOCAB"

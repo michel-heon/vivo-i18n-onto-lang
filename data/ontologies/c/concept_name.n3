@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "concept_name" .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Name des Konzepts"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Nombre del concepto"@es .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "concept name"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "concept name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "naziv koncepta"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nom du concept"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nome do conceito"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#concept_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "название концепции"@ru-RU .

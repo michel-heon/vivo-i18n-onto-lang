@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "range_data_type" .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Range Data Type"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Range Data Type"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Range Data Type"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tip podataka za raspon"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tipo de dados de intervalo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tipo de datos de rango"@es .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étendue du type de données "@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#range_data_type.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Тип данных Диапазон"@ru-RU .

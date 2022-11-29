@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "edit_wbpage_of" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ažurirajte veb stranicu"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Edit webpage of"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Edit webpage of"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Editar página de"@es .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Editar página de"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Webseite bearbeiten von"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Éditer la page web de"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#edit_wbpage_of.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Редактировать веб-страницу"@ru-RU .

@@ -1,0 +1,28 @@
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_termuse" .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Conditions d'utilisation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Nutzungsbedingungen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Termos de Uso"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Terms of Use"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Terms of Use"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Términos de uso"@es .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Uslovi korišćenja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Условия использования"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "menu_termuse" .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Conditions d'utilisation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Nutzungsbedingungen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Termos de Uso"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Terms of Use"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Terms of Use"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Términos de uso"@es .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Uslovi korišćenja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#menu_termuse.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Условия использования"@ru-RU .

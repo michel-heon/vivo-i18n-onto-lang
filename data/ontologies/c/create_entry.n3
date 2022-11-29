@@ -1,0 +1,41 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Crear entrada"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Create Entry"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Create Entry"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Criar Entrada"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Créer un enregistrement"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Eintrag erstellen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Kreirajte Entitet"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Создать запись"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Crear entrada"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Create Entry"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Create Entry"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Criar Entrada"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Créer un enregistrement"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Eintrag erstellen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Kreirajte unos"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Создать запись"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_entry" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Crear entrada"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Create Entry"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Create Entry"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Criar Entrada"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Créer une entrée"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Eintrag erstellen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Kreirajte unos "@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_entry.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Создать запись"@ru-RU .

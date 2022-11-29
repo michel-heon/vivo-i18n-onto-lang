@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "manage_grants_and_projects" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Administrar Becas y Proyectos para"@es .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Forschungsprojekte & Projekte verwalten für"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gerenciar Grants e Projetos para"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Gérer les subventions et les projets pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Manage Grants & Projects for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Manage Grants & Projects for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Upravljajte grantovima i projektima za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#manage_grants_and_projects.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Управление грантами и проектами для"@ru-RU .

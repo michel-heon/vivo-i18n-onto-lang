@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "pretty_url" .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bom URL"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Lesbare URL"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pretty URL"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pretty URL"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "URL confiable"@es .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "URL conviviale"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ulepšan URL"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#pretty_url.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Понятный URL"@ru-RU .

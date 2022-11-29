@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "co_investigator_s_capitalized" .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Co-investigador (s)"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Co-investigator(s)"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Co-investigator(s)"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Coinvestigador (es)"@es .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Koautori"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "KoforscherIn(en)"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "cochercheur(-euse)(s)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#co_investigator_s_capitalized.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Со-исследователи"@ru-RU .

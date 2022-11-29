@@ -1,0 +1,28 @@
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "organizer_role" .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Organizer Role"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Organizer Role"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Regras da Organização"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Rol de organizador"@es .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Rolle des Organisators/ der Organisatorin"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Rôle d'organisateur(-trice)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Uloga Organizatora"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Роль организатора"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "organizer_role" .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Organizer Role"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Organizer Role"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Regras da Organização"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Rol de organizador"@es .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Rolle des Organisators/ der Organisatorin"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Rôle d'organisateur(-trice)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Uloga organizatora"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#organizer_role.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Роль организатора"@ru-RU .

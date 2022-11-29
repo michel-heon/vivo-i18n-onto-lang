@@ -1,0 +1,27 @@
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "collection_or_series" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "collection ou série"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "collection_or_series" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "collection ou série"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "collection_or_series" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Colección o serie"@es .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Coleção ou série"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Collection or series"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Collection or series"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Kolekcija ili serija"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sammlung oder Serie"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "collection ou série"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#collection_or_series.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Коллекция или серия"@ru-RU .

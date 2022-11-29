@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "enter_a_country" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bitte im Feld Land einen Wert eintragen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Molimo Vas unesite vrednost u polje za Državu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a value in the Country field."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please enter a value in the Country field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor insira um valor no campo País."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor, introduzca un valor en el campo País."@es .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "SVP, renseigner le champ Pays."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#enter_a_country.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста введите значение в поле „Страна“."@ru-RU .

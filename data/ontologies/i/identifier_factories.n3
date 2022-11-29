@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identifier_factories" .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Centri za identifikatore"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Factores de identificación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identificador do factories"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identifier factories"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identifier factories"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Identifier factories"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "facteurs d'identifiations "@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identifier_factories.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Идентификационные центры"@ru-RU .

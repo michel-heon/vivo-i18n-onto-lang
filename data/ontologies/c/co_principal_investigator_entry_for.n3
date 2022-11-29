@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "co_principal_investigator_entry_for" .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Eintrag der Co-Projektleitung für"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Unos zamenika rukovodioca istraživanja za"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "co-principal entrada investigador para"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "co-principal investigator entry for"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "co-principal investigator entry for"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "enregistrement d'un(e) cochercheur(-euse) principal(e) pour"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "entrada de co-investigador principal para"@es .
+<http://vivoweb.org/ontology/core/properties/individual#co_principal_investigator_entry_for.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "запись соруководителя гранта для"@ru-RU .

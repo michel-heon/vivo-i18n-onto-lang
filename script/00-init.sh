@@ -1,9 +1,9 @@
-#!/bin/bash 
+#!/bin/bash
 
 ###################################################################
 # Script Name   :
 # Description   : Useful for emptying working folders and files
-# Args          : 
+# Args          :
 # Author        : Michel Héon PhD
 # Institution   : Université du Québec à Montréal
 # Copyright     : Université du Québec à Montréal (c) 2022
@@ -18,7 +18,7 @@ rm -fr $ONTO_DATA_TTL/*
 rm -fr $LIST_OF_KEYS_FN
 rm -fr $PROPERTIES_ONTO_DATA/*
 rm -fr $TARGET_HOME/*
-rm $DATA/all.*
+[ -f $DATA/all.* ] && rm $DATA/all.*
 
 mkdir -p $ONTO_DATA/_
 mkdir -p $ONTO_DATA_TTL/_

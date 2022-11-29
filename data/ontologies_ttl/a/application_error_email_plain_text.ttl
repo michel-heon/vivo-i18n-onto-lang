@@ -9,14 +9,14 @@
 prop-data:application_error_email_plain_text.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Se ha producido un error en tu sitio ${siteName!} en ${datetime!}."@es ;
-        rdfs:label       "An error occurred on your ${siteName!} web site at ${datetime!}"@en-CA ;
-        rdfs:label       "An error occurred on your ${siteName!} web site at ${datetime!}"@en-US ;
-        rdfs:label       "В ${datetime!} на сайте ${siteName!} произошла ошибка "@ru-RU ;
-        rdfs:label       "Došlo je do greške na Vašem sajtu ${siteName!} u ${datetime!}"@sr-Latn-RS ;
-        rdfs:label       "Ocorreu um erro em seu site ${siteName!} no ${datetime!}."@pt-BR ;
-        rdfs:label       "Zum Zeitpunk ${datetime!} ist ein Fehler auf der Webseite ${siteName!} aufgetreten."@de-DE ;
-        rdfs:label       "Une erreur s'est produite sur votre site ${siteName!} à ${datetime!}"@fr-CA ;
+        rdfs:label       "Se ha producido un error en tu sitio ${siteName!} en ${datetime!}.\nURL solicitada: ${requestedUrl!}\n\n<#if errorMessage?has_content>\n Mensaje de error: ${errorMessage!}\n</#if>\n\nTraza de errores (Traza completa disponible en el registro):\n${stackTrace!}\n\n<#if cause?has_content>\nCausada por:\n${cause!}\n</#if>"@es ;
+        rdfs:label       "Zum Zeitpunk ${datetime!} ist ein Fehler auf der Webseite ${siteName!} aufgetreten.\nAngeforderte URL: ${requestedUrl!}\n\n<#if errorMessage?has_content>\n Fehlermeldung: ${errorMessage!}\n</#if>\n\nStack Trace (Vollständiger Trace verfügbar im Log):\n${stackTrace!}\n\n<#if cause?has_content>\nVerursacht durch:\n${cause!}\n</#if>"@de-DE ;
+        rdfs:label       "Une erreur s'est produite sur votre site ${siteName!} à ${datetime!}\n\nURL demandée: ${requestedUrl!}\n\n<#if errorMessage?has_content>\n Message d'erreur: ${errorMessage!}\n</#if>\n\nTrace de la pile (trace complète disponible dans le log):\n${stackTrace!}\n\n<#if cause?has_content>\nCausé par:\n${cause!}\n</#if>"@fr-CA ;
+        rdfs:label       "Ocorreu um erro em seu site ${siteName!} no ${datetime!}.\nurl solicitada: ${requestedUrl!}\n\n<#if errorMessage?has_content>\n Mensagem de erro: ${errorMessage!}\n</#if>\n\nRastreando (rastreamento disponível no log):\n${stackTrace!}\n\n<#if cause?has_content>\nCausada por:\n${cause!}\n</#if>"@pt-BR ;
+        rdfs:label       "Došlo je do greške na Vašem sajtu ${siteName!} u ${datetime!}\nZatražen url: ${requestedUrl!}\n\n<#if errorMessage?has_content>\n Poruka o grešci: ${errorMessage!}\n</#if>\n\nInformacije o grešci (detaljne informacije o greškama možete naći u log-u):\n${stackTrace!}\n\n<#if cause?has_content>\nIzazvano od strane:\n${cause!}\n</#if>"@sr-Latn-RS ;
+        rdfs:label       "An error occurred on your ${siteName!} web site at ${datetime!}\n\nRequested url: ${requestedUrl!}\n\n<#if errorMessage?has_content>\n Error message: ${errorMessage!}\n</#if>\n\nStack trace (full trace available in the log):\n${stackTrace!}\n\n<#if cause?has_content>\nCaused by:\n${cause!}\n</#if>"@en-CA ;
+        rdfs:label       "An error occurred on your ${siteName!} web site at ${datetime!}\n\nRequested url: ${requestedUrl!}\n\n<#if errorMessage?has_content>\n Error message: ${errorMessage!}\n</#if>\n\nStack trace (full trace available in the log):\n${stackTrace!}\n\n<#if cause?has_content>\nCaused by:\n${cause!}\n</#if>"@en-US ;
+        rdfs:label       "В ${datetime!} на сайте ${siteName!} произошла ошибка \nЗапрашиваемый url: ${requestedUrl!}\n\n<#if errorMessage?has_content>\n Сообщение об ошибке: ${errorMessage!}\n</#if>\n\nТрассировка стека (полная трассировка стека находится в лог файлах сервера приложений):\n${stackTrace!}\n\n<#if cause?has_content>\nПричина:\n${cause!}\n</#if>"@ru-RU ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "application_error_email_plain_text" ;
         prop:hasPackage  "Vitro-languages" .

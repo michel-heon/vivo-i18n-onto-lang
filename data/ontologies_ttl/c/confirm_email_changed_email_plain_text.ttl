@@ -9,14 +9,14 @@
 prop-data:confirm_email_changed_email_plain_text.Vitro-languages
         rdf:type         prop:PropertyKey ;
         rdf:type         owl:NamedIndividual ;
-        rdfs:label       "Dear ${userAccount.firstName} ${userAccount.lastName}"@en-CA ;
-        rdfs:label       "Dear ${userAccount.firstName} ${userAccount.lastName}"@en-US ;
-        rdfs:label       "Hola, ${userAccount.firstName} ${userAccount.lastName}"@es ;
-        rdfs:label       "Здравствуйте, ${userAccount.firstName} ${userAccount.lastName}"@ru-RU ;
-        rdfs:label       "Sehr geehrte ${userAccount.firstName} ${userAccount.lastName}"@de-DE ;
-        rdfs:label       "Bonjour, ${userAccount.firstName} ${userAccount.lastName}"@fr-CA ;
-        rdfs:label       "Poštovani ${userAccount.firstName} ${userAccount.lastName}:"@sr-Latn-RS ;
-        rdfs:label       "Olá, ${userAccount.firstName} ${userAccount.lastName}"@pt-BR ;
+        rdfs:label       "Hola, ${userAccount.firstName} ${userAccount.lastName}\n\nHa cambiado recientemente la dirección de correo electrónico asociada a\n${userAccount.firstName} ${userAccount.lastName}\n\nGracias."@es ;
+        rdfs:label       "Bonjour, ${userAccount.firstName} ${userAccount.lastName}\n\nVous avez récemment changé l'adresse courriel associée à\n${userAccount.firstName} ${userAccount.lastName}\n\nMerci."@fr-CA ;
+        rdfs:label       "Olá, ${userAccount.firstName} ${userAccount.lastName}\n\nVocê recentemente mudou o endereço de email associado\n${userAccount.firstName} ${userAccount.lastName}\n\nObrigado."@pt-BR ;
+        rdfs:label       "Здравствуйте, ${userAccount.firstName} ${userAccount.lastName}\n\nВы недавно изменили адрес электронной почты, связанный с\n${userAccount.firstName} ${userAccount.lastName}\n\nСпасибо."@ru-RU ;
+        rdfs:label       "Poštovani ${userAccount.firstName} ${userAccount.lastName}:\n\nNedavno ste promenili email adresu povezanu sa nalogom za korisnika\n${userAccount.firstName} ${userAccount.lastName}\n\nHvala Vam."@sr-Latn-RS ;
+        rdfs:label       "Dear ${userAccount.firstName} ${userAccount.lastName}\n\nYou recently changed the email address associated with\n${userAccount.firstName} ${userAccount.lastName}\n\nThank you."@en-CA ;
+        rdfs:label       "Dear ${userAccount.firstName} ${userAccount.lastName}\n\nYou recently changed the email address associated with\n${userAccount.firstName} ${userAccount.lastName}\n\nThank you."@en-US ;
+        rdfs:label       "Sehr geehrte ${userAccount.firstName} ${userAccount.lastName}\n\nSie haben kürzlich die E-Mail-Adresse geändert, die mit\n${userAccount.firstName} ${userAccount.lastName}\nVielen Dank."@de-DE ;
         prop:hasApp      "Vitro" ;
         prop:hasKey      "confirm_email_changed_email_plain_text" ;
         prop:hasPackage  "Vitro-languages" .

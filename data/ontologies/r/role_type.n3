@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "role_type" .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Role type"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Role type"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Rollentyp"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tip uloge"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tipo de papel"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tipo de rol"@es .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Type de rôle"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#role_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Тип роли"@ru-RU .

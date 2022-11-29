@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_document_type" .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bitte im Feld Dokumentart einen Wert auswählen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Molimo Vas odaberite vrednost za tip dokumenta."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please select a value in the Document Type field."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Please select a value in the Document Type field."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Por favor seleccione un valor en el campo tipo de documento."@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "SVP, choisir une valeur existante pour le champ Type de document."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selecione um valor no campo Tipo de Documento."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_document_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Пожалуйста, выберите значение в поле Вид материала."@ru-RU .

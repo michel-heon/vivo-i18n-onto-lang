@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "missing_info_resource" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Information manquante sur la ressource"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "falta información de recursos"@es .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "falta informação do recurso"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "fehlende Informationsquelle"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "missing information resource"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "missing information resource"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "resource informacija koje fale"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#missing_info_resource.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "недостаёт источника информации"@ru-RU .

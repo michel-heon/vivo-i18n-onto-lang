@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "organization" .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Personen mit dem Forschungsgebiet in dieser Organisation"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "individuals with the research area in this organization"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "individuals with the research area in this organization"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "indivíduos com a área de pesquisa nessa organização"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "osobe čija je oblast istraživanja u sklopu ove organizacije"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "personas con el área de investigación en esta organización"@es .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "personnes de l'organisation ayant cet intérêt de recherche"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#organization.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "содрудники этой организации, работающие в данной области исследований"@ru-RU .

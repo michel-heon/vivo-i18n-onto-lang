@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "middle_name" .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Deuxième prénom"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ime roditelja"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Middle name"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Middle name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Segundo nombre"@es .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nome do meio"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "zweiter Vorname"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#middle_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Отчество"@ru-RU .

@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_locale" .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Choisir une langue"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sprache wählen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "izaberite lokalizaciju"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "seleccionar la configuración regional"@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "selecione a localização"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "select locale"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "select locale"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_locale.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "выбраррррегиональные настройки"@ru-RU .

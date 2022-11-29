@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "view_all_individuals_in_area" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Alle Personen anzeigen, die sich für dieses Forschungsgebiet interessieren."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pogledajte sve pojedince koji su zainteresovani za ovu oblast."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ver todos los individuos con un interés en esta área."@es .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ver todos os indivíduos com interesse nesta área."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "View all individuals with an interest in this area."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "View all individuals with an interest in this area."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Voir toutes les personnes ayant un intérêt pour ce sujet."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_individuals_in_area.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Показать всех, кто интересуется этой областью исследований."@ru-RU .

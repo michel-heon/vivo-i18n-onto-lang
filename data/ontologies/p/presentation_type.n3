@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "presentation_type" .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Apresentação Tipo"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Art des Vortrags"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Presentation Type"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Presentation Type"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tip Prezentacije"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Tipo de presentación"@es .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Type de présentation"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#presentation_type.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Тип доклада"@ru-RU .

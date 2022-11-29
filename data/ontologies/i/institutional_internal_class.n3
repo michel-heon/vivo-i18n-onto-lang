@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "institutional_internal_class" .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Clase interna institucional"@es .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Classe Institucional"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Classe interne à l'institution"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Institucionalna unutrašnja klasa"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Institutional Internal Class"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Institutional Internal Class"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "interne Klasse für die Institution"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#institutional_internal_class.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Собственный класс для учреждения"@ru-RU .

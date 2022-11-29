@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "grant_name" .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Grant Name"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Grant Name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Name des Forschungsprojektes"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Naziv granta"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Nom de la subvention"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Nome da Bolsas"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Otorgar Nombre"@es .
+<http://vivoweb.org/ontology/core/properties/individual#grant_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Название гранта"@ru-RU .

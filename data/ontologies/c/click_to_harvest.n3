@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "click_to_harvest" .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Click the button to harvest your file(s)."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Click the button to harvest your file(s)."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Clique no botão para colher seu arquivo (s)."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Cliquer pour ingérer le(s) fichier(s)."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Haga clic en el botón para cosechar su archivo(s)."@es .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Klicken Sie auf den Button, um die Daten auszulesen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Kliknite na dugme da prikupite podatke iz fajlova."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#click_to_harvest.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Нажмите на кнопку, чтобы собрать ваш файл(ы)."@ru-RU .

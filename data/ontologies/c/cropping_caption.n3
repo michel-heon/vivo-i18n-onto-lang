@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "cropping_caption" .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ihr Profilfoto wird wie das Bild unten aussehen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La foto de tu perfil se verá como la imagen de abajo."@es .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "La photo de votre profil ressemblera à l'image ci-dessous."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sua foto de perfil será visualizada com a imagem abaixo."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vaša profilna slika će izgledati kao fotografila ispor."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Your profile photo will look like the image below."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Your profile photo will look like the image below."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#cropping_caption.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Фотография в Вашем профиле будет выглядеть так, как показано ниже."@ru-RU .

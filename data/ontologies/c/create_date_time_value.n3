@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "create_date_time_value" .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Crear valor fecha/hora"@es .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Create Date/Time Value"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Create Date/Time Value"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Criar Data / Hora Valor"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erstelle Datum/Zeit-Wert"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Saisir le paramètre de Date/Heure"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Unesite datum/vreme"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#create_date_time_value.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Создать значение даты/времени"@ru-RU .

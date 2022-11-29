@@ -1,10 +1,10 @@
-#!/bin/bash 
+#!/bin/bash
 
 ###################################################################
 # Script Name   :
 # Description   : Ce script permet d'extraire la liste des clés dans
 # tous les fichiers de propriétés i18n
-# Args          : 
+# Args          :
 # Author        : Michel Héon PhD
 # Institution   : Université du Québec à Montréal
 # Copyright     : Université du Québec à Montréal (c) 2022
@@ -23,9 +23,7 @@ function store_properties_files () {
     do
         PROPERTIES_FN="$PRODUCTS,$(echo $PROPERTIES_URL | sed 's/\.\///g' |tr -s '/' ',')"
         echo $PROPERTIES_URL $PROPERTIES_FN
-#        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL | grep '^at=' > $PROPERTIES_DATA/$PROPERTIES_FN 
-#        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL | grep '^co_investigator_network=\|^create_and_link_confirm_works=\|^region=' > $PROPERTIES_DATA/$PROPERTIES_FN &
-        java $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL | sort > $PROPERTIES_DATA/$PROPERTIES_FN &
+        java  $LOC_SCRIPT_DIR/ParseAndCleanProperties.java < $PROPERTIES_URL | sort > $PROPERTIES_DATA/$PROPERTIES_FN &
         ((j=j+1))
         if [ $j = "11" ]
         then
@@ -48,12 +46,13 @@ mkdir -p $GIT_HOME/Vitro/webapp/src/main/webapp/i18n
 mkdir -p $GIT_HOME/VIVO/webapp/src/main/webapp/i18n
 cp $GIT_HOME/VIVO-languages/en_US/webapp/src/main/webapp/i18n/vivo_all_en_US.properties $GIT_HOME/VIVO/webapp/src/main/webapp/i18n/all.properties
 cp $GIT_HOME/Vitro-languages/en_US/webapp/src/main/webapp/i18n/all_en_US.properties $GIT_HOME/Vitro/webapp/src/main/webapp/i18n/all.properties
-
+#PRODUCTS_LIST=Vitro-languages
 for PRODUCTS in "${PRODUCTS_LIST[@]}"
 do
     echo "$PRODUCTS"
     cd $GIT_HOME/$PRODUCTS
-    list_properties_fn > $TMP_LIST_OF_PROPERTIES_FN
+    # list_properties_fn | grep './de_DE/webapp/' > $TMP_LIST_OF_PROPERTIES_FN
+    list_properties_fn  > $TMP_LIST_OF_PROPERTIES_FN
     store_properties_files
 done
 find $PROPERTIES_DATA -type f -empty -print -delete

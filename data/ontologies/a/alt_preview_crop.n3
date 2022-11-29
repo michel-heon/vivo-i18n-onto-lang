@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "alt_preview_crop" .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Aperçu de l'image rognée"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Izgled slike koju sečete"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Preview of photo cropped"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Preview of photo cropped"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pré-visualização de foto recortada"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vista previa de la foto recortada"@es .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vorschau des zugeschnittenen Fotos"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#alt_preview_crop.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Предварительный просмотр обрезанной фотографии"@ru-RU .

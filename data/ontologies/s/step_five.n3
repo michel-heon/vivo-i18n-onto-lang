@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "step_five" .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Korak 5"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Paso 5"@es .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Passo 5"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Schritt 5"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Step 5"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Step 5"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étape 5"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#step_five.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Этап 5"@ru-RU .

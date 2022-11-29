@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "publications_attributed_to" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "publicaciones atribuidas a esta"@es .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "publications attributed to this"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "publications attributed to this"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "publications attribuées à ce"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "publicações atribuídas a este"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "rad ne doprinosi ovome"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "zugeschriebenen Publikationen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#publications_attributed_to.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "приписываемых ему публикаций"@ru-RU .

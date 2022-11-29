@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "browse_all_in_class" .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Alle Datensätze dieser Klasse durchsuchen"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Browse all individuals in this class"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Browse all individuals in this class"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Busque todos os indivíduos nesta classe"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Examinar todos los usuarios de esta clase"@es .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Parcourir les fiches de cette catégorie"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Pretražite sve osobe unutar ove klase"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#browse_all_in_class.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Просмотреть всех лиц в этом классе"@ru-RU .

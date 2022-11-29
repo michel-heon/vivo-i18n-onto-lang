@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "editor_name" .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Name der Herausgeberin/ des Herausgebers"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Nombre del editor"@es .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "editor name"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "editor name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "naziv urednika"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nom de l'éditeur(-trice)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nome do editor"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#editor_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "имя редактора"@ru-RU .

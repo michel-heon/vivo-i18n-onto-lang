@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "accounts" .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Konten"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "accounts"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "accounts"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "comptes"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "contas de usuário"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "cuentas"@es .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nalozi"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#accounts.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "учётные записи"@ru-RU .

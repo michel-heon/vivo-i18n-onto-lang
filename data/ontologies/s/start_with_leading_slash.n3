@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "start_with_leading_slash" .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Debe comenzar con una barra diagonal principal: / (por ejemplo, /people)"@es .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Deve começar com um líder de barra: / (por exemplo, / de pessoas)"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Doit commencer par une barre oblique vers l'avant : / (par ex.: /people)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Mora da počinje sa kosom: / (npr. /osobe)"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Muss mit einem Slash beginnen (z.B. /Personen)"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Must begin with a leading forward slash: / (e.g., /people)"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Must begin with a leading forward slash: / (e.g., /people)"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#start_with_leading_slash.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Должен начинаться с косой черты: / (например, /people)"@ru-RU .

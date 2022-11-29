@@ -12,7 +12,7 @@
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/../00-env.sh
 function process_file {
-    FILE=$(basename $file .nt)
+    FILE=$(basename $file .n3)
     PROP_URL=$(echo $FILE | tr ',' '/').properties
     PROP_FN=$(basename $PROP_URL .properties)
     PROP_DIR_LOC=$(dirname $PROP_URL)

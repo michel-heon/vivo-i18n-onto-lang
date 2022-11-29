@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "advisor_label" .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Bezeichnung der Betreuerin / des Betreuers"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "advisor label"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "advisor label"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "etiqueta asesor"@es .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "labela savetnika	"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "rótulo orientador"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "étiquette de conseiller"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#advisor_label.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "метка консультанта"@ru-RU .

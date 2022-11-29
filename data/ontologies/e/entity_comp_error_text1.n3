@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "entity_comp_error_text1" .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Cette organisation n'a aucune organisation subordonnée, ni aucune personne aillant des"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Diese Organisation hat weder Unterorganisationen noch Personen mit"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Esta organización no tiene suborganizaciones ni personas con"@es .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Esta organização tem nem sub-organizações, nem as pessoas com"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ova organizacije nema ni pod-organizacije ni ljude sa"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This organization has neither sub-organizations nor people with"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "This organization has neither sub-organizations nor people with"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#entity_comp_error_text1.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "У этой организации нет ни подорганизаций, ни людей"@ru-RU .

@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "of_the_results" .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "de los resultados"@es .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "der Ergebnisse"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "des résultats"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "dos resultados"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "of the results"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "of the results"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "rezultata"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#of_the_results.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "результатов"@ru-RU .

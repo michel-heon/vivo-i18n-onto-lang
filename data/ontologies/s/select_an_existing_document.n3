@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "select_an_existing_document" .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Odaberite postojeći dokument"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Seleccione un documento existente"@es .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Selecione um documento existem"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing document"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Select an existing document"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sélectionner un document existant"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Wählen Sie ein vorhandenes Dokument"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#select_an_existing_document.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Выбрать существующий материал"@ru-RU .

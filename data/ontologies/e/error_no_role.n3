@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_no_role" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Debe seleccionar un rol."@es .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Morate odabrati ulogu."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sie müssen eine Rolle auswählen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Você deve selecionar um."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vous devez choisir un rôle."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must select a role."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must select a role."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_no_role.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Вам необходимо выбрать роль.."@ru-RU .

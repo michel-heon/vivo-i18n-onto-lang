@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "step_four" .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Korak 4"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Paso 4"@es .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Passo 4"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Schritt 4"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Step 4"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Step 4"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Étape 4"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#step_four.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Этап 4"@ru-RU .

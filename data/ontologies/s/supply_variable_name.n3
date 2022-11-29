@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "Vitro" .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "supply_variable_name" .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "Vitro-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Debe suministrar una variable para guardar el contenido HTML."@es .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Morate uneti promenjivu kako bi ste sačuvali HTML sadržaj."@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Sie müssen eine Variable angeben, um HTML-Inhalt zu speichern."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Você deve fornecer uma variável para salvar o conteúdo HTML."@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Vous devez fournir une variable pour sauvegarder le contenu HTML."@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must supply a variable to save HTML content."@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "You must supply a variable to save HTML content."@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#supply_variable_name.Vitro-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Необходимо задать переменную для сохранения содержимого HTML."@ru-RU .

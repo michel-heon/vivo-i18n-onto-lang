@@ -1,0 +1,28 @@
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_myprofile" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "tenderfoot" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Mein Profil"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Meu perfil"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Mi perfil"@es .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Moj profil"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Mon profil"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "My profile"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "My profile"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.tenderfoot> <http://www.w3.org/2000/01/rdf-schema#label>  "Мой профиль"@ru-RU .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "identity_myprofile" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://vivoweb.org/ontology/core/properties/vocabulary#hasTheme> "wilma" .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Mein Profil"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Meu perfil"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Mi perfil"@es .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Moj profil"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Mon profil"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "My profile"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "My profile"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#identity_myprofile.VIVO-languages.wilma> <http://www.w3.org/2000/01/rdf-schema#label>  "Мой профиль"@ru-RU .

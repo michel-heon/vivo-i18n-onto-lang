@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "error_processing_author_request" .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Erreur lors du traitement de la demande: l'auteur(e) n'a pas été retiré(e)"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error al procesar la petición: el autor no se ha eliminado"@es .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: author not removed"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Error processing request: author not removed"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Fehler bei der Bearbeitung des Auftrags: AutorIn wurde nicht gelöscht."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Greška pri obradi zahteva: autor nije uklonjen"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "pedido = Erro ao processar: Autor não retirados"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#error_processing_author_request.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Ошибка при обработке запроса: автор не удален"@ru-RU .

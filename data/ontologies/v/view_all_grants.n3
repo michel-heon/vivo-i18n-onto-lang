@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "view_all_grants" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Alle Forschungsprojekte anzeigen."@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "pregledajte sve grantove"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "ver todas las subvenciones"@es .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "view all grants"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "view all grants"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "visualizar todas as subvenções"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "voir toutes les subventions"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#view_all_grants.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "просмотреть все гранты"@ru-RU .

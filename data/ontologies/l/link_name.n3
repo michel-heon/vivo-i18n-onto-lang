@@ -1,0 +1,13 @@
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasApp> "VIVO" .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasKey> "link_name" .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://vivoweb.org/ontology/core/properties/vocabulary#hasPackage> "VIVO-languages" .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core/properties/vocabulary#PropertyKey> .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "Name des Links"@de-DE .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "link name"@en-CA .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "link name"@en-US .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "naziv linka"@sr-Latn-RS .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nombre del enlace"@es .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "nome do link"@pt-BR .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "titre du lien"@fr-CA .
+<http://vivoweb.org/ontology/core/properties/individual#link_name.VIVO-languages> <http://www.w3.org/2000/01/rdf-schema#label>  "название ссылки"@ru-RU .
